@@ -1,0 +1,64 @@
+# Skriver ut katalogen som färdiga webbsidor och lägger dem på GitHub Pages,
+# så att https://gestaltadet.se/katalog/ visar den senaste versionen av main.
+#
+# Sidorna skrivs av interlinguas publish-kommando (nickdin/interlingua, privat).
+# Arbetsflödet läser det repot med en läsnyckel (deploy key) som ligger som
+# hemligheten INTERLINGUA_DEPLOY_KEY i det här repot. Själva katalogen läggs
+# under /katalog/; roten är en sida som pekar dit (.github/pages/index.html).
+name: Publicera katalogen
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  bygg:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+
+      - name: Läsnyckel till interlingua
+        env:
+          KEY: ${{ secrets.INTERLINGUA_DEPLOY_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null
+
+      - name: Installera interlingua
+        run: pip install "git+ssh://git@github.com/nickdin/interlingua.git"
+
+      # publish vägrar en utmapp inuti lagret, därför runner.temp.
+      - name: Skriv ut katalogen
+        run: |
+          interlingua publish . "$RUNNER_TEMP/site/katalog"
+          cp .github/pages/index.html "$RUNNER_TEMP/site/index.html"
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: ${{ runner.temp }}/site
+
+  publicera:
+    needs: bygg
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
