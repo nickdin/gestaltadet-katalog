@@ -6,6 +6,10 @@ terms:
     language: sv
     status: preferred
     source: concept new
+  - term: Metod
+    language: sv
+    source: concept change
+    status: admitted
 definition: beprövat sätt att utföra en sorts arbete, beskrivet oberoende av den verksamhet som följer det
 associative:
   - concept: '[[C-157 Verksamhetsbeteende]]'
