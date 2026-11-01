@@ -1,0 +1,11 @@
+---
+id: C-196
+term: Arbetssätt
+terms:
+  - term: Arbetssätt
+    language: sv
+    status: preferred
+    source: concept new
+definition: beprövat sätt att utföra en sorts arbete, beskrivet oberoende av den verksamhet som följer det
+---
+# C-196 Arbetssätt
