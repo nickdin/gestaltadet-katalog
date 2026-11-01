@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="300" viewBox="0 0 700 300" font-family="system-ui, sans-serif">
+<title>GestaltaDets färger, ljust och mörkt läge</title>
+<rect x="0" y="0" width="700" height="150" fill="#F5EFE6"/>
+<text x="20" y="30" fill="#2C2C2C" font-weight="600" font-size="18">Ljust läge</text>
+<rect x="20" y="45" width="80" height="50" rx="5" fill="#F5EFE6" stroke="#2C2C2C" stroke-opacity=".25"/>
+<text x="20" y="115" fill="#2C2C2C" font-size="11">Bakgrund</text>
+<text x="20" y="132" fill="#2C2C2C" font-size="11" font-family="ui-monospace, monospace">#F5EFE6</text>
+<rect x="116" y="45" width="80" height="50" rx="5" fill="#2C2C2C" stroke="#2C2C2C" stroke-opacity=".25"/>
+<text x="116" y="115" fill="#2C2C2C" font-size="11">Text</text>
+<text x="116" y="132" fill="#2C2C2C" font-size="11" font-family="ui-monospace, monospace">#2C2C2C</text>
+<rect x="212" y="45" width="80" height="50" rx="5" fill="#707070" stroke="#2C2C2C" stroke-opacity=".25"/>
+<text x="212" y="115" fill="#2C2C2C" font-size="11">Sekundär text</text>
+<text x="212" y="132" fill="#2C2C2C" font-size="11" font-family="ui-monospace, monospace">#707070</text>
+<rect x="308" y="45" width="80" height="50" rx="5" fill="#D4D4D4" stroke="#2C2C2C" stroke-opacity=".25"/>
+<text x="308" y="115" fill="#2C2C2C" font-size="11">Linje</text>
+<text x="308" y="132" fill="#2C2C2C" font-size="11" font-family="ui-monospace, monospace">#D4D4D4</text>
+<rect x="404" y="45" width="80" height="50" rx="5" fill="#EDE6DA" stroke="#2C2C2C" stroke-opacity=".25"/>
+<text x="404" y="115" fill="#2C2C2C" font-size="11">Yta</text>
+<text x="404" y="132" fill="#2C2C2C" font-size="11" font-family="ui-monospace, monospace">#EDE6DA</text>
+<rect x="500" y="45" width="80" height="50" rx="5" fill="#2D6A6A" stroke="#2C2C2C" stroke-opacity=".25"/>
+<text x="500" y="115" fill="#2C2C2C" font-size="11">Teal</text>
+<text x="500" y="132" fill="#2C2C2C" font-size="11" font-family="ui-monospace, monospace">#2D6A6A</text>
+<rect x="596" y="45" width="80" height="50" rx="5" fill="#B85C38" stroke="#2C2C2C" stroke-opacity=".25"/>
+<text x="596" y="115" fill="#2C2C2C" font-size="11">Terrakotta</text>
+<text x="596" y="132" fill="#2C2C2C" font-size="11" font-family="ui-monospace, monospace">#B85C38</text>
+<rect x="0" y="150" width="700" height="150" fill="#1E1C19"/>
+<text x="20" y="180" fill="#E9E3D9" font-weight="600" font-size="18">Mörkt läge</text>
+<rect x="20" y="195" width="80" height="50" rx="5" fill="#1E1C19" stroke="#E9E3D9" stroke-opacity=".25"/>
+<text x="20" y="265" fill="#E9E3D9" font-size="11">Bakgrund</text>
+<text x="20" y="282" fill="#E9E3D9" font-size="11" font-family="ui-monospace, monospace">#1E1C19</text>
+<rect x="116" y="195" width="80" height="50" rx="5" fill="#E9E3D9" stroke="#E9E3D9" stroke-opacity=".25"/>
+<text x="116" y="265" fill="#E9E3D9" font-size="11">Text</text>
+<text x="116" y="282" fill="#E9E3D9" font-size="11" font-family="ui-monospace, monospace">#E9E3D9</text>
+<rect x="212" y="195" width="80" height="50" rx="5" fill="#A39D93" stroke="#E9E3D9" stroke-opacity=".25"/>
+<text x="212" y="265" fill="#E9E3D9" font-size="11">Sekundär text</text>
+<text x="212" y="282" fill="#E9E3D9" font-size="11" font-family="ui-monospace, monospace">#A39D93</text>
+<rect x="308" y="195" width="80" height="50" rx="5" fill="#3A3733" stroke="#E9E3D9" stroke-opacity=".25"/>
+<text x="308" y="265" fill="#E9E3D9" font-size="11">Linje</text>
+<text x="308" y="282" fill="#E9E3D9" font-size="11" font-family="ui-monospace, monospace">#3A3733</text>
+<rect x="404" y="195" width="80" height="50" rx="5" fill="#2A2723" stroke="#E9E3D9" stroke-opacity=".25"/>
+<text x="404" y="265" fill="#E9E3D9" font-size="11">Yta</text>
+<text x="404" y="282" fill="#E9E3D9" font-size="11" font-family="ui-monospace, monospace">#2A2723</text>
+<rect x="500" y="195" width="80" height="50" rx="5" fill="#7FBFBF" stroke="#E9E3D9" stroke-opacity=".25"/>
+<text x="500" y="265" fill="#E9E3D9" font-size="11">Teal</text>
+<text x="500" y="282" fill="#E9E3D9" font-size="11" font-family="ui-monospace, monospace">#7FBFBF</text>
+<rect x="596" y="195" width="80" height="50" rx="5" fill="#E0906B" stroke="#E9E3D9" stroke-opacity=".25"/>
+<text x="596" y="265" fill="#E9E3D9" font-size="11">Terrakotta</text>
+<text x="596" y="282" fill="#E9E3D9" font-size="11" font-family="ui-monospace, monospace">#E0906B</text>
+</svg>

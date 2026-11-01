@@ -1,0 +1,56 @@
+/* GestaltaDets grafiska profil för sajten: färgerna, typen och måtten som gör
+   katalogen till GestaltaDets. Vad valen betyder står i grafisk-profil.md bredvid;
+   den här filen är den enda källan till värdena.
+
+   Filen läses efter interlinguas egen stilmall, page.css, genom theme-nyckeln i
+   settings.yaml (interlingua #915, inkopplingen är #18). Allt som inte står här
+   är interlinguas: tabeller, listor, formulär, bildvisning. */
+
+:root {
+  --gd-bakgrund: #F5EFE6;       /* varm sand */
+  --gd-text: #2C2C2C;           /* kolgrå, aldrig rent svart */
+  --gd-text-sekundar: #707070;  /* sekundär text, förklaringar */
+  --gd-linje: #D4D4D4;          /* tunna gränser och tabellinjer */
+  --gd-yta: #EDE6DA;            /* kodrutor och andra ytor, sand ett steg mörkare */
+  --gd-teal: #2D6A6A;           /* primärfärg: ordmärket, länkar, rubriker */
+  --gd-terrakotta: #B85C38;     /* accent: det enda som ska stå ut, aldrig som text på sand */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --gd-bakgrund: #1E1C19;     /* varmt mörkgrå, sandens motsvarighet */
+    --gd-text: #E9E3D9;         /* varmt benvit */
+    --gd-text-sekundar: #A39D93;
+    --gd-linje: #3A3733;
+    --gd-yta: #2A2723;
+    --gd-teal: #7FBFBF;         /* ljus teal, läsbar som text på det mörka */
+    --gd-terrakotta: #E0906B;   /* ljus terrakotta, läsbar som text på det mörka */
+  }
+}
+
+body {
+  background: var(--gd-bakgrund);
+  color: var(--gd-text);
+  font-size: 1.0625rem;   /* 17 px: v1 säger 16 till 18 */
+  line-height: 1.6;
+}
+
+a { color: var(--gd-teal); }
+
+h1, h2, h3, h4 {
+  color: var(--gd-teal);
+  font-weight: 600;
+  text-transform: none;   /* aldrig enbart versaler */
+}
+
+/* Ordmärket: GestaltaDet i halvfet teal, utan understrykning. Ingen symbol. */
+header { border-bottom-color: var(--gd-linje); }
+header .site, header .site a { color: var(--gd-teal); font-weight: 600; text-decoration: none; }
+.switcher-label { color: var(--gd-text-sekundar); opacity: 1; }
+
+/* Sidan läsaren är på: det enda i sidhuvudet som får accentfärgen. */
+nav a[aria-current="page"] { color: var(--gd-terrakotta); }
+
+th, td { border-bottom-color: var(--gd-linje); }
+pre, code { background: var(--gd-yta); }
+.tick-list { border-color: var(--gd-linje); }
