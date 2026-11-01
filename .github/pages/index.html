@@ -3,17 +3,52 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="refresh" content="0; url=katalog/">
 <title>GestaltaDet</title>
-<link rel="canonical" href="https://gestaltadet.se/katalog/">
+<meta name="description" content="En begreppskatalog för verksamhetsarkitektur, skriven från svensk offentlig sektor.">
+<!-- Samma två stilmallar som katalogen: interlinguas grundmall, som publish lägger
+     under katalog/static/, och GestaltaDets profil. Profilen kopieras hit av
+     arbetsflödet tills interlingua lägger den på en egen sökväg (#18). -->
+<link rel="stylesheet" href="katalog/static/page.css">
+<link rel="stylesheet" href="grafisk-profil.css">
 <style>
-  body { font-family: system-ui, sans-serif; max-width: 36rem; margin: 3rem auto; padding: 0 1rem; line-height: 1.5; color: #222; background: #fff; }
-  a { color: #1a4d8f; }
+  /* Startsidans två egna värden (#16): prosaspalten, smalare än katalogens
+     52 rem, och huvudingångens ram. Flyttar till profilen när en sida till
+     behöver dem. */
+  main { --max: 36rem; }
+  .ingang { display: block; box-sizing: border-box; padding: .7rem 1rem; border: 2px solid var(--gd-teal); border-radius: 6px; font-weight: 600; text-decoration: none; text-align: center; }
+  .andra-vagen { color: var(--gd-text-sekundar); font-size: .9em; }
+  footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--gd-linje); color: var(--gd-text-sekundar); font-size: .9em; }
 </style>
 </head>
 <body>
-<h1>GestaltaDet</h1>
-<p>GestaltaDets begreppskatalog ligger på <a href="katalog/">gestaltadet.se/katalog</a>. Du skickas dit nu.</p>
-<p>Katalogen får användas fritt med angivande av källa (<a href="https://creativecommons.org/licenses/by/4.0/deed.sv">CC BY 4.0</a>). Frågor och invändningar är välkomna som ärenden i <a href="https://github.com/nickdin/gestaltadet-katalog/issues">nickdin/gestaltadet-katalog</a>.</p>
+<header>
+<p class="site">GestaltaDet</p>
+<nav><a href="katalog/">Katalog</a></nav>
+</header>
+<main>
+
+<h1>En begreppskatalog för verksamhetsarkitektur</h1>
+<p>Ett begrepp, ett id, en definition, de termer som används för det och relationerna mellan begreppen. Skriven från svensk offentlig sektor, men begreppen gäller alla verksamheter.</p>
+<p><a class="ingang" href="katalog/">Öppna katalogen</a></p>
+<p class="andra-vagen">Eller börja med <a href="katalog/catalogue/">hela katalogen som en bild</a>.</p>
+
+<h2>Varför</h2>
+<p>De flesta organisationer vet vad de vill uppnå och vad de bygger, men saknar den spårbara länken däremellan. Länken går genom gemensamma begrepp, och begreppen står i katalogen.</p>
+<p>Varje exempel utgår från två påhittade organisationer: Myndigheten för föreningsstöd och ett kommunalt bostadsbolag. Frågor och invändningar är välkomna som ärenden. Katalogen är ett sätt att se på saker, så ändringarna gör upphovspersonen själv. En invändning som håller blir en ändring.</p>
+
+<h2>interlingua</h2>
+<p>Sidorna i katalogen skrivs av interlingua, ett program som läser katalogen och ritar begreppen och relationerna mellan dem. Programmet byggs fortfarande och är inte släppt.</p>
+
+<h2>Om mig</h2>
+<p>Jag heter Nicklas Grandin och arbetar som verksamhetsarkitekt i svensk offentlig sektor. Katalogen är hur jag ser på saker.</p>
+
+<h2>Kontakt</h2>
+<p>Ställ gärna frågor om katalogen som <a href="https://github.com/nickdin/gestaltadet-katalog/issues">ärenden på GitHub</a>, så finns svaret för alla. Du kan också mejla <a href="mailto:nicklas@gestaltadet.se">nicklas@gestaltadet.se</a>.</p>
+
+<footer>
+<p>Katalogen får användas fritt med angivande av källa, <a href="https://creativecommons.org/licenses/by/4.0/deed.sv">CC BY 4.0</a>, med GestaltaDet och Nicklas Grandin som källa.</p>
+</footer>
+
+</main>
 </body>
 </html>

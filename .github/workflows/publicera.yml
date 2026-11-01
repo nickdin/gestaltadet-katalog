@@ -4,7 +4,8 @@
 # Sidorna skrivs av interlinguas publish-kommando (nickdin/interlingua, privat).
 # Arbetsflödet läser det repot med en läsnyckel (deploy key) som ligger som
 # hemligheten INTERLINGUA_DEPLOY_KEY i det här repot. Själva katalogen läggs
-# under /katalog/; roten är en sida som pekar dit (.github/pages/index.html).
+# under /katalog/; roten är startsidan (.github/pages/index.html, #16), som läser
+# interlinguas stilmall ur katalogen och profilens stilmall ur sajtens rot.
 name: Publicera katalogen
 
 on:
@@ -48,6 +49,8 @@ jobs:
         run: |
           interlingua publish . "$RUNNER_TEMP/site/katalog"
           cp .github/pages/index.html "$RUNNER_TEMP/site/index.html"
+          # Tills interlingua lägger profilen på en egen sökväg (#18) kopieras den hit.
+          cp docs/grafisk-profil.css "$RUNNER_TEMP/site/grafisk-profil.css"
 
       - uses: actions/upload-pages-artifact@v5
         with:

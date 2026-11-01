@@ -39,9 +39,10 @@ Rubriker skrivs med vanliga gemener och versaler, aldrig enbart versaler, i halv
 ## Måtten
 
 - Brödtext 17 px (`1.0625rem`), radavstånd 1,6.
-- Spalten är interlinguas, 52 rem, drygt 800 px, eftersom katalogens tabeller och bilder behöver bredden. Ren prosa blir något bred i den; det är startsidans och artiklarnas fråga när de kommer.
+- Spalten är interlinguas, 52 rem, drygt 800 px, eftersom katalogens tabeller och bilder behöver bredden. Ren prosa blir något bred i den, så startsidan sätter 36 rem, drygt 600 px, i sin egen sida (#16); värdet flyttar hit när en sida till behöver det.
 - Länkar understrukna, i teal.
 - Rundade hörn på rutor, 4 till 6 px.
+- En sidas huvudingång, som startsidans *Öppna katalogen*, är en länk i en ram: teal, 2 px, rundade hörn 6 px, halvfet text utan understrykning. Det är det enda på en sida som får se annorlunda ut än text, och en sida har högst en.
 
 ## Ordmärket
 
