@@ -2,10 +2,9 @@
 
 En begreppskatalog för verksamhetsarkitektur: ett begrepp, ett id, en definition, de termer som används för det, och relationerna mellan begreppen. Katalogen är skriven från svensk offentlig sektor, men begreppen gäller alla verksamheter. Den läses av programmet interlingua och publiceras på gestaltadet.se/katalog.
 
-Repot är tomt tills katalogen flyttat in. Till dess är frågor och invändningar välkomna som ärenden här.
+## Vad som finns här
 
-## Vad som kommer
-
+- `CONTEXT.md`: ordlistan, de ord katalogen själv är byggd av, med hänvisning till begreppen.
 - `concepts/`: begreppen, en fil per begrepp, med term, definition, typ och begreppsrelationer.
 - `mapping/`: tabeller som säger vilket begrepp varje typ i ArchiMate, ARIS, BACM, BMM, BPMN, CMMN, DMN, SBVR och SDMN motsvarar.
 - `layout/`: ritningarna, begreppsmodeller och scheman som draw.io-filer, redigerbara.

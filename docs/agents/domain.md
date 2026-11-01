@@ -38,6 +38,6 @@ If your output contradicts an existing ADR, surface it explicitly rather than si
 ## What is particular to this repo
 
 - **The catalogue in `concepts/` is where a concept is defined.** `CONTEXT.md` is the glossary that talks about the catalogue; when the two disagree, the catalogue is the one definition and the glossary is wrong (`CLAUDE.md` § Katalogens enda hem).
-- **ADRs 0009 to 0027 came with the move from the private store** (`nickdin/arkitektur` #32), cleaned of every real organisation; `CONTEXT.md`, the glossary in Swedish, is still on its way (#4). ADR numbering continues from them; the first ADR written here takes the next free number, so the series never restarts at 0001.
+- **ADRs 0009 to 0027 came with the move from the private store** (`nickdin/arkitektur` #32), cleaned of every real organisation; `CONTEXT.md`, the glossary, came the same way and was translated into Swedish (#4). ADR numbering continues from them; the first ADR written here takes the next free number, so the series never restarts at 0001.
 - **ADRs are content, and public.** They are written in Swedish, cite law and general frameworks freely, and draw every example from the two example organisations in `docs/exempel/` (`CLAUDE.md` § Ingen verklig organisation).
 - **Element, relation, description and view files are written with the `interlingua` commands, never by hand**; prose under a file's headings may be added.
