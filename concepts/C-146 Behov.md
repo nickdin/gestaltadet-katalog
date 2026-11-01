@@ -5,6 +5,10 @@ terms:
   - term: Behov
     language: sv
     source: catalogue
+  - term: kunduppgift
+    language: sv
+    source: concept change
+    status: admitted
 definition: "det som människor strävar efter att åstadkomma i en viss situation"
 kind: element-type
 partitive: "[[C-147 Resa]]"
