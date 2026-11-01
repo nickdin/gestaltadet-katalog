@@ -19,3 +19,5 @@ ArchiMates Capability hör till strategilagret, utanför den kärna mappningstab
 Målet ([[C-017 Mål]]) sätts på förmågan, ramen på de lösningar ([[C-055 Lösning]]) som realiserar den. En lösning realiserar exakt en förmåga; en förmåga kan ha flera lösningar, och en komponent kan ingå i flera lösningar. ADR 0020.
 
 Business Architecture Core Metamodel (BACM) definierar Capability på samma sätt, förmågan att producera ett utfall utan att säga hur; dess CapabilityBehavior är det verksamhetsbeteende som realiserar förmågan och dess CapabilityImplementation är lösningen. En värdeström ([[C-190 Värdeström]]) använder ([[C-095 använder]]) de förmågor dess steg förutsätter: förmågan är en möjlighet, det som pågår i steget är processen. ADR 0027.
+
+Value Delivery Modeling Language (VDML) delar förmågan i tre: CapabilityDefinition, förmågan som sort, är verksamhetsförmågan; CapabilityOffer, en organisationsenhets förmåga med sina resurser, är lösningen ([[C-055 Lösning]]); CapabilityLibrary, samlingen av alla, är förmågekartan, en arkitekturvy och inget element. ADR 0028.

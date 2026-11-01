@@ -27,6 +27,8 @@ Det fallet prövas mot beslutet, men beslutet säger inget om nästa fråga av s
 
 **Avrådd term:** ställningstagande. I vardagsspråket är ett ställningstagande varje beslutad ståndpunkt, alltså alla styrmedel. Det SBVR kallar advice, rådet som bekräftar att en frihet finns, är ett styrbeslut när det alls skrivs ner: svaret på frågan om en regel ska finnas, när svaret blev nej (ADR 0023).
 
+Valet av arbetssätt ([[C-196 Arbetssätt]]) är ett styrbeslut (ADR 0028).
+
 ## Exempel
 
 "Ärendehanteringen byggs på plattform X."

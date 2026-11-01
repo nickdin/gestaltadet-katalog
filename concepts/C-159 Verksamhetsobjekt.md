@@ -19,6 +19,8 @@ Motsvarar ArchiMates Business Object: flödesobjektet i ett verksamhetsbeteende 
 
 Motsvarar BusinessObject i Business Architecture Core Metamodel (BACM). Gränsen mot informationsobjektet dras i lagret efter roll, vad beteendet hanterar mot vad verksamheten håller som information, inte som i BACM efter påtaglighet, så ett ärende är ett verksamhetsobjekt här och en InformationItem där. En vara ([[C-191 Vara]]) är ett verksamhetsobjekt som lämnas över till mottagaren. ADR 0027.
 
+Motsvarar BusinessItem i Value Delivery Modeling Language (VDML), allt som kan skapas eller skaffas och bär information, förpliktelse eller värde; det som används upp eller lånas i en aktivitet är en resurs ([[C-122 Resurs]]). ADR 0028.
+
 ## Exempel
 
 ett ärende, ett ärendebeslut, ett initiativ, en utgiftsprognos, verksamhetsplanen, en analysrapport.

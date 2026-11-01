@@ -18,3 +18,5 @@ associative:
 ## Anmärkning
 
 En organisationsenhet är en aktör ([[C-073 Aktör]]); registrerad är den ett element av typen aktör.
+
+Motsvarar OrgUnit i Value Delivery Modeling Language (VDML), den enda samverkan som äger resurser; VDML räknar också kommitté, projekt och arbetsgrupp som OrgUnit, och de är team ([[C-123 Team]]) och forum ([[C-156 Forum]]) här. ADR 0028.

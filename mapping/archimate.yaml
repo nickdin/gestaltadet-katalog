@@ -371,3 +371,10 @@ unmapped-concepts:
       värdeström (ADR 0027) is the set of stages that build up the value a
       värdeerbjudande promises, BACM's ValueStream; ArchiMate's Value Stream
       lies in the strategy layer outside the core this table covers
+  - id: C-195
+    reason: >-
+      värde (ADR 0028) is the measurable benefit a product's delivery gives
+      its recipient, part of the värdeerbjudande and realised by a värdeström's
+      stages, VDML's ValueDefinition, ValuePropositionComponent and ValueAdd;
+      ArchiMate's Value lies in the motivation layer outside the core this
+      table covers and gets its row when the table is reviewed

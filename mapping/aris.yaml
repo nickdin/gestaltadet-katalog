@@ -340,3 +340,9 @@ unmapped-concepts:
       värdeström (ADR 0027) is the set of stages that build up the value a
       värdeerbjudande promises, BACM's ValueStream; the value-added chain
       diagram is the nearest ARIS has, and no object type was confirmed
+  - id: C-195
+    reason: >-
+      värde (ADR 0028) is the measurable benefit a product's delivery gives
+      its recipient, part of the värdeerbjudande and realised by a värdeström's
+      stages, VDML's ValueDefinition, ValuePropositionComponent and ValueAdd;
+      ARIS has no value object type

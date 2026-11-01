@@ -1,0 +1,430 @@
+# Value Delivery Modeling Language 1.1 type-mapping table (ADR 0028).
+#
+# One row per VDML class and association the store meets, in
+# `archimate.yaml`'s format; `check` does not validate this table yet
+# (interlingua #901). VDML (OMG, 2018) is a language for analysing how
+# value is created: participants in roles perform activities, business
+# items flow between the activities, every activity adds value, and
+# everything is measured per unit of production in scenarios. Half of its
+# 63 classes are that calculating machinery, ports, measurements,
+# scenarios and libraries, and are the program's concern, never the
+# catalogue's, with one shared reason. The other half describes the
+# business and is what the store meets.
+#
+# The store's reading: CapabilityDefinition is verksamhetsförmåga (C-069),
+# CapabilityOffer, an org unit's capability with its resources, is lösning
+# (C-055), and CapabilityMethod, the reusable activity network that
+# delivers a capability, is verksamhetsbeteende (C-157). Activity is
+# verksamhetsaktivitet (C-175); an activity that delegates its work to a
+# method is drawn as that behaviour, which the outer behaviour aggregerar
+# (C-100), as `bpmn.yaml` does with Sub-Process. Collaboration and
+# BusinessNetwork are verksamhetssamverkan (C-141), OrgUnit is
+# organisationsenhet (C-121), Community is målgrupp (C-145) for a market
+# segment and aktör (C-073) for a formal body. Every Role is roll (C-074),
+# Actor and Person are aktör (C-073). BusinessItem is verksamhetsobjekt
+# (C-159), and resurs (C-122) when used up or borrowed; DeliverableFlow is
+# flödar till (C-097), ResourceUse is använder (C-095). ValueProposition is
+# värdeerbjudande (C-148), and VDML's value, ValueDefinition,
+# ValuePropositionComponent and ValueAdd, is the new element type värde
+# (C-195), the measurable benefit the offer consists of and a värdeström's
+# stage realises. PracticeDefinition is the new concept arbetssätt (C-196).
+# Store and Pool, the stocks of resources between activities, are unmapped:
+# they exist to compute waiting time and availability, and what they hold
+# already has its box. Measures wait for a measure concept, taken with SMM
+# (ADR 0026); a Scenario is a set of measurements, and a current- and
+# future-state scenario is the tidsperspektiv (C-037) of an
+# arkitekturbeskrivning.
+
+elements:
+  # Collaboration and participants (7.2.1.1)
+  # An automaton as Actor, a software agent or a machine, is an applikation
+  # (C-071) or utrustning (C-090) in the store.
+  - name: Actor
+    concepts: [C-073]
+  - name: Person
+    concepts: [C-073]
+  # The generic collaboration: participants in roles for a shared purpose.
+  - name: Collaboration
+    concepts: [C-141]
+  - name: Participant
+    unmapped: true
+    reason: abstract; actors, collaborations and roles are the participants
+  - name: Role
+    concepts: [C-074]
+  - name: CalendarService
+    unmapped: true
+    reason: simulation support, the program's concern
+
+  # Activity networks (7.2.1.2)
+  - name: Activity
+    concepts: [C-175]
+  # The use of a resource by an activity is a relation; see relationships.
+  - name: ResourceUse
+    unmapped: true
+    reason: the use of a resource within an activity is the använder (C-095) relation, see relationships
+  - name: Assignment
+    unmapped: true
+    reason: how a role is filled is the tilldelas (C-096) relation, see relationships
+  - name: DeliverableFlow
+    unmapped: true
+    reason: the transfer of a deliverable is the flödar till (C-097) relation, see relationships
+  # Anything that can be acquired or created and conveys information,
+  # obligation or value: the flow object of a behaviour, and a resurs when
+  # an activity uses it up or borrows it.
+  - name: BusinessItem
+    concepts: [C-159, C-122]
+  - name: Store
+    unmapped: true
+    reason: >-
+      a stock of resources between activities, there to compute holding
+      time and matching; what it holds is a verksamhetsobjekt or resurs,
+      which have their boxes, and the store does not model stocks
+  - name: Pool
+    unmapped: true
+    reason: >-
+      a store of reusable resources, people and machines, there to compute
+      availability; the people are aktörer in an organisationsenhet, the
+      machines utrustning, and the store does not model availability
+
+  # ValueAdds and ValuePropositions (7.2.1.3)
+  # The values offered to a recipient, evaluated by the recipient's
+  # satisfaction.
+  - name: ValueProposition
+    concepts: [C-148]
+  # One value seen from the recipient, with weight and satisfaction.
+  - name: ValuePropositionComponent
+    concepts: [C-195]
+  # The value an activity, store or collaboration contributes at an output.
+  - name: ValueAdd
+    concepts: [C-195]
+  - name: ValueElement
+    unmapped: true
+    reason: abstract; ValueAdd and ValuePropositionComponent are the values
+
+  # Collaboration sub-types (7.2.2)
+  # Independent parties exchanging deliverables, and usually money.
+  - name: BusinessNetwork
+    concepts: [C-141]
+  - name: Party
+    concepts: [C-074]
+  # A loose association with a shared interest: a market segment is a
+  # målgrupp, a professional or standards body an aktör.
+  - name: Community
+    concepts: [C-145, C-073]
+  - name: Member
+    concepts: [C-074]
+  # The only collaboration that owns resources. VDML's committee, project
+  # and task force are team (C-123) and forum (C-156) here.
+  - name: OrgUnit
+    concepts: [C-121]
+  - name: Position
+    concepts: [C-074]
+  # An org unit's ability to perform a kind of work with the resources,
+  # methods and pools it manages: the lösning, as BACM's
+  # CapabilityImplementation (ADR 0027).
+  - name: CapabilityOffer
+    concepts: [C-055]
+  - name: ReleaseControl
+    unmapped: true
+    reason: the priority rule for the next unit of work, simulation support
+  # A reusable activity network that delivers a capability, like a process
+  # definition and equally a case type: the verksamhetsbeteende, process or
+  # handläggning, as BACM's CapabilityBehavior.
+  - name: CapabilityMethod
+    concepts: [C-157]
+  - name: Performer
+    concepts: [C-074]
+
+  # Models and scenarios (7.2.3): the program's concern, with one note.
+  - name: ValueDeliveryModel
+    unmapped: true
+    reason: the unit of model exchange, the program's concern
+  - name: AnalysisContext
+    unmapped: true
+    reason: the measurements of one use of a collaboration, the program's concern
+  # A set of measurements for one situation. A current- and a future-state
+  # scenario correspond to the tidsperspektiv (C-037) of an
+  # arkitekturbeskrivning; the rest is measurement, waiting for a measure
+  # concept (ADR 0026).
+  - name: Scenario
+    unmapped: true
+    reason: >-
+      a set of measurements for one situation; a current and a future
+      state are the tidsperspektiv (C-037) of an arkitekturbeskrivning, and
+      the measurements wait for a measure concept
+  - name: DelegationContext
+    unmapped: true
+    reason: the context of one delegation, the program's concern
+
+  # Core elements (7.2.4): the metamodel's scaffolding, ports and
+  # expressions, so that the model hangs together and computes. The
+  # program's concern, never the catalogue's (ADR 0026).
+  - name: VdmlElement
+    unmapped: true
+    reason: metamodel scaffolding, the program's concern
+  - name: Attribute
+    unmapped: true
+    reason: metamodel scaffolding, the program's concern
+  - name: Annotation
+    unmapped: true
+    reason: metamodel scaffolding, the program's concern
+  - name: MeasurableElement
+    unmapped: true
+    reason: metamodel scaffolding, the program's concern
+  - name: MeasuredCharacteristic
+    unmapped: true
+    reason: a measured property; waits for a measure concept, taken with SMM (ADR 0026)
+  - name: Expression
+    unmapped: true
+    reason: computation over measurements, the program's concern
+  - name: Operand
+    unmapped: true
+    reason: computation over measurements, the program's concern
+  - name: Port
+    unmapped: true
+    reason: connection point for flows, the program's concern
+  - name: OutputPort
+    unmapped: true
+    reason: connection point for flows, the program's concern
+  - name: InputPort
+    unmapped: true
+    reason: connection point for flows, the program's concern
+  - name: PortContainer
+    unmapped: true
+    reason: abstract; activities, stores and collaborations carry ports
+  - name: PortDelegation
+    unmapped: true
+    reason: port wiring of a delegation, the program's concern
+  - name: InputDelegation
+    unmapped: true
+    reason: port wiring of a delegation, the program's concern
+  - name: OutputDelegation
+    unmapped: true
+    reason: port wiring of a delegation, the program's concern
+
+  # Libraries (7.2.5): each library is the collection of a type's
+  # definitions. The store's element is already the definition, so the
+  # definitions map and the libraries do not.
+  - name: BusinessItemLibrary
+    unmapped: true
+    reason: the collection of business item definitions; the store's elements are the definitions
+  - name: BusinessItemDefinition
+    concepts: [C-159, C-122]
+  # A broader object the definitions are grouped under.
+  - name: BusinessItemCategory
+    concepts: [C-159]
+  - name: BusinessItemLibraryElement
+    unmapped: true
+    reason: abstract; definition and category are the elements
+  - name: ValueLibrary
+    unmapped: true
+    reason: the collection of value definitions; the store's elements are the definitions
+  # The kind of value: price, delivery time, durability.
+  - name: ValueDefinition
+    concepts: [C-195]
+  - name: ValueCategory
+    concepts: [C-195]
+  # The collection of capability definitions is the capability map, an
+  # arkitekturvy in the strategiperspektiv, not an element.
+  - name: CapabilityLibrary
+    unmapped: true
+    reason: the collection of capabilities is the capability map, a view
+  - name: CapabilityDefinition
+    concepts: [C-069]
+  # A broader capability the definitions are grouped under: the capability
+  # map's upper levels.
+  - name: CapabilityCategory
+    concepts: [C-069]
+  - name: Capability
+    unmapped: true
+    reason: abstract; definition and category are the capabilities
+  - name: CapabilityDependency
+    unmapped: true
+    reason: one capability requires what another delivers, the använder (C-095) relation, see relationships
+  - name: PracticeLibrary
+    unmapped: true
+    reason: the collection of practices; the store's concepts are the definitions
+  # A proven way to handle a kind of work, used by many organisations.
+  - name: PracticeDefinition
+    concepts: [C-196]
+  - name: PracticeCategory
+    concepts: [C-196]
+  - name: RoleLibrary
+    unmapped: true
+    reason: the collection of role definitions; the store's elements are the definitions
+  - name: RoleDefinition
+    concepts: [C-074]
+  - name: RoleCategory
+    unmapped: true
+    reason: a grouping of role definitions; roles form no hierarchy in the store as capabilities and objects do
+
+  # SMM, imported for measures (7.2.6)
+  - name: Measure
+    unmapped: true
+    reason: waits for a measure concept, taken with SMM (ADR 0026)
+  - name: Measurement
+    unmapped: true
+    reason: waits for a measure concept, taken with SMM (ADR 0026)
+  - name: Characteristic
+    unmapped: true
+    reason: waits for a measure concept, taken with SMM (ADR 0026)
+  - name: Observation
+    unmapped: true
+    reason: waits for a measure concept, taken with SMM (ADR 0026)
+
+relationships:
+  # Assignment: who performs or is responsible for a behaviour.
+  - name: Role performs Activity
+    concepts: [C-096]
+  - name: Participant is assigned to Role (Assignment)
+    concepts: [C-096]
+  - name: Role fills Role in another Collaboration
+    concepts: [C-096]
+  - name: OrgUnit provides CapabilityOffer
+    concepts: [C-096]
+  - name: Collaboration owns Activities
+    concepts: [C-096]
+  - name: OrgUnit owns CapabilityMethod
+    unmapped: true
+    reason: design responsibility other than the line is text, as BACM's Responsible (ADR 0027)
+
+  # Realisation: the more concrete realises the more abstract.
+  - name: Activity requires Capability (capabilityRequirement)
+    concepts: [C-094]
+  - name: CapabilityOffer offers Capability
+    concepts: [C-094]
+  - name: CapabilityOffer applies CapabilityMethod
+    concepts: [C-094]
+  # The value a stage adds: the värde is realised by the activity or stage.
+  - name: Activity carries ValueAdd
+    concepts: [C-094]
+
+  # Use
+  - name: Activity uses resource (ResourceUse)
+    concepts: [C-095]
+  - name: CapabilityOffer uses resources
+    concepts: [C-095]
+  - name: CapabilityDependency between Capabilities
+    concepts: [C-095]
+
+  # Flow
+  - name: DeliverableFlow from Activity to Activity
+    concepts: [C-097]
+  - name: DeliverableFlow between Parties
+    concepts: [C-097]
+  - name: DeliverableFlow carries BusinessItem
+    unmapped: true
+    reason: the object carried is the flow's label, not a relation of its own
+  - name: DeliverableFlow from or to Store
+    unmapped: true
+    reason: the store is unmapped
+
+  # Composition and aggregation
+  - name: Collaboration owns Roles
+    concepts: [C-100]
+  - name: OrgUnit within OrgUnit
+    concepts: [C-062]
+  - name: ValueProposition has components
+    concepts: [C-062]
+  # The activity's work is done by a whole method: drawn as that behaviour,
+  # which the outer behaviour aggregerar, as bpmn.yaml's Sub-Process.
+  - name: Activity delegates to Collaboration (DelegationContext)
+    concepts: [C-100]
+  - name: CapabilityCategory contains CapabilityDefinition
+    concepts: [C-100]
+  - name: BusinessItemCategory contains BusinessItemDefinition
+    concepts: [C-100]
+  - name: RoleCategory contains RoleDefinition
+    unmapped: true
+    reason: the category is unmapped
+
+  # The value proposition's ends
+  - name: ValueProposition recipient
+    concepts: [C-152]
+  - name: ValueProposition provider
+    unmapped: true
+    reason: >-
+      the offer is the business's own; a partner's offer to the business is
+      an överenskommelse (C-084) with är leverantör till (C-155)
+  - name: ValuePropositionComponent aggregated from ValueAdds
+    unmapped: true
+    reason: aggregation of measurements, waits for a measure concept (ADR 0026)
+
+  # Instance to library definition: the store's element is the definition.
+  - name: Role roleDefinition
+    unmapped: true
+    reason: the role is its definition in the store
+  - name: CapabilityOffer capability
+    unmapped: true
+    reason: see CapabilityOffer offers Capability
+  - name: BusinessItem definition
+    unmapped: true
+    reason: the object is its definition in the store
+  - name: ValueElement valueDefinition
+    unmapped: true
+    reason: the värde is its definition in the store
+  - name: Activity or CapabilityMethod implements Practice
+    unmapped: true
+    reason: which arbetssätt (C-196) a behaviour follows is text in the behaviour
+
+  # Measurement, simulation and scaffolding
+  - name: MeasurableElement measuredCharacteristic
+    unmapped: true
+    reason: waits for a measure concept (ADR 0026)
+  - name: AnalysisContext contextCollaboration and contextObservation
+    unmapped: true
+    reason: the program's concern
+  - name: Participant participantCalendar
+    unmapped: true
+    reason: simulation support
+  - name: Position actorPool and Pool position
+    unmapped: true
+    reason: the pool is unmapped
+  - name: VdmlElement represents
+    unmapped: true
+    reason: a reference to an element of another model, the program's concern
+
+unmapped-concepts:
+  - id: C-014
+    reason: >-
+      VDML has no product: what is delivered is a BusinessItem and the
+      promise a ValueProposition
+  - id: C-127
+    reason: >-
+      VDML calls a CapabilityMethod a service in passing; the store's
+      verksamhetstjänst is the value a behaviour gives its surroundings,
+      and the method is the behaviour (C-157)
+  - id: C-135
+    reason: VDML counts statistically over time and has no event
+  - id: C-182
+    reason: VDML has no state; a changed business item stays the same item with value added
+  - id: C-146
+    reason: VDML has no need; the recipient is present only as satisfaction in the value proposition
+  - id: C-147
+    reason: VDML has no journey
+  - id: C-194
+    reason: VDML has no answer per need; the value proposition's components are values, not needs met
+  - id: C-192
+    reason: VDML has no obstacle; a negative ValueAdd is the nearest
+  - id: C-193
+    reason: VDML has no gain apart from the value itself
+  - id: C-190
+    reason: >-
+      no class of its own: the activity network with its ValueAdds is the
+      value stream, and VDML uses the word informally for line operations
+  - id: C-017
+    reason: VDML has no goal; a future-state scenario's values stand in for one, and goals are BMM's
+  - id: C-015
+    reason: VDML has no styrmedel; they are BMM's (ADR 0025)
+  - id: C-012
+    reason: VDML cannot model the transition, by its own words; a future state is a scenario
+  - id: C-084
+    reason: the exchange between parties in a BusinessNetwork is implied, never an agreement
+  - id: C-060
+    reason: VDML does not separate the information from the item that conveys it
+  - id: C-138
+    reason: a VDML port is a connection point for flows, not where services are made available
+  - id: C-158
+    reason: VDML's work is an activity network directed toward completion; the ongoing grouping without start and end is not in it
+  - id: C-178
+    reason: VDML has no decision; alternative flows are statistical allocations in a ResourceUse

@@ -29,7 +29,6 @@ covers:
   - "[[C-160 Handläggning]]"
   - "[[C-175 Verksamhetsaktivitet]]"
   - "[[C-178 Beslutslogik]]"
-  - "[[C-148 Värdeerbjudande]]"
 generic: "[[C-036 Arkitekturperspektiv]]"
 ---
 # C-109 Verksamhetsperspektiv
@@ -39,3 +38,5 @@ generic: "[[C-036 Arkitekturperspektiv]]"
 ## Anmärkning
 
 Ett av de sex perspektiven.
+
+Värdeerbjudandet flyttade till strategiperspektivet ([[C-108 Strategiperspektiv]]) i ADR 0028; det värde verksamheten ger sin omgivning ger den genom sina tjänster ([[C-075 Tjänst]]), och definitionen säger tjänster för att ordet värde inte ska peka åt två håll.

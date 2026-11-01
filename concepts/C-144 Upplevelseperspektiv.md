@@ -18,4 +18,4 @@ generic: "[[C-036 Arkitekturperspektiv]]"
 
 ## Anmärkning
 
-Ett av de sex perspektiven, det enda som ser verksamheten utifrån. Det rymmer bara det som finns utan verksamheten: målgrupper, behov och resor. Det verksamheten gör för dem, värdeerbjudandet, hör till verksamhetsperspektivet ([[C-109 Verksamhetsperspektiv]]). Motsvarar EDGYs Experience.
+Ett av de sex perspektiven, det enda som ser verksamheten utifrån. Det rymmer bara det som finns utan verksamheten: målgrupper, behov och resor. Det verksamheten lovar dem, värdeerbjudandet, hör till strategiperspektivet ([[C-108 Strategiperspektiv]]) (ADR 0028). Motsvarar EDGYs Experience.

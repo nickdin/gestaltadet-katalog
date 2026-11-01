@@ -19,6 +19,8 @@ associative:
 
 Motsvarar ArchiMates Business Actor. En aktör kan vara den som fastställer styrning ([[C-183 fastställs av]]): en namngiven person med delegation, en organisationsenhet. SBVR:s authority (ADR 0023).
 
+Motsvarar Actor och Person i Value Delivery Modeling Language (VDML); en automat som deltagare är där en Actor, här en applikation ([[C-071 Applikation]]) eller utrustning ([[C-090 Utrustning]]). ADR 0028.
+
 ## Exempel
 
 en person, ett team, en organisationsenhet, en extern part.
