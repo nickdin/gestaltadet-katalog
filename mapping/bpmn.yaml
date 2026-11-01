@@ -1,0 +1,107 @@
+# BPMN 2.0.2 type-mapping table (ADR 0022).
+#
+# One row per BPMN building block the store meets, mapped to one or more
+# concept ids (`concepts:`), or `unmapped: true` with a `reason:`. `doubtful:
+# true` marks a row where BPMN's element and the store's concept only roughly
+# agree. BPMN draws the inside of a process; the store describes the
+# architecture around it, so most of BPMN's finer vocabulary (gateways, task
+# types, sequence flow) lands on relations and text, not on types. Which is
+# said per row. `check` does not validate this table yet (interlingua issue);
+# the format is `archimate.yaml`'s so that it can when it does.
+
+elements:
+  - name: Process
+    concepts: [C-130]
+  # A Task is the store's activity; BPMN's task types are read from the
+  # activity's relations (C-126 Aktivitet, anmärkning), not from a type.
+  - name: Task
+    concepts: [C-175]
+  - name: User Task
+    concepts: [C-175]
+    doubtful: true  # a verksamhetsaktivitet that a roll (C-074) is tilldelas (C-096)
+  - name: Manual Task
+    concepts: [C-175]
+    doubtful: true  # a verksamhetsaktivitet performed without an application
+  - name: Service Task
+    concepts: [C-175]
+    doubtful: true  # a verksamhetsaktivitet realiseras av (C-094) an applikationstjänst (C-128)
+  - name: Script Task
+    concepts: [C-175]
+    doubtful: true  # as Service Task, with the script inside the application
+  - name: Business Rule Task
+    concepts: [C-175]
+    doubtful: true  # a verksamhetsaktivitet that använder (C-095) a beslutslogik (C-178)
+  - name: Send Task
+    concepts: [C-175]
+    doubtful: true  # a verksamhetsaktivitet with a flödar till (C-097) out of it
+  - name: Receive Task
+    concepts: [C-175]
+    doubtful: true  # a verksamhetsaktivitet with a flödar till (C-097) into it
+  # A Sub-Process is a process the process rymmer (C-100 aggregerar).
+  - name: Sub-Process
+    concepts: [C-130]
+    doubtful: true
+  # An Ad-Hoc Sub-Process has steps without a fixed order: a handläggning
+  # (ADR 0017) inside the process.
+  - name: Ad-Hoc Sub-Process
+    concepts: [C-160]
+    doubtful: true
+  - name: Call Activity
+    unmapped: true
+    reason: >-
+      a reference to a reusable process or task; the store names the process
+      itself and lets the calling activity utlöser (C-098) it
+  - name: Start Event
+    concepts: [C-135]
+  - name: Intermediate Event
+    concepts: [C-135]
+  - name: End Event
+    concepts: [C-135]
+  # Event definitions (message, timer, error, signal, ...) are text in the
+  # verksamhetshändelse's description, not types.
+  - name: Exclusive Gateway
+    unmapped: true
+    reason: >-
+      a branching is an activity that använder (C-095) a beslutslogik (C-178)
+      and utlöser (C-098) several steps, the condition in each relation's
+      description; no element of its own (ADR 0022)
+  - name: Inclusive Gateway
+    unmapped: true
+    reason: as Exclusive Gateway
+  - name: Parallel Gateway
+    unmapped: true
+    reason: >-
+      several utlöser (C-098) relations from the same step; no element of
+      its own
+  - name: Event-Based Gateway
+    unmapped: true
+    reason: >-
+      several verksamhetshändelser (C-135) each utlöser (C-098) its own
+      step; no element of its own
+  - name: Pool
+    concepts: [C-073]
+    doubtful: true  # the participant; its lanes are the roller
+  - name: Lane
+    concepts: [C-074]
+    doubtful: true
+  - name: Data Object
+    concepts: [C-159]
+    doubtful: true  # the information side is an informationsobjekt (C-060) that realiserar it; SDMN's DataItem is that side (sdmn.yaml); the dataState is a tillstånd (C-182, ADR 0024)
+  - name: Data Store
+    concepts: [C-165]
+    doubtful: true
+  - name: Message
+    concepts: [C-159]
+    doubtful: true  # what flödar till (C-097) carries between two participants
+
+relationships:
+  - name: Sequence Flow
+    concepts: [C-098]
+  - name: Message Flow
+    concepts: [C-097]
+  - name: Data Association
+    concepts: [C-101]
+  - name: Association
+    concepts: [C-099]
+
+unmapped-concepts: []

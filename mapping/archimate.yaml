@@ -1,0 +1,373 @@
+# ArchiMate 3.2 core type-mapping table.
+#
+# One row per ArchiMate 3.2 core element type (Business, Application and
+# Technology layers), per core relationship type and per motivation element
+# the governance types map to, plus Junction. Each
+# row is mapped to one or more concept ids (`concepts:`), or `unmapped:
+# true` with a `reason:`. `doubtful: true` marks a mapping this store's
+# own catalogue and ArchiMate's type only roughly agree on, or a
+# one-to-many choice that is a judgement call. A concept of a metamodel
+# kind not reached by any row is named once under `unmapped-concepts:`,
+# with its own reason; `check` fails if one is named by neither.
+#
+# Every type belongs to exactly one perspective (ADR 0008), so each
+# per-layer ArchiMate element maps to the type of its own layer: a Business
+# Service is a verksamhetstjänst (C-127), an Application Service an
+# applikationstjänst (C-128), and so on. Those rows are not doubtful. Business
+# Function is a verksamhetsfunktion (C-158) since ADR 0015, and Business
+# Object a verksamhetsobjekt (C-159) since ADR 0016, with Data Object its
+# information side (C-060). The three Interaction elements are unmapped:
+# interaktion is a concept with no types, so an import reports them and
+# creates nothing.
+#
+# The governance types join the table (interlingua #238): `check` requires each to be
+# named by a row or an `unmapped-concepts` entry. Five motivation elements
+# have a row: Principle, Goal, Requirement, and since ADR 0025 Driver
+# (påverkan, C-184) and Assessment (bedömning, C-185). The other four
+# (Stakeholder, Constraint, Meaning, Value) have no governance type to map
+# to and no row, so an import reports them and creates nothing.
+# Outcome has a row since ADR 0019: it maps to C-017 like Goal, doubtful.
+# An aspect is no element's type, so no aspect is named here.
+
+elements:
+  # Business layer
+  - name: Business Actor
+    concepts: [C-073]
+  # An informationsägare (C-167) is a roll with a particular responsibility; it
+  # is written out as a Business Role, and a Business Role read in is a roll,
+  # the row's first concept.
+  - name: Business Role
+    concepts: [C-074, C-167]
+    doubtful: true
+  - name: Business Collaboration
+    concepts: [C-141]
+  - name: Business Interface
+    concepts: [C-138]
+  # A handläggning (C-160, ADR 0017) and a verksamhetsaktivitet (C-175, ADR
+  # 0022) have no ArchiMate element of their own: each is written out as a
+  # Business Process so that it shows in ArchiMate drawings, the distinction
+  # lost on the way out, and a Business Process read in is a
+  # verksamhetsprocess, the row's first concept.
+  - name: Business Process
+    concepts: [C-130, C-160, C-175]
+    doubtful: true
+  - name: Business Function
+    concepts: [C-158]
+  - name: Business Interaction
+    unmapped: true
+    reason: >-
+      interaktion (C-083) is a plain concept with no types: the behaviour a
+      collaboration performs together is described as a process, or for an
+      application or a technical resource as a function
+  - name: Business Event
+    concepts: [C-135]
+  - name: Business Service
+    concepts: [C-127]
+  - name: Business Object
+    concepts: [C-159]
+  - name: Contract
+    concepts: [C-084]
+  - name: Representation
+    concepts: [C-085]
+  - name: Product
+    concepts: [C-014]
+
+  # Application layer
+  - name: Application Component
+    concepts: [C-071]
+  - name: Application Collaboration
+    concepts: [C-142]
+  - name: Application Interface
+    concepts: [C-139]
+  - name: Application Function
+    concepts: [C-133]
+  - name: Application Interaction
+    unmapped: true
+    reason: >-
+      interaktion (C-083) is a plain concept with no types: the behaviour a
+      collaboration performs together is described as a process, or for an
+      application or a technical resource as a function
+  # An applikationsaktivitet (C-176, ADR 0022) is written out as an
+  # Application Process, as the verksamhetsaktivitet is above.
+  - name: Application Process
+    concepts: [C-131, C-176]
+    doubtful: true
+  - name: Application Event
+    concepts: [C-136]
+  - name: Application Service
+    concepts: [C-128]
+  - name: Data Object
+    concepts: [C-060]
+
+  # Technology layer
+  - name: Node
+    concepts: [C-079, C-072]
+    doubtful: true
+  - name: Device
+    concepts: [C-080]
+  - name: System Software
+    concepts: [C-087]
+  - name: Technology Collaboration
+    concepts: [C-143]
+  - name: Technology Interface
+    concepts: [C-140]
+  - name: Path
+    concepts: [C-089]
+  - name: Communication Network
+    concepts: [C-088]
+  - name: Technology Function
+    concepts: [C-134]
+  # A teknikaktivitet (C-177, ADR 0022) is written out as a Technology
+  # Process, as the verksamhetsaktivitet is above.
+  - name: Technology Process
+    concepts: [C-132, C-177]
+    doubtful: true
+  - name: Technology Interaction
+    unmapped: true
+    reason: >-
+      interaktion (C-083) is a plain concept with no types: the behaviour a
+      collaboration performs together is described as a process, or for an
+      application or a technical resource as a function
+  - name: Technology Event
+    concepts: [C-137]
+  - name: Technology Service
+    concepts: [C-129]
+  - name: Artifact
+    concepts: [C-081]
+  - name: Equipment
+    concepts: [C-090]
+  - name: Facility
+    concepts: [C-091]
+  - name: Distribution Network
+    concepts: [C-092]
+  - name: Material
+    concepts: [C-093]
+
+  # Motivation elements. A governance element has no detail level (interlingua #232).
+  - name: Principle
+    concepts: [C-018, C-040]
+    # One ArchiMate element for two concepts, the second a kind of the first
+    # (an arkitekturprincip is a princip whose styrobjekt is the architecture):
+    # which fits a given Principle is a judgement an import cannot make, so it
+    # takes the first and leaves the element a candidate for review.
+    doubtful: true
+  - name: Goal
+    concepts: [C-017]
+  - name: Outcome
+    concepts: [C-017]
+    # ArchiMate's Outcome is the measurable end result; the catalogue registers
+    # it as a mål of the kind effektmål (C-170), which refines its
+    # verksamhetsmål (C-169, ArchiMate's Goal). One concept for two rows: an
+    # import cannot tell them apart and takes C-017 either way (ADR 0019).
+    doubtful: true
+  - name: Requirement
+    concepts: [C-021]
+    # ArchiMate's Requirement is a statement of need to be realised, close to a
+    # system requirement; C-021 says it is expressly not one but a styrmedel the
+    # styrobjekt is tested against.
+    doubtful: true
+  # ArchiMate's Driver is BMM's Influencer: a påverkan (C-184), external or
+  # internal by where it comes from, never a styrmedel (ADR 0025).
+  - name: Driver
+    concepts: [C-184]
+  # ArchiMate's Assessment is BMM's: the judgement of a driver against the
+  # goals and means, a bedömning (C-185) (ADR 0025).
+  - name: Assessment
+    concepts: [C-185]
+
+relationships:
+  - name: Composition
+    concepts: [C-062]
+  - name: Aggregation
+    concepts: [C-100]
+  - name: Assignment
+    concepts: [C-096]
+  - name: Realization
+    concepts: [C-094]
+  - name: Serving
+    concepts: [C-095]
+  - name: Access
+    concepts: [C-101]
+  - name: Influence
+    concepts: [C-102]
+  - name: Triggering
+    concepts: [C-098]
+  - name: Flow
+    concepts: [C-097]
+  - name: Specialization
+    concepts: [C-063]
+  - name: Association
+    concepts: [C-099]
+  - name: Junction
+    unmapped: true
+    reason: >-
+      a diagram connector joining several relationships in one view, not
+      itself an element-to-element relation the store models
+
+unmapped-concepts:
+  - id: C-182
+    reason: >-
+      tillstånd (ADR 0024) is the state a verksamhetsobjekt is in, drawn in a
+      state view; ArchiMate has no state element, the state goes into a
+      Business Object's name or a Business Event
+  - id: C-178
+    reason: >-
+      beslutslogik (ADR 0022) is DMN's Decision, the reusable rule by which
+      an outcome is determined from inputs; ArchiMate has no element for
+      decision logic, and the logic is drawn in DMN, not exported
+  - id: C-165
+    reason: >-
+      a lagringsyta is the place an application keeps representations; ArchiMate has no element for a storage place, Artifact and Node sit in the technology layer
+  - id: C-007
+    reason: >-
+      the store's own architecture-object type for the enterprise as a
+      whole (ISO 42010 scoping); ArchiMate's core has no element for
+      architecture-object scope
+  - id: C-008
+    reason: >-
+      the store's own architecture-object type for a domain (ISO 42010
+      scoping); ArchiMate's core has no element for architecture-object
+      scope
+  - id: C-009
+    reason: >-
+      the store's own architecture-object type for a development domain
+      (ISO 42010 scoping); ArchiMate's core has no element for
+      architecture-object scope
+  - id: C-010
+    reason: >-
+      the store's own architecture-object type for a production domain
+      (ISO 42010 scoping); ArchiMate's core has no element for
+      architecture-object scope
+  - id: C-055
+    reason: >-
+      the store's own architecture-object type for a solution (ISO 42010
+      scoping); ArchiMate's core has no element for architecture-object
+      scope
+  - id: C-069
+    reason: >-
+      capability sits in ArchiMate's Strategy layer, outside the 3.2 core
+      this table covers
+  - id: C-012
+    reason: >-
+      an initiativ is ArchiMate's Work Package, which sits in the
+      Implementation and Migration layer, outside the 3.2 core this table
+      covers
+  - id: C-011
+    reason: >-
+      a portfölj is a set of initiatives and products prioritised and funded
+      together; ArchiMate has no portfolio element, Grouping comes nearest and
+      is a composite, not a type (ADR 0019)
+  - id: C-016
+    reason: >-
+      a document or artefact that carries styrmedel or ändamål; ArchiMate's
+      motivation elements have no element for the carrier of a motivation, and
+      as a data carrier it is an Artifact (C-081), which the table already maps
+  - id: C-019
+    reason: >-
+      the alternative chosen in a single matter; ArchiMate has no decision
+      element in its core or its motivation elements
+  - id: C-020
+    reason: >-
+      a binary statement of what is to be done or not done; ArchiMate's
+      Constraint restricts how a system may be realised and is not the same
+      thing, and ArchiMate has no element that tests an action against a rule
+  - id: C-022
+    reason: >-
+      the purpose the business is to serve, given with the uppdrag and
+      outliving the management; it is not a Goal, which is a state the
+      management chose for the styrobjekt to reach or hold (C-017), and not a
+      Driver, which is the påverkan (C-184) the purpose is read out of (ADR
+      0025)
+  - id: C-064
+    reason: >-
+      provenance relation for governance objects (a decision derived from
+      a principle); no ArchiMate core relationship names this
+  - id: C-065
+    reason: >-
+      a description referencing the object it describes; no ArchiMate
+      core relationship names this
+  - id: C-103
+    reason: >-
+      refinement between governance objects at different levels of
+      generality (a rule refining a principle); no ArchiMate core
+      relationship maps to it precisely enough without guessing
+  - id: C-104
+    reason: >-
+      the store's own relation type for one architecture element taking
+      another's place (a replacement in a target or transition); no
+      ArchiMate core relationship names this
+  - id: C-105
+    reason: >-
+      the store's own comparison of two architecture descriptions; a
+      gap analysis is a document, not an ArchiMate core element or
+      relationship
+  - id: C-106
+    reason: >-
+      a drawing made in a tool that shows parts of architecture views;
+      ArchiMate's core has no element for a drawing of a model
+  - id: C-107
+    reason: >-
+      an investigation that establishes the current architecture; a
+      survey is work done, not an ArchiMate core element or relationship
+  - id: C-145
+    reason: >-
+      ArchiMate's core has no element for a group of people the organisation
+      exists for; the nearest, Stakeholder, sits in the Motivation layer
+      outside the 3.2 core this table covers, and stands for someone with a
+      concern, not a group with a need
+  - id: C-146
+    reason: >-
+      ArchiMate's core has no element for what people are trying to achieve;
+      Driver has no row in this table, because no governance type maps to
+      it, and Goal is mapped to C-017; both name the organisation's own aims,
+      not the people's
+  - id: C-147
+    reason: >-
+      ArchiMate's core has no element for a course of events in people's lives
+      that runs across organisations; a Business Process is what an
+      organisation does, which a journey is not
+  - id: C-148
+    reason: >-
+      ArchiMate's Value sits in the Motivation layer outside the 3.2 core this
+      table covers, and stands for what a stakeholder gains, not for a promise
+      aimed at one target group or actor; mapping it would blur the two
+  - id: C-151
+    reason: >-
+      no ArchiMate core relationship says that a group of people has a need;
+      Association is already held by C-099 and says nothing about direction or
+      meaning
+  - id: C-152
+    reason: >-
+      no ArchiMate core relationship says that a value proposition is aimed at
+      a target group or actor; Association is already held by C-099
+  - id: C-153
+    reason: >-
+      no ArchiMate core relationship says that a value proposition meets a
+      need; Association is already held by C-099 and Realization (C-094) says
+      that something is made real, not that it helps
+  - id: C-154
+    reason: >-
+      no ArchiMate core relationship says that a product is delivered to an
+      actor; Serving (C-095) runs between behaviour and what it serves, not
+      from a product to its receiver, and Association is already held by C-099
+  - id: C-155
+    reason: >-
+      no ArchiMate core relationship says that an actor supplies something an
+      architecture object needs; Association is already held by C-099 and
+      Assignment (C-096) says who performs, not who supplies
+  - id: C-156
+    reason: >-
+      a forum is the store's own specialisation of verksamhetssamverkan
+      (C-141); Business Collaboration imports as C-141, and a forum is typed
+      by hand
+  - id: C-183
+    reason: >-
+      fastställs av (ADR 0023) says who decided or adopted a bärare or a
+      styrmedel, SBVR's business jurisdiction; no ArchiMate core or
+      motivation relationship says who decided a motivation element, and
+      Association is already held by C-099
+  - id: C-190
+    reason: >-
+      värdeström (ADR 0027) is the set of stages that build up the value a
+      värdeerbjudande promises, BACM's ValueStream; ArchiMate's Value Stream
+      lies in the strategy layer outside the core this table covers

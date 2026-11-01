@@ -7,7 +7,8 @@ Repot är tomt tills katalogen flyttat in. Till dess är frågor och invändning
 ## Vad som kommer
 
 - `concepts/`: begreppen, en fil per begrepp, med term, definition, typ och begreppsrelationer.
-- `mapping/`: tabeller som säger vilket begrepp varje typ i ArchiMate, ARIS, BPMN, CMMN, DMN, SBVR och SDMN motsvarar.
+- `mapping/`: tabeller som säger vilket begrepp varje typ i ArchiMate, ARIS, BACM, BMM, BPMN, CMMN, DMN, SBVR och SDMN motsvarar.
+- `layout/`: ritningarna, begreppsmodeller och scheman som draw.io-filer, redigerbara.
 - Besluten bakom katalogen: varför ett begrepp finns, var gränsen mot grannen går och vad som valdes bort.
 - Två exempelorganisationer som alla exempel utgår från: en påhittad statlig myndighet och ett påhittat kommunalt bostadsbolag.
 

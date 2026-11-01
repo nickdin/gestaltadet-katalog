@@ -1,0 +1,136 @@
+# SDMN 1.0 type-mapping table (ADR 0024).
+#
+# One row per SDMN building block the store meets, in `archimate.yaml`'s
+# format; `check` does not validate this table yet (interlingua #901). SDMN
+# (Shared Data Model and Notation) is the data model BPMN, CMMN and DMN
+# share: one DataItem that is at once BPMN's Data Object, CMMN's Case File
+# Item and DMN's Input Data, with its structure in an ItemDefinition. The
+# store is that shared data model (ADR 0024): a DataItem is an
+# informationsobjekt, and a BPM+ tool that is taken in gets its data elements
+# from the store's informationsobjekt, not the other way round. SDMN has no
+# notion of state; a verksamhetsobjekt's tillstånd (C-182) is the behaviour
+# side's and has no row.
+
+elements:
+  - name: SharedDataModel
+    unmapped: true
+    reason: the store itself, its informationsobjekt with their relations
+  # The shared data element: the information side that a process, a case and
+  # a decision all use. The verksamhetsobjekt (C-159) it realiserar is what
+  # the behaviour hands on and is drawn in BPMN and CMMN (bpmn.yaml,
+  # cmmn.yaml), so the store keeps ArchiMate's split where SDMN sees one thing.
+  - name: DataItem
+    concepts: [C-060]
+  # The structure of a DataItem: the informationsobjekt's inside, its uppgifter
+  # (C-161), listed on the element and drawn inside the box (interlingua #906);
+  # a structure several informationsobjekt share is an informationsobjekt they
+  # specialiserar (C-063) or aggregerar (C-100). Same reading as dmn.yaml.
+  - name: ItemDefinition
+    concepts: [C-060]
+    doubtful: true
+  - name: ItemComponent
+    unmapped: true
+    reason: >-
+      a field of the structure is an uppgift (C-161), a concept and no element;
+      a row in the informationsobjekt's list, pointing at its concept
+  # The link from a data element to its "external source of truth": the
+  # element → concept link interlingua #905 proposes, the catalogue being that
+  # source.
+  - name: conceptReference
+    unmapped: true
+    reason: the link from an element to the catalogue concept it is named after (interlingua #905)
+  - name: ItemKind Information
+    concepts: [C-060]
+  - name: ItemKind Document
+    concepts: [C-085]
+  - name: ItemKind Folder
+    concepts: [C-165]
+  # A physical thing in a process: a printed form or a paper file carries
+  # information and is a representation (C-085); a thing without an
+  # information side, an aid sent out, is a verksamhetsobjekt (C-159).
+  - name: ItemKind Physical
+    concepts: [C-085, C-159]
+  - name: ItemKind Conceptual
+    unmapped: true
+    reason: a concept in the catalogue that no element is named after; "concepts in the minds of users that are important for tasks or decisions" are the catalogue's business
+  - name: ItemKind Relationship
+    unmapped: true
+    reason: a CMIS relationship between documents; the relation between two representations (C-085), no element
+  - name: ItemKind UMLClass
+    unmapped: true
+    reason: the format of a structure, text in the informationsobjekt's description if needed at all
+  - name: ItemKind WSDLMessage
+    unmapped: true
+    reason: as UMLClass
+  - name: ItemKind XSDComplexType
+    unmapped: true
+    reason: as UMLClass
+  - name: ItemKind XSDElement
+    unmapped: true
+    reason: as UMLClass
+  - name: ItemKind XSDSimpleType
+    unmapped: true
+    reason: as UMLClass
+  - name: ItemKind Unknown
+    unmapped: true
+    reason: no kind said; nothing to map
+  - name: ItemKind Unspecified
+    unmapped: true
+    reason: as Unknown
+  # Many of the same: a sammanställning only when the business handles the
+  # collection as a unit for a purpose (the list of everyone in an exposed
+  # role); otherwise the many end of the relation between informationsobjekt
+  # (ADR 0023, interlingua #904).
+  - name: isCollection
+    concepts: [C-162]
+  - name: multiplicityKind
+    unmapped: true
+    reason: multiplicity stands on the relation between informationsobjekt, per end (ADR 0023, interlingua #904), not on the element
+  - name: preAssignment
+    unmapped: true
+    reason: values of an instance, the systems' data, never in the store
+  - name: Assignment
+    unmapped: true
+    reason: as preAssignment
+  - name: Text Annotation
+    unmapped: true
+    reason: an element's or a relation's description
+  - name: Group
+    unmapped: true
+    reason: a view's arrangement, nothing of its own
+
+relationships:
+  # The part dies with the whole: the exclusive part.
+  - name: CompositionConnector
+    concepts: [C-062]
+  # The part exists on its own and may be pointed at from several: the shared
+  # part, as ADR 0023 reads a field that sits in many objects.
+  - name: ReferenceConnector
+    concepts: [C-100]
+  # A folder or a physical container holds something: the lagringsyta (C-165)
+  # aggregerar the representations (C-085) that lie on it, the convention
+  # written into both concepts by ADR 0024.
+  - name: ContainmentConnector
+    concepts: [C-100]
+  - name: DataAssociation
+    unmapped: true
+    reason: >-
+      copying data from one informationsobjekt to another, with a
+      transformation, is a behaviour that har åtkomst till (C-101) both; no
+      relation between the two objects
+
+unmapped-concepts:
+  - id: C-159
+    reason: >-
+      the behaviour side of what SDMN sees as one DataItem: what a process or
+      a handläggning hands on, drawn in BPMN and CMMN; its information side is
+      the informationsobjekt the DataItem row maps
+  - id: C-182
+    reason: >-
+      SDMN has no state; BPMN's dataState and CMMN's Case File Item lifecycle
+      stay on the behaviour side, which is why the tillstånd is the
+      verksamhetsobjekt's (ADR 0024)
+  - id: C-161
+    reason: >-
+      an uppgift is a concept and no element; it is reached through the
+      ItemComponent row

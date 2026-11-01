@@ -1,0 +1,57 @@
+# DMN 1.7 type-mapping table (ADR 0022).
+#
+# One row per DMN building block the store meets, in `archimate.yaml`'s
+# format; `check` does not validate this table yet (interlingua issue). DMN
+# draws decision logic; the store has one type for it, beslutslogik (C-178),
+# and expresses the rest of DMN's requirements diagram with relations.
+
+elements:
+  - name: Decision
+    concepts: [C-178]
+  # A Business Knowledge Model is reusable decision knowledge with no context
+  # of its own: a beslutslogik that another beslutslogik använder (C-095).
+  - name: Business Knowledge Model
+    concepts: [C-178]
+    doubtful: true
+  # A Decision Service is the logic run as a service: an applikationstjänst
+  # (C-128) that realiserar (C-094) the beslutslogik.
+  - name: Decision Service
+    concepts: [C-128]
+    doubtful: true
+  - name: Input Data
+    concepts: [C-060]
+  # A Knowledge Source is the authority behind the logic: the regel (C-020)
+  # or extern påverkan (C-029) the beslutslogik härleds ur (C-064).
+  - name: Knowledge Source
+    concepts: [C-020, C-029]
+    doubtful: true
+  - name: Decision Table
+    unmapped: true
+    reason: >-
+      the inside of a beslutslogik (C-178), drawn in DMN; the store names the
+      logic, not its table
+  - name: Boxed Expression
+    unmapped: true
+    reason: as Decision Table
+  - name: Item Definition
+    concepts: [C-060]
+    doubtful: true  # the information model of an input or output, an informationsobjekt
+  - name: Group
+    unmapped: true
+    reason: a diagram grouping, not an element
+  - name: Text Annotation
+    unmapped: true
+    reason: a diagram note, not an element
+
+relationships:
+  - name: Information Requirement
+    concepts: [C-101]
+    doubtful: true  # from a decision to its input data; between two decisions it is använder (C-095)
+  - name: Knowledge Requirement
+    concepts: [C-095]
+  - name: Authority Requirement
+    concepts: [C-064]
+  - name: Association
+    concepts: [C-099]
+
+unmapped-concepts: []

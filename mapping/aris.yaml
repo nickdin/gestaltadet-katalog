@@ -1,0 +1,342 @@
+# ARIS AML type-mapping table (interlingua #10), built against the AML
+# interface and community-documented ARIS type codes, no licensed real export
+# seen — see interlingua's tests/fixtures/aml/README.md and the closing comment
+# of interlingua #10 for what a real licensed export must be checked against
+# before this table is trusted.
+#
+# Same shape as mapping/archimate.yaml (interlingua #5), read and validated the same
+# way (`check/mapping_rules.py:check_aris_mapping`), independently: this
+# table names every metamodel concept it knows about, mapped or explicitly
+# `unmapped-concepts`, on its own — a concept archimate.yaml covers is
+# still named here too, since the two tables are validated separately.
+#
+# `elements` rows key on an ARIS `TypeNum` (an ObjDef's type, e.g.
+# `OT_FUNC`); `relationships` rows key on a `CxnDef.Type` (an ARIS
+# connection, kept under the schema's existing section name). `doubtful: true`
+# marks every row here, without exception: none of these ARIS type codes
+# was checked against a licensed export this session, only against public
+# ARIS community references (ariscommunity.com threads) that confirm the
+# `OT_`/`CT_`/`AT_` naming convention and a few exact codes (`OT_ORG_UNIT`
+# is community-confirmed as ARIS's type 43; `AT_NAME`/`AT_DESC` and
+# `CT_IS_A` likewise) — the others follow the same convention but are this
+# worker's best-effort reading of the documented structure, not a
+# verified string. `mapping/archimate.yaml` carries no such
+# caveat; this table does, on every row.
+#
+# ARIS's classic EPC/organisation notation has no equivalent at all for
+# most of interlingua's ArchiMate-derived technology- and business-layer
+# concepts (there is no ArchiMate-style layering in ARIS to begin with),
+# so most of the catalogue's metamodel concepts are named under
+# `unmapped-concepts:` rather than mapped — that is a real property of
+# ARIS's vocabulary, not a shortfall of this table.
+#
+# Every type belongs to exactly one perspective (ADR 0008), so this table
+# names the per-perspective types and not the family concepts they
+# specialise. OT_EVT is mapped to verksamhetshändelse (C-135), the one event
+# type of the verksamhet perspective, which is where an EPC event belongs.
+# OT_FUNC maps to verksamhetsaktivitet (C-175, ADR 0022): an EPC function is
+# a step in a process, not a running function (C-158), and since ADR 0022 the
+# step is a type of its own. EPC's rule nodes (and, or, xor) have no row: a
+# branching is an activity that uses a beslutslogik with several outgoing
+# utlöser relations, not an element.
+
+elements:
+  - name: OT_FUNC
+    concepts: [C-175]
+    doubtful: true
+  - name: OT_EVT
+    concepts: [C-135]
+    doubtful: true
+  - name: OT_ORG_UNIT
+    concepts: [C-073]
+    doubtful: true
+  - name: OT_APPL_SYS_TYPE
+    concepts: [C-071]
+    doubtful: true
+  - name: OT_IT_SYSTEM
+    concepts: [C-072]
+    doubtful: true
+
+relationships:
+  - name: CT_IS_A
+    concepts: [C-063]
+    doubtful: true
+
+unmapped-concepts:
+  - id: C-182
+    reason: >-
+      tillstånd (ADR 0024) is the state a verksamhetsobjekt is in; ARIS's EPC
+      has events, not states of an object, and no object type was confirmed
+  - id: C-176
+    reason: >-
+      an applikationsaktivitet (ADR 0022) is a step inside an application's
+      own process; ARIS's OT_FUNC is the business step, so no ARIS object
+      type names it
+  - id: C-177
+    reason: >-
+      a teknikaktivitet (ADR 0022) is a step inside a technical resource's
+      own process; no ARIS object type names it
+  - id: C-178
+    reason: >-
+      beslutslogik (ADR 0022) is DMN's Decision; ARIS has rule objects for
+      EPC branching, not for reusable decision logic, and none was confirmed
+  - id: C-167
+    reason: >-
+      an informationsägare is a roll with a responsibility; no ARIS object type
+      for a role was confirmed this session, see C-074
+  - id: C-165
+    reason: >-
+      a lagringsyta is the place an application keeps representations; no ARIS object type for a storage place was confirmed this session
+  - id: C-007
+    reason: >-
+      the store's own architecture-object type for the enterprise as a
+      whole; no ARIS object type names architecture scope itself
+  - id: C-008
+    reason: >-
+      the store's own architecture-object type for a domain; no ARIS object
+      type names architecture scope itself
+  - id: C-009
+    reason: >-
+      the store's own architecture-object type for a development domain; no
+      ARIS object type names architecture scope itself
+  - id: C-010
+    reason: >-
+      the store's own architecture-object type for a production domain; no
+      ARIS object type names architecture scope itself
+  - id: C-014
+    reason: >-
+      no ARIS product object type confirmed this session
+  - id: C-055
+    reason: >-
+      the store's own architecture-object type for a solution; no ARIS
+      object type names architecture scope itself
+  - id: C-060
+    reason: >-
+      ARIS models data as a cluster/information-carrier object, but no
+      TypeNum for it was confirmed this session; check a real export for the
+      team's own data-object type
+  - id: C-159
+    reason: >-
+      the verksamhetsobjekt (ADR 0016) would be ARIS's business-object or
+      information-carrier object, but no TypeNum for it was confirmed; check
+      a real export
+  - id: C-160
+    reason: >-
+      a handläggning (ADR 0017) chooses its steps along the way; ARIS models
+      a process as an EPC diagram with a fixed order of functions, so no ARIS
+      object type names it
+  - id: C-158
+    reason: >-
+      a verksamhetsfunktion (ADR 0015) is running work without start or end;
+      ARIS's OT_FUNC is a step in a process, so no ARIS object type names
+      it
+  - id: C-062
+    reason: >-
+      no ARIS composition connection type confirmed this session
+  - id: C-064
+    reason: >-
+      no ARIS derivation connection type confirmed this session
+  - id: C-065
+    reason: >-
+      no ARIS description-reference connection type confirmed this session
+  - id: C-069
+    reason: >-
+      capability is a strategy-level concept; classic ARIS EPC/organisation
+      notation has no object type for it
+  - id: C-012
+    reason: >-
+      an initiativ (project, work package) has no object type in classic
+      ARIS EPC/organisation notation confirmed this session
+  - id: C-011
+    reason: >-
+      a portfölj (a set of initiatives and products prioritised and funded
+      together) has no ARIS object type confirmed; ADR 0019
+  - id: C-074
+    reason: >-
+      no ARIS object type confirmed for a role distinct from an
+      organisational unit or a position this session
+  - id: C-079
+    reason: >-
+      no ARIS infrastructure/node object type confirmed this session
+  - id: C-080
+    reason: >-
+      no ARIS infrastructure/device object type confirmed this session
+  - id: C-081
+    reason: >-
+      no ARIS artefact object type confirmed this session
+  - id: C-084
+    reason: >-
+      no ARIS contract object type confirmed this session
+  - id: C-085
+    reason: >-
+      no ARIS representation object type confirmed this session
+  - id: C-087
+    reason: >-
+      no ARIS system-software object type confirmed this session
+  - id: C-088
+    reason: >-
+      no ARIS communication-network object type confirmed this session
+  - id: C-089
+    reason: >-
+      no ARIS path object type confirmed this session
+  - id: C-090
+    reason: >-
+      no ARIS equipment object type confirmed this session
+  - id: C-091
+    reason: >-
+      no ARIS facility object type confirmed this session
+  - id: C-092
+    reason: >-
+      no ARIS distribution-network object type confirmed this session
+  - id: C-093
+    reason: >-
+      no ARIS material object type confirmed this session
+  - id: C-094
+    reason: >-
+      no ARIS realisation connection type confirmed this session
+  - id: C-095
+    reason: >-
+      no ARIS dependency connection type confirmed this session
+  - id: C-096
+    reason: >-
+      no ARIS assignment connection type confirmed this session
+  - id: C-097
+    reason: >-
+      no ARIS flow connection type confirmed this session
+  - id: C-098
+    reason: >-
+      expected to exist (event triggers function is core to EPC), but no
+      CxnDef.Type was confirmed this session; deliberately left unmapped —
+      see the closing comment of interlingua #10
+  - id: C-099
+    reason: >-
+      no ARIS association connection type confirmed this session
+  - id: C-100
+    reason: >-
+      no ARIS aggregation connection type confirmed this session
+  - id: C-101
+    reason: >-
+      no ARIS access connection type confirmed this session
+  - id: C-102
+    reason: >-
+      no ARIS influence connection type confirmed this session
+  - id: C-103
+    reason: >-
+      no ARIS refinement connection type confirmed this session
+  - id: C-104
+    reason: >-
+      no ARIS replacement connection type confirmed this session
+  - id: C-127
+    reason: >-
+      classic ARIS EPC notation has no first-class service object type
+  - id: C-128
+    reason: >-
+      classic ARIS EPC notation has no first-class service object type
+  - id: C-129
+    reason: >-
+      classic ARIS EPC notation has no first-class service object type
+  - id: C-130
+    reason: >-
+      ARIS models a process as an EPC diagram (a Model), not as an object
+      type of its own — the process is the model, not an ObjDef
+  - id: C-131
+    reason: >-
+      ARIS models a process as an EPC diagram (a Model), not as an object
+      type of its own — the process is the model, not an ObjDef
+  - id: C-132
+    reason: >-
+      ARIS models a process as an EPC diagram (a Model), not as an object
+      type of its own — the process is the model, not an ObjDef
+  - id: C-133
+    reason: >-
+      no ARIS object type confirmed this session for what an application
+      does; ARIS's function (OT_FUNC) is a step in a business process, a
+      verksamhetsaktivitet (C-175), never an application's
+  - id: C-134
+    reason: >-
+      no ARIS object type confirmed this session for what a technical
+      resource does; ARIS's function (OT_FUNC) is a step in a process, which
+      this catalogue calls an activity (C-126), a concept and not a type
+  - id: C-136
+    reason: >-
+      no ARIS application-event object type confirmed this session
+  - id: C-137
+    reason: >-
+      no ARIS technology-event object type confirmed this session
+  - id: C-138
+    reason: >-
+      classic ARIS EPC notation has no first-class interface object type
+  - id: C-139
+    reason: >-
+      classic ARIS EPC notation has no first-class interface object type
+  - id: C-140
+    reason: >-
+      classic ARIS EPC notation has no first-class interface object type
+  - id: C-141
+    reason: >-
+      no ARIS collaboration object type confirmed this session
+  - id: C-142
+    reason: >-
+      no ARIS collaboration object type confirmed this session
+  - id: C-143
+    reason: >-
+      no ARIS collaboration object type confirmed this session
+  - id: C-145
+    reason: >-
+      no ARIS object type confirmed for a group of people the organisation
+      exists for, distinct from an organisational unit or a person
+  - id: C-146
+    reason: >-
+      no ARIS object type confirmed for what people are trying to achieve; an
+      ARIS objective (OT_OBJECTIVE) names the organisation's own aim
+  - id: C-147
+    reason: >-
+      no ARIS object type confirmed for a course of events in people's lives;
+      an ARIS process is an EPC model of what an organisation does
+  - id: C-148
+    reason: >-
+      no ARIS object type confirmed this session for a promise a product makes
+      to a target group
+  - id: C-151
+    reason: >-
+      no ARIS connection type confirmed this session for a target group having
+      a need
+  - id: C-152
+    reason: >-
+      no ARIS connection type confirmed this session for a value proposition
+      being aimed at a target group or actor
+  - id: C-153
+    reason: >-
+      no ARIS connection type confirmed this session for a value proposition
+      meeting a need
+  - id: C-154
+    reason: >-
+      no ARIS connection type confirmed this session for a product being
+      delivered to an actor
+  - id: C-155
+    reason: >-
+      no ARIS connection type confirmed this session for an actor supplying an
+      architecture object
+  - id: C-156
+    reason: >-
+      no ARIS collaboration object type confirmed this session; a forum is
+      the store's own specialisation of C-141
+  - id: C-183
+    reason: >-
+      no ARIS connection type confirmed this session for who decided or
+      adopted a governance element; fastställs av is the store's own (ADR
+      0023)
+  - id: C-184
+    reason: >-
+      påverkan (ADR 0025) is what can change a styrobjekt's purpose or
+      steering, BMM's Influencer; ARIS has no object type for it that was
+      confirmed, and the table is unconfirmed as a whole
+  - id: C-185
+    reason: >-
+      bedömning (ADR 0025) is the judgement of a påverkan against ends and
+      means, BMM's Assessment; no ARIS object type confirmed
+  - id: C-190
+    reason: >-
+      värdeström (ADR 0027) is the set of stages that build up the value a
+      värdeerbjudande promises, BACM's ValueStream; the value-added chain
+      diagram is the nearest ARIS has, and no object type was confirmed

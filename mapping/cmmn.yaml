@@ -1,0 +1,91 @@
+# CMMN 1.1 type-mapping table (ADR 0022).
+#
+# One row per CMMN building block the store meets, in `archimate.yaml`'s
+# format; `check` does not validate this table yet (interlingua issue). CMMN
+# draws the inside of a case, which the store calls a handläggning (C-160,
+# ADR 0017). Its planning vocabulary (sentries, planning tables, discretion)
+# lands on relations and text, said per row.
+
+elements:
+  - name: Case
+    concepts: [C-160]
+  - name: Case Plan Model
+    concepts: [C-160]
+    doubtful: true  # the plan is the handläggning's description, not a second element
+  # A Stage is a way of nesting: with a fixed order of steps it is a
+  # verksamhetsprocess the handläggning rymmer, with steps chosen along the way
+  # a handläggning inside the handläggning, and without that weight a heading
+  # in the description (C-160, anmärkning).
+  - name: Stage
+    concepts: [C-130, C-160]
+    doubtful: true
+  # A Task is the store's activity, the same building block as BPMN's Task;
+  # CMMN's task kinds are read from the activity's relations.
+  - name: Task
+    concepts: [C-175]
+  - name: Human Task
+    concepts: [C-175]
+    doubtful: true  # a verksamhetsaktivitet that a roll (C-074) is tilldelas (C-096)
+  - name: Process Task
+    concepts: [C-175]
+    doubtful: true  # a verksamhetsaktivitet that utlöser (C-098) a verksamhetsprocess (C-130)
+  - name: Case Task
+    concepts: [C-175]
+    doubtful: true  # a verksamhetsaktivitet that utlöser (C-098) another handläggning (C-160)
+  - name: Decision Task
+    concepts: [C-175]
+    doubtful: true  # a verksamhetsaktivitet that använder (C-095) a beslutslogik (C-178)
+  # A Milestone is an achievable target with no work of its own: the
+  # verksamhetshändelse the handläggning or a part of it utlöser when done;
+  # the tillstånd (C-182) reached is read from the event's name.
+  - name: Milestone
+    concepts: [C-135]
+    doubtful: true
+  - name: Event Listener
+    concepts: [C-135]
+  - name: Timer Event Listener
+    concepts: [C-135]
+    doubtful: true  # the timer is text in the event's description
+  - name: User Event Listener
+    concepts: [C-135]
+    doubtful: true
+  - name: Case File
+    concepts: [C-159]
+    doubtful: true  # the ärende as a whole, the verksamhetsobjekt the handläggning has access to
+  - name: Case File Item
+    concepts: [C-159]
+    doubtful: true  # the information side is an informationsobjekt (C-060) that realiserar it; SDMN's DataItem is that side (sdmn.yaml); the item's lifecycle is a tillstånd (C-182, ADR 0024)
+  - name: Case Role
+    concepts: [C-074]
+  - name: Sentry
+    unmapped: true
+    reason: >-
+      an entry criterion is the utlöser (C-098) relation into the step, with
+      the condition in the relation's description; an exit criterion is the
+      verksamhetshändelse (C-135) the step utlöser when done (ADR 0022)
+  - name: Planning Table
+    unmapped: true
+    reason: >-
+      the set of steps the case worker may choose: in the store, every
+      activity the handläggning aggregerar (C-100) that no utlöser relation
+      points at is discretionary (ADR 0022)
+  - name: Discretionary Item
+    unmapped: true
+    reason: as Planning Table
+  - name: Plan Fragment
+    unmapped: true
+    reason: >-
+      a reusable piece of plan; the store names the process or handläggning
+      it would be and lets the handläggning rymma it
+
+relationships:
+  - name: Entry Criterion (on-part)
+    concepts: [C-098]
+    doubtful: true
+  - name: Case File Item On-Part
+    concepts: [C-101]
+    doubtful: true
+  - name: Association
+    concepts: [C-099]
+
+unmapped-concepts: []

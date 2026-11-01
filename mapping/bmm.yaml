@@ -1,0 +1,237 @@
+# Business Motivation Model 1.3 type-mapping table (ADR 0025).
+#
+# One row per BMM concept and association the store meets, in
+# `archimate.yaml`'s format; `check` does not validate this table yet
+# (interlingua #901). BMM (OMG) is the model of the why: Ends (what the
+# enterprise wants to be), Means (what it has decided to do and the
+# directives that govern it), Influencers (what can change either) and
+# Assessments (the judgement of an influencer against ends and means).
+# Business Rule, Business Process, Organization Unit and Asset are BMM's
+# placeholders for concepts defined elsewhere (SBVR, BPMN, the
+# organisation's own structure).
+#
+# The store's reading: BMM is written from a company that chooses its own
+# ends and means. The catalogue separates what a thing is from who decides
+# it, so BMM's Mission is an uppdrag whoever sets it, and no row is doubtful
+# for that reason alone. What BMM lacks is the end that comes with the
+# uppdrag and outlives the management: ändamål (C-022), the catalogue's
+# addition, named under `unmapped-concepts`. BMM's three Ends are three
+# levels of one type, mål (C-017), told apart by förfinar (C-103); its
+# Courses of Action are styrbeslut (C-019), the chosen path, not the
+# initiativ that carries it out; Influencer and Assessment are the
+# governance types påverkan (C-184) and bedömning (C-185).
+
+elements:
+  # Ends. Vision, Goal and Objective are vision (C-187), verksamhetsmål
+  # (C-169) and effektmål (C-170), each a concept registered as an element
+  # of type mål, the narrower one förfinar the broader (ADR 0019, ADR 0025).
+  - name: End
+    concepts: [C-017]
+  - name: Vision
+    concepts: [C-017]
+  - name: Desired Result
+    concepts: [C-017]
+  - name: Goal
+    concepts: [C-017]
+  - name: Objective
+    concepts: [C-017]
+  - name: Desired Result Category
+    unmapped: true
+    reason: >-
+      the catalogue's sorts of mål, verksamhetsmål and effektmål, are concepts
+      with generic to C-017; a category of an enterprise's own making is text
+  # Means
+  - name: Means
+    unmapped: true
+    reason: >-
+      the family of mission, course of action and directive; no concept of
+      the store gathers an uppdrag, a styrbeslut and a styrmedel
+  # The ongoing operational activity, whoever sets it: the government in an
+  # instruktion, the owner in a bolagsordning, the company itself (ADR 0025).
+  - name: Mission
+    concepts: [C-149]
+  # The chosen way of configuring the enterprise, not the work that carries
+  # it out (initiativ, C-012) and not the process that realises it. Strategy
+  # and Tactic differ in breadth, not in kind; the narrower förfinar the
+  # broader, and a coherent set of them is a strategi (C-188).
+  - name: Course of Action
+    concepts: [C-019]
+  - name: Strategy
+    concepts: [C-019]
+  - name: Tactic
+    concepts: [C-019]
+  - name: Directive
+    concepts: [C-015]
+    doubtful: true  # the family styrmedel, never itself a type: a directive is a princip or a regel
+  - name: Business Policy
+    concepts: [C-018]
+  # Adopted from SBVR; a krav (C-021) is a kind of regel since ADR 0023.
+  - name: Business Rule
+    concepts: [C-020]
+  - name: Business Rule Enforcement Level
+    unmapped: true
+    reason: how hard a rule is enforced is text in the regel (ADR 0023)
+  # A directive of one level acting as law for the level below: the intern
+  # påverkan (C-030) a level's styrmedel are for the level under it, and the
+  # bärare (C-016) that carries a higher level's rules.
+  - name: Regulation
+    concepts: [C-016, C-030]
+  # Influencers. External and Internal are sorts of påverkan (C-184),
+  # measured from the organisation's boundary; BMM's example categories map
+  # to the store's concepts where one exists, else they are text.
+  - name: Influencer
+    concepts: [C-184]
+  - name: External Influencer
+    concepts: [C-184]
+  - name: Internal Influencer
+    concepts: [C-184]
+  - name: Influencer Category
+    unmapped: true
+    reason: text on the påverkan; the two built-in categories are the concepts extern påverkan (C-029) and intern påverkan (C-030)
+  - name: Influencing Organization
+    concepts: [C-073]
+  - name: Organization Category
+    unmapped: true
+    reason: text on the aktör
+  - name: Corporate Value
+    concepts: [C-026]
+  - name: Resource
+    concepts: [C-122]
+  - name: Management Prerogative
+    concepts: [C-189]
+  # Assessments
+  - name: Assessment
+    concepts: [C-185]
+  - name: Assessment Category
+    unmapped: true
+    reason: strength, weakness, opportunity and threat are words in the bedömning's text, not concepts
+  # One word, risk (C-186), for both sides of the potential impact, following
+  # ISO 31000's effect of uncertainty on objectives; which side is text.
+  - name: Potential Impact
+    concepts: [C-186]
+  - name: Risk
+    concepts: [C-186]
+  - name: Potential Reward
+    concepts: [C-186]
+  # Placeholders
+  - name: Organization Unit
+    concepts: [C-073]
+  - name: Business Process
+    concepts: [C-130]
+  - name: Asset
+    concepts: [C-122]
+  - name: Fixed Asset
+    concepts: [C-122]
+  - name: Offering
+    concepts: [C-014]
+  - name: Liability
+    unmapped: true
+    reason: a reservation of resources to meet commitments is the accounting's, not the architecture's
+
+relationships:
+  # Provenance: the derived element points at what motivates it.
+  - name: Business Rule is derived from Business Policy
+    concepts: [C-064]
+  - name: Directive is motivated by Assessment
+    concepts: [C-064]
+  - name: Directive is motivated by Potential Impact
+    concepts: [C-064]
+  - name: Assessment judges Influencer
+    concepts: [C-064]
+  - name: Course of Action is formulated based on Directive
+    concepts: [C-064]
+  # Influence: what moves a goal or a means.
+  - name: Assessment affects achievement of End
+    concepts: [C-102]
+  - name: Assessment affects employment of Means
+    concepts: [C-102]
+  - name: Course of Action channels efforts towards Desired Result
+    concepts: [C-102]
+  - name: Directive supports achievement of Desired Result
+    concepts: [C-102]
+  # Refinement: the narrower refines the broader, at every level of ends,
+  # courses of action and policies (ADR 0019).
+  - name: Objective quantifies Goal
+    concepts: [C-103]
+  - name: Goal amplifies Vision
+    concepts: [C-103]
+  - name: Tactic implements Strategy
+    concepts: [C-103]
+  - name: Desired Result includes Desired Result
+    concepts: [C-103]
+  - name: Course of Action includes Course of Action
+    concepts: [C-103]
+  - name: Business Policy includes Business Policy
+    concepts: [C-103]
+  - name: Business Process realizes Course of Action
+    concepts: [C-094]
+  # Who defined, established, assessed or recognised: fastställs av on the
+  # bärare they stand in (ADR 0023).
+  - name: Organization Unit defines End
+    concepts: [C-183]
+  - name: Organization Unit establishes Means
+    concepts: [C-183]
+  - name: Organization Unit makes Assessment
+    concepts: [C-183]
+  - name: Organization Unit recognizes Influencer
+    concepts: [C-183]
+  - name: Organization Unit is responsible for Business Process
+    concepts: [C-096]
+  - name: Directive governs Course of Action
+    unmapped: true
+    reason: >-
+      a styrmedel applies by being listed in the accepted description of the
+      styrobjekt (ADR 0019); no arrow between a styrmedel and what it governs
+  - name: Business Policy governs Business Process
+    unmapped: true
+    reason: as Directive governs Course of Action
+  - name: Business Rule guides Business Process
+    unmapped: true
+    reason: as Directive governs Course of Action
+  - name: Course of Action enables Course of Action
+    unmapped: true
+    reason: text in the styrbeslut that is enabled
+  - name: Influencer has source Influencing Organization
+    unmapped: true
+    reason: >-
+      a påverkan in document form is a bärare fastställd av its author; the
+      source of any other påverkan is text in its description
+  - name: Tactic effects enforcement level of Business Rule
+    unmapped: true
+    reason: the enforcement level is text in the regel (ADR 0023)
+  - name: Mission makes Vision operative
+    unmapped: true
+    reason: the uppdrag and the vision stand each on its own; nothing is drawn between them
+  - name: Strategy is component of plan for Mission
+    unmapped: true
+    reason: as Mission makes Vision operative
+  - name: Assessment uses Assessment
+    unmapped: true
+    reason: text in the bedömning, naming the one it builds on
+  - name: Course of Action deploys Asset
+    unmapped: true
+    reason: the accounting's side of resources; text in the styrbeslut if needed at all
+  - name: Course of Action defines Offering
+    unmapped: true
+    reason: as Course of Action deploys Asset
+  - name: Course of Action discharges Liability
+    unmapped: true
+    reason: as Course of Action deploys Asset
+
+unmapped-concepts:
+  - id: C-022
+    reason: >-
+      the end that comes with the uppdrag and outlives the management: for a
+      public body in its instruktion and the law it applies, for a company in
+      its bolagsordning. BMM's Goal is what the management chose, its Mission
+      is the uppdrag, and none of its Ends is given with the uppdrag; the
+      catalogue's addition (ADR 0025)
+  - id: C-021
+    reason: krav is a kind of regel (C-020) since ADR 0023 and is reached through the Business Rule row
+  - id: C-040
+    reason: arkitekturprincip is a kind of princip (C-018) whose styrobjekt is the architecture, reached through the Business Policy row
+  - id: C-016
+    reason: >-
+      the document a styrmedel or an ändamål stands in; BMM has no carrier,
+      and its Regulation row names the bärare only as the law of a higher
+      level

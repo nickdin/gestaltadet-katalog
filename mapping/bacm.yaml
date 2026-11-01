@@ -1,0 +1,484 @@
+# Business Architecture Core Metamodel 1.0 type-mapping table (ADR 0027).
+#
+# One row per BACM metaclass and association the store meets, in
+# `archimate.yaml`'s format; `check` does not validate this table yet
+# (interlingua #901). BACM (OMG, 2024) is the formal metamodel of the
+# store's own domain: six packages, Capability (Capability, Outcome,
+# BusinessObject, InformationItem, roles), Customer (customer, segment,
+# journey, touchpoint, value proposition, value stream), Organization
+# (performer, org unit, system, resource, legal entity, jurisdiction),
+# Process (process, activity), Product (the offerings) and Strategy
+# (strategy model, means, ends, initiative, change), on a BACM_Model
+# package of metamodel scaffolding and an import of SMM for measures.
+#
+# The store's reading: BACM names what the store already has, with one
+# gap, the value stream, which is the element type värdeström (C-190).
+# Capability is verksamhetsförmåga (C-069); CapabilityBehavior is the
+# verksamhetsbeteende (C-157) that realises it and CapabilityImplementation
+# the lösning (C-055). Outcome, the state of an object a capability
+# produces or needs, is tillstånd (C-182), kept outside the object for the
+# same reason the store keeps its tillståndsvy. BusinessObject and
+# InformationItem are verksamhetsobjekt (C-159) and informationsobjekt
+# (C-060): the same two boxes, the line drawn by role rather than by
+# tangibility. The customer package lands on the experience perspective:
+# Customer is målgrupp (C-145), the journey resa (C-147), its stages behov
+# (C-146), the touchpoint verksamhetsgränssnitt (C-138). ValueItem, the
+# offer's answer per need, is svar (C-194), a concept without a type that
+# lives in the värdeerbjudande's text beside hinder (C-192) and vinst
+# (C-193) in the behov's; the fit (ValueCharacteristic) is a measure and
+# waits for a measure concept (ADR 0026). The product package is produkt
+# (C-014), with goods as vara (C-191) and services as verksamhetstjänst
+# (C-127), and what the business buys in as överenskommelse (C-084). The
+# strategy package is BMM's Means and Ends plus Initiative and Change,
+# landing on styrbeslut (C-019), mål (C-017), initiativ (C-012) and
+# verksamhetsförändring (C-172). The scaffolding is the program's, never
+# the catalogue's.
+
+elements:
+  # BACM_Model package: the metamodel's own scaffolding, so that it hangs
+  # together in UML and XMI. The program's concern, never the catalogue's
+  # (ADR 0026).
+  - name: BACMElement
+    unmapped: true
+    reason: metamodel scaffolding, the program's concern
+  - name: BusinessElement
+    unmapped: true
+    reason: metamodel scaffolding, the program's concern
+  - name: BACMEntity
+    unmapped: true
+    reason: metamodel scaffolding, the program's concern
+  - name: BACMPlainEntity
+    unmapped: true
+    reason: metamodel scaffolding, the program's concern
+  - name: BACMRelation
+    unmapped: true
+    reason: metamodel scaffolding, the program's concern
+  - name: BACMBinDirRelation
+    unmapped: true
+    reason: metamodel scaffolding, the program's concern
+  - name: BACMShortcut
+    unmapped: true
+    reason: metamodel scaffolding, the program's concern
+  - name: BACM_Model
+    unmapped: true
+    reason: the root of a BACM model; the store is the root here
+  - name: Annotation
+    unmapped: true
+    reason: tag and value pairs on any element; text in the element
+  - name: ExternalData
+    unmapped: true
+    reason: a link to an external document; text in the element
+  - name: ExternalRelationship
+    unmapped: true
+    reason: a link to an external model; text in the element
+  - name: IRI
+    unmapped: true
+    reason: a data type, the program's concern
+  - name: AbstractAction
+    unmapped: true
+    reason: metamodel scaffolding, disjointness only
+  - name: AbstractResult
+    unmapped: true
+    reason: metamodel scaffolding, disjointness only
+  - name: AbstractThing
+    unmapped: true
+    reason: metamodel scaffolding, disjointness only
+
+  # Capability package
+  - name: AbstractBusinessObject
+    unmapped: true
+    reason: metamodel scaffolding, the union of BusinessObject and InformationItem
+  - name: AbstractCapability
+    unmapped: true
+    reason: metamodel scaffolding, the union of Capability and CapabilityBehavior
+  # The ability to produce an outcome without saying how; the store's
+  # definition says the same.
+  - name: Capability
+    concepts: [C-069]
+  # The behaviour description that delivers a capability, one of several
+  # variants producing the same outcome. BACM lets the same class carry
+  # rules and policies that constrain behaviour; those are styrmedel
+  # (C-015) here.
+  - name: CapabilityBehavior
+    concepts: [C-157]
+  # The collection of resources and performers that implements a
+  # capability; the store's lösning, which realises exactly one (ADR 0020).
+  - name: CapabilityImplementation
+    concepts: [C-055]
+  # The line between the two is drawn by role here, by tangibility in
+  # BACM: an ärende is a verksamhetsobjekt in the store and an
+  # InformationItem in BACM. The rows are not doubtful: the reader from
+  # BACM finds the right box.
+  - name: BusinessObject
+    concepts: [C-159]
+  - name: InformationItem
+    concepts: [C-060]
+  # The state of an object a capability produces or needs, held outside the
+  # object so capabilities can point at it: the store's tillståndsvy
+  # (ADR 0024). The triggering event, an outcome nothing produces, is the
+  # verksamhetshändelse (C-135) that marks the state reached.
+  - name: Outcome
+    concepts: [C-182]
+  - name: PerformerRole
+    concepts: [C-074]
+  - name: ResourceRole
+    unmapped: true
+    reason: >-
+      what may be done with a resource in a behaviour is the använder
+      (C-095) relation from the behaviour to the resurs, not a role
+  - name: Role
+    unmapped: true
+    reason: abstract; only PerformerRole and ResourceRole are instanced
+
+  # Customer package
+  # A customer type or class of customers is a målgrupp; a named partner,
+  # which BACM also calls Customer, is an aktör.
+  - name: Customer
+    concepts: [C-145, C-073]
+  - name: CustomerSegment
+    unmapped: true
+    reason: >-
+      who the people are and what they feel at a stage is text in the
+      målgrupp (C-145) and the behov (C-146)
+  - name: CustomerJourney
+    concepts: [C-147]
+  # A stage, awareness, seeking, acquiring, using, is what the people are
+  # trying to achieve in a situation: the catalogue already divides the
+  # resa into behov.
+  - name: CustomerJourneyStage
+    concepts: [C-146]
+  - name: JSTP
+    unmapped: true
+    reason: metamodel scaffolding, the union of CustomerJourneyStage and Touchpoint
+  - name: Touchpoint
+    concepts: [C-138]
+  - name: ValueCharacteristic
+    unmapped: true
+    reason: >-
+      the fit between offer and need is a measure, and a measure concept
+      waits for SMM (ADR 0026); a behov without a svar is the fit made
+      visible without one
+  # The business's belief that the customer values an outcome: the offer's
+  # answer per need, in the värdeerbjudande's text.
+  - name: ValueItem
+    concepts: [C-194]
+  - name: ValueProposition
+    concepts: [C-148]
+  # A stage is a värdeström too; the whole består av (C-062) its stages,
+  # as ArchiMate composes value streams.
+  - name: ValueStream
+    concepts: [C-190]
+  - name: ValueStreamStage
+    concepts: [C-190]
+  - name: VSVSS
+    unmapped: true
+    reason: metamodel scaffolding, the union of ValueStream and ValueStreamStage
+  - name: Value framework tags
+    unmapped: true
+    reason: >-
+      the tagging framework BACM borrows from MEF, with uses, pains and gains
+      as its example, never becomes concepts; the catalogue's own words are
+      hinder (C-192), vinst (C-193) and svar (C-194)
+
+  # Organization package
+  # BACM's OrgUnit spans organisations and individuals; the store's aktör
+  # does the same, and organisationsenhet (C-121) is a sort reached through
+  # this row.
+  - name: OrgUnit
+    concepts: [C-073]
+  - name: System
+    concepts: [C-071]
+  - name: Performer
+    unmapped: true
+    reason: >-
+      the union of aktör (C-073) and applikation (C-071), which the store
+      keeps in two perspectives; a performer is one or the other
+  - name: LegalEntity
+    concepts: [C-073]
+  # The authority that issues the law. The law itself is a bärare (C-016)
+  # fastställd av that aktör (ADR 0025).
+  - name: Jurisdiction
+    concepts: [C-073]
+  - name: Resource
+    concepts: [C-122]
+  - name: theBusiness
+    concepts: [C-007]
+  - name: Responsible
+    unmapped: true
+    reason: >-
+      an unspecified responsibility between two units; the line of command
+      is består av (C-062), any other responsibility is text
+
+  # Process package
+  - name: AbstractProcess
+    unmapped: true
+    reason: metamodel scaffolding, the union of Process and Activity
+  - name: Process
+    concepts: [C-130]
+  - name: Activity
+    concepts: [C-175]
+
+  # Product package. BACM's ProductOffering is the product and its terms in
+  # one box; the store has two, and the row points at the produkt because
+  # that is what the reader looks for. Goods are varor (C-191), services
+  # verksamhetstjänster (C-127); which a product holds is what it
+  # aggregates, not a sort.
+  - name: Offering
+    concepts: [C-014]
+  - name: ProductOffering
+    concepts: [C-014]
+  - name: MerchandiseOffering
+    concepts: [C-014]
+  - name: ServiceOffering
+    concepts: [C-014]
+  # What the business buys in: an överenskommelse with an aktör who är
+  # leverantör till (C-155) the architecture object.
+  - name: OutsourcedServiceOffering
+    concepts: [C-084]
+  - name: ProcurementOffering
+    concepts: [C-084]
+  - name: MerchandiseOutcome
+    concepts: [C-182]
+  - name: ServiceOutcome
+    concepts: [C-182]
+  - name: OutsourcedServiceOutcome
+    concepts: [C-182]
+  - name: ProcurementOutcome
+    concepts: [C-182]
+  - name: APCICB
+    unmapped: true
+    reason: metamodel scaffolding, the union of process, implementation and provider
+  - name: ContractRelation
+    unmapped: true
+    reason: a relation of any arity between offerings; text in the produkt
+
+  # Strategy package: BMM's Ends and Means plus Initiative and Change
+  # (ADR 0025 for the first two).
+  - name: StrategyModel
+    concepts: [C-188]
+  - name: Means
+    concepts: [C-019]
+  - name: Ends
+    concepts: [C-017]
+  - name: Initiative
+    concepts: [C-012]
+  # The state an initiative is expected to bring: the catalogue's
+  # verksamhetsförändring, "den verkan ett initiativ ska åstadkomma".
+  - name: Change
+    concepts: [C-172]
+  - name: StrategyChoices
+    unmapped: true
+    reason: >-
+      the alternatives weighed against each other; the weighing is the
+      bedömning's (C-185) text and the chosen one is the strategi
+  - name: AbstractOperatingModel
+    unmapped: true
+    reason: metamodel scaffolding, what a means or initiative may impact
+  - name: AbstractValueModel
+    unmapped: true
+    reason: metamodel scaffolding, what an end may change
+
+  # SMM import
+  - name: MeasureLibrary
+    unmapped: true
+    reason: measures; a measure concept waits for SMM (ADR 0026)
+
+relationships:
+  # Realisation: the more concrete realises the more abstract.
+  - name: CapabilityBehavior delivers Capability
+    concepts: [C-094]
+  - name: CapabilityImplementation implements Capability
+    concepts: [C-094]
+  - name: CapabilityImplementation implements CapabilityBehavior
+    concepts: [C-094]
+  - name: Process implements ValueStream
+    concepts: [C-094]
+  - name: Activity implements ValueStreamStage
+    concepts: [C-094]
+  - name: ValueStream accumulates ValueProposition
+    concepts: [C-094]
+  - name: ServiceOffering object AbstractCapability
+    concepts: [C-094]
+  # Serving: the value stream stage uses the capabilities it presupposes;
+  # ArchiMate's serving. A capability is a possibility, not something going
+  # on, so it does not realise the stage; the process does.
+  - name: Capability supports ValueStreamStage
+    concepts: [C-095]
+  - name: ResourceRole assignment
+    concepts: [C-095]
+  # Assignment: the performer carries the role's work.
+  - name: Performer assigned to PerformerRole
+    concepts: [C-096]
+  # Flow: outcomes carried between activities are verksamhetsobjekt in
+  # their states, flowing on.
+  - name: Outcome output of AbstractProcess
+    concepts: [C-097]
+  - name: Outcome input to AbstractProcess
+    concepts: [C-097]
+  - name: InformationItem informs AbstractCapability
+    concepts: [C-101]
+  # Composition and aggregation
+  - name: Outcome state of AbstractBusinessObject
+    concepts: [C-062]
+  - name: ValueStream owns ValueStreamStage
+    concepts: [C-062]
+  - name: CustomerJourney owns CustomerJourneyStage
+    concepts: [C-062]
+  - name: ValueProposition composed of ValueItem
+    concepts: [C-062]
+  - name: StrategyModel contains Means and Ends
+    concepts: [C-062]
+  - name: CapabilityImplementation aggregates Performer and Resource
+    concepts: [C-100]
+  - name: MerchandiseOffering object BusinessObject
+    concepts: [C-100]
+  - name: Process aggregates Process and Activity
+    concepts: [C-100]
+  - name: ObjectRelation
+    concepts: [C-062, C-099]
+  - name: BusinessElement generalizes
+    concepts: [C-063]
+  - name: BusinessElement aggregates
+    concepts: [C-100]
+  - name: BusinessElement owns
+    concepts: [C-062]
+  # The experience perspective's own relation types
+  - name: ValueProposition targets Customer
+    concepts: [C-152]
+  - name: Offering targets Customer
+    concepts: [C-152]
+  - name: Customer accepts ProductOffering
+    concepts: [C-154]
+  # Influence, as BMM's expects and channels (ADR 0025)
+  - name: Means expects Ends
+    concepts: [C-102]
+  - name: Initiative expects Change
+    concepts: [C-102]
+  - name: Means impacts AbstractOperatingModel
+    concepts: [C-102]
+  - name: Initiative impacts AbstractOperatingModel
+    concepts: [C-102]
+  # Unmapped with reason
+  - name: Capability produces Outcome
+    unmapped: true
+    reason: >-
+      the transitions stand in the verksamhetsobjekt's tillståndsvy, driven
+      by the behaviour that realises the capability; no arrow from the
+      förmåga to the state (ADR 0024)
+  - name: Capability needs Outcome
+    unmapped: true
+    reason: as Capability produces Outcome
+  - name: AbstractBusinessObject scopes AbstractCapability
+    unmapped: true
+    reason: the capability is named after its object; text
+  - name: OutcomeRelation
+    unmapped: true
+    reason: >-
+      alternatives that cannot both be produced are the tillståndsvy's
+      branches, utlöser (C-098) from state to state; other relations between
+      states are text
+  - name: Customer owns CustomerSegment
+    unmapped: true
+    reason: the segment is text in the målgrupp
+  - name: Customer takes CustomerJourney
+    unmapped: true
+    reason: >-
+      the people reach the resa through the behov they har (C-151); nothing
+      is drawn from the målgrupp to the resa
+  - name: CustomerSegment characterizes JSTP
+    unmapped: true
+    reason: text in the behov
+  - name: ValueItem values Outcome
+    unmapped: true
+    reason: the outcome valued is named in the svar's text
+  - name: ValueProposition of ProductOffering
+    unmapped: true
+    reason: >-
+      the värdeerbjudande bygger på the produkt as an associative relation
+      between the concepts; no relation type is set for it yet in the store
+  - name: Touchpoint experienced by Customer
+    unmapped: true
+    reason: >-
+      the resa går genom the verksamhetsgränssnitt as an associative
+      relation between the concepts; no relation type is set for it yet
+  - name: ValueStream for Customer
+    unmapped: true
+    reason: reached through the värdeerbjudande the värdeström realises, which riktas till the målgrupp
+  - name: LegalEntity in jurisdiction of Jurisdiction
+    unmapped: true
+    reason: >-
+      the law is a bärare (C-016) fastställd av (C-183) the aktör who decided
+      it (ADR 0025); the jurisdiction as such is not drawn
+  - name: OrgUnit Responsible OrgUnit
+    unmapped: true
+    reason: as the Responsible element
+  - name: theBusiness provides Offering
+    unmapped: true
+    reason: the verksamhet (C-007) is what the whole description is of
+  - name: ProductOffering incorporates Outcome
+    unmapped: true
+    reason: what the product promises is text in the produkt and the överenskommelse
+  - name: ContractRelation
+    unmapped: true
+    reason: text in the produkt
+  - name: Initiative implements Means
+    unmapped: true
+    reason: >-
+      the initiative is the work that carries the styrbeslut out and the
+      process realises it (ADR 0025); the initiative påverkar (C-102) the
+      mål the styrbeslut aims at
+  - name: Change implements Ends
+    unmapped: true
+    reason: >-
+      the verksamhetsförändring is what ersätter (C-104) and the gap
+      analysis compute between two descriptions, and is prövad mot the
+      effektmål (ADR 0019); nothing is drawn between them
+  - name: Ends baseline AbstractOperatingModel
+    unmapped: true
+    reason: the baseline is the nulägesbeskrivning; ersätter (C-104) carries the difference
+  - name: Change baseline AbstractOperatingModel
+    unmapped: true
+    reason: as Ends baseline
+  - name: StrategyChoices alternative StrategyModel
+    unmapped: true
+    reason: as the StrategyChoices element
+  - name: Annotation annotates BACMElement
+    unmapped: true
+    reason: text in the element
+  - name: BACM_Model measure_library
+    unmapped: true
+    reason: measures wait for SMM (ADR 0026)
+
+unmapped-concepts:
+  - id: C-135
+    reason: >-
+      BACM has no event: the outcome nothing produces is its trigger. The
+      store marks the state reached with a verksamhetshändelse
+  - id: C-127
+    reason: >-
+      BACM has no service as behaviour: the promised outcome sits in the
+      ServiceOffering. The store's verksamhetstjänst is the value a
+      behaviour gives its surroundings, and the product consists of them
+  - id: C-158
+    reason: >-
+      BACM groups behaviour only as capability or process; the
+      verksamhetsfunktion, work grouped by competence without start or end,
+      has no row
+  - id: C-160
+    reason: >-
+      handläggning, the case-driven behaviour that CMMN describes (ADR 0022),
+      is in BACM a CapabilityBehavior like any other
+  - id: C-178
+    reason: beslutslogik (ADR 0022) is in BACM at most an InformationItem that informs a capability
+  - id: C-020
+    reason: >-
+      BACM lets CapabilityBehavior carry rules and policies; the store keeps
+      the regel as a styrmedel (ADR 0023), never as behaviour
+  - id: C-022
+    reason: >-
+      the end that comes with the uppdrag and outlives the management; BACM's
+      Ends are what the strategy chooses (ADR 0025)
+  - id: C-149
+    reason: BACM has no mission; the ongoing activity the business exists for is nowhere in it
+  - id: C-016
+    reason: BACM has no carrier; the document a styrmedel stands in is at most ExternalData

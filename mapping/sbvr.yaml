@@ -1,0 +1,227 @@
+# SBVR 1.5 type-mapping table (ADR 0023).
+#
+# One row per SBVR building block the store meets, in `archimate.yaml`'s
+# format; `check` does not validate this table yet (interlingua #901). SBVR
+# (Semantics of Business Vocabulary and Business Rules) is no drawing
+# notation: it standardises a terminological dictionary (concepts, their
+# designations and definitions) and a rulebook (elements of guidance). The
+# dictionary half meets the store's own concept model, so most of those rows
+# name an interlingua key rather than a concept id (interlingua #903 documents
+# the correspondence beside SKOS and ISO 25964); the rulebook half meets the
+# governance types.
+
+elements:
+  # --- the terminological dictionary: SBVR's vocabulary against the catalogue
+  - name: general concept
+    unmapped: true
+    reason: >-
+      a concept of the catalogue, a file under `concepts/` with a `C-nnn` id,
+      of any kind or none; the catalogue is the organisation's own vocabulary
+      (ADR 0023), so a business concept such as ärende is a general concept
+      here too
+  # The named individual in the architecture's universe: there is one
+  # informationsobjekt Ärende, one applikation Ärendehanteringen. The
+  # business's own individuals (case 2026-00123) are the systems' data and
+  # never in the store.
+  - name: individual noun concept
+    concepts: [C-034]
+  - name: unitary noun concept
+    unmapped: true
+    reason: as individual noun concept; the store does not tell the two apart
+  - name: concept type
+    unmapped: true
+    reason: the concept's `kind` (element-type, relation-type, ...)
+  - name: term
+    unmapped: true
+    reason: an entry in the concept's `terms`
+  - name: preferred designation
+    unmapped: true
+    reason: "the term with `status: preferred`, the concept's own `term`"
+  - name: synonym
+    unmapped: true
+    reason: "a term with `status: admitted`"
+  - name: name
+    unmapped: true
+    reason: an element's `name`
+  - name: definition
+    unmapped: true
+    reason: the concept's `definition`, one sentence
+  - name: intensional definition
+    unmapped: true
+    reason: >-
+      the catalogue's definition form: the superordinate concept and the
+      delimiting characteristics (ISO 1087, which SBVR builds on too)
+  - name: extensional definition
+    unmapped: true
+    reason: the catalogue does not define by enumerating; the `## Exempel` section lists instances without defining
+  - name: note
+    unmapped: true
+    reason: the `## Anmärkning` section
+  - name: example
+    unmapped: true
+    reason: the `## Exempel` section
+  - name: necessity
+    unmapped: true
+    reason: >-
+      a sentence in the remark under the bold label Nödvändighet (the
+      catalogue's convention since ADR 0023), not a field
+  - name: source
+    unmapped: true
+    reason: >-
+      the bold label Källa in the remark when the definition has one; a
+      term's `source` says where the term entered the catalogue, not where
+      the definition came from
+  # A characteristic with one role, "ärendet är avslutat", is a
+  # verksamhetsobjekt's tillstånd (C-182) when a business behaviour drives the
+  # transition; a property no behaviour changes, "beslutet är gynnande", is an
+  # uppgift (C-161) with the value yes or no; one that brings its own rules,
+  # "ärendet är ett omprövningsärende", is a specialisation, the `generic`
+  # link (ADR 0024).
+  - name: characteristic
+    concepts: [C-182, C-161]
+  # How an instance is identified, the ärendenummer: the identifying uppgift
+  # (C-161) of the informationsobjekt, the information model's inside.
+  - name: reference scheme
+    concepts: [C-161]
+    doubtful: true
+  - name: fundamental concept
+    unmapped: true
+    reason: the store does not mark a concept as fundamental or contextualised
+  - name: role
+    unmapped: true
+    reason: >-
+      SBVR's role is a noun concept seen through its part in a verb concept;
+      the store's roll (C-074) is what an aktör acts as and is another thing;
+      a verb concept role is the end of a relation, see relationships
+  - name: situation
+    unmapped: true
+    reason: no concept; a tillstånd (C-182) is the nearest and is a state, not a set of circumstances
+  - name: terminological dictionary
+    unmapped: true
+    reason: the catalogue itself, `concepts/` with `settings.yaml`
+  - name: vocabulary
+    unmapped: true
+    reason: as terminological dictionary
+  - name: vocabulary namespace
+    unmapped: true
+    reason: the catalogue with its one language in `settings.yaml`
+  - name: semantic community
+    unmapped: true
+    reason: the organisation; the store has one community and does not name it
+  - name: speech community
+    unmapped: true
+    reason: as semantic community; one language per store
+  - name: authority
+    concepts: [C-073, C-074, C-156]
+    doubtful: true  # whoever decides or adopts guidance: an aktör (a named person with delegation, an organisationsenhet), a roll (the head of a unit) or a forum; reached through fastställs av (C-183)
+  - name: proposition
+    unmapped: true
+    reason: SBVR's logical layer; the store holds the meanings as text, not as formulations
+  - name: fact
+    unmapped: true
+    reason: as proposition
+  - name: state of affairs
+    unmapped: true
+    reason: as proposition; what a regel (C-020) requires is written in the regel's text
+  - name: logical formulation
+    unmapped: true
+    reason: as proposition
+  # --- the rulebook: SBVR's elements of guidance against the governance types
+  - name: element of guidance
+    concepts: [C-015]
+    doubtful: true  # the family styrmedel, never itself a type; ändamål (C-022) guides too but is no styrmedel
+  - name: element of governance
+    concepts: [C-015]
+    doubtful: true
+  - name: business rule
+    concepts: [C-020]
+  # A regel requires a state of affairs and takes no action (ADR 0023); krav
+  # (C-021) is a kind of regel whose state is a property of the styrobjekt,
+  # a split SBVR does not make.
+  - name: behavioral business rule
+    concepts: [C-020]
+  - name: definitional rule
+    unmapped: true
+    reason: >-
+      a necessity that always holds is a sentence in the concept's remark and
+      a multiplicity on the relation between informationsobjekt (interlingua
+      interlingua #904); one that decides an outcome for every case is a beslutslogik
+      (C-178); none is a styrmedel
+  # princip: direction, not directly enforceable, rules derived from it; BMM
+  # shares the concept and confirmed the reading (ADR 0025, bmm.yaml).
+  - name: business policy
+    concepts: [C-018]
+  - name: advice
+    concepts: [C-019]
+    doubtful: true  # an advice of permission or possibility, when written down at all, is the styrbeslut that no rule shall exist
+  - name: advice of permission
+    concepts: [C-019]
+    doubtful: true
+  - name: advice of possibility
+    concepts: [C-019]
+    doubtful: true
+  - name: enforcement level
+    unmapped: true
+    reason: text in the regel (C-020), no type
+  - name: rulebook
+    unmapped: true
+    reason: the governance elements the descriptions list
+  - name: body of shared meanings
+    unmapped: true
+    reason: the store as a whole
+  - name: body of shared guidance
+    unmapped: true
+    reason: as rulebook
+  - name: guidance statement
+    unmapped: true
+    reason: the wording of a governance element, its text; the store does not separate statement from meaning
+
+relationships:
+  - name: verb concept
+    unmapped: true
+    reason: >-
+      a relation type (a concept of kind relation-type) between elements, and
+      an `associative` entry with a `label` between concepts
+  - name: verb concept role
+    unmapped: true
+    reason: the end of a relation, `from` or `to`; no thing of its own
+  - name: categorization
+    unmapped: true
+    reason: the concept's `generic` link
+  - name: partitive verb concept
+    unmapped: true
+    reason: the concept's `partitive` link between concepts; between elements består av (C-062) or aggregerar (C-100)
+  - name: designation
+    unmapped: true
+    reason: >-
+      a term standing for its concept is the `terms` list; an element
+      standing for the concept it is named after is the link interlingua
+      interlingua #905 proposes, the name alone until then
+  - name: authority has business jurisdiction over element of guidance
+    concepts: [C-183]
+  - name: business rule is derived from business policy
+    concepts: [C-064]
+  - name: advice is derived from business policy
+    concepts: [C-064]
+    doubtful: true
+  # Adopting guidance made elsewhere: the regel that comes directly out of
+  # extern påverkan (C-029), law or regulation, without a princip between.
+  - name: authority adopts element of guidance
+    concepts: [C-064]
+    doubtful: true
+  - name: concept has instance
+    unmapped: true
+    reason: the business's instances are not in the store; an element's instances are the architecture's
+
+unmapped-concepts:
+  - id: C-017
+    reason: >-
+      mål is Business Motivation Model territory, not SBVR's; SBVR shares only
+      business policy and business rule with BMM (bmm.yaml, ADR 0025)
+  - id: C-022
+    reason: as C-017; ändamål is the catalogue's addition to BMM (ADR 0025)
+  - id: C-021
+    reason: >-
+      krav is a kind of regel (C-020) since ADR 0023 and is reached through
+      the business rule rows; SBVR has no concept of its own for a rule on
+      the styrobjekt's properties
