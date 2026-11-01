@@ -12,5 +12,7 @@ associative:
     label: följs av
   - concept: '[[C-124 Disciplin]]'
     label: hör till
+  - concept: '[[C-019 Styrbeslut]]'
+    label: väljs genom
 ---
 # C-196 Arbetssätt
