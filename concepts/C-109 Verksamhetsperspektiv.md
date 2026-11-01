@@ -5,7 +5,7 @@ terms:
   - term: Verksamhetsperspektiv
     language: sv
     source: catalogue
-definition: "arkitekturperspektiv som avser vad verksamheten gör, vem som gör det och vilket värde den ger sin omgivning"
+definition: arkitekturperspektiv som avser vad verksamheten gör, vem som gör det och vilka tjänster den ger sin omgivning
 covers:
   - "[[C-007 Verksamhet]]"
   - "[[C-008 Verksamhetsdomän]]"
@@ -34,7 +34,7 @@ generic: "[[C-036 Arkitekturperspektiv]]"
 ---
 # C-109 Verksamhetsperspektiv
 
-**Definition:** arkitekturperspektiv som avser vad verksamheten gör, vem som gör det och vilket värde den ger sin omgivning
+**Definition:** arkitekturperspektiv som avser vad verksamheten gör, vem som gör det och vilka tjänster den ger sin omgivning
 
 ## Anmärkning
 
