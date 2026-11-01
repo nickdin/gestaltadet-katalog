@@ -18,7 +18,7 @@ Den ståndpunkt som styr en vy och avgör vilka elementtyper den täcker. Det fi
 _Undvik_: *viewpoint*, lager, *architecture domain* (TOGAF:s ord för det)
 
 **Aspekt (C-004)**:
-En egenskap hos det som styrs som går tvärs igenom varje perspektiv: säkerhet, juridik, ekonomi, struktur och sammanhang.
+En egenskap hos det som styrs som går tvärs igenom varje perspektiv: Säkerhet (C-112), Juridik (C-113), Ekonomi (C-114) och Struktur och sammanhang (C-115). Listan är sluten och katalogens egen, och varje aspekt är ett eget begrepp.
 
 **Disciplin (C-124)**:
 Ett område av kunskap och praxis, vidare än någon enskild organisation; "vad disciplinen säger om X". Ett begrepp för gemensam förståelse; aldrig något en organisation registrerar. En disciplin behöver inte följa ett perspektiv: tjänstedesign utformar och prövar både upplevelsen och lösningen, över perspektiven.
@@ -65,7 +65,7 @@ Människor som delar ett behov eller en situation och som organisationen finns f
 _Undvik_: *customer segment*, *beneficiary*, aktör (en part som kan agera), mottagare (positionen hos den målgrupp eller aktör ett värdeerbjudande riktas till, eller hos den aktör en produkt levereras till: ena änden av en relation, aldrig en typ)
 
 **Behov (C-146)**:
-Det människor vill åstadkomma och få gjort (EDGY:s *task*). Det är personens eget och finns där oavsett om organisationen möter det. Dess egen text säger vad som står i vägen för det, vad som vinns med det och vad människor i dag använder för att få det gjort; inget av de tre är en typ. En elementtyp i upplevelseperspektivet.
+Det människor vill åstadkomma och få gjort (EDGY:s *task*). Det är personens eget och finns där oavsett om organisationen möter det. Dess egen text säger vad som står i vägen för det, hindret (Hinder (C-192)), vad som vinns med det, vinsten (Vinst (C-193)), och vad människor i dag använder för att få det gjort; inget av de tre är en typ. En elementtyp i upplevelseperspektivet.
 _Undvik_: *task* (på svenska läses det som ett uppdrag), ärende, krav (ett styrmedelselement)
 
 **Resa (C-147)**:
@@ -73,7 +73,7 @@ De händelser och aktiviteter människor går igenom i sina liv (EDGY:s *journey
 _Undvik_: process (det organisationen gör)
 
 **Värdeerbjudande (C-148)**:
-Det en produkt utlovas göra för någon. Det riktas till en målgrupp eller en namngiven aktör, bygger på en eller flera produkter och möter ett eller flera behov. En produkt är det som levereras, och samma produkt kan bära olika värdeerbjudanden till olika målgrupper. Det står mellan produkt och behov: en produkt möter ett behov bara genom ett värdeerbjudande, aldrig direkt. En elementtyp i verksamhetsperspektivet, eftersom organisationen gör det.
+Det en produkt utlovas göra för någon. Det riktas till en målgrupp eller en namngiven aktör, bygger på en eller flera produkter och möter ett eller flera behov, med ett svar (Svar (C-194)) per behov som säger hur det röjer behovets hinder och ger dess vinst. En produkt är det som levereras, och samma produkt kan bära olika värdeerbjudanden till olika målgrupper. Det står mellan produkt och behov: en produkt möter ett behov bara genom ett värdeerbjudande, aldrig direkt. En elementtyp i verksamhetsperspektivet, eftersom organisationen gör det.
 _Undvik_: produkt, erbjudande
 
 **Kanal**:
