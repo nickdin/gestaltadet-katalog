@@ -17,4 +17,4 @@ Frågor, invändningar och förslag är välkomna som ärenden. Katalogen är et
 
 ## Licens
 
-Creative Commons Erkännande 4.0 Internationell (CC BY 4.0), se `LICENSE`. Använd och bygg vidare, med GestaltaDet och Nicklas Dinnetz som källa.
+Creative Commons Erkännande 4.0 Internationell (CC BY 4.0), se `LICENSE`. Använd och bygg vidare, med GestaltaDet och Nicklas Grandin som källa.
