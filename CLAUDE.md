@@ -29,3 +29,17 @@ Katalogen är hur Nicklas ser på saker. Frågor, invändningar och förslag fr�
 ## Synk
 
 Git, remote `nickdin/gestaltadet-katalog`. Commit och push utan att fråga; `main` är enda grenen tills Nicklas säger annat.
+
+## Agent skills
+
+### Issue tracker
+
+Ärendena bor i GitHub Issues i `nickdin/gestaltadet-katalog`, publikt, bara katalogens arbete; programmets går till `nickdin/interlingua`. Tavlan är https://github.com/users/nickdin/projects/22. Se `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Två etiketter per öppet ärende: en typ (`bug`, `enhancement`, `question`) och en status (de fem standardrollerna plus `parked`), samt ämnesetiketten `needs-grilling`. Se `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: en `CONTEXT.md` och en `docs/adr/` i roten, båda på väg hit med flytten från arkitektur (#32); begreppen definieras bara i `concepts/`. Se `docs/agents/domain.md`.
