@@ -11,6 +11,8 @@ partitive: '[[C-148 Värdeerbjudande]]'
 associative:
   - concept: '[[C-146 Behov]]'
     label: gäller ett
+  - concept: '[[C-195 Värde]]'
+    label: bedöms efter
 ---
 # C-194 Svar
 
