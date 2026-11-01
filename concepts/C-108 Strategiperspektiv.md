@@ -8,7 +8,7 @@ terms:
   - term: Affärsperspektiv
     language: sv
     source: catalogue
-definition: "arkitekturperspektiv som avser vad verksamheten behöver kunna för att nå sin inriktning"
+definition: arkitekturperspektiv som avser vad verksamheten lovar sin omgivning och behöver kunna för att nå sin inriktning
 covers:
   - "[[C-069 Verksamhetsförmåga]]"
   - "[[C-012 Initiativ]]"
@@ -18,7 +18,7 @@ generic: "[[C-036 Arkitekturperspektiv]]"
 ---
 # C-108 Strategiperspektiv
 
-**Definition:** arkitekturperspektiv som avser vad verksamheten behöver kunna för att nå sin inriktning
+**Definition:** arkitekturperspektiv som avser vad verksamheten lovar sin omgivning och behöver kunna för att nå sin inriktning
 
 ## Anmärkning
 
