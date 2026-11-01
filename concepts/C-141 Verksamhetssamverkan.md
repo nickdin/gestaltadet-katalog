@@ -1,0 +1,18 @@
+---
+id: C-141
+term: Verksamhetssamverkan
+terms:
+  - term: Verksamhetssamverkan
+    language: sv
+    source: catalogue
+definition: "samverkan mellan två eller flera aktörer"
+kind: element-type
+generic: "[[C-082 Samverkan]]"
+---
+# C-141 Verksamhetssamverkan
+
+**Definition:** samverkan mellan två eller flera aktörer
+
+## Anmärkning
+
+Motsvarar ArchiMates Business Collaboration. Ingen aktör i sig: ett team är en varaktig aktör, en samverkan är skilda aktörer som agerar tillsammans.

@@ -1,0 +1,18 @@
+---
+id: C-099
+term: associeras med
+terms:
+  - term: associeras med
+    language: sv
+    source: catalogue
+definition: "relationstyp som anger att ett arkitekturelement har ett samband med ett annat arkitekturelement som ingen annan relationstyp fångar"
+kind: relation-type
+key: associated_with
+---
+# C-099 associeras med
+
+**Definition:** relationstyp som anger att ett arkitekturelement har ett samband med ett annat arkitekturelement som ingen annan relationstyp fångar
+
+## Anmärkning
+
+Symmetrisk relation; vilketdera elementet den står på är godtyckligt. Motsvarar ArchiMates Association.
