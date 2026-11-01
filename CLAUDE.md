@@ -42,4 +42,4 @@ Två etiketter per öppet ärende: en typ (`bug`, `enhancement`, `question`) och
 
 ### Domain docs
 
-Single-context: en `CONTEXT.md` och en `docs/adr/` i roten, båda på väg hit med flytten från arkitektur (#32); begreppen definieras bara i `concepts/`. Se `docs/agents/domain.md`.
+Single-context: en `CONTEXT.md`, på väg hit med flytten från arkitektur (#4), och en `docs/adr/` i roten; begreppen definieras bara i `concepts/`. Se `docs/agents/domain.md`.
