@@ -22,5 +22,7 @@ definition: mängd av de värden en uppgift får anta
 associative:
   - concept: '[[C-161 Uppgift]]'
     label: gäller en
+  - concept: '[[C-182 Tillstånd]]'
+    label: är statusuppgiftens
 ---
 # C-197 Värdemängd
