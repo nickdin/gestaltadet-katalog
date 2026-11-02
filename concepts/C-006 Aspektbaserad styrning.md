@@ -10,6 +10,8 @@ generic: '[[C-002 Styrning]]'
 associative:
   - concept: '[[C-004 Aspekt]]'
     label: avgränsas av
+  - concept: '[[C-003 Styrobjekt]]'
+    label: utövas på
 ---
 # C-006 Aspektbaserad styrning
 
