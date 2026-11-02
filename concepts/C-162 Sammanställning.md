@@ -22,6 +22,8 @@ Ett begrepp, ingen elementtyp: en sammanställning registreras som ett informati
 
 SDMN:s isCollection, flera av samma, är en sammanställning först när verksamheten hanterar samlingen som en enhet för ett ändamål, som förteckningen över alla företrädare; annars är "flera" bara många-änden på relationen mellan informationsobjekten (ADR 0023). Sammanställningens uppgifter ([[C-161 Uppgift]]) pekar på samma begrepp som källobjektens, och den aggregerar källobjekten (ADR 0024).
 
+Ett informationsområde ([[C-198 Informationsområde]]) samlar också informationsobjekt, men hela objekt, för att de hör ihop och ägs tillsammans, och utan egen representation; sammanställningen är innehåll satt samman av uppgifter för ett ändamål. Får det som samlats en representation är det en sammanställning (ADR 0030).
+
 ## Exempel
 
 förteckningen över alla föreningars företrädare, månadsuppföljningen av hyresfordringar per område, distributionslistan för nyhetsbrevet.

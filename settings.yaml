@@ -1,2 +1,3 @@
 language: sv
 base_address: https://gestaltadet.se/katalog
+nesting_relation_type: aggregates
