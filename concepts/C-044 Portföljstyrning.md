@@ -6,6 +6,7 @@ terms:
     language: sv
     source: catalogue
 definition: "objektbaserad styrning där styrobjektet är en portfölj"
+generic: '[[C-005 Objektbaserad styrning]]'
 ---
 # C-044 Portföljstyrning
 
