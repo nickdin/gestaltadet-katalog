@@ -6,7 +6,7 @@ terms:
     language: sv
     status: preferred
     source: concept new
-definition: plats som en applikation tillhandahåller och där representationer av information förvaras
+definition: plats där representationer av information förvaras
 kind: element-type
 associative:
   - concept: '[[C-071 Applikation]]'
@@ -14,7 +14,7 @@ associative:
 ---
 # C-165 Lagringsyta
 
-**Definition:** plats som en applikation tillhandahåller och där representationer av information förvaras
+**Definition:** plats där representationer av information förvaras
 
 ## Anmärkning
 
