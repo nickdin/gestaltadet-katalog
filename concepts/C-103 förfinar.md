@@ -16,3 +16,5 @@ key: refines
 ## Anmärkning
 
 Relationen går från det preciserande elementet till det allmänna, till exempel en regel som förfinar en princip. Ingen ArchiMate-kärnrelation täcker den precist; se unmapped-concepts.
+
+Motsvarar «refine» i Unified Modeling Language (UML). ADR 0029.

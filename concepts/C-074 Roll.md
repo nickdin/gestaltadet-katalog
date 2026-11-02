@@ -21,6 +21,8 @@ Motsvarar ArchiMates Business Role. En roll kräver kompetens ([[C-125 Kompetens
 
 Value Delivery Modeling Language (VDML) har en roll per samverkanstyp, Position i en organisationsenhet, Performer i en CapabilityMethod, Party i ett BusinessNetwork och Member i en Community, och RoleDefinition i rollbiblioteket; alla är rollen. ADR 0028.
 
+Motsvarar Actor i Unified Modeling Language (UML), som UML självt definierar som en roll en användare eller ett annat system spelar mot subjektet; ett annat system är en applikation ([[C-071 Applikation]]), och aktören ([[C-073 Aktör]]) som spelar rollen ritas inte där. Simbanan (ActivityPartition) är rollen när den är döpt efter en. ADR 0029.
+
 ## Exempel
 
 informationsarkitekt, enterprisearkitekt.

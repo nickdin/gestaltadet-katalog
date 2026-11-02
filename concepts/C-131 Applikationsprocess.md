@@ -16,3 +16,5 @@ generic: "[[C-070 Process]]"
 ## Anmärkning
 
 Motsvarar ArchiMates Application Process. Ett applikationsbeteende ([[C-179 Applikationsbeteende]]); stegen är applikationsaktiviteter ([[C-176 Applikationsaktivitet]]).
+
+Motsvarar Activity i Unified Modeling Language (UML) när en applikation utför den. ADR 0029.

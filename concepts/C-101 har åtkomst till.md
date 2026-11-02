@@ -16,3 +16,5 @@ key: accesses
 ## Anmärkning
 
 Relationen går från det åtkommande beteendeelementet till det åtkomna. Motsvarar ArchiMates Access.
+
+Motsvarar en handlings läsning eller skrivning av ett objekt i Unified Modeling Language (UML) (StructuralFeatureAction, LinkAction). ADR 0029.

@@ -28,6 +28,8 @@ SBVR:s characteristic med ett led, "ärendet är avslutat", är ett tillstånd n
 
 Outcome i Business Architecture Core Metamodel (BACM), det läge hos ett objekt som en förmåga producerar eller behöver, är ett tillstånd; att hålla lägena utanför objektet så att förmågorna kan peka på dem är BACM:s skäl och tillståndsvyns. Förmågans produces och needs ritas inte som pilar från förmågan: övergångarna står i tillståndsvyn, drivna av det beteende som realiserar förmågan. ADR 0027.
 
+Motsvarar State i Unified Modeling Language (UML): övergången (Transition) är utlöser med vakten i relationens beskrivning, händelsen på övergången utlöser tillståndet, ett sammansatt tillstånd består av sina deltillstånd, och tillståndsmaskinen själv är tillståndsvyn. Statusuppgiftens värdemängd ([[C-197 Värdemängd]]) är tillstånden, så UML:s EnumerationLiteral är ett tillstånd när värdemängden är statusuppgiftens. ADR 0029.
+
 ## Exempel
 
 utrett, beslutat och avslutat för ett ärende; obetald och betald för en faktura.

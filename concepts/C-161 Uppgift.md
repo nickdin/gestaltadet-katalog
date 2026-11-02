@@ -21,6 +21,8 @@ Ett begrepp, ingen elementtyp: en uppgift registreras inte som eget element och 
 
 Ett informationsobjekt består av uppgifter, och samma uppgift kan ingå i flera sammanställningar ([[C-162 Sammanställning]]). En uppgift som verksamheten hanterar som en enhet för sig, som personnumret, är ett eget informationsobjekt. En personuppgift är en uppgift som direkt eller indirekt kan knytas till en levande person; det avgörs av uppgiften, inte av var den står. Hur en förekomst av ett informationsobjekt identifieras, ärendenumret, SBVR:s reference scheme, är den identifierande uppgiften (ADR 0023). Statusuppgiften bär verksamhetsobjektets tillstånd ([[C-182 Tillstånd]]): dess tillåtna värden är tillstånden. SDMN:s itemComponents, fälten i en ItemDefinition, är uppgifter. Beslutet: ADR 0018; attributet och listan ADR 0024.
 
+Motsvarar Property i Unified Modeling Language (UML), attributet i klassen; de värden uppgiften får anta är dess värdemängd ([[C-197 Värdemängd]]), och en DataType är uppgiftens format, text. ADR 0029.
+
 ## Exempel
 
 en förenings organisationsnummer, ett hyresbelopp, datumet en ansökan kom in.

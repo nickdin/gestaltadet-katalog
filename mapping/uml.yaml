@@ -1,0 +1,824 @@
+# Unified Modeling Language 2.5.1 type-mapping table (ADR 0029).
+#
+# One row per UML metaclass the store meets, and one row per group the
+# store only meets at its edge, in `archimate.yaml`'s format; `check`
+# does not validate this table yet (interlingua #901). UML (OMG, 2017)
+# draws the inside of what the store's application and technology elements
+# point at: classes with attributes and operations, components with ports
+# and interfaces, state machines, activities, interactions, deployments.
+# The table is written for readers who think in UML (ADR 0026, the third
+# reason for a table): the main compartment is outside the store, and the
+# rows below say where the line goes, building block by building block.
+# Abstract metaclasses (Element, NamedElement, Classifier, Type, Feature,
+# Behavior, ActivityNode, ...) have no row: a reader draws none of them.
+#
+# No row is doubtful. Where a row names two concepts, its comment says
+# which one when, so the choice is a rule and never a judgement call.
+#
+# The store's reading: the class diagram is the information model. Class is
+# informationsobjekt (C-060), Property is uppgift (C-161), Enumeration is
+# värdemängd (C-197), and the Class whose StateMachine is drawn is the
+# verksamhetsobjekt (C-159) the informationsobjekt realises. State is
+# tillstånd (C-182), Transition utlöser (C-098), and the StateMachine is the
+# tillståndsvy, a view. The activity diagram mirrors `bpmn.yaml` row for
+# row: Activity is the process of whoever performs it, Action the activity,
+# ControlFlow utlöser, ObjectFlow flödar till (C-097), the ObjectNode a
+# verksamhetsobjekt. UseCase is the service, verksamhetstjänst (C-127) or
+# applikationstjänst (C-128) by its subject; Actor is roll (C-074), as UML
+# itself defines it, and applikation (C-071) when the actor is another
+# system. Component is applikation, Interface and Port are the gränssnitt
+# (C-139, C-140), and the deployment chapter follows `archimate.yaml`: Node,
+# Device, ExecutionEnvironment, Artifact. Generalization, Realization,
+# Composition, Aggregation and Association land on their relation types;
+# Usage is använder (C-095), «refine» förfinar (C-103), «derive» härleds ur
+# (C-064). Interactions, packages, profiles, templates, instances and
+# operations are the inside, unmapped with that reason.
+
+elements:
+  # Common Structure (7)
+  - name: Comment
+    unmapped: true
+    reason: text in the element's description
+  # A condition that must hold. When it says what shall hold in the
+  # business, "the applicant is at least 18", it is a regel (ADR 0023);
+  # when it only guards the code, an OCL invariant on a private field, it
+  # is the application's inside.
+  - name: Constraint
+    concepts: [C-020]
+  - name: InstanceSpecification
+    unmapped: true
+    reason: >-
+      the store describes the type, never the instance: Person is an
+      informationsobjekt, a named person is none of its elements
+  - name: Slot
+    unmapped: true
+    reason: as InstanceSpecification
+  - name: TemplateSignature
+    unmapped: true
+    reason: templates are the inside (ADR 0026)
+  - name: TemplateBinding
+    unmapped: true
+    reason: as TemplateSignature
+  - name: TemplateParameter
+    unmapped: true
+    reason: as TemplateSignature
+
+  # Values (8)
+  - name: ValueSpecification
+    unmapped: true
+    reason: a value or expression, text where it is needed; the program's concern otherwise
+  - name: OpaqueExpression
+    unmapped: true
+    reason: as ValueSpecification
+  - name: LiteralSpecification
+    unmapped: true
+    reason: as ValueSpecification
+
+  # Classification (9)
+  # The attribute of a class: the uppgift, drawn inside the
+  # informationsobjekt's box (ADR 0024). A Property typed by another Class
+  # is the association, see relationships; one typed by a DataType or an
+  # Enumeration is an uppgift with that format or värdemängd.
+  - name: Property
+    concepts: [C-161]
+  - name: Operation
+    unmapped: true
+    reason: >-
+      what a class does is the application's inside; what the application
+      offers its surroundings is an applikationstjänst (C-128) at its
+      gränssnitt
+  - name: Parameter
+    unmapped: true
+    reason: as Operation
+  - name: GeneralizationSet
+    unmapped: true
+    reason: >-
+      a partition of specialisations, text in the general element; each
+      specialisation is specialiserar (C-063)
+
+  # Simple Classifiers (10)
+  - name: DataType
+    unmapped: true
+    reason: the format of an uppgift (C-161), text in the uppgift, as SDMN's UMLClass
+  - name: PrimitiveType
+    unmapped: true
+    reason: as DataType
+  # The values an uppgift may take.
+  - name: Enumeration
+    concepts: [C-197]
+  # One value. The status uppgift's literals are the verksamhetsobjekt's
+  # tillstånd (ADR 0024); every other literal is a value, text in the
+  # värdemängd.
+  - name: EnumerationLiteral
+    concepts: [C-182]
+  # The contract a component or node provides or requires, drawn as the
+  # lollipop: the gränssnitt where its services are made available.
+  # Applikationsgränssnitt when a Component gives it, teknikgränssnitt when
+  # a Node or ExecutionEnvironment does. Its operations are the services the
+  # gränssnitt makes available, text.
+  - name: Interface
+    concepts: [C-139, C-140]
+  - name: Signal
+    unmapped: true
+    reason: >-
+      the carrier of an asynchronous message; the event it raises is the
+      SignalEvent row, and the message content a verksamhetsobjekt (C-159)
+  - name: Reception
+    unmapped: true
+    reason: the application's inside, as Operation
+
+  # Structured Classifiers (11)
+  # The class diagram is the information model: a Class is the
+  # informationsobjekt, its attributes the uppgifter. The same thing seen
+  # by the behaviour that handles it is the verksamhetsobjekt (C-159), which
+  # UML draws as the activity diagram's ObjectNode and as the Class whose
+  # StateMachine is drawn (see relationships); the informationsobjekt
+  # realises it.
+  - name: Class
+    concepts: [C-060]
+  # A class on an association: an informationsobjekt when the business
+  # handles it as a unit, the membership with its start date; otherwise
+  # the association's own description.
+  - name: AssociationClass
+    concepts: [C-060]
+  # Roles cooperating to accomplish a task: the store's samverkan.
+  # Verksamhetssamverkan when the roles are played by aktörer,
+  # applikationssamverkan by applikationer, tekniksamverkan by technical
+  # resources.
+  - name: Collaboration
+    concepts: [C-141, C-142, C-143]
+  - name: CollaborationUse
+    unmapped: true
+    reason: an application of a collaboration to a classifier; the samverkan is the element
+  # A modular unit with provided and required interfaces: the applikation.
+  # A component inside an application is that application's inside and is
+  # not drawn in the store (ADR 0026).
+  - name: Component
+    concepts: [C-071]
+  # The point on a component or node where an interface sits: the same
+  # gränssnitt as the Interface, applikationsgränssnitt on a Component,
+  # teknikgränssnitt on a Node or ExecutionEnvironment.
+  - name: Port
+    concepts: [C-139, C-140]
+  - name: ConnectorEnd
+    unmapped: true
+    reason: the end of a Connector, see relationships
+
+  # Packages and profiles (12)
+  - name: Package
+    unmapped: true
+    reason: a grouping of model elements; the store groups by view and perspective
+  - name: Model
+    unmapped: true
+    reason: as Package
+  - name: PackageImport
+    unmapped: true
+    reason: as Package
+  - name: ElementImport
+    unmapped: true
+    reason: as Package
+  - name: PackageMerge
+    unmapped: true
+    reason: as Package
+  - name: Profile
+    unmapped: true
+    reason: profiles extend UML itself and are the inside (ADR 0026)
+  - name: Stereotype
+    unmapped: true
+    reason: as Profile; the standard profile's stereotypes that meet the store have rows below
+  - name: Extension
+    unmapped: true
+    reason: as Profile
+  - name: ProfileApplication
+    unmapped: true
+    reason: as Profile
+
+  # Common Behavior (13)
+  - name: OpaqueBehavior
+    unmapped: true
+    reason: a behaviour given as text in a language; the inside
+  - name: FunctionBehavior
+    unmapped: true
+    reason: as OpaqueBehavior
+  # An event that fires a transition in a verksamhetsobjekt's state
+  # machine: the verksamhetshändelse that utlöser the tillstånd the
+  # transition enters (ADR 0024). The kind of event, signal, time, change
+  # or call, is text in the händelse's description, as BPMN's event
+  # definitions. An event in a component's protocol state machine is the
+  # inside.
+  - name: SignalEvent
+    concepts: [C-135]
+  - name: TimeEvent
+    concepts: [C-135]
+  - name: ChangeEvent
+    concepts: [C-135]
+  - name: CallEvent
+    concepts: [C-135]
+  - name: AnyReceiveEvent
+    concepts: [C-135]
+  - name: Trigger
+    unmapped: true
+    reason: names the event on a transition; the event has its row and the transition is utlöser (C-098), see relationships
+
+  # State Machines (14)
+  - name: StateMachine
+    unmapped: true
+    reason: >-
+      the state machine of a verksamhetsobjekt is the store's tillståndsvy,
+      a view and no element (ADR 0024); the class it belongs to is the
+      verksamhetsobjekt, see relationships
+  - name: ProtocolStateMachine
+    unmapped: true
+    reason: the allowed order of calls on a component, the application's inside
+  - name: Region
+    unmapped: true
+    reason: notation; the states in a region are the tillstånd
+  # A state of the object: the tillstånd. A composite state's substates are
+  # tillstånd the composite består av (C-062), see relationships.
+  - name: State
+    concepts: [C-182]
+  - name: FinalState
+    unmapped: true
+    reason: >-
+      notation: the last läge, avslutat, is a tillstånd (C-182) of its own,
+      and the final marker after it is none
+  - name: Pseudostate
+    unmapped: true
+    reason: >-
+      initial, choice, junction, fork, join, history and entry and exit
+      points are notation: the first tillstånd is a tillstånd, a choice is
+      several utlöser (C-098) relations with the condition in each
+      relation's description, as BPMN's gateways
+  - name: ConnectionPointReference
+    unmapped: true
+    reason: as Pseudostate
+  - name: ProtocolTransition
+    unmapped: true
+    reason: as ProtocolStateMachine
+
+  # Activities (15), mirroring bpmn.yaml row for row
+  # The behaviour as a flow of actions: a verksamhetsprocess when aktörer
+  # perform it, an applikationsprocess when an application does, a
+  # teknikprocess when a technical resource does.
+  - name: Activity
+    concepts: [C-130, C-131, C-132]
+  # The object between two actions: what the behaviour handles, the
+  # verksamhetsobjekt. Its information side is the Class with the same
+  # name, the informationsobjekt that realises it.
+  - name: ObjectNode
+    concepts: [C-159]
+  - name: Pin
+    concepts: [C-159]
+  - name: InputPin
+    concepts: [C-159]
+  - name: OutputPin
+    concepts: [C-159]
+  - name: ActivityParameterNode
+    concepts: [C-159]
+  - name: CentralBufferNode
+    concepts: [C-159]
+  # Where objects persist between runs: the lagringsyta, as BPMN's Data
+  # Store.
+  - name: DataStoreNode
+    concepts: [C-165]
+  # The swimlane: what it is named after. A roll when it names a role,
+  # an aktör when it names an organisational unit or an organisation, an
+  # applikation when it names an application, a nod when it names a node.
+  # The partition tilldelas the actions in it, see relationships.
+  - name: ActivityPartition
+    concepts: [C-074, C-073, C-071, C-079]
+  - name: InitialNode
+    unmapped: true
+    reason: >-
+      notation: the first step is the first aktivitet; what starts the
+      behaviour is a verksamhetshändelse (C-135) that utlöser (C-098) it,
+      as BPMN's Start Event
+  - name: ActivityFinalNode
+    unmapped: true
+    reason: notation, as InitialNode; what ends the behaviour is a verksamhetshändelse (C-135)
+  - name: FlowFinalNode
+    unmapped: true
+    reason: as ActivityFinalNode
+  - name: DecisionNode
+    unmapped: true
+    reason: >-
+      a branching is an activity that använder (C-095) a beslutslogik (C-178)
+      and utlöser (C-098) several steps, the condition in each relation's
+      description; no element of its own (ADR 0022), as BPMN's Exclusive
+      Gateway
+  - name: MergeNode
+    unmapped: true
+    reason: as DecisionNode
+  - name: ForkNode
+    unmapped: true
+    reason: >-
+      several utlöser (C-098) relations from the same step; no element of
+      its own, as BPMN's Parallel Gateway
+  - name: JoinNode
+    unmapped: true
+    reason: as ForkNode
+  - name: StructuredActivityNode
+    unmapped: true
+    reason: >-
+      a grouping of actions, notation; a group that is a behaviour in its
+      own right is drawn as a process the outer behaviour aggregerar
+      (C-100), as bpmn.yaml's Sub-Process and vdml.yaml's delegation
+  - name: ConditionalNode
+    unmapped: true
+    reason: as StructuredActivityNode
+  - name: LoopNode
+    unmapped: true
+    reason: as StructuredActivityNode
+  - name: SequenceNode
+    unmapped: true
+    reason: as StructuredActivityNode
+  - name: ExpansionRegion
+    unmapped: true
+    reason: as StructuredActivityNode
+  - name: InterruptibleActivityRegion
+    unmapped: true
+    reason: >-
+      the steps a verksamhetshändelse (C-135) may interrupt; the händelse
+      utlöser (C-098) the step that follows, the region is notation
+  - name: ExceptionHandler
+    unmapped: true
+    reason: as InterruptibleActivityRegion
+
+  # Actions (16)
+  # The step: a verksamhetsaktivitet when an aktör performs it, an
+  # applikationsaktivitet when an application does, a teknikaktivitet when
+  # a technical resource does. The kind of action is text in the aktivitet,
+  # as BPMN's task types; the rows below take the kinds that are not a
+  # step of their own.
+  - name: Action
+    concepts: [C-175, C-176, C-177]
+  - name: OpaqueAction
+    concepts: [C-175, C-176, C-177]
+  - name: CallBehaviorAction
+    unmapped: true
+    reason: >-
+      a reference to a reusable behaviour; the store names the behaviour
+      itself, which the outer behaviour aggregerar (C-100), see
+      relationships, as bpmn.yaml's Call Activity
+  - name: CallOperationAction
+    unmapped: true
+    reason: a call of an operation, the application's inside
+  - name: AcceptEventAction
+    unmapped: true
+    reason: >-
+      waiting for an event: the event is a verksamhetshändelse (C-135) that
+      utlöser (C-098) the next step, as BPMN's Intermediate Event
+  - name: SendSignalAction
+    unmapped: true
+    reason: >-
+      raising an event: the signal sent is a verksamhetshändelse (C-135)
+      the receiving behaviour's step is utlöst by, as BPMN's throwing event
+  - name: StructuralFeatureAction
+    unmapped: true
+    reason: >-
+      reading or writing an object's attribute: the step har åtkomst till
+      (C-101) the verksamhetsobjekt, see relationships; what it does to it
+      is text in the aktivitet
+  - name: LinkAction
+    unmapped: true
+    reason: as StructuralFeatureAction
+  - name: CreateObjectAction
+    unmapped: true
+    reason: as StructuralFeatureAction
+  - name: DestroyObjectAction
+    unmapped: true
+    reason: as StructuralFeatureAction
+  - name: VariableAction
+    unmapped: true
+    reason: the inside; a variable is no object the business handles
+  - name: ValueSpecificationAction
+    unmapped: true
+    reason: as VariableAction
+  - name: ReduceAction
+    unmapped: true
+    reason: as VariableAction
+  - name: RaiseExceptionAction
+    unmapped: true
+    reason: as VariableAction
+
+  # Interactions (17): the message order between parts, the inside (ADR
+  # 0026). The lifelines may be elements the store has, applikationer and
+  # roller, but what the diagram shows is how they call one another.
+  - name: Interaction
+    unmapped: true
+    reason: the sequence of messages between parts is the inside (ADR 0026)
+  - name: Lifeline
+    unmapped: true
+    reason: as Interaction
+  - name: Message
+    unmapped: true
+    reason: as Interaction
+  - name: ExecutionSpecification
+    unmapped: true
+    reason: as Interaction
+  - name: OccurrenceSpecification
+    unmapped: true
+    reason: as Interaction
+  - name: CombinedFragment
+    unmapped: true
+    reason: as Interaction
+  - name: InteractionOperand
+    unmapped: true
+    reason: as Interaction
+  - name: InteractionUse
+    unmapped: true
+    reason: as Interaction
+  - name: Gate
+    unmapped: true
+    reason: as Interaction
+  - name: StateInvariant
+    unmapped: true
+    reason: as Interaction
+  - name: GeneralOrdering
+    unmapped: true
+    reason: as Interaction
+
+  # Use Cases (18)
+  # A set of actions whose observable result is of value to an actor: the
+  # store's tjänst, word for word (C-075). The subject decides the type: a
+  # verksamhetstjänst when the subject is the business or a lösning
+  # (C-055), an applikationstjänst when the subject is an application. The
+  # use case's name is the service; its flow of events, the steps, is the
+  # behaviour the service realiseras av (C-094), a process.
+  - name: UseCase
+    concepts: [C-127, C-128]
+  # A role played by a user or another system interacting with the subject,
+  # by UML's own definition: the roll, never the aktör (C-073) that plays
+  # it. Another system as actor is an applikation.
+  - name: Actor
+    concepts: [C-074, C-071]
+  - name: ExtensionPoint
+    unmapped: true
+    reason: where an extending use case hooks in, text in the use case
+
+  # Deployments (19), as archimate.yaml
+  # A computational resource: the nod, and the plattform when several
+  # lösningar run on it (C-072's definition).
+  - name: Node
+    concepts: [C-079, C-072]
+  - name: Device
+    concepts: [C-080]
+  - name: ExecutionEnvironment
+    concepts: [C-087]
+  # A physical piece of information: the artefakt. The standard profile's
+  # artifact stereotypes have rows below.
+  - name: Artifact
+    concepts: [C-081]
+  - name: DeploymentSpecification
+    unmapped: true
+    reason: deployment parameters, text in the artefakt or the nod
+
+  # Information Flows (20)
+  # What is conveyed between two elements: the verksamhetsobjekt; its
+  # information side is the informationsobjekt (C-060) that realises it.
+  - name: InformationItem
+    concepts: [C-159]
+
+  # Primitive Types (21)
+  - name: Integer
+    unmapped: true
+    reason: as DataType
+  - name: Boolean
+    unmapped: true
+    reason: as DataType
+  - name: String
+    unmapped: true
+    reason: as DataType
+  - name: UnlimitedNatural
+    unmapped: true
+    reason: as DataType
+  - name: Real
+    unmapped: true
+    reason: as DataType
+
+  # Standard Profile (22): the stereotypes that meet the store. The
+  # relationship stereotypes are under relationships.
+  - name: Component «subsystem»
+    concepts: [C-071]
+  - name: Component «entity»
+    unmapped: true
+    reason: >-
+      a persistent information component inside an application, the
+      inside; the business concept it holds is an informationsobjekt
+      (C-060)
+  - name: Component «process»
+    unmapped: true
+    reason: a transaction-based component inside an application, the inside
+  - name: Component «service»
+    unmapped: true
+    reason: >-
+      a stateless component inside an application, the inside; what the
+      application offers is an applikationstjänst (C-128)
+  - name: Component «implement»
+    unmapped: true
+    reason: as Component «process»
+  - name: Component «buildComponent»
+    unmapped: true
+    reason: the build, the program's concern
+  - name: Artifact «file»
+    concepts: [C-081]
+  - name: Artifact «executable»
+    concepts: [C-081]
+  - name: Artifact «library»
+    concepts: [C-081]
+  - name: Artifact «document»
+    concepts: [C-081]
+  - name: Artifact «script»
+    concepts: [C-081]
+  - name: Artifact «source»
+    concepts: [C-081]
+  - name: Class «type»
+    unmapped: true
+    reason: how a class is used in the code, the inside
+  - name: Class «utility»
+    unmapped: true
+    reason: as Class «type»
+  - name: Class «implementationClass»
+    unmapped: true
+    reason: as Class «type»
+  - name: Class «focus»
+    unmapped: true
+    reason: as Class «type»
+  - name: Class «auxiliary»
+    unmapped: true
+    reason: as Class «type»
+  - name: Class «metaclass»
+    unmapped: true
+    reason: as Class «type»
+  - name: Classifier «specification»
+    unmapped: true
+    reason: as Class «type»
+  - name: Classifier «realization»
+    unmapped: true
+    reason: as Class «type»
+  - name: Package «framework»
+    unmapped: true
+    reason: as Package
+  - name: Package «modelLibrary»
+    unmapped: true
+    reason: as Package
+  - name: Model «metamodel»
+    unmapped: true
+    reason: as Package
+  - name: Model «systemModel»
+    unmapped: true
+    reason: as Package
+
+relationships:
+  # Classification and structure
+  - name: Generalization
+    concepts: [C-063]
+  # Realization in every form: the abstract thing is realiseras av the
+  # concrete one, the direction reversed as against ArchiMate.
+  - name: Realization
+    concepts: [C-094]
+  - name: ComponentRealization
+    concepts: [C-094]
+  # A component or node provides an interface: the gränssnitt is a part
+  # of it, as ArchiMate composes the interface into the component; the
+  # services the interface declares are the gränssnitt's text.
+  - name: InterfaceRealization
+    concepts: [C-062]
+  - name: Component or Node owns Port
+    concepts: [C-062]
+  - name: Substitution
+    unmapped: true
+    reason: >-
+      one classifier may stand in for another at runtime; the store's
+      ersätter (C-104) is a change in the architecture, not a runtime
+      contract
+  - name: Dependency
+    concepts: [C-099]
+  - name: Usage
+    concepts: [C-095]
+  - name: Usage «call»
+    unmapped: true
+    reason: one operation calls another, the inside
+  - name: Usage «create»
+    unmapped: true
+    reason: as Usage «call»
+  - name: Usage «instantiate»
+    unmapped: true
+    reason: as Usage «call»
+  - name: Usage «send»
+    unmapped: true
+    reason: as Usage «call»
+  - name: Usage «responsibility»
+    unmapped: true
+    reason: a contract between classes, the inside
+  # Abstraction without a stereotype is a Dependency; the standard
+  # stereotypes say what kind.
+  - name: Abstraction
+    concepts: [C-099]
+  - name: Abstraction «refine»
+    concepts: [C-103]
+  - name: Abstraction «derive»
+    concepts: [C-064]
+  - name: Abstraction «trace»
+    unmapped: true
+    reason: >-
+      a trace between elements of two models is a korrespondens (C-053), a
+      concept and no relation type
+  # An association between two classes: a relation between two
+  # informationsobjekt, with the multiplicity in the relation's description
+  # until interlingua has the field (ADR 0023), and role names and
+  # navigability as text. The aggregation kind of an end picks the type.
+  - name: Association
+    concepts: [C-099]
+  - name: Association with a composite end (Composition)
+    concepts: [C-062]
+  - name: Association with a shared end (Aggregation)
+    concepts: [C-100]
+  - name: Property typed by a Class
+    concepts: [C-099]
+  - name: Property typed by a DataType or Enumeration
+    unmapped: true
+    reason: an uppgift (C-161) with that format or värdemängd (C-197), no relation
+  # The assembly connector between a required and a provided interface:
+  # the requiring applikation använder the gränssnitt.
+  - name: Connector
+    concepts: [C-095]
+  - name: Connector of kind delegation
+    unmapped: true
+    reason: the wiring of a port to the inside
+
+  # State machines
+  # The transition between two states: the tillstånd utlöser the next, the
+  # guard in the relation's description (ADR 0024). The effect behaviour is
+  # the process that drives the object, drawn as a process.
+  - name: Transition
+    concepts: [C-098]
+  # The event on the transition: the verksamhetshändelse utlöser the
+  # tillstånd the transition enters (ADR 0024).
+  - name: Transition trigger
+    concepts: [C-098]
+  - name: Composite State contains substates
+    concepts: [C-062]
+  # The class a state machine belongs to is the verksamhetsobjekt whose
+  # tillståndsvy it is; the informationsobjekt of the same name realises
+  # it (C-094).
+  - name: StateMachine context (the Class whose states are drawn)
+    concepts: [C-159]
+  - name: State entry, exit and doActivity
+    unmapped: true
+    reason: what runs in a state is the behaviour that drives the object, drawn as a process
+
+  # Activities
+  - name: ControlFlow
+    concepts: [C-098]
+  - name: ObjectFlow
+    concepts: [C-097]
+  # The partition's element performs the actions in it.
+  - name: ActivityPartition contains ActivityNode
+    concepts: [C-096]
+  # An action whose work is a whole behaviour is drawn as that behaviour,
+  # which the outer behaviour aggregerar, as bpmn.yaml's Sub-Process and
+  # vdml.yaml's delegation (ADR 0028).
+  - name: CallBehaviorAction behavior
+    concepts: [C-100]
+  - name: Action reads or writes an object (StructuralFeatureAction, LinkAction)
+    concepts: [C-101]
+
+  # Use cases
+  # The actor uses the service.
+  - name: Actor associated with UseCase
+    concepts: [C-095]
+  # The including use case uses the included one's service.
+  - name: Include
+    concepts: [C-095]
+  - name: Extend
+    unmapped: true
+    reason: a variant of the flow at an extension point, text in the behaviour that realises the use case
+  - name: UseCase subject
+    unmapped: true
+    reason: >-
+      the subject is the arkitekturobjekt the description is of, a lösning
+      (C-055) or an applikation (C-071) named by the view, not a relation
+
+  # Deployments
+  # The artifact deployed on the node: tilldelas, as ArchiMate assigns a
+  # node to an artifact.
+  - name: Deployment
+    concepts: [C-096]
+  # The artifact manifests the component: the applikation realiseras av
+  # the artefakt, as ArchiMate's artifact realises the component.
+  - name: Manifestation
+    concepts: [C-094]
+  # The association between two nodes over which they exchange signals and
+  # messages: the sökväg.
+  - name: CommunicationPath
+    concepts: [C-089]
+
+  # Information flows
+  - name: InformationFlow
+    concepts: [C-097]
+  - name: InformationFlow realization
+    unmapped: true
+    reason: the connector or relation that carries the flow; the flow is the flödar till relation itself
+
+unmapped-concepts:
+  # Strategy and motivation: UML has no business layer above the use case.
+  - id: C-011
+    reason: UML has no portfolio
+  - id: C-012
+    reason: UML has no initiative; the transition is a model version
+  - id: C-014
+    reason: UML has no product; what a system offers is a use case
+  - id: C-069
+    reason: UML has no capability; SysML and BACM have, and UML is outside there (ADR 0026)
+  - id: C-084
+    reason: UML has no agreement; a contract between classes is the inside
+  - id: C-145
+    reason: UML's Actor is a role, not the people who share a need
+  - id: C-146
+    reason: UML has no need; the use case is the system's answer, never the question
+  - id: C-147
+    reason: UML has no journey
+  - id: C-148
+    reason: UML has no value proposition; the value a use case gives is in its definition, not an element
+  - id: C-190
+    reason: UML has no value stream; an activity is a process, not the stages of value
+  - id: C-195
+    reason: UML has no value
+  - id: C-016
+    reason: UML has no styrmedel; they are BMM's (ADR 0025), and a Comment is text
+  - id: C-017
+    reason: as C-016
+  - id: C-018
+    reason: as C-016
+  - id: C-019
+    reason: as C-016
+  - id: C-021
+    reason: UML has no requirement; SysML's is outside (ADR 0026)
+  - id: C-022
+    reason: as C-016
+  - id: C-040
+    reason: as C-016
+  - id: C-184
+    reason: as C-016
+  - id: C-185
+    reason: as C-016
+
+  # Business layer: UML draws the system, and the business only as the
+  # roles and activities around it.
+  - id: C-156
+    reason: UML has no forum; a Collaboration is roles for a task, not a recurring meeting
+  - id: C-158
+    reason: UML's Activity runs from start to end; the ongoing grouping without them is in no UML element
+  - id: C-160
+    reason: UML's Activity is a process with a fixed flow; the case whose steps are chosen as it goes is CMMN's
+  - id: C-167
+    reason: UML has no owner of information; Actor is a role toward the system
+  - id: C-178
+    reason: a DecisionNode is a branch in one flow, not reusable decision logic; that is DMN's (ADR 0022)
+  - id: C-138
+    reason: UML's Interface is software's; where an aktör makes verksamhetstjänster available is in no UML element
+  - id: C-085
+    reason: UML's Artifact is the file on the technology side; the form an informationsobjekt takes for a reader is in no UML element
+
+  # Application and technology: what UML has no element for.
+  - id: C-133
+    reason: as C-158, for an application
+  - id: C-134
+    reason: as C-158, for a technical resource
+  - id: C-129
+    reason: UML's use case subject is a system, so the service of a technical resource has no row; its gränssnitt is Interface on a Node
+  - id: C-136
+    reason: an event in a component's protocol state machine is the inside; only a verksamhetsobjekt's state machine is drawn in the store
+  - id: C-137
+    reason: as C-136
+  - id: C-088
+    reason: UML's CommunicationPath is the link between nodes, the sökväg; the network itself is in no UML element
+  - id: C-090
+    reason: UML's Device is a node that runs software; equipment that runs none is in no UML element
+  - id: C-091
+    reason: UML has no facility
+  - id: C-092
+    reason: UML has no distribution network
+  - id: C-093
+    reason: UML has no material
+
+  # Relation types UML does not draw.
+  - id: C-065
+    reason: a Comment annotates one element; the store's beskriver relates two
+  - id: C-102
+    reason: UML has no influence; BMM's (ADR 0025)
+  - id: C-104
+    reason: UML's Substitution is a runtime contract, not one element taking another's place in the architecture
+  - id: C-151
+    reason: UML has no need
+  - id: C-152
+    reason: UML has no value proposition
+  - id: C-153
+    reason: UML has no value proposition
+  - id: C-154
+    reason: UML has no product
+  - id: C-155
+    reason: UML has no supplier
+  - id: C-183
+    reason: UML has no styrmedel

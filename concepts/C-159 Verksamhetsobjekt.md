@@ -21,6 +21,8 @@ Motsvarar BusinessObject i Business Architecture Core Metamodel (BACM). Gränsen
 
 Motsvarar BusinessItem i Value Delivery Modeling Language (VDML), allt som kan skapas eller skaffas och bär information, förpliktelse eller värde; det som används upp eller lånas i en aktivitet är en resurs ([[C-122 Resurs]]). ADR 0028.
 
+I Unified Modeling Language (UML) är verksamhetsobjektet aktivitetsdiagrammets objekt (ObjectNode, Pin), det som flödar mellan två element (InformationItem) och den klass vars tillståndsmaskin ritas; klassen i klassdiagrammet är informationsobjektet som realiserar det. ADR 0029.
+
 ## Exempel
 
 ett ärende, ett ärendebeslut, ett initiativ, en utgiftsprognos, verksamhetsplanen, en analysrapport.

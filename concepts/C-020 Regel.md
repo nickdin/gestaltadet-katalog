@@ -24,6 +24,8 @@ Handlingen eller läget prövas mot regeln. Regeln lämnar inget bedömningsutry
 
 **Nödvändighet:** Varje regel har ett ursprung: en princip den härleds ur eller en påverkan den kommer direkt ur.
 
+Motsvarar Constraint i Unified Modeling Language (UML) när villkoret säger vad som ska gälla i verksamheten, "sökanden är minst 18 år"; ett villkor som bara skyddar koden är applikationens insida. ADR 0029.
+
 ## Exempel
 
 "Avvikelse från princip beslutas i arkitekturrådet."

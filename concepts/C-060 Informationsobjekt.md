@@ -29,6 +29,8 @@ Ett informationsobjekt består av uppgifter ([[C-161 Uppgift]]), attributen, som
 
 SDMN (Shared Data Model and Notation), den datamodell BPMN, CMMN och DMN delar, kallar samma sak DataItem och dess struktur ItemDefinition; båda är informationsobjektet, strukturen dess uppgifter. Lagret är den delade datamodellen: SDMN är ett utbytesformat mellan verktygen, inget verktyg för informationsmodellering, och ett sådant verktyg får sina dataelement från lagrets informationsobjekt. Informationsobjektet har inget eget tillstånd; verksamhetsobjektets tillstånd ([[C-182 Tillstånd]]) bärs av en uppgift, statusfältet. Beslutet: ADR 0024.
 
+Motsvarar Class i Unified Modeling Language (UML): klassdiagrammet är informationsmodellen, attributen (Property) uppgifter och en Enumeration en värdemängd ([[C-197 Värdemängd]]). Den klass vars tillståndsmaskin ritas är det verksamhetsobjekt informationsobjektet realiserar, och aktivitetsdiagrammets objekt är verksamhetsobjektet; klassen i klassdiagrammet är alltid informationsobjektet. ADR 0029.
+
 ## Exempel
 
 en ansökan, ett ärende, en person i ett register.

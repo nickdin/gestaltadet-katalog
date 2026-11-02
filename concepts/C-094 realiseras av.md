@@ -16,3 +16,5 @@ key: realized_by
 ## Anmärkning
 
 Relationen går från det förverkligade elementet till förverkligaren. Motsvarar ArchiMates Realization.
+
+Motsvarar Realization, ComponentRealization och Manifestation i Unified Modeling Language (UML), riktningen vänd. ADR 0029.

@@ -16,3 +16,5 @@ generic: "[[C-070 Process]]"
 ## Anmärkning
 
 Motsvarar ArchiMates Technology Process. Ett teknikbeteende ([[C-180 Teknikbeteende]]); stegen är teknikaktiviteter ([[C-177 Teknikaktivitet]]).
+
+Motsvarar Activity i Unified Modeling Language (UML) när en teknisk resurs utför den. ADR 0029.

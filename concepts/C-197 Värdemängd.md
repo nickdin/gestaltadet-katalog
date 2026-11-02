@@ -26,3 +26,11 @@ associative:
     label: är statusuppgiftens
 ---
 # C-197 Värdemängd
+
+## Anmärkning
+
+Ett begrepp, ingen elementtyp: värdemängden ritas inte som egen ruta utan står som text vid uppgiften ([[C-161 Uppgift]]) i informationsobjektets ([[C-060 Informationsobjekt]]) lista över uppgifter. Värdeförråd och kodverk är alternativa termer, kodverk när värdena är koder med en betydelse var; domän avråds, eftersom ordet i katalogen är verksamhetsdomänens ([[C-008 Verksamhetsdomän]]). Statusuppgiftens värdemängd är verksamhetsobjektets tillstånd ([[C-182 Tillstånd]]): varje värde där är ett läge i tillståndsvyn, och ingen annan värdemängd pekar på element. Motsvarar Enumeration i Unified Modeling Language (UML), vars literaler är värdena. ADR 0029.
+
+## Exempel
+
+utrett, beslutat och avslutat för ärendets statusuppgift; kommunkoderna för uppgiften kommun; ja och nej för uppgiften medlem i riksorganisation.

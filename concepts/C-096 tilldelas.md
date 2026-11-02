@@ -16,3 +16,5 @@ key: assigned_to
 ## Anmärkning
 
 Relationen går från det utförande elementet till beteendet. Motsvarar ArchiMates Assignment.
+
+Motsvarar Deployment i Unified Modeling Language (UML), artefakten driftsatt på noden, och simbanan (ActivityPartition) som utför stegen i den. ADR 0029.

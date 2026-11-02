@@ -14,6 +14,8 @@ associative:
 
 **Definition:** relation som anger hur arkitekturelement i en arkitekturvy hänger ihop med arkitekturelement i en annan vy av samma arkitekturbeskrivning
 
+UML:s «trace» mellan element i två modeller är en korrespondens, ingen relationstyp. ADR 0029.
+
 ## Exempel
 
 en förmåga realiseras av en process; processen stöds av en applikation; applikationen hanterar ett informationsobjekt och körs på en plattform.

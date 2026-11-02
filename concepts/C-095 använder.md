@@ -16,3 +16,5 @@ key: depends_on
 ## Anmärkning
 
 Relationen går från det nyttjande elementet till det tillhandahållande. Motsvarar ArchiMates Serving, riktningen vänd.
+
+Motsvarar Usage i Unified Modeling Language (UML), aktörens streck till användningsfallet, Include mellan två användningsfall och kopplingen (Connector) från en komponents krävda gränssnitt till ett givet. ADR 0029.

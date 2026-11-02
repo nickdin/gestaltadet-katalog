@@ -15,3 +15,5 @@ kind: element-type
 ## Anmärkning
 
 Motsvarar ArchiMates Path.
+
+Motsvarar CommunicationPath i Unified Modeling Language (UML), länken mellan två noder. ADR 0029.

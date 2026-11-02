@@ -16,3 +16,5 @@ key: derived_from
 ## Anmärkning
 
 Relationen går från det härledda elementet till ursprunget.
+
+Motsvarar «derive» i Unified Modeling Language (UML). ADR 0029.

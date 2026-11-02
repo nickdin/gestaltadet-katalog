@@ -16,3 +16,5 @@ key: flows_to
 ## Anmärkning
 
 Relationen går från det avsändande elementet till mottagaren. Motsvarar ArchiMates Flow.
+
+Motsvarar ObjectFlow i en aktivitet och InformationFlow i Unified Modeling Language (UML). ADR 0029.
