@@ -6,6 +6,7 @@ terms:
     language: sv
     source: catalogue
 definition: "styrning avgränsad av ett styrobjekt"
+generic: '[[C-002 Styrning]]'
 ---
 # C-005 Objektbaserad styrning
 
