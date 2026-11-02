@@ -7,6 +7,9 @@ terms:
     source: catalogue
 definition: "styrning avgränsad av ett styrobjekt"
 generic: '[[C-002 Styrning]]'
+associative:
+  - concept: '[[C-003 Styrobjekt]]'
+    label: avgränsas av
 ---
 # C-005 Objektbaserad styrning
 
