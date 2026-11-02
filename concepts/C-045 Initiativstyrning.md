@@ -6,6 +6,7 @@ terms:
     language: sv
     source: catalogue
 definition: "objektbaserad styrning där styrobjektet är ett initiativ"
+generic: '[[C-005 Objektbaserad styrning]]'
 ---
 # C-045 Initiativstyrning
 
