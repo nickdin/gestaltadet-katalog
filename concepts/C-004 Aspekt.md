@@ -9,6 +9,9 @@ terms:
     language: sv
     source: catalogue
 definition: "egenskap hos det som styrs, som gäller tvärs över alla arkitekturperspektiv och som en styrning eller ett styrmedel tar sikte på"
+associative:
+  - concept: '[[C-003 Styrobjekt]]'
+    label: är en egenskap hos
 ---
 # C-004 Aspekt
 
