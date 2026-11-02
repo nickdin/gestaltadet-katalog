@@ -7,6 +7,7 @@ terms:
     source: catalogue
 definition: "sammanhållen mängd av initiativ och produkter som prioriteras och finansieras gemensamt"
 kind: element-type
+partitive: '[[C-009 Utvecklingsdomän]]'
 ---
 # C-011 Portfölj
 
