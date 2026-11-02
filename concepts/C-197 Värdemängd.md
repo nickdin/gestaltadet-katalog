@@ -14,6 +14,10 @@ terms:
     language: sv
     source: concept change
     status: admitted
+  - term: domän
+    language: sv
+    source: concept change
+    status: deprecated
 definition: mängd av de värden en uppgift får anta
 ---
 # C-197 Värdemängd
