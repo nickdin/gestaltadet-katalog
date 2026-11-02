@@ -32,7 +32,7 @@ The two families answer different questions, and neither substitutes for the oth
 
 Used where they help, never as a substitute for a type or a status. The tree-wide `rehaul` tag is deliberately absent: this repo is outside the rehaul, born on this machine 2026-10-31. No other topic tag exists here yet; the engineering ones (`code-quality`, `ops`, `invariant`, `risk`) belong to interlingua, where the program lives.
 
-**`needs-grilling`, a topic tag standard in every repo of this tree since 2026-10-31 (Nicklas).** Not sharp enough to build; the next step is a grilling with Nicklas, and the tag is there so such a ticket reads on the board at a glance. `/to-spec` takes it off when the spec is published. Distinct from `wayfinder:grilling`, which marks a map's child ticket and nothing else.
+**`needs-grilling`, a topic tag standard in every repo of this tree since 2026-10-31 (Nicklas).** Not sharp enough to build; the next step is a grilling with Nicklas, and the tag is there so such a ticket reads on the board at a glance. The board files it in Awaiting you, since the grilling is Nicklas's, and its status label is `ready-for-human` for the same reason (Nicklas, 2026-11-02). `/to-spec` takes it off when the spec is published. Distinct from `wayfinder:grilling`, which marks a map's child ticket and nothing else.
 
 ## What is deliberately not here
 
