@@ -2,6 +2,8 @@
 
 Beslutat av Nicklas i en grillning av informationsperspektivet inför draw.io-mallen med en ruta per elementtyp.
 
+Meningen om att ändamål och rättslig grund står i beteendets beskrivning ersattes av ADR 0031: de står i registerförteckningen, och lagret ger ankaret.
+
 ## Sammanhang
 
 Kartläggningen av en avdelnings verksamhetsinformation gav katalogen åtta begrepp på två dagar, och fyra av dem som elementtyper: Uppgift (`C-161`), Sammanställning (`C-162`), Lagringsyta (`C-165`) och Behandling (`C-168`). Inget element hade registrerats av någon av dem, och ArchiMate saknar motsvarighet till tre. Mallen som skulle visa en box per typ gjorde skevheten synlig: informationsperspektivet, definierat som strukturen hos den information verksamheten hanterar, rymde en åtgärd, och fältet i ett informationsobjekt hade en egen box.

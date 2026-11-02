@@ -30,6 +30,8 @@ Outcome i Business Architecture Core Metamodel (BACM), det läge hos ett objekt 
 
 Motsvarar State i Unified Modeling Language (UML): övergången (Transition) är utlöser med vakten i relationens beskrivning, händelsen på övergången utlöser tillståndet, ett sammansatt tillstånd består av sina deltillstånd, och tillståndsmaskinen själv är tillståndsvyn. Statusuppgiftens värdemängd ([[C-197 Värdemängd]]) är tillstånden, så UML:s EnumerationLiteral är ett tillstånd när värdemängden är statusuppgiftens. ADR 0029.
 
+Representationen ([[C-085 Representation]]) har inte heller något tillstånd: att ärendet är arkiverat är verksamhetsobjektets läge, och arkiverad och gallrad hos handlingen är aktiviteter i arkivvården, inte lägen ([[C-200 Gallring]], ADR 0031).
+
 ## Exempel
 
-utrett, beslutat och avslutat för ett ärende; obetald och betald för en faktura.
+utrett, beslutat, avslutat och arkiverat för ett ärende; obetald och betald för en faktura.

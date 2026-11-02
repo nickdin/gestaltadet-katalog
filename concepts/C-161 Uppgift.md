@@ -25,6 +25,8 @@ Ett informationsobjekt består av uppgifter, och samma uppgift kan ingå i flera
 
 Motsvarar Property i Unified Modeling Language (UML), attributet i klassen; de värden uppgiften får anta är dess värdemängd ([[C-197 Värdemängd]]), och en DataType är uppgiftens format, text. ADR 0029.
 
+Sekretessen är det tydligaste fallet av reglering för sig. Offentlighets- och sekretesslagen fäster sekretessen på uppgiften, ofta i ett sammanhang, "i ärende om bidrag, för uppgift om enskilds personliga förhållanden"; en uppgift som omfattas av sekretess är därför ett eget informationsobjekt, med paragrafen i sin beskrivning, och sammanhanget läses ur det verksamhetsbeteende som har åtkomst till objektet. Sekretessen följer uppgiften vart den tar vägen och gäller inte handlingen; sekretessmarkeringen på handlingen är representationens ([[C-085 Representation]]) märkning (ADR 0031).
+
 ## Exempel
 
 en förenings organisationsnummer, ett hyresbelopp, datumet en ansökan kom in.

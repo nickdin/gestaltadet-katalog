@@ -24,6 +24,8 @@ SDMN:s isCollection, flera av samma, är en sammanställning först när verksam
 
 Ett informationsområde ([[C-198 Informationsområde]]) samlar också informationsobjekt, men hela objekt, för att de hör ihop och ägs tillsammans, och utan egen representation; sammanställningen är innehåll satt samman av uppgifter för ett ändamål. Får det som samlats en representation är det en sammanställning (ADR 0030).
 
+Den potentiella handlingen i tryckfrihetsförordningen 2 kap. 6 §, en sammanställning av uppgifter som myndigheten kan göra med rutinbetonade åtgärder, är en sammanställning utan representation ännu; ett registerutdrag och en fil för dataportabilitet är sammanställningar myndigheten upprättar på begäran, med formatkravet på representationen ([[C-085 Representation]]). Arkivredovisningen ordnar handlingen under den process som upprättade den; vem som är informationsägare till sammanställningen är fortfarande oavgjort, tills rollen som äger ett verksamhetsbeteende finns (ADR 0031).
+
 ## Exempel
 
 förteckningen över alla föreningars företrädare, månadsuppföljningen av hyresfordringar per område, distributionslistan för nyhetsbrevet.
