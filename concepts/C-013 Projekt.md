@@ -6,6 +6,7 @@ terms:
     language: sv
     source: catalogue
 definition: "initiativ som genomförs i projektform, med egen organisation och avslutspunkt"
+generic: '[[C-012 Initiativ]]'
 ---
 # C-013 Projekt
 
