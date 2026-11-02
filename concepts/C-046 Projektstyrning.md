@@ -6,6 +6,7 @@ terms:
     language: sv
     source: catalogue
 definition: "initiativstyrning där initiativet har formen projekt"
+generic: '[[C-045 Initiativstyrning]]'
 ---
 # C-046 Projektstyrning
 
