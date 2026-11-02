@@ -9,6 +9,14 @@ terms:
     language: sv
     source: concept change
     status: admitted
+  - term: handling
+    language: sv
+    source: concept change
+    status: admitted
+  - term: handlingstyp
+    language: sv
+    source: concept change
+    status: admitted
 definition: "konkret, ofta mänskligt läsbar form som ett informationsobjekt tar"
 kind: element-type
 associative:
