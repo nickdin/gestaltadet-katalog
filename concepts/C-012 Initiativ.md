@@ -7,6 +7,7 @@ terms:
     source: catalogue
 definition: "tidsbegränsad förändringsinsats med definierat slut"
 kind: element-type
+partitive: '[[C-011 Portfölj]]'
 ---
 # C-012 Initiativ
 
