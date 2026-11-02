@@ -13,6 +13,8 @@ associative:
 ---
 # C-188 Strategi
 
+**Definition:** sammanhängande uppsättning styrbeslut som anger var verksamheten ska verka och hur den ska lyckas
+
 ## Anmärkning
 
 Ett begrepp, ingen egen typ: en strategi registreras som sina styrbeslut ([[C-019 Styrbeslut]]), vart och ett ett vägval i en enskild fråga, var verksamheten ska verka, hur den ska lyckas, vad den ska kunna, och dokumentet de står i som en bärare ([[C-016 Bärare]]). Valen hänger ihop och måste prövas mot varandra; affärsmodellens canvas är en form för att göra det. Ett vägval härleds ur ([[C-064 härleds ur]]) den bedömning ([[C-185 Bedömning]]) som motiverar det och påverkar ([[C-102 påverkar]]) det mål ([[C-017 Mål]]) det ska föra verksamheten mot; en process realiserar det, och ett initiativ ([[C-012 Initiativ]]) är arbetet som genomför det. Det Business Motivation Model kallar taktik, det smalare vägvalet som genomför ett bredare, är ett styrbeslut som förfinar ([[C-103 förfinar]]) ett annat; var gränsen går avgör varje organisation själv. Motsvarar Course of Action, Strategy och Tactic i Business Motivation Model, som alla mappas till styrbeslut (ADR 0025).

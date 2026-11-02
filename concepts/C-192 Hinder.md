@@ -11,6 +11,8 @@ partitive: '[[C-146 Behov]]'
 ---
 # C-192 Hinder
 
+**Definition:** det som står i vägen för människorna i ett behov
+
 ## Anmärkning
 
 Ett begrepp, ingen elementtyp: hindret står i behovets ([[C-146 Behov]]) text under en egen rubrik och ritas inte som egen ruta, som uppgiften ([[C-161 Uppgift]]) står i informationsobjektet. Det är alltid ett hinder i ett behov och har inget liv för sig. Ett värdeerbjudande hjälper ([[C-194 Hjälp]]) genom att röja vägen. ADR 0027. Motsvarar Pain i Value Proposition Canvas (ADR 0028).

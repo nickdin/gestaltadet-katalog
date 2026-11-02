@@ -20,6 +20,8 @@ associative:
 ---
 # C-194 Hjälp
 
+**Definition:** hur ett värdeerbjudande hjälper människor med ett behov, röjer dess hinder och ger dess vinst
+
 ## Anmärkning
 
 Ett begrepp, ingen elementtyp: hjälpen står i värdeerbjudandets ([[C-148 Värdeerbjudande]]) text, en per behov erbjudandet möter ([[C-153 möter]]), och säger hur erbjudandet röjer behovets hinder ([[C-192 Hinder]]) och ger dess vinst ([[C-193 Vinst]]). Ett behov utan hjälp är passningen synliggjord: det erbjudandet inte gör. Hjälpen bedöms efter värden ([[C-195 Värde]]), de mätbara nyttor erbjudandet består av: hjälpen är det erbjudandet gör för behovet, värdet är den egenskap mottagaren bedömer det efter. Motsvarar ValueItem i Business Architecture Core Metamodel (BACM), verksamhetens tro att mottagaren värderar ett visst utfall (ADR 0027), och Pain Reliever och Gain Creator i Value Proposition Canvas. Hette Svar till ADR 0028, som bytte termen för att ordet ska gå att förstå utan definitionen.

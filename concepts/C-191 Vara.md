@@ -14,6 +14,8 @@ associative:
 ---
 # C-191 Vara
 
+**Definition:** verksamhetsobjekt som lämnas över till mottagaren och blir mottagarens
+
 ## Anmärkning
 
 Ett begrepp, ingen egen typ: en vara registreras som verksamhetsobjekt ([[C-159 Verksamhetsobjekt]]) och är det verksamhetsobjekt en produkt ([[C-014 Produkt]]) aggregerar och lämnar över. Det som skiljer varan från andra verksamhetsobjekt är att den blir mottagarens; det produkten gör utan att lämna något över är verksamhetstjänster ([[C-127 Verksamhetstjänst]]). Ingen sort av produkt säger vara eller tjänst, eftersom en produkt ofta blandar; innehållet syns i vad den aggregerar. MerchandiseOffering i Business Architecture Core Metamodel (BACM) är en produkt vars innehåll är varor. ADR 0027.

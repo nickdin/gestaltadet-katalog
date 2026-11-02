@@ -13,6 +13,8 @@ associative:
 ---
 # C-171 Leverabel
 
+**Definition:** resultat som ett initiativ lämnar ifrån sig när det är klart
+
 ## Anmärkning
 
 Ett begrepp, ingen egen typ: det ett initiativ ([[C-012 Initiativ]]) lämnar ifrån sig är nästan alltid redan ett element, en applikation, en process, en riktlinje som bärare, och leverabeln registreras som det element den blir, med initiativet som påverkar ([[C-102 påverkar]]) eller, i en målbild, ersätter ([[C-104 ersätter]]) det. ArchiMates Deliverable har därför ingen motsvarande ruta här. Ersätter ordet produktmål. ADR 0019.

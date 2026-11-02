@@ -15,6 +15,8 @@ partitive: '[[C-060 Informationsobjekt]]'
 ---
 # C-161 Uppgift
 
+**Definition:** information om en enskild egenskap hos en företeelse, den minsta enhet ett informationsobjekt består av
+
 ## Anmärkning
 
 Ett begrepp, ingen elementtyp: en uppgift registreras inte som eget element och ritas inte som egen ruta, utan står i informationsobjektets ([[C-060 Informationsobjekt]]) lista över uppgifter och ritas inuti dess ruta, som attributen i en entitetstyp. Attribut är informationsmodelleringens ord för samma sak och är tillåten term; uppgift är förvaltningens och lagens ord, det personuppgiften, sekretessen och uppgiftsskyldigheten gäller, och därför det föredragna. Varje uppgift som ritas har sitt begrepp i katalogen, som informationsobjektet självt (ADR 0023): raden i listan pekar på begreppet, kötid i Bostadssökande på begreppet Kötid, och det som återanvänds mellan två informationsobjekt är begreppet, definitionen, inget element. Interlingua har ännu inget fält för listan (interlingua #906); tills det finns står uppgifterna som en lista under en rubrik i informationsobjektets beskrivning.
