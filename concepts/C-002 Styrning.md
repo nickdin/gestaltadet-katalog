@@ -6,6 +6,9 @@ terms:
     language: sv
     source: catalogue
 definition: "åtgärder som ledningen, eller den som har ledningens mandat, vidtar avseende ett styrobjekt för att uppnå ett avsett resultat"
+associative:
+  - concept: '[[C-001 Ledningssystem]]'
+    label: omfattas av
 ---
 # C-002 Styrning
 
