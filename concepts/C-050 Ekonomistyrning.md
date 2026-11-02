@@ -6,6 +6,7 @@ terms:
     language: sv
     source: catalogue
 definition: "aspektbaserad styrning med aspekten ekonomi"
+generic: '[[C-006 Aspektbaserad styrning]]'
 ---
 # C-050 Ekonomistyrning
 
