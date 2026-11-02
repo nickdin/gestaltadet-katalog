@@ -10,5 +10,7 @@ definition: förstöring av allmänna handlingar, beslutad per handlingstyp och 
 associative:
   - concept: '[[C-085 Representation]]'
     label: tar bort
+  - concept: '[[C-016 Bärare]]'
+    label: beslutas i
 ---
 # C-200 Gallring
