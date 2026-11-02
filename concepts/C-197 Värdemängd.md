@@ -19,5 +19,8 @@ terms:
     source: concept change
     status: deprecated
 definition: mängd av de värden en uppgift får anta
+associative:
+  - concept: '[[C-161 Uppgift]]'
+    label: gäller en
 ---
 # C-197 Värdemängd
