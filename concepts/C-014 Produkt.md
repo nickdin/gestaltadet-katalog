@@ -15,6 +15,7 @@ associative:
     label: regleras av
   - concept: "[[C-073 Aktör]]"
     label: levereras till
+partitive: '[[C-011 Portfölj]]'
 ---
 # C-014 Produkt
 
