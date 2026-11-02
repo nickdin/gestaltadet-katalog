@@ -7,5 +7,6 @@ terms:
     status: preferred
     source: concept new
 definition: representation som förvaras hos myndigheten och som har kommit in dit eller upprättats där
+generic: '[[C-085 Representation]]'
 ---
 # C-199 Allmän handling
