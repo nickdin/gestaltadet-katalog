@@ -6,6 +6,9 @@ terms:
     language: sv
     status: preferred
     source: concept new
+  - term: datatyp
+    language: sv
+    source: concept change
 definition: indelning av informationsobjekt efter hur verksamheten håller och fångar deras förekomster
 associative:
   - concept: '[[C-060 Informationsobjekt]]'
