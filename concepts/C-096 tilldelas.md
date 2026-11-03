@@ -5,13 +5,13 @@ terms:
   - term: tilldelas
     language: sv
     source: catalogue
-definition: "relationstyp som anger att ett arkitekturelement utför eller ansvarar för ett annat arkitekturelements beteende"
+definition: relationstyp som anger att ett arkitekturelement utför ett annat arkitekturelements beteende
 kind: relation-type
 key: assigned_to
 ---
 # C-096 tilldelas
 
-**Definition:** relationstyp som anger att ett arkitekturelement utför eller ansvarar för ett annat arkitekturelements beteende
+**Definition:** relationstyp som anger att ett arkitekturelement utför ett annat arkitekturelements beteende
 
 ## Anmärkning
 
