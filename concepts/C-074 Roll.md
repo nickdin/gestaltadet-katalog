@@ -23,6 +23,8 @@ Value Delivery Modeling Language (VDML) har en roll per samverkanstyp, Position 
 
 Motsvarar Actor i Unified Modeling Language (UML), som UML självt definierar som en roll en användare eller ett annat system spelar mot subjektet; ett annat system är en applikation ([[C-071 Applikation]]), och aktören ([[C-073 Aktör]]) som spelar rollen ritas inte där. Simbanan (ActivityPartition) är rollen när den är döpt efter en. ADR 0029.
 
+Tre sätt att äga, och en regel för när något får en ägarroll (ADR 0035): ett styrmedel eller en bärare ägs av den som fastställt det ([[C-183 fastställs av]]); ett styrobjekt, verksamheten, en domän, en portfölj, en lösning, av den som har mandatet ([[C-189 Mandat]]) över det; och ett arkitekturelement får en ägarroll som egen typ bara när ett regelverk utanför katalogen frågar vem som svarar per element: informationsobjektet har informationsägaren ([[C-167 Informationsägare]]), verksamhetsbeteendet processägaren ([[C-206 Processägare]]), båda skrivna med ansvarar för ([[C-208 ansvarar för]]). Allt annat ägs genom det som rymmer det. Linjechefen ([[C-207 Linjechef]]) är begreppet för förekomsterna, som katalogen inte ritar.
+
 ## Exempel
 
 informationsarkitekt, enterprisearkitekt.

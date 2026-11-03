@@ -49,6 +49,8 @@ Beslutslogiken är de regler som ger utfallet ur indata: verksamhetsbidragets st
 
 Chefen för Bidragsenheten är informationsägare för Ansökan, Redovisning, Beslut, Utbetalning och Återkrav; chefen för Register- och tillsynsenheten för Förening, Företrädare, Kontonummer och Tillsynsärende. Informationsägaren beslutar klassningen och vad som får göras med informationen. Förteckningen över alla företrädare är känsligare än varje företrädare för sig.
 
+Chefen för Bidragsenheten är också processägare för handläggningen av ansökan och linjechef för enheten som handlägger: det vanliga fallet, där de tre rollerna är samma person och delningen mellan dem inte syns. Analysenheten läser Ansökan, Beslut och Utbetalning in i ett datalager, en lagringsyta i myndighetens analysplattform, sätter samman Utbetalningar per kommun och räknar fram Riskindikator per förening. Chefen för analysenheten är processägare för analysfunktionen och informationsägare för de två objekt den upprättar; läsningen av Bidragsenhetens objekt sker inom det Bidragsenhetens chef beslutat.
+
 ## System
 
 - **Föreningsportalen**: e-tjänsten där föreningen ansöker, kompletterar och redovisar, med inloggning för företrädaren.
@@ -65,4 +67,4 @@ Målgruppen är ideella föreningar och de människor som företräder dem, ofta
 
 ## I katalogen
 
-Myndigheten står för förvaltningens mekanik. Hämta härifrån exempel på uppdrag (C-149), verksamhetsmål (C-169), portfölj (C-011) och initiativ (C-012), verksamhetsförmåga (C-069), verksamhetsprocess (C-130) och handläggning (C-160), ärendebeslut (C-181) och beslutslogik (C-178), informationsobjekt (C-060), uppgift (C-161), sammanställning (C-162), informationsägare (C-167) och informationstillgång (C-166), applikation (C-071) och plattform (C-072), samt målgrupp (C-145), behov (C-146), resa (C-147) och värdeerbjudande (C-148). Det fysiska, kunden i vardagen och tekniken i husen hämtas från bostadsbolaget.
+Myndigheten står för förvaltningens mekanik. Hämta härifrån exempel på uppdrag (C-149), verksamhetsmål (C-169), portfölj (C-011) och initiativ (C-012), verksamhetsförmåga (C-069), verksamhetsprocess (C-130) och handläggning (C-160), ärendebeslut (C-181) och beslutslogik (C-178), informationsobjekt (C-060), uppgift (C-161), sammanställning (C-162), informationsägare (C-167), processägare (C-206) och linjechef (C-207) i en och samma person, informationstillgång (C-166), applikation (C-071) och plattform (C-072), samt målgrupp (C-145), behov (C-146), resa (C-147) och värdeerbjudande (C-148). Det fysiska, kunden i vardagen och tekniken i husen hämtas från bostadsbolaget.

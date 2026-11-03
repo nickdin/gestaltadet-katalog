@@ -23,3 +23,11 @@ associative:
 # C-207 Linjechef
 
 **Definition:** chef för en organisationsenhet, som svarar för att enhetens personal utför de beteenden enheten tilldelas och hanterar informationen i dem som informationsägaren och processägaren beslutat
+
+## Anmärkning
+
+Ett begrepp, ingen elementtyp: i lagret är linjechefen chefen för den organisationsenhet ([[C-121 Organisationsenhet]]) som tilldelas ([[C-096 tilldelas]]) beteendet som utförare, och ansvaret läses ur den relationen. Ansvaret gäller förekomsterna, de faktiska ärendena och de faktiska uppgifterna, som katalogen inte ritar; typerna äger informationsägaren ([[C-167 Informationsägare]]) och processägaren ([[C-206 Processägare]]). Riktigheten delas i tre: kravet är informationsägarens genom klassen, kontrollen i beteendet processägarens, och att förekomsten stämmer linjechefens. Mandatet ([[C-189 Mandat]]) följer av positionen, och linjechefen fastställer ([[C-183 fastställs av]]) det arbetsordningen ger hen att fastställa. Chef och enhetschef är tillåtna termer. Ofta är linjechefen tillika processägare och informationsägare, och delningen syns då inte. Beslutet: ADR 0035.
+
+## Exempel
+
+chefen för områdeskontoret vars bovärdar utför Felanmälan; chefen för Bidragsenheten, som också är processägare och informationsägare.

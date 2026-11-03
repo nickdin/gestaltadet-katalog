@@ -16,6 +16,7 @@ covers:
   - "[[C-073 Aktör]]"
   - "[[C-074 Roll]]"
   - "[[C-167 Informationsägare]]"
+  - "[[C-206 Processägare]]"
   - "[[C-084 Överenskommelse]]"
   - "[[C-127 Verksamhetstjänst]]"
   - "[[C-130 Verksamhetsprocess]]"

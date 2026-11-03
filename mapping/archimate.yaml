@@ -33,11 +33,11 @@ elements:
   # Business layer
   - name: Business Actor
     concepts: [C-073]
-  # An informationsägare (C-167) is a roll with a particular responsibility; it
-  # is written out as a Business Role, and a Business Role read in is a roll,
-  # the row's first concept.
+  # An informationsägare (C-167) and a processägare (C-206) are rolls with a
+  # particular responsibility; both are written out as a Business Role, and a
+  # Business Role read in is a roll, the row's first concept (ADR 0035).
   - name: Business Role
-    concepts: [C-074, C-167]
+    concepts: [C-074, C-167, C-206]
     doubtful: true
   - name: Business Collaboration
     concepts: [C-141]
@@ -369,6 +369,12 @@ unmapped-concepts:
       styrmedel, SBVR's business jurisdiction; no ArchiMate core or
       motivation relationship says who decided a motivation element, and
       Association is already held by C-099
+  - id: C-208
+    reason: >-
+      ansvarar för (ADR 0035) says which roll owns an informationsobjekt or a
+      verksamhetsbeteende; Assignment (C-096) says who performs and may not
+      run from a role to a passive object, and Association is already held by
+      C-099
   - id: C-190
     reason: >-
       värdeström (ADR 0027) is the set of stages that build up the value a

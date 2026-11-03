@@ -84,6 +84,10 @@ unmapped-concepts:
     reason: >-
       an informationsägare is a roll with a responsibility; no ARIS object type
       for a role was confirmed this session, see C-074
+  - id: C-206
+    reason: >-
+      a processägare (ADR 0035) is a roll with a responsibility; no ARIS object
+      type for a role was confirmed this session, see C-074
   - id: C-165
     reason: >-
       a lagringsyta is the place an application keeps representations; no ARIS object type for a storage place was confirmed this session
@@ -200,6 +204,11 @@ unmapped-concepts:
   - id: C-096
     reason: >-
       no ARIS assignment connection type confirmed this session
+  - id: C-208
+    reason: >-
+      ansvarar för (ADR 0035) says which roll owns an informationsobjekt or a
+      verksamhetsbeteende; no ARIS connection type for ownership confirmed
+      this session
   - id: C-097
     reason: >-
       no ARIS flow connection type confirmed this session

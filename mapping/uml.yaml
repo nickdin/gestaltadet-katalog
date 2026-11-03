@@ -781,6 +781,8 @@ unmapped-concepts:
     reason: UML's Activity is a process with a fixed flow; the case whose steps are chosen as it goes is CMMN's
   - id: C-167
     reason: UML has no owner of information; Actor is a role toward the system
+  - id: C-206
+    reason: UML has no owner of a behaviour; Actor is a role toward the system (ADR 0035)
   - id: C-178
     reason: a DecisionNode is a branch in one flow, not reusable decision logic; that is DMN's (ADR 0022)
   - id: C-138
@@ -829,3 +831,5 @@ unmapped-concepts:
     reason: UML has no supplier
   - id: C-183
     reason: UML has no styrmedel
+  - id: C-208
+    reason: UML has no ownership relationship; ansvarar för (ADR 0035) is the store's own
