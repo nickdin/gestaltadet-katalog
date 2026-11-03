@@ -8,6 +8,7 @@ terms:
     source: concept new
 definition: 'roll som ytterst ansvarar för ett verksamhetsbeteende: hur det är ordnat och att det följer de regler och beslut som gäller för det'
 kind: element-type
+generic: '[[C-074 Roll]]'
 ---
 # C-206 Processägare
 
