@@ -5,13 +5,13 @@ terms:
   - term: flödar till
     language: sv
     source: catalogue
-definition: "relationstyp som anger att ett arkitekturelement för information, materiel eller värde vidare till ett annat arkitekturelement"
+definition: relationstyp som anger att något som inte är ett eget element i lagret går från ett arkitekturelement till ett annat
 kind: relation-type
 key: flows_to
 ---
 # C-097 flödar till
 
-**Definition:** relationstyp som anger att ett arkitekturelement för information, materiel eller värde vidare till ett annat arkitekturelement
+**Definition:** relationstyp som anger att något som inte är ett eget element i lagret går från ett arkitekturelement till ett annat
 
 ## Anmärkning
 
