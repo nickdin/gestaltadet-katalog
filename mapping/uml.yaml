@@ -22,8 +22,9 @@
 # tillstånd (C-182), Transition utlöser (C-098), and the StateMachine is the
 # tillståndsvy, a view. The activity diagram mirrors `bpmn.yaml` row for
 # row: Activity is the process of whoever performs it, Action the activity,
-# ControlFlow utlöser, ObjectFlow flödar till (C-097), the ObjectNode a
-# verksamhetsobjekt. UseCase is the service, verksamhetstjänst (C-127) or
+# ControlFlow utlöser, the ObjectNode a verksamhetsobjekt and ObjectFlow
+# the writing and the reading access to it (C-101), the arrow between the
+# two actions derived, never a stored flödar till (ADR 0033). UseCase is the service, verksamhetstjänst (C-127) or
 # applikationstjänst (C-128) by its subject; Actor is roll (C-074), as UML
 # itself defines it, and applikation (C-071) when the actor is another
 # system. Component is applikation, Interface and Port are the gränssnitt
@@ -671,8 +672,12 @@ relationships:
   # Activities
   - name: ControlFlow
     concepts: [C-098]
+  # The object's passage from one action to the next: the writing action's
+  # and the reading action's access to the ObjectNode. The arrow is the
+  # program's conclusion from the two, never a stored flödar till (C-097),
+  # which carries only what is no element (ADR 0033).
   - name: ObjectFlow
-    concepts: [C-097]
+    concepts: [C-101]
   # The partition's element performs the actions in it.
   - name: ActivityPartition contains ActivityNode
     concepts: [C-096]
@@ -714,12 +719,14 @@ relationships:
   - name: CommunicationPath
     concepts: [C-089]
 
-  # Information flows
+  # Information flows: the InformationItem conveyed is a verksamhetsobjekt,
+  # so the flow is the sender's writing and the receiver's reading access
+  # to it, and the arrow is derived (ADR 0033).
   - name: InformationFlow
-    concepts: [C-097]
+    concepts: [C-101]
   - name: InformationFlow realization
     unmapped: true
-    reason: the connector or relation that carries the flow; the flow is the flödar till relation itself
+    reason: the connector or relation that carries the flow; the flow is derived from the two access relations
 
 unmapped-concepts:
   # Strategy and motivation: UML has no business layer above the use case.

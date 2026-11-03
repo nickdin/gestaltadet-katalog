@@ -192,6 +192,9 @@ relationships:
     concepts: [C-102]
   - name: Triggering
     concepts: [C-098]
+  # With a free-text label. A Flow whose label is an element of the layer
+  # is the writer's and the reader's Access instead, and the arrow is
+  # derived (ADR 0014, ADR 0033).
   - name: Flow
     concepts: [C-097]
   - name: Specialization

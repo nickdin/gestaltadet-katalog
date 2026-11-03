@@ -23,7 +23,9 @@
 # segment and aktör (C-073) for a formal body. Every Role is roll (C-074),
 # Actor and Person are aktör (C-073). BusinessItem is verksamhetsobjekt
 # (C-159), and resurs (C-122) when used up or borrowed; DeliverableFlow is
-# flödar till (C-097), ResourceUse is använder (C-095). ValueProposition is
+# the writing and the reading access to the item (C-101), the arrow between
+# the two activities derived (ADR 0033); ResourceUse is använder (C-095).
+# ValueProposition is
 # värdeerbjudande (C-148), and VDML's value, ValueDefinition,
 # ValuePropositionComponent and ValueAdd, is the new element type värde
 # (C-195), the measurable benefit the offer consists of and a värdeström's
@@ -67,7 +69,7 @@ elements:
     reason: how a role is filled is the tilldelas (C-096) relation, see relationships
   - name: DeliverableFlow
     unmapped: true
-    reason: the transfer of a deliverable is the flödar till (C-097) relation, see relationships
+    reason: the transfer of a deliverable is the writing and the reading access to it (C-101), see relationships
   # Anything that can be acquired or created and conveys information,
   # obligation or value: the flow object of a behaviour, and a resurs when
   # an activity uses it up or borrows it.
@@ -307,14 +309,16 @@ relationships:
   - name: CapabilityDependency between Capabilities
     concepts: [C-095]
 
-  # Flow
+  # Flow. A DeliverableFlow always carries a BusinessItem, an element, so
+  # it is the provider's writing and the recipient's reading access to the
+  # item; the arrow is the program's conclusion from the two, never a stored
+  # flödar till (C-097), which carries only what is no element (ADR 0033).
   - name: DeliverableFlow from Activity to Activity
-    concepts: [C-097]
+    concepts: [C-101]
   - name: DeliverableFlow between Parties
-    concepts: [C-097]
+    concepts: [C-101]
   - name: DeliverableFlow carries BusinessItem
-    unmapped: true
-    reason: the object carried is the flow's label, not a relation of its own
+    concepts: [C-101]
   - name: DeliverableFlow from or to Store
     unmapped: true
     reason: the store is unmapped

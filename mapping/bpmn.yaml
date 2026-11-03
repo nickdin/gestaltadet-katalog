@@ -92,11 +92,13 @@ elements:
     doubtful: true
   - name: Message
     concepts: [C-159]
-    doubtful: true  # what flödar till (C-097) carries between two participants
+    doubtful: true  # the message the layer holds as an element; the message flow is then the sender's writing and the receiver's reading access to it (C-101), the arrow derived; a message with no element of its own is the text on flödar till (C-097) (ADR 0033)
 
 relationships:
   - name: Sequence Flow
     concepts: [C-098]
+  # The message named in the relation's description. When the message is
+  # an element of the layer, the pair of accesses instead (ADR 0033).
   - name: Message Flow
     concepts: [C-097]
   - name: Data Association
