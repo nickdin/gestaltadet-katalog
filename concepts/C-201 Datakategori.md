@@ -9,6 +9,7 @@ terms:
   - term: datatyp
     language: sv
     source: concept change
+    status: deprecated
 definition: indelning av informationsobjekt efter hur verksamheten håller och fångar deras förekomster
 associative:
   - concept: '[[C-060 Informationsobjekt]]'
