@@ -36,6 +36,8 @@ Skillnaden mot sammanställningen ([[C-162 Sammanställning]]): sammanställning
 
 Ritas som en ram runt sina objekt, med relationerna mellan objekten som linjer; en ruta inuti ramen läses som att området består av rutan. Beslutet: ADR 0030.
 
+Ett område har ingen datakategori ([[C-201 Datakategori]]); kategorin sitter på objekten i det (ADR 0032).
+
 ## Exempel
 
 Bidragsinformation hos myndigheten, med Ansökan, Redovisning, Beslut, Utbetalning och Återkrav under chefen för Bidragsenheten; Föreningsinformation, med Förening, Företrädare och Kontonummer, där Kontonummer hör hemma fast utbetalningen använder det; Fastighetsinformation hos bostadsbolaget, med Fastighet, Byggnad, Lägenhet, Lokal och Mätvärde, som uthyrningen använder för debitering men inte äger. Förteckningen över alla företrädare är inget informationsområde utan en sammanställning.

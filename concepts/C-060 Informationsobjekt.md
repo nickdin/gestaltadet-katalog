@@ -31,6 +31,8 @@ SDMN (Shared Data Model and Notation), den datamodell BPMN, CMMN och DMN delar, 
 
 Motsvarar Class i Unified Modeling Language (UML): klassdiagrammet är informationsmodellen, attributen (Property) uppgifter och en Enumeration en värdemängd ([[C-197 Värdemängd]]). Den klass vars tillståndsmaskin ritas är det verksamhetsobjekt informationsobjektet realiserar, och aktivitetsdiagrammets objekt är verksamhetsobjektet; klassen i klassdiagrammet är alltid informationsobjektet. ADR 0029.
 
+Ett informationsobjekt kan ha en datakategori ([[C-201 Datakategori]]): resursdata ([[C-202 Resursdata]]), referensdata ([[C-203 Referensdata]]), transaktionsdata ([[C-204 Transaktionsdata]]) eller händelsedata ([[C-205 Händelsedata]]), högst en och frivillig, så att en informationsmodell kan färgas efter den och informationsägaren lista sina resursdata. Kategorin sitter på informationsobjektet, inte på verksamhetsobjektet det realiserar; ett informationsområde och en sammanställning har ingen. Tills interlingua bär kategorin som ett fält på elementet står den som en mening i beskrivningen. ADR 0032.
+
 ## Exempel
 
 en ansökan, ett ärende, en person i ett register.
