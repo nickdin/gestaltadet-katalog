@@ -7,5 +7,6 @@ terms:
     status: preferred
     source: concept new
 definition: informationsobjekt om något som inträffat vid en tidpunkt och som inte ändras efteråt
+generic: '[[C-060 Informationsobjekt]]'
 ---
 # C-205 Händelsedata
