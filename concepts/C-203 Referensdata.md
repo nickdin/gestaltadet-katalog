@@ -8,5 +8,8 @@ terms:
     source: concept new
 definition: informationsobjekt vars förekomster är fastställda standardvärden som andra objekts uppgifter hänvisar till
 generic: '[[C-060 Informationsobjekt]]'
+associative:
+  - concept: '[[C-197 Värdemängd]]'
+    label: är en fastställd
 ---
 # C-203 Referensdata
