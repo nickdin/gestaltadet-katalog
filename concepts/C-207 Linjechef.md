@@ -6,6 +6,14 @@ terms:
     language: sv
     status: preferred
     source: concept new
+  - term: chef
+    language: sv
+    source: concept change
+    status: admitted
+  - term: enhetschef
+    language: sv
+    source: concept change
+    status: admitted
 definition: chef för en organisationsenhet, som svarar för att enhetens personal utför de beteenden enheten tilldelas och hanterar informationen i dem som informationsägaren och processägaren beslutat
 generic: '[[C-074 Roll]]'
 associative:
