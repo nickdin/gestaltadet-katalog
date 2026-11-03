@@ -8,6 +8,9 @@ terms:
     source: concept new
 definition: chef för en organisationsenhet, som svarar för att enhetens personal utför de beteenden enheten tilldelas och hanterar informationen i dem som informationsägaren och processägaren beslutat
 generic: '[[C-074 Roll]]'
+associative:
+  - concept: '[[C-121 Organisationsenhet]]'
+    label: leder
 ---
 # C-207 Linjechef
 
