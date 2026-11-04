@@ -26,7 +26,9 @@ associative:
 
 ## Anmärkning
 
-Ett begrepp, ingen elementtyp: i lagret är linjechefen chefen för den organisationsenhet ([[C-121 Organisationsenhet]]) som tilldelas ([[C-096 tilldelas]]) beteendet som utförare, och ansvaret läses ur den relationen. Ansvaret gäller förekomsterna, de faktiska ärendena och de faktiska uppgifterna, som katalogen inte ritar; typerna äger informationsägaren ([[C-167 Informationsägare]]) och processägaren ([[C-206 Processägare]]). Riktigheten delas i tre: kravet är informationsägarens genom klassen, kontrollen i beteendet processägarens, och att förekomsten stämmer linjechefens. Mandatet ([[C-189 Mandat]]) följer av positionen, och linjechefen fastställer ([[C-183 fastställs av]]) det arbetsordningen ger hen att fastställa. Chef och enhetschef är tillåtna termer. Ofta är linjechefen tillika processägare och informationsägare, och delningen syns då inte. Beslutet: ADR 0035.
+Linjechefens ansvar gäller förekomsterna, de faktiska ärendena och de faktiska uppgifterna, som katalogen inte ritar; typerna äger informationsägaren ([[C-167 Informationsägare]]) och processägaren ([[C-206 Processägare]]). Riktigheten delas i tre: kravet är informationsägarens genom klassen, kontrollen i beteendet processägarens, och att förekomsten stämmer linjechefens. Ofta är linjechefen tillika processägare och informationsägare, och delningen syns då inte.
+
+Ett begrepp, ingen elementtyp: i lagret är linjechefen chefen för den organisationsenhet ([[C-121 Organisationsenhet]]) som tilldelas ([[C-096 tilldelas]]) beteendet som utförare, och ansvaret läses ur den relationen. Mandatet ([[C-189 Mandat]]) följer av positionen, och linjechefen fastställer ([[C-183 fastställs av]]) det arbetsordningen ger hen att fastställa. Chef och enhetschef är tillåtna termer. Beslutet: ADR 0035.
 
 ## Exempel
 
