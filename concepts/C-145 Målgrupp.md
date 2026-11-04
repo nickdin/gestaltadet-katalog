@@ -26,4 +26,4 @@ En sorts människor, aldrig en part: en målgrupp kan inte agera, skriva under e
 
 Customer i Business Architecture Core Metamodel (BACM), en kundtyp eller klass av kunder, är en målgrupp; en namngiven partner är en aktör ([[C-073 Aktör]]). ADR 0027.
 
-Community i Value Delivery Modeling Language (VDML), en lös sammanslutning med gemensamt intresse, är en målgrupp när den står för ett marknadssegment och en aktör när den är en formell sammanslutning; motsvarar Customer Segment i Business Model Canvas. ADR 0028.
+Community i Value Delivery Modeling Language (VDML), en lös sammanslutning med gemensamt intresse, är en målgrupp när den står för ett marknadssegment och en aktör när den är en formell sammanslutning. Motsvarar Customer Segment i Business Model Canvas. ADR 0028.
