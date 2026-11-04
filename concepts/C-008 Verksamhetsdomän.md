@@ -21,4 +21,6 @@ associative:
 
 ## Anmärkning
 
-Som styrobjekt är verksamhetsdomänen det som styrningen av en domän avser, till exempel utvecklingsstyrning ([[C-043 Utvecklingsstyrning]]). Som arkitekturobjekt står den på domännivå, under verksamheten ([[C-007 Verksamhet]]). Det är samma sak sedd från styrningens respektive arkitekturens håll. En verksamhetsdomän ingår i verksamheten eller i en annan verksamhetsdomän, alltid i exakt en; den domän som ingår i en annan har ändå eget uppdrag ([[C-149 Uppdrag]]) och egen styrning. En domän levereras aldrig av en leverantör, bara dess lösningar ([[C-155 är leverantör till]]).
+En verksamhetsdomän ingår i verksamheten eller i en annan verksamhetsdomän, alltid i exakt en. Den domän som ingår i en annan har ändå eget uppdrag ([[C-149 Uppdrag]]) och egen styrning. En leverantör levererar aldrig en domän, bara dess lösningar ([[C-155 är leverantör till]]).
+
+Verksamhetsdomänen är både styrobjekt och arkitekturobjekt, samma sak sedd från styrningens respektive arkitekturens håll. Som styrobjekt är den det som styrningen av en domän avser, till exempel utvecklingsstyrning ([[C-043 Utvecklingsstyrning]]). Som arkitekturobjekt står den på domännivå, under verksamheten ([[C-007 Verksamhet]]).
