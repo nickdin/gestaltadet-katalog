@@ -22,4 +22,4 @@ associative:
 
 ## Anmärkning
 
-Beskrivningen har tidsperspektiv och detaljeringsgrad; undantaget är referensarkitekturen, som inte har något tidsperspektiv. Den består av vyer, en per arkitekturperspektiv, som hålls ihop av korrespondenser; varje vy följer perspektivets metamodell. Den prövas mot arkitekturprinciperna. En beskrivning beskriver noll eller en arkitektur: exakt en för målarkitekturen, och för referensarkitekturen en när den är antagen och ingen dessförinnan. ISO 42010: architecture description.
+Beskrivningen har tidsperspektiv och detaljeringsgrad. Undantaget är referensarkitekturen, som inte har något tidsperspektiv. Beskrivningen består av vyer, en per arkitekturperspektiv, och korrespondenser håller ihop dem. Varje vy följer perspektivets metamodell. Beskrivningen prövas mot arkitekturprinciperna. En beskrivning beskriver noll eller en arkitektur: exakt en för målarkitekturen, och för referensarkitekturen en när den är antagen och ingen dessförinnan. ISO 42010: architecture description.
