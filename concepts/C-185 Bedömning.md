@@ -11,6 +11,8 @@ kind: governance-type
 associative:
   - concept: '[[C-184 Påverkan]]'
     label: härleds ur
+  - concept: '[[C-017 Mål]]'
+    label: prövar mot
 ---
 # C-185 Bedömning
 
