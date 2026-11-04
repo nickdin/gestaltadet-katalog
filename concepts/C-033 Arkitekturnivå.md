@@ -16,4 +16,4 @@ associative:
 
 ## Anmärkning
 
-Nivån ger hierarkin mellan arkitekturprinciper och mellan målarkitekturer: domänens målarkitektur förfinar verksamhetens och prövas mot den, lösningens förfinar domänens. Arkitekturelementen är gemensamma över nivåerna. Nivåerna är tre, men domännivån kan upprepas inåt, eftersom en verksamhetsdomän kan ingå i en annan ([[C-008 Verksamhetsdomän]]), och en lösning kan ingå i en större ([[C-055 Lösning]]).
+Nivån ger hierarkin mellan arkitekturprinciper och mellan målarkitekturer: domänens målarkitektur förfinar verksamhetens och prövas mot den, lösningens förfinar domänens. Arkitekturelementen är gemensamma över nivåerna. Nivåerna är tre. Domännivån kan ändå upprepas inåt, eftersom en verksamhetsdomän kan ingå i en annan ([[C-008 Verksamhetsdomän]]), och en lösning kan ingå i en större ([[C-055 Lösning]]).
