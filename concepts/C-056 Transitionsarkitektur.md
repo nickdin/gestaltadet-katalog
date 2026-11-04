@@ -21,4 +21,4 @@ läget 2028 när målarkitekturen avser 2032.
 
 ## Anmärkning
 
-Målläget är det längst bort artikulerade avsedda läget; varje daterad beskrivning före det är en transitionsarkitektur. Finns bara en beskrivning för 2028 är den målarkitekturen, tills någon artikulerar något längre bort. Ett arkitekturobjekt har en målarkitektur och noll eller flera transitionsarkitekturer; flyttar målarkitekturen blir den gamla ett mellanläge. Tredje typen av arkitekturbeskrivning, bredvid referens- och målarkitekturen. TOGAF: transition architecture.
+En transitionsarkitektur är varje daterad beskrivning före målläget, det längst bort artikulerade avsedda läget. Finns bara en beskrivning för 2028 är den målarkitekturen, tills någon artikulerar något längre bort. Ett arkitekturobjekt har en målarkitektur och noll eller flera transitionsarkitekturer; flyttar målarkitekturen blir den gamla ett mellanläge. Transitionsarkitekturen är den tredje typen av arkitekturbeskrivning, bredvid referens- och målarkitekturen. TOGAF: transition architecture.
