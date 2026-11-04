@@ -10,6 +10,8 @@ definition: skyldighet för en roll att svara för ett styrobjekts utfall eller 
 associative:
   - concept: '[[C-074 Roll]]'
     label: bärs av
+  - concept: '[[C-003 Styrobjekt]]'
+    label: avser
 ---
 # C-209 Ansvar
 
