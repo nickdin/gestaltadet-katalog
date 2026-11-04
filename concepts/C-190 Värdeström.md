@@ -20,7 +20,11 @@ associative:
 
 ## Anmärkning
 
-Elementtyp i strategiperspektivet ([[C-108 Strategiperspektiv]]), bredvid verksamhetsförmågan och initiativet. Värdeströmmen säger vilket värde som byggs upp på vägen till ett värdeerbjudande ([[C-148 Värdeerbjudande]]), inte vem som gör vad: den är ingen process. Ett steg är också en värdeström, och helheten består av ([[C-062 består av]]) sina steg; stegens ordning bär ingen betydelse som en process ordning gör, och vårdens utredning, behandling och förebyggande kommer i den ordning fallet kräver. Varje steg använder ([[C-095 använder]]) de verksamhetsförmågor ([[C-069 Verksamhetsförmåga]]) det förutsätter, och det som pågår i steget realiserar en verksamhetsprocess ([[C-130 Verksamhetsprocess]]) eller verksamhetsaktivitet; värdeerbjudandet realiseras av ([[C-094 realiseras av]]) värdeströmmen. Motsvarar ValueStream och ValueStreamStage i Business Architecture Core Metamodel (BACM) och ArchiMates Value Stream. ADR 0027.
+Elementtyp i strategiperspektivet ([[C-108 Strategiperspektiv]]), bredvid verksamhetsförmågan och initiativet. Värdeströmmen säger vilket värde som byggs upp på vägen till ett värdeerbjudande ([[C-148 Värdeerbjudande]]), inte vem som gör vad: den är ingen process. Ett steg är också en värdeström, och helheten består av ([[C-062 består av]]) sina steg. Stegens ordning bär ingen betydelse som en process ordning gör; vårdens utredning, behandling och förebyggande kommer i den ordning fallet kräver.
+
+Varje steg använder ([[C-095 använder]]) de verksamhetsförmågor ([[C-069 Verksamhetsförmåga]]) det förutsätter. Det som pågår i steget realiserar en verksamhetsprocess ([[C-130 Verksamhetsprocess]]) eller verksamhetsaktivitet, och värdeerbjudandet realiseras av ([[C-094 realiseras av]]) värdeströmmen.
+
+Motsvarar ValueStream och ValueStreamStage i Business Architecture Core Metamodel (BACM) och ArchiMates Value Stream. ADR 0027.
 
 Value Delivery Modeling Language (VDML) har ingen egen klass för värdeströmmen: aktivitetsnätverket med sina ValueAdds är den. Varje steg realiserar ([[C-094 realiseras av]]) de värden ([[C-195 Värde]]) det tillför, så att värdeströmskartan visar värdet vid steget. ADR 0028.
 
