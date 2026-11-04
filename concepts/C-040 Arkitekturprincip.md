@@ -24,9 +24,9 @@ associative:
 
 ## Anmärkning
 
-Principen är en del av arkitekturen: det mest allmänna av dess val. Den styr de mer detaljerade valen i samma arkitektur, och arkitekturen som helhet styr arkitekturobjektet. Den hör till arkitekturen på den nivå där den beslutas och når nivåerna under, eftersom domänens arkitektur är en del av verksamhetens. Den är inget arkitekturelement: elementen uttrycker de bestämda valen, principen är ett allmänt val som tillämpas på dem.
+Principen är en del av arkitekturen: det mest allmänna av dess val. Den styr de mer detaljerade valen i samma arkitektur, och arkitekturen som helhet styr arkitekturobjektet. Principen hör till arkitekturen på den nivå där den beslutas och når nivåerna under, eftersom domänens arkitektur är en del av verksamhetens. Den är inget arkitekturelement: elementen uttrycker de bestämda valen, principen är ett allmänt val som tillämpas på dem.
 
-Gäller för ett eller flera arkitekturperspektiv, på den nivå som följer av den referensarkitektur som beslutar den. Arkitekturbeskrivningar prövas mot den; en princip som ingen beskrivning går att pröva mot är inte en arkitekturprincip. Beslutas genom att ingå i en antagen referensarkitektur, som är principens bärare. En målarkitektur beslutar ingen princip, för där är valen redan gjorda: den utformas enligt principer som redan är beslutade och prövas mot dem. En nulägesarkitektur eller transitionsarkitektur beslutar heller aldrig en princip.
+Principen beslutas genom att ingå i en antagen referensarkitektur, som är principens bärare. Den gäller för ett eller flera arkitekturperspektiv, på den nivå som följer av den referensarkitektur som beslutar den. Arkitekturbeskrivningar prövas mot principen; en princip som ingen beskrivning går att pröva mot är inte en arkitekturprincip. En målarkitektur beslutar ingen princip, för där är valen redan gjorda: den utformas enligt principer som redan är beslutade och prövas mot dem. En nulägesarkitektur eller transitionsarkitektur beslutar heller aldrig en princip.
 
 Verksamheten och verksamhetsdomänerna beslutar principer; lösningsnivån tillämpar dem, också när en lösning har andra lösningar i sig. En princip för en sorts lösning beslutas på den lägsta nivå som har alla berörda lösningar under sig.
 
