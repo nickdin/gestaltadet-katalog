@@ -15,4 +15,6 @@ generic: "[[C-077 Funktion]]"
 
 ## Anmärkning
 
-Motsvarar ArchiMates Application Function. Ett applikationsbeteende ([[C-179 Applikationsbeteende]]); stegen är applikationsaktiviteter ([[C-176 Applikationsaktivitet]]). Att flera applikationer har samma applikationsfunktion visar var de överlappar.
+En applikationsfunktion är ett applikationsbeteende ([[C-179 Applikationsbeteende]]). Stegen är applikationsaktiviteter ([[C-176 Applikationsaktivitet]]). Att flera applikationer har samma applikationsfunktion visar var de överlappar.
+
+Motsvarar ArchiMates Application Function.
