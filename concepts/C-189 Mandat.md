@@ -10,6 +10,8 @@ definition: befogenhet att fastställa styrning för ett styrobjekt, som följer
 associative:
   - concept: '[[C-020 Regel]]'
     label: ges som
+  - concept: '[[C-074 Roll]]'
+    label: bärs av
 ---
 # C-189 Mandat
 
