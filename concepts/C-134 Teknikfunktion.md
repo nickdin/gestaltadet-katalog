@@ -15,4 +15,6 @@ generic: "[[C-077 Funktion]]"
 
 ## Anmärkning
 
-Motsvarar ArchiMates Technology Function. Ett teknikbeteende ([[C-180 Teknikbeteende]]); stegen är teknikaktiviteter ([[C-177 Teknikaktivitet]]).
+En teknikfunktion är ett teknikbeteende ([[C-180 Teknikbeteende]]). Stegen är teknikaktiviteter ([[C-177 Teknikaktivitet]]).
+
+Motsvarar ArchiMates Technology Function.
