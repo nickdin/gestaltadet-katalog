@@ -12,6 +12,8 @@ associative:
     label: bärs av
   - concept: '[[C-003 Styrobjekt]]'
     label: avser
+  - concept: '[[C-189 Mandat]]'
+    label: förutsätter
 ---
 # C-209 Ansvar
 
