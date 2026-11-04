@@ -15,7 +15,9 @@ generic: '[[C-014 Produkt]]'
 
 ## Anmärkning
 
-Det verksamhetsuppföljningen följer: det verksamheten, en domän eller linjen, levererar löpande för att fullgöra sitt uppdrag ([[C-149 Uppdrag]]). Mottagaren kan finnas inom eller utanför organisationen, så en verksamhetsprodukt är intern eller extern på samma gång ([[C-118 Intern produkt]], [[C-119 Extern produkt]]). Registreras som produkt ([[C-014 Produkt]]). Tas fram av en process eller en handläggning i den lösning ([[C-055 Lösning]]) verksamheten har för den förmåga produkten kräver; den lösningen använder andra förmågors leveransprodukter ([[C-174 Leveransprodukt]]) som komponenter. Det som skiljer den från leveransprodukten är vad den är för mottagaren, inte vem som levererar: den fullgör ett uppdrag. ADR 0020; axeln ADR 0021.
+Verksamhetsprodukten är det verksamhetsuppföljningen följer: det verksamheten, en domän eller linjen, levererar löpande för att fullgöra sitt uppdrag ([[C-149 Uppdrag]]). Det som skiljer den från leveransprodukten ([[C-174 Leveransprodukt]]) är vad den är för mottagaren, inte vem som levererar: den fullgör ett uppdrag. Mottagaren kan finnas inom eller utanför organisationen, så en verksamhetsprodukt är intern eller extern på samma gång ([[C-118 Intern produkt]], [[C-119 Extern produkt]]).
+
+En process eller en handläggning tar fram verksamhetsprodukten, i den lösning ([[C-055 Lösning]]) verksamheten har för den förmåga produkten kräver. Den lösningen använder andra förmågors leveransprodukter som komponenter. Registreras som produkt ([[C-014 Produkt]]). ADR 0020; axeln ADR 0021.
 
 ## Exempel
 
