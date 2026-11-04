@@ -18,7 +18,7 @@ associative:
 
 ## Anmärkning
 
-Ett begrepp, ingen egen typ: en vara registreras som verksamhetsobjekt ([[C-159 Verksamhetsobjekt]]) och är det verksamhetsobjekt en produkt ([[C-014 Produkt]]) aggregerar och lämnar över. Det som skiljer varan från andra verksamhetsobjekt är att den blir mottagarens; det produkten gör utan att lämna något över är verksamhetstjänster ([[C-127 Verksamhetstjänst]]). Ingen sort av produkt säger vara eller tjänst, eftersom en produkt ofta blandar; innehållet syns i vad den aggregerar. MerchandiseOffering i Business Architecture Core Metamodel (BACM) är en produkt vars innehåll är varor. ADR 0027.
+En vara är det verksamhetsobjekt en produkt ([[C-014 Produkt]]) aggregerar och lämnar över. Det som skiljer varan från andra verksamhetsobjekt är att den blir mottagarens; det produkten gör utan att lämna något över är verksamhetstjänster ([[C-127 Verksamhetstjänst]]). Ingen sort av produkt säger vara eller tjänst, för en produkt blandar ofta; innehållet syns i vad produkten aggregerar. Varan är ett begrepp, ingen egen typ: den registreras som verksamhetsobjekt ([[C-159 Verksamhetsobjekt]]). MerchandiseOffering i Business Architecture Core Metamodel (BACM) är en produkt vars innehåll är varor. ADR 0027.
 
 ## Exempel
 
