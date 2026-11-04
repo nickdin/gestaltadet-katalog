@@ -18,6 +18,10 @@ Katalogen är allmän och nämner ingen verklig arbetsgivare, enhet, system elle
 
 Ett id säger Nicklas ingenting ensamt: skriv alltid termen vid det, "Uppdrag (C-149)", i samtal, frågor, ärenden och commit-meddelanden.
 
+## Klarspråk
+
+All text som skrivs här, anmärkningar, beslut, exempel och ordlistan, skrivs i klarspråk med `klarsprak`-skillen: det viktigaste först, ett ämne per stycke, en tanke per mening, aktören utsatt, samma ord för samma sak. Nivån är Lösning (C-055) efter #42. En text som skrivs under en grillning skrivs om innan den checkas in; definitionerna rörs inte utan egen grillning.
+
 ## Frågor in, ändringar hans
 
 Katalogen är hur Nicklas ser på saker. Frågor, invändningar och förslag från läsare är välkomna som ärenden och besvaras; en ändring i en definition gör Nicklas, eller Claude på hans ord. Arbete på programmet, en funktion, ett fel, ett kommando som beter sig fel, hör till interlinguas tracker, `nickdin/interlingua`, även när det upptäcks här.
