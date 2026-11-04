@@ -14,6 +14,8 @@ associative:
     label: avser
   - concept: '[[C-189 Mandat]]'
     label: förutsätter
+  - concept: '[[C-185 Bedömning]]'
+    label: prövas genom
 ---
 # C-209 Ansvar
 
