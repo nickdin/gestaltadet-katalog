@@ -17,7 +17,7 @@ associative:
 
 ## Anmärkning
 
-Ändamål i dataskyddets mening, inte styrningens ([[C-022 Ändamål]]). Det formuleras av den som behandlar uppgifterna, per behandling, och är ingen lista att välja ur; uppräkningen i lagen är den rättsliga grunden ([[C-164 Rättslig grund]]). För en myndighets registerförda personuppgifter räknar ofta en registerförfattning upp ändamålen; för en organisations administrativa information om medarbetare följer de av arbetsgivaransvaret. Ändamålet hör till behandlingen ([[C-168 Behandling]]); sammanställningen ([[C-162 Sammanställning]]) är behandlingens resultat.
+Behandlingsändamålet är ändamål i dataskyddets mening, inte styrningens ([[C-022 Ändamål]]). Den som behandlar uppgifterna formulerar det, per behandling, och det är ingen lista att välja ur; uppräkningen i lagen är den rättsliga grunden ([[C-164 Rättslig grund]]). För en myndighets registerförda personuppgifter räknar ofta en registerförfattning upp ändamålen; för en organisations administrativa information om medarbetare följer de av arbetsgivaransvaret. Ändamålet hör till behandlingen ([[C-168 Behandling]]), och sammanställningen ([[C-162 Sammanställning]]) är behandlingens resultat.
 
 ## Exempel
 
