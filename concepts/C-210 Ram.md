@@ -8,6 +8,9 @@ terms:
     source: concept new
 definition: resurser som en överordnad styrning tilldelar ett styrobjekt för en planeringsperiod
 generic: '[[C-015 Styrmedel]]'
+associative:
+  - concept: '[[C-003 Styrobjekt]]'
+    label: tilldelas
 ---
 # C-210 Ram
 
