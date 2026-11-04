@@ -13,4 +13,4 @@ definition: "värde som ges till en omgivning genom ett avgränsat, synligt bete
 
 ## Anmärkning
 
-Familjebegrepp; typerna är verksamhetstjänst, applikationstjänst och tekniktjänst. En verksamhetstjänst är något annat än en applikationstjänst, inte samma sak i ett annat lager. Förmågetjänst, IRM:s ord för det en förmåga lämnar ut till andra, är inget fjärde begrepp: tjänsterna i en förmågeprodukt ([[C-014 Produkt]]) ges av lösningen ([[C-055 Lösning]]) som helhet och registreras som verksamhetstjänster ([[C-127 Verksamhetstjänst]]). ADR 0021.
+Familjebegrepp; typerna är verksamhetstjänst, applikationstjänst och tekniktjänst. En verksamhetstjänst är något annat än en applikationstjänst, inte samma sak i ett annat lager. Förmågetjänst, IRM:s ord för det en förmåga lämnar ut till andra, är inget fjärde begrepp. Lösningen ([[C-055 Lösning]]) som helhet ger tjänsterna i en förmågeprodukt ([[C-014 Produkt]]), och de registreras som verksamhetstjänster ([[C-127 Verksamhetstjänst]]). ADR 0021.
