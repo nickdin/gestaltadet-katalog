@@ -13,4 +13,4 @@ definition: "det beteende en samverkan utför gemensamt"
 
 ## Anmärkning
 
-Ingen typ: beteendet beskrivs som en process, eller för en applikation eller en teknisk resurs som en funktion.
+Interaktion är ingen typ. Beteendet beskrivs som en process, eller som en funktion när det är en applikation eller en teknisk resurs som beter sig.
