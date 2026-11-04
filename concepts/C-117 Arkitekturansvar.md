@@ -23,6 +23,6 @@ generic: '[[C-209 Ansvar]]'
 
 ## Anmärkning
 
-Inte en arkitekturdomän: en domän har ett eget uppdrag, medan arkitekturarbete tjänar någon annans. Inte heller TOGAFs architecture domain, som är vad den här katalogen kallar ett perspektiv.
+Arkitekturansvaret är ett ansvar ([[C-209 Ansvar]]) för vyerna och principerna, inte för arkitekturobjektet självt. Den som har mandatet ([[C-189 Mandat]]) över arkitekturobjektet äger det. ADR 0036.
 
-Ett ansvar ([[C-209 Ansvar]]) för vyerna och principerna, inte för arkitekturobjektet självt: det äger den som har mandatet ([[C-189 Mandat]]) över det. ADR 0036.
+Arkitekturansvaret är inte en arkitekturdomän: en domän har ett eget uppdrag, medan arkitekturarbete tjänar någon annans. Det är inte heller TOGAFs architecture domain, som är vad den här katalogen kallar ett perspektiv.
