@@ -14,6 +14,8 @@ associative:
     label: bärs av
   - concept: '[[C-003 Styrobjekt]]'
     label: avser
+  - concept: '[[C-019 Styrbeslut]]'
+    label: utövas genom
 ---
 # C-189 Mandat
 
