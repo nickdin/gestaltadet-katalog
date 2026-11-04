@@ -13,4 +13,4 @@ definition: "del av valet som ett styrmedel lämnar kvar till den som ska följa
 
 ## Anmärkning
 
-Samma utrymme sett från andra hållet är det som den som prövar måste bedöma. Lämnas inget är prövningen binär; lämnas riktningen men inte valet måste någon bedöma om valet ligger i riktningen; lämnas alla val på vägen prövas bara utfallet.
+Samma utrymme sett från andra hållet är det som den som prövar måste bedöma. Lämnas inget är prövningen binär. Lämnas riktningen men inte valet måste någon bedöma om valet ligger i riktningen. Lämnas alla val på vägen prövas bara utfallet.
