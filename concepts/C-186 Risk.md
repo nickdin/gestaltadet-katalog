@@ -15,7 +15,9 @@ generic: '[[C-185 Bedömning]]'
 
 ## Anmärkning
 
-Ett begrepp, ingen egen typ: en risk registreras som ett element av typen bedömning ([[C-185 Bedömning]]). Följden kan vara en förlust eller en vinst: i vardagsspråket är risken förlusten och vinsten kallas chans eller möjlighet, och Business Motivation Model delar på samma sätt i Risk och Potential Reward under Potential Impact. Katalogen följer ISO 31000, som definierar risk som osäkerhetens effekt på mål, och låter ett ord bära båda; vilken sida det gäller står i texten. Sannolikhet, följd och mått står i riskens text. Riskregistrets poster, riskerna som uppföljningen hanterar, är informationsobjekt ([[C-060 Informationsobjekt]]) i den beskrivning som beskriver riskhanteringen, inte arkitekturens bedömningar (ADR 0025).
+Följden kan vara en förlust eller en vinst. Katalogen följer ISO 31000, som definierar risk som osäkerhetens effekt på mål, och låter ett ord bära båda; vilken sida det gäller står i texten. I vardagsspråket är risken förlusten och vinsten kallas chans eller möjlighet, och Business Motivation Model delar på samma sätt i Risk och Potential Reward under Potential Impact.
+
+Ett begrepp, ingen egen typ: en risk registreras som ett element av typen bedömning ([[C-185 Bedömning]]). Sannolikhet, följd och mått står i riskens text. Riskregistrets poster, riskerna som uppföljningen hanterar, är informationsobjekt ([[C-060 Informationsobjekt]]) i den beskrivning som beskriver riskhanteringen, inte arkitekturens bedömningar (ADR 0025).
 
 ## Exempel
 
