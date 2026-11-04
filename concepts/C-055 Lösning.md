@@ -24,6 +24,8 @@ associative:
     label: hör hemma i
   - concept: "[[C-055 Lösning]]"
     label: kan ingå i
+  - concept: '[[C-211 Koppling]]'
+    label: avgränsas av
 ---
 # C-055 Lösning
 
