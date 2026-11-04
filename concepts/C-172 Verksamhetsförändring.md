@@ -17,6 +17,6 @@ associative:
 
 ## Anmärkning
 
-Ett begrepp, ingen egen typ: förändringen ritas inte som element utan är skillnaden mellan två beskrivningar av samma styrobjekt, nuläget och målbilden, det ersätter-relationerna ([[C-104 ersätter]]) och gapanalysen räknar fram. Den är en effekt ([[C-024 Effekt]]) och prövas mot effektmålet ([[C-170 Effektmål]]); den ersätter inte målet. Ett initiativ ([[C-012 Initiativ]]) åstadkommer den genom de verksamhetsförmågor ([[C-069 Verksamhetsförmåga]]) det utvecklar. ADR 0019.
+Förändringen är skillnaden mellan två beskrivningar av samma styrobjekt, nuläget och målbilden: det ersätter-relationerna ([[C-104 ersätter]]) och gapanalysen räknar fram. Den är ett begrepp, ingen egen typ, och ritas inte som element. Den är en effekt ([[C-024 Effekt]]) och prövas mot effektmålet ([[C-170 Effektmål]]); den ersätter inte målet. Ett initiativ ([[C-012 Initiativ]]) åstadkommer den genom de verksamhetsförmågor ([[C-069 Verksamhetsförmåga]]) det utvecklar. ADR 0019.
 
 Motsvarar Change i Business Architecture Core Metamodel (BACM), det läge ett initiativ väntas ge. ADR 0027.
