@@ -1,21 +1,21 @@
 # Brinkstadsbostäder AB
 
-Ett påhittat kommunalt bostadsbolag i den påhittade Brinkstads kommun. Det finns för att katalogens exempel på det fysiska, kunden och tekniken ska hämtas från ett och samma ställe: fastigheter, drift och underhåll, felanmälan, hyresgästen som målgrupp och systemen i husen. Allt här är uppfunnet; likheter med verkliga bolag är de kommunala bostadsbolagens gemensamma, inte något enskilt bolags.
+Ett påhittat kommunalt bostadsbolag i den påhittade Brinkstads kommun. Det finns för att katalogens exempel på det fysiska, kunden och tekniken ska hämtas från ett och samma ställe. Exemplen: fastigheter, drift och underhåll, felanmälan, hyresgästen som målgrupp och systemen i husen. Allt här är uppfunnet. Det som liknar verkliga bolag är det de kommunala bostadsbolagen har gemensamt, inte något enskilt bolags.
 
 ## Vad det gör
 
-Brinkstadsbostäder äger och förvaltar omkring 6 000 hyreslägenheter och ett hundratal lokaler i Brinkstad, från sekelskifteshus i centrum till miljonprogramsområdet Åbrinken och nya kvarter vid stationen. Bolaget har omkring 90 anställda: bovärdar och fastighetstekniker i tre områdeskontor, uthyrning och kundcenter, en teknisk avdelning för underhåll och nyproduktion, och ekonomi, IT och kommunikation på huvudkontoret. Det leds av en vd under en styrelse som kommunfullmäktige utser.
+Brinkstadsbostäder äger och förvaltar omkring 6 000 hyreslägenheter och ett hundratal lokaler i Brinkstad. Husen spänner från sekelskifteshus i centrum till miljonprogramsområdet Åbrinken och nya kvarter vid stationen. Bolaget har omkring 90 anställda: bovärdar och fastighetstekniker i tre områdeskontor, uthyrning och kundcenter, en teknisk avdelning för underhåll och nyproduktion, och ekonomi, IT och kommunikation på huvudkontoret. En vd leder bolaget, under en styrelse som kommunfullmäktige utser.
 
 ## Uppdrag och styrning
 
-Kommunen fastställer uppdraget i bolagsordningen och ägardirektivet. Bolagsordningens föremål är att äga, bygga och förvalta bostäder och lokaler i kommunen; dess ändamål är att främja bostadsförsörjningen. Ägardirektivet, som kommunfullmäktige antar och bolagsstämman bekräftar, ger uppdragen:
+Kommunen fastställer uppdraget i bolagsordningen och ägardirektivet. Bolagsordningens föremål är att äga, bygga och förvalta bostäder och lokaler i kommunen. Dess ändamål är att främja bostadsförsörjningen. Ägardirektivet, som kommunfullmäktige antar och bolagsstämman bekräftar, ger uppdragen:
 
 1. **Förvalta**: att hålla husen i gott skick och ge hyresgästerna en trygg och väl fungerande bostad.
 2. **Bygga**: att bidra med nya hyresrätter när kommunen växer.
 3. **Hushålla**: att göra det på affärsmässiga grunder, enligt lagen om allmännyttiga kommunala bostadsaktiebolag.
 4. **Ta ansvar**: att erbjuda bostäder till hushåll som kommunen anvisar och att bidra till trygghet i områdena.
 
-Ägardirektivets mål är ägarens: en direktavkastning på minst tre procent av fastigheternas marknadsvärde, en soliditet som inte understiger tjugo procent, omkring 150 nya lägenheter per år fram till 2030, och att bidra till kommunens klimatmål. Målen för den dagliga verksamheten sätter styrelsen i affärsplanen: en felanmälan ska vara åtgärdad inom fem arbetsdagar, energianvändningen per kvadratmeter ska minska med tre procent per år, och hyresgästernas nöjdhet, mätt i den årliga kundundersökningen, ska gå från 76 till 80 på fyra år. Styrelsen fastställer också underhållsplanen och en princip om att varje hyresgäst ska kunna göra sin felanmälan själv i appen. Hyreslagen och hyresförhandlingarna med hyresgästföreningen ramar in vad bolaget får göra med hyran.
+Ägardirektivets mål är ägarens: en direktavkastning på minst tre procent av fastigheternas marknadsvärde och en soliditet som inte understiger tjugo procent. Dit hör också omkring 150 nya lägenheter per år fram till 2030 och att bidra till kommunens klimatmål. Målen för den dagliga verksamheten sätter styrelsen i affärsplanen. En felanmälan ska vara åtgärdad inom fem arbetsdagar, och energianvändningen per kvadratmeter ska minska med tre procent per år. Hyresgästernas nöjdhet, mätt i den årliga kundundersökningen, ska gå från 76 till 80 på fyra år. Styrelsen fastställer också underhållsplanen och en princip om att varje hyresgäst ska kunna göra sin felanmälan själv i appen. Hyreslagen och hyresförhandlingarna med hyresgästföreningen ramar in vad bolaget får göra med hyran.
 
 Bolagets investeringsportfölj rymmer nyproduktion, stambyten och energiprojekt, prioriterade mot varandra för samma pengar.
 
@@ -29,11 +29,11 @@ Bolagets investeringsportfölj rymmer nyproduktion, stambyten och energiprojekt,
 
 ## Processer och handläggningar
 
-**Felanmälan** är bolagets vanligaste process och har fasta steg: hyresgästen anmäler i appen eller till kundcenter, ärendet blir en arbetsorder hos områdets bovärd, bovärden bedömer, reparerar själv eller beställer en entreprenör, åtgärden kvitteras och hyresgästen får besked. **Uthyrningen** löper från ledig lägenhet till tecknat avtal: lägenheten publiceras, intressenter anmäler sig från bostadskön, den med längst kötid som uppfyller villkoren erbjuds, avtal tecknas, nycklar lämnas ut. **Besiktningen** vid utflyttning avgör vad som är slitage och vad hyresgästen ska betala för.
+**Felanmälan** är bolagets vanligaste process och har fasta steg. Hyresgästen anmäler i appen eller till kundcenter, och ärendet blir en arbetsorder hos områdets bovärd. Bovärden bedömer och reparerar själv eller beställer en entreprenör. Åtgärden kvitteras och hyresgästen får besked. **Uthyrningen** löper från ledig lägenhet till tecknat avtal. Lägenheten publiceras och intressenter anmäler sig från bostadskön. Den som har längst kötid och uppfyller villkoren erbjuds lägenheten, avtal tecknas och nycklar lämnas ut. **Besiktningen** vid utflyttning avgör vad som är slitage och vad hyresgästen ska betala för.
 
-Två handläggningar väljer sina steg efter hand och kan sluta i att hyresgästen förlorar bostaden. **Störningsärendet** börjar med grannarnas anmälningar, oftast till den störningsjour bolaget anlitar och som rycker ut på kvällar och nätter och dokumenterar vad den ser. Sedan samtal med hyresgästen, skriftlig varning, kontakt med socialtjänsten, och vid allvarliga eller återkommande störningar uppsägning. **Avhysningen vid obetald hyra** följer hyreslagen: påminnelse, kravet lämnas till den inkassotjänst bolaget anlitar, uppsägning när hyran är mer än en vecka försenad, skriftlig underrättelse till socialnämnden, som kan ta över betalningen, och ansökan om betalningsföreläggande och avhysning hos Kronofogden. Hyresgästen återvinner bostaden genom att betala inom tre veckor från att hen fått underrättelsen; annars verkställer Kronofogden avhysningen. Beslutet att säga upp är ett ärendebeslut. **Stambytet** är ett initiativ per fastighet med planerat slut, inte en process.
+Två handläggningar väljer sina steg efter hand och kan sluta i att hyresgästen förlorar bostaden. **Störningsärendet** börjar med grannarnas anmälningar. De går oftast till den störningsjour bolaget anlitar, som rycker ut på kvällar och nätter och dokumenterar vad den ser. Sedan följer samtal med hyresgästen, skriftlig varning och kontakt med socialtjänsten. Vid allvarliga eller återkommande störningar följer uppsägning. **Avhysningen vid obetald hyra** följer hyreslagen. Först en påminnelse, sedan lämnas kravet till den inkassotjänst bolaget anlitar. När hyran är mer än en vecka försenad följer uppsägning och en skriftlig underrättelse till socialnämnden, som kan ta över betalningen. Därefter ansökan om betalningsföreläggande och avhysning hos Kronofogden. Hyresgästen återvinner bostaden genom att betala inom tre veckor från att hen fått underrättelsen. Annars verkställer Kronofogden avhysningen. Beslutet att säga upp är ett ärendebeslut. **Stambytet** är ett initiativ per fastighet med planerat slut, inte en process.
 
-Beslutslogiken: vem som får en lägenhet avgörs av kötid och uthyrningspolicyns villkor om inkomst i förhållande till hyra och om betalningsanmärkningar. Hyran för en lägenhet sätts ur läge, storlek, standard och byggår enligt den förhandlade hyressättningsmodellen.
+Beslutslogiken: kötid och uthyrningspolicyns villkor avgör vem som får en lägenhet. Villkoren gäller inkomst i förhållande till hyra och betalningsanmärkningar. Hyran för en lägenhet sätts ur läge, storlek, standard och byggår, enligt den förhandlade hyressättningsmodellen.
 
 ## Informationsobjekt
 
@@ -47,9 +47,9 @@ Beslutslogiken: vem som får en lägenhet avgörs av kötid och uthyrningspolicy
 - **Mätvärde**: förbrukning av värme, el och vatten per byggnad och lägenhet, var timme.
 - **Bostadssökande**: den som står i kön, med kötid och önskemål.
 
-Uthyrningschefen är informationsägare för Hyresgäst, Hyresavtal, Hyresfordran, Störningsärende och Bostadssökande; teknisk chef för Fastighet, Byggnad, Lägenhet, Lokal, Underhållsplan och Mätvärde; chefen för kundcenter för Felanmälan. Mätvärdena per lägenhet är känsligare än per byggnad: de visar när någon är hemma.
+Uthyrningschefen är informationsägare för Hyresgäst, Hyresavtal, Hyresfordran, Störningsärende och Bostadssökande. Teknisk chef är det för Fastighet, Byggnad, Lägenhet, Lokal, Underhållsplan och Mätvärde, och chefen för kundcenter för Felanmälan. Mätvärdena per lägenhet är känsligare än per byggnad: de visar när någon är hemma.
 
-Processen Felanmälan ägs av teknisk chef, utförs av områdeskontoren under var sin chef, läser Hyresgäst som uthyrningschefen äger och skriver Felanmälan som chefen för kundcenter äger: två informationsägare, en processägare och en linjechef, alla olika personer.
+Processen Felanmälan samlar två informationsägare, en processägare och en linjechef, alla olika personer. Teknisk chef äger processen, och områdeskontoren utför den under var sin chef. Processen läser Hyresgäst, som uthyrningschefen äger, och skriver Felanmälan, som chefen för kundcenter äger.
 
 ## System
 
@@ -61,14 +61,33 @@ Det mesta bor i ett **fastighetssystem**, en standardprodukt som leverantören d
 - **Energiuppföljning**: mätvärden från husen, förbrukning per byggnad och lägenhet, avvikelselarm.
 - **Mina sidor och appen**: hyresgästens ingång till felanmälan, avtal, förbrukning och tvättstugebokning, byggd på samma system.
 
-Felanmälan är en lösning: processen, bovärdarna, informationsobjekten Felanmälan och Arbetsorder och modulen Teknisk förvaltning tillsammans. Teknisk chef är dess lösningsägare, håller årsramen och svarar för målet att en felanmälan är åtgärdad inom fem arbetsdagar. Leverantören som driftar systemet är inte dess ägare. Hyra är en annan lösning, uthyrningschefens. De två delar fastighetssystemet, som är en egen lösning eftersom flera använder det. Men modulerna delar grunddata och release: en ändring i den ena tvingar fram en ändring i den andra. Kopplingen är tät, och eftersom systemet är en standardprodukt går den inte att lösa. Teknisk chef bär den som en bedömning på lösningen: varje release av fastighetssystemet är en påverkan som Felanmälan måste svara på.
+Felanmälan är en lösning: processen, bovärdarna, informationsobjekten Felanmälan och Arbetsorder och modulen Teknisk förvaltning tillsammans. Teknisk chef är dess lösningsägare, håller årsramen och svarar för målet att en felanmälan är åtgärdad inom fem arbetsdagar. Leverantören som driftar systemet är inte dess ägare.
 
-Vid sidan av det: **ekonomisystemet** för bokföring, leverantörsfakturor och bokslut, som Hyra skickar sina verifikationer till, och **styr- och övervakningssystemet** som läser och styr värme, ventilation, hissar och passersystem. Det körs lokalt i varje undercentral och samlas i bolagets driftcentral. Husen har utrustning: undercentraler, ventilationsaggregat, hissar, passerläsare och el- och vattenmätare, kopplade till driftcentralen över ett eget nät. Tre tjänster köps utifrån: störningsjouren, inkassotjänsten och nyckelhanteringen för entreprenörer.
+Hyra är en annan lösning, uthyrningschefens. De två delar fastighetssystemet, som är en egen lösning eftersom flera använder det. Men modulerna delar grunddata och release: en ändring i den ena tvingar fram en ändring i den andra. Kopplingen är tät och går inte att lösa, eftersom systemet är en standardprodukt. Teknisk chef bär den som en bedömning på lösningen: varje release av fastighetssystemet är en påverkan som Felanmälan måste svara på.
+
+Vid sidan av det finns två system till. **Ekonomisystemet** används för bokföring, leverantörsfakturor och bokslut, och Hyra skickar sina verifikationer dit. **Styr- och övervakningssystemet** läser och styr värme, ventilation, hissar och passersystem. Det körs lokalt i varje undercentral och samlas i bolagets driftcentral. Husen har utrustning: undercentraler, ventilationsaggregat, hissar, passerläsare och el- och vattenmätare, kopplade till driftcentralen över ett eget nät. Tre tjänster köper bolaget utifrån: störningsjouren, inkassotjänsten och nyckelhanteringen för entreprenörer.
 
 ## Vem det finns för
 
-Målgruppen är de som bor i Brinkstad och behöver en hyresbostad: unga som flyttar hemifrån, familjer som växer, äldre som vill lämna huset, nyanlända. Deras behov är ett hem som fungerar och en hyresvärd som svarar när något gått sönder. Resan är att flytta: att behöva en bostad, söka, få, flytta in, bo, flytta vidare, där bolaget är en av flera parter med elbolaget, flyttfirman, kommunen och arbetsgivaren. Värdeerbjudandet är en bostad man får på kötid, inte kontakter, och ett fel som är lagat inom veckan.
+Målgruppen är de som bor i Brinkstad och behöver en hyresbostad: unga som flyttar hemifrån, familjer som växer, äldre som vill lämna huset, nyanlända. Deras behov är ett hem som fungerar och en hyresvärd som svarar när något gått sönder. Resan är att flytta: att behöva en bostad, söka, få, flytta in, bo, flytta vidare. Bolaget är en av flera parter i den, med elbolaget, flyttfirman, kommunen och arbetsgivaren. Värdeerbjudandet är en bostad man får på kötid, inte kontakter, och ett fel som är lagat inom veckan.
 
 ## I katalogen
 
-Bolaget står för det fysiska, kunden och tekniken. Hämta härifrån exempel på uppdrag fastställt av ägaren (C-149 Uppdrag, C-183 fastställs av) och mål med olika fastställare, ägarens i ägardirektivet och styrelsens i affärsplanen (C-017 Mål, C-189 Mandat), ändamål ur bolagsordningen (C-022), anläggning (C-091), utrustning (C-090), nod (C-079) och kommunikationsnätverk (C-088), teknikfunktion (C-134) och tekniktjänst (C-129), applikation (C-071) med fastighetssystemet och applikationsfunktion (C-133) med dess moduler, verksamhetstjänst köpt utifrån (C-127, C-155 är leverantör till) med störningsjouren, verksamhetsprocess (C-130) med felanmälan, processägare (C-206) med teknisk chef för den och linjechef (C-207) med områdeskontorets chef som utför den, lösning (C-055) med Felanmälan och dess lösningsägare som håller ramen (C-210) och svarar för utfallet (C-209), tät koppling (C-211) genom fastighetssystemets delade release, handläggning (C-160) med avhysningen, initiativ (C-012) med stambytet, verksamhetsobjekt (C-159) och tillstånd (C-182) med lägenheten som ledig, erbjuden och uthyrd, samt målgrupp (C-145), behov (C-146), resa (C-147) och värdeerbjudande (C-148) med hyresgästen. Förvaltningens mekanik, ärendet och beslutet i det hämtas från myndigheten.
+Bolaget står för det fysiska, kunden och tekniken. Hämta härifrån exempel på:
+
+- uppdrag fastställt av ägaren (C-149 Uppdrag, C-183 fastställs av)
+- mål med olika fastställare, ägarens i ägardirektivet och styrelsens i affärsplanen (C-017 Mål, C-189 Mandat)
+- ändamål ur bolagsordningen (C-022)
+- anläggning (C-091), utrustning (C-090), nod (C-079) och kommunikationsnätverk (C-088)
+- teknikfunktion (C-134) och tekniktjänst (C-129)
+- applikation (C-071) med fastighetssystemet och applikationsfunktion (C-133) med dess moduler
+- verksamhetstjänst köpt utifrån (C-127, C-155 är leverantör till) med störningsjouren
+- verksamhetsprocess (C-130) med felanmälan, processägare (C-206) med teknisk chef för den och linjechef (C-207) med områdeskontorets chef som utför den
+- lösning (C-055) med Felanmälan och dess lösningsägare, som håller ramen (C-210) och svarar för utfallet (C-209)
+- tät koppling (C-211) genom fastighetssystemets delade release
+- handläggning (C-160) med avhysningen
+- initiativ (C-012) med stambytet
+- verksamhetsobjekt (C-159) och tillstånd (C-182) med lägenheten som ledig, erbjuden och uthyrd
+- målgrupp (C-145), behov (C-146), resa (C-147) och värdeerbjudande (C-148) med hyresgästen
+
+Förvaltningens mekanik, ärendet och beslutet i det hämtas från myndigheten.
