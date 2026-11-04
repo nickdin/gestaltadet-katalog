@@ -12,6 +12,8 @@ associative:
     label: ges som
   - concept: '[[C-074 Roll]]'
     label: bärs av
+  - concept: '[[C-003 Styrobjekt]]'
+    label: avser
 ---
 # C-189 Mandat
 
