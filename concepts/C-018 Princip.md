@@ -19,7 +19,11 @@ associative:
 
 ## Anmärkning
 
-Ett ställningstagande med generalitet: det gäller alla val av en viss typ, till skillnad från beslutet, som gäller ett enskilt fall. Härleds ur ett ändamål, anger sina konsekvenser, är prövbar men inte binär och kan behöva vägas mot andra principer. Valet prövas mot principen; riktningen är given men valet lämnas kvar. En arkitekturprincip ([[C-040 Arkitekturprincip]]) beslutas genom att ingå i en antagen referensarkitektur, som är dess bärare; den tar beskrivningens nivå, har ingen detaljeringsgrad och anger de perspektiv och aspekter den gäller. Är SBVR:s och Business Motivation Models business policy: styrning som inte är direkt prövbar, finns för att vägleda och som regler härleds ur; den formuleras av den som har mandat ([[C-189 Mandat]]) som svar på en bedömning ([[C-185 Bedömning]]) (ADR 0023, ADR 0025).
+Principen är ett ställningstagande med generalitet: den gäller alla val av en viss typ, till skillnad från beslutet, som gäller ett enskilt fall. Valet prövas mot principen; riktningen är given men valet lämnas kvar. Principen härleds ur ett ändamål, anger sina konsekvenser, är prövbar men inte binär och kan behöva vägas mot andra principer.
+
+En arkitekturprincip ([[C-040 Arkitekturprincip]]) beslutas genom att ingå i en antagen referensarkitektur, som är dess bärare. Den tar beskrivningens nivå, har ingen detaljeringsgrad och anger de perspektiv och aspekter den gäller.
+
+Principen är SBVR:s och Business Motivation Models business policy: styrning som inte är direkt prövbar, finns för att vägleda och som regler härleds ur. Den som har mandat ([[C-189 Mandat]]) formulerar principen som svar på en bedömning ([[C-185 Bedömning]]) (ADR 0023, ADR 0025).
 
 ## Exempel
 
