@@ -20,7 +20,7 @@ generic: '[[C-020 Regel]]'
 
 ## Anmärkning
 
-Objektet prövas mot kravet. Binärt. En sorts regel ([[C-020 Regel]]): regeln anger vad som ska gälla, kravet att det som ska gälla är en egenskap hos styrobjektet. SBVR skiljer inte kravet från regeln; lagret behåller ordet eftersom arkitekter säger krav och ArchiMate har Requirement. Krav kan härledas ur en princip via dess konsekvenser, eller komma direkt från lag och förordning. Inte ett systemkrav i kravhanteringens mening: kravet är ett styrmedel som styrobjektet prövas mot, inte en beskrivning av vad ett system ska göra. Beslutet: ADR 0023.
+Ett krav är en sorts regel ([[C-020 Regel]]): regeln anger vad som ska gälla, kravet att det som ska gälla är en egenskap hos styrobjektet. Styrobjektet prövas mot kravet, och prövningen är binär. Ett krav kan härledas ur en princip via dess konsekvenser, eller komma direkt från lag och förordning. Det är inte ett systemkrav i kravhanteringens mening: kravet är ett styrmedel som styrobjektet prövas mot, inte en beskrivning av vad ett system ska göra. SBVR skiljer inte kravet från regeln; lagret behåller ordet för att arkitekter säger krav och ArchiMate har Requirement. Beslutet: ADR 0023.
 
 ## Exempel
 
