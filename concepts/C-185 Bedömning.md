@@ -13,6 +13,8 @@ associative:
     label: härleds ur
   - concept: '[[C-017 Mål]]'
     label: prövar mot
+  - concept: '[[C-019 Styrbeslut]]'
+    label: leder till
 ---
 # C-185 Bedömning
 
