@@ -11,6 +11,7 @@ associative:
     label: gäller
   - concept: "[[C-032 Arkitekturobjekt]]"
     label: gäller
+generic: '[[C-209 Ansvar]]'
 ---
 # C-117 Arkitekturansvar
 
