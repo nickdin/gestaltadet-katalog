@@ -11,6 +11,8 @@ generic: '[[C-015 Styrmedel]]'
 associative:
   - concept: '[[C-003 Styrobjekt]]'
     label: tilldelas
+  - concept: '[[C-189 Mandat]]'
+    label: följer
 ---
 # C-210 Ram
 
