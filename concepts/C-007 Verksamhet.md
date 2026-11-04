@@ -16,4 +16,6 @@ generic: "[[C-032 Arkitekturobjekt]]"
 
 ## Anmärkning
 
-Som styrobjekt är verksamheten det som verksamhetsstyrning avser ([[C-042 Verksamhetsstyrning]]). Som arkitekturobjekt står den på enterprisenivå: det är dess arkitektur som enterprisenivåns beskrivningar uttrycker. Det är samma sak sedd från styrningens respektive arkitekturens håll. Det finns exakt en verksamhet: organisationen som juridisk person, med en ledning och en årsredovisning; för en myndighet med en instruktion och ett regleringsbrev, för ett bolag med en bolagsordning och ett ägardirektiv. Att organisationen har flera uppdrag som skiljer sig avsevärt gör dem inte till flera verksamheter utan till verksamhetsdomäner ([[C-008 Verksamhetsdomän]]). Verksamhetens ändamål är de som gäller hela organisationen, oavsett uppdrag.
+Det finns exakt en verksamhet: organisationen som juridisk person, med en ledning och en årsredovisning. En myndighet har också en instruktion och ett regleringsbrev, ett bolag en bolagsordning och ett ägardirektiv. Har organisationen flera uppdrag som skiljer sig avsevärt blir de inte flera verksamheter utan verksamhetsdomäner ([[C-008 Verksamhetsdomän]]). Verksamhetens ändamål är de som gäller hela organisationen, oavsett uppdrag.
+
+Verksamheten är både styrobjekt och arkitekturobjekt, samma sak sedd från styrningens respektive arkitekturens håll. Som styrobjekt är den det som verksamhetsstyrning avser ([[C-042 Verksamhetsstyrning]]). Som arkitekturobjekt står den på enterprisenivå: det är dess arkitektur som enterprisenivåns beskrivningar uttrycker.
