@@ -13,7 +13,7 @@ definition: "konsekvens i form av en verkan hos verksamheten eller styrobjektet 
 
 ## Anmärkning
 
-Effekten styr inget. Den prövas inte mot något, till skillnad från kravet och regeln. Men den vägs in när principen bedöms och när konsekvenserna redovisas, positiva som negativa. Den effekt ett initiativ ska åstadkomma är en verksamhetsförändring ([[C-172 Verksamhetsförändring]]). Den ritas inte som element utan syns som gapet mellan nulägets och målbildens beskrivningar, och prövas mot effektmålet ([[C-170 Effektmål]]).
+Effekten styr inget. Inget prövas mot den, till skillnad från kravet och regeln. Men den vägs in när principen bedöms och när konsekvenserna redovisas, positiva som negativa. Den effekt ett initiativ ska åstadkomma är en verksamhetsförändring ([[C-172 Verksamhetsförändring]]). Den ritas inte som element utan syns som gapet mellan nulägets och målbildens beskrivningar, och prövas mot effektmålet ([[C-170 Effektmål]]).
 
 ## Exempel
 
