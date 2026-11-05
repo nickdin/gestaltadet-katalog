@@ -1,6 +1,6 @@
 # Processkartan delas in efter ansvarsnivåer, och nivån bärs av relationer, inte av element
 
-*Banden gäller inte längre: ADR 0014. Kvar härifrån är att organisationen är systemet, att ansvarsnivån läses ur relationerna och att mottagaren är en relation.*
+*Banden gäller inte längre: ADR 0014. Kvar härifrån är att organisationen är systemet, att ansvarsnivån läses ur relationerna och att mottagaren är en relation, numera levereras till (`C-154`) från produkten till aktören.*
 
 Beslutat av Nicklas efter en grillning om vad banden i en avdelnings processkarta ska svara på.
 
