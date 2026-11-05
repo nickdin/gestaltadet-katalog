@@ -1,6 +1,6 @@
 # Beteendet når informationsobjektet genom verksamhetsobjektet och direkt, och åtkomsten följer realiseras av men inte aggregerar
 
-Beslutat av Nicklas i ärende #23, 2026-11-02, med tillägget från ärende #31 samma dag. Avgränsningen mot representationen gjordes 2026-11-03. Beslutet avgör hur ett verksamhetsbeteende når informationen: i två steg genom verksamhetsobjektet, i ett steg direkt till informationsobjektet, eller på båda sätten.
+Beslutat av Nicklas i ärende #23, 2026-11-02, med tillägget från ärende #31 samma dag. Avgränsningen mot representationen gjordes 2026-11-03, och hänvisningarna till ADR 0033 kom med den. Beslutet avgör hur ett verksamhetsbeteende når informationen: i två steg genom verksamhetsobjektet, i ett steg direkt till informationsobjektet, eller på båda sätten.
 
 ## Sammanhang
 
