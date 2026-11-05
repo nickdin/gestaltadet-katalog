@@ -1,5 +1,7 @@
 # Utsidan är ett sjätte perspektiv
 
+*Ledet att värdeerbjudandet hör till verksamheten gäller inte längre: ADR 0028 flyttade det till strategiperspektivet.*
+
 Målgrupp, behov och resa blir elementtyper i ett sjätte perspektiv, *upplevelse*. Katalogens fem perspektiv ser alla på organisationen inifrån: vad den kan göra, vad den gör, dess information, applikationer och teknik. Det sjätte rymmer det som finns där utan organisationen. Det organisationen gör för de människorna, värdeerbjudandet, hör till verksamheten. Beslutet kom ur en grillning som höll katalogen mot EDGY, vars facett *Experience* ser utifrån.
 
 Skälen är innebörd och vyer. En resa är personens egen: den kan gå genom flera organisationer och är ingen process hos någon av dem. Och hade resan vikts in i verksamheten skulle varje verksamhetsvy lista målgrupper, behov och resor bredvid processer och roller. Då kunde utsidan aldrig efterfrågas för sig. Vem som gör arbetet var inget skäl åt något håll: en roll kan bära flera perspektiv, och verksamhetsarkitekten bär det här.
