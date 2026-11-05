@@ -7,6 +7,11 @@ terms:
     source: catalogue
 definition: "arkitekturbeskrivning som avser tidsperspektivet målläge och uttrycker den avsedda arkitekturen hos ett arkitekturobjekt"
 generic: "[[C-035 Arkitekturbeskrivning]]"
+associative:
+  - concept: "[[C-054 Målarkitektur]]"
+    label: förfinar
+  - concept: "[[C-054 Målarkitektur]]"
+    label: prövas mot
 ---
 # C-054 Målarkitektur
 

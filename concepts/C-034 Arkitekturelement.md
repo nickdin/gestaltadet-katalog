@@ -14,7 +14,7 @@ partitive: "[[C-031 Arkitektur]]"
 
 ## Exempel
 
-förmåga, process, informationsobjekt, applikationskomponent.
+förmåga, process, informationsobjekt, applikation.
 
 ## Anmärkning
 

@@ -6,6 +6,7 @@ terms:
     language: sv
     source: catalogue
 definition: "hållning som uttrycker vad som är eftersträvansvärt"
+generic: '[[C-025 Hållning]]'
 ---
 # C-026 Värdering
 

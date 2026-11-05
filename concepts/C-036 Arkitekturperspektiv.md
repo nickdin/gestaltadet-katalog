@@ -11,6 +11,8 @@ associative:
     label: styr
   - concept: "[[C-039 Metamodell]]"
     label: anger
+  - concept: '[[C-116 Arkitekturdisciplin]]'
+    label: hör till
 ---
 # C-036 Arkitekturperspektiv
 

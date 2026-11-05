@@ -13,4 +13,4 @@ definition: "uppfattning eller förväntat sätt att agera som riktas mot person
 
 ## Anmärkning
 
-Samlingsbegrepp för värdering och förhållningssätt. Inte ett styrmedel: saknar prövbara konsekvenser.
+Samlingsbegrepp för värdering ([[C-026 Värdering]]) och förhållningssätt ([[C-027 Förhållningssätt]]). Inte ett styrmedel: saknar prövbara konsekvenser. Ritas en hållning registreras den som intern påverkan ([[C-030 Intern påverkan]]): ett förhållande inne i organisationen som ett styrmedel kan härledas ur, inte något som prövas. ADR 0037.
