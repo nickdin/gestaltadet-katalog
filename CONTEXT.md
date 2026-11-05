@@ -56,7 +56,7 @@ Den verksamhet, verksamhetsdomän eller lösning en beskrivning handlar om. Varj
 Ett element av någon av styrmedelstyperna (ändamål, mål, princip, arkitekturprincip, styrbeslut, regel, krav) eller av bärare, det dokument de är skrivna i. Styrmedel (C-015) namnger familjen i katalogen och är aldrig självt en typ: ingen skriver ett styrmedel, man skriver en princip eller en regel. Typen kan ange vilka slags beskrivningar som fastställer den (`decided_by` på styrmedelstypens begrepp, en lista av beskrivningsslag). Katalogen markerar princip och arkitekturprincip så.
 
 **Princip (C-018)**:
-Ett styrmedelselement av typen princip eller arkitekturprincip: en hållning som säger vilken riktning som ska väljas mellan utformningsalternativ. Den fastställs genom att listas i en antagen referensarkitektur eller målarkitektur, som är dess bärare. En nuläges- eller transitionsbeskrivning kan visa en princip som gäller men fastställer den aldrig. En beskrivning prövas aldrig mot en princip den själv fastställer.
+Ett styrmedelselement av typen princip eller arkitekturprincip: en hållning som säger vilken riktning som ska väljas mellan utformningsalternativ. Den fastställs genom att listas i en antagen referensarkitektur, som är dess bärare. En nuläges- eller transitionsbeskrivning kan visa en princip som gäller men fastställer den aldrig. En beskrivning prövas aldrig mot en princip den själv fastställer.
 
 ### Utsidan
 
@@ -73,7 +73,7 @@ De händelser och aktiviteter människor går igenom i sina liv (EDGY:s *journey
 _Undvik_: process (det organisationen gör)
 
 **Värdeerbjudande (C-148)**:
-Det en produkt utlovas göra för någon. Det riktas till en målgrupp eller en namngiven aktör, bygger på en eller flera produkter och möter ett eller flera behov. För varje behov har det ett svar (Svar (C-194)) som säger hur det röjer behovets hinder och ger dess vinst. En produkt är det som levereras, och samma produkt kan bära olika värdeerbjudanden till olika målgrupper. Värdeerbjudandet står mellan produkt och behov: en produkt möter ett behov bara genom ett värdeerbjudande, aldrig direkt. En elementtyp i verksamhetsperspektivet, eftersom organisationen gör det.
+Det en produkt utlovas göra för någon. Det riktas till en målgrupp eller en namngiven aktör, bygger på en eller flera produkter och möter ett eller flera behov. För varje behov har det en hjälp (Hjälp (C-194)) som säger hur det röjer behovets hinder och ger dess vinst. En produkt är det som levereras, och samma produkt kan bära olika värdeerbjudanden till olika målgrupper. Värdeerbjudandet står mellan produkt och behov: en produkt möter ett behov bara genom ett värdeerbjudande, aldrig direkt. En elementtyp i strategiperspektivet sedan ADR 0028, för affärsmodellen är strategi och värdeerbjudandet dess kärna.
 _Undvik_: produkt, erbjudande
 
 **Kanal**:
