@@ -4,7 +4,7 @@ En påhittad statlig myndighet. Den finns för att katalogens exempel ur förval
 
 ## Vad den gör
 
-Myndigheten fördelar statsbidrag till ideella föreningar, för register över föreningarna och deras företrädare och ser till att pengarna används som avsett. Den har omkring 120 anställda på en ort, och en generaldirektör leder den. Den har tre enheter: Bidragsenheten, Register- och tillsynsenheten och Verksamhetsstöd, där IT, ekonomi, juridik och kommunikation sitter.
+Myndigheten fördelar statsbidrag till ideella föreningar, för register över föreningarna och deras företrädare och ser till att pengarna används som avsett. Den har omkring 120 anställda på en ort, och en generaldirektör leder den. Den har fyra enheter: Bidragsenheten, Register- och tillsynsenheten, Analysenheten och Verksamhetsstöd, där IT, ekonomi, juridik och kommunikation sitter.
 
 ## Uppdrag och styrning
 
