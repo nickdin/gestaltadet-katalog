@@ -33,6 +33,6 @@ Grillningen ställde upp tre vägar: låta texten vara; ett fält på flödar ti
 
 - `C-097` får ny definition och anmärkning. `C-159` får en mening om att lämnar vidare är den härledda pilen. `C-101` får markeringen `access: true` och en anmärkning om fältet och härledningen; #14 stängs med det.
 - Mappningsrader flyttade i `mapping/uml.yaml` (ObjectFlow, InformationFlow, kommentaren på InformationFlow realization) och `mapping/vdml.yaml` (DeliverableFlow, tre rader, och elementradens motivering). Kommentarer i `mapping/archimate.yaml` (Flow) och `mapping/bpmn.yaml` (Message, Message Flow).
-- Interlingua får ett ärende, #989: informationsraden i `check` för en lagrad flödar till som åtkomsten redan ger. Exporten lämnas som ADR 0021 säger.
+- Interlingua får ett ärende, #989: informationsraden i `check` för en lagrad flödar till som åtkomsten redan ger. Exporten lämnas som interlinguas ADR 0021 säger.
 - Ett lager som använder katalogen sätter läget på varje åtkomstrelation. En relation utan läge är en lucka: `check --gaps` listar den, och härledningen hoppar över den.
 - Ingen ny elementtyp; mallen körs inte om.
