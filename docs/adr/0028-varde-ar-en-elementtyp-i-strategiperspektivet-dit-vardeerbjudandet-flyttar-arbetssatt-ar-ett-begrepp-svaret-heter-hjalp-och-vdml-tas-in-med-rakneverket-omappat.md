@@ -1,5 +1,7 @@
 # Värde är en elementtyp i strategiperspektivet, dit värdeerbjudandet flyttar, arbetssätt är ett begrepp, svaret heter hjälp, och VDML tas in med räkneverket omappat
 
+*Raden under Det som flödar att DeliverableFlow är flödar till gäller inte längre: ADR 0033 flyttade den till har åtkomst till (`C-101`).*
+
 Beslutat av Nicklas i grillningen av den andra av de tre frågor ADR 0026 öppnade, VDML. Avgör hur katalogen förhåller sig till Value Delivery Modeling Language 1.1, byggsten för byggsten, och vad katalogen saknade som VDML visade.
 
 ## Sammanhang
