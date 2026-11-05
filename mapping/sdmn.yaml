@@ -104,7 +104,7 @@ relationships:
   - name: CompositionConnector
     concepts: [C-062]
   # The part exists on its own and may be pointed at from several: the shared
-  # part, as ADR 0023 reads a field that sits in many objects.
+  # part, as ADR 0018 reads a field that sits in many objects.
   - name: ReferenceConnector
     concepts: [C-100]
   # A folder or a physical container holds something: the lagringsyta (C-165)
