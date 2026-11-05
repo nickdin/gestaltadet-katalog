@@ -1,6 +1,6 @@
 # Processer namnges med verb i infinitiv och objekt
 
-*Sista ledet i Konsekvenser, att ett löpande ansvar är en verksamhetsförmåga, gäller inte längre: ADR 0015.*
+*Ledet i Konsekvenser att ett löpande ansvar är en verksamhetsförmåga gäller inte längre: ADR 0015.*
 
 Beslutat av Nicklas när en avdelnings processkarta ritades.
 
