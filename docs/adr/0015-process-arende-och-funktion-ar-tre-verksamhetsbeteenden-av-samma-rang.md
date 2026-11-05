@@ -1,6 +1,6 @@
 # Process, ärende och funktion är tre verksamhetsbeteenden av samma rang
 
-Beslutat av Nicklas i samma grillning som ADR 0014. Ändrar ADR 0012:s sista led: ett löpande ansvar är ingen förmåga.
+Beslutat av Nicklas i samma grillning som ADR 0014. Ändrar ADR 0012:s led om löpande ansvar: ett löpande ansvar är ingen förmåga.
 
 ## Sammanhang
 
@@ -22,7 +22,7 @@ Nicklas frågade om funktion, ärende (i CMMN:s mening) och process är tre för
 
 ## Konsekvenser
 
-- `C-157 Verksamhetsbeteende` (familjebegrepp), `C-158 Verksamhetsfunktion` (elementtyp, generisk `C-077`, täcks av `C-109`). Anmärkningarna i `C-069`, `C-077` och `C-130` är omskrivna. ADR 0012:s regel om namn står kvar, men dess sista led gäller inte längre.
+- `C-157 Verksamhetsbeteende` (familjebegrepp), `C-158 Verksamhetsfunktion` (elementtyp, generisk `C-077`, täcks av `C-109`). Anmärkningarna i `C-069`, `C-077` och `C-130` är omskrivna. ADR 0012:s regel om namn står kvar, men dess led om löpande ansvar gäller inte längre.
 - I `mapping/archimate.yaml` mappas Business Function till `C-158`. I `mapping/aris.yaml` förblir OT_FUNC omappat, eftersom en EPC-funktion är ett steg i en process, och `C-158` står under `unmapped-concepts`.
 - Kartans löpande ansvar typas om till verksamhetsfunktioner: Hålla registret, Hantera risker och intern styrning och kontroll, Analysera omvärlden, Förmedla kunskap, Ge råd om säkerhet. Det är öppet vilka av dem som rymmer en årlig process.
 - En förmågebild ritas med förmågorna och det som realiserar dem.
