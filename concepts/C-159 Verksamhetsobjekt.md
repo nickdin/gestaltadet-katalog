@@ -8,6 +8,9 @@ terms:
     source: concept new
 definition: det en verksamhetsprocess, en handläggning eller en verksamhetsfunktion hanterar och lämnar vidare
 kind: element-type
+associative:
+  - concept: '[[C-060 Informationsobjekt]]'
+    label: realiseras av
 ---
 # C-159 Verksamhetsobjekt
 
