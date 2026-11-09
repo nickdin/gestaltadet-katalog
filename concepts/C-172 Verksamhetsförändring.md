@@ -10,6 +10,8 @@ definition: skillnaden mellan hur verksamheten är och hur den ska bli, den verk
 associative:
   - concept: '[[C-024 Effekt]]'
     label: är en
+  - concept: '[[C-170 Effektmål]]'
+    label: prövas mot
 ---
 # C-172 Verksamhetsförändring
 
