@@ -6,6 +6,9 @@ terms:
     language: sv
     source: catalogue
 definition: "företeelse som en styrning avser"
+associative:
+  - concept: '[[C-022 Ändamål]]'
+    label: tjänar
 ---
 # C-003 Styrobjekt
 
