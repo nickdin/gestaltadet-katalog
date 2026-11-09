@@ -7,6 +7,9 @@ terms:
     status: preferred
     source: concept new
 definition: det aktörer i verksamheten gör, ordnat som process, handläggning eller funktion
+associative:
+  - concept: '[[C-159 Verksamhetsobjekt]]'
+    label: har åtkomst till
 ---
 # C-157 Verksamhetsbeteende
 
