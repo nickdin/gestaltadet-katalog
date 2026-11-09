@@ -27,7 +27,7 @@ riktlinje, anvisning, standard, plan, målarkitektur, verksamhetsplan, budget, i
 
 Ett styrmedel kan byta bärare utan att ändra innehåll. Standarden är en bärare: den bär krav, och kraven är styrmedlen. En arkitekturbeskrivning som beslutar principer är deras bärare. Riskanalysen och omvärldsanalysen är bärare: de bär bedömningar ([[C-185 Bedömning]]) (ADR 0025, ADR 0037). Ett dokument som varken bär styrmedel, ändamål eller bedömning är ingen bärare. Som databärare är det en artefakt ([[C-081 Artefakt]]), och dess läsbara innehåll är representationer ([[C-085 Representation]]).
 
-Bäraren är det som fastställs. Relationen fastställs av ([[C-183 fastställs av]]) går från bäraren till den aktör, roll eller det forum som beslutat eller antagit den, och styrmedlen bäraren bär följer med. Ett styrmedel utan bärare får relationen själv (ADR 0023).
+Bäraren är det som fastställs. Relationen fastställs av ([[C-183 fastställs av]]) går från bäraren till den aktör, roll eller det forum som beslutat eller antagit den, och styrmedlen bäraren bär följer med. Ett styrmedel utan bärare får relationen själv (ADR 0023). I lagret skrivs bär mellan ett bärarelement och det styrmedel det bär med relationstypen aggregerar ([[C-100 aggregerar]]): ett styrmedel kan byta bärare utan att ändra innehåll, så det är ingen exklusiv del (ADR 0019).
 
 **Nödvändighet:** Varje bärare bär minst ett styrmedel, ett ändamål eller en bedömning.
 
