@@ -16,6 +16,8 @@ associative:
     label: härleds ur
   - concept: '[[C-185 Bedömning]]'
     label: härleds ur
+  - concept: '[[C-023 Konsekvens]]'
+    label: anger
 ---
 # C-018 Princip
 
