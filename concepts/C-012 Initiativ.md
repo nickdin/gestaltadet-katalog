@@ -8,6 +8,9 @@ terms:
 definition: "tidsbegränsad förändringsinsats med definierat slut"
 kind: element-type
 partitive: '[[C-011 Portfölj]]'
+associative:
+  - concept: '[[C-172 Verksamhetsförändring]]'
+    label: åstadkommer
 ---
 # C-012 Initiativ
 
