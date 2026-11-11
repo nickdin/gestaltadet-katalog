@@ -17,4 +17,6 @@ generic: "[[C-077 Funktion]]"
 
 En applikationsfunktion är ett applikationsbeteende ([[C-179 Applikationsbeteende]]). Stegen är applikationsaktiviteter ([[C-176 Applikationsaktivitet]]). Att flera applikationer har samma applikationsfunktion visar var de överlappar.
 
+## Motsvarigheter
+
 Motsvarar ArchiMates Application Function.

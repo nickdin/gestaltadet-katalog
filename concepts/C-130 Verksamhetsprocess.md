@@ -21,6 +21,8 @@ En process är ett verksamhetsbeteende ([[C-157 Verksamhetsbeteende]]): den har 
 
 Arkivredovisningens klassificeringsstruktur är processkartan läst ur lagret, ingen egen sak. Strukturen är de verksamhetsområden och processer som handlingarna ordnas under enligt Riksarkivets föreskrifter om verksamhetsbaserad arkivredovisning; i lagret är den verksamhetsprocesserna med de representationer ([[C-085 Representation]]) de har åtkomst till (beslut 31).
 
+## Motsvarigheter
+
 Motsvarar ArchiMates Business Process. I BPMN motsvarar den Process; stegen i den är verksamhetsaktiviteter och ritas i BPMN, och en delprocess är en process som processen rymmer (beslut 22).
 
 Motsvarar Activity i Unified Modeling Language (UML) när aktörer i verksamheten utför den, med stegen som Action; tabellen speglar BPMN-tabellen rad för rad. Beslut 29.

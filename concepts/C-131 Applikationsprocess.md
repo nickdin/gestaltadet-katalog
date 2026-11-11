@@ -17,6 +17,8 @@ generic: "[[C-070 Process]]"
 
 En applikationsprocess är ett applikationsbeteende ([[C-179 Applikationsbeteende]]). Stegen är applikationsaktiviteter ([[C-176 Applikationsaktivitet]]).
 
+## Motsvarigheter
+
 Motsvarar ArchiMates Application Process.
 
 Motsvarar Activity i Unified Modeling Language (UML) när en applikation utför den. Beslut 29.

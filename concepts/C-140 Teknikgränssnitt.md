@@ -15,6 +15,8 @@ generic: "[[C-076 Gränssnitt]]"
 
 ## Anmärkning
 
+## Motsvarigheter
+
 Motsvarar ArchiMates Technology Interface.
 
 Motsvarar Interface och Port i Unified Modeling Language (UML) när en nod eller exekveringsmiljö ger dem. Beslut 29.

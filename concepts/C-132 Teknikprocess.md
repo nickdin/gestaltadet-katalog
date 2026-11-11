@@ -17,6 +17,8 @@ generic: "[[C-070 Process]]"
 
 En teknikprocess är ett teknikbeteende ([[C-180 Teknikbeteende]]). Stegen är teknikaktiviteter ([[C-177 Teknikaktivitet]]).
 
+## Motsvarigheter
+
 Motsvarar ArchiMates Technology Process.
 
 Motsvarar Activity i Unified Modeling Language (UML) när en teknisk resurs utför den. Beslut 29.

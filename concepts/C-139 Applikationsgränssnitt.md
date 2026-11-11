@@ -15,6 +15,8 @@ generic: "[[C-076 Gränssnitt]]"
 
 ## Anmärkning
 
+## Motsvarigheter
+
 Motsvarar ArchiMates Application Interface.
 
 Motsvarar Interface och Port i Unified Modeling Language (UML) när en komponent ger dem: kontraktet som ritas som klubban, och punkten det sitter på; operationerna är de tjänster gränssnittet gör tillgängliga, text. Beslut 29.

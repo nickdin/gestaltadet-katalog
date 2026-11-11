@@ -15,4 +15,6 @@ generic: "[[C-078 Händelse]]"
 
 ## Anmärkning
 
+## Motsvarigheter
+
 Motsvarar ArchiMates Technology Event.
