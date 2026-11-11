@@ -41,7 +41,7 @@ Tre åtgärder på representationen uppfyller behovet som informationsägaren sa
 
 Märkningen tjänar konfidentialiteten: den gör nivån synlig på formen. Informationsägaren sätter nivån på objektet, men den som håller dokumentet ser inte objektet. Representationen bär därför nivån själv, till exempel som "Intern" i sidfoten eller som känslighetsetikett på filen. Varje representation av samma objekt bär märket för sig.
 
-Signeringen uppfyller riktigheten. Riktighet är ett behov på objektet och en åtgärd på representationen: elektronisk underskrift, lås, kontrollsumma eller versionshistorik med författare. Ett upprättat beslut visas vara myndighetens och oförändrat genom signaturen på representationen, inte genom databasen bakom. EU:s förordning eIDAS säger vilka elektroniska underskrifter som räknas.
+Signeringen uppfyller riktigheten. Riktighet är en klass som informationsägaren sätter på objektet. Åtgärden på representationen är signering: elektronisk underskrift, lås, kontrollsumma eller versionshistorik med författare. Ett upprättat beslut visas vara myndighetens och oförändrat genom signaturen på representationen, inte genom databasen bakom. EU:s förordning eIDAS säger vilka elektroniska underskrifter som räknas.
 
 Formatet uppfyller tillgängligheten. Filen ska gå att öppna idag, i ett format som verksamheten har program för, och om tjugo år, i ett format som Riksarkivet godkänner.
 
