@@ -1,0 +1,28 @@
+#27 — Motsvarigheterna: beviset som kan falla. Grenen fix-137-on-27 mot basen c26e58e (vågens sammanslagna main), samma skript på båda.
+
+Skriptet är `docs/acceptance-shots/issue-27-motsvarigheter-check.py` och körs som `python3 -I docs/acceptance-shots/issue-27-motsvarigheter-check.py <katalogmapp>`. Det läser varje `concepts/*.md` mening för mening och skriver en rad per brott och en totalrad. Utgångskoden är 1 vid minst ett brott.
+
+Tre regler:
+1. Varje mening utanför Motsvarigheter och Exempel (Anmärkning, och text utan rubrik som i Korrespondens (C-053)) som nämner en specifikation kräver att samma specifikation nämns under Motsvarigheter i filen, eller att meningen själv innehåller ordet Motsvarigheter. Rubrikraden och definitionsraden läses inte.
+2. Under Motsvarigheter tas den specifikation varje mening nämner först. Följden får aldrig gå bakåt i den fasta ordningen (archimate, aris, bacm, bmm, bpmn, cmmn, dmn, sbvr, sdmn, uml, vdml, pm3, TOGAF, EDGY, kanvaserna sist). En jämförande bisats skiljs från meningens egen specifikation så här: ett namn direkt efter ett jämförande ord (som, liksom, likt, i likhet med, till skillnad från, jämfört med) räknas inte; meningens specifikation är första namnet som inte är en sådan bisats. En mening utan specifikation, som ett ensamt "Beslut 22.", hoppas över.
+3. Rubriken Motsvarigheter står en gång, efter Anmärkning, före Exempel, och är inte tom.
+
+If wrong (om arbetet var fel): grenens totalrad blir över 0, med en rad som säger vilken fil och vilken mening som bryter, eller en fil har en specifikation i Anmärkning utan stycke under Motsvarigheter, eller UML-stycket står före ArchiMate-stycket. Basen visar då samma som grenen, men den visar 29.
+
+## Bas c26e58e
+total: 29 breaches in 17 of 204 files
+Filerna med brott: Styrbeslut (C-019), Regel (C-020), Korrespondens (C-053), Informationsobjekt (C-060), Aktör (C-073), Behov (C-146), Uppdrag (C-149), Verksamhetsobjekt (C-159), Handläggning (C-160), Uppgift (C-161), Lagringsyta (C-165), Verksamhetsaktivitet (C-175), Applikationsaktivitet (C-176), Beslutslogik (C-178), Tillstånd (C-182), fastställs av (C-183), Värde (C-195). Alla filer som ärende 137, 141 och 142 nämner ingår. Verksamhetshändelse (C-135), som 141 bara ber att se på, har ingen bruten ordning och står inte med.
+
+## Gren fix-137-on-27
+total: 0 breaches in 0 of 204 files
+`interlingua check .`: check: 204 files, no violations
+
+## Hand-bruten ordning (kan falla på ett andra sätt)
+Verksamhetsaktivitet (C-175) kopierades från grenen till en tom kopia utanför arbetsträdet, med UML-stycket ("Motsvarar Action …") flyttat före ArchiMate-stycket under Motsvarigheter. Samma skript på kopian:
+C-175 Verksamhetsaktivitet.md: ordningen går bakåt, archimate efter uml: ArchiMate har ingen aktivitetstyp: en export skriver en verksamhetsaktivitet som Business Process, …
+total: 1 breaches in 1 of 1 files
+Utgångskod 1. Den obrutna kopian av samma fil ger `total: 0 breaches in 0 of 1 files`, utgångskod 0.
+
+Read back (bas): 29 brott i 17 filer, så skriptet faller på basen, bl.a. för Beslutslogik (C-178), Handläggning (C-160) och Korrespondens (C-053).
+Read back (gren): 0 brott i 204 filer; check slutar no violations.
+Read back (bruten kopia): ett brott i den kopierade filen, med filnamn och mening, när UML står före ArchiMate; samma fil rättvänd ger 0.
