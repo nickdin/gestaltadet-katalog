@@ -1,0 +1,8 @@
+#30 — Realiseras av (C-094) markeras realisation: true. Kört av våg 1, 2026-11-11.
+
+Fixtur: en kopia av lagret i vågens scratchpad. Beteendet E-0165 Hyra har åtkomst till verksamhetsobjektet E-0164 Avtalet (R-0028), Avtalet realiseras av (C-094) informationsobjektet E-0163 Avtal (R-0024), och Hyra har dessutom en ritad direkt åtkomst till Avtal (R-0029). Bara concepts/C-094 realiseras av.md byttes mellan körningarna.
+Kommando: interlingua check <kopian>
+
+If wrong: utan realisation: true härleder programmet ingen åtkomst genom verksamhetsobjektet, och check säger ingenting om R-0029.
+Read back (bas 080c6f7): ingen rad om R-0029; enda fyndet är fixturens egen "descriptions/D-0001 T.md: missing summary", samma i båda körningarna.
+Read back (main 5b353c6): relations/R-0029 Hyra har åtkomst till Avtal.md: is redundant: 'E-0165 Hyra' → 'E-0163 Avtal' follows from 'E-0165 Hyra' → 'E-0164 Avtalet' (R-0028) and 'E-0164 Avtalet' → 'E-0163 Avtal' (R-0024)

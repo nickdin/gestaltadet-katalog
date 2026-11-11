@@ -1,0 +1,8 @@
+#22 — Objektbaserade styrningar avgränsas av sitt styrobjekt. Kört av våg 1, 2026-11-11.
+
+Fixtur: katalogen själv, exporterad två gånger: en orörd kopia på bas 080c6f7 och main på 5b353c6.
+Kommando: interlingua export skos <katalogen> --out <fil>, sedan grep -c 'skos:note xml:lang="sv">avgränsas av'
+
+If wrong: en felstavad nyckel eller ett felaktigt mål ger ingen skos:note "avgränsas av: …" för styrningen, och antalet blir detsamma som på basen.
+Read back (bas 080c6f7): 3 rader "avgränsas av" som skos:note.
+Read back (main 5b353c6): 9 rader; de sex nya är "avgränsas av: Verksamhet", "Utvecklingsdomän", "Portfölj", "Initiativ", "Produkt" och "Lösning".

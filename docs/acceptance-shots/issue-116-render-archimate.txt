@@ -1,0 +1,8 @@
+#116 — ansvarar för (C-208) exporteras som Association. Kört av våg 1, 2026-11-11.
+
+Fixtur: en kopia av lagret i vågens scratchpad, med beskrivningen D-0001 där rollen E-0162 ansvarar för (C-208) informationsobjektet E-0164 (relationen R-0026). Bara mapping/archimate.yaml byttes mellan körningarna.
+Kommando: interlingua render archimate <kopian> D-0001 --out <fil>
+
+If wrong: utan raden C-208 i Association skriver render archimate ingen relation för R-0026 och rapporterar att C-208 saknar mappning.
+Read back (bas 080c6f7): render archimate: not written: relation responsible_for (E-0162 → E-0164): no ArchiMate mapping for C-208, not written
+Read back (main 5b353c6): <relationship identifier="REL-responsible_for-E-0162-E-0164" source="E-0162" target="E-0164" xsi:type="Association" />

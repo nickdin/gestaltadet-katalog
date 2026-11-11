@@ -1,0 +1,7 @@
+#26 — Informationstillgång (C-166): behovet på informationsobjektet. Kört av våg 1, 2026-11-11.
+
+Fixtur: Anmärkningen i Informationsobjekt (C-060) och Lagringsyta (C-165), läst på bas 080c6f7 och på main 5b353c6, med antalet träffar på de fyra klassernas namn.
+
+If wrong: en text som fortfarande bara klassar konfidentialiteten nämner inte riktighet, tillgänglighet och spårbarhet.
+Read back (bas 080c6f7): C-060 rad 26 "Informationsklassningen i konfidentialitet sätts på informationsobjektet"; konfidentialitet=1 riktighet=0 tillgänglighet=0 spårbarhet=0. C-165 rad 23 "den får kravet av det högst klassade informationsobjektet som ligger där".
+Read back (main 5b353c6): C-060 rad 26 "Informationsklassningen sätts på informationsobjektet i alla fyra klasserna, konfidentialitet, riktighet, tillgänglighet och spårbarhet"; konfidentialitet=1 riktighet=1 tillgänglighet=1 spårbarhet=1. C-165 rad 23 "den får kravet av det högst klassade informationsobjektet som ligger där, i alla fyra klasserna".
