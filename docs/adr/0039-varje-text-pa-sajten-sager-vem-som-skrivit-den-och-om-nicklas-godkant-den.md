@@ -1,6 +1,6 @@
 # Varje text på sajten säger vem som skrivit den och om Nicklas godkänt den
 
-Beslutat av Nicklas 2026-11-11, när han ville att läsaren på gestaltadet.se alltid ska kunna se om en text är hans egen eller skriven av AI. Beslutet togs i en grillning på fyra rundor och 29 frågor.
+Beslutat av Nicklas 11 november 2026, när han ville att läsaren på gestaltadet.se alltid ska kunna se om en text är hans egen eller skriven av AI.
 
 ## Sammanhang
 

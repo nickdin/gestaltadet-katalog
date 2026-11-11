@@ -10,7 +10,7 @@
 # kind not reached by any row is named once under `unmapped-concepts:`,
 # with its own reason; `check` fails if one is named by neither.
 #
-# Every type belongs to exactly one perspective (beslut 8), so each
+# Every type belongs to exactly one perspective (interlinguas beslut 8), so each
 # per-layer ArchiMate element maps to the type of its own layer: a Business
 # Service is a verksamhetstjänst (C-127), an Application Service an
 # applikationstjänst (C-128), and so on. Those rows are not doubtful. Business

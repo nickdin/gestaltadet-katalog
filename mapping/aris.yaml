@@ -30,7 +30,7 @@
 # `unmapped-concepts:` rather than mapped — that is a real property of
 # ARIS's vocabulary, not a shortfall of this table.
 #
-# Every type belongs to exactly one perspective (beslut 8), so this table
+# Every type belongs to exactly one perspective (interlinguas beslut 8), so this table
 # names the per-perspective types and not the family concepts they
 # specialise. OT_EVT is mapped to verksamhetshändelse (C-135), the one event
 # type of the verksamhet perspective, which is where an EPC event belongs.
