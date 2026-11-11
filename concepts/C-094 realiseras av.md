@@ -8,6 +8,7 @@ terms:
 definition: "relationstyp som anger att ett arkitekturelement förverkligas av ett annat, mer konkret arkitekturelement"
 kind: relation-type
 key: realized_by
+realisation: true
 ---
 # C-094 realiseras av
 
