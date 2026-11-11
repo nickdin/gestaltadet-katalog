@@ -1,0 +1,13 @@
+Ärende #109, fynd #140. Två prov som kunde ha fallit, körda av vågen på kopior av main c26e58e (git archive), aldrig i lagret.
+
+Prov 1: check läser ritningar i ämnesmapparna.
+Kommando: en kopia av lagret får filen layout/Styrning/Prov.drawio.svg med texten E-9999, sedan interlingua check .
+If wrong (undermapparna lästes inte): check skulle sluta "no violations" med exit 0, som utan filen.
+Read back (med provfilen): "layout/Styrning/Prov.drawio.svg: names element 'E-9999', which no element file carries", exit 1.
+Read back (main utan provfil): "check: 204 files, no violations", exit 0.
+
+Prov 2: ingen ritningsrubrik har bindestreck, därför att tre filer bytte namn.
+Kommando: interlingua publish . <tom mapp>, sedan rubrikerna (h3) i drawings/index.html utan taggar, räknade med grep -c -e '-'.
+If wrong (namnbytet saknades): de tre filerna arkitektur-dimensioner, arkitektur-kedjan och arkitektur-beskrivningens-form skulle ge rubriker med bindestreck.
+Read back (kopia av main med de tre gamla namnen återställda): 3 rubriker med bindestreck av 18: arkitektur-beskrivningens-form, arkitektur-dimensioner, arkitektur-kedjan.
+Read back (main c26e58e): 0 rubriker med bindestreck av 18.
