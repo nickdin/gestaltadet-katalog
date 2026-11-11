@@ -17,4 +17,4 @@ generic: "[[C-076 Gränssnitt]]"
 
 Motsvarar ArchiMates Technology Interface.
 
-Motsvarar Interface och Port i Unified Modeling Language (UML) när en nod eller exekveringsmiljö ger dem. ADR 0029.
+Motsvarar Interface och Port i Unified Modeling Language (UML) när en nod eller exekveringsmiljö ger dem. Beslut 29.

@@ -16,4 +16,4 @@ kind: element-type
 
 Motsvarar ArchiMates Path.
 
-Motsvarar CommunicationPath i Unified Modeling Language (UML), länken mellan två noder. ADR 0029.
+Motsvarar CommunicationPath i Unified Modeling Language (UML), länken mellan två noder. Beslut 29.

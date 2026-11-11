@@ -22,4 +22,4 @@ Intern påverkan är av två slag: beslut uppifrån och förhållanden inne i or
 
 Det som är intern påverkan för en nivå är bland annat den överordnade nivåns styrmedel. Strategin ([[C-188 Strategi]]) är styrmedel på verksamhetens nivå och intern påverkan för domänen, och ett mandat ([[C-189 Mandat]]) på en nivå är påverkan för nivån under. Det är den generiska styrslingan sedd från begreppsmodellens håll, och det Business Motivation Model kallar Directive as Regulation. Behoven hos andra domäner som använder en lösning är intern påverkan för lösningen ([[C-055 Lösning]]).
 
-Förhållanden inne i organisationen är antaganden, vanor, infrastruktur, resurser ([[C-122 Resurs]]), värderingar ([[C-026 Värdering]]) och ledningens befogenheter: Business Motivation Models kategorier av Internal Influencer (ADR 0025).
+Förhållanden inne i organisationen är antaganden, vanor, infrastruktur, resurser ([[C-122 Resurs]]), värderingar ([[C-026 Värdering]]) och ledningens befogenheter: Business Motivation Models kategorier av Internal Influencer (beslut 25).

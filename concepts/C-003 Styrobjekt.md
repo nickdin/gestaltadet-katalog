@@ -16,7 +16,7 @@ associative:
 
 ## Anmärkning
 
-Ett styrobjekt ägs av den som har mandatet ([[C-189 Mandat]]) över det, en, aldrig två. Ägaren svarar för dess utfall ([[C-209 Ansvar]]) och håller dess ram ([[C-210 Ram]]). ADR 0035, ADR 0036.
+Ett styrobjekt ägs av den som har mandatet ([[C-189 Mandat]]) över det, en, aldrig två. Ägaren svarar för dess utfall ([[C-209 Ansvar]]) och håller dess ram ([[C-210 Ram]]). Beslut 35, beslut 36.
 
 ## Exempel
 

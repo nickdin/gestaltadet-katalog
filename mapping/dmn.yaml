@@ -1,4 +1,4 @@
-# DMN 1.7 type-mapping table (ADR 0022).
+# DMN 1.7 type-mapping table (beslut 22).
 #
 # One row per DMN building block the store meets, in `archimate.yaml`'s
 # format; `check` does not validate this table yet (interlingua issue). DMN

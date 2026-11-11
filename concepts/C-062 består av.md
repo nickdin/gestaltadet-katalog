@@ -17,4 +17,4 @@ key: composed_of
 
 Relationen går från det hela elementet till delen.
 
-Motsvarar Composition i Unified Modeling Language (UML), en association med aggregationen composite; också gränssnittet en komponent ger (InterfaceRealization, Port), som ArchiMate sätter samman gränssnittet i komponenten, och ett sammansatt tillstånds deltillstånd. ADR 0029.
+Motsvarar Composition i Unified Modeling Language (UML), en association med aggregationen composite; också gränssnittet en komponent ger (InterfaceRealization, Port), som ArchiMate sätter samman gränssnittet i komponenten, och ett sammansatt tillstånds deltillstånd. Beslut 29.

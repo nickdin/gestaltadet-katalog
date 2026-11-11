@@ -73,7 +73,7 @@ De händelser och aktiviteter människor går igenom i sina liv (EDGY:s *journey
 _Undvik_: process (det organisationen gör)
 
 **Värdeerbjudande (C-148)**:
-Det en produkt utlovas göra för någon. Det riktas till en målgrupp eller en namngiven aktör, bygger på en eller flera produkter och möter ett eller flera behov. För varje behov har det en hjälp (Hjälp (C-194)) som säger hur det röjer behovets hinder och ger dess vinst. En produkt är det som levereras, och samma produkt kan bära olika värdeerbjudanden till olika målgrupper. Värdeerbjudandet står mellan produkt och behov: en produkt möter ett behov bara genom ett värdeerbjudande, aldrig direkt. En elementtyp i strategiperspektivet sedan ADR 0028, för affärsmodellen är strategi och värdeerbjudandet dess kärna.
+Det en produkt utlovas göra för någon. Det riktas till en målgrupp eller en namngiven aktör, bygger på en eller flera produkter och möter ett eller flera behov. För varje behov har det en hjälp (Hjälp (C-194)) som säger hur det röjer behovets hinder och ger dess vinst. En produkt är det som levereras, och samma produkt kan bära olika värdeerbjudanden till olika målgrupper. Värdeerbjudandet står mellan produkt och behov: en produkt möter ett behov bara genom ett värdeerbjudande, aldrig direkt. En elementtyp i strategiperspektivet sedan beslut 28, för affärsmodellen är strategi och värdeerbjudandet dess kärna.
 _Undvik_: produkt, erbjudande
 
 **Kanal**:

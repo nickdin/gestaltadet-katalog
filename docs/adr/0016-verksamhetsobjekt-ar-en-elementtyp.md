@@ -1,6 +1,6 @@
 # Verksamhetsobjekt är en elementtyp, och informationsobjektet är dess informationssida
 
-Beslutat av Nicklas i samma grillning som ADR 0014 och 0015.
+Beslutat av Nicklas i samma grillning som beslut 14 och 15.
 
 ## Sammanhang
 

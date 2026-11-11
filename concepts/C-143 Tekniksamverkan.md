@@ -17,4 +17,4 @@ generic: "[[C-082 Samverkan]]"
 
 Motsvarar ArchiMates Technology Collaboration.
 
-Motsvarar Collaboration i Unified Modeling Language (UML) när rollerna spelas av tekniska resurser. ADR 0029.
+Motsvarar Collaboration i Unified Modeling Language (UML) när rollerna spelas av tekniska resurser. Beslut 29.

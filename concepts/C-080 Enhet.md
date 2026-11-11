@@ -17,4 +17,4 @@ generic: "[[C-122 Resurs]]"
 
 Motsvarar ArchiMates Device.
 
-Motsvarar Device i Unified Modeling Language (UML). ADR 0029.
+Motsvarar Device i Unified Modeling Language (UML). Beslut 29.

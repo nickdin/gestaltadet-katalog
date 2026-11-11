@@ -1,4 +1,4 @@
-# Value Delivery Modeling Language 1.1 type-mapping table (ADR 0028).
+# Value Delivery Modeling Language 1.1 type-mapping table (beslut 28).
 #
 # One row per VDML class and association the store meets, in
 # `archimate.yaml`'s format; `check` does not validate this table yet
@@ -24,7 +24,7 @@
 # Actor and Person are aktör (C-073). BusinessItem is verksamhetsobjekt
 # (C-159), and resurs (C-122) when used up or borrowed; DeliverableFlow is
 # the writing and the reading access to the item (C-101), the arrow between
-# the two activities derived (ADR 0033); ResourceUse is använder (C-095).
+# the two activities derived (beslut 33); ResourceUse is använder (C-095).
 # ValueProposition is
 # värdeerbjudande (C-148), and VDML's value, ValueDefinition,
 # ValuePropositionComponent and ValueAdd, is the new element type värde
@@ -33,7 +33,7 @@
 # Store and Pool, the stocks of resources between activities, are unmapped:
 # they exist to compute waiting time and availability, and what they hold
 # already has its box. Measures wait for a measure concept, taken with SMM
-# (ADR 0026); a Scenario is a set of measurements, and a current- and
+# (beslut 26); a Scenario is a set of measurements, and a current- and
 # future-state scenario is the tidsperspektiv (C-037) of an
 # arkitekturbeskrivning.
 
@@ -123,7 +123,7 @@ elements:
     concepts: [C-074]
   # An org unit's ability to perform a kind of work with the resources,
   # methods and pools it manages: the lösning, as BACM's
-  # CapabilityImplementation (ADR 0027).
+  # CapabilityImplementation (beslut 27).
   - name: CapabilityOffer
     concepts: [C-055]
   - name: ReleaseControl
@@ -147,7 +147,7 @@ elements:
   # A set of measurements for one situation. A current- and a future-state
   # scenario correspond to the tidsperspektiv (C-037) of an
   # arkitekturbeskrivning; the rest is measurement, waiting for a measure
-  # concept (ADR 0026).
+  # concept (beslut 26).
   - name: Scenario
     unmapped: true
     reason: >-
@@ -160,7 +160,7 @@ elements:
 
   # Core elements (7.2.4): the metamodel's scaffolding, ports and
   # expressions, so that the model hangs together and computes. The
-  # program's concern, never the catalogue's (ADR 0026).
+  # program's concern, never the catalogue's (beslut 26).
   - name: VdmlElement
     unmapped: true
     reason: metamodel scaffolding, the program's concern
@@ -175,7 +175,7 @@ elements:
     reason: metamodel scaffolding, the program's concern
   - name: MeasuredCharacteristic
     unmapped: true
-    reason: a measured property; waits for a measure concept, taken with SMM (ADR 0026)
+    reason: a measured property; waits for a measure concept, taken with SMM (beslut 26)
   - name: Expression
     unmapped: true
     reason: computation over measurements, the program's concern
@@ -263,16 +263,16 @@ elements:
   # SMM, imported for measures (7.2.6)
   - name: Measure
     unmapped: true
-    reason: waits for a measure concept, taken with SMM (ADR 0026)
+    reason: waits for a measure concept, taken with SMM (beslut 26)
   - name: Measurement
     unmapped: true
-    reason: waits for a measure concept, taken with SMM (ADR 0026)
+    reason: waits for a measure concept, taken with SMM (beslut 26)
   - name: Characteristic
     unmapped: true
-    reason: waits for a measure concept, taken with SMM (ADR 0026)
+    reason: waits for a measure concept, taken with SMM (beslut 26)
   - name: Observation
     unmapped: true
-    reason: waits for a measure concept, taken with SMM (ADR 0026)
+    reason: waits for a measure concept, taken with SMM (beslut 26)
 
 relationships:
   # Assignment: who performs or is responsible for a behaviour.
@@ -288,7 +288,7 @@ relationships:
     concepts: [C-096]
   - name: OrgUnit owns CapabilityMethod
     unmapped: true
-    reason: design responsibility other than the line is text, as BACM's Responsible (ADR 0027)
+    reason: design responsibility other than the line is text, as BACM's Responsible (beslut 27)
 
   # Realisation: the more concrete realises the more abstract.
   - name: Activity requires Capability (capabilityRequirement)
@@ -312,7 +312,7 @@ relationships:
   # Flow. A DeliverableFlow always carries a BusinessItem, an element, so
   # it is the provider's writing and the recipient's reading access to the
   # item; the arrow is the program's conclusion from the two, never a stored
-  # flödar till (C-097), which carries only what is no element (ADR 0033).
+  # flödar till (C-097), which carries only what is no element (beslut 33).
   - name: DeliverableFlow from Activity to Activity
     concepts: [C-101]
   - name: DeliverableFlow between Parties
@@ -352,7 +352,7 @@ relationships:
       an överenskommelse (C-084) with är leverantör till (C-155)
   - name: ValuePropositionComponent aggregated from ValueAdds
     unmapped: true
-    reason: aggregation of measurements, waits for a measure concept (ADR 0026)
+    reason: aggregation of measurements, waits for a measure concept (beslut 26)
 
   # Instance to library definition: the store's element is the definition.
   - name: Role roleDefinition
@@ -374,7 +374,7 @@ relationships:
   # Measurement, simulation and scaffolding
   - name: MeasurableElement measuredCharacteristic
     unmapped: true
-    reason: waits for a measure concept (ADR 0026)
+    reason: waits for a measure concept (beslut 26)
   - name: AnalysisContext contextCollaboration and contextObservation
     unmapped: true
     reason: the program's concern
@@ -419,7 +419,7 @@ unmapped-concepts:
   - id: C-017
     reason: VDML has no goal; a future-state scenario's values stand in for one, and goals are BMM's
   - id: C-015
-    reason: VDML has no styrmedel; they are BMM's (ADR 0025)
+    reason: VDML has no styrmedel; they are BMM's (beslut 25)
   - id: C-012
     reason: VDML cannot model the transition, by its own words; a future state is a scenario
   - id: C-084

@@ -1,4 +1,4 @@
-# Unified Modeling Language 2.5.1 type-mapping table (ADR 0029).
+# Unified Modeling Language 2.5.1 type-mapping table (beslut 29).
 #
 # One row per UML metaclass the store meets, and one row per group the
 # store only meets at its edge, in `archimate.yaml`'s format; `check`
@@ -6,7 +6,7 @@
 # draws the inside of what the store's application and technology elements
 # point at: classes with attributes and operations, components with ports
 # and interfaces, state machines, activities, interactions, deployments.
-# The table is written for readers who think in UML (ADR 0026, the third
+# The table is written for readers who think in UML (beslut 26, the third
 # reason for a table): the main compartment is outside the store, and the
 # rows below say where the line goes, building block by building block.
 # Abstract metaclasses (Element, NamedElement, Classifier, Type, Feature,
@@ -24,7 +24,7 @@
 # row: Activity is the process of whoever performs it, Action the activity,
 # ControlFlow utlöser, the ObjectNode a verksamhetsobjekt and ObjectFlow
 # the writing and the reading access to it (C-101), the arrow between the
-# two actions derived, never a stored flödar till (ADR 0033). UseCase is the service, verksamhetstjänst (C-127) or
+# two actions derived, never a stored flödar till (beslut 33). UseCase is the service, verksamhetstjänst (C-127) or
 # applikationstjänst (C-128) by its subject; Actor is roll (C-074), as UML
 # itself defines it, and applikation (C-071) when the actor is another
 # system. Component is applikation, Interface and Port are the gränssnitt
@@ -41,7 +41,7 @@ elements:
     unmapped: true
     reason: text in the element's description
   # A condition that must hold. When it says what shall hold in the
-  # business, "the applicant is at least 18", it is a regel (ADR 0023);
+  # business, "the applicant is at least 18", it is a regel (beslut 23);
   # when it only guards the code, an OCL invariant on a private field, it
   # is the application's inside.
   - name: Constraint
@@ -56,7 +56,7 @@ elements:
     reason: as InstanceSpecification
   - name: TemplateSignature
     unmapped: true
-    reason: templates are the inside (ADR 0026)
+    reason: templates are the inside (beslut 26)
   - name: TemplateBinding
     unmapped: true
     reason: as TemplateSignature
@@ -77,7 +77,7 @@ elements:
 
   # Classification (9)
   # The attribute of a class: the uppgift, drawn inside the
-  # informationsobjekt's box (ADR 0024). A Property typed by another Class
+  # informationsobjekt's box (beslut 24). A Property typed by another Class
   # is the association, see relationships; one typed by a DataType or an
   # Enumeration is an uppgift with that format or värdemängd.
   - name: Property
@@ -108,7 +108,7 @@ elements:
   - name: Enumeration
     concepts: [C-197]
   # One value. The status uppgift's literals are the verksamhetsobjekt's
-  # tillstånd (ADR 0024); every other literal is a value, text in the
+  # tillstånd (beslut 24); every other literal is a value, text in the
   # värdemängd.
   - name: EnumerationLiteral
     concepts: [C-182]
@@ -153,7 +153,7 @@ elements:
     reason: an application of a collaboration to a classifier; the samverkan is the element
   # A modular unit with provided and required interfaces: the applikation.
   # A component inside an application is that application's inside and is
-  # not drawn in the store (ADR 0026).
+  # not drawn in the store (beslut 26).
   - name: Component
     concepts: [C-071]
   # The point on a component or node where an interface sits: the same
@@ -183,7 +183,7 @@ elements:
     reason: as Package
   - name: Profile
     unmapped: true
-    reason: profiles extend UML itself and are the inside (ADR 0026)
+    reason: profiles extend UML itself and are the inside (beslut 26)
   - name: Stereotype
     unmapped: true
     reason: as Profile; the standard profile's stereotypes that meet the store have rows below
@@ -203,7 +203,7 @@ elements:
     reason: as OpaqueBehavior
   # An event that fires a transition in a verksamhetsobjekt's state
   # machine: the verksamhetshändelse that utlöser the tillstånd the
-  # transition enters (ADR 0024). The kind of event, signal, time, change
+  # transition enters (beslut 24). The kind of event, signal, time, change
   # or call, is text in the händelse's description, as BPMN's event
   # definitions. An event in a component's protocol state machine is the
   # inside.
@@ -226,7 +226,7 @@ elements:
     unmapped: true
     reason: >-
       the state machine of a verksamhetsobjekt is the store's tillståndsvy,
-      a view and no element (ADR 0024); the class it belongs to is the
+      a view and no element (beslut 24); the class it belongs to is the
       verksamhetsobjekt, see relationships
   - name: ProtocolStateMachine
     unmapped: true
@@ -305,7 +305,7 @@ elements:
     reason: >-
       a branching is an activity that använder (C-095) a beslutslogik (C-178)
       and utlöser (C-098) several steps, the condition in each relation's
-      description; no element of its own (ADR 0022), as BPMN's Exclusive
+      description; no element of its own (beslut 22), as BPMN's Exclusive
       Gateway
   - name: MergeNode
     unmapped: true
@@ -402,12 +402,12 @@ elements:
     unmapped: true
     reason: as VariableAction
 
-  # Interactions (17): the message order between parts, the inside (ADR
-  # 0026). The lifelines may be elements the store has, applikationer and
+  # Interactions (17): the message order between parts, the inside (beslut
+  # 26). The lifelines may be elements the store has, applikationer and
   # roller, but what the diagram shows is how they call one another.
   - name: Interaction
     unmapped: true
-    reason: the sequence of messages between parts is the inside (ADR 0026)
+    reason: the sequence of messages between parts is the inside (beslut 26)
   - name: Lifeline
     unmapped: true
     reason: as Interaction
@@ -627,7 +627,7 @@ relationships:
       concept and no relation type
   # An association between two classes: a relation between two
   # informationsobjekt, with the multiplicity in the relation's description
-  # until interlingua has the field (ADR 0023), and role names and
+  # until interlingua has the field (beslut 23), and role names and
   # navigability as text. The aggregation kind of an end picks the type.
   - name: Association
     concepts: [C-099]
@@ -650,12 +650,12 @@ relationships:
 
   # State machines
   # The transition between two states: the tillstånd utlöser the next, the
-  # guard in the relation's description (ADR 0024). The effect behaviour is
+  # guard in the relation's description (beslut 24). The effect behaviour is
   # the process that drives the object, drawn as a process.
   - name: Transition
     concepts: [C-098]
   # The event on the transition: the verksamhetshändelse utlöser the
-  # tillstånd the transition enters (ADR 0024).
+  # tillstånd the transition enters (beslut 24).
   - name: Transition trigger
     concepts: [C-098]
   - name: Composite State contains substates
@@ -675,7 +675,7 @@ relationships:
   # The object's passage from one action to the next: the writing action's
   # and the reading action's access to the ObjectNode. The arrow is the
   # program's conclusion from the two, never a stored flödar till (C-097),
-  # which carries only what is no element (ADR 0033).
+  # which carries only what is no element (beslut 33).
   - name: ObjectFlow
     concepts: [C-101]
   # The partition's element performs the actions in it.
@@ -683,7 +683,7 @@ relationships:
     concepts: [C-096]
   # An action whose work is a whole behaviour is drawn as that behaviour,
   # which the outer behaviour aggregerar, as bpmn.yaml's Sub-Process and
-  # vdml.yaml's delegation (ADR 0028).
+  # vdml.yaml's delegation (beslut 28).
   - name: CallBehaviorAction behavior
     concepts: [C-100]
   - name: Action reads or writes an object (StructuralFeatureAction, LinkAction)
@@ -721,7 +721,7 @@ relationships:
 
   # Information flows: the InformationItem conveyed is a verksamhetsobjekt,
   # so the flow is the sender's writing and the receiver's reading access
-  # to it, and the arrow is derived (ADR 0033).
+  # to it, and the arrow is derived (beslut 33).
   - name: InformationFlow
     concepts: [C-101]
   - name: InformationFlow realization
@@ -737,7 +737,7 @@ unmapped-concepts:
   - id: C-014
     reason: UML has no product; what a system offers is a use case
   - id: C-069
-    reason: UML has no capability; SysML and BACM have, and UML is outside there (ADR 0026)
+    reason: UML has no capability; SysML and BACM have, and UML is outside there (beslut 26)
   - id: C-084
     reason: UML has no agreement; a contract between classes is the inside
   - id: C-145
@@ -753,7 +753,7 @@ unmapped-concepts:
   - id: C-195
     reason: UML has no value
   - id: C-016
-    reason: UML has no styrmedel; they are BMM's (ADR 0025), and a Comment is text
+    reason: UML has no styrmedel; they are BMM's (beslut 25), and a Comment is text
   - id: C-017
     reason: as C-016
   - id: C-018
@@ -761,7 +761,7 @@ unmapped-concepts:
   - id: C-019
     reason: as C-016
   - id: C-021
-    reason: UML has no requirement; SysML's is outside (ADR 0026)
+    reason: UML has no requirement; SysML's is outside (beslut 26)
   - id: C-022
     reason: as C-016
   - id: C-040
@@ -782,9 +782,9 @@ unmapped-concepts:
   - id: C-167
     reason: UML has no owner of information; Actor is a role toward the system
   - id: C-206
-    reason: UML has no owner of a behaviour; Actor is a role toward the system (ADR 0035)
+    reason: UML has no owner of a behaviour; Actor is a role toward the system (beslut 35)
   - id: C-178
-    reason: a DecisionNode is a branch in one flow, not reusable decision logic; that is DMN's (ADR 0022)
+    reason: a DecisionNode is a branch in one flow, not reusable decision logic; that is DMN's (beslut 22)
   - id: C-138
     reason: UML's Interface is software's; where an aktör makes verksamhetstjänster available is in no UML element
   - id: C-085
@@ -816,7 +816,7 @@ unmapped-concepts:
   - id: C-065
     reason: a Comment annotates one element; the store's beskriver relates two
   - id: C-102
-    reason: UML has no influence; BMM's (ADR 0025)
+    reason: UML has no influence; BMM's (beslut 25)
   - id: C-104
     reason: UML's Substitution is a runtime contract, not one element taking another's place in the architecture
   - id: C-151
@@ -832,4 +832,4 @@ unmapped-concepts:
   - id: C-183
     reason: UML has no styrmedel
   - id: C-208
-    reason: UML has no ownership relationship; ansvarar för (ADR 0035) is the store's own
+    reason: UML has no ownership relationship; ansvarar för (beslut 35) is the store's own

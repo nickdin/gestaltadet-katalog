@@ -17,4 +17,4 @@ generic: "[[C-075 Tjänst]]"
 
 Motsvarar ArchiMates Application Service.
 
-Motsvarar UseCase i Unified Modeling Language (UML) när subjektet är en applikation: användningsfallets namn är tjänsten, dess händelseflöde beteendet som realiserar den. ADR 0029.
+Motsvarar UseCase i Unified Modeling Language (UML) när subjektet är en applikation: användningsfallets namn är tjänsten, dess händelseflöde beteendet som realiserar den. Beslut 29.

@@ -10,23 +10,23 @@
 # kind not reached by any row is named once under `unmapped-concepts:`,
 # with its own reason; `check` fails if one is named by neither.
 #
-# Every type belongs to exactly one perspective (ADR 0008), so each
+# Every type belongs to exactly one perspective (beslut 8), so each
 # per-layer ArchiMate element maps to the type of its own layer: a Business
 # Service is a verksamhetstjänst (C-127), an Application Service an
 # applikationstjänst (C-128), and so on. Those rows are not doubtful. Business
-# Function is a verksamhetsfunktion (C-158) since ADR 0015, and Business
-# Object a verksamhetsobjekt (C-159) since ADR 0016, with Data Object its
+# Function is a verksamhetsfunktion (C-158) since beslut 15, and Business
+# Object a verksamhetsobjekt (C-159) since beslut 16, with Data Object its
 # information side (C-060). The three Interaction elements are unmapped:
 # interaktion is a concept with no types, so an import reports them and
 # creates nothing.
 #
 # The governance types join the table (interlingua #238): `check` requires each to be
 # named by a row or an `unmapped-concepts` entry. Five motivation elements
-# have a row: Principle, Goal, Requirement, and since ADR 0025 Driver
+# have a row: Principle, Goal, Requirement, and since beslut 25 Driver
 # (påverkan, C-184) and Assessment (bedömning, C-185). The other four
 # (Stakeholder, Constraint, Meaning, Value) have no governance type to map
 # to and no row, so an import reports them and creates nothing.
-# Outcome has a row since ADR 0019: it maps to C-017 like Goal, doubtful.
+# Outcome has a row since beslut 19: it maps to C-017 like Goal, doubtful.
 # An aspect is no element's type, so no aspect is named here.
 
 elements:
@@ -35,7 +35,7 @@ elements:
     concepts: [C-073]
   # An informationsägare (C-167) and a processägare (C-206) are rolls with a
   # particular responsibility; both are written out as a Business Role, and a
-  # Business Role read in is a roll, the row's first concept (ADR 0035).
+  # Business Role read in is a roll, the row's first concept (beslut 35).
   - name: Business Role
     concepts: [C-074, C-167, C-206]
     doubtful: true
@@ -43,8 +43,8 @@ elements:
     concepts: [C-141]
   - name: Business Interface
     concepts: [C-138]
-  # A handläggning (C-160, ADR 0017) and a verksamhetsaktivitet (C-175, ADR
-  # 0022) have no ArchiMate element of their own: each is written out as a
+  # A handläggning (C-160, beslut 17) and a verksamhetsaktivitet (C-175, beslut
+  # 22) have no ArchiMate element of their own: each is written out as a
   # Business Process so that it shows in ArchiMate drawings, the distinction
   # lost on the way out, and a Business Process read in is a
   # verksamhetsprocess, the row's first concept.
@@ -87,7 +87,7 @@ elements:
       interaktion (C-083) is a plain concept with no types: the behaviour a
       collaboration performs together is described as a process, or for an
       application or a technical resource as a function
-  # An applikationsaktivitet (C-176, ADR 0022) is written out as an
+  # An applikationsaktivitet (C-176, beslut 22) is written out as an
   # Application Process, as the verksamhetsaktivitet is above.
   - name: Application Process
     concepts: [C-131, C-176]
@@ -117,7 +117,7 @@ elements:
     concepts: [C-088]
   - name: Technology Function
     concepts: [C-134]
-  # A teknikaktivitet (C-177, ADR 0022) is written out as a Technology
+  # A teknikaktivitet (C-177, beslut 22) is written out as a Technology
   # Process, as the verksamhetsaktivitet is above.
   - name: Technology Process
     concepts: [C-132, C-177]
@@ -158,7 +158,7 @@ elements:
     # ArchiMate's Outcome is the measurable end result; the catalogue registers
     # it as a mål of the kind effektmål (C-170), which refines its
     # verksamhetsmål (C-169, ArchiMate's Goal). One concept for two rows: an
-    # import cannot tell them apart and takes C-017 either way (ADR 0019).
+    # import cannot tell them apart and takes C-017 either way (beslut 19).
     doubtful: true
   - name: Requirement
     concepts: [C-021]
@@ -167,11 +167,11 @@ elements:
     # styrobjekt is tested against.
     doubtful: true
   # ArchiMate's Driver is BMM's Influencer: a påverkan (C-184), external or
-  # internal by where it comes from, never a styrmedel (ADR 0025).
+  # internal by where it comes from, never a styrmedel (beslut 25).
   - name: Driver
     concepts: [C-184]
   # ArchiMate's Assessment is BMM's: the judgement of a driver against the
-  # goals and means, a bedömning (C-185) (ADR 0025).
+  # goals and means, a bedömning (C-185) (beslut 25).
   - name: Assessment
     concepts: [C-185]
 
@@ -194,7 +194,7 @@ relationships:
     concepts: [C-098]
   # With a free-text label. A Flow whose label is an element of the layer
   # is the writer's and the reader's Access instead, and the arrow is
-  # derived (ADR 0014, ADR 0033).
+  # derived (beslut 14, beslut 33).
   - name: Flow
     concepts: [C-097]
   - name: Specialization
@@ -210,12 +210,12 @@ relationships:
 unmapped-concepts:
   - id: C-182
     reason: >-
-      tillstånd (ADR 0024) is the state a verksamhetsobjekt is in, drawn in a
+      tillstånd (beslut 24) is the state a verksamhetsobjekt is in, drawn in a
       state view; ArchiMate has no state element, the state goes into a
       Business Object's name or a Business Event
   - id: C-178
     reason: >-
-      beslutslogik (ADR 0022) is DMN's Decision, the reusable rule by which
+      beslutslogik (beslut 22) is DMN's Decision, the reusable rule by which
       an outcome is determined from inputs; ArchiMate has no element for
       decision logic, and the logic is drawn in DMN, not exported
   - id: C-165
@@ -259,7 +259,7 @@ unmapped-concepts:
     reason: >-
       a portfölj is a set of initiatives and products prioritised and funded
       together; ArchiMate has no portfolio element, Grouping comes nearest and
-      is a composite, not a type (ADR 0019)
+      is a composite, not a type (beslut 19)
   - id: C-016
     reason: >-
       a document or artefact that carries styrmedel or ändamål; ArchiMate's
@@ -279,8 +279,8 @@ unmapped-concepts:
       the purpose the business is to serve, given with the uppdrag and
       outliving the management; it is not a Goal, which is a state the
       management chose for the styrobjekt to reach or hold (C-017), and not a
-      Driver, which is the påverkan (C-184) the purpose is read out of (ADR
-      0025)
+      Driver, which is the påverkan (C-184) the purpose is read out of (beslut
+      25)
   - id: C-064
     reason: >-
       provenance relation for governance objects (a decision derived from
@@ -365,24 +365,24 @@ unmapped-concepts:
       by hand
   - id: C-183
     reason: >-
-      fastställs av (ADR 0023) says who decided or adopted a bärare or a
+      fastställs av (beslut 23) says who decided or adopted a bärare or a
       styrmedel, SBVR's business jurisdiction; no ArchiMate core or
       motivation relationship says who decided a motivation element, and
       Association is already held by C-099
   - id: C-208
     reason: >-
-      ansvarar för (ADR 0035) says which roll owns an informationsobjekt or a
+      ansvarar för (beslut 35) says which roll owns an informationsobjekt or a
       verksamhetsbeteende; Assignment (C-096) says who performs and may not
       run from a role to a passive object, and Association is already held by
       C-099
   - id: C-190
     reason: >-
-      värdeström (ADR 0027) is the set of stages that build up the value a
+      värdeström (beslut 27) is the set of stages that build up the value a
       värdeerbjudande promises, BACM's ValueStream; ArchiMate's Value Stream
       lies in the strategy layer outside the core this table covers
   - id: C-195
     reason: >-
-      värde (ADR 0028) is the measurable benefit a product's delivery gives
+      värde (beslut 28) is the measurable benefit a product's delivery gives
       its recipient, part of the värdeerbjudande and realised by a värdeström's
       stages, VDML's ValueDefinition, ValuePropositionComponent and ValueAdd;
       ArchiMate's Value lies in the motivation layer outside the core this

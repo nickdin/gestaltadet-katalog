@@ -19,7 +19,7 @@ Händelsedata registreras när något inträffar och ändras inte efteråt: inge
 
 Ett begrepp, ingen elementtyp: en datakategori ([[C-201 Datakategori]]) för ett informationsobjekt ([[C-060 Informationsobjekt]]). Informationsarkitektens bidrag är detsamma som för transaktioner, standarddefinitioner och datafångst, och därtill ett sammanhang: vilken resurs händelsen gäller, när och i vilken enhet, så att den som ska analysera och besluta förstår den.
 
-DAMA:s indelning har tre kategorier, master-, referens- och transaktionsdata. Händelsedata är en fjärde, eftersom katalogens exempel har ett objekt som inte är en transaktion. Beslutet: ADR 0032.
+DAMA:s indelning har tre kategorier, master-, referens- och transaktionsdata. Händelsedata är en fjärde, eftersom katalogens exempel har ett objekt som inte är en transaktion. Beslut 32.
 
 ## Exempel
 

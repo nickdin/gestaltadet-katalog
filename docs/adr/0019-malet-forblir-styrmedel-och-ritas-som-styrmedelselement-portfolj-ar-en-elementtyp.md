@@ -4,7 +4,7 @@ Beslutat av Nicklas i den första av grillningarna av de öppna frågorna inför
 
 ## Sammanhang
 
-Frågan väcktes i ett samtal om portföljstyrning: hur ska det gå att rita hur mål, initiativ, portfölj och delportföljer hänger ihop, och hur knyts beslutsfattandet dit? Initiativ är elementtyp sedan ADR 0010. Mål (`C-017`) är ett styrmedel, `kind: governance-type`, och frågan antog att det därför inte kan ritas i en vy.
+Frågan väcktes i ett samtal om portföljstyrning: hur ska det gå att rita hur mål, initiativ, portfölj och delportföljer hänger ihop, och hur knyts beslutsfattandet dit? Initiativ är elementtyp sedan beslut 10. Mål (`C-017`) är ett styrmedel, `kind: governance-type`, och frågan antog att det därför inte kan ritas i en vy.
 
 Premissen stämde inte längre. Interlingua har styrmedelselement: ett element vars typ är ett styrmedel. Det har ingen detaljeringsgrad, beslutas av de antagna beskrivningar som listar det, och visas i varje vy vars perspektiv det namnger i `perspectives`. Lagret hade redan sådana, av typen bärare: organisationens verksamhetsplan, med sina huvudmål och förväntade resultat i sin text. Inget mål var skrivet.
 
@@ -15,7 +15,7 @@ Delportföljen fanns som informationsobjekt, i informationsperspektivet. En vy h
 ## Beslut
 
 - Mål förblir styrmedel, `kind: governance-type`, och skrivs som styrmedelselement. Målet namnger strategiperspektivet och de perspektiv vars vyer ska visa det. Organisationens och avdelningens mål, som initiativen prövas mot, står i strategivyn; ett mål för en applikation står också i applikationsvyn. Fältet säger var målet ritas, inte vad det påverkar.
-- Relationen från ett initiativ till det mål det prövas mot är `påverkar` (`C-102`), ArchiMates Influence. Det är samma pil som ADR 0010 gav initiativet mot det det ändrar. Initiativet påverkar också den verksamhetsförmåga det utvecklar. Ingen ny relationstyp.
+- Relationen från ett initiativ till det mål det prövas mot är `påverkar` (`C-102`), ArchiMates Influence. Det är samma pil som beslut 10 gav initiativet mot det det ändrar. Initiativet påverkar också den verksamhetsförmåga det utvecklar. Ingen ny relationstyp.
 - En måltyp. Verksamhetsmål (`C-169`) och effektmål (`C-170`) är begrepp som registreras som mål, som projekt registreras som initiativ. Skillnaden mellan dem är detaljeringsgrad och uttrycks med `förfinar` (`C-103`): effektmålet förfinar sitt verksamhetsmål, ett delmål sitt mål. Verksamhetsplanens förväntade resultat är effektmål.
 - Produktmål tas inte in. Leverabel (`C-171`) är begreppet för det ett initiativ lämnar ifrån sig. Leverabeln registreras som det element den blir, applikation, process eller bärare; initiativet påverkar elementet eller, i en målbild, ersätter det. Ingen ruta för ArchiMates Deliverable.
 - Verksamhetsförändring (`C-172`) är ett begrepp, inget element. Den är skillnaden mellan nulägets och målbildens beskrivningar, det som `ersätter` och gapanalysen räknar fram. Den är en effekt (`C-024`): den prövas mot effektmålet och ersätter det inte.
@@ -27,7 +27,7 @@ Delportföljen fanns som informationsobjekt, i informationsperspektivet. En vy h
 
 ## Övervägda alternativ
 
-- **Mål som elementtyp i strategiperspektivet.** Målet är en måttstock som alla andra styrmedel och hör inte till ett perspektiv; interlinguas ADR 0008 hade låst det till strategin. Avvisat.
+- **Mål som elementtyp i strategiperspektivet.** Målet är en måttstock som alla andra styrmedel och hör inte till ett perspektiv; interlinguas beslut 8 hade låst det till strategin. Avvisat.
 - **`realiseras av` från mål till initiativ.** Det säger att initiativet ensamt gör målet nått, och ArchiMate reserverar Realization mot ett Goal för Outcome. Avvisat. **En ny relationstyp "bidrar till"**: ett ord till för Influence. Avvisat.
 - **Tre styrmedelstyper**, verksamhetsmål, effektmål, produktmål. Det ger tre rutor i mallens Styrmedel-grupp, och varje mål måste sorteras, för en skillnad som är detaljeringsgrad. Avvisat. **Två typer**, Mål och Effektmål. Avvisat av samma skäl.
 - **Utfall som eget begrepp för ArchiMates Outcome.** Att målet nåddes är prövningen, inte ett element. Avvisat; i stället får `C-017` en Outcome-rad.
@@ -46,5 +46,5 @@ Delportföljen fanns som informationsobjekt, i informationsperspektivet. En vy h
 - I `mapping/archimate.yaml` får Outcome en rad till `C-017`, märkt tveksam, och `C-011` står under `unmapped-concepts`. I `mapping/aris.yaml` står `C-011` under `unmapped-concepts`.
 - draw.io-mallen byggs om från täckningslistorna: strategigruppen får rutan Portfölj; Styrmedel-gruppen ändras inte.
 - Nästa steg är de första målen som styrmedelselement: verksamhetsplanens huvudmål, med sina förväntade resultat som effektmål; verksamhetsplanen som aggregerar dem; initiativen med `påverkar`; och den nya vyn med sin ritning i `layout/`. Hos Myndigheten för föreningsstöd vore målen regleringsbrevets: att nio av tio ansökningar är beslutade inom fyra månader, att andelen bidrag som återkrävs minskar.
-- Frågan om förmågetjänst, parkerad tills detta var klart, kan tas (ADR 0021).
+- Frågan om förmågetjänst, parkerad tills detta var klart, kan tas (beslut 21).
 - Begreppsmodellen `layout/Verksamhetsinformation begreppsmodell.drawio.svg` rörs inte, eftersom inget av dagens begrepp finns i den. Målkedjan har en egen syskonbild, `layout/Målstyrning begreppsmodell.drawio.svg`, med styrmedel, ändamål, bärare, portfölj, verksamhetsmål, mål, initiativ, verksamhetsförmåga, effektmål, verksamhetsförändring, leverabel och effekt, och relationerna ovan.

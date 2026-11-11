@@ -2,7 +2,7 @@
 
 Beslutat av Nicklas i en grillning av informationsperspektivet inför draw.io-mallen med en ruta per elementtyp.
 
-ADR 0031 ersatte meningen om att ändamål och rättslig grund står i beteendets beskrivning: de står i registerförteckningen, och lagret ger ankaret.
+Beslut 31 ersatte meningen om att ändamål och rättslig grund står i beteendets beskrivning: de står i registerförteckningen, och lagret ger ankaret.
 
 ## Sammanhang
 

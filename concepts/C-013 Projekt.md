@@ -14,4 +14,4 @@ generic: '[[C-012 Initiativ]]'
 
 ## Anmärkning
 
-Ett begrepp, ingen egen elementtyp: ett projekt registreras som ett element av typen initiativ ([[C-012 Initiativ]]), på samma sätt som en intern produkt registreras som produkt. ADR 0010.
+Ett begrepp, ingen egen elementtyp: ett projekt registreras som ett element av typen initiativ ([[C-012 Initiativ]]), på samma sätt som en intern produkt registreras som produkt. Beslut 10.

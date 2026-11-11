@@ -1,6 +1,6 @@
 # Processkartan delas in efter ansvarsnivåer, och nivån bärs av relationer, inte av element
 
-*Banden gäller inte längre: ADR 0014. Kvar härifrån är att organisationen är systemet, att ansvarsnivån läses ur relationerna och att mottagaren är en relation, numera levereras till (`C-154`) från produkten till aktören.*
+*Banden gäller inte längre: beslut 14. Kvar härifrån är att organisationen är systemet, att ansvarsnivån läses ur relationerna och att mottagaren är en relation, numera levereras till (`C-154`) från produkten till aktören.*
 
 Beslutat av Nicklas efter en grillning om vad banden i en avdelnings processkarta ska svara på.
 
@@ -24,4 +24,4 @@ Kartan skulle göra systemgränsen synlig: vilka processer avdelningen styr i f�
 ## Konsekvenser
 
 - Delegationsordningens rader utan process på kartan tas inte in. De står som öppna frågor.
-- Banden gjorde kartan dubbelt så hög som den första. Det var priset för simbanorna, och ADR 0014 tog bort dem.
+- Banden gjorde kartan dubbelt så hög som den första. Det var priset för simbanorna, och beslut 14 tog bort dem.

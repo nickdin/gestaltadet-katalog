@@ -28,7 +28,7 @@ Hjälpen säger hur erbjudandet röjer behovets hinder ([[C-192 Hinder]]) och ge
 
 Hjälpen bedöms efter värden ([[C-195 Värde]]), de mätbara nyttor erbjudandet består av. Hjälpen är det erbjudandet gör för behovet, värdet är den egenskap mottagaren bedömer det efter.
 
-Motsvarar ValueItem i Business Architecture Core Metamodel (BACM), verksamhetens tro att mottagaren värderar ett visst utfall (ADR 0027), och Pain Reliever och Gain Creator i Value Proposition Canvas. Hette Svar till ADR 0028, som bytte termen för att ordet ska gå att förstå utan definitionen.
+Motsvarar ValueItem i Business Architecture Core Metamodel (BACM), verksamhetens tro att mottagaren värderar ett visst utfall (beslut 27), och Pain Reliever och Gain Creator i Value Proposition Canvas. Hette Svar till beslut 28, som bytte termen för att ordet ska gå att förstå utan definitionen.
 
 ## Exempel
 

@@ -19,4 +19,4 @@ arkitektur, projektledning, verksamhetsutveckling.
 
 En disciplin är ett begrepp för gemensam förståelse och registreras aldrig av en organisation.
 
-Ett arbetssätt ([[C-196 Arbetssätt]]) hör till en disciplin: disciplinen är fältet, arbetssättet det fältet säger att man ska göra, kompetensen det någon har av det (ADR 0028).
+Ett arbetssätt ([[C-196 Arbetssätt]]) hör till en disciplin: disciplinen är fältet, arbetssättet det fältet säger att man ska göra, kompetensen det någon har av det (beslut 28).

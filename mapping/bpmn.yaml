@@ -1,4 +1,4 @@
-# BPMN 2.0.2 type-mapping table (ADR 0022).
+# BPMN 2.0.2 type-mapping table (beslut 22).
 #
 # One row per BPMN building block the store meets, mapped to one or more
 # concept ids (`concepts:`), or `unmapped: true` with a `reason:`. `doubtful:
@@ -42,7 +42,7 @@ elements:
     concepts: [C-130]
     doubtful: true
   # An Ad-Hoc Sub-Process has steps without a fixed order: a handläggning
-  # (ADR 0017) inside the process.
+  # (beslut 17) inside the process.
   - name: Ad-Hoc Sub-Process
     concepts: [C-160]
     doubtful: true
@@ -64,7 +64,7 @@ elements:
     reason: >-
       a branching is an activity that använder (C-095) a beslutslogik (C-178)
       and utlöser (C-098) several steps, the condition in each relation's
-      description; no element of its own (ADR 0022)
+      description; no element of its own (beslut 22)
   - name: Inclusive Gateway
     unmapped: true
     reason: as Exclusive Gateway
@@ -86,19 +86,19 @@ elements:
     doubtful: true
   - name: Data Object
     concepts: [C-159]
-    doubtful: true  # the information side is an informationsobjekt (C-060) that realiserar it; SDMN's DataItem is that side (sdmn.yaml); the dataState is a tillstånd (C-182, ADR 0024)
+    doubtful: true  # the information side is an informationsobjekt (C-060) that realiserar it; SDMN's DataItem is that side (sdmn.yaml); the dataState is a tillstånd (C-182, beslut 24)
   - name: Data Store
     concepts: [C-165]
     doubtful: true
   - name: Message
     concepts: [C-159]
-    doubtful: true  # the message the layer holds as an element; the message flow is then the sender's writing and the receiver's reading access to it (C-101), the arrow derived; a message with no element of its own is the text on flödar till (C-097) (ADR 0033)
+    doubtful: true  # the message the layer holds as an element; the message flow is then the sender's writing and the receiver's reading access to it (C-101), the arrow derived; a message with no element of its own is the text on flödar till (C-097) (beslut 33)
 
 relationships:
   - name: Sequence Flow
     concepts: [C-098]
   # The message named in the relation's description. When the message is
-  # an element of the layer, the pair of accesses instead (ADR 0033).
+  # an element of the layer, the pair of accesses instead (beslut 33).
   - name: Message Flow
     concepts: [C-097]
   - name: Data Association

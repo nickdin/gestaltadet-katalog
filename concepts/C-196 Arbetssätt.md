@@ -27,7 +27,7 @@ associative:
 
 Ett verksamhetsbeteende ([[C-157 Verksamhetsbeteende]]) följer ett arbetssätt, och vilket står i beteendets text. Arbetssättet är ett begrepp, ingen elementtyp. Det hör till en disciplin ([[C-124 Disciplin]]): disciplinen är fältet, arbetssättet det fältet säger att man ska göra, kompetensen ([[C-125 Kompetens]]) det någon har av det. Att välja arbetssätt är ett styrbeslut ([[C-019 Styrbeslut]]), det metodstyrningen ([[C-051 Metodstyrning]]) handlar om. Metod står som alternativ term.
 
-Motsvarar PracticeDefinition och PracticeCategory i Value Delivery Modeling Language (VDML): ett beprövat sätt att hantera en sorts arbete som många organisationer använt. ADR 0028.
+Motsvarar PracticeDefinition och PracticeCategory i Value Delivery Modeling Language (VDML): ett beprövat sätt att hantera en sorts arbete som många organisationer använt. Beslut 28.
 
 ## Exempel
 

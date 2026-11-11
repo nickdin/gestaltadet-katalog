@@ -19,4 +19,4 @@ En applikationsprocess är ett applikationsbeteende ([[C-179 Applikationsbeteend
 
 Motsvarar ArchiMates Application Process.
 
-Motsvarar Activity i Unified Modeling Language (UML) när en applikation utför den. ADR 0029.
+Motsvarar Activity i Unified Modeling Language (UML) när en applikation utför den. Beslut 29.

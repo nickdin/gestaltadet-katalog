@@ -14,7 +14,7 @@ generic: '[[C-025 Hållning]]'
 
 ## Anmärkning
 
-Blir en princip först när den ges prövbara konsekvenser. Motsvarar Corporate Value i Business Motivation Model, en intern påverkan ([[C-030 Intern påverkan]]) (ADR 0025).
+Blir en princip först när den ges prövbara konsekvenser. Motsvarar Corporate Value i Business Motivation Model, en intern påverkan ([[C-030 Intern påverkan]]) (beslut 25).
 
 ## Exempel
 

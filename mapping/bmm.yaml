@@ -1,4 +1,4 @@
-# Business Motivation Model 1.3 type-mapping table (ADR 0025).
+# Business Motivation Model 1.3 type-mapping table (beslut 25).
 #
 # One row per BMM concept and association the store meets, in
 # `archimate.yaml`'s format; `check` does not validate this table yet
@@ -24,7 +24,7 @@
 elements:
   # Ends. Vision, Goal and Objective are vision (C-187), verksamhetsmål
   # (C-169) and effektmål (C-170), each a concept registered as an element
-  # of type mål, the narrower one förfinar the broader (ADR 0019, ADR 0025).
+  # of type mål, the narrower one förfinar the broader (beslut 19, beslut 25).
   - name: End
     concepts: [C-017]
   - name: Vision
@@ -47,7 +47,7 @@ elements:
       the family of mission, course of action and directive; no concept of
       the store gathers an uppdrag, a styrbeslut and a styrmedel
   # The ongoing operational activity, whoever sets it: the government in an
-  # instruktion, the owner in a bolagsordning, the company itself (ADR 0025).
+  # instruktion, the owner in a bolagsordning, the company itself (beslut 25).
   - name: Mission
     concepts: [C-149]
   # The chosen way of configuring the enterprise, not the work that carries
@@ -65,12 +65,12 @@ elements:
     doubtful: true  # the family styrmedel, never itself a type: a directive is a princip or a regel
   - name: Business Policy
     concepts: [C-018]
-  # Adopted from SBVR; a krav (C-021) is a kind of regel since ADR 0023.
+  # Adopted from SBVR; a krav (C-021) is a kind of regel since beslut 23.
   - name: Business Rule
     concepts: [C-020]
   - name: Business Rule Enforcement Level
     unmapped: true
-    reason: how hard a rule is enforced is text in the regel (ADR 0023)
+    reason: how hard a rule is enforced is text in the regel (beslut 23)
   # A directive of one level acting as law for the level below: the intern
   # påverkan (C-030) a level's styrmedel are for the level under it, and the
   # bärare (C-016) that carries a higher level's rules.
@@ -150,7 +150,7 @@ relationships:
   - name: Directive supports achievement of Desired Result
     concepts: [C-102]
   # Refinement: the narrower refines the broader, at every level of ends,
-  # courses of action and policies (ADR 0019).
+  # courses of action and policies (beslut 19).
   - name: Objective quantifies Goal
     concepts: [C-103]
   - name: Goal amplifies Vision
@@ -166,7 +166,7 @@ relationships:
   - name: Business Process realizes Course of Action
     concepts: [C-094]
   # Who defined, established, assessed or recognised: fastställs av on the
-  # bärare they stand in (ADR 0023).
+  # bärare they stand in (beslut 23).
   - name: Organization Unit defines End
     concepts: [C-183]
   - name: Organization Unit establishes Means
@@ -181,7 +181,7 @@ relationships:
     unmapped: true
     reason: >-
       a styrmedel applies by being listed in the accepted description of the
-      styrobjekt (ADR 0019); no arrow between a styrmedel and what it governs
+      styrobjekt (beslut 19); no arrow between a styrmedel and what it governs
   - name: Business Policy governs Business Process
     unmapped: true
     reason: as Directive governs Course of Action
@@ -198,7 +198,7 @@ relationships:
       source of any other påverkan is text in its description
   - name: Tactic effects enforcement level of Business Rule
     unmapped: true
-    reason: the enforcement level is text in the regel (ADR 0023)
+    reason: the enforcement level is text in the regel (beslut 23)
   - name: Mission makes Vision operative
     unmapped: true
     reason: the uppdrag and the vision stand each on its own; nothing is drawn between them
@@ -225,9 +225,9 @@ unmapped-concepts:
       public body in its instruktion and the law it applies, for a company in
       its bolagsordning. BMM's Goal is what the management chose, its Mission
       is the uppdrag, and none of its Ends is given with the uppdrag; the
-      catalogue's addition (ADR 0025)
+      catalogue's addition (beslut 25)
   - id: C-021
-    reason: krav is a kind of regel (C-020) since ADR 0023 and is reached through the Business Rule row
+    reason: krav is a kind of regel (C-020) since beslut 23 and is reached through the Business Rule row
   - id: C-040
     reason: arkitekturprincip is a kind of princip (C-018) whose styrobjekt is the architecture, reached through the Business Policy row
   - id: C-016

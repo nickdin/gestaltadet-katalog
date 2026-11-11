@@ -23,4 +23,4 @@ att starta en förening; att flytta.
 
 Resan är människornas egen, inte verksamhetens: den kan gå tvärs över flera verksamheter och finns utan någon av dem. Inte en process ([[C-130 Verksamhetsprocess]]), som är något verksamheten gör. Behov ingår i resan, och resan går genom de kanaler där människorna möter verksamheten. Motsvarar EDGYs Journey.
 
-Motsvarar CustomerJourney i Business Architecture Core Metamodel (BACM); stegen är behov ([[C-146 Behov]]). ADR 0027.
+Motsvarar CustomerJourney i Business Architecture Core Metamodel (BACM); stegen är behov ([[C-146 Behov]]). Beslut 27.

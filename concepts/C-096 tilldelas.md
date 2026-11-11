@@ -15,6 +15,6 @@ key: assigned_to
 
 ## Anmärkning
 
-Relationen går från det utförande elementet till beteendet. Motsvarar ArchiMates Assignment. Den säger vem som utför, inte vem som äger: ägandet är ansvarar för ([[C-208 ansvarar för]], ADR 0035).
+Relationen går från det utförande elementet till beteendet. Motsvarar ArchiMates Assignment. Den säger vem som utför, inte vem som äger: ägandet är ansvarar för ([[C-208 ansvarar för]], beslut 35).
 
-Motsvarar Deployment i Unified Modeling Language (UML), artefakten driftsatt på noden, och simbanan (ActivityPartition) som utför stegen i den. ADR 0029.
+Motsvarar Deployment i Unified Modeling Language (UML), artefakten driftsatt på noden, och simbanan (ActivityPartition) som utför stegen i den. Beslut 29.

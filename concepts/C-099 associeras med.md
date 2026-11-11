@@ -17,4 +17,4 @@ key: associated_with
 
 Symmetrisk relation; vilketdera elementet den står på är godtyckligt. Motsvarar ArchiMates Association.
 
-Motsvarar Association i Unified Modeling Language (UML), med multipliciteten i beskrivningen (ADR 0023) och rollnamn och riktning som text, och Dependency utan stereotyp. ADR 0029.
+Motsvarar Association i Unified Modeling Language (UML), med multipliciteten i beskrivningen (beslut 23) och rollnamn och riktning som text, och Dependency utan stereotyp. Beslut 29.

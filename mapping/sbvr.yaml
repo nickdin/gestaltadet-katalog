@@ -1,4 +1,4 @@
-# SBVR 1.5 type-mapping table (ADR 0023).
+# SBVR 1.5 type-mapping table (beslut 23).
 #
 # One row per SBVR building block the store meets, in `archimate.yaml`'s
 # format; `check` does not validate this table yet (interlingua #901). SBVR
@@ -17,7 +17,7 @@ elements:
     reason: >-
       a concept of the catalogue, a file under `concepts/` with a `C-nnn` id,
       of any kind or none; the catalogue is the organisation's own vocabulary
-      (ADR 0023), so a business concept such as ärende is a general concept
+      (beslut 23), so a business concept such as ärende is a general concept
       here too
   # The named individual in the architecture's universe: there is one
   # informationsobjekt Ärende, one applikation Ärendehanteringen. The
@@ -64,7 +64,7 @@ elements:
     unmapped: true
     reason: >-
       a sentence in the remark under the bold label Nödvändighet (the
-      catalogue's convention since ADR 0023), not a field
+      catalogue's convention since beslut 23), not a field
   - name: source
     unmapped: true
     reason: >-
@@ -76,7 +76,7 @@ elements:
   # transition; a property no behaviour changes, "beslutet är gynnande", is an
   # uppgift (C-161) with the value yes or no; one that brings its own rules,
   # "ärendet är ett omprövningsärende", is a specialisation, the `generic`
-  # link (ADR 0024).
+  # link (beslut 24).
   - name: characteristic
     concepts: [C-182, C-161]
   # How an instance is identified, the ärendenummer: the identifying uppgift
@@ -135,7 +135,7 @@ elements:
     doubtful: true
   - name: business rule
     concepts: [C-020]
-  # A regel requires a state of affairs and takes no action (ADR 0023); krav
+  # A regel requires a state of affairs and takes no action (beslut 23); krav
   # (C-021) is a kind of regel whose state is a property of the styrobjekt,
   # a split SBVR does not make.
   - name: behavioral business rule
@@ -148,7 +148,7 @@ elements:
       interlingua #904); one that decides an outcome for every case is a beslutslogik
       (C-178); none is a styrmedel
   # princip: direction, not directly enforceable, rules derived from it; BMM
-  # shares the concept and confirmed the reading (ADR 0025, bmm.yaml).
+  # shares the concept and confirmed the reading (beslut 25, bmm.yaml).
   - name: business policy
     concepts: [C-018]
   - name: advice
@@ -217,11 +217,11 @@ unmapped-concepts:
   - id: C-017
     reason: >-
       mål is Business Motivation Model territory, not SBVR's; SBVR shares only
-      business policy and business rule with BMM (bmm.yaml, ADR 0025)
+      business policy and business rule with BMM (bmm.yaml, beslut 25)
   - id: C-022
-    reason: as C-017; ändamål is the catalogue's addition to BMM (ADR 0025)
+    reason: as C-017; ändamål is the catalogue's addition to BMM (beslut 25)
   - id: C-021
     reason: >-
-      krav is a kind of regel (C-020) since ADR 0023 and is reached through
+      krav is a kind of regel (C-020) since beslut 23 and is reached through
       the business rule rows; SBVR has no concept of its own for a rule on
       the styrobjekt's properties

@@ -1,6 +1,6 @@
 # Påverkan och bedömning är elementtyper, strategin är sammanhängande styrbeslut, visionen är ett mål utan mått, och BMM tas in med ändamålet som katalogens tillägg
 
-Beslutat av Nicklas i den sjunde och sista av grillningarna av de öppna frågorna inför draw.io-mallen, och den tredje av de tre delfrågorna efter ADR 0022. Avgör det ADR 0023 sköt hit: business policy mot Princip, mandatet att fastställa styrning, och Mål och Ändamål mot BMM:s Ends.
+Beslutat av Nicklas i den sjunde och sista av grillningarna av de öppna frågorna inför draw.io-mallen, och den tredje av de tre delfrågorna efter beslut 22. Avgör det beslut 23 sköt hit: business policy mot Princip, mandatet att fastställa styrning, och Mål och Ändamål mot BMM:s Ends.
 
 ## Sammanhang
 
@@ -21,7 +21,7 @@ Grillningen gick tre rundor (7 + 7 + 4 frågor). Parallellt hade Nicklas avgjort
 - **Bedömning (`C-185`, ny) är typ i styrmedelsfamiljen.** Bedömningen härleds ur den påverkan den gäller och påverkar det ändamål, mål eller styrmedel den slår mot. Ett styrmedel som svarar härleds ur bedömningen. SWOT:s fyra ord står i texten, inte som begrepp. Bedömningen står i en bärare, som den som gjort bedömningen fastställer. BMM:s och ArchiMates Assessment mappas till `C-185`.
 - **Risk (`C-186`, ny, utan typ) är en sort av bedömning** enligt ISO 31000: osäkerhetens effekt på mål, med förlust eller vinst som följd. Så bär ett ord BMM:s Risk och Potential Reward. Riskregistrets poster förblir informationsobjekt.
 - **Mandat (`C-189`, ny, utan typ):** befogenheten man har i kraft av sin position. Mandatet ges som Regel (`C-020`) i arbetsordningen eller delegationsordningen och utövas genom att fastställa. Fastställs av säger vem som beslutade, mandatet vem som fick. Det är BMM:s Management Prerogative, och ett mandat på en nivå är påverkan för nivån under. Roll (`C-074`) bär mandat. Ingen ny relationstyp.
-- **BMM:s samband:** derived from och motivated by är härleds ur (`C-064`); affects, channels efforts towards och supports är påverkar (`C-102`); quantifies, amplifies, implements och includes är förfinar (`C-103`); realizes är realiseras av (`C-094`); Organization Unit defines, establishes, makes och recognizes är fastställs av (`C-183`) på bäraren; is responsible for Business Process är tilldelas (`C-096`). Governs och guides är omappade: ett styrmedel gäller genom att den antagna beskrivningen listar det (ADR 0019). Enforcement level, enabling, Influencing Organization som källa, Mission mot Vision och tillgångarnas samband är omappade med skäl.
+- **BMM:s samband:** derived from och motivated by är härleds ur (`C-064`); affects, channels efforts towards och supports är påverkar (`C-102`); quantifies, amplifies, implements och includes är förfinar (`C-103`); realizes är realiseras av (`C-094`); Organization Unit defines, establishes, makes och recognizes är fastställs av (`C-183`) på bäraren; is responsible for Business Process är tilldelas (`C-096`). Governs och guides är omappade: ett styrmedel gäller genom att den antagna beskrivningen listar det (beslut 19). Enforcement level, enabling, Influencing Organization som källa, Mission mot Vision och tillgångarnas samband är omappade med skäl.
 - **Anmärkningarna i Ändamål, Extern och Intern påverkan och Uppdrag skrivs allmänna**, med myndigheten och bolaget som de två fallen.
 
 ## Övervägda alternativ
@@ -34,7 +34,7 @@ Grillningen gick tre rundor (7 + 7 + 4 frågor). Parallellt hade Nicklas avgjort
 - **Påverkan förblir begrepp utan typ**, första förslaget: påverkan i dokumentform är bärare, resten text i ändamålet. Då kan demografi, teknik, en konkurrent eller en vana aldrig ritas, och ArchiMates Driver får ingen rad. Avvisat. **Extern och Intern påverkan som var sin typ**: två rutor för en skillnad som är en egenskap hos elementet. Avvisat.
 - **Bedömningar utanför lagret**, med lagrets regel att det någon tycker hör till anteckningarna, inte till lagret. Regeln gäller Nicklas egna bedömningar, inte verksamhetens. En SWOT är en ritning, och lagret ska bära det ritningarna visar. Avvisat. **Bedömningen som relation** påverkar från påverkan till mål, med omdömet i relationens text. Då kan inget styrmedel härledas ur den och ingen SWOT ritas. Avvisat.
 - **Risk bara som förlust**, BMM:s delning i Risk och Potential Reward. Nicklas arbetar med risk som osäkerhet med båda sidor, och ISO 31000 definierar den så. Avvisat. **Chans som tillåten term**: ena halvan, inte ett annat ord för samma sak. Avvisat.
-- **Mandatet som relationstyp** "har mandat över" från aktör till styrobjekt, uppskjutet i ADR 0023. Mandatet är redan en regel i arbetsordningen, katalogens eget exempel på regel, och BMM har inget mandatbegrepp. Begrepp utan typ i stället.
+- **Mandatet som relationstyp** "har mandat över" från aktör till styrobjekt, uppskjutet i beslut 23. Mandatet är redan en regel i arbetsordningen, katalogens eget exempel på regel, och BMM har inget mandatbegrepp. Begrepp utan typ i stället.
 
 ## Konsekvenser
 
@@ -42,4 +42,4 @@ Grillningen gick tre rundor (7 + 7 + 4 frågor). Parallellt hade Nicklas avgjort
 - Ny `mapping/bmm.yaml`. `archimate.yaml` får raderna Driver till `C-184` och Assessment till `C-185`, och skälet för `C-022` skrivs om. `aris.yaml` får `C-184` och `C-185` under `unmapped-concepts`. I `sbvr.yaml` står business policy utan tvivel, och skälen för `C-017` och `C-022` pekar på bmm.yaml. Rader som inte var giltig YAML (ett kolon i ett ociterat skäl) citeras.
 - draw.io-mallen får två rutor till i Styrmedel-gruppen, Påverkan och Bedömning, utan ikon: 68 typer. Mallen kördes om och exporterades.
 - De första påverkan- och bedömningselementen skrivs när en ritning behöver dem. Då prövas kedjan påverkan, bedömning, styrmedel mot ett riktigt fall. Interlingua behöver inget nytt för det.
-- Kvar i genomgången av OMG:s specifikationer är frågan om VDML, UML, SysML och de övriga alls hör hit (ADR 0026). Alla sju öppna frågor inför mallen är grillade, och mallen byggs från katalogen med 68 typer.
+- Kvar i genomgången av OMG:s specifikationer är frågan om VDML, UML, SysML och de övriga alls hör hit (beslut 26). Alla sju öppna frågor inför mallen är grillade, och mallen byggs från katalogen med 68 typer.

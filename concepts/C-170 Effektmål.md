@@ -22,7 +22,7 @@ Effektmålet är målet med målvärde, måldatum och mått: det som följs upp 
 
 Ett begrepp, ingen egen typ: ett effektmål registreras som ett element av typen mål ([[C-017 Mål]]). Målvärde, måldatum och mått står i målets text; utfall och prognos är uppföljningens information, inte begrepp i katalogen.
 
-Motsvarar Outcome i ArchiMates motivationsmodell och Objective i Business Motivation Model: mätbart, tidsatt, uppnåeligt. ADR 0019; ADR 0025.
+Motsvarar Outcome i ArchiMates motivationsmodell och Objective i Business Motivation Model: mätbart, tidsatt, uppnåeligt. Beslut 19; beslut 25.
 
 ## Exempel
 

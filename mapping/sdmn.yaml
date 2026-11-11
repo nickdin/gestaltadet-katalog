@@ -1,11 +1,11 @@
-# SDMN 1.0 type-mapping table (ADR 0024).
+# SDMN 1.0 type-mapping table (beslut 24).
 #
 # One row per SDMN building block the store meets, in `archimate.yaml`'s
 # format; `check` does not validate this table yet (interlingua #901). SDMN
 # (Shared Data Model and Notation) is the data model BPMN, CMMN and DMN
 # share: one DataItem that is at once BPMN's Data Object, CMMN's Case File
 # Item and DMN's Input Data, with its structure in an ItemDefinition. The
-# store is that shared data model (ADR 0024): a DataItem is an
+# store is that shared data model (beslut 24): a DataItem is an
 # informationsobjekt, and a BPM+ tool that is taken in gets its data elements
 # from the store's informationsobjekt, not the other way round. SDMN has no
 # notion of state; a verksamhetsobjekt's tillstånd (C-182) is the behaviour
@@ -80,12 +80,12 @@ elements:
   # Many of the same: a sammanställning only when the business handles the
   # collection as a unit for a purpose (the list of everyone in an exposed
   # role); otherwise the many end of the relation between informationsobjekt
-  # (ADR 0023, interlingua #904).
+  # (beslut 23, interlingua #904).
   - name: isCollection
     concepts: [C-162]
   - name: multiplicityKind
     unmapped: true
-    reason: multiplicity stands on the relation between informationsobjekt, per end (ADR 0023, interlingua #904), not on the element
+    reason: multiplicity stands on the relation between informationsobjekt, per end (beslut 23, interlingua #904), not on the element
   - name: preAssignment
     unmapped: true
     reason: values of an instance, the systems' data, never in the store
@@ -104,12 +104,12 @@ relationships:
   - name: CompositionConnector
     concepts: [C-062]
   # The part exists on its own and may be pointed at from several: the shared
-  # part, as ADR 0018 reads a field that sits in many objects.
+  # part, as beslut 18 reads a field that sits in many objects.
   - name: ReferenceConnector
     concepts: [C-100]
   # A folder or a physical container holds something: the lagringsyta (C-165)
   # aggregerar the representations (C-085) that lie on it, the convention
-  # written into both concepts by ADR 0024.
+  # written into both concepts by beslut 24.
   - name: ContainmentConnector
     concepts: [C-100]
   - name: DataAssociation
@@ -129,7 +129,7 @@ unmapped-concepts:
     reason: >-
       SDMN has no state; BPMN's dataState and CMMN's Case File Item lifecycle
       stay on the behaviour side, which is why the tillstånd is the
-      verksamhetsobjekt's (ADR 0024)
+      verksamhetsobjekt's (beslut 24)
   - id: C-161
     reason: >-
       an uppgift is a concept and no element; it is reached through the

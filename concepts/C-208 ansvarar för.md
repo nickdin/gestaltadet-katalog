@@ -16,8 +16,8 @@ key: responsible_for
 
 ## Anmärkning
 
-Relationen går från rollen till det den äger: informationsägaren ([[C-167 Informationsägare]]) till informationsobjektet ([[C-060 Informationsobjekt]]), processägaren ([[C-206 Processägare]]) till verksamhetsbeteendet ([[C-157 Verksamhetsbeteende]]). Den svarar på frågan vem som äger, och skiljer ägandet från utförandet: tilldelas ([[C-096 tilldelas]]) säger vem som utför. Härledningen nedåt (ADR 0030) och förteckningarna med ägare per behandling (ADR 0031) behöver det svaret.
+Relationen går från rollen till det den äger: informationsägaren ([[C-167 Informationsägare]]) till informationsobjektet ([[C-060 Informationsobjekt]]), processägaren ([[C-206 Processägare]]) till verksamhetsbeteendet ([[C-157 Verksamhetsbeteende]]). Den svarar på frågan vem som äger, och skiljer ägandet från utförandet: tilldelas ([[C-096 tilldelas]]) säger vem som utför. Härledningen nedåt (beslut 30) och förteckningarna med ägare per behandling (beslut 31) behöver det svaret.
 
 Relationen är bara för ägarrollerna. Ett styrmedel eller en bärare ägs av den som fastställt det ([[C-183 fastställs av]]), och ett styrobjekt av den som har mandatet ([[C-189 Mandat]]) över det.
 
-ArchiMates Assignment får inte gå från en roll till ett passivt objekt, så ArchiMate saknar motsvarighet och exporten får Association. Beslutet: ADR 0035.
+ArchiMates Assignment får inte gå från en roll till ett passivt objekt, så ArchiMate saknar motsvarighet och exporten får Association. Beslut 35.

@@ -4,9 +4,9 @@ Beslutat av Nicklas i grillningen av ärende #32, 2026-11-02 till 11-03. Avgör 
 
 ## Sammanhang
 
-Katalogen hade inget ord för informationens slag. Informationsmodelleringens praxis delar informationen i resursdata (masterdata, kärndata: det verksamheten har), referensdata (fastställda standardförekomster, kodverk), transaktionsdata (det som sker) och händelsedata (det som inträffar). Informationsarkitektens bidrag skiljer sig per slag: central källa, standardförekomster, datafångst, sammanhang. Värdemängd (`C-197`) täcker referensdatans värden som text vid en uppgift, inte slaget som sådant. Frågan kom upp i grillningen av Informationsområde (ADR 0030), när färgerna i en ritad informationsmodell diskuterades. ADR 0030 lämnade den som ett eget ärende.
+Katalogen hade inget ord för informationens slag. Informationsmodelleringens praxis delar informationen i resursdata (masterdata, kärndata: det verksamheten har), referensdata (fastställda standardförekomster, kodverk), transaktionsdata (det som sker) och händelsedata (det som inträffar). Informationsarkitektens bidrag skiljer sig per slag: central källa, standardförekomster, datafångst, sammanhang. Värdemängd (`C-197`) täcker referensdatans värden som text vid en uppgift, inte slaget som sådant. Frågan kom upp i grillningen av Informationsområde (beslut 30), när färgerna i en ritad informationsmodell diskuterades. Beslut 30 lämnade den som ett eget ärende.
 
-Två beslut satte ramen. ADR 0018 avvisade två elementtyper för samma slags sak, så fyra typer under Informationsobjekt (`C-060`) var uteslutna. Mönstret som finns är begreppet utan elementtyp, som Sammanställning (`C-162`) och Informationsområde (`C-198`). Men de två syns i lagret genom en relation, och slaget har ingen relation som visar det. Det skulle bli det första begreppet under `C-060` som lagret inte kan läsa utan ett fält. Ett element bär i dag `id`, `type`, `level`, `sources`, `description` och `candidate`. Förebilden för ett fält som pekar på begrepp är styrningselementets `aspects`: en lista länkar till begrepp av slaget `aspect`, som `check` kontrollerar.
+Två beslut satte ramen. Beslut 18 avvisade två elementtyper för samma slags sak, så fyra typer under Informationsobjekt (`C-060`) var uteslutna. Mönstret som finns är begreppet utan elementtyp, som Sammanställning (`C-162`) och Informationsområde (`C-198`). Men de två syns i lagret genom en relation, och slaget har ingen relation som visar det. Det skulle bli det första begreppet under `C-060` som lagret inte kan läsa utan ett fält. Ett element bär i dag `id`, `type`, `level`, `sources`, `description` och `candidate`. Förebilden för ett fält som pekar på begrepp är styrningselementets `aspects`: en lista länkar till begrepp av slaget `aspect`, som `check` kontrollerar.
 
 Grillningen gick två rundor (5 + 6 frågor), och Nicklas tog rekommendationen i varje fråga. Exemplen som avgjorde gränsfallen: Hyresavtal, som har livscykel men ligger kvar och är det hyresfordringarna märks med; Betalning, som inträffar men förs genom lägen; Mätvärde, som ingen handlägger.
 
@@ -25,7 +25,7 @@ Grillningen gick två rundor (5 + 6 frågor), och Nicklas tog rekommendationen i
 
 ## Övervägda alternativ
 
-- **Bara en anmärkning i `C-060` om indelningen som metod**, slaget i beskrivningstexten för gott. Katalogen ska svara när orden används, samma skäl som för Informationsområde i ADR 0030. Och ingen vy kan färga efter text. Avvisat.
+- **Bara en anmärkning i `C-060` om indelningen som metod**, slaget i beskrivningstexten för gott. Katalogen ska svara när orden används, samma skäl som för Informationsområde i beslut 30. Och ingen vy kan färga efter text. Avvisat.
 - **Inget alls.** Samma skäl. Avvisat.
 - **Kategorin på verksamhetsobjektet**, med kursens ord att ett verksamhetsobjekt kan vara en händelse eller transaktion. Bidraget per kategori är informationsförsörjningens, och flera informationsobjekt av olika kategori kan realisera samma verksamhetsobjekt. Avvisat.
 - **Tre kategorier som DAMA**, händelsedata under transaktionsdata. Det tvingar in Mätvärde under transaktioner, med en förklaring i varje modell. Avvisat.

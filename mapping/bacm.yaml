@@ -1,4 +1,4 @@
-# Business Architecture Core Metamodel 1.0 type-mapping table (ADR 0027).
+# Business Architecture Core Metamodel 1.0 type-mapping table (beslut 27).
 #
 # One row per BACM metaclass and association the store meets, in
 # `archimate.yaml`'s format; `check` does not validate this table yet
@@ -26,7 +26,7 @@
 # offer's answer per need, is svar (C-194), a concept without a type that
 # lives in the värdeerbjudande's text beside hinder (C-192) and vinst
 # (C-193) in the behov's; the fit (ValueCharacteristic) is a measure and
-# waits for a measure concept (ADR 0026). The product package is produkt
+# waits for a measure concept (beslut 26). The product package is produkt
 # (C-014), with goods as vara (C-191) and services as verksamhetstjänst
 # (C-127), and what the business buys in as överenskommelse (C-084). The
 # strategy package is BMM's Means and Ends plus Initiative and Change,
@@ -37,7 +37,7 @@
 elements:
   # BACM_Model package: the metamodel's own scaffolding, so that it hangs
   # together in UML and XMI. The program's concern, never the catalogue's
-  # (ADR 0026).
+  # (beslut 26).
   - name: BACMElement
     unmapped: true
     reason: metamodel scaffolding, the program's concern
@@ -102,7 +102,7 @@ elements:
   - name: CapabilityBehavior
     concepts: [C-157]
   # The collection of resources and performers that implements a
-  # capability; the store's lösning, which realises exactly one (ADR 0020).
+  # capability; the store's lösning, which realises exactly one (beslut 20).
   - name: CapabilityImplementation
     concepts: [C-055]
   # The line between the two is drawn by role here, by tangibility in
@@ -115,7 +115,7 @@ elements:
     concepts: [C-060]
   # The state of an object a capability produces or needs, held outside the
   # object so capabilities can point at it: the store's tillståndsvy
-  # (ADR 0024). The triggering event, an outcome nothing produces, is the
+  # (beslut 24). The triggering event, an outcome nothing produces, is the
   # verksamhetshändelse (C-135) that marks the state reached.
   - name: Outcome
     concepts: [C-182]
@@ -156,7 +156,7 @@ elements:
     unmapped: true
     reason: >-
       the fit between offer and need is a measure, and a measure concept
-      waits for SMM (ADR 0026); a behov without a svar is the fit made
+      waits for SMM (beslut 26); a behov without a svar is the fit made
       visible without one
   # The business's belief that the customer values an outcome: the offer's
   # answer per need, in the värdeerbjudande's text.
@@ -196,7 +196,7 @@ elements:
   - name: LegalEntity
     concepts: [C-073]
   # The authority that issues the law. The law itself is a bärare (C-016)
-  # fastställd av that aktör (ADR 0025).
+  # fastställd av that aktör (beslut 25).
   - name: Jurisdiction
     concepts: [C-073]
   - name: Resource
@@ -253,7 +253,7 @@ elements:
     reason: a relation of any arity between offerings; text in the produkt
 
   # Strategy package: BMM's Ends and Means plus Initiative and Change
-  # (ADR 0025 for the first two).
+  # (beslut 25 for the first two).
   - name: StrategyModel
     concepts: [C-188]
   - name: Means
@@ -281,7 +281,7 @@ elements:
   # SMM import
   - name: MeasureLibrary
     unmapped: true
-    reason: measures; a measure concept waits for SMM (ADR 0026)
+    reason: measures; a measure concept waits for SMM (beslut 26)
 
 relationships:
   # Realisation: the more concrete realises the more abstract.
@@ -349,7 +349,7 @@ relationships:
     concepts: [C-152]
   - name: Customer accepts ProductOffering
     concepts: [C-154]
-  # Influence, as BMM's expects and channels (ADR 0025)
+  # Influence, as BMM's expects and channels (beslut 25)
   - name: Means expects Ends
     concepts: [C-102]
   - name: Initiative expects Change
@@ -364,7 +364,7 @@ relationships:
     reason: >-
       the transitions stand in the verksamhetsobjekt's tillståndsvy, driven
       by the behaviour that realises the capability; no arrow from the
-      förmåga to the state (ADR 0024)
+      förmåga to the state (beslut 24)
   - name: Capability needs Outcome
     unmapped: true
     reason: as Capability produces Outcome
@@ -408,7 +408,7 @@ relationships:
     unmapped: true
     reason: >-
       the law is a bärare (C-016) fastställd av (C-183) the aktör who decided
-      it (ADR 0025); the jurisdiction as such is not drawn
+      it (beslut 25); the jurisdiction as such is not drawn
   - name: OrgUnit Responsible OrgUnit
     unmapped: true
     reason: as the Responsible element
@@ -425,14 +425,14 @@ relationships:
     unmapped: true
     reason: >-
       the initiative is the work that carries the styrbeslut out and the
-      process realises it (ADR 0025); the initiative påverkar (C-102) the
+      process realises it (beslut 25); the initiative påverkar (C-102) the
       mål the styrbeslut aims at
   - name: Change implements Ends
     unmapped: true
     reason: >-
       the verksamhetsförändring is what ersätter (C-104) and the gap
       analysis compute between two descriptions, and is prövad mot the
-      effektmål (ADR 0019); nothing is drawn between them
+      effektmål (beslut 19); nothing is drawn between them
   - name: Ends baseline AbstractOperatingModel
     unmapped: true
     reason: the baseline is the nulägesbeskrivning; ersätter (C-104) carries the difference
@@ -447,7 +447,7 @@ relationships:
     reason: text in the element
   - name: BACM_Model measure_library
     unmapped: true
-    reason: measures wait for SMM (ADR 0026)
+    reason: measures wait for SMM (beslut 26)
 
 unmapped-concepts:
   - id: C-135
@@ -466,18 +466,18 @@ unmapped-concepts:
       has no row
   - id: C-160
     reason: >-
-      handläggning, the case-driven behaviour that CMMN describes (ADR 0022),
+      handläggning, the case-driven behaviour that CMMN describes (beslut 22),
       is in BACM a CapabilityBehavior like any other
   - id: C-178
-    reason: beslutslogik (ADR 0022) is in BACM at most an InformationItem that informs a capability
+    reason: beslutslogik (beslut 22) is in BACM at most an InformationItem that informs a capability
   - id: C-020
     reason: >-
       BACM lets CapabilityBehavior carry rules and policies; the store keeps
-      the regel as a styrmedel (ADR 0023), never as behaviour
+      the regel as a styrmedel (beslut 23), never as behaviour
   - id: C-022
     reason: >-
       the end that comes with the uppdrag and outlives the management; BACM's
-      Ends are what the strategy chooses (ADR 0025)
+      Ends are what the strategy chooses (beslut 25)
   - id: C-149
     reason: BACM has no mission; the ongoing activity the business exists for is nowhere in it
   - id: C-016

@@ -17,4 +17,4 @@ key: specialises
 
 Relationen går från det specifika elementet till det allmänna. I diagrammen ritas den som ”är en typ av”.
 
-Motsvarar Generalization i Unified Modeling Language (UML). ADR 0029.
+Motsvarar Generalization i Unified Modeling Language (UML). Beslut 29.

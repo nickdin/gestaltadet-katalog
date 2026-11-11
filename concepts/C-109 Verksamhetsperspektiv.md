@@ -40,4 +40,4 @@ generic: "[[C-036 Arkitekturperspektiv]]"
 
 Ett av de sex perspektiven.
 
-Värdeerbjudandet flyttade till strategiperspektivet ([[C-108 Strategiperspektiv]]) i ADR 0028. Det värde verksamheten ger sin omgivning ger den genom sina tjänster ([[C-075 Tjänst]]), och definitionen säger tjänster för att ordet värde inte ska peka åt två håll.
+Värdeerbjudandet flyttade till strategiperspektivet ([[C-108 Strategiperspektiv]]) i beslut 28. Det värde verksamheten ger sin omgivning ger den genom sina tjänster ([[C-075 Tjänst]]), och definitionen säger tjänster för att ordet värde inte ska peka åt två håll.

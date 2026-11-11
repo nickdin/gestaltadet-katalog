@@ -25,6 +25,6 @@ att få bidraget utbetalt i tid; att få ett fel i lägenheten lagat.
 
 Behovet är människornas eget och finns vare sig verksamheten möter det eller inte. Det är inte ett krav ([[C-021 Krav]]) och inte ett ärende. Elementets text säger, under egna rubriker, vad som står i vägen, hindret ([[C-192 Hinder]]), vad som vinns, vinsten ([[C-193 Vinst]]), och vad människorna använder i dag. Hindret och vinsten är begrepp utan typ som står i behovet, som uppgiften i informationsobjektet; dagens alternativ är en upplysning om behovet, inget begrepp. Motsvarar EDGYs Task.
 
-Ett steg i en resa ([[C-147 Resa]]) är ett behov: CustomerJourneyStage i Business Architecture Core Metamodel (BACM) mappas hit. Dess CustomerSegment, vem kunden är och vad den känner vid steget, är text i målgruppen och behovet. ADR 0027.
+Ett steg i en resa ([[C-147 Resa]]) är ett behov: CustomerJourneyStage i Business Architecture Core Metamodel (BACM) mappas hit. Dess CustomerSegment, vem kunden är och vad den känner vid steget, är text i målgruppen och behovet. Beslut 27.
 
-Motsvarar Customer Job i Value Proposition Canvas, kunduppgiften, som står som alternativ term. Kanvasens ord och begrepp är fria att använda; det är dess form och text som är Strategyzers (ADR 0028). Value Delivery Modeling Language (VDML) har inget behov; mottagaren finns där bara som nöjdhet i värdeerbjudandet.
+Motsvarar Customer Job i Value Proposition Canvas, kunduppgiften, som står som alternativ term. Kanvasens ord och begrepp är fria att använda; det är dess form och text som är Strategyzers (beslut 28). Value Delivery Modeling Language (VDML) har inget behov; mottagaren finns där bara som nöjdhet i värdeerbjudandet.

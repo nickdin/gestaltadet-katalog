@@ -20,4 +20,4 @@ generic: "[[C-076 Gränssnitt]]"
 
 Kallas också kanal: där verksamheten gör sina tjänster tillgängliga är också det människor använder för att nå den, samma sak sedd från två håll. Resor går genom kanaler ([[C-147 Resa]]). Motsvarar ArchiMates Business Interface.
 
-Touchpoint i Business Architecture Core Metamodel (BACM), interaktionen mellan verksamheten och kunden, är ett verksamhetsgränssnitt. ADR 0027.
+Touchpoint i Business Architecture Core Metamodel (BACM), interaktionen mellan verksamheten och kunden, är ett verksamhetsgränssnitt. Beslut 27.

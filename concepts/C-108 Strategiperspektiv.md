@@ -26,4 +26,4 @@ generic: "[[C-036 Arkitekturperspektiv]]"
 
 Ett av de sex perspektiven. Även kallat affärsperspektiv.
 
-Värdeerbjudandet ([[C-148 Värdeerbjudande]]) och dess värden ([[C-195 Värde]]) hör hit sedan ADR 0028: löftet är strategi, affärsmodellens kärna, och värdeströmmen som realiserar det står redan här.
+Värdeerbjudandet ([[C-148 Värdeerbjudande]]) och dess värden ([[C-195 Värde]]) hör hit sedan beslut 28: löftet är strategi, affärsmodellens kärna, och värdeströmmen som realiserar det står redan här.

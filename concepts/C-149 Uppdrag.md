@@ -30,6 +30,6 @@ Verksamheten fullgör hela uppdraget. Varje verksamhetsdomän avgränsas av en d
 
 Uppdraget är en påverkan som ändamål uttolkas ur ([[C-022 Ändamål]]). Organisationens uppdrag är extern påverkan ([[C-029 Extern påverkan]]), en domäns uppdrag intern ([[C-030 Intern påverkan]]); dokumentet det står i är en bärare ([[C-016 Bärare]]). En lösning har ändamål men inget uppdrag.
 
-Motsvarar Mission i Business Motivation Model, där organisationen själv fastställer den; skillnaden är vem som fastställer, inte vad det är (ADR 0025).
+Motsvarar Mission i Business Motivation Model, där organisationen själv fastställer den; skillnaden är vem som fastställer, inte vad det är (beslut 25).
 
-Ordet används också om annat. Verksamhetsuppföljningens uppdrag är ofta det tidsbundna: initiativ ([[C-012 Initiativ]]), eller ärenden i en handläggning när inget förändras. pm3:s uppdrag är vad ett ansvarsområde ska uppnå under en planeringshorisont, med mål, åtgärder och ram. Det är mål ([[C-017 Mål]]) i en bärare ([[C-016 Bärare]]), inget uppdrag i katalogens mening. ADR 0020.
+Ordet används också om annat. Verksamhetsuppföljningens uppdrag är ofta det tidsbundna: initiativ ([[C-012 Initiativ]]), eller ärenden i en handläggning när inget förändras. pm3:s uppdrag är vad ett ansvarsområde ska uppnå under en planeringshorisont, med mål, åtgärder och ram. Det är mål ([[C-017 Mål]]) i en bärare ([[C-016 Bärare]]), inget uppdrag i katalogens mening. Beslut 20.

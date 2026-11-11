@@ -17,6 +17,6 @@ partitive: '[[C-180 Teknikbeteende]]'
 
 ## Anmärkning
 
-Ett steg i ett teknikbeteende ([[C-180 Teknikbeteende]]): i en teknikprocess ([[C-132 Teknikprocess]]) eller en teknikfunktion ([[C-134 Teknikfunktion]]), som rymmer den ([[C-100 aggregerar]]). ArchiMate har ingen aktivitetstyp: en export skriver den som Technology Process, och en import läser varje Technology Process som teknikprocess. Beslutet: ADR 0022.
+Ett steg i ett teknikbeteende ([[C-180 Teknikbeteende]]): i en teknikprocess ([[C-132 Teknikprocess]]) eller en teknikfunktion ([[C-134 Teknikfunktion]]), som rymmer den ([[C-100 aggregerar]]). ArchiMate har ingen aktivitetstyp: en export skriver den som Technology Process, och en import läser varje Technology Process som teknikprocess. Beslut 22.
 
-Motsvarar Action i Unified Modeling Language (UML) när en teknisk resurs utför den. ADR 0029.
+Motsvarar Action i Unified Modeling Language (UML) när en teknisk resurs utför den. Beslut 29.

@@ -34,7 +34,7 @@ Gränsen dras efter informationsmodelleringens praxis. En stark central entitet 
 
 Skillnaden mot sammanställningen ([[C-162 Sammanställning]]): sammanställningen sätts samman av uppgifter ur andra objekt för en behandlings ändamål och har representationer ([[C-085 Representation]]), en lista man kan skicka. Området samlar hela objekt och har ingen egen representation. Får området en representation har det blivit en sammanställning eller ett vanligt objekt.
 
-Ett begrepp, ingen elementtyp: ett informationsområde registreras som ett informationsobjekt ([[C-060 Informationsobjekt]]) som består av ([[C-062 består av]]) de informationsobjekt det samlar, och relationen visar att det är ett område. Ritas som en ram runt sina objekt, med relationerna mellan objekten som linjer; en ruta inuti ramen läses som att området består av rutan. Beslutet: ADR 0030. Ett område har ingen datakategori ([[C-201 Datakategori]]); kategorin sitter på objekten i det (ADR 0032).
+Ett begrepp, ingen elementtyp: ett informationsområde registreras som ett informationsobjekt ([[C-060 Informationsobjekt]]) som består av ([[C-062 består av]]) de informationsobjekt det samlar, och relationen visar att det är ett område. Ritas som en ram runt sina objekt, med relationerna mellan objekten som linjer; en ruta inuti ramen läses som att området består av rutan. Beslut 30. Ett område har ingen datakategori ([[C-201 Datakategori]]); kategorin sitter på objekten i det (beslut 32).
 
 ## Exempel
 

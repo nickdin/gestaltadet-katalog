@@ -21,7 +21,7 @@ En påverkan är neutral. Den är bara där tills någon bedömer den ([[C-185 B
 
 Påverkan i dokumentform ritas inte som påverkan. En lag, en förordning eller ett ägardirektiv är en bärare ([[C-016 Bärare]]) som bär nivån ovanförs styrmedel, fastställd av ([[C-183 fastställs av]]) den som beslutat den: riksdagen, regeringen, ägaren. För organisationen under är innehållet påverkan. Påverkan-elementet är för det som inte är ett dokument: demografi, teknikutveckling, en konkurrent, en vana, ett antagande, ledningens prioritering. Ändamål, mål, princip, regel och krav härleds ur ([[C-064 härleds ur]]) den påverkan eller den bärare de kommer ur.
 
-Motsvarar Influencer i Business Motivation Model och Driver i ArchiMates motivationsmodell (ADR 0025).
+Motsvarar Influencer i Business Motivation Model och Driver i ArchiMates motivationsmodell (beslut 25).
 
 ## Exempel
 

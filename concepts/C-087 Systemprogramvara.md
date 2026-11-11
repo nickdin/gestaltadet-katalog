@@ -17,4 +17,4 @@ generic: "[[C-122 Resurs]]"
 
 Motsvarar ArchiMates System Software.
 
-Motsvarar ExecutionEnvironment i Unified Modeling Language (UML). ADR 0029.
+Motsvarar ExecutionEnvironment i Unified Modeling Language (UML). Beslut 29.

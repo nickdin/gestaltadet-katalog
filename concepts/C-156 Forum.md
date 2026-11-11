@@ -16,4 +16,4 @@ generic: "[[C-141 Verksamhetssamverkan]]"
 
 ## Anmärkning
 
-En specialisering av verksamhetssamverkan: ett forum är ingen aktör, utan chefer och medarbetare från skilda enheter som möts regelbundet. Föredragningar, ledningsgrupper, pulsmöten och råd är forum. Ett forum kan vara det som fastställer styrning ([[C-183 fastställs av]]), ett arkitekturråd som beslutar en riktlinje (ADR 0023).
+En specialisering av verksamhetssamverkan: ett forum är ingen aktör, utan chefer och medarbetare från skilda enheter som möts regelbundet. Föredragningar, ledningsgrupper, pulsmöten och råd är forum. Ett forum kan vara det som fastställer styrning ([[C-183 fastställs av]]), ett arkitekturråd som beslutar en riktlinje (beslut 23).

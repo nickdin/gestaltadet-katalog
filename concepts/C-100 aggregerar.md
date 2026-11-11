@@ -17,4 +17,4 @@ key: aggregates
 
 Relationen går från det hela elementet till delen, som [[C-062 består av]] men utan exklusivitet. Motsvarar ArchiMates Aggregation.
 
-Motsvarar Aggregation i Unified Modeling Language (UML), en association med aggregationen shared; det yttre beteendet aggregerar det beteende ett CallBehaviorAction anropar. ADR 0029.
+Motsvarar Aggregation i Unified Modeling Language (UML), en association med aggregationen shared; det yttre beteendet aggregerar det beteende ett CallBehaviorAction anropar. Beslut 29.

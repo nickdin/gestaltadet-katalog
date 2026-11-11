@@ -1,9 +1,9 @@
-# CMMN 1.1 type-mapping table (ADR 0022).
+# CMMN 1.1 type-mapping table (beslut 22).
 #
 # One row per CMMN building block the store meets, in `archimate.yaml`'s
 # format; `check` does not validate this table yet (interlingua issue). CMMN
 # draws the inside of a case, which the store calls a handläggning (C-160,
-# ADR 0017). Its planning vocabulary (sentries, planning tables, discretion)
+# beslut 17). Its planning vocabulary (sentries, planning tables, discretion)
 # lands on relations and text, said per row.
 
 elements:
@@ -54,7 +54,7 @@ elements:
     doubtful: true  # the ärende as a whole, the verksamhetsobjekt the handläggning has access to
   - name: Case File Item
     concepts: [C-159]
-    doubtful: true  # the information side is an informationsobjekt (C-060) that realiserar it; SDMN's DataItem is that side (sdmn.yaml); the item's lifecycle is a tillstånd (C-182, ADR 0024)
+    doubtful: true  # the information side is an informationsobjekt (C-060) that realiserar it; SDMN's DataItem is that side (sdmn.yaml); the item's lifecycle is a tillstånd (C-182, beslut 24)
   - name: Case Role
     concepts: [C-074]
   - name: Sentry
@@ -62,13 +62,13 @@ elements:
     reason: >-
       an entry criterion is the utlöser (C-098) relation into the step, with
       the condition in the relation's description; an exit criterion is the
-      verksamhetshändelse (C-135) the step utlöser when done (ADR 0022)
+      verksamhetshändelse (C-135) the step utlöser when done (beslut 22)
   - name: Planning Table
     unmapped: true
     reason: >-
       the set of steps the case worker may choose: in the store, every
       activity the handläggning aggregerar (C-100) that no utlöser relation
-      points at is discretionary (ADR 0022)
+      points at is discretionary (beslut 22)
   - name: Discretionary Item
     unmapped: true
     reason: as Planning Table

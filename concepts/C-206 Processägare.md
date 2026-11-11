@@ -23,11 +23,11 @@ Processägaren äger verksamhetsbeteendet ([[C-157 Verksamhetsbeteende]]) som ty
 
 Ordet säger process, men rollen äger alla tre slagen av beteende, handläggning ([[C-160 Handläggning]]) och verksamhetsfunktion ([[C-158 Verksamhetsfunktion]]) lika väl: katalogen svarar när ordet används. Ägarskapet skrivs med ansvarar för ([[C-208 ansvarar för]]) från rollen till beteendet. Att en roll eller en enhet tilldelas ([[C-096 tilldelas]]) beteendet säger vem som utför, inte vem som äger. Ett beteende utan egen processägare har det omslutande beteendets, längs består av ([[C-062 består av]]); härledningen läses ur lagret och kopieras aldrig. En verksamhetsaktivitet ([[C-175 Verksamhetsaktivitet]]) har aldrig egen ägare.
 
-Behandlingarna ([[C-168 Behandling]]) i beteendet ska hålla sig inom informationsägarens beslut, och processägaren prövar att de gör det. Rutinen som säger hur är en bärare ([[C-016 Bärare]]) som fastställs av ([[C-183 fastställs av]]) processägaren, med det mandat ([[C-189 Mandat]]) som följer av positionen. Processägaren är också utgångsläget för vem som äger informationen. Om inget annat beslutats är ett informationsobjekts ägare processägaren för objektets hem, det beteende där förekomsterna skapas (ADR 0030). Den som upprättar en sammanställning ([[C-162 Sammanställning]]) äger den.
+Behandlingarna ([[C-168 Behandling]]) i beteendet ska hålla sig inom informationsägarens beslut, och processägaren prövar att de gör det. Rutinen som säger hur är en bärare ([[C-016 Bärare]]) som fastställs av ([[C-183 fastställs av]]) processägaren, med det mandat ([[C-189 Mandat]]) som följer av positionen. Processägaren är också utgångsläget för vem som äger informationen. Om inget annat beslutats är ett informationsobjekts ägare processägaren för objektets hem, det beteende där förekomsterna skapas (beslut 30). Den som upprättar en sammanställning ([[C-162 Sammanställning]]) äger den.
 
 Processägaren äger beteendet, inte lösningen ([[C-055 Lösning]]). Lösningsägaren äger allt som behövs för att leverera, aktörer, processer, information och teknik, och har mandatet över lösningen som styrobjekt. En intern produkt beteendet behöver, en leveransprodukt ([[C-174 Leveransprodukt]]) ur en annan lösning, har sin egen processägare. Den yttre ställer krav ([[C-021 Krav]]) på det den tar emot, och ansvaret byter hand vid leveransen.
 
-Typ i verksamhetsperspektivet, en typ av roll ([[C-074 Roll]]). Skrivs ut som ArchiMates Business Role, som informationsägaren. Beslutet: ADR 0035.
+Typ i verksamhetsperspektivet, en typ av roll ([[C-074 Roll]]). Skrivs ut som ArchiMates Business Role, som informationsägaren. Beslut 35.
 
 ## Exempel
 

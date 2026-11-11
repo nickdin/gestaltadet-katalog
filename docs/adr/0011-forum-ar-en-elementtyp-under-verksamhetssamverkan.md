@@ -15,7 +15,7 @@ Katalogen hade inget eget ord för ett forum, fast beslutskartan över hur avdel
 
 ## Konsekvenser
 
-- `C-156 Forum` får `kind: element-type` och `generic: C-141 Verksamhetssamverkan`, och täcks av `C-109 Verksamhetsperspektiv`. Interlinguas ADR 0008 håller: typen hör till exakt ett perspektiv.
+- `C-156 Forum` får `kind: element-type` och `generic: C-141 Verksamhetssamverkan`, och täcks av `C-109 Verksamhetsperspektiv`. Interlinguas beslut 8 håller: typen hör till exakt ett perspektiv.
 - Forumen i beskrivningen typas om till Forum. Verksamhetssamverkan finns kvar för samverkan som inte är ett forum.
 - Forum står under `unmapped-concepts` i `mapping/archimate.yaml` och `mapping/aris.yaml`. En Business Collaboration importeras som verksamhetssamverkan, och ett forum typas för hand. En export skriver forumen som det deras generiska begrepp mappas till först när tabellerna säger det.
 - `interlingua concept new` tar ingen `generic`; raden skrevs för hand, som i C-141.

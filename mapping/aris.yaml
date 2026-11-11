@@ -30,12 +30,12 @@
 # `unmapped-concepts:` rather than mapped — that is a real property of
 # ARIS's vocabulary, not a shortfall of this table.
 #
-# Every type belongs to exactly one perspective (ADR 0008), so this table
+# Every type belongs to exactly one perspective (beslut 8), so this table
 # names the per-perspective types and not the family concepts they
 # specialise. OT_EVT is mapped to verksamhetshändelse (C-135), the one event
 # type of the verksamhet perspective, which is where an EPC event belongs.
-# OT_FUNC maps to verksamhetsaktivitet (C-175, ADR 0022): an EPC function is
-# a step in a process, not a running function (C-158), and since ADR 0022 the
+# OT_FUNC maps to verksamhetsaktivitet (C-175, beslut 22): an EPC function is
+# a step in a process, not a running function (C-158), and since beslut 22 the
 # step is a type of its own. EPC's rule nodes (and, or, xor) have no row: a
 # branching is an activity that uses a beslutslogik with several outgoing
 # utlöser relations, not an element.
@@ -65,20 +65,20 @@ relationships:
 unmapped-concepts:
   - id: C-182
     reason: >-
-      tillstånd (ADR 0024) is the state a verksamhetsobjekt is in; ARIS's EPC
+      tillstånd (beslut 24) is the state a verksamhetsobjekt is in; ARIS's EPC
       has events, not states of an object, and no object type was confirmed
   - id: C-176
     reason: >-
-      an applikationsaktivitet (ADR 0022) is a step inside an application's
+      an applikationsaktivitet (beslut 22) is a step inside an application's
       own process; ARIS's OT_FUNC is the business step, so no ARIS object
       type names it
   - id: C-177
     reason: >-
-      a teknikaktivitet (ADR 0022) is a step inside a technical resource's
+      a teknikaktivitet (beslut 22) is a step inside a technical resource's
       own process; no ARIS object type names it
   - id: C-178
     reason: >-
-      beslutslogik (ADR 0022) is DMN's Decision; ARIS has rule objects for
+      beslutslogik (beslut 22) is DMN's Decision; ARIS has rule objects for
       EPC branching, not for reusable decision logic, and none was confirmed
   - id: C-167
     reason: >-
@@ -86,7 +86,7 @@ unmapped-concepts:
       for a role was confirmed this session, see C-074
   - id: C-206
     reason: >-
-      a processägare (ADR 0035) is a roll with a responsibility; no ARIS object
+      a processägare (beslut 35) is a roll with a responsibility; no ARIS object
       type for a role was confirmed this session, see C-074
   - id: C-165
     reason: >-
@@ -121,17 +121,17 @@ unmapped-concepts:
       team's own data-object type
   - id: C-159
     reason: >-
-      the verksamhetsobjekt (ADR 0016) would be ARIS's business-object or
+      the verksamhetsobjekt (beslut 16) would be ARIS's business-object or
       information-carrier object, but no TypeNum for it was confirmed; check
       a real export
   - id: C-160
     reason: >-
-      a handläggning (ADR 0017) chooses its steps along the way; ARIS models
+      a handläggning (beslut 17) chooses its steps along the way; ARIS models
       a process as an EPC diagram with a fixed order of functions, so no ARIS
       object type names it
   - id: C-158
     reason: >-
-      a verksamhetsfunktion (ADR 0015) is running work without start or end;
+      a verksamhetsfunktion (beslut 15) is running work without start or end;
       ARIS's OT_FUNC is a step in a process, so no ARIS object type names
       it
   - id: C-062
@@ -154,7 +154,7 @@ unmapped-concepts:
   - id: C-011
     reason: >-
       a portfölj (a set of initiatives and products prioritised and funded
-      together) has no ARIS object type confirmed; ADR 0019
+      together) has no ARIS object type confirmed; beslut 19
   - id: C-074
     reason: >-
       no ARIS object type confirmed for a role distinct from an
@@ -206,7 +206,7 @@ unmapped-concepts:
       no ARIS assignment connection type confirmed this session
   - id: C-208
     reason: >-
-      ansvarar för (ADR 0035) says which roll owns an informationsobjekt or a
+      ansvarar för (beslut 35) says which roll owns an informationsobjekt or a
       verksamhetsbeteende; no ARIS connection type for ownership confirmed
       this session
   - id: C-097
@@ -333,25 +333,25 @@ unmapped-concepts:
   - id: C-183
     reason: >-
       no ARIS connection type confirmed this session for who decided or
-      adopted a governance element; fastställs av is the store's own (ADR
-      0023)
+      adopted a governance element; fastställs av is the store's own (beslut
+      23)
   - id: C-184
     reason: >-
-      påverkan (ADR 0025) is what can change a styrobjekt's purpose or
+      påverkan (beslut 25) is what can change a styrobjekt's purpose or
       steering, BMM's Influencer; ARIS has no object type for it that was
       confirmed, and the table is unconfirmed as a whole
   - id: C-185
     reason: >-
-      bedömning (ADR 0025) is the judgement of a påverkan against ends and
+      bedömning (beslut 25) is the judgement of a påverkan against ends and
       means, BMM's Assessment; no ARIS object type confirmed
   - id: C-190
     reason: >-
-      värdeström (ADR 0027) is the set of stages that build up the value a
+      värdeström (beslut 27) is the set of stages that build up the value a
       värdeerbjudande promises, BACM's ValueStream; the value-added chain
       diagram is the nearest ARIS has, and no object type was confirmed
   - id: C-195
     reason: >-
-      värde (ADR 0028) is the measurable benefit a product's delivery gives
+      värde (beslut 28) is the measurable benefit a product's delivery gives
       its recipient, part of the värdeerbjudande and realised by a värdeström's
       stages, VDML's ValueDefinition, ValuePropositionComponent and ValueAdd;
       ARIS has no value object type

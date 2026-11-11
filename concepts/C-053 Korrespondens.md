@@ -14,7 +14,7 @@ associative:
 
 **Definition:** relation som anger hur arkitekturelement i en arkitekturvy hänger ihop med arkitekturelement i en annan vy av samma arkitekturbeskrivning
 
-UML:s «trace» mellan element i två modeller är en korrespondens, ingen relationstyp. ADR 0029.
+UML:s «trace» mellan element i två modeller är en korrespondens, ingen relationstyp. Beslut 29.
 
 ## Exempel
 

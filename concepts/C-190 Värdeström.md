@@ -24,9 +24,9 @@ Elementtyp i strategiperspektivet ([[C-108 Strategiperspektiv]]), bredvid verksa
 
 Varje steg använder ([[C-095 använder]]) de verksamhetsförmågor ([[C-069 Verksamhetsförmåga]]) det förutsätter. Steget realiseras av ([[C-094 realiseras av]]) en verksamhetsprocess ([[C-130 Verksamhetsprocess]]) eller verksamhetsaktivitet, och värdeerbjudandet realiseras av värdeströmmen.
 
-Motsvarar ValueStream och ValueStreamStage i Business Architecture Core Metamodel (BACM) och ArchiMates Value Stream. ADR 0027.
+Motsvarar ValueStream och ValueStreamStage i Business Architecture Core Metamodel (BACM) och ArchiMates Value Stream. Beslut 27.
 
-Value Delivery Modeling Language (VDML) har ingen egen klass för värdeströmmen: aktivitetsnätverket med sina ValueAdds är den. Varje steg realiserar ([[C-094 realiseras av]]) de värden ([[C-195 Värde]]) det tillför, så att värdeströmskartan visar värdet vid steget. ADR 0028.
+Value Delivery Modeling Language (VDML) har ingen egen klass för värdeströmmen: aktivitetsnätverket med sina ValueAdds är den. Varje steg realiserar ([[C-094 realiseras av]]) de värden ([[C-195 Värde]]) det tillför, så att värdeströmskartan visar värdet vid steget. Beslut 28.
 
 ## Exempel
 
