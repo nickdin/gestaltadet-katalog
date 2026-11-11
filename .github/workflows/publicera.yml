@@ -5,7 +5,8 @@
 # Arbetsflödet läser det repot med en läsnyckel (deploy key) som ligger som
 # hemligheten INTERLINGUA_DEPLOY_KEY i det här repot. Själva katalogen läggs
 # under /katalog/; roten är startsidan (.github/pages/index.html, #16), som läser
-# interlinguas stilmall ur katalogen och profilens stilmall ur sajtens rot.
+# katalogens två stilmallar under katalog/static/ (docs/grafisk-profil.md,
+# "Hur profilen når sidorna").
 # Ritningarna i layout/ pekar ingen katalogfil på, så publish skriver dem inte:
 # de kopieras till /ritningar/ bredvid sin egen sida (.github/pages/ritningar/).
 name: Publicera katalogen
@@ -51,8 +52,6 @@ jobs:
         run: |
           interlingua publish . "$RUNNER_TEMP/site/katalog"
           cp .github/pages/index.html "$RUNNER_TEMP/site/index.html"
-          # Tills interlingua lägger profilen på en egen sökväg (#18) kopieras den hit.
-          cp docs/grafisk-profil.css "$RUNNER_TEMP/site/grafisk-profil.css"
           mkdir "$RUNNER_TEMP/site/ritningar"
           cp .github/pages/ritningar/index.html layout/*.drawio.svg "$RUNNER_TEMP/site/ritningar/"
 

@@ -54,4 +54,6 @@ Profilen sätter färgerna, textens storlek och radavstånd, länkfärgen, rubri
 
 ## Hur profilen når sidorna
 
-interlingua läser stilmallen efter sin egen, `page.css`, genom nyckeln `theme` i `settings.yaml` ([interlingua #915](https://github.com/nickdin/interlingua/issues/915)). Inkopplingen är #18: när nyckeln finns pekar `settings.yaml` på `docs/grafisk-profil.css`, och startsidan (#16) läser samma två filer som katalogen, så att utseendet finns i ett exemplar.
+`settings.yaml` pekar på stilmallen med nyckeln `theme` ([interlingua #915](https://github.com/nickdin/interlingua/issues/915), inkopplad i #18). interlinguas `publish` skriver stilmallen som `katalog/static/theme.css` och länkar den efter interlinguas egen, `page.css`, på varje sida. Läsarens webbläsare läser dem i den ordningen, så profilen vinner där båda säger något. Startsidan (#16) och ritningssidan länkar samma två filer, så utseendet finns i ett exemplar.
+
+Stilmallen sätter i första hand interlinguas egna variabler, som `--color-text` och `--font-size`, från profilens värden. Då byter katalogen utseende utan att interlinguas regler skrivs om. Egna regler har stilmallen bara för det variablerna inte når: rubrikernas färg, ordmärket, versionsväljarens etikett, kryssrutelistans ram och accenten.

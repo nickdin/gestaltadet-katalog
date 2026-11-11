@@ -2,9 +2,9 @@
    katalogen till GestaltaDets. Vad valen betyder står i grafisk-profil.md bredvid;
    den här filen är den enda källan till värdena.
 
-   Filen läses efter interlinguas egen stilmall, page.css, genom theme-nyckeln i
-   settings.yaml (interlingua #915, inkopplingen är #18). Allt som inte står här
-   är interlinguas: tabeller, listor, formulär, bildvisning. */
+   Hur filen når sidorna står i grafisk-profil.md, under "Hur profilen når
+   sidorna". Allt som inte står här är interlinguas: tabeller, listor,
+   formulär, bildvisning. */
 
 :root {
   --gd-bakgrund: #F5EFE6;       /* varm sand */
@@ -28,14 +28,24 @@
   }
 }
 
-body {
-  background: var(--gd-bakgrund);
-  color: var(--gd-text);
-  font-size: 1.0625rem;   /* 17 px: v1 säger 16 till 18 */
-  line-height: 1.6;
+/* Profilens värden i interlinguas egna variabler. page.css och graph.css
+   använder dem i alla sina regler, så sidan byter utseende utan att reglerna
+   skrivs om här. Variablerna som inte står här behåller interlinguas värden. */
+:root {
+  --color-text: var(--gd-text);
+  --color-background: var(--gd-bakgrund);
+  --color-link: var(--gd-teal);
+  --color-link-visited: var(--gd-teal);
+  --color-link-active: var(--gd-teal);
+  --color-rule: var(--gd-linje);
+  --color-rule-light: var(--gd-linje);
+  --color-wash: var(--gd-yta);
+  --font-size: 1.0625rem;   /* 17 px: v1 säger 16 till 18 */
+  --line-height: 1.6;
 }
 
-a { color: var(--gd-teal); }
+/* Regler för det interlinguas variabler inte når: rubrikerna, ordmärket,
+   versionsväljarens etikett, kryssrutelistans ram och accenten. */
 
 h1, h2, h3, h4 {
   color: var(--gd-teal);
@@ -44,13 +54,12 @@ h1, h2, h3, h4 {
 }
 
 /* Ordmärket: GestaltaDet i halvfet teal, utan understrykning. Ingen symbol. */
-header { border-bottom-color: var(--gd-linje); }
 header .site, header .site a { color: var(--gd-teal); font-weight: 600; text-decoration: none; }
 .switcher-label { color: var(--gd-text-sekundar); opacity: 1; }
 
+/* Kryssrutelistan ritar sin ram med interlinguas starka linjefärg, som också
+   ramar in definitionen. Profilen ger bara listan den tunna linjen. */
+.tick-list { border-color: var(--gd-linje); }
+
 /* Sidan läsaren är på: det enda i sidhuvudet som får accentfärgen. */
 nav a[aria-current="page"] { color: var(--gd-terrakotta); }
-
-th, td { border-bottom-color: var(--gd-linje); }
-pre, code { background: var(--gd-yta); }
-.tick-list { border-color: var(--gd-linje); }
