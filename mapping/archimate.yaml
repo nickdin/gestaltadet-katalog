@@ -28,6 +28,11 @@
 # to and no row, so an import reports them and creates nothing.
 # Outcome has a row since beslut 19: it maps to C-017 like Goal, doubtful.
 # An aspect is no element's type, so no aspect is named here.
+#
+# Association has two concepts: associeras med (C-099) and ansvarar för
+# (C-208, beslut 35). Both export as Association, and an imported Association
+# becomes C-099, the first listed, because the file holds neither direction
+# nor meaning.
 
 elements:
   # Business layer
@@ -200,7 +205,7 @@ relationships:
   - name: Specialization
     concepts: [C-063]
   - name: Association
-    concepts: [C-099]
+    concepts: [C-099, C-208]
   - name: Junction
     unmapped: true
     reason: >-
@@ -369,12 +374,6 @@ unmapped-concepts:
       styrmedel, SBVR's business jurisdiction; no ArchiMate core or
       motivation relationship says who decided a motivation element, and
       Association is already held by C-099
-  - id: C-208
-    reason: >-
-      ansvarar för (beslut 35) says which roll owns an informationsobjekt or a
-      verksamhetsbeteende; Assignment (C-096) says who performs and may not
-      run from a role to a passive object, and Association is already held by
-      C-099
   - id: C-190
     reason: >-
       värdeström (beslut 27) is the set of stages that build up the value a
