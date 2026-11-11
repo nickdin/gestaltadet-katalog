@@ -17,4 +17,6 @@ kind: element-type
 
 ## Anmärkning
 
+## Motsvarigheter
+
 Motsvarar ArchiMates Contract.

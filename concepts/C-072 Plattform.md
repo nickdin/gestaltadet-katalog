@@ -15,6 +15,8 @@ generic: "[[C-122 Resurs]]"
 
 ## Anmärkning
 
+## Motsvarigheter
+
 Delar ArchiMates Node med [[C-079 Nod]]; raden är markerad som tveksam i mappningstabellen för ArchiMate.
 
 Delar Node i Unified Modeling Language (UML) med [[C-079 Nod]]: plattform när flera lösningar körs på den, efter definitionen. Beslut 29.

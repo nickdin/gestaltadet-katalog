@@ -15,6 +15,8 @@ generic: "[[C-122 Resurs]]"
 
 ## Anmärkning
 
+## Motsvarigheter
+
 Motsvarar ArchiMates System Software.
 
 Motsvarar ExecutionEnvironment i Unified Modeling Language (UML). Beslut 29.

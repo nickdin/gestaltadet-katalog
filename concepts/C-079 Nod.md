@@ -15,6 +15,8 @@ generic: "[[C-122 Resurs]]"
 
 ## Anmärkning
 
+## Motsvarigheter
+
 Motsvarar ArchiMates Node, delat med [[C-072 Plattform]]; raden är markerad som tveksam i mappningstabellen för ArchiMate.
 
 Motsvarar Node i Unified Modeling Language (UML), delat med Plattform som i ArchiMate-tabellen: plattform när flera lösningar körs på den. Simbanan (ActivityPartition) är noden när den är döpt efter en. Beslut 29.

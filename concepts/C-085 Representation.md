@@ -45,4 +45,6 @@ Signeringen uppfyller riktigheten. Riktighet är en klass som informationsägare
 
 Formatet uppfyller tillgängligheten. Filen ska gå att öppna idag, i ett format som verksamheten har program för, och om tjugo år, i ett format som Riksarkivet godkänner.
 
+## Motsvarigheter
+
 Motsvarar ArchiMates Representation. SDMN:s Document, ett dokument tryckt eller elektroniskt, är en representation, och dess Physical är det när saken bär information. Utan informationssida är den ett verksamhetsobjekt ([[C-159 Verksamhetsobjekt]]). Beslut 24.
