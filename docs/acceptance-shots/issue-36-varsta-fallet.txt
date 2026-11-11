@@ -1,8 +1,54 @@
-#36 — Nivån beror på värdet i en uppgift: värsta fallet gäller (beslut 40). Körd av våg 2, 2026-11-11.
+#36 — Nivån beror på värdet i en uppgift: värsta fallet gäller (beslut 40). Läsning punkt för punkt, våg 2, grenen fix-134-on-36 (för #134 och #135).
 
-Fixtur: de fem nya meningarna i Informationsobjekt (C-060), Informationstillgång (C-166), Sammanställning (C-162), exemplet Brinkstadsbostäder och beslut 40, sökta med `grep -c` på bas f1220e0 (`git show f1220e0:<fil>`) och på grenen.
+Varje punkt står som ärendets mening, sedan filen och meningen på grenens topp, citerad hel. Ett `grep -c` bevisar ingenting här: läsningen visar att meningen säger punkten, inte att en sträng finns.
 
-If wrong: utan texten ger `grep -c` 0 träffar i de tre begreppsfilerna och i exemplet, och beslut 40 saknas i basens `docs/adr/`.
-Read back (bas f1220e0): C-060 "Behovet sätts på typen"=0, "Utsatt roll blir då ett eget"=0, "aldrig ett eget element"=0. C-166 "värsta fallet gäller"=0. C-162 "enda exemplar"=0. Exemplet "Förteckning över utsatta roller"=0. `git ls-tree f1220e0 docs/adr/ | grep -c 0040`=0.
-Read back (gren 9d02f31): C-060 "Behovet sätts på typen"=1, "Utsatt roll blir då ett eget"=1, "aldrig ett eget element"=1. C-166 "värsta fallet gäller"=1. C-162 "enda exemplar"=1. Exemplet "Förteckning över utsatta roller"=2. `ls docs/adr/0040-*`: 1 fil.
-Check: `interlingua check .` ger `check: 204 files, no violations` på både bas och gren; den visar inget rött.
+If wrong [om en punkt saknas eller säger motsatsen]: det finns ingen mening att citera under punkten, eller den citerade meningen säger emot punkten (till exempel att nivån sätts på uppgiften, att förteckningen är en förekomst, eller att värsta fallet inte gäller). Läsaren ser det direkt av att ställa de två texterna bredvid varandra.
+
+## Punkt 1 — värsta fallet gäller för typen
+Ärendet: "Lagret ritar typer, och klassen sitter på typen. Klassen för Yrkesroll måste hålla för varje förekomst, också de utsatta: värsta fallet gäller. Uppgiften utsatt roll är en vanlig uppgift med värdemängden (C-197) ja/nej."
+Fil: concepts/C-060 Informationsobjekt.md
+> Lagret ritar typer, och informationsägaren sätter behovet på typen. Nivån i varje klass måste hålla för varje förekomst, också den som ställer störst krav: det värsta fallet gäller. Beror nivån på värdet i en uppgift, är uppgiften ändå en vanlig uppgift med en värdemängd ([[C-197 Värdemängd]]). Bostadsbolagets Yrkesroll har uppgiften utsatt roll med värdena ja och nej. Informationsägaren sätter behovet så att det håller för de utsatta rollerna.
+
+## Punkt 2 — delmängden blir ett eget informationsobjekt
+Ärendet: "… Utsatt roll blir ett eget informationsobjekt som specialiserar (C-063) Yrkesroll, ärver dess uppgifter och lägger till sina egna … Uppgiften utsatt roll står kvar i Yrkesroll som det som skiljer dem."
+Fil: concepts/C-060 Informationsobjekt.md
+> Blir nivån för hög för de övriga rollerna, hanterar verksamheten de utsatta rollerna för sig, och golvet för vad som blir ett eget informationsobjekt gäller (beslut 30). Utsatt roll blir då ett eget informationsobjekt som specialiserar ([[C-063 specialiserar]]) Yrkesroll. Det ärver Yrkesrolls uppgifter och lägger till sina egna; exemplet Brinkstadsbostäder visar vilka. Uppgiften utsatt roll står kvar i Yrkesroll, eftersom den skiljer de två objekten åt. Tydligast är fallet när rollen placeras i en säkerhetsskyddsklass: då är den reglerad för sig.
+
+## Punkt 3 — aldrig klass på uppgiften, aldrig uppgiften som element
+Ärendet: "Klass på uppgiften, eller uppgiften som element, är aldrig lösningen."
+Fil: concepts/C-060 Informationsobjekt.md
+> En uppgift blir aldrig ett eget element för att den ska kunna klassas (beslut 40).
+Fil: concepts/C-060 Informationsobjekt.md
+> Nivån i informationsmodellen väljs efter vad verksamheten behöver tala om och vad dess beteenden hanterar. Den får vara grov och förfinas över tid: nya objekt läggs under det grova, som då är ett informationsområde ([[C-198 Informationsområde]]). Klassning, ägande och reglering är skäl bland flera, men ett golv: det som klassas, ägs eller regleras för sig är alltid ett eget objekt. Personnumret är ett informationsobjekt, förfallodatumet en uppgift i Faktura (beslut 30). Objektet som rymmer ett sådant fält aggregerar det ([[C-100 aggregerar]]), eftersom samma fält ingår i många objekt. Behovet som informationsägaren klassar sätts på informationsobjektet i alla fyra klasserna, konfidentialitet, riktighet, tillgänglighet och spårbarhet, och inte på uppgiften eller lagringsytan; se [[C-166 Informationstillgång]].
+
+## Punkt 4 — en förteckning i ett enda exemplar är ändå en typ
+Ärendet: "En förteckning över utsatta roller är en sammanställning (C-162) som aggregerar Yrkesroll eller Utsatt roll, klassas för sig och oftast högre; Excelfilen är dess representation (C-085) … Att förteckningen finns i ett enda exemplar gör den inte till en förekomst … Samma mönster som 'förteckningen över alla föreningars företrädare' och 'Ansökningsblankett är handlingstypen, den enskilda ansökan förekomsten'."
+Fil: concepts/C-162 Sammanställning.md
+> En förteckning över utsatta roller är en sammanställning som aggregerar Yrkesroll eller Utsatt roll. Den klassas för sig, oftast högre än objekten den bygger på. En Excelfil är förteckningens representation ([[C-085 Representation]]): den ger form åt sammanställningen, inte åt Yrkesroll.
+Fil: concepts/C-162 Sammanställning.md
+> Att förteckningen finns i ett enda exemplar gör den inte till en förekomst. Typen är det verksamheten talar om och ställer krav på. Förekomsten är listan som den ser ut just nu, och den skiljs från nästa version genom den identifierande uppgiften, versionsdatumet. Samma mönster gäller förteckningen över alla föreningars företrädare. Det gäller också en blankett: Ansökningsblankett är handlingstypen, den enskilda ansökan förekomsten (beslut 40).
+
+## Meningen om värsta fallet i Informationstillgång (C-166)
+Ärendet: "Informationstillgång (C-166) får en mening om värsta fallet."
+Fil: concepts/C-166 Informationstillgång.md
+> Nivån i en klass måste hålla för den förekomst av typen som ställer störst krav: det värsta fallet gäller. Det gäller också när nivån beror på värdet i en uppgift. [[C-060 Informationsobjekt]] säger vad verksamheten gör när nivån då blir för hög för de övriga förekomsterna.
+
+## Exemplet (docs/exempel/brinkstadsbostader.md)
+Ärendet: Yrkesroll, Utsatt roll och Förteckning över utsatta roller.
+Fil: docs/exempel/brinkstadsbostader.md
+> - **Yrkesroll**: de roller de anställda har hos bolaget, med uppgiften utsatt roll, ja eller nej, som skiljer de utsatta rollerna från de övriga. Först gäller värsta fallet: nivån i varje klass måste hålla för de utsatta rollerna.
+Fil: docs/exempel/brinkstadsbostader.md
+> - **Utsatt roll**: blir nivån för hög för de övriga rollerna, delar bolaget av de yrkesroller som är utsatta för hot, som den som handlägger avhysningar. Utsatt roll specialiserar då Yrkesroll, ärver dess uppgifter och lägger till typ av hot, skyddsåtgärd och datum för senaste bedömning. Uppgiften utsatt roll står kvar i Yrkesroll och skiljer de två objekten åt.
+Fil: docs/exempel/brinkstadsbostader.md
+> - **Förteckning över utsatta roller**: en sammanställning som aggregerar Yrkesroll eller Utsatt roll, klassad för sig och oftast högre. Den finns som en Excelfil, dess representation, och är ändå en typ: filen är listan som den ser ut nu, skild från nästa version genom den identifierande uppgiften, versionsdatumet.
+
+## Beslut 40 (rad 3, vem som beslutade)
+Ärendet: "Avgjort i samtal med Nicklas 2026-11-03; alternativet att öppna uppgift som elementtyp avvisades eftersom det skulle riva upp ADR 0018, 0024 och 0030 utan att behövas."
+Fil: docs/adr/0040-nivan-i-en-klass-beror-pa-vardet-i-en-uppgift-varsta-fallet-galler-eller-delmangden-blir-ett-eget-informationsobjekt-och-en-forteckning-i-ett-exemplar-ar-anda-en-typ.md
+> Beslutat av Nicklas 3 november 2026, i ett samtal. Han avvisade att öppna uppgiften som elementtyp, eftersom det skulle riva upp beslut 18, 24 och 30 utan att behövas.
+Fil: docs/adr/0040-nivan-i-en-klass-beror-pa-vardet-i-en-uppgift-varsta-fallet-galler-eller-delmangden-blir-ett-eget-informationsobjekt-och-en-forteckning-i-ett-exemplar-ar-anda-en-typ.md
+> - **Uppgiften som elementtyp.** Det skulle riva upp beslut 18, 24 och 30 utan att behövas. Avvisat.
+
+Read back (bas f1220e0): ingen av punkt 1, 2, 3 eller 4, ingen mening om värsta fallet i C-166, inget exempel och inget beslut 40 fanns; `git ls-tree f1220e0 docs/adr/ | grep -c 0040` gav 0.
+Read back (gren d9ea98e): punkt 1 i C-060 (Lagret ritar typer …) och C-166; punkt 2 i C-060; punkt 3 i C-060; punkt 4 i C-162 (typ och förekomst, förteckningen och Ansökningsblankett); exemplet i docs/exempel/brinkstadsbostader.md; beslut 40 i docs/adr/0040-….md.
+Check: `interlingua check .` ger `check: 204 files, no violations` på bas och gren; den läser inte texten under rubrikerna eller länkarna i den och visar inget rött (#135). Länkarna i de nya styckena, Värdemängd (C-197), specialiserar (C-063), Sammanställning (C-162), Representation (C-085), Informationsobjekt (C-060), pekar på filer som finns i concepts/.
