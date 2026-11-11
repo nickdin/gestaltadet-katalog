@@ -21,7 +21,11 @@ Verksamhetsaktiviteten är ett steg i ett verksamhetsbeteende ([[C-157 Verksamhe
 
 ## Motsvarigheter
 
-Det är det BPMN kallar Task i en process och CMMN kallar Task i ett ärende. En aktivitet som en roll ([[C-074 Roll]]) tilldelas är BPMN:s User Task och CMMN:s HumanTask; en som en applikationstjänst ([[C-128 Applikationstjänst]]) realiserar är BPMN:s Service Task. ArchiMate har ingen aktivitetstyp: en export skriver en verksamhetsaktivitet som Business Process, med skillnaden förlorad på vägen ut, och en import läser varje Business Process som verksamhetsprocess. I ARIS är den EPC:ns funktion (OT_FUNC). Beslut 22.
+ArchiMate har ingen aktivitetstyp: en export skriver en verksamhetsaktivitet som Business Process, med skillnaden förlorad på vägen ut, och en import läser varje Business Process som verksamhetsprocess. Beslut 22.
+
+I ARIS är verksamhetsaktiviteten EPC:ns funktion (OT_FUNC). Beslut 22.
+
+Verksamhetsaktiviteten är det BPMN kallar Task i en process och CMMN kallar Task i ett ärende. En aktivitet som en roll ([[C-074 Roll]]) tilldelas är BPMN:s User Task och CMMN:s HumanTask; en som en applikationstjänst ([[C-128 Applikationstjänst]]) realiserar är BPMN:s Service Task. Beslut 22.
 
 Motsvarar Action i Unified Modeling Language (UML) när en aktör i verksamheten utför den. Slaget av handling är text i aktiviteten, som BPMN:s uppgiftstyper. Beslut 29.
 

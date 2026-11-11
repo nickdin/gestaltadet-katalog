@@ -19,7 +19,7 @@ generic: "[[C-122 Resurs]]"
 
 ## Anmärkning
 
-Ett informationsobjekt är informationssidan av det verksamheten hanterar: ett verksamhetsobjekt ([[C-159 Verksamhetsobjekt]]) realiseras av ett eller flera informationsobjekt. Det är en typ i informationsperspektivet, ArchiMates Data Object. Begreppet som definierar objektet hör till katalogen, inte till arkitekturen: katalogen är organisationens ordlista, och begreppet ärende tas in där när arkitekturen namnger objektet Ärende (beslut 23). Beslut 16.
+Ett informationsobjekt är informationssidan av det verksamheten hanterar: ett verksamhetsobjekt ([[C-159 Verksamhetsobjekt]]) realiseras av ett eller flera informationsobjekt. Det är en typ i informationsperspektivet. Begreppet som definierar objektet hör till katalogen, inte till arkitekturen: katalogen är organisationens ordlista, och begreppet ärende tas in där när arkitekturen namnger objektet Ärende (beslut 23). Beslut 16.
 
 Ett informationsobjekt består av uppgifter ([[C-161 Uppgift]]), attributen. Uppgifterna ritas inuti rutan, inte som egna element, och varje uppgift som ritas har sitt begrepp i katalogen, som objektet självt (beslut 24). Informationsobjektet har inget eget tillstånd: en uppgift, statusfältet, bär verksamhetsobjektets tillstånd ([[C-182 Tillstånd]]) (beslut 24). Multipliciteten mellan två informationsobjekt, "ett ärende har exakt en sökande", står på relationen mellan dem, i dess beskrivning tills interlingua har fältet, och ritningarna visar den (beslut 23).
 
@@ -38,6 +38,8 @@ Ett informationsobjekt kan ha en datakategori ([[C-201 Datakategori]]): resursda
 Entitetstyp är informationsmodelleringens ord för samma sak: mallen, inte förekomsten. Person är en entitetstyp och ett informationsobjekt; en enskild företrädare i föreningsregistret är en entitet, ingen av delarna. Termen är tillåten så att katalogen svarar rätt när ordet används.
 
 ## Motsvarigheter
+
+Informationsobjektet är ArchiMates Data Object.
 
 SDMN (Shared Data Model and Notation), den datamodell BPMN, CMMN och DMN delar, kallar samma sak DataItem och dess struktur ItemDefinition; båda är informationsobjektet, strukturen dess uppgifter. Lagret är den delade datamodellen: SDMN är ett utbytesformat mellan verktygen, inget verktyg för informationsmodellering, och ett sådant verktyg får sina dataelement från lagrets informationsobjekt. Beslut 24.
 

@@ -25,9 +25,11 @@ Behovet är människornas eget och finns vare sig verksamheten möter det eller 
 
 Ett steg i en resa ([[C-147 Resa]]) är ett behov: CustomerJourneyStage i Business Architecture Core Metamodel (BACM) mappas hit. Dess CustomerSegment, vem kunden är och vad den känner vid steget, är text i målgruppen och behovet. Beslut 27.
 
+Value Delivery Modeling Language (VDML) har inget behov; mottagaren finns där bara som nöjdhet i värdeerbjudandet.
+
 Motsvarar EDGYs Task.
 
-Motsvarar Customer Job i Value Proposition Canvas, kunduppgiften, som står som alternativ term. Kanvasens ord och begrepp är fria att använda; det är dess form och text som är Strategyzers (beslut 28). Value Delivery Modeling Language (VDML) har inget behov; mottagaren finns där bara som nöjdhet i värdeerbjudandet.
+Motsvarar Customer Job i Value Proposition Canvas, kunduppgiften, som står som alternativ term. Kanvasens ord och begrepp är fria att använda; det är dess form och text som är Strategyzers (beslut 28).
 
 ## Exempel
 

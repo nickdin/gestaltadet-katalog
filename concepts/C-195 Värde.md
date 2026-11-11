@@ -25,7 +25,9 @@ Värdet realiseras av ([[C-094 realiseras av]]) värdeströmmen ([[C-190 Värdes
 
 ## Motsvarigheter
 
-Motsvarar ValueDefinition, ValuePropositionComponent och ValueAdd i Value Delivery Modeling Language (VDML): värdet som sort, sett från mottagaren och som en aktivitets bidrag. Motsvarar också ArchiMates Value, som får sin rad när ArchiMate-tabellen ses över. Beslut 28.
+Motsvarar ArchiMates Value, som får sin rad när ArchiMate-tabellen ses över. Beslut 28.
+
+Motsvarar ValueDefinition, ValuePropositionComponent och ValueAdd i Value Delivery Modeling Language (VDML): värdet som sort, sett från mottagaren och som en aktivitets bidrag. Beslut 28.
 
 ## Exempel
 
