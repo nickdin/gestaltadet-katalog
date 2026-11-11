@@ -39,7 +39,7 @@ Till representationen hör format och läsbarhet, märkningen av klassen, signer
 
 Tre åtgärder på representationen uppfyller behovet som informationsägaren satt på informationsobjektet ([[C-166 Informationstillgång]]): märkning, signering och format.
 
-Märkningen tjänar konfidentialiteten: den gör klassen synlig på formen. Klassen sätts på objektet, men den som håller dokumentet ser inte objektet. Representationen bär därför klassen själv, till exempel som "Intern" i sidfoten eller som känslighetsetikett på filen. Varje representation av samma objekt bär märket för sig.
+Märkningen tjänar konfidentialiteten: den gör nivån synlig på formen. Informationsägaren sätter nivån på objektet, men den som håller dokumentet ser inte objektet. Representationen bär därför nivån själv, till exempel som "Intern" i sidfoten eller som känslighetsetikett på filen. Varje representation av samma objekt bär märket för sig.
 
 Signeringen uppfyller riktigheten. Riktighet är ett behov på objektet och en åtgärd på representationen: elektronisk underskrift, lås, kontrollsumma eller versionshistorik med författare. Ett upprättat beslut visas vara myndighetens och oförändrat genom signaturen på representationen, inte genom databasen bakom. EU:s förordning eIDAS säger vilka elektroniska underskrifter som räknas.
 
