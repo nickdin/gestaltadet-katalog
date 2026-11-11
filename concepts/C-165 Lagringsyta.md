@@ -24,7 +24,7 @@ En applikation ([[C-071 Applikation]]) tillhandahåller en digital lagringsyta, 
 
 Ärendeakten som plats, ärendets mapp i ärendesystemet, är en lagringsyta. Det handläggningen hanterar, CMMN:s CaseFile, är verksamhetsobjektet ([[C-159 Verksamhetsobjekt]]), och pappersakten som bär information är en representation. Diariet är en lagringsyta, och diarieposten, datum, diarienummer, avsändare och vad handlingen rör, är ett informationsobjekt ([[C-060 Informationsobjekt]]) vars representation ligger där. Diarienumret är ärendets identifierande uppgift (beslut 31).
 
-Åtgärderna som uppfyller behovet på ytan är behörighet, säkerhetskopiering, redundans och loggning. De är skilda från representationens åtgärder: märkning, signering och format ([[C-085 Representation]]). Samma objekt kan ligga på två ytor med olika tillgänglighet.
+Åtgärderna som uppfyller behovet på ytan, och vilken klass var och en tjänar, står i [[C-166 Informationstillgång]]. De skiljer sig från representationens åtgärder ([[C-085 Representation]]).
 
 Motsvarar DataStoreNode i Unified Modeling Language (UML). Beslut 29.
 
