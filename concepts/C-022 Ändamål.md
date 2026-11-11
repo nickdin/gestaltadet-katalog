@@ -29,6 +29,8 @@ associative:
 
 Ett tillfälligt styrobjekt, som ett initiativ, har egna mål men inget eget ändamål: det tjänar ett ändamål hos det som det förändrar. Det ledningen lägger till, vision, inriktning och strategi, är nivåns egna styrmedel och blir intern påverkan ([[C-030 Intern påverkan]]) för nivån under.
 
+## Motsvarigheter
+
 Business Motivation Model saknar ändamålet: dess Goal är det ledningen valt, dess Mission är uppdraget, och inget av dess Ends är givet med uppdraget. Ändamålet är katalogens tillägg (beslut 25).
 
 ## Exempel

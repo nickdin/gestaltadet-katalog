@@ -29,7 +29,11 @@ Principen är ett ställningstagande med generalitet: den gäller alla val av en
 
 Principen står i en bärare ([[C-016 Bärare]]) som den med mandat ([[C-189 Mandat]]) fastställer: affärsplanen, verksamhetsplanen, en riktlinje. En arkitekturprincip ([[C-040 Arkitekturprincip]]) beslutas genom att ingå i en antagen referensarkitektur, som är dess bärare; bland arkitekturbeskrivningarna är det bara referensarkitekturen som fastställer principer. Arkitekturprincipen tar beskrivningens nivå, har ingen detaljeringsgrad och anger de perspektiv den gäller. Beslut 37. Markeringen `decided_by: [reference]` på Princip och Arkitekturprincip är en spärr, ingen relation: bland arkitekturbeskrivningarna får bara en referensarkitektur fastställa en princip, och en målarkitektur, nulägesarkitektur eller transitionsarkitektur som listar den visar att den gäller utan att fastställa den. Verksamhetens princip fastställs genom sin bärare, utanför beskrivningarna.
 
-Principen är SBVR:s och Business Motivation Models business policy: styrning som inte är direkt prövbar, finns för att vägleda och som regler härleds ur. Den som har mandat ([[C-189 Mandat]]) formulerar principen som svar på en bedömning ([[C-185 Bedömning]]) (beslut 23, beslut 25).
+Den som har mandat ([[C-189 Mandat]]) formulerar principen som svar på en bedömning ([[C-185 Bedömning]]) (beslut 23, beslut 25).
+
+## Motsvarigheter
+
+Principen är SBVR:s och Business Motivation Models business policy: styrning som inte är direkt prövbar, finns för att vägleda och som regler härleds ur.
 
 ## Exempel
 

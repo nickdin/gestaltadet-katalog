@@ -29,6 +29,8 @@ Produkten specialiseras på två sätt som korsar varandra. Efter var mottagaren
 
 Varorna i erbjudandet är varor ([[C-191 Vara]]), verksamhetsobjekt som blir mottagarens; tjänsterna är verksamhetstjänster ([[C-127 Verksamhetstjänst]]). Ingen sort säger vilketdera: en produkt blandar ofta, och innehållet syns i vad den aggregerar.
 
+## Motsvarigheter
+
 Motsvarar ArchiMates Product.
 
 ProductOffering i Business Architecture Core Metamodel (BACM), med MerchandiseOffering och ServiceOffering, mappas hit. Villkoren BACM lägger i erbjudandet står i överenskommelsen. Det verksamheten själv köper in, BACM:s OutsourcedServiceOffering och ProcurementOffering, är en överenskommelse ([[C-084 Överenskommelse]]) med en aktör som är leverantör till ([[C-155 är leverantör till]]). Beslut 27.

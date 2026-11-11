@@ -29,7 +29,11 @@ Ett vägval kan härledas ur ([[C-064 härleds ur]]) en bedömning ([[C-185 Bed�
 
 Myndighetsbeslut i ärenden avses inte. Beslutet i ett enskilt ärende är ett ärendebeslut ([[C-181 Ärendebeslut]]), ett verksamhetsobjekt, och regeln för hur det bestäms är en beslutslogik ([[C-178 Beslutslogik]]). Förledet styr- håller de tre isär; Beslut ensamt är tillåten term där sammanhanget är styrningens (beslut 22). Ordet är det arkitekter redan använder: ett arkitekturbeslut är ett beslut som ingår i en arkitektur, där det syns som arkitekturelement och relationerna mellan dem, och ISO 42010:2022 har begreppet architecture decision.
 
-**Avrådd term:** ställningstagande. I vardagsspråket är ett ställningstagande varje beslutad ståndpunkt, alltså alla styrmedel. Det SBVR kallar advice, rådet som bekräftar att en frihet finns, är ett styrbeslut när det alls skrivs ner: svaret på frågan om en regel ska finnas, när svaret blev nej (beslut 23).
+**Avrådd term:** ställningstagande. I vardagsspråket är ett ställningstagande varje beslutad ståndpunkt, alltså alla styrmedel.
+
+## Motsvarigheter
+
+Det SBVR kallar advice, rådet som bekräftar att en frihet finns, är ett styrbeslut när det alls skrivs ner: svaret på frågan om en regel ska finnas, när svaret blev nej (beslut 23).
 
 ## Exempel
 

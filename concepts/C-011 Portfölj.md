@@ -19,4 +19,6 @@ Portföljen är ett styrobjekt ([[C-003 Styrobjekt]]), se portföljstyrning ([[C
 
 Förvaltningsobjektet, lösningen ([[C-055 Lösning]]), ingår inte i portföljen; dess leveransprodukter ([[C-174 Leveransprodukt]]) gör det, och ramen går till den lösning som realiserar dem. Beslut 20.
 
+## Motsvarigheter
+
 ArchiMate har inget portföljelement, så typen står under `unmapped-concepts` i mappningstabellerna, som initiativet.

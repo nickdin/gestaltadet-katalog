@@ -28,6 +28,8 @@ Regler som anger vad något är, SBVR:s definitional rule, är inga styrmedel. E
 
 **Nödvändighet:** Varje regel har ett ursprung: en princip den härleds ur eller en påverkan den kommer direkt ur.
 
+## Motsvarigheter
+
 Motsvarar Constraint i Unified Modeling Language (UML) när villkoret säger vad som ska gälla i verksamheten, "sökanden är minst 18 år"; ett villkor som bara skyddar koden är applikationens insida. Beslut 29.
 
 ## Exempel
