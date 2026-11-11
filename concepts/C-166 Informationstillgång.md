@@ -36,4 +36,4 @@ Klassen är det enda av det regelverken vill veta som står i lagret. Den är in
 
 Föreningsregistret, förteckningen över alla företrädare, en enhets grupprum i SharePoint.
 
-Hyresavtal hos bostadsbolaget har hög tillgänglighet som behov, satt av uthyrningschefen. I hyressystemet uppfylls behovet av driftavtal och säkerhetskopiering. I en kopia i en handläggares Outlook uppfylls det inte alls.
+Hyresavtal hos bostadsbolaget har hög tillgänglighet som behov, satt av uthyrningschefen. I fastighetssystemet uppfylls behovet av driftavtal och säkerhetskopiering. I en kopia i en handläggares Outlook uppfylls det inte alls.
