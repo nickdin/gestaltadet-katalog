@@ -17,10 +17,14 @@ associative:
 
 **Definition:** egenskap hos det som styrs, som gäller tvärs över alla arkitekturperspektiv och som en styrning eller ett styrmedel tar sikte på
 
+## Anmärkning
+
+Aspekterna är en sluten lista som katalogen äger, och varje aspekt är ett eget begrepp. Inte att förväxla med perspektiv.
+
+## Motsvarigheter
+
+Inte att förväxla med ArchiMates aspekt (aktiv struktur, beteende, passiv struktur).
+
 ## Exempel
 
 säkerhet, juridik, ekonomi, struktur och sammanhang.
-
-## Anmärkning
-
-Aspekterna är en sluten lista som katalogen äger, och varje aspekt är ett eget begrepp. Inte att förväxla med perspektiv, eller med ArchiMates aspekt (aktiv struktur, beteende, passiv struktur).

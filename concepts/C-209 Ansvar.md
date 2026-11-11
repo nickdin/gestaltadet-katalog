@@ -34,7 +34,11 @@ Ansvaret kan inte bäras utan medel, för ingen kan svara för ett utfall den in
 - ett styrobjekt skuret så att besluten når det utfallet beror på, provet för ett snitt i Lösning ([[C-055 Lösning]]);
 - att utfallet prövas mot målet ([[C-017 Mål]]) genom en bedömning ([[C-185 Bedömning]]) som leder till styrbeslut ([[C-019 Styrbeslut]]).
 
-Saknas något av dem har rollen befogenheten men kan inte bära ansvaret. Det är vad som händer i pm3:s objektstyrning ([[C-048 Objektstyrning]]): objektägaren från verksamheten svarar för lösningen, IT håller ramen och forumet beslutar. Beslut 36.
+Saknas något av dem har rollen befogenheten men kan inte bära ansvaret. Beslut 36.
+
+## Motsvarigheter
+
+Det är vad som händer i pm3:s objektstyrning ([[C-048 Objektstyrning]]): objektägaren från verksamheten svarar för lösningen, IT håller ramen och forumet beslutar. Beslut 36.
 
 ## Exempel
 

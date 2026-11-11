@@ -24,7 +24,11 @@ Leveransprodukten realiseras av ([[C-094 realiseras av]]) sin lösning ([[C-055 
 
 De tjänster leveransprodukten erbjuder ger lösningen som helhet, människor, processer och system tillsammans. De registreras som verksamhetstjänster ([[C-127 Verksamhetstjänst]]); det är det IRM kallar förmågetjänst, inget eget begrepp.
 
-Registreras som produkt ([[C-014 Produkt]]). Det här är pm3:s leveransprodukt, tidigare objektprodukt, därav den andra termen; i förvaltningsorganisationers vardag heter den också förvaltningsprodukt. Beslut 20; axeln och tjänsterna beslut 21.
+Registreras som produkt ([[C-014 Produkt]]). Beslut 20; axeln och tjänsterna beslut 21.
+
+## Motsvarigheter
+
+Det här är pm3:s leveransprodukt, tidigare objektprodukt, därav den andra termen; i förvaltningsorganisationers vardag heter den också förvaltningsprodukt. Beslut 20; axeln och tjänsterna beslut 21.
 
 ## Exempel
 
