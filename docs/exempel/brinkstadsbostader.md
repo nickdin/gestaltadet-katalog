@@ -46,6 +46,9 @@ Beslutslogiken: kötid och uthyrningspolicyns villkor avgör vem som får en lä
 - **Underhållsplan**: vad som ska göras i varje byggnad och lägenhet och när.
 - **Mätvärde**: förbrukning av värme, el och vatten per byggnad och lägenhet, var timme.
 - **Bostadssökande**: den som står i kön, med kötid och önskemål.
+- **Yrkesroll**: de roller de anställda har hos bolaget, med uppgiften utsatt roll, ja eller nej. Nivån i varje klass måste hålla för de utsatta rollerna: det värsta fallet gäller.
+- **Utsatt roll**: de yrkesroller som är utsatta för hot, som den som verkställer avhysningar. Den specialiserar Yrkesroll, ärver dess uppgifter och lägger till typ av hot, skyddsåtgärd och datum för senaste bedömning. Bolaget hanterar dem för sig när nivån annars blir för hög för alla roller.
+- **Förteckning över utsatta roller**: en sammanställning av Utsatt roll, klassad för sig och högre. Den finns som en Excelfil, dess representation, och är ändå en typ: filen är listan som den ser ut nu, skild från nästa version genom versionsdatumet.
 
 Uthyrningschefen är informationsägare för Hyresgäst, Hyresavtal, Hyresfordran, Störningsärende och Bostadssökande. Teknisk chef är det för Fastighet, Byggnad, Lägenhet, Lokal, Underhållsplan och Mätvärde, och chefen för kundcenter för Felanmälan. Mätvärdena per lägenhet är känsligare än per byggnad: de visar när någon är hemma.
 
@@ -86,6 +89,7 @@ Bolaget står för det fysiska, kunden och tekniken. Hämta härifrån exempel p
 - lösning (C-055) med Felanmälan och dess lösningsägare, som håller ramen (C-210) och svarar för utfallet (C-209)
 - tät koppling (C-211) genom fastighetssystemets delade release
 - handläggning (C-160) med avhysningen
+- specialiserar (C-063) och sammanställning (C-162) med Utsatt roll och Förteckning över utsatta roller
 - initiativ (C-012) med stambytet
 - verksamhetsobjekt (C-159) och tillstånd (C-182) med lägenheten som ledig, erbjuden och uthyrd
 - målgrupp (C-145), behov (C-146), resa (C-147) och värdeerbjudande (C-148) med hyresgästen

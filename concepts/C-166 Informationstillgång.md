@@ -30,6 +30,8 @@ Den som känner CIA-modellen (på engelska confidentiality, integrity, availabil
 
 Uppfyllandet skiljer sig mellan klasserna. Konfidentialiteten följer innehållet vart det än tar vägen, så den prövas mot objektet och mot den behandling ([[C-168 Behandling]]) som görs. Riktighet, tillgänglighet och spårbarhet har var sin nivå på objektet, och behoven gäller alltid. De uppfylls av åtgärder, och åtgärderna görs inte på informationen. De görs på lagringsytan ([[C-165 Lagringsyta]]), i applikationen ([[C-071 Applikation]]) och på representationen ([[C-085 Representation]]). Varje åtgärd tjänar en klass. Behörighet och märkning tjänar konfidentialiteten: behörigheten på lagringsytan och i applikationen, märkningen på representationen. Validering och signering tjänar riktigheten. Säkerhetskopiering, redundans och format tjänar tillgängligheten. Loggning tjänar spårbarheten. Samma objekt kan ligga på två ytor med olika tillgänglighet.
 
+Nivån i en klass måste hålla för den känsligaste förekomsten av typen: det värsta fallet gäller. Det gäller också när nivån beror på värdet i en uppgift, och [[C-060 Informationsobjekt]] säger vad verksamheten gör när nivån då blir för hög för de övriga förekomsterna.
+
 Klassen är det enda av det regelverken vill veta som står i lagret. Den är informationsägarens beslut om informationen själv, och lagret räknar med den: ytan får det högst klassade objektets krav, området ger klassen nedåt (beslut 30), sammanställningen klassas för sig. Ändamål, rättslig grund, bevarande och gallring ([[C-200 Gallring]]) är beslut om vad som får göras med informationen. De står i förteckningarna utanför lagret, med lagret som anker (beslut 31).
 
 ## Exempel
