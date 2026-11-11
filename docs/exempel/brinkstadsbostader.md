@@ -46,9 +46,9 @@ Beslutslogiken: kötid och uthyrningspolicyns villkor avgör vem som får en lä
 - **Underhållsplan**: vad som ska göras i varje byggnad och lägenhet och när.
 - **Mätvärde**: förbrukning av värme, el och vatten per byggnad och lägenhet, var timme.
 - **Bostadssökande**: den som står i kön, med kötid och önskemål.
-- **Yrkesroll**: de roller de anställda har hos bolaget, med uppgiften utsatt roll, ja eller nej. Nivån i varje klass måste hålla för de utsatta rollerna: det värsta fallet gäller.
-- **Utsatt roll**: de yrkesroller som är utsatta för hot, som den som verkställer avhysningar. Den specialiserar Yrkesroll, ärver dess uppgifter och lägger till typ av hot, skyddsåtgärd och datum för senaste bedömning. Bolaget hanterar dem för sig när nivån annars blir för hög för alla roller.
-- **Förteckning över utsatta roller**: en sammanställning av Utsatt roll, klassad för sig och högre. Den finns som en Excelfil, dess representation, och är ändå en typ: filen är listan som den ser ut nu, skild från nästa version genom versionsdatumet.
+- **Yrkesroll**: de roller de anställda har hos bolaget, med uppgiften utsatt roll, ja eller nej, som skiljer de utsatta rollerna från de övriga. Först gäller värsta fallet: nivån i varje klass måste hålla för de utsatta rollerna.
+- **Utsatt roll**: blir nivån för hög för de övriga rollerna, delar bolaget av de yrkesroller som är utsatta för hot, som den som handlägger avhysningar. Utsatt roll specialiserar då Yrkesroll, ärver dess uppgifter och lägger till typ av hot, skyddsåtgärd och datum för senaste bedömning. Uppgiften utsatt roll står kvar i Yrkesroll och skiljer de två objekten åt.
+- **Förteckning över utsatta roller**: en sammanställning som aggregerar Yrkesroll eller Utsatt roll, klassad för sig och oftast högre. Den finns som en Excelfil, dess representation, och är ändå en typ: filen är listan som den ser ut nu, skild från nästa version genom den identifierande uppgiften, versionsdatumet.
 
 Uthyrningschefen är informationsägare för Hyresgäst, Hyresavtal, Hyresfordran, Störningsärende och Bostadssökande. Teknisk chef är det för Fastighet, Byggnad, Lägenhet, Lokal, Underhållsplan och Mätvärde, och chefen för kundcenter för Felanmälan. Mätvärdena per lägenhet är känsligare än per byggnad: de visar när någon är hemma.
 

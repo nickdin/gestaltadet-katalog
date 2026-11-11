@@ -1,6 +1,6 @@
 # Nivån i en klass beror på värdet i en uppgift: värsta fallet gäller, eller delmängden blir ett eget informationsobjekt, och en förteckning i ett exemplar är ändå en typ
 
-Beslutat av Nicklas 3 november 2026, i ett samtal, när han frågade om en uppgift måste bli ett eget element för att kunna klassas.
+Beslutat av Nicklas 3 november 2026, i ett samtal. Han avvisade att öppna uppgiften som elementtyp, eftersom det skulle riva upp beslut 18, 24 och 30 utan att behövas.
 
 ## Sammanhang
 
@@ -11,16 +11,13 @@ Katalogen svarade redan nej på frågan, men inte uttryckligen för det här fal
 ## Beslut
 
 - **Värsta fallet gäller.** Lagret ritar typer, och behovet sätts på typen. Nivån i varje klass måste hålla för varje förekomst, också de utsatta rollerna. Uppgiften utsatt roll är en vanlig uppgift med värdemängden ja och nej.
-- **Blir nivån för hög för de övriga förekomsterna, blir delmängden ett eget informationsobjekt.** Utsatt roll specialiserar Yrkesroll, ärver dess uppgifter och lägger till egna: typ av hot, skyddsåtgärd och datum för senaste bedömning. Uppgiften utsatt roll står kvar i Yrkesroll, eftersom den skiljer objekten åt. Golvet i beslut 30 gäller: det som regleras för sig är ett eget objekt. Tydligast är fallet när rollen placeras i en säkerhetsklass.
+- **Blir nivån för hög för de övriga förekomsterna, blir delmängden ett eget informationsobjekt.** Utsatt roll specialiserar Yrkesroll, ärver dess uppgifter och lägger till sina egna uppgifter, som typ av hot, skyddsåtgärd och datum för senaste bedömning (exemplet Brinkstadsbostäder visar dem). Uppgiften utsatt roll står kvar i Yrkesroll, eftersom den skiljer objekten åt. Golvet i beslut 30 gäller: det som regleras för sig är ett eget objekt. Tydligast är fallet när rollen placeras i en säkerhetsskyddsklass.
 - **Nivån sätts aldrig på uppgiften, och uppgiften blir aldrig ett eget element.**
-- **En förteckning som finns i ett enda exemplar är ändå en typ.** Förteckningen över utsatta roller är en sammanställning som aggregerar Yrkesroll eller Utsatt roll. Den klassas för sig, oftast högre. Excelfilen är dess representation och ger form åt sammanställningen, inte åt Yrkesroll. Typen är det verksamheten talar om och ställer krav på. Förekomsten är listan som den ser ut just nu, skild från nästa version genom den identifierande uppgiften.
+- **En förteckning som finns i ett enda exemplar är ändå en typ.** Förteckningen över utsatta roller är en sammanställning som aggregerar Yrkesroll eller Utsatt roll. Den klassas för sig, oftast högre. Excelfilen är dess representation och ger form åt sammanställningen, inte åt Yrkesroll. Typen är det verksamheten talar om och ställer krav på. Förekomsten är listan som den ser ut just nu, skild från nästa version genom den identifierande uppgiften, versionsdatumet.
 
 ## Övervägda alternativ
 
-- **Uppgiften som elementtyp, så att den kan få en egen klass.** Det river upp beslut 18, 24 och 30 utan att behövas: delmängden går att hantera som ett eget informationsobjekt. Avvisat.
-- **Klass på uppgiften, utan att den blir element.** Behovet sätts då på något som inte är en typ med ägare och förekomster, och informationsägaren kan inte besluta om det. Avvisat.
-- **Dela alltid objektet i två, ett för de vanliga och ett för de särskilda förekomsterna.** Det ger fler objekt än verksamheten talar om. Avvisat: delningen görs bara när nivån annars blir för hög för de övriga.
-- **Förteckningen i ett exemplar som en förekomst av Yrkesroll.** Förteckningen är något annat än en roll: den är det verksamheten ställer krav på. Avvisat.
+- **Uppgiften som elementtyp.** Det skulle riva upp beslut 18, 24 och 30 utan att behövas. Avvisat.
 
 ## Konsekvenser
 
