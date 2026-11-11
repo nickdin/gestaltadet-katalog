@@ -17,7 +17,11 @@ associative:
 
 ## Anmärkning
 
-Det ett initiativ ([[C-012 Initiativ]]) lämnar ifrån sig är nästan alltid redan ett element: en applikation, en process, en riktlinje som bärare. Leverabeln är ett begrepp, ingen egen typ: den registreras som det element den blir, och initiativet påverkar ([[C-102 påverkar]]) eller, i en målbild, ersätter ([[C-104 ersätter]]) det elementet. ArchiMates Deliverable har därför ingen motsvarande ruta här. Leverabel ersätter ordet produktmål. Beslut 19.
+Det ett initiativ ([[C-012 Initiativ]]) lämnar ifrån sig är nästan alltid redan ett element: en applikation, en process, en riktlinje som bärare. Leverabeln är ett begrepp, ingen egen typ: den registreras som det element den blir, och initiativet påverkar ([[C-102 påverkar]]) eller, i en målbild, ersätter ([[C-104 ersätter]]) det elementet. Leverabel ersätter ordet produktmål. Beslut 19.
+
+## Motsvarigheter
+
+ArchiMates Deliverable har därför ingen motsvarande ruta här. Beslut 19.
 
 ## Exempel
 

@@ -34,6 +34,8 @@ Ett informationsområde ([[C-198 Informationsområde]]) samlar också informatio
 
 Den potentiella handlingen i tryckfrihetsförordningen 2 kap. 6 §, en sammanställning av uppgifter som myndigheten kan göra med rutinbetonade åtgärder, är en sammanställning utan representation ännu. Ett registerutdrag och en fil för dataportabilitet är sammanställningar myndigheten upprättar på begäran, med formatkravet på representationen ([[C-085 Representation]]). Arkivredovisningen ordnar handlingen under den process som upprättade den, samma regel som ägandet (beslut 31, avgjort i beslut 35).
 
+## Motsvarigheter
+
 SDMN:s isCollection, flera av samma, är en sammanställning först när verksamheten hanterar samlingen som en enhet för ett ändamål, som förteckningen över alla företrädare; annars är "flera" bara många-änden på relationen mellan informationsobjekten (beslut 23).
 
 ## Exempel

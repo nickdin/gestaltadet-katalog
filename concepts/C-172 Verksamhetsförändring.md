@@ -21,4 +21,6 @@ associative:
 
 Förändringen är skillnaden mellan två beskrivningar av samma styrobjekt, nuläget och målbilden: det ersätter-relationerna ([[C-104 ersätter]]) och gapanalysen räknar fram. Den är ett begrepp, ingen egen typ, och ritas inte som element. Den är en effekt ([[C-024 Effekt]]) och prövas mot effektmålet ([[C-170 Effektmål]]); den ersätter inte målet. Ett initiativ ([[C-012 Initiativ]]) åstadkommer den genom de verksamhetsförmågor ([[C-069 Verksamhetsförmåga]]) det utvecklar. Beslut 19.
 
+## Motsvarigheter
+
 Motsvarar Change i Business Architecture Core Metamodel (BACM), det läge ett initiativ väntas ge. Beslut 27.

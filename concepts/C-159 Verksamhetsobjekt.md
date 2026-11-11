@@ -24,13 +24,15 @@ Ett beteende når ett verksamhetsobjekt med relationen har åtkomst till ([[C-10
 
 Ett verksamhetsobjekt består av ([[C-062 består av]]) sina tillstånd ([[C-182 Tillstånd]]), de lägen beteendet för det igenom. Tillstånden ritas i en tillståndsvy per objekt, och informationsobjektet bär tillståndet som en uppgift. En fysisk sak processen hanterar utan informationssida, SDMN:s Physical, är ett verksamhetsobjekt; bär den information, den utskrivna blanketten, är den en representation ([[C-085 Representation]]).
 
+## Motsvarigheter
+
 Motsvarar ArchiMates Business Object. BPMN:s dataobjekt och CMMN:s ärendeakt (CaseFile, CaseFileItem) är verksamhetsobjekt. Beslut 16; ärendebeslutet beslut 22; tillståndet som elementtyp och SDMN beslut 24.
 
 Motsvarar BusinessObject i Business Architecture Core Metamodel (BACM). Lagret drar gränsen mot informationsobjektet efter roll: vad beteendet hanterar mot vad verksamheten håller som information. BACM drar den efter påtaglighet, så ett ärende är ett verksamhetsobjekt här och en InformationItem där. En vara ([[C-191 Vara]]) är ett verksamhetsobjekt som lämnas över till mottagaren. Beslut 27.
 
-Motsvarar BusinessItem i Value Delivery Modeling Language (VDML): allt som kan skapas eller skaffas och bär information, förpliktelse eller värde. Det som används upp eller lånas i en aktivitet är en resurs ([[C-122 Resurs]]). Beslut 28.
-
 I Unified Modeling Language (UML) är verksamhetsobjektet aktivitetsdiagrammets objekt (ObjectNode, Pin), det som flödar mellan två element (InformationItem) och den klass vars tillståndsmaskin ritas. Klassen i klassdiagrammet är informationsobjektet som realiserar det. Beslut 29.
+
+Motsvarar BusinessItem i Value Delivery Modeling Language (VDML): allt som kan skapas eller skaffas och bär information, förpliktelse eller värde. Det som används upp eller lånas i en aktivitet är en resurs ([[C-122 Resurs]]). Beslut 28.
 
 ## Exempel
 

@@ -26,6 +26,8 @@ En applikation ([[C-071 Applikation]]) tillhandahåller en digital lagringsyta, 
 
 Åtgärderna som uppfyller behovet på ytan, och vilken klass var och en tjänar, står i [[C-166 Informationstillgång]]. De skiljer sig från representationens åtgärder ([[C-085 Representation]]).
 
+## Motsvarigheter
+
 Motsvarar DataStoreNode i Unified Modeling Language (UML). Beslut 29.
 
 ## Exempel
