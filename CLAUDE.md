@@ -22,6 +22,15 @@ Ett id säger Nicklas ingenting ensamt: skriv alltid termen vid det, "Uppdrag (C
 
 All text som skrivs här, anmärkningar, beslut, exempel och ordlistan, skrivs i klarspråk med `klarsprak`-skillen: det viktigaste först, ett ämne per stycke, en tanke per mening, aktören utsatt, samma ord för samma sak. Nivån är Lösning (C-055) efter #42. En text som skrivs under en grillning skrivs om innan den checkas in; definitionerna rörs inte utan egen grillning.
 
+## Vem som skrivit texten
+
+Varje text på gestaltadet.se har ett av fyra lägen (ADR 0039): skriven av Nicklas; skriven av Nicklas, redigerad av AI och godkänd; skriven av AI, granskad och godkänd av Nicklas; skriven av AI, inte granskad.
+
+- Bara Nicklas godkänner, en namngiven text i taget. Skriv in godkännandet med datum när han pekat ut texten. Märk aldrig något som godkänt på eget initiativ.
+- Ny text från Claude är alltid "skriven av AI, inte granskad".
+- Varje ordändring av Claude i en godkänd text tar bort godkännandet, även ett kommatecken. Säg det innan du ändrar i en godkänd text. Två ändringar tar inte bort det: att texten flyttas eller får en ändrad länk, och ett exakt byte av ett ord mot ett annat som Nicklas beställt.
+- Läsaren möter ordet beslut, inte ADR: "beslut 25". Ett nytt besluts första rad säger för läsaren vem som beslutade, när och varför.
+
 ## Grillningar
 
 Varje fråga i en grillning bär ett konkret exempel i själva dialogen, hämtat ur de två exempelorganisationerna. Nicklas avgör frågan på fallet, inte på principen. Exemplen skrivs in i filerna först när svaret är givet.
