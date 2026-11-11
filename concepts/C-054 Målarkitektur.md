@@ -17,10 +17,6 @@ associative:
 
 **Definition:** arkitekturbeskrivning som avser tidsperspektivet målläge och uttrycker den avsedda arkitekturen hos ett arkitekturobjekt
 
-## Exempel
-
-verksamhetens målarkitektur; målarkitekturen för en verksamhetsdomän; målarkitekturen för en lösning.
-
 ## Anmärkning
 
 Ett arkitekturobjekt har högst en målarkitektur, och arkitekturen realiseras enligt den. På vägen dit har objektet noll eller flera transitionsarkitekturer. Domänens målarkitektur förfinar verksamhetens, prövas mot den och använder dess arkitekturelement; det binder nivåerna ihop.
@@ -31,4 +27,12 @@ Målarkitekturen skiljer sig från referensarkitekturen, som uttrycker de allmä
 
 Som dokument är målarkitekturen en bärare ([[C-016 Bärare]]): målen och kraven står i den. Principerna står i referensarkitekturen; mål och krav är ändå inga delar av arkitekturen.
 
-Målbild och viljeinriktning används som synonymer. TOGAF: target architecture; finns inte i ISO 42010.
+Målbild och viljeinriktning används som synonymer.
+
+## Motsvarigheter
+
+TOGAF: target architecture; finns inte i ISO 42010.
+
+## Exempel
+
+verksamhetens målarkitektur; målarkitekturen för en verksamhetsdomän; målarkitekturen för en lösning.

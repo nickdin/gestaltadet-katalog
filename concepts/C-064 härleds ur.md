@@ -17,4 +17,6 @@ key: derived_from
 
 Relationen går från det härledda elementet till ursprunget.
 
+## Motsvarigheter
+
 Motsvarar «derive» i Unified Modeling Language (UML). Beslut 29.

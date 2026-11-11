@@ -37,6 +37,8 @@ Ett informationsobjekt kan ha en datakategori ([[C-201 Datakategori]]): resursda
 
 Entitetstyp är informationsmodelleringens ord för samma sak: mallen, inte förekomsten. Person är en entitetstyp och ett informationsobjekt; en enskild företrädare i föreningsregistret är en entitet, ingen av delarna. Termen är tillåten så att katalogen svarar rätt när ordet används.
 
+## Motsvarigheter
+
 SDMN (Shared Data Model and Notation), den datamodell BPMN, CMMN och DMN delar, kallar samma sak DataItem och dess struktur ItemDefinition; båda är informationsobjektet, strukturen dess uppgifter. Lagret är den delade datamodellen: SDMN är ett utbytesformat mellan verktygen, inget verktyg för informationsmodellering, och ett sådant verktyg får sina dataelement från lagrets informationsobjekt. Beslut 24.
 
 Motsvarar Class i Unified Modeling Language (UML): klassdiagrammet är informationsmodellen, attributen (Property) uppgifter och en Enumeration en värdemängd ([[C-197 Värdemängd]]). Klassen i klassdiagrammet är alltid informationsobjektet. Den klass vars tillståndsmaskin ritas är det verksamhetsobjekt informationsobjektet realiserar, och aktivitetsdiagrammets objekt är verksamhetsobjektet. Beslut 29.

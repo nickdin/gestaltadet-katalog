@@ -20,7 +20,11 @@ Målet ([[C-017 Mål]]) sätts på förmågan, ramen på de lösningar ([[C-055 
 
 Förmågan har ingen relation till informationen. Den information som hör till förmågan läses genom lösningen som realiserar den och de informationsområden ([[C-198 Informationsområde]]) lösningen aggregerar. Ett informationsområde hör hemma i förmågan där dess förekomster skapas; andra förmågor har beroenden till det, lästa ur sina lösningar och beteenden. Beslut 30.
 
-ArchiMates Capability hör till strategilagret, utanför den kärna mappningstabellen för ArchiMate täcker; se unmapped-concepts. Namnet säger att förmågan är verksamhetens; typen hör till strategiperspektivet.
+Namnet säger att förmågan är verksamhetens; typen hör till strategiperspektivet.
+
+## Motsvarigheter
+
+ArchiMates Capability hör till strategilagret, utanför den kärna mappningstabellen för ArchiMate täcker; se unmapped-concepts.
 
 Business Architecture Core Metamodel (BACM) definierar Capability på samma sätt: förmågan att producera ett utfall utan att säga hur. Dess CapabilityBehavior är det verksamhetsbeteende som realiserar förmågan, och dess CapabilityImplementation är lösningen. En värdeström ([[C-190 Värdeström]]) använder ([[C-095 använder]]) de förmågor dess steg förutsätter: förmågan är en möjlighet, det som pågår i steget är processen. Beslut 27.
 

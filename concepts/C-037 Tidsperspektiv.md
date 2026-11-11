@@ -13,4 +13,8 @@ definition: "egenskap hos en arkitekturbeskrivning som anger om den avser nuläg
 
 ## Anmärkning
 
-Målläget är det längst bort artikulerade avsedda läget. En beskrivning i målläge är en målarkitektur ([[C-054 Målarkitektur]]). En daterad beskrivning före målläget avser transition ([[C-056 Transitionsarkitektur]]). Tidsperspektivet kommer från TOGAF och finns inte i ISO 42010.
+Målläget är det längst bort artikulerade avsedda läget. En beskrivning i målläge är en målarkitektur ([[C-054 Målarkitektur]]). En daterad beskrivning före målläget avser transition ([[C-056 Transitionsarkitektur]]).
+
+## Motsvarigheter
+
+Tidsperspektivet kommer från TOGAF och finns inte i ISO 42010.

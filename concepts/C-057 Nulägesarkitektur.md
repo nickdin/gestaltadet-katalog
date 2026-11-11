@@ -14,4 +14,8 @@ generic: "[[C-035 Arkitekturbeskrivning]]"
 
 ## Anmärkning
 
-Fjärde typen av arkitekturbeskrivning, bredvid referens-, mål- och transitionsarkitekturen. Ett arkitekturobjekt har högst en nulägesarkitektur åt gången; den ersätts när en ny beskrivning av samma nuläge görs. TOGAF: baseline architecture; finns inte i ISO 42010.
+Fjärde typen av arkitekturbeskrivning, bredvid referens-, mål- och transitionsarkitekturen. Ett arkitekturobjekt har högst en nulägesarkitektur åt gången; den ersätts när en ny beskrivning av samma nuläge görs.
+
+## Motsvarigheter
+
+TOGAF: baseline architecture; finns inte i ISO 42010.
