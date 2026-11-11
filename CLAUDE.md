@@ -53,6 +53,8 @@ En session här får bocka av och skriva i valvanteckningen `2. Områden/Gestalt
 
 `~/Devbox/interlingua/.venv/bin/interlingua check .` kontrollerar lagret och ska sluta `no violations`.
 
+`check` går igenom även före en ändring. Den bevisar därför aldrig ensam att en ruta om något som ändrats är uppfylld. En sådan ruta får ett prov som ger ett annat svar på basen än på grenen, sparat under `docs/acceptance-shots/`.
+
 Interlinguas skrivande kommandon vägrar köra när arbetskopian har ändringar som inte är committade. Committa därför varje steg innan nästa kommando (sett i tre sessioner, 2026-11-02 till 2026-11-05).
 
 ## Synk och publicering
