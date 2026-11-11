@@ -14,6 +14,8 @@ kind: element-type
 
 ## Anmärkning
 
+## Motsvarigheter
+
 Motsvarar ArchiMates Path.
 
 Motsvarar CommunicationPath i Unified Modeling Language (UML), länken mellan två noder. Beslut 29.

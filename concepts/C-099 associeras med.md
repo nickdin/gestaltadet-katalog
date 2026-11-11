@@ -15,6 +15,10 @@ key: associated_with
 
 ## Anmärkning
 
-Symmetrisk relation; vilketdera elementet den står på är godtyckligt. Motsvarar ArchiMates Association.
+Symmetrisk relation; vilketdera elementet den står på är godtyckligt.
+
+## Motsvarigheter
+
+Motsvarar ArchiMates Association.
 
 Motsvarar Association i Unified Modeling Language (UML), med multipliciteten i beskrivningen (beslut 23) och rollnamn och riktning som text, och Dependency utan stereotyp. Beslut 29.

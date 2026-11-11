@@ -15,6 +15,10 @@ key: triggers
 
 ## Anmärkning
 
-Relationen går från det startande elementet till det startade. Motsvarar ArchiMates Triggering.
+Relationen går från det startande elementet till det startade.
+
+## Motsvarigheter
+
+Motsvarar ArchiMates Triggering.
 
 Motsvarar Transition i en tillståndsmaskin och ControlFlow i en aktivitet i Unified Modeling Language (UML); händelsen på övergången utlöser tillståndet den leder till. Beslut 29.

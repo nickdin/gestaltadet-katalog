@@ -16,6 +16,10 @@ realisation: true
 
 ## Anmärkning
 
-Relationen går från det förverkligade elementet till förverkligaren. Motsvarar ArchiMates Realization.
+Relationen går från det förverkligade elementet till förverkligaren.
+
+## Motsvarigheter
+
+Motsvarar ArchiMates Realization.
 
 Motsvarar Realization, ComponentRealization och Manifestation i Unified Modeling Language (UML), riktningen vänd. Beslut 29.

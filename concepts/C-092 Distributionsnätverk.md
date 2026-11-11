@@ -15,4 +15,6 @@ generic: "[[C-122 Resurs]]"
 
 ## Anmärkning
 
+## Motsvarigheter
+
 Motsvarar ArchiMates Distribution Network.
