@@ -1,0 +1,30 @@
+#27 — Motsvarigheterna får rubriken ## Motsvarigheter. Grenen issue-27-motsvarigheter mot basen 356343d, samma skript på båda.
+
+Skriptet läser varje begreppsfil i concepts/ och räknar de fyra första rutorna i ärendet. Det kördes på en kopia av basen (git archive 356343d) och på grenens topp.
+
+If wrong (om arbetet var fel): grenens rad för filer med rubriken Motsvarigheter blir lägre än basens antal filer med en mening som börjar Motsvarar (85), eller raden för meningar som börjar Motsvarar i Anmärkning blir över 0, eller en fil står i fel läge eller i fel ordning. Basen visar då samma siffror som grenen.
+
+## Bas 356343d
+files with Motsvarigheter heading: 0
+  of them empty: 0
+  of them placed after Anmärkning and before Exempel: 0
+files whose Anmärkning has a sentence beginning Motsvarar: 85
+files whose Motsvarigheter paragraphs break the fixed order: 0 []
+
+## Gren issue-27-motsvarigheter
+files with Motsvarigheter heading: 108
+  of them empty: 0
+  of them placed after Anmärkning and before Exempel: 108
+files whose Anmärkning has a sentence beginning Motsvarar: 0
+files whose Motsvarigheter paragraphs break the fixed order: 0 []
+
+## SKOS för realiseras av (C-094)
+Kommando: interlingua export skos <katalog> --out <fil>.rdf; raden för C-094 ur filen.
+Bas:
+    <skos:scopeNote xml:lang="sv">Relationen går från det förverkligade elementet till förverkligaren. Motsvarar ArchiMates Realization. Motsvarar Realization, ComponentRealization och Manifestation i Unified Modeling Language (UML), riktningen vänd. Beslut 29.</skos:scopeNote>
+Gren:
+    <skos:scopeNote xml:lang="sv">Relationen går från det förverkligade elementet till förverkligaren.</skos:scopeNote>
+    <skos:note xml:lang="sv">Motsvarar ArchiMates Realization. Motsvarar Realization, ComponentRealization och Manifestation i Unified Modeling Language (UML), riktningen vänd. Beslut 29.</skos:note>
+
+Read back (SKOS): på basen ligger motsvarigheterna inne i skos:scopeNote tillsammans med det allmänna; på grenen är de en egen skos:note och scopeNote bär bara det allmänna, alltså tar SKOS-filen med avsnittet.
+Read back (rutorna): grenens siffror ovan: 108 filer med rubriken, 0 tomma, 108 rätt placerade, 0 Anmärkningar med mening som börjar Motsvarar, 0 filer i fel ordning; basen 0, 0, 0, 85, 0.
