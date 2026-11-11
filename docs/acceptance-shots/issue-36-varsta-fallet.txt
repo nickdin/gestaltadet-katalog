@@ -2,7 +2,7 @@
 
 Varje punkt står som ärendets mening, sedan filen och meningen på grenens topp, citerad hel. Ett `grep -c` bevisar ingenting här: läsningen visar att meningen säger punkten, inte att en sträng finns.
 
-If wrong [om en punkt saknas eller säger motsatsen]: det finns ingen mening att citera under punkten, eller den citerade meningen säger emot punkten (till exempel att nivån sätts på uppgiften, att förteckningen är en förekomst, eller att värsta fallet inte gäller). Läsaren ser det direkt av att ställa de två texterna bredvid varandra.
+If wrong (om en punkt saknas eller säger motsatsen): det finns ingen mening att citera under punkten, eller den citerade meningen säger emot punkten (till exempel att nivån sätts på uppgiften, att förteckningen är en förekomst, eller att värsta fallet inte gäller). Läsaren ser det direkt av att ställa de två texterna bredvid varandra.
 
 ## Punkt 1 — värsta fallet gäller för typen
 Ärendet: "Lagret ritar typer, och klassen sitter på typen. Klassen för Yrkesroll måste hålla för varje förekomst, också de utsatta: värsta fallet gäller. Uppgiften utsatt roll är en vanlig uppgift med värdemängden (C-197) ja/nej."
