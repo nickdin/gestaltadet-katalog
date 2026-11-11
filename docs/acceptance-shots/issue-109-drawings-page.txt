@@ -1,0 +1,20 @@
+Ticket #109: drawings page written by publish, from a publish of the base 356343d and of the branch into the scratchpad.
+
+Command 1: find layout -name '*.drawio.svg' | wc -l ; and the same with -maxdepth 1 (drawings lying directly in layout/)
+Base 356343d: total 18, directly in layout/ 18
+Branch: total 18, directly in layout/ 0
+
+Command 2: interlingua publish . <scratchpad folder>, then ls <folder>/drawings
+Base 356343d (no drawings: key in settings.yaml): exit 0; drawings/index.html is missing: ls: cannot access 'base-out/drawings': No such file or directory
+Branch: exit 0; ls drawings -> index.html
+
+Command 3: grep -o '<h[1-6][^>]*>[^<]*</h[1-6]>' drawings/index.html, the h2 headings in order
+Branch h2: Styrning,Arkitektur,Principer,Information
+Branch h3 (drawings): 18; h3 with a hyphen: 0
+
+Command 4: grep -rl 'Visas i ritningarna' <folder> | wc -l, and the Styrobjekt (C-003) page file/C-003/index.html
+Base: 0 pages
+Branch: 77 pages; C-003 has it: 1
+
+If wrong (the drawings stayed in layout/ or drawings: was ignored): the branch count directly in layout/ would be 18, drawings/index.html would be missing as on the base, and no concept page would carry Visas i ritningarna.
+Read back (branch): 18 drawings in total and 0 directly in layout/; drawings/index.html exists with the headings Styrning, Arkitektur, Principer, Information and 18 drawing headings, none with a hyphen; 77 pages, among them Styrobjekt (C-003), carry Visas i ritningarna. Base: no drawings page and 0 such pages.
