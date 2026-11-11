@@ -15,4 +15,6 @@ generic: "[[C-075 Tjänst]]"
 
 ## Anmärkning
 
+## Motsvarigheter
+
 Motsvarar ArchiMates Technology Service.

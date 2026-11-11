@@ -15,6 +15,8 @@ generic: "[[C-075 Tjänst]]"
 
 ## Anmärkning
 
+## Motsvarigheter
+
 Motsvarar ArchiMates Application Service.
 
 Motsvarar UseCase i Unified Modeling Language (UML) när subjektet är en applikation: användningsfallets namn är tjänsten, dess händelseflöde beteendet som realiserar den. Beslut 29.

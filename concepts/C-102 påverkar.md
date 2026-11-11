@@ -15,4 +15,8 @@ key: influences
 
 ## Anmärkning
 
-Relationen går från det påverkande elementet till det påverkade. Motsvarar ArchiMates Influence.
+Relationen går från det påverkande elementet till det påverkade.
+
+## Motsvarigheter
+
+Motsvarar ArchiMates Influence.

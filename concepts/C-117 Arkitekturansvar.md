@@ -17,12 +17,16 @@ generic: '[[C-209 Ansvar]]'
 
 **Definition:** ansvar som ett team bär för ett eller flera perspektiv hos ett eller flera arkitekturobjekt och som ger ägarskap över de vyer och principer som hör till dem
 
-## Exempel
-
-"Ett team i Verksamhetsstöd bär informationsperspektivet för bidragsgivningen."
-
 ## Anmärkning
 
 Arkitekturansvaret är ett ansvar ([[C-209 Ansvar]]) för vyerna och principerna, inte för arkitekturobjektet självt. Den som har mandatet ([[C-189 Mandat]]) över arkitekturobjektet äger det. Beslut 36.
 
-Arkitekturansvaret är inte en arkitekturdomän: en domän har ett eget uppdrag, medan arkitekturarbete tjänar någon annans. Det är inte heller TOGAFs architecture domain, som är vad den här katalogen kallar ett perspektiv.
+Arkitekturansvaret är inte en arkitekturdomän: en domän har ett eget uppdrag, medan arkitekturarbete tjänar någon annans.
+
+## Motsvarigheter
+
+Det är inte heller TOGAFs architecture domain, som är vad den här katalogen kallar ett perspektiv.
+
+## Exempel
+
+"Ett team i Verksamhetsstöd bär informationsperspektivet för bidragsgivningen."

@@ -15,4 +15,8 @@ key: replaces
 
 ## Anmärkning
 
-Relationen går från det nya elementet till det element som tas över. Ingen ArchiMate-kärnrelation täcker den; se unmapped-concepts.
+Relationen går från det nya elementet till det element som tas över.
+
+## Motsvarigheter
+
+Ingen ArchiMate-kärnrelation täcker den; se unmapped-concepts.
