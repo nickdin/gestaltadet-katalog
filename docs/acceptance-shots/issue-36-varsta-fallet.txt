@@ -1,0 +1,8 @@
+#36 — Nivån beror på värdet i en uppgift: värsta fallet gäller (beslut 40). Körd av våg 2, 2026-11-11.
+
+Fixtur: de fem nya meningarna i Informationsobjekt (C-060), Informationstillgång (C-166), Sammanställning (C-162), exemplet Brinkstadsbostäder och beslut 40, sökta med `grep -c` på bas f1220e0 (`git show f1220e0:<fil>`) och på grenen.
+
+If wrong: utan texten ger `grep -c` 0 träffar i de tre begreppsfilerna och i exemplet, och beslut 40 saknas i basens `docs/adr/`.
+Read back (bas f1220e0): C-060 "Behovet sätts på typen"=0, "Utsatt roll blir då ett eget"=0, "aldrig ett eget element"=0. C-166 "värsta fallet gäller"=0. C-162 "enda exemplar"=0. Exemplet "Förteckning över utsatta roller"=0. `git ls-tree f1220e0 docs/adr/ | grep -c 0040`=0.
+Read back (gren 9d02f31): C-060 "Behovet sätts på typen"=1, "Utsatt roll blir då ett eget"=1, "aldrig ett eget element"=1. C-166 "värsta fallet gäller"=1. C-162 "enda exemplar"=1. Exemplet "Förteckning över utsatta roller"=2. `ls docs/adr/0040-*`: 1 fil.
+Check: `interlingua check .` ger `check: 204 files, no violations` på både bas och gren; den visar inget rött.
