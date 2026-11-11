@@ -1,0 +1,10 @@
+#33 — Aggregerar (C-100) markeras aggregation: true. Kört av våg 2, 2026-11-11.
+
+Fixtur: en kopia av lagret i vågens scratchpad, utcheckad på f1220e0. Processen E-0161 Hyra har åtkomst till (C-101) informationsobjektet E-0162 Avtal (R-0023), och Avtal aggregerar (C-100) informationsobjektet E-0163 Avtalsbilaga (R-0024). Hyra har ingen åtkomst till Avtalsbilaga. Bara concepts/C-100 aggregerar.md byttes mellan körningarna.
+Kommando: interlingua check <kopian> --gaps
+
+If wrong: utan aggregation: true vet programmet inte vilken relationstyp som är aggregering och listar ingen möjlig åtkomst till Avtalsbilaga.
+Read back (bas f1220e0): check: 209 files, no violations; ingen rad om E-0163 Avtalsbilaga.
+Read back (gren b1f2696): elements/E-0161 Hyra.md: is a gap: 'E-0161 Hyra' has access to 'E-0162 Avtal', which aggregates 'E-0163 Avtalsbilaga', and no access to 'E-0163 Avtalsbilaga': a possible access to confirm
+
+Stavfel i samma ruta (aggregaton: true i kopian): concepts/C-100 aggregerar.md: unknown front-matter key 'aggregaton'
