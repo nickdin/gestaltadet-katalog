@@ -7,8 +7,8 @@
 # under /katalog/; roten är startsidan (.github/pages/index.html, #16), som läser
 # katalogens två stilmallar under katalog/static/ (docs/grafisk-profil.md,
 # "Hur profilen når sidorna").
-# Ritningarna i layout/ pekar ingen katalogfil på, så publish skriver dem inte:
-# de kopieras till /ritningar/ bredvid sin egen sida (.github/pages/ritningar/).
+# Ritningarna i layout/ och deras sida, katalog/drawings/, skriver publish själv
+# ur de mappar som drawings: i settings.yaml räknar upp (#109).
 name: Publicera katalogen
 
 on:
@@ -52,8 +52,6 @@ jobs:
         run: |
           interlingua publish . "$RUNNER_TEMP/site/katalog"
           cp .github/pages/index.html "$RUNNER_TEMP/site/index.html"
-          mkdir "$RUNNER_TEMP/site/ritningar"
-          cp .github/pages/ritningar/index.html layout/*.drawio.svg "$RUNNER_TEMP/site/ritningar/"
 
       - uses: actions/upload-pages-artifact@v5
         with:

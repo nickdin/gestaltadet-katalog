@@ -39,7 +39,7 @@ Varje fråga i en grillning bär ett konkret exempel i själva dialogen, hämtat
 
 En pil i en ritning i `layout/` som saknar relation i lagret tas inte bort. Lämna pilen och lägg ett `question`-ärende; Nicklas värderar om lagret eller ritningen har rätt.
 
-En ritning som läggs till eller tas bort får eller tappar sin post i `.github/pages/ritningar/index.html` i samma commit. Annars saknas ritningen på gestaltadet.se/ritningar, eller så pekar sidan på en fil som inte finns.
+En ritning läggs i sitt ämnes mapp under `layout/`. Ritningssidan skriver `publish` själv ur de mappar som `drawings:` i `settings.yaml` räknar upp, och en ny ämnesmapp läggs till där.
 
 ## Frågor in, ändringar hans
 
