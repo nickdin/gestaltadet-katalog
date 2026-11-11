@@ -342,27 +342,31 @@ unmapped-concepts:
   - id: C-151
     reason: >-
       no ArchiMate core relationship says that a group of people has a need;
-      Association is already held by C-099 and says nothing about direction or
-      meaning
+      Association already holds associeras med (C-099) and ansvarar för
+      (C-208), and says nothing about direction or meaning
   - id: C-152
     reason: >-
       no ArchiMate core relationship says that a value proposition is aimed at
-      a target group or actor; Association is already held by C-099
+      a target group or actor; Association already holds associeras med
+      (C-099) and ansvarar för (C-208)
   - id: C-153
     reason: >-
       no ArchiMate core relationship says that a value proposition meets a
-      need; Association is already held by C-099 and Realization (C-094) says
-      that something is made real, not that it helps
+      need; Association already holds associeras med (C-099) and ansvarar för
+      (C-208), and Realization (C-094) says that something is made real, not
+      that it helps
   - id: C-154
     reason: >-
       no ArchiMate core relationship says that a product is delivered to an
       actor; Serving (C-095) runs between behaviour and what it serves, not
-      from a product to its receiver, and Association is already held by C-099
+      from a product to its receiver, and Association already holds associeras
+      med (C-099) and ansvarar för (C-208)
   - id: C-155
     reason: >-
       no ArchiMate core relationship says that an actor supplies something an
-      architecture object needs; Association is already held by C-099 and
-      Assignment (C-096) says who performs, not who supplies
+      architecture object needs; Association already holds associeras med
+      (C-099) and ansvarar för (C-208), and Assignment (C-096) says who
+      performs, not who supplies
   - id: C-156
     reason: >-
       a forum is the store's own specialisation of verksamhetssamverkan
@@ -371,9 +375,9 @@ unmapped-concepts:
   - id: C-183
     reason: >-
       fastställs av (beslut 23) says who decided or adopted a bärare or a
-      styrmedel, SBVR's business jurisdiction; no ArchiMate core or
-      motivation relationship says who decided a motivation element, and
-      Association is already held by C-099
+      styrmedel, SBVR's business jurisdiction; no ArchiMate core or motivation
+      relationship says who decided a motivation element, and Association
+      already holds associeras med (C-099) and ansvarar för (C-208)
   - id: C-190
     reason: >-
       värdeström (beslut 27) is the set of stages that build up the value a
