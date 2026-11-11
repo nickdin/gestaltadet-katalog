@@ -1,4 +1,5 @@
 language: sv
+site_name: GestaltaDet
 base_address: https://gestaltadet.se/katalog
 nesting_relation_type: aggregates
 documents:
