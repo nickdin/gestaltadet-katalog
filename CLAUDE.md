@@ -45,9 +45,15 @@ En ritning som läggs till eller tas bort får eller tappar sin post i `.github/
 
 Katalogen är hur Nicklas ser på saker. Frågor, invändningar och förslag från läsare är välkomna som ärenden och besvaras; en ändring i en definition gör Nicklas, eller Claude på hans ord. Arbete på programmet, en funktion, ett fel, ett kommando som beter sig fel, hör till interlinguas tracker, `nickdin/interlingua`, även när det upptäcks här.
 
+## Valvanteckningen
+
+En session här får bocka av och skriva i valvanteckningen `2. Områden/GestaltaDet/GestaltaDet.md` (Nicklas, 2026-11-01 och 2026-11-11). Resten av valvet läser den bara.
+
 ## Kontroll
 
 `~/Devbox/interlingua/.venv/bin/interlingua check .` kontrollerar lagret och ska sluta `no violations`.
+
+Interlinguas skrivande kommandon vägrar köra när arbetskopian har ändringar som inte är committade. Committa därför varje steg innan nästa kommando (sett i tre sessioner, 2026-11-02 till 2026-11-05).
 
 ## Synk och publicering
 
