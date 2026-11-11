@@ -19,6 +19,10 @@ Att en handling kommer in till myndigheten eller upprättas där är en verksamh
 
 ## Motsvarigheter
 
-Motsvarar ArchiMates Business Event. BPMN:s start-, mellan- och sluthändelser och CMMN:s EventListener är verksamhetshändelser, med sorten (meddelande, tid, fel, signal) i beskrivningen. CMMN:s milstolpe (Milestone), ett nåbart mål utan eget arbete, är den verksamhetshändelse som en handläggning ([[C-160 Handläggning]]) eller en del av den utlöser när den är klar. Händelsen utlöser ([[C-098 utlöser]]) det tillstånd ([[C-182 Tillstånd]]) ärendet då nått, och i en tillståndsvy ritas den så. Beslut 22; tillståndet som elementtyp beslut 24.
+Motsvarar ArchiMates Business Event. Beslut 22; tillståndet som elementtyp beslut 24.
+
+BPMN:s start-, mellan- och sluthändelser och CMMN:s EventListener är verksamhetshändelser, med sorten (meddelande, tid, fel, signal) i beskrivningen. Beslut 22; tillståndet som elementtyp beslut 24.
+
+CMMN:s milstolpe (Milestone), ett nåbart mål utan eget arbete, är den verksamhetshändelse som en handläggning ([[C-160 Handläggning]]) eller en del av den utlöser när den är klar. Händelsen utlöser ([[C-098 utlöser]]) det tillstånd ([[C-182 Tillstånd]]) ärendet då nått, och i en tillståndsvy ritas den så. Beslut 22; tillståndet som elementtyp beslut 24.
 
 Motsvarar händelsen (SignalEvent, TimeEvent, ChangeEvent, CallEvent) i Unified Modeling Language (UML) när den utlöser en övergång i ett verksamhetsobjekts tillståndsmaskin, och det som startar, avbryter eller avslutar en aktivitet. Slaget av händelse är text i beskrivningen, som BPMN:s händelsedefinitioner. Beslut 29.

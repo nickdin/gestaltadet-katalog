@@ -25,7 +25,7 @@ Arkitekturansvaret är inte en arkitekturdomän: en domän har ett eget uppdrag,
 
 ## Motsvarigheter
 
-Det är inte heller TOGAFs architecture domain, som är vad den här katalogen kallar ett perspektiv.
+Arkitekturansvaret är inte TOGAFs architecture domain, som är vad den här katalogen kallar ett perspektiv.
 
 ## Exempel
 

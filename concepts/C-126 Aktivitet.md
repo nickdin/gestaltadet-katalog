@@ -21,4 +21,4 @@ Sorten av steg är ingen typ utan läses ur aktivitetens relationer: tilldelas (
 
 ## Motsvarigheter
 
-Aktiviteten är steget, det BPMN och CMMN båda kallar Task. Att ett steg utlöser ([[C-098 utlöser]]) nästa är BPMN:s sekvensflöde. Ett vägskäl är BPMN:s gateway. Sorterna är BPMN:s User, Manual, Service, Script, Business Rule, Send och Receive Task, eller CMMN:s HumanTask, ProcessTask, CaseTask och DecisionTask. Beslut 22.
+Aktiviteten är steget, det BPMN och CMMN båda kallar Task. BPMN:s sekvensflöde är relationen utlöser ([[C-098 utlöser]]). Ett vägskäl är BPMN:s gateway. Sorterna är BPMN:s User, Manual, Service, Script, Business Rule, Send och Receive Task, eller CMMN:s HumanTask, ProcessTask, CaseTask och DecisionTask. Beslut 22.
