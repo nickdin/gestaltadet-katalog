@@ -7,6 +7,9 @@ terms:
     source: catalogue
 definition: "objektbaserad styrning där styrobjektet är en portfölj"
 generic: '[[C-005 Objektbaserad styrning]]'
+associative:
+  - concept: '[[C-011 Portfölj]]'
+    label: avgränsas av
 ---
 # C-044 Portföljstyrning
 
