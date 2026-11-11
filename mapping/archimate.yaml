@@ -30,9 +30,11 @@
 # An aspect is no element's type, so no aspect is named here.
 #
 # Association has two concepts: associeras med (C-099) and ansvarar för
-# (C-208, beslut 35). Both export as Association, and an imported Association
-# becomes C-099, the first listed, because the file holds neither direction
-# nor meaning.
+# (C-208, beslut 35). Both export as Association. An Association from another
+# tool becomes C-099, the first listed, because the file holds neither
+# direction nor meaning. One that carries interlingua's own id, written as
+# REL-responsible_for-<from>-<to> for the same two ends, comes back as
+# ansvarar för (C-208): the id names the type the file's type text cannot.
 
 elements:
   # Business layer
