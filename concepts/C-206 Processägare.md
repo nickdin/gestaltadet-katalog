@@ -27,7 +27,11 @@ Behandlingarna ([[C-168 Behandling]]) i beteendet ska hålla sig inom informatio
 
 Processägaren äger beteendet, inte lösningen ([[C-055 Lösning]]). Lösningsägaren äger allt som behövs för att leverera, aktörer, processer, information och teknik, och har mandatet över lösningen som styrobjekt. En intern produkt beteendet behöver, en leveransprodukt ([[C-174 Leveransprodukt]]) ur en annan lösning, har sin egen processägare. Den yttre ställer krav ([[C-021 Krav]]) på det den tar emot, och ansvaret byter hand vid leveransen.
 
-Typ i verksamhetsperspektivet, en typ av roll ([[C-074 Roll]]). Skrivs ut som ArchiMates Business Role, som informationsägaren. Beslut 35.
+Typ i verksamhetsperspektivet, en typ av roll ([[C-074 Roll]]). Beslut 35.
+
+## Motsvarigheter
+
+Skrivs ut som ArchiMates Business Role, som informationsägaren. Beslut 35.
 
 ## Exempel
 

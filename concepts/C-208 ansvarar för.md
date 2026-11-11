@@ -20,4 +20,6 @@ Relationen går från rollen till det den äger: informationsägaren ([[C-167 In
 
 Relationen är bara för ägarrollerna. Ett styrmedel eller en bärare ägs av den som fastställt det ([[C-183 fastställs av]]), och ett styrobjekt av den som har mandatet ([[C-189 Mandat]]) över det.
 
+## Motsvarigheter
+
 ArchiMates Assignment får inte gå från en roll till ett passivt objekt, så ArchiMate saknar motsvarighet och exporten får Association. Beslut 35.
