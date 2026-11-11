@@ -8,6 +8,7 @@ terms:
 definition: "relationstyp som anger att ett arkitekturelement har ett annat arkitekturelement som en icke-exklusiv del"
 kind: relation-type
 key: aggregates
+aggregation: true
 ---
 # C-100 aggregerar
 
