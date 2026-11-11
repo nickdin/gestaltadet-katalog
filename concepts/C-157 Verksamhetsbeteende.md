@@ -21,6 +21,8 @@ Verksamhetsbeteende är familjebegreppet för verksamhetsperspektivets beteenden
 
 Beteendet når informationen på två sätt. Processvyn ritar åtkomsten till verksamhetsobjektet, och genom det har beteendet åtkomst till de informationsobjekt ([[C-060 Informationsobjekt]]) som realiserar det ([[C-094 realiseras av]]). Den åtkomsten härleds och ritas inte. Direkt till ett informationsobjekt ritas bara det som inte följer av verksamhetsobjektet: ett uppslag i ett register, ett utlämnande, en sammanställning beteendet gör. Åtkomsten följer inte aggregerar ([[C-100 aggregerar]]). Behandlingen ([[C-168 Behandling]]) läses ur beteendets åtkomst till informationsobjektet, ritad eller härledd. Beslut 34.
 
+## Motsvarigheter
+
 Motsvarar CapabilityBehavior i Business Architecture Core Metamodel (BACM), beteendebeskrivningen som levererar en förmåga, en av flera varianter som ger samma utfall. De regler och policyer BACM låter samma klass bära är i lagret styrmedel ([[C-015 Styrmedel]]). Beslut 27.
 
 Motsvarar CapabilityMethod i Value Delivery Modeling Language (VDML), ett återanvändbart aktivitetsnätverk som levererar en förmåga, likt en processdefinition men lika gärna en ärendetyp. Ett beteende följer ett arbetssätt ([[C-196 Arbetssätt]]), som står i dess text. Beslut 28.

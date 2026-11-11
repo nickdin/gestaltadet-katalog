@@ -15,6 +15,8 @@ generic: "[[C-082 Samverkan]]"
 
 ## Anmärkning
 
+## Motsvarigheter
+
 Motsvarar ArchiMates Technology Collaboration.
 
 Motsvarar Collaboration i Unified Modeling Language (UML) när rollerna spelas av tekniska resurser. Beslut 29.
