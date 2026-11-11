@@ -1,0 +1,13 @@
+Ärende #109: den publicerade ritningssidan, läst av vågen efter pushen av main 504625a, 2026-11-11.
+
+Kommando 1: gh run list --workflow publicera.yml -L 1
+Read back (arbetsflödet): completed success, Merge branch 'fix-137-on-27', Publicera katalogen, main, push, körning 43068600166, 4m7s.
+
+Kommando 2: curl -s https://gestaltadet.se/katalog/drawings/, rubrikerna h2 och h3 utan taggar.
+If wrong (publish skrev ingen ritningssida, eller drawings: lästes inte): adressen skulle ge 404 eller en sida utan de fyra grupperna, som före pushen.
+Read back (h2): Styrning, Arkitektur, Principer, Information, i den ordningen.
+Read back (h3): 18 ritningar.
+
+Kommando 3: curl https://gestaltadet.se/ritningar/ och länkarna på startsidan.
+Read back (gamla adressen): 404, som Nicklas bestämt (ingen vidarebefordran).
+Read back (startsidan): båda länkarna går till katalog/drawings/.
