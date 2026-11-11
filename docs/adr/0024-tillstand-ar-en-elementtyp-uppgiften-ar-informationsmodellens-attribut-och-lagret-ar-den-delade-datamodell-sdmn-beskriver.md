@@ -1,6 +1,6 @@
 # Tillstånd är en elementtyp, uppgiften är informationsmodellens attribut, och lagret är den delade datamodell SDMN beskriver
 
-Beslutat av Nicklas i den sjätte av grillningarna av de öppna frågorna inför draw.io-mallen, och den andra av de tre delfrågorna efter beslut 22. Avgör det beslut 22 sköt upp om tillståndet och det beslut 23 lämnade med tvivel om SBVR:s characteristic.
+Beslutat av Nicklas 30 oktober 2026, när katalogen ställdes mot Shared Data Model and Notation (SDMN), den datamodell som BPMN, CMMN och DMN delar. Beslutet avgör det beslut 22 sköt upp om tillståndet och det beslut 23 lämnade med tvivel om SBVR:s characteristic.
 
 ## Sammanhang
 

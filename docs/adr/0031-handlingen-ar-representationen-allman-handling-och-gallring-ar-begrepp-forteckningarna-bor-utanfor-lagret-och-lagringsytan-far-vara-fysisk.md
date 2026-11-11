@@ -1,6 +1,6 @@
 # Handlingen är representationen, allmän handling och gallring är begrepp, förteckningarna bor utanför lagret, och lagringsytan får vara fysisk
 
-Beslutat av Nicklas i grillningen av ärende #28, 2026-11-02. Avgör hur offentlighetens och arkivets begrepp, allmän handling, handlingstyp, registrering, bevarande och gallring, sekretess och informationshanteringsplan, uttrycks i katalogen, och var det de fyra regelverken vill veta om varje anker i lagret bor.
+Beslutat av Nicklas 2 november 2026, när ett upplägg för informationshantering skulle svara åt fyra regelverk ur samma karta. Katalogen saknade offentlighetens och arkivets begrepp. Beslutet avgör hur offentlighetens och arkivets begrepp, allmän handling, handlingstyp, registrering, bevarande och gallring, sekretess och informationshanteringsplan, uttrycks i katalogen, och var det de fyra regelverken vill veta om varje anker i lagret bor.
 
 ## Sammanhang
 

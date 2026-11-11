@@ -1,6 +1,6 @@
 # Påverkan och bedömning är elementtyper, strategin är sammanhängande styrbeslut, visionen är ett mål utan mått, och BMM tas in med ändamålet som katalogens tillägg
 
-Beslutat av Nicklas i den sjunde och sista av grillningarna av de öppna frågorna inför draw.io-mallen, och den tredje av de tre delfrågorna efter beslut 22. Avgör det beslut 23 sköt hit: business policy mot Princip, mandatet att fastställa styrning, och Mål och Ändamål mot BMM:s Ends.
+Beslutat av Nicklas 31 oktober 2026, när katalogen ställdes mot Business Motivation Model (BMM), standarden för varför en verksamhet gör det den gör. Beslutet avgör det beslut 23 sköt hit: business policy mot Princip, mandatet att fastställa styrning, och Mål och Ändamål mot BMM:s Ends.
 
 ## Sammanhang
 

@@ -1,6 +1,6 @@
 # Beteendet når informationsobjektet genom verksamhetsobjektet och direkt, och åtkomsten följer realiseras av men inte aggregerar
 
-Beslutat av Nicklas i ärende #23, 2026-11-02, med tillägget från ärende #31 samma dag. Avgränsningen mot representationen gjordes 2026-11-03, och hänvisningarna till beslut 33 kom med den. Beslutet avgör hur ett verksamhetsbeteende når informationen: i två steg genom verksamhetsobjektet, i ett steg direkt till informationsobjektet, eller på båda sätten.
+Beslutat av Nicklas 2 november 2026, när ingen text sade om ett verksamhetsbeteende fick nå ett informationsobjekt direkt. Samma dag kom ett tillägg om åtkomst genom en aggregering. Avgränsningen mot representationen gjordes 3 november 2026, och hänvisningarna till beslut 33 kom med den. Beslutet avgör hur ett verksamhetsbeteende når informationen: i två steg genom verksamhetsobjektet, i ett steg direkt till informationsobjektet, eller på båda sätten.
 
 ## Sammanhang
 

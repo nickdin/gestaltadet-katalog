@@ -1,6 +1,6 @@
 # Flödet mellan två beteenden härleds ur åtkomsten, flödar till är för det som inte är ett element, och de främmande flödena som bär ett element är åtkomstparet
 
-Beslutat av Nicklas i grillningen av ärende #29, 2026-11-03. Avgör vad katalogen gör åt att det som flödar mellan två beteenden bara stod som text på pilen, så att inget kunde kontrollera att avsändaren skriver det och mottagaren läser det, eller att det alls finns som element.
+Beslutat av Nicklas 3 november 2026, när det som flödar mellan två beteenden bara stod som text på pilen. Ingenting kunde då kontrollera att avsändaren skriver det och mottagaren läser det, eller att det alls finns som element. Beslutet avgör vad katalogen gör åt det.
 
 ## Sammanhang
 

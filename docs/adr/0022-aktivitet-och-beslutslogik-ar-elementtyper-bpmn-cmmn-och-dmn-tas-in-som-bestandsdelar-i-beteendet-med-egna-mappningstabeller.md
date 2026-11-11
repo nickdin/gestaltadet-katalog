@@ -1,6 +1,6 @@
 # Aktivitet och beslutslogik är elementtyper; BPMN, CMMN och DMN tas in som beståndsdelar i beteendet, med egna mappningstabeller
 
-Beslutat av Nicklas i den fjärde av grillningarna av de öppna frågorna inför draw.io-mallen, den första i genomgången av OMG:s specifikationer. Avgör det beslut 17 sköt upp om aktiviteten och milstolpen.
+Beslutat av Nicklas 30 oktober 2026, när katalogen började ställas mot standarderna från Object Management Group (OMG). De första var Business Process Model and Notation (BPMN), Case Management Model and Notation (CMMN) och Decision Model and Notation (DMN). Beslutet avgör det beslut 17 sköt upp om aktiviteten och milstolpen.
 
 ## Sammanhang
 

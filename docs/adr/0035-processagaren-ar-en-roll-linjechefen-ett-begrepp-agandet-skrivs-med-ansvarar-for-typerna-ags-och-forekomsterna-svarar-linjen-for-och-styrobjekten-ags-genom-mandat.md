@@ -1,6 +1,6 @@
 # Processägaren är en roll, linjechefen ett begrepp, ägandet skrivs med ansvarar för, typerna ägs och förekomsterna svarar linjen för, och styrobjekten ägs genom mandat
 
-Beslutat av Nicklas i grillningen av ärende #24, 2026-11-03. Avgör om rollen som äger ett verksamhetsbeteende finns i katalogen, vad den svarar för mot informationsägaren (`C-167`), hur ägande skrivs i lagret, vem som äger en lösning, och när något över huvud taget får en ägarroll.
+Beslutat av Nicklas 3 november 2026, när ett upplägg för informationshantering delade ansvaret för information mellan informationsägaren och den som äger processen. Katalogen hade bara informationsägaren. Beslutet avgör om rollen som äger ett verksamhetsbeteende finns i katalogen, vad den svarar för mot informationsägaren (`C-167`), hur ägande skrivs i lagret, vem som äger en lösning, och när något över huvud taget får en ägarroll.
 
 ## Sammanhang
 

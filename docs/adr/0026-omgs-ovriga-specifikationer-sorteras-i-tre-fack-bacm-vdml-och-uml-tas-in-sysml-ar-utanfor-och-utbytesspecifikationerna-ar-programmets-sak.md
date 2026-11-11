@@ -1,6 +1,6 @@
 # OMG:s övriga specifikationer sorteras i tre fack: BACM, VDML och UML tas in, SysML är utanför, och utbytesspecifikationerna är programmets sak
 
-Beslutat av Nicklas i grillningen av den sista punkten i genomgången av OMG:s specifikationer, sedan de sex första avgjorts i beslut 22 till 25. Avgör inte en enda byggsten; avgör vilka specifikationer som alls ska ställas mot lagret, och med vilken måttstock.
+Beslutat av Nicklas 1 november 2026, när de återstående standarderna från Object Management Group (OMG) skulle sorteras. Beslut 22 till 25 hade då avgjort de sex första. Beslutet avgör inte en enda byggsten. Det avgör vilka standarder som alls ska ställas mot katalogen, och med vilken måttstock.
 
 ## Sammanhang
 

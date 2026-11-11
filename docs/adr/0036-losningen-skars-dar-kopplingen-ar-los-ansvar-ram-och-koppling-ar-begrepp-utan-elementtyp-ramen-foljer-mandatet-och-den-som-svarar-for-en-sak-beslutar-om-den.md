@@ -1,6 +1,6 @@
 # Lösningen skärs där kopplingen är lös; Ansvar, Ram och Koppling är begrepp utan elementtyp; ramen följer mandatet, och den som svarar för en sak beslutar om den
 
-Beslutat av Nicklas i grillningen av ärende #41, 2026-11-04, tre rundor (10 + 9 + 8 frågor). Avgör vad ett effektivt snitt av lösningar är, om ansvar och mandat är två begrepp, och vad som måste finnas för att ett mandat ska vara reellt.
+Beslutat av Nicklas 4 november 2026, efter ett samtal om vad effektiv styrning är och om pm3:s objektstyrning är ett effektivt sätt att styra. Beslutet avgör vad ett effektivt snitt av lösningar är, om ansvar och mandat är två begrepp, och vad som måste finnas för att ett mandat ska vara reellt.
 
 ## Sammanhang
 

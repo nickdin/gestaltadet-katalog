@@ -1,6 +1,6 @@
 # Arkitekturen finns alltid, bäraren bär bedömningar, hållningen är intern påverkan, regeln lämnar inget bedömningsutrymme, och principen står i en bärare som den med mandat fastställer
 
-Beslutat av Nicklas i grillningen av ärende #62, 2026-11-05, tre rundor (8 + 8 + 3 frågor). Avgör de fynd ur granskningen i #43 som gällde styrmedlen och arkitekturbegreppen, kluster 01, 03 och 04. Tre fynd sköts till egna grillningar: Metodstyrning (`C-051`) till #71, Metamodell (`C-039`) till #72, och vad en bra princip är till #70.
+Beslutat av Nicklas 5 november 2026, när en granskning av katalogen hade hittat begrepp som sade emot varandra. Beslutet avgör de fynd som gällde styrmedlen och arkitekturbegreppen. Tre fynd sköts till egna ärenden: Metodstyrning (`C-051`), Metamodell (`C-039`) och vad en bra princip är.
 
 ## Sammanhang
 

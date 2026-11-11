@@ -1,6 +1,6 @@
 # Handläggning är en elementtyp under verksamhetsbeteende, och ärendet är dess objekt
 
-Beslutat av Nicklas i en grillning av en fråga som kom från interlingua. Väcker den typ beslut 14 sköt upp och fyller platsen beslut 15 lämnade öppen.
+Beslutat av Nicklas 19 oktober 2026, när katalogen bara kunde beskriva arbete i ärenden som processer med fast stegföljd. Frågan kom från interlingua, programmet som läser katalogen. Beslutet väcker den typ beslut 14 sköt upp och fyller platsen beslut 15 lämnade öppen.
 
 ## Sammanhang
 

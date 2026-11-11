@@ -1,6 +1,6 @@
 # Värdeström är en elementtyp i strategiperspektivet, utfallet är tillståndet, lösningen är förmågans implementation, och BACM tas in med hinder, vinst och svar som begrepp i texten
 
-Beslutat av Nicklas i grillningen av den första av de tre frågor beslut 26 öppnade, BACM. Avgör hur katalogen förhåller sig till Business Architecture Core Metamodel 1.0, byggsten för byggsten, och vad katalogen saknade som BACM visade.
+Beslutat av Nicklas 1 november 2026, när katalogen ställdes mot Business Architecture Core Metamodel (BACM) 1.0. Det var den första av de tre standarder som beslut 26 tog in. Beslutet avgör hur katalogen förhåller sig till BACM, byggsten för byggsten, och vad katalogen saknade som BACM visade.
 
 ## Sammanhang
 

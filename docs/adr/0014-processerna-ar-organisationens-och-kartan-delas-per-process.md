@@ -1,6 +1,6 @@
 # Processerna är organisationens, och kartan delas i en översikt och en bild per process
 
-Beslutat av Nicklas efter en grillning om varför en avdelnings processkarta blivit för mastig och vad på den som är process och vad som är aktivitet. Ersätter beslut 13 i det som rör banden.
+Beslutat av Nicklas 19 oktober 2026, efter ett samtal om varför en avdelnings processkarta hade blivit för mastig och vad på den som var process och vad som var aktivitet. Beslutet ersätter beslut 13 i det som rör banden.
 
 ## Sammanhang
 

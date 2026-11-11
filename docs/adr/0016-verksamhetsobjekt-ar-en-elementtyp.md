@@ -1,6 +1,6 @@
 # Verksamhetsobjekt är en elementtyp, och informationsobjektet är dess informationssida
 
-Beslutat av Nicklas i samma grillning som beslut 14 och 15.
+Beslutat av Nicklas 19 oktober 2026, när det som kom ut ur processerna på en avdelnings processkarta var ritat som produkter, fast mycket var dokument och underlag. Beslutet kom i samma samtal som beslut 14 och 15.
 
 ## Sammanhang
 

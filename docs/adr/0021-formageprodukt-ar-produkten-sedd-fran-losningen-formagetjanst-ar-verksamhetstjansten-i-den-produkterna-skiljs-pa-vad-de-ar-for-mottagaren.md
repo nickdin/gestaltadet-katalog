@@ -1,6 +1,6 @@
 # Förmågeprodukt är produkten sedd från lösningen, förmågetjänst är verksamhetstjänsten i den; produkterna skiljs på vad de är för mottagaren
 
-Beslutat av Nicklas i den tredje av grillningarna av de öppna frågorna inför draw.io-mallen. Rättat samma dag: termen Förmågeprodukt sattes först på Leveransprodukt och flyttades till Produkt efter Nicklas invändning att en verksamhetsprodukt lika gärna kommer ur en lösning.
+Beslutat av Nicklas 30 oktober 2026, för att besvara en fråga som länge stått öppen: vad en förmågetjänst är, bredvid förmåga och tjänst. Rättat samma dag: termen Förmågeprodukt sattes först på Leveransprodukt och flyttades till Produkt efter Nicklas invändning att en verksamhetsprodukt lika gärna kommer ur en lösning.
 
 ## Sammanhang
 

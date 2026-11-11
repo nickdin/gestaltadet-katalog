@@ -1,6 +1,6 @@
 # Styrobjektet tjänar ändamålet, kravet ärver sitt ursprung från regeln, principen anger sina konsekvenser, och ritningarna får visa ärvda relationer
 
-Beslutat av Nicklas i grillningen av ärendena #90–#94, #98, #99, #101–#106, #108, #110–#113, 2026-11-09, två rundor (14 + 1 frågor). Ärendena kom ur aktualiseringen av ritningarna mot lagret (#73): pilar som ritningarna hade men lagret saknade, och ett schema som lagret sedan dess säger emot.
+Beslutat av Nicklas 9 november 2026, när ritningarna på sajten jämfördes med katalogen. Ritningarna hade pilar som katalogen saknade, och ett schema som katalogen sedan dess säger emot.
 
 ## Sammanhang
 

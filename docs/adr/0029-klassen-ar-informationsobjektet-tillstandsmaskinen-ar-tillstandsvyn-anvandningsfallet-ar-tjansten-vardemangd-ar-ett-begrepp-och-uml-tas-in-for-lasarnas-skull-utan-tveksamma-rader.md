@@ -1,6 +1,6 @@
 # Klassen är informationsobjektet, tillståndsmaskinen är tillståndsvyn, användningsfallet är tjänsten, värdemängd är ett begrepp, och UML tas in för läsarnas skull utan tveksamma rader
 
-Beslutat av Nicklas i grillningen av den tredje och sista av de tre frågor beslut 26 öppnade, UML. Avgör hur katalogen förhåller sig till Unified Modeling Language 2.5.1 i den del katalogen möter, byggsten för byggsten, och vad katalogen saknade som UML visade.
+Beslutat av Nicklas 2 november 2026, när katalogen ställdes mot Unified Modeling Language (UML) 2.5.1. Det var den sista av de tre standarder som beslut 26 tog in. Beslutet avgör hur katalogen förhåller sig till UML i den del katalogen möter, byggsten för byggsten, och vad katalogen saknade som UML visade.
 
 ## Sammanhang
 

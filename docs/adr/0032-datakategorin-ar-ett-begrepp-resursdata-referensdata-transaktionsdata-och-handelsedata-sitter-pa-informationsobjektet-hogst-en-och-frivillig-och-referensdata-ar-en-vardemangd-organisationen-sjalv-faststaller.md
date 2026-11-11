@@ -1,6 +1,6 @@
 # Datakategorin är ett begrepp, resursdata, referensdata, transaktionsdata och händelsedata sitter på informationsobjektet, högst en och frivillig, och referensdata är en värdemängd organisationen själv fastställer
 
-Beslutat av Nicklas i grillningen av ärende #32, 2026-11-02 till 11-03. Avgör om indelningen av information i slag, som informationsmodelleringen färgar sina rutor efter, är katalogens sak eller metodens, var den sitter, hur många slagen är, hur ett objekt bär sitt slag och var gränsen mot Värdemängd (`C-197`) går.
+Beslutat av Nicklas 2–3 november 2026, sedan färgerna i en ritad informationsmodell väckt frågan. Beslutet avgör om indelningen av information i slag, som informationsmodelleringen färgar sina rutor efter, är katalogens sak eller metodens, var den sitter, hur många slagen är, hur ett objekt bär sitt slag och var gränsen mot Värdemängd (`C-197`) går.
 
 ## Sammanhang
 

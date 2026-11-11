@@ -1,6 +1,6 @@
 # Forum är en elementtyp som specialiserar verksamhetssamverkan
 
-Beslutat av Nicklas när de öppna frågorna i den första beskrivningen av en avdelning behandlades.
+Beslutat av Nicklas i oktober 2026, när en avdelnings beslutskarta visade ett dussin forum och katalogen saknade ett ord för dem.
 
 ## Sammanhang
 

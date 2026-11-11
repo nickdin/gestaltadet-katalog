@@ -2,7 +2,7 @@
 
 *Raden under Det som flödar att DeliverableFlow är flödar till gäller inte längre: beslut 33 flyttade den till har åtkomst till (`C-101`).*
 
-Beslutat av Nicklas i grillningen av den andra av de tre frågor beslut 26 öppnade, VDML. Avgör hur katalogen förhåller sig till Value Delivery Modeling Language 1.1, byggsten för byggsten, och vad katalogen saknade som VDML visade.
+Beslutat av Nicklas 1 november 2026, när katalogen ställdes mot Value Delivery Modeling Language (VDML) 1.1. Det var den andra av de tre standarder som beslut 26 tog in. Beslutet avgör hur katalogen förhåller sig till VDML, byggsten för byggsten, och vad katalogen saknade som VDML visade.
 
 ## Sammanhang
 

@@ -2,7 +2,7 @@
 
 *Banden gäller inte längre: beslut 14. Kvar härifrån är att organisationen är systemet, att ansvarsnivån läses ur relationerna och att mottagaren är en relation, numera levereras till (`C-154`) från produkten till aktören.*
 
-Beslutat av Nicklas efter en grillning om vad banden i en avdelnings processkarta ska svara på.
+Beslutat av Nicklas i oktober 2026, när en avdelnings processkarta skulle visa vilka processer avdelningen styr, vilka som är dess egna och vilka som stöder andra. Lärobokens indelning i styrande processer, kärnprocesser och stödprocesser sade ingenting för en stabsavdelning.
 
 ## Sammanhang
 

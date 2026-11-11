@@ -2,7 +2,7 @@
 
 *Ledet i Konsekvenser att ett löpande ansvar är en verksamhetsförmåga gäller inte längre: beslut 15.*
 
-Beslutat av Nicklas när en avdelnings processkarta ritades.
+Beslutat av Nicklas i oktober 2026, när en avdelnings processkarta ritades och processerna hade fått namn av olika slag.
 
 ## Sammanhang
 

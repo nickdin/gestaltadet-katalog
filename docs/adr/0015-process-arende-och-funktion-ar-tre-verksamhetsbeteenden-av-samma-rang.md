@@ -1,6 +1,6 @@
 # Process, ärende och funktion är tre verksamhetsbeteenden av samma rang
 
-Beslutat av Nicklas i samma grillning som beslut 14. Ändrar beslut 12:s led om löpande ansvar: ett löpande ansvar är ingen förmåga.
+Beslutat av Nicklas 19 oktober 2026, när han frågade om process, ärende och funktion är tre företeelser av samma rang. Beslutet kom i samma samtal som beslut 14 och ändrar beslut 12:s led om löpande ansvar: ett löpande ansvar är ingen förmåga.
 
 ## Sammanhang
 

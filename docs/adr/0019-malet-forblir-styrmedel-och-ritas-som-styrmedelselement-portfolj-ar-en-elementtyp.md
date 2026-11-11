@@ -1,6 +1,6 @@
 # Målet förblir styrmedel och ritas som styrmedelselement; portfölj är en elementtyp i strategiperspektivet
 
-Beslutat av Nicklas i den första av grillningarna av de öppna frågorna inför draw.io-mallen.
+Beslutat av Nicklas 29 oktober 2026, när han ville kunna rita hur mål, initiativ och portföljer hänger ihop.
 
 ## Sammanhang
 

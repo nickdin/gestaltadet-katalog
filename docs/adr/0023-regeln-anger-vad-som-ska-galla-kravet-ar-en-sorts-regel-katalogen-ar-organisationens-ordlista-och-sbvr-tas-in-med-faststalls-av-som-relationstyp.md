@@ -1,6 +1,6 @@
 # Regeln anger vad som ska gälla, kravet är en sorts regel, katalogen är organisationens ordlista, och SBVR tas in med fastställs av som relationstyp
 
-Beslutat av Nicklas i den femte av grillningarna av de öppna frågorna inför draw.io-mallen, och den första av de tre delfrågorna efter beslut 22.
+Beslutat av Nicklas 30 oktober 2026, när katalogen ställdes mot Semantics of Business Vocabulary and Business Rules (SBVR), standarden för en verksamhets ordlista och regler.
 
 ## Sammanhang
 

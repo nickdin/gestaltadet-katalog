@@ -1,6 +1,6 @@
 # Initiativ är en elementtyp i strategiperspektivet; projekt registreras som initiativ
 
-Beslutat av Nicklas när den första beskrivningen av en avdelning skrevs i lagret.
+Beslutat av Nicklas 12 oktober 2026, när den första avdelningen beskrevs och dess pågående insatser bara kunde stå som text.
 
 ## Sammanhang
 
