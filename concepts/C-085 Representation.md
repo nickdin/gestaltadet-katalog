@@ -37,4 +37,12 @@ Handling och handlingstyp är tillåtna termer. Tryckfrihetsförordningens handl
 
 Till representationen hör format och läsbarhet, märkningen av klassen, signering och låsning. Äkthet, att handlingen är oförändrad över tid, är riktighet tillämpad på representationen under hela bevarandetiden. Representationen har inget tillstånd ([[C-182 Tillstånd]]): arkiverad och gallrad är aktiviteter i arkivvården, inte lägen hos handlingen, och att ärendet är arkiverat är verksamhetsobjektets tillstånd. Ett registerutdrag eller en fil för dataportabilitet är en representation myndigheten upprättar på begäran, av en sammanställning ([[C-162 Sammanställning]]), med formatkravet på representationen. Beslut 31.
 
+Tre åtgärder på representationen uppfyller behovet som informationsägaren satt på informationsobjektet ([[C-166 Informationstillgång]]): märkning, signering och format.
+
+Märkningen gör klassen synlig på formen. Klassen sätts på objektet, men den som håller dokumentet ser inte objektet. Representationen bär därför klassen själv, till exempel som "Intern" i sidfoten eller som känslighetsetikett på filen. Varje representation av samma objekt bär märket för sig.
+
+Signeringen uppfyller riktigheten. Riktighet är ett behov på objektet och en åtgärd på representationen: elektronisk underskrift, lås, kontrollsumma eller versionshistorik med författare. Ett upprättat beslut visas vara myndighetens och oförändrat genom signaturen på representationen, inte genom databasen bakom. EU:s förordning eIDAS säger vilka elektroniska underskrifter som räknas.
+
+Formatet uppfyller tillgängligheten. Filen ska gå att öppna idag, i ett format som verksamheten har program för, och om tjugo år, i ett format som Riksarkivet godkänner.
+
 Motsvarar ArchiMates Representation. SDMN:s Document, ett dokument tryckt eller elektroniskt, är en representation, och dess Physical är det när saken bär information. Utan informationssida är den ett verksamhetsobjekt ([[C-159 Verksamhetsobjekt]]). Beslut 24.
