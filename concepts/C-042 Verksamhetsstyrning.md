@@ -7,6 +7,9 @@ terms:
     source: catalogue
 definition: "objektbaserad styrning där styrobjektet är verksamheten"
 generic: '[[C-005 Objektbaserad styrning]]'
+associative:
+  - concept: '[[C-007 Verksamhet]]'
+    label: avgränsas av
 ---
 # C-042 Verksamhetsstyrning
 
