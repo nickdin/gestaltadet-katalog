@@ -29,6 +29,8 @@ Den som har mandatet över ett styrobjekt är dess ägare: lösningsägaren öve
 
 Mandat och ansvar ([[C-209 Ansvar]]) är två ord för samma plats. Mandatet är rätten att besluta om ett styrobjekt. Ansvaret är att svara för dess utfall. De hör till samma roll: för varje sak som ägs beslutar den som svarar för den. Ramen ([[C-210 Ram]]) följer mandatet: den som har mandatet över ett styrobjekt håller dess ram, och den som äger det omslutande styrobjektet sätter ramen. Mandatet utövas genom styrbeslut ([[C-019 Styrbeslut]]), och det som leder till dem är bedömningen ([[C-185 Bedömning]]) av utfallet mot målet. Vad som måste finnas för att ansvaret ska kunna bäras står i Ansvar. Beslut 36.
 
+## Motsvarigheter
+
 Motsvarar Management Prerogative i Business Motivation Model, som räknar det som intern påverkan ([[C-030 Intern påverkan]]). Ett mandat på en nivå är påverkan för nivån under (beslut 25).
 
 ## Exempel

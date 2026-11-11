@@ -18,7 +18,11 @@ associative:
 
 ## Anmärkning
 
-En vara är det verksamhetsobjekt en produkt ([[C-014 Produkt]]) aggregerar och lämnar över. Det som skiljer varan från andra verksamhetsobjekt är att den blir mottagarens; det produkten gör utan att lämna något över är verksamhetstjänster ([[C-127 Verksamhetstjänst]]). Ingen sort av produkt säger vara eller tjänst, för en produkt blandar ofta; innehållet syns i vad produkten aggregerar. Varan är ett begrepp, ingen egen typ: den registreras som verksamhetsobjekt ([[C-159 Verksamhetsobjekt]]). MerchandiseOffering i Business Architecture Core Metamodel (BACM) är en produkt vars innehåll är varor. Beslut 27.
+En vara är det verksamhetsobjekt en produkt ([[C-014 Produkt]]) aggregerar och lämnar över. Det som skiljer varan från andra verksamhetsobjekt är att den blir mottagarens; det produkten gör utan att lämna något över är verksamhetstjänster ([[C-127 Verksamhetstjänst]]). Ingen sort av produkt säger vara eller tjänst, för en produkt blandar ofta; innehållet syns i vad produkten aggregerar. Varan är ett begrepp, ingen egen typ: den registreras som verksamhetsobjekt ([[C-159 Verksamhetsobjekt]]). Beslut 27.
+
+## Motsvarigheter
+
+MerchandiseOffering i Business Architecture Core Metamodel (BACM) är en produkt vars innehåll är varor. Beslut 27.
 
 ## Exempel
 

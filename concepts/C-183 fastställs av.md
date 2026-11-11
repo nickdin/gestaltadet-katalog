@@ -19,6 +19,10 @@ key: decided_by
 
 ## Anmärkning
 
-Relationen går från det fastställda till den som beslutat eller antagit det. Det fastställda är bäraren ([[C-016 Bärare]]) eller ett styrmedel ([[C-015 Styrmedel]]) utan bärare; den som beslutat är en aktör ([[C-073 Aktör]]), en roll ([[C-074 Roll]]) eller ett forum ([[C-156 Forum]]). Relationen säger vem som beslutat, inte vem som får besluta: det är mandatet ([[C-189 Mandat]], beslut 25). Fastställa är förvaltningens ord för att anta ett styrdokument och täcker SBVR:s båda fall, att skapa och att anta; beslutas av är tillåten term. ArchiMate och ARIS saknar motsvarighet. Beslut 23.
+Relationen går från det fastställda till den som beslutat eller antagit det. Det fastställda är bäraren ([[C-016 Bärare]]) eller ett styrmedel ([[C-015 Styrmedel]]) utan bärare; den som beslutat är en aktör ([[C-073 Aktör]]), en roll ([[C-074 Roll]]) eller ett forum ([[C-156 Forum]]). Relationen säger vem som beslutat, inte vem som får besluta: det är mandatet ([[C-189 Mandat]], beslut 25). Fastställa är förvaltningens ord för att anta ett styrdokument och täcker SBVR:s båda fall, att skapa och att anta; beslutas av är tillåten term. Beslut 23.
 
 **Källa:** SBVR 1.5, authority has business jurisdiction over element of guidance.
+
+## Motsvarigheter
+
+ArchiMate och ARIS saknar motsvarighet. Beslut 23.
