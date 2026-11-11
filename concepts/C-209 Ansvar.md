@@ -38,7 +38,7 @@ Saknas något av dem har rollen befogenheten men kan inte bära ansvaret. Beslut
 
 ## Motsvarigheter
 
-Det är vad som händer i pm3:s objektstyrning ([[C-048 Objektstyrning]]): objektägaren från verksamheten svarar för lösningen, IT håller ramen och forumet beslutar. Beslut 36.
+Att en roll har befogenheten men inte kan bära ansvaret är vad som händer i pm3:s objektstyrning ([[C-048 Objektstyrning]]): objektägaren från verksamheten svarar för lösningen, IT håller ramen och forumet beslutar. Beslut 36.
 
 ## Exempel
 

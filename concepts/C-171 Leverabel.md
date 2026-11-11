@@ -21,7 +21,7 @@ Det ett initiativ ([[C-012 Initiativ]]) lämnar ifrån sig är nästan alltid re
 
 ## Motsvarigheter
 
-ArchiMates Deliverable har därför ingen motsvarande ruta här. Beslut 19.
+ArchiMates Deliverable har ingen motsvarande ruta här: leverabeln är ett begrepp, ingen egen typ. Beslut 19.
 
 ## Exempel
 

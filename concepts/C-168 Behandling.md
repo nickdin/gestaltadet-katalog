@@ -37,7 +37,7 @@ Förteckningarna upprättas ur kartan. Registerförteckningen enligt dataskyddsf
 
 ## Motsvarigheter
 
-Behandlingen läses ur det verksamhetsbeteende som utför den och de informationsobjekt beteendet har åtkomst till ([[C-101 har åtkomst till]]), som ArchiMate gör (beslut 34).
+ArchiMate läser behandlingen ur verksamhetsbeteendet och informationsobjekten.
 
 ## Exempel
 

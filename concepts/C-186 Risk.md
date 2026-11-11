@@ -21,7 +21,7 @@ Ett begrepp, ingen egen typ: en risk registreras som ett element av typen bedöm
 
 ## Motsvarigheter
 
-Business Motivation Model delar på samma sätt i Risk och Potential Reward under Potential Impact.
+Business Motivation Model delar i Risk och Potential Reward under Potential Impact.
 
 ## Exempel
 
