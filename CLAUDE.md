@@ -22,6 +22,16 @@ Ett id säger Nicklas ingenting ensamt: skriv alltid termen vid det, "Uppdrag (C
 
 All text som skrivs här, anmärkningar, beslut, exempel och ordlistan, skrivs i klarspråk med `klarsprak`-skillen: det viktigaste först, ett ämne per stycke, en tanke per mening, aktören utsatt, samma ord för samma sak. Nivån är Lösning (C-055) efter #42. En text som skrivs under en grillning skrivs om innan den checkas in; definitionerna rörs inte utan egen grillning.
 
+## Grillningar
+
+Varje fråga i en grillning bär ett konkret exempel i själva dialogen, hämtat ur de två exempelorganisationerna. Nicklas avgör frågan på fallet, inte på principen. Exemplen skrivs in i filerna först när svaret är givet.
+
+## Ritningar
+
+En pil i en ritning i `layout/` som saknar relation i lagret tas inte bort. Lämna pilen och lägg ett `question`-ärende; Nicklas värderar om lagret eller ritningen har rätt.
+
+En ritning som läggs till eller tas bort får eller tappar sin post i `.github/pages/ritningar/index.html` i samma commit. Annars saknas ritningen på gestaltadet.se/ritningar, eller så pekar sidan på en fil som inte finns.
+
 ## Frågor in, ändringar hans
 
 Katalogen är hur Nicklas ser på saker. Frågor, invändningar och förslag från läsare är välkomna som ärenden och besvaras; en ändring i en definition gör Nicklas, eller Claude på hans ord. Arbete på programmet, en funktion, ett fel, ett kommando som beter sig fel, hör till interlinguas tracker, `nickdin/interlingua`, även när det upptäcks här.
@@ -30,15 +40,17 @@ Katalogen är hur Nicklas ser på saker. Frågor, invändningar och förslag fr�
 
 `~/Devbox/interlingua/.venv/bin/interlingua check .` kontrollerar lagret och ska sluta `no violations`.
 
-## Synk
+## Synk och publicering
 
 Git, remote `nickdin/gestaltadet-katalog`. Commit och push utan att fråga; `main` är enda grenen tills Nicklas säger annat.
+
+Varje push till `main` publicerar. Arbetsflödet `Publicera katalogen` (`.github/workflows/publicera.yml`) bygger då om gestaltadet.se, och bygget tar flera minuter. Kontrollera det efter push med `gh run list --workflow publicera.yml -L 1`, och säg i svaret om sajten är uppdaterad.
 
 ## Agent skills
 
 ### Issue tracker
 
-Ärendena bor i GitHub Issues i `nickdin/gestaltadet-katalog`, publikt, bara katalogens arbete; programmets går till `nickdin/interlingua`. Tavlan är https://github.com/users/nickdin/projects/22. Se `docs/agents/issue-tracker.md`.
+Ärendena bor i GitHub Issues i `nickdin/gestaltadet-katalog`, publikt. De tar katalogens arbete och sajtens: ritningarna, startsidan och den grafiska profilen. Programmets arbete går till `nickdin/interlingua`. Tavlan är https://github.com/users/nickdin/projects/22. Se `docs/agents/issue-tracker.md`.
 
 ### Triage labels
 

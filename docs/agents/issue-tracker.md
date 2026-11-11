@@ -2,7 +2,7 @@
 
 Issues and specs for this repo live as GitHub issues at **`nickdin/gestaltadet-katalog`**, public. Use the `gh` CLI for all operations. `gh` resolves the repository from `origin`; no flag is needed.
 
-**This tracker takes work on the catalogue only**: a concept, a mapping row, a decision behind them, the two example organisations. Work on the program that reads the catalogue, a feature, a bug, a command that misbehaves, goes to `nickdin/interlingua` even when it is discovered here (`CLAUDE.md` § Frågor in, ändringar hans). Issue text here is Swedish, like the data.
+**This tracker takes work on the catalogue and its site only**: a concept, a mapping row, a decision behind them, the two example organisations, a drawing in `layout/`, the site's own pages in `.github/pages/`, the graphic profile in `docs/`. Work on the program that reads the catalogue, a feature, a bug, a command that misbehaves, goes to `nickdin/interlingua` even when it is discovered here (`CLAUDE.md` § Frågor in, ändringar hans). Issue text here is Swedish, like the data.
 
 **The tracker is public, and readers are invited to file here.** A reader's question or objection is a `question` until it turns into a change; the answer closes it, and a change in a definition is Nicklas's to make. No issue, comment or label text names a real organisation, unit, system or internal document (`CLAUDE.md` § Ingen verklig organisation): an example is drawn from Myndigheten för föreningsstöd or the housing company in `docs/exempel/`.
 
