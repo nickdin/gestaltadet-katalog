@@ -5,14 +5,11 @@ terms:
   - term: Metamodell
     language: sv
     source: catalogue
-definition: "modell som definierar de arkitekturelement, relationer och den notation en arkitekturvy får använda"
-associative:
-  - concept: "[[C-034 Arkitekturelement]]"
-    label: definierar
+definition: modell som definierar vilka typer av arkitekturelement och relationer en arkitekturbeskrivning får använda
 ---
 # C-039 Metamodell
 
-**Definition:** modell som definierar de arkitekturelement, relationer och den notation en arkitekturvy får använda
+**Definition:** modell som definierar vilka typer av arkitekturelement och relationer en arkitekturbeskrivning får använda
 
 ## Exempel
 
