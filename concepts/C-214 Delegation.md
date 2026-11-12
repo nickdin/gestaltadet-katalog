@@ -7,6 +7,9 @@ terms:
     status: preferred
     source: concept new
 definition: överlämnande av beslutanderätt, genom en regel, från den som har den till en annan roll, aktör eller forum
+associative:
+  - concept: '[[C-020 Regel]]'
+    label: sker genom
 ---
 # C-214 Delegation
 
