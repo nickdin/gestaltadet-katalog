@@ -16,6 +16,8 @@ generic: "[[C-015 Styrmedel]]"
 associative:
   - concept: "[[C-018 Princip]]"
     label: fattas enligt
+  - concept: '[[C-213 Avvikelse]]'
+    label: kan godta
 ---
 # C-019 Styrbeslut
 
