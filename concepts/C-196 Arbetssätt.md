@@ -25,7 +25,11 @@ associative:
 
 ## Anmärkning
 
-Ett verksamhetsbeteende ([[C-157 Verksamhetsbeteende]]) följer ett arbetssätt, och vilket står i beteendets text. Arbetssättet är ett begrepp, ingen elementtyp. Det hör till en disciplin ([[C-124 Disciplin]]): disciplinen är fältet, arbetssättet det fältet säger att man ska göra, kompetensen ([[C-125 Kompetens]]) det någon har av det. Att välja arbetssätt är ett styrbeslut ([[C-019 Styrbeslut]]), det metodstyrningen ([[C-051 Metodstyrning]]) handlar om. Metod står som alternativ term.
+Ett verksamhetsbeteende ([[C-157 Verksamhetsbeteende]]) följer ett arbetssätt, och vilket står i beteendets text. Arbetssättet är ett begrepp, ingen elementtyp. Det hör till en disciplin ([[C-124 Disciplin]]): disciplinen är fältet, arbetssättet det fältet säger att man ska göra, kompetensen ([[C-125 Kompetens]]) det någon har av det. Metod står som alternativ term.
+
+Den som har mandatet ([[C-189 Mandat]]) över ett styrobjekt väljer arbetssätt för det genom ett styrbeslut ([[C-019 Styrbeslut]]). En överordnad styrning kan binda valet med en regel ([[C-020 Regel]]). Valet är ingen egen styrningsform. Arbetssättet är heller ingen aspekt ([[C-004 Aspekt]]): det är en egenskap hos beteendet, inte hos allt som styrs. Beslut 41.
+
+Ett arbetssätt kan beskrivas med de element lagret redan har, som ett återanvändbart mönster för beteendet. När en organisation antar arbetssättet står mönstret i en referensarkitektur ([[C-041 Referensarkitektur]]). Arbetssättet finns innan någon har antagit det; referensarkitekturen är antagen.
 
 ## Motsvarigheter
 

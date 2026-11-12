@@ -17,6 +17,14 @@ associative:
 
 **Definition:** styrning avgränsad av en styraspekt och utövad tvärs över flera styrobjekt
 
+## Anmärkning
+
+En aspektbaserad styrning äger inget styrobjekt. Den har ett mandat ([[C-189 Mandat]]) som ägaren av det omslutande styrobjektet har delat ut, begränsat till en aspekt. Ägandet stannar hos den som delade ut mandatet. Myndighetens generaldirektör ger ekonomichefen rätt att fastställa ekonomiregler för hela myndigheten. Ekonomichefen blir inte ägare till utvecklingsportföljen eller Ärendesystemet.
+
+Aspektens styrmedel ([[C-015 Styrmedel]]) binder den som äger ett styrobjekt, och ägaren beslutar inom dem. Ett undantag avgör den som gav båda sina mandat.
+
+Varje aspekt kan bära en styrning. Katalogen namnger dem den behöver. Beslut 41.
+
 ## Exempel
 
-arkitekturstyrning, ekonomistyrning, metodstyrning.
+arkitekturstyrning, ekonomistyrning.

@@ -1,0 +1,24 @@
+#71 — Beslut 41: aspektstyrningen äger inget styrobjekt, Metodstyrning (C-051) tas bort, Styrmedel (C-015) kan ta sikte på Aspekt (C-004). Samma tre kommandon på basen och på grenen.
+
+If wrong (om beslutet inte är inskrivet): grenen svarar som basen, det vill säga filen C-051 finns kvar, Styrmedel (C-015) nämner inte C-004 och tre begreppsfiler nämner metodstyrning.
+
+## Basen
+BAS 4ef365b
+$ ls concepts | grep C-051
+C-051 Metodstyrning.md
+$ grep -c "C-004" "concepts/C-015 Styrmedel.md"
+0
+$ grep -rl -i metodstyrning concepts
+concepts/C-196 Arbetssätt.md
+concepts/C-006 Aspektbaserad styrning.md
+concepts/C-051 Metodstyrning.md
+
+## Grenen
+GREN ticket-71 ovanpå 3415c2d
+$ ls concepts | grep C-051
+$ grep -c "C-004" "concepts/C-015 Styrmedel.md"
+1
+$ grep -rl -i metodstyrning concepts
+
+$ interlingua check .
+check: 203 files, no violations

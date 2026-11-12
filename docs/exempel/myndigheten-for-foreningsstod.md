@@ -19,6 +19,10 @@ Regleringsbrevet ger varje år anslag, mål och återrapporteringskrav. Årets m
 
 Utvecklingsarbetet samlas i en utvecklingsportfölj som generaldirektören prioriterar och finansierar. Just nu rymmer den två initiativ: en ny e-tjänst för redovisning och automatisk beräkning av verksamhetsbidraget.
 
+Ekonomichefen har generaldirektörens mandat att fastställa ekonomiregler för hela myndigheten. En regel säger att ingen enhet får överskrida sin personalbudget. Regeln gäller i utvecklingsportföljen, i handläggningen och i förvaltningen av systemen, fast ekonomichefen inte äger något av dem. Vill chefen för Bidragsenheten ta in extra handläggare utöver budgeten avgör generaldirektören. Regeln att bara handläggare får läsa uppgifter om företrädare tar sikte på säkerheten.
+
+Generaldirektören har fastställt regeln att initiativen i utvecklingsportföljen följer Scrum. Chefen för Bidragsenheten har som lösningsägare valt pm3 för förvaltningen av sin lösning. Handläggarna följer myndighetens handbok för handläggning av stöd.
+
 ## Förmågor
 
 Fem förmågor säger vad myndigheten kan göra, oavsett vem som gör det eller med vilket system:
@@ -74,6 +78,7 @@ Målgruppen är ideella föreningar och de människor som företräder dem, ofta
 Myndigheten står för förvaltningens mekanik. Hämta härifrån exempel på:
 
 - uppdrag (C-149), verksamhetsmål (C-169), portfölj (C-011) och initiativ (C-012)
+- aspektbaserad styrning (C-006), aspekt (C-004) och arbetssätt (C-196)
 - verksamhetsförmåga (C-069), verksamhetsprocess (C-130) och handläggning (C-160)
 - ärendebeslut (C-181) och beslutslogik (C-178)
 - informationsobjekt (C-060), uppgift (C-161) och sammanställning (C-162)
