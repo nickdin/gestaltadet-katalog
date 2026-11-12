@@ -19,6 +19,12 @@ Regleringsbrevet ger varje år anslag, mål och återrapporteringskrav. Årets m
 
 Utvecklingsarbetet samlas i en utvecklingsportfölj som generaldirektören prioriterar och finansierar. Just nu rymmer den två initiativ: en ny e-tjänst för redovisning och automatisk beräkning av verksamhetsbidraget. Det första flyttar redovisningen från blankett till Föreningsportalen. Det andra låter Beräkningstjänsten hämta uppgifterna ur registret själv.
 
+Generaldirektören äger portföljen. I den står leveransprodukterna Föreningsregistret och Beräkningstjänsten bredvid initiativen, så att generaldirektören kan väga dem mot varandra. Föreningsregistret med support kostar 3 miljoner kronor per år. Automatisk beräkning kostar 2 miljoner kronor en gång och ska spara en timme per ärende. Generaldirektören kan sänka supporten för registret för att initiativet ska få plats. Pengarna till registret går som ram till registerlösningen, pengarna till initiativet som ram till initiativet.
+
+Initiativet automatisk beräkning har fått 2 miljoner kronor och två utvecklare på halvtid. Det är dess ram. Att det ska vara klart före nästa ansökningsomgång är ett krav. Att handläggningstiden ska sjunka med en timme per ärende är ett effektmål. Att registret kanske inte har alla lokalavdelningar är en risk. Initiativet drivs som projekt. Generaldirektören har utsett en beställare, som är initiativets ägare och beslutar om arbetet. I styrgruppen sitter ägarna till de två lösningar som ändras. Styrgruppen ger råd men beslutar inte. Ägaren till lösningen som realiserar Beräkningstjänsten ställer kraven på vad tjänsten ska kunna. Kräver hen att tjänsten också hämtar kontonummer, och det inte ryms i ramen, avgör generaldirektören: mer pengar eller ett lägre krav. Chefen för Bidragsenheten svarar för att handläggningstiden faktiskt sjunker, för effekten uppstår i hens lösning när initiativet är slut.
+
+Alla förändringar står inte i portföljen. Chefen för Bidragsenheten låter två handläggare skriva om mallarna för kompletteringsbegäran under tre veckor. Hen betalar det ur lösningens ram och frågar ingen. Det är vidareutveckling inom ramen. Drift, support och rättningar i Föreningsregistret är vidmakthållande och inget initiativ. Den dag Ärendesystemet är uttjänt och skrivs om på ny teknik är det också vidareutveckling, för lösningen Ansökningshandläggningen är densamma efteråt. Men lösningens ram räcker inte, så det initiativet står i portföljen.
+
 Ekonomichefen har generaldirektörens mandat att fastställa ekonomiregler för hela myndigheten. En regel säger att ingen enhet får överskrida sin personalbudget. Regeln gäller i utvecklingsportföljen, i handläggningen och i förvaltningen av systemen, fast ekonomichefen inte äger något av dem. Vill chefen för Bidragsenheten ta in extra handläggare utöver budgeten avgör generaldirektören. Regeln att bara handläggare får läsa uppgifter om företrädare tar sikte på säkerheten.
 
 Generaldirektören delegerar i arbetsordningen. Chefen för Bidragsenheten har fått handläggningen av ansökningar: hen beslutar om den, håller ramen och svarar för målet om fyra månader. Generaldirektören svarar fortfarande inför regeringen för myndighetens uppdrag. Arbetsordningen säger också att enhetschefen beslutar om stöd upp till ett basbelopp, och att hen får lämna den rätten vidare till en gruppchef för stöd upp till ett halvt basbelopp. Det är beslutanderätt i ärenden och inget mandat.
@@ -41,7 +47,7 @@ Fem förmågor säger vad myndigheten kan göra, oavsett vem som gör det eller 
 
 Tre handläggningar till har egna starter. **Pröva ett återkrav** startar när en redovisning visar att pengar använts fel eller inte alls. **Granska en förening i tillsyn** startar när en anmälan kommer in eller stickprovet pekar ut en förening. **Registrera en ny företrädare** är en kort handläggning med kontroll mot folkbokföringen.
 
-Varje process och handläggning lämnar ett resultat. Pröva en ansökan lämnar ett ärendebeslut, och utfallet är bifall, delvis bifall eller avslag. Verksamhetsbidraget är en produkt: myndigheten erbjuder föreningarna en prövning med ett beslut och, vid bifall, en utbetalning. Prövningen är en tjänst. Det utbetalda bidraget är en vara, för det blir föreningens att förfoga över. Rapporten till regeringen om föreningslivets utveckling är också en produkt. Beslutet om återkrav är ett resultat som inte hör till någon produkt. Föreningen tar emot det, men det är inte till för föreningen. En tillsyn som slutar utan anmärkning hör inte heller till någon produkt.
+Varje process och handläggning lämnar ett resultat. Pröva en ansökan lämnar ett ärendebeslut, och utfallet är bifall, delvis bifall eller avslag. Verksamhetsbidraget är en produkt: myndigheten erbjuder föreningarna en prövning med ett beslut och, vid bifall, en utbetalning. Prövningen är en tjänst. Det utbetalda bidraget är en vara, för det blir föreningens att förfoga över. Bidraget har ingen egen ägare. Chefen för Bidragsenheten äger lösningen som erbjuder det och svarar inför föreningen för hela löftet. Rapporten till regeringen om föreningslivets utveckling är också en produkt. Beslutet om återkrav är ett resultat som inte hör till någon produkt. Föreningen tar emot det, men det är inte till för föreningen. En tillsyn som slutar utan anmärkning hör inte heller till någon produkt.
 
 Beslutslogiken är de regler som ger utfallet ur indata. Verksamhetsbidragets storlek beräknas ur antal medlemmar och antal lokalavdelningar. En förening är bidragsberättigad om den är demokratiskt uppbyggd, har funnits i två år och har minst tusen medlemmar. Reglerna står i bidragsförordningen och i myndighetens föreskrifter, och de används i varje ärende.
 
@@ -81,7 +87,8 @@ Målgruppen är ideella föreningar och de människor som företräder dem, ofta
 
 Myndigheten står för förvaltningens mekanik. Hämta härifrån exempel på:
 
-- uppdrag (C-149), verksamhetsmål (C-169), portfölj (C-011) och initiativ (C-012)
+- uppdrag (C-149), verksamhetsmål (C-169), portfölj (C-011) och initiativ (C-012), med portföljens och initiativets ägare
+- vidmakthållande, vidareutveckling och ett initiativ inom lösningens egen ram
 - aspektbaserad styrning (C-006), aspekt (C-004) och arbetssätt (C-196)
 - verksamhetsförmåga (C-069), verksamhetsprocess (C-130) och handläggning (C-160)
 - ärendebeslut (C-181) och beslutslogik (C-178)

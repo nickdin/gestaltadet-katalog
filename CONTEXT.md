@@ -89,6 +89,22 @@ _Undvik_: *mission* (uppdragsmodellens ord, *mission model canvas*), ändamål (
 **Ersättning**:
 Hur en målarkitektur säger att en sak blir en annan sak: ett nytt element som *ersätter* det gamla, genom en relation av typen ersätter (C-104), det gamla borttaget.
 
+### Förvaltning och förändring
+
+Fyra vanliga ord som inte är begrepp i katalogen. De förklaras tillsammans i Initiativ (C-012), där gränserna mellan dem står (beslut 46).
+
+**Vidmakthållande**:
+Att hålla en lösning och dess produkter i det skick de har: drift, support och rättningar. Det har inget slut och är inget initiativ. Lösningens ram betalar det.
+
+**Vidareutveckling**:
+Ett initiativ som ändrar en lösning som finns. Byte av uttjänt teknik hör hit, för lösningen är densamma efteråt.
+
+**Nyutveckling**:
+Ett initiativ som lämnar en lösning som inte fanns. Den blivande lösningsägaren utses när initiativet startar.
+
+**Innovation**:
+Ett initiativ som prövar en idé och lämnar kunskap: en bedömning som leder till ett styrbeslut om att gå vidare eller låta bli.
+
 ### Katalogens begrepp bakom interlinguas ord
 
 Katalogens egna termer (svenska, `C-nnn`) är auktoriteten. De engelska orden nedan är de namn interlinguas kod och dokumentation använder för dem.
