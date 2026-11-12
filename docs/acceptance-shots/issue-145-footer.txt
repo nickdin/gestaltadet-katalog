@@ -1,0 +1,29 @@
+#145 — Meningen om att katalogen får återanvändas står i sidfoten på varje sida: `footer:` i `settings.yaml`.
+
+Provet publicerar samma commit två gånger, 87ec342, med `interlingua publish` till var sin tillfällig mapp. Basen är 87ec342 utan `footer:`. Grenen är 87ec342 med raden `footer:` tillagd, och inget annat ändrat. Båda körningarna skrev 1509 filer med samma namn.
+
+If wrong (om sidfoten inte kommer från `footer:` eller inte står på varje sida): grenen saknar meningen på någon sida, basen har den redan, eller mapparna skiljer sig i något annat än sidfoten.
+
+## Sökning efter meningen
+
+Sökt sträng: "Använd och bygg vidare, med GestaltaDet och Nicklas Grandin som källa"
+
+    drawings/index.html     (ritningssidan)            bas=0 gren=1
+    file/C-149/index.html   (begreppssidan Uppdrag)    bas=0 gren=1
+    index.html              (startsidan för katalogen) bas=0 gren=1
+
+## Hela skillnaden mellan mapparna
+
+`diff -r` mellan basen och grenen ger bara tillagda rader, och bara dessa tre, var och en på 429 sidor:
+
+    429 > <footer>
+    429 > <p>Licens: <a href="https://creativecommons.org/licenses/by/4.0/deed.sv">CC BY 4.0</a>. Använd och bygg vidare, med GestaltaDet och Nicklas Grandin som källa.</p>
+    429 > </footer>
+
+Grenen har 429 HTML-sidor. Ingen av dem saknar meningen.
+
+## Kontroll
+
+På grenen, 87ec342 med `footer:`:
+
+    check: 203 files, no violations
