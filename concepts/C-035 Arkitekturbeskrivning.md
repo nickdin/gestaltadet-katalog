@@ -15,6 +15,8 @@ associative:
     label: har
   - concept: "[[C-038 Detaljeringsgrad]]"
     label: har
+  - concept: '[[C-039 Metamodell]]'
+    label: följer
 ---
 # C-035 Arkitekturbeskrivning
 
