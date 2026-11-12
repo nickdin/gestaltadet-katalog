@@ -6,6 +6,9 @@ terms:
     language: sv
     source: catalogue
 definition: modell som definierar vilka typer av arkitekturelement och relationer en arkitekturbeskrivning får använda
+associative:
+  - concept: '[[C-034 Arkitekturelement]]'
+    label: definierar typerna av
 ---
 # C-039 Metamodell
 
