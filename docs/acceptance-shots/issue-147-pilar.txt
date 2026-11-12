@@ -1,0 +1,23 @@
+Prov för #147: pilarna vid Metamodell (C-039), Notation (C-212) och Diagram (C-106) i de två ritningarna.
+Kört 2026-11-12 med: python3 docs/acceptance-shots/issue-147-pilar.py <ritning> Metamodell Notation Diagram
+Före är ritningen i commit 84eaeed, efter är ritningen i arbetskopian.
+
+== layout/Arkitektur/Arkitektur beskrivningens form.drawio.svg
+-- före
+Arkitekturperspektiv --[ANGER ▲]--> Metamodell
+Arkitekturvy --[FÖLJER ▶]--> Metamodell
+Metamodell --[DEFINIERAR ▲]--> Arkitekturelement
+-- efter
+Arkitekturbeskrivning --[FÖLJER ▶]--> Metamodell
+Diagram --[RITAS MED ▲]--> Notation
+Metamodell --[DEFINIERAR TYPERNA AV ▲]--> Arkitekturelement
+Notation --[STÅR FÖR TYPERNA I ▲]--> Metamodell
+
+== layout/Principer/Begreppsmodell arkitekturprinciper.drawio.svg
+-- före
+Arkitekturperspektiv --[ANGER ▶]--> Metamodell
+Arkitekturvy --[FÖLJER ▶]--> Metamodell
+Metamodell --[DEFINIERAR ▶]--> Arkitekturelement
+-- efter
+Arkitekturbeskrivning --[FÖLJER ▼]--> Metamodell
+Metamodell --[DEFINIERAR TYPERNA AV ▶]--> Arkitekturelement
