@@ -10,6 +10,8 @@ definition: överlämnande av beslutanderätt, genom en regel, från den som har
 associative:
   - concept: '[[C-020 Regel]]'
     label: sker genom
+  - concept: '[[C-189 Mandat]]'
+    label: överlämnar
 ---
 # C-214 Delegation
 
