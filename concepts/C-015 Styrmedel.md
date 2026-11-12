@@ -6,6 +6,9 @@ terms:
     language: sv
     source: catalogue
 definition: "innehåll som en överordnad styrning producerar för att påverka ett styrobjekt i en avsedd riktning"
+associative:
+  - concept: '[[C-004 Aspekt]]'
+    label: kan ta sikte på
 ---
 # C-015 Styrmedel
 
