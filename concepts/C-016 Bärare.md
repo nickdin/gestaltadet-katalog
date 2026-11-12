@@ -21,11 +21,11 @@ associative:
 
 ## Exempel
 
-riktlinje, anvisning, standard, plan, målarkitektur, verksamhetsplan, budget, informationshanteringsplan.
+riktlinje, policy, anvisning, standard, plan, målarkitektur, verksamhetsplan, budget, informationshanteringsplan.
 
 ## Anmärkning
 
-Ett styrmedel kan byta bärare utan att ändra innehåll. Standarden är en bärare: den bär krav, och kraven är styrmedlen. En arkitekturbeskrivning som beslutar principer är deras bärare. Riskanalysen och omvärldsanalysen är bärare: de bär bedömningar ([[C-185 Bedömning]]) (beslut 25, beslut 37). Ett dokument som varken bär styrmedel, ändamål eller bedömning är ingen bärare. Som databärare är det en artefakt ([[C-081 Artefakt]]), och dess läsbara innehåll är representationer ([[C-085 Representation]]).
+Ett styrmedel kan byta bärare utan att ändra innehåll. Standarden är en bärare: den bär krav, och kraven är styrmedlen. En arkitekturbeskrivning som beslutar principer är deras bärare. Riskanalysen och omvärldsanalysen är bärare: de bär bedömningar ([[C-185 Bedömning]]) (beslut 25, beslut 37). Policyn är en bärare. Ordet namnger dokumentet och säger inget om vad som står i det. Bostadsbolagets uthyrningspolicy bär en regel, den som stått längst i kön går först. Den bär en princip, bolaget hyr hellre ut till den som saknar bostad än till den som vill byta. Och den bär ett mål, hyresgästerna ska vara nöjda. Varje mening prövas för sig (beslut 43). Ett dokument som varken bär styrmedel, ändamål eller bedömning är ingen bärare. Som databärare är det en artefakt ([[C-081 Artefakt]]), och dess läsbara innehåll är representationer ([[C-085 Representation]]).
 
 Bäraren är det som fastställs. Relationen fastställs av ([[C-183 fastställs av]]) går från bäraren till den aktör, roll eller det forum som beslutat eller antagit den, och styrmedlen bäraren bär följer med. Ett styrmedel utan bärare får relationen själv (beslut 23). I lagret skrivs bär mellan ett bärarelement och det styrmedel det bär med relationstypen aggregerar ([[C-100 aggregerar]]): ett styrmedel kan byta bärare utan att ändra innehåll, så det är ingen exklusiv del (beslut 19).
 

@@ -15,7 +15,7 @@ Regeringen fastställer uppdraget i myndighetens instruktion. Den ger fyra uppdr
 3. **Tillsyn**: att granska att bidrag använts enligt villkoren och att besluta om återkrav när de inte har det.
 4. **Uppföljning**: att följa föreningslivets utveckling och rapportera till regeringen.
 
-Regleringsbrevet ger varje år anslag, mål och återrapporteringskrav. Årets mål är till exempel att nio av tio ansökningar ska vara beslutade inom fyra månader och att andelen bidrag som återkrävs ska minska. Ett annat är att handläggningskostnaden per ärende ska redovisas. Förvaltningslagen styr hur varje ärende handläggs. Bidragsförordningen säger vem som kan få bidrag och hur det beräknas. Myndighetens egna principer är styrning som generaldirektören fastställer, till exempel att en förening alltid ska kunna sköta sitt ärende i e-tjänsten.
+Regleringsbrevet ger varje år anslag, mål och återrapporteringskrav. Årets mål är till exempel att nio av tio ansökningar ska vara beslutade inom fyra månader och att andelen bidrag som återkrävs ska minska. Ett annat är att handläggningskostnaden per ärende ska redovisas. Förvaltningslagen styr hur varje ärende handläggs. Bidragsförordningen säger vem som kan få bidrag och hur det beräknas. Myndighetens egna principer är styrning som generaldirektören fastställer. En av dem är Självbetjäning före personlig service: myndigheten utformar sina kanaler så att föreningen sköter sitt ärende själv hellre än genom en handläggare. Av principen följer kravet att en förening alltid ska kunna sköta sitt ärende i e-tjänsten.
 
 Utvecklingsarbetet samlas i en utvecklingsportfölj som generaldirektören prioriterar och finansierar. Just nu rymmer den två initiativ: en ny e-tjänst för redovisning och automatisk beräkning av verksamhetsbidraget.
 
@@ -67,7 +67,7 @@ Analysenheten läser Ansökan, Beslut och Utbetalning in i ett datalager, en lag
 
 Alla fem körs på en gemensam plattform i myndighetens datahall, utom Föreningsportalen som en leverantör driftar.
 
-Handläggningen av en ansökan är en lösning: processen, Bidragsenhetens handläggare, Ansökan, Beslut och Utbetalning, och Ärendesystemet. Bidragsenhetens chef är dess lösningsägare, håller ramen och svarar för målet att nio av tio ansökningar är beslutade inom fyra månader. Lösningen använder Föreningsregistret som leveransprodukt. Registerlösningen tar fram och vidmakthåller registret, handläggningen ställer krav på det, och de två kan ändras var för sig. Kopplingen är lös. Myndighetens referensarkitektur antar provet för ett snitt som arkitekturprincip: en lösning har en ägare med ram, och det två lösningar delar bryts ut som en egen lösning.
+Handläggningen av en ansökan är en lösning: processen, Bidragsenhetens handläggare, Ansökan, Beslut och Utbetalning, och Ärendesystemet. Bidragsenhetens chef är dess lösningsägare, håller ramen och svarar för målet att nio av tio ansökningar är beslutade inom fyra månader. Lösningen använder Föreningsregistret som leveransprodukt. Registerlösningen tar fram och vidmakthåller registret, handläggningen ställer krav på det, och de två kan ändras var för sig. Kopplingen är lös. Myndighetens referensarkitektur antar provet för ett snitt som arkitekturprincip: en lösning har en ägare med ram, och det två lösningar delar bryts ut som en egen lösning. Referensarkitekturen antar också Gemensamt före eget: en lösning använder det som redan finns gemensamt hellre än att bygga eget. Chefen för Bidragsenheten fattar som lösningsägare valen i sin lösning och väger principerna mot varandra. Vill chefen bygga ett eget register över kontaktpersoner för att hinna före årets bidragsomgång, och ingen annan princip bär valet, är det en avvikelse. Den avgör generaldirektören, som gav både lösningsägaren och arkitekturstyrningen deras mandat.
 
 ## Vem den finns för
 
@@ -85,7 +85,9 @@ Myndigheten står för förvaltningens mekanik. Hämta härifrån exempel på:
 - informationsägare (C-167), processägare (C-206) och linjechef (C-207) i en och samma person
 - lösning (C-055) med handläggningen och Föreningsregistret som leveransprodukt (C-174) i lös koppling (C-211)
 - ansvar (C-209) och ram (C-210) hos Bidragsenhetens chef
-- arkitekturprincip (C-040) med provet för ett snitt
+- arkitekturprincip (C-040) med provet för ett snitt, Gemensamt före eget och Självbetjäning före personlig service
+- krav (C-021) som följer av en princip, med e-tjänsten
+- avvikelse (C-213) med det egna registret över kontaktpersoner
 - informationstillgång (C-166), applikation (C-071) och plattform (C-072)
 - målgrupp (C-145), behov (C-146), resa (C-147) och värdeerbjudande (C-148)
 

@@ -15,7 +15,7 @@ Kommunen fastställer uppdraget i bolagsordningen och ägardirektivet. Bolagsord
 3. **Hushålla**: att göra det på affärsmässiga grunder, enligt lagen om allmännyttiga kommunala bostadsaktiebolag.
 4. **Ta ansvar**: att erbjuda bostäder till hushåll som kommunen anvisar och att bidra till trygghet i områdena.
 
-Ägardirektivets mål är ägarens: en direktavkastning på minst tre procent av fastigheternas marknadsvärde och en soliditet som inte understiger tjugo procent. Dit hör också omkring 150 nya lägenheter per år fram till 2030 och att bidra till kommunens klimatmål. Målen för den dagliga verksamheten sätter styrelsen i affärsplanen. En felanmälan ska vara åtgärdad inom fem arbetsdagar, och energianvändningen per kvadratmeter ska minska med tre procent per år. Hyresgästernas nöjdhet, mätt i den årliga kundundersökningen, ska gå från 76 till 80 på fyra år. Styrelsen fastställer också underhållsplanen och en princip om att varje hyresgäst ska kunna göra sin felanmälan själv i appen. Hyreslagen och hyresförhandlingarna med hyresgästföreningen ramar in vad bolaget får göra med hyran.
+Ägardirektivets mål är ägarens: en direktavkastning på minst tre procent av fastigheternas marknadsvärde och en soliditet som inte understiger tjugo procent. Dit hör också omkring 150 nya lägenheter per år fram till 2030 och att bidra till kommunens klimatmål. Målen för den dagliga verksamheten sätter styrelsen i affärsplanen. En felanmälan ska vara åtgärdad inom fem arbetsdagar, och energianvändningen per kvadratmeter ska minska med tre procent per år. Hyresgästernas nöjdhet, mätt i den årliga kundundersökningen, ska gå från 76 till 80 på fyra år. Styrelsen fastställer också underhållsplanen och två principer i affärsplanen. Självbetjäning före personlig service väljer mellan appen och kundcenter när bolaget utformar sina kanaler. Av den följer kravet att varje hyresgäst ska kunna göra sin felanmälan själv i appen. Akuta fel före planerat underhåll styr hur bovärdarna ordnar veckans arbete. Vill teknisk chef en vecka låta ett planerat stambyte gå före akuta fel i ett annat hus är det en avvikelse, och den avgör styrelsen eller den som styrelsen lagt avgörandet hos. Uthyrningspolicyn, som styrelsen också fastställer, rymmer flera sorters styrning: regeln att den som stått längst i kön går först, principen att bolaget hellre hyr ut till den som saknar bostad än till den som vill byta, och målet att hyresgästerna ska vara nöjda. Hyreslagen och hyresförhandlingarna med hyresgästföreningen ramar in vad bolaget får göra med hyran.
 
 Bolagets investeringsportfölj rymmer nyproduktion, stambyten och energiprojekt, prioriterade mot varandra för samma pengar.
 
@@ -81,6 +81,9 @@ Bolaget står för det fysiska, kunden och tekniken. Hämta härifrån exempel p
 - uppdrag fastställt av ägaren (C-149 Uppdrag, C-183 fastställs av)
 - mål med olika fastställare, ägarens i ägardirektivet och styrelsens i affärsplanen (C-017 Mål, C-189 Mandat)
 - ändamål ur bolagsordningen (C-022)
+- arkitekturprincip (C-040) och princip (C-018) som styrelsen fastställer i affärsplanen, och krav (C-021) som följer av den ena
+- bärare (C-016) med uthyrningspolicyn, som rymmer en regel, en princip och ett mål
+- avvikelse (C-213) från en princip som inte kommer ur en aspekt
 - anläggning (C-091), utrustning (C-090), nod (C-079) och kommunikationsnätverk (C-088)
 - teknikfunktion (C-134) och tekniktjänst (C-129)
 - applikation (C-071) med fastighetssystemet och applikationsfunktion (C-133) med dess moduler
