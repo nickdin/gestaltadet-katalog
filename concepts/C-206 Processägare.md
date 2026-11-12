@@ -35,4 +35,4 @@ Skrivs ut som ArchiMates Business Role, som informationsägaren. Beslut 35.
 
 ## Exempel
 
-teknisk chef för processen Felanmälan hos bostadsbolaget; chefen för Bidragsenheten för handläggningen av ansökan hos Myndigheten för föreningsstöd; chefen för analysenheten för analysfunktionen.
+teknisk chef för processen Åtgärda en felanmälan hos bostadsbolaget; chefen för Bidragsenheten för handläggningen Pröva en ansökan hos Myndigheten för föreningsstöd; chefen för analysenheten för analysfunktionen.

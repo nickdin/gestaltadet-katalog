@@ -31,9 +31,9 @@ Bolagets investeringsportfölj rymmer nyproduktion, stambyten och energiprojekt,
 
 ## Processer och handläggningar
 
-**Felanmälan** är bolagets vanligaste process och har fasta steg. Hyresgästen anmäler i appen eller till kundcenter, och ärendet blir en arbetsorder hos områdets bovärd. Bovärden bedömer och reparerar själv eller beställer en entreprenör. Åtgärden kvitteras och hyresgästen får besked. **Uthyrningen** löper från ledig lägenhet till tecknat avtal. Lägenheten publiceras och intressenter anmäler sig från bostadskön. Den som har längst kötid och uppfyller villkoren erbjuds lägenheten, avtal tecknas och nycklar lämnas ut. **Besiktningen** vid utflyttning avgör vad som är slitage och vad hyresgästen ska betala för.
+**Åtgärda en felanmälan** är bolagets vanligaste process och har fasta steg. Hyresgästen anmäler i appen eller till kundcenter, och ärendet blir en arbetsorder hos områdets bovärd. Bovärden bedömer och reparerar själv eller beställer en entreprenör. Åtgärden kvitteras och hyresgästen får besked. **Hyra ut en lägenhet** löper från ledig lägenhet till tecknat avtal. Lägenheten publiceras och intressenter anmäler sig från bostadskön. Den som har längst kötid och uppfyller villkoren erbjuds lägenheten, avtal tecknas och nycklar lämnas ut. **Besikta en lägenhet vid utflyttning** avgör vad som är slitage och vad hyresgästen ska betala för.
 
-Två handläggningar väljer sina steg efter hand och kan sluta i att hyresgästen förlorar bostaden. **Störningsärendet** börjar med grannarnas anmälningar. De går oftast till den störningsjour bolaget anlitar, som rycker ut på kvällar och nätter och dokumenterar vad den ser. Sedan följer samtal med hyresgästen, skriftlig varning och kontakt med socialtjänsten. Vid allvarliga eller återkommande störningar följer uppsägning. **Avhysningen vid obetald hyra** följer hyreslagen. Först en påminnelse, sedan lämnas kravet till den inkassotjänst bolaget anlitar. När hyran är mer än en vecka försenad följer uppsägning och en skriftlig underrättelse till socialnämnden, som kan ta över betalningen. Därefter ansökan om betalningsföreläggande och avhysning hos Kronofogden. Hyresgästen återvinner bostaden genom att betala inom tre veckor från att hen fått underrättelsen. Annars verkställer Kronofogden avhysningen. Beslutet att säga upp är ett ärendebeslut. **Stambytet** är ett initiativ per fastighet med planerat slut, inte en process.
+Två handläggningar väljer sina steg efter hand och kan sluta i att hyresgästen förlorar bostaden. **Utreda en störning** börjar med grannarnas anmälningar. De går oftast till den störningsjour bolaget anlitar, som rycker ut på kvällar och nätter och dokumenterar vad den ser. Sedan följer samtal med hyresgästen, skriftlig varning och kontakt med socialtjänsten. Vid allvarliga eller återkommande störningar följer uppsägning. **Avhysa vid obetald hyra** följer hyreslagen. Först en påminnelse, sedan lämnas kravet till den inkassotjänst bolaget anlitar. När hyran är mer än en vecka försenad följer uppsägning och en skriftlig underrättelse till socialnämnden, som kan ta över betalningen. Därefter ansökan om betalningsföreläggande och avhysning hos Kronofogden. Hyresgästen återvinner bostaden genom att betala inom tre veckor från att hen fått underrättelsen. Annars verkställer Kronofogden avhysningen. Beslutet att säga upp är ett ärendebeslut. **Stambytet** är ett initiativ per fastighet med planerat slut, inte en process.
 
 Beslutslogiken: kötid och uthyrningspolicyns villkor avgör vem som får en lägenhet. Villkoren gäller inkomst i förhållande till hyra och betalningsanmärkningar. Hyran för en lägenhet sätts ur läge, storlek, standard och byggår, enligt den förhandlade hyressättningsmodellen.
 
@@ -54,7 +54,7 @@ Beslutslogiken: kötid och uthyrningspolicyns villkor avgör vem som får en lä
 
 Uthyrningschefen är informationsägare för Hyresgäst, Hyresavtal, Hyresfordran, Störningsärende och Bostadssökande. Teknisk chef är det för Fastighet, Byggnad, Lägenhet, Lokal, Underhållsplan och Mätvärde, och chefen för kundcenter för Felanmälan. Mätvärdena per lägenhet är känsligare än per byggnad: de visar när någon är hemma.
 
-Processen Felanmälan samlar två informationsägare, en processägare och tre linjechefer, alla olika personer. Teknisk chef äger processen, och områdeskontoren utför den under var sin chef. Processen läser Hyresgäst, som uthyrningschefen äger, och skriver Felanmälan, som chefen för kundcenter äger.
+Processen Åtgärda en felanmälan samlar två informationsägare, en processägare och tre linjechefer, alla olika personer. Teknisk chef äger processen, och områdeskontoren utför den under var sin chef. Processen läser Hyresgäst, som uthyrningschefen äger, och skriver Felanmälan, som chefen för kundcenter äger.
 
 ## System
 
@@ -66,7 +66,7 @@ Det mesta bor i ett **fastighetssystem**, en standardprodukt som leverantören d
 - **Energiuppföljning**: mätvärden från husen, förbrukning per byggnad och lägenhet, avvikelselarm.
 - **Mina sidor och appen**: hyresgästens ingång till felanmälan, avtal, förbrukning och tvättstugebokning, byggd på samma system.
 
-Felanmälan är en lösning: processen, bovärdarna, informationsobjekten Felanmälan och Arbetsorder och modulen Teknisk förvaltning tillsammans. Teknisk chef är dess lösningsägare, håller årsramen och svarar för målet att en felanmälan är åtgärdad inom fem arbetsdagar. Leverantören som driftar systemet är inte dess ägare.
+Felanmälan är en lösning: processen Åtgärda en felanmälan, bovärdarna, informationsobjekten Felanmälan och Arbetsorder och modulen Teknisk förvaltning tillsammans. Teknisk chef är dess lösningsägare, håller årsramen och svarar för målet att en felanmälan är åtgärdad inom fem arbetsdagar. Leverantören som driftar systemet är inte dess ägare.
 
 Hyra är en annan lösning, uthyrningschefens. De två delar fastighetssystemet, som är en egen lösning eftersom flera använder det. Men modulerna delar grunddata och release: en ändring i den ena tvingar fram en ändring i den andra. Kopplingen är tät och går inte att lösa, eftersom systemet är en standardprodukt. Teknisk chef bär den som en bedömning på lösningen: varje release av fastighetssystemet är en påverkan som Felanmälan måste svara på.
 
@@ -91,10 +91,10 @@ Bolaget står för det fysiska, kunden och tekniken. Hämta härifrån exempel p
 - teknikfunktion (C-134) och tekniktjänst (C-129)
 - applikation (C-071) med fastighetssystemet och applikationsfunktion (C-133) med dess moduler
 - verksamhetstjänst köpt utifrån (C-127, C-155 är leverantör till) med störningsjouren
-- verksamhetsprocess (C-130) med felanmälan, processägare (C-206) med teknisk chef för den och linjechef (C-207) med områdeskontorets chef som utför den
+- verksamhetsprocess (C-130) med Åtgärda en felanmälan, processägare (C-206) med teknisk chef för den och linjechef (C-207) med områdeskontorets chef som utför den
 - lösning (C-055) med Felanmälan och dess lösningsägare, som håller ramen (C-210) och svarar för utfallet (C-209)
 - tät koppling (C-211) genom fastighetssystemets delade release
-- handläggning (C-160) med avhysningen
+- handläggning (C-160) med Avhysa vid obetald hyra
 - specialiserar (C-063) och sammanställning (C-162) med Utsatt roll och Förteckning över utsatta roller
 - initiativ (C-012) med stambytet
 - verksamhetsobjekt (C-159) och tillstånd (C-182) med lägenheten som ledig, erbjuden och uthyrd

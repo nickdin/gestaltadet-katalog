@@ -15,7 +15,7 @@ generic: "[[C-078 Händelse]]"
 
 ## Anmärkning
 
-Att en handling kommer in till myndigheten eller upprättas där är en verksamhetshändelse. Den gör representationen ([[C-085 Representation]]) till en allmän handling ([[C-199 Allmän handling]]) och utlöser ([[C-098 utlöser]]) registreringen: en verksamhetsaktivitet ([[C-175 Verksamhetsaktivitet]]) med åtkomst till representationen, som skriver diarieposten i diariet, en lagringsyta ([[C-165 Lagringsyta]]). Hos Myndigheten för föreningsstöd kommer en ansökan om bidrag in som e-post och registreras i diariet samma dag (beslut 31).
+Att en handling kommer in till myndigheten eller upprättas där är en verksamhetshändelse. Den gör representationen ([[C-085 Representation]]) till en allmän handling ([[C-199 Allmän handling]]) och utlöser ([[C-098 utlöser]]) registreringen: en verksamhetsaktivitet ([[C-175 Verksamhetsaktivitet]]) med åtkomst till representationen, som skriver diarieposten i diariet, en lagringsyta ([[C-165 Lagringsyta]]). Hos Myndigheten för föreningsstöd kommer en ansökan om bidrag in genom Föreningsportalen och registreras i diariet samma dag (beslut 31).
 
 ## Motsvarigheter
 

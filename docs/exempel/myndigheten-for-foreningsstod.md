@@ -17,7 +17,7 @@ Regeringen fastställer uppdraget i myndighetens instruktion. Den ger fyra uppdr
 
 Regleringsbrevet ger varje år anslag, mål och återrapporteringskrav. Årets mål är till exempel att nio av tio ansökningar ska vara beslutade inom fyra månader och att andelen bidrag som återkrävs ska minska. Ett annat är att handläggningskostnaden per ärende ska redovisas. Förvaltningslagen styr hur varje ärende handläggs. Bidragsförordningen säger vem som kan få bidrag och hur det beräknas. Myndighetens egna principer är styrning som generaldirektören fastställer. En av dem är Självbetjäning före personlig service: myndigheten utformar sina kanaler så att föreningen sköter sitt ärende själv hellre än genom en handläggare. Av principen följer kravet att en förening alltid ska kunna sköta sitt ärende i e-tjänsten.
 
-Utvecklingsarbetet samlas i en utvecklingsportfölj som generaldirektören prioriterar och finansierar. Just nu rymmer den två initiativ: en ny e-tjänst för redovisning och automatisk beräkning av verksamhetsbidraget.
+Utvecklingsarbetet samlas i en utvecklingsportfölj som generaldirektören prioriterar och finansierar. Just nu rymmer den två initiativ: en ny e-tjänst för redovisning och automatisk beräkning av verksamhetsbidraget. Det första flyttar redovisningen från blankett till Föreningsportalen. Det andra låter Beräkningstjänsten hämta uppgifterna ur registret själv.
 
 Ekonomichefen har generaldirektörens mandat att fastställa ekonomiregler för hela myndigheten. En regel säger att ingen enhet får överskrida sin personalbudget. Regeln gäller i utvecklingsportföljen, i handläggningen och i förvaltningen av systemen, fast ekonomichefen inte äger något av dem. Vill chefen för Bidragsenheten ta in extra handläggare utöver budgeten avgör generaldirektören. Regeln att bara handläggare får läsa uppgifter om företrädare tar sikte på säkerheten.
 
@@ -37,15 +37,15 @@ Fem förmågor säger vad myndigheten kan göra, oavsett vem som gör det eller 
 
 ## Processer och handläggningar
 
-Den årliga **ansökningsomgången** är en process med fasta steg: utlysning öppnar, ansökningar kommer in, de fördelas på handläggare, beslut fattas, bidrag betalas ut, redovisning begärs in. **Handläggningen av en ansökan** inom den väljer sina steg efter hand. Myndigheten begär komplettering om något saknas och hämtar ett yttrande från registret om företrädaren är ny. Beslutet blir bifall, delvis bifall eller avslag. Varje beslut i ett enskilt ärende är ett ärendebeslut.
+**Genomföra ansökningsomgången** är en årlig process med fasta steg: utlysning öppnar, ansökningar kommer in, de fördelas på handläggare, beslut fattas, bidrag betalas ut, redovisning begärs in. **Pröva en ansökan** är en handläggning inom den och väljer sina steg efter hand. Myndigheten begär komplettering om något saknas, och handläggaren slår upp företrädaren i registret om hen är ny. Beslutet blir bifall, delvis bifall eller avslag. Varje beslut i ett enskilt ärende är ett ärendebeslut.
 
-Återkravsärendet startar när en redovisning visar att pengar använts fel eller inte alls. Tillsynsärendet startar när en anmälan kommer in eller stickprovet pekar ut en förening. Registreringen av en ny företrädare är en kort handläggning med kontroll mot folkbokföringen.
+Tre handläggningar till har egna starter. **Pröva ett återkrav** startar när en redovisning visar att pengar använts fel eller inte alls. **Granska en förening i tillsyn** startar när en anmälan kommer in eller stickprovet pekar ut en förening. **Registrera en ny företrädare** är en kort handläggning med kontroll mot folkbokföringen.
 
 Beslutslogiken är de regler som ger utfallet ur indata. Verksamhetsbidragets storlek beräknas ur antal medlemmar och antal lokalavdelningar. En förening är bidragsberättigad om den är demokratiskt uppbyggd, har funnits i två år och har minst tusen medlemmar. Reglerna står i bidragsförordningen och i myndighetens föreskrifter, och de används i varje ärende.
 
 ## Informationsobjekt
 
-- **Förening**: namn, organisationsnummer, säte, antal medlemmar. Öppen information.
+- **Förening**: namn, organisationsnummer, säte, antal medlemmar, antal lokalavdelningar. Öppen information.
 - **Företrädare**: personuppgifter om styrelseledamöter och firmatecknare. Känslig: personuppgifter som kan användas för bedrägeri.
 - **Kontonummer**: föreningens konto för utbetalning. Känslig.
 - **Ansökan**, **Redovisning**: det föreningen lämnar in. Intern tills beslut.
@@ -55,21 +55,21 @@ Beslutslogiken är de regler som ger utfallet ur indata. Verksamhetsbidragets st
 
 Chefen för Bidragsenheten är informationsägare för Ansökan, Redovisning, Beslut, Utbetalning och Återkrav. Chefen för Register- och tillsynsenheten är det för Förening, Företrädare, Kontonummer och Tillsynsärende. Informationsägaren beslutar klassningen och vad som får göras med informationen. Förteckningen över alla företrädare är känsligare än varje företrädare för sig.
 
-Chefen för Bidragsenheten är också processägare för handläggningen av ansökan och linjechef för enheten som handlägger. Det är det vanliga fallet: de tre rollerna är samma person, och delningen mellan dem syns inte.
+Chefen för Bidragsenheten är också processägare för handläggningen Pröva en ansökan och linjechef för enheten som handlägger. Det är det vanliga fallet: de tre rollerna är samma person, och delningen mellan dem syns inte.
 
 Analysenheten läser Ansökan, Beslut och Utbetalning in i ett datalager, en lagringsyta i myndighetens analysplattform. Den sätter samman Utbetalningar per kommun och räknar fram Riskindikator per förening. Chefen för analysenheten är processägare för analysfunktionen och informationsägare för de två objekt den upprättar. Läsningen av Bidragsenhetens objekt sker inom det Bidragsenhetens chef beslutat.
 
 ## System
 
-- **Föreningsportalen**: e-tjänsten där föreningen ansöker, kompletterar och redovisar, med inloggning för företrädaren.
+- **Föreningsportalen**: e-tjänsten där föreningen ansöker och kompletterar, med inloggning för företrädaren. Redovisningen lämnar föreningen i dag på blankett.
 - **Ärendesystemet**: handläggarens arbetsyta och myndighetens diarium.
 - **Föreningsregistret**: föreningar, företrädare och kontonummer; hämtar folkbokföringsuppgifter från Skatteverket.
 - **Ekonomisystemet**: utbetalningar, återkrav och bokföring.
-- **Beräkningstjänsten**: räknar ut verksamhetsbidraget ur registrets uppgifter, som Ärendesystemet anropar.
+- **Beräkningstjänsten**: räknar ut verksamhetsbidraget när Ärendesystemet anropar den. Handläggaren matar i dag in föreningens uppgifter ur registret för hand.
 
 Alla fem körs på en gemensam plattform i myndighetens datahall, utom Föreningsportalen som en leverantör driftar.
 
-Handläggningen av en ansökan är en lösning: processen, Bidragsenhetens handläggare, Ansökan, Beslut och Utbetalning, och Ärendesystemet. Bidragsenhetens chef är dess lösningsägare, håller ramen och svarar för målet att nio av tio ansökningar är beslutade inom fyra månader. Lösningen använder Föreningsregistret som leveransprodukt. Registerlösningen tar fram och vidmakthåller registret, handläggningen ställer krav på det, och de två kan ändras var för sig. Kopplingen är lös. Myndighetens referensarkitektur antar provet för ett snitt som arkitekturprincip: en lösning har en ägare med ram, och det två lösningar delar bryts ut som en egen lösning. Referensarkitekturen antar också Gemensamt före eget: en lösning använder det som redan finns gemensamt hellre än att bygga eget. Chefen för Bidragsenheten fattar som lösningsägare valen i sin lösning och väger principerna mot varandra. Vill chefen bygga ett eget register över kontaktpersoner för att hinna före årets bidragsomgång, och ingen annan princip bär valet, är det en avvikelse. Den avgör generaldirektören, som gav både lösningsägaren och arkitekturstyrningen deras mandat.
+Ansökningshandläggningen är en lösning: handläggningen Pröva en ansökan, Bidragsenhetens handläggare, Ansökan, Beslut och Utbetalning, och Ärendesystemet. Bidragsenhetens chef är dess lösningsägare, håller ramen och svarar för målet att nio av tio ansökningar är beslutade inom fyra månader. Lösningen använder Föreningsregistret som leveransprodukt och får informationsobjektet Förening genom det. Registerlösningen tar fram och vidmakthåller registret, Ansökningshandläggningen ställer krav på det, och de två kan ändras var för sig. Kopplingen är lös. Myndighetens referensarkitektur antar provet för ett snitt som arkitekturprincip: en lösning har en ägare med ram, och det två lösningar delar bryts ut som en egen lösning. Referensarkitekturen antar också Gemensamt före eget: en lösning använder det som redan finns gemensamt hellre än att bygga eget. Chefen för Bidragsenheten fattar som lösningsägare valen i sin lösning och väger principerna mot varandra. Vill chefen bygga ett eget register över kontaktpersoner för att hinna före årets bidragsomgång, och ingen annan princip bär valet, är det en avvikelse. Den avgör generaldirektören, som gav både lösningsägaren och arkitekturstyrningen deras mandat.
 
 ## Vem den finns för
 
@@ -85,7 +85,7 @@ Myndigheten står för förvaltningens mekanik. Hämta härifrån exempel på:
 - ärendebeslut (C-181) och beslutslogik (C-178)
 - informationsobjekt (C-060), uppgift (C-161) och sammanställning (C-162)
 - informationsägare (C-167), processägare (C-206) och linjechef (C-207) i en och samma person
-- lösning (C-055) med handläggningen och Föreningsregistret som leveransprodukt (C-174) i lös koppling (C-211)
+- lösning (C-055) med Ansökningshandläggningen och Föreningsregistret som leveransprodukt (C-174) i lös koppling (C-211)
 - ansvar (C-209) och ram (C-210) hos Bidragsenhetens chef
 - delegation (C-214) i arbetsordningen: ett styrobjekt till Bidragsenhetens chef, beslutanderätt i ärenden och vidaredelegation
 - arkitekturprincip (C-040) med provet för ett snitt, Gemensamt före eget och Självbetjäning före personlig service

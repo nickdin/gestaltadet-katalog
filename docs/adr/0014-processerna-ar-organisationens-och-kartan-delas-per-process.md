@@ -1,5 +1,7 @@
 # Processerna är organisationens, och kartan delas i en översikt och en bild per process
 
+*Två förtydliganden av Nicklas 12 november 2026. Avdelningens roll läses fortfarande ur relationerna, som i beslut 13: markeringen i översikten ritar det relationerna säger. En process där avdelningen bara deltar får en egen bild med ramen, och en rad i översikten.*
+
 Beslutat av Nicklas 19 oktober 2026, efter ett samtal om varför en avdelnings processkarta hade blivit för mastig och vad på den som var process och vad som var aktivitet. Beslutet ersätter beslut 13 i det som rör banden.
 
 ## Sammanhang

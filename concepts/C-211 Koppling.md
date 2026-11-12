@@ -25,4 +25,4 @@ Ordet är Charles Perrows, ur Normal Accidents (1984), där tät koppling tillsa
 
 ## Exempel
 
-Fastighetssystemets moduler delar grunddata och release: tät koppling mellan Felanmälan och Hyra. Handläggningen läser Föreningsregistret som leveransprodukt: lös koppling.
+Fastighetssystemets moduler delar grunddata och release: tät koppling mellan Felanmälan och Hyra. Ansökningshandläggningen använder Föreningsregistret som leveransprodukt: lös koppling.

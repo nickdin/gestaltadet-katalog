@@ -1,5 +1,7 @@
 # OMG:s övriga specifikationer sorteras i tre fack: BACM, VDML och UML tas in, SysML är utanför, och utbytesspecifikationerna är programmets sak
 
+*Meningen i Beslut att beslut 25 lämnade måttbegreppet öppet stämmer inte. Beslut 19 avgjorde frågan: måttet står i målets text och blir inget katalogbegrepp.*
+
 Beslutat av Nicklas 1 november 2026, när de återstående standarderna från Object Management Group (OMG) skulle sorteras. Beslut 22 till 25 hade då avgjort de sex första. Beslutet avgör inte en enda byggsten. Det avgör vilka standarder som alls ska ställas mot katalogen, och med vilken måttstock.
 
 ## Sammanhang

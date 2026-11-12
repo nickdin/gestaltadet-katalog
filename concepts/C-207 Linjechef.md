@@ -32,4 +32,4 @@ Ett begrepp, ingen elementtyp: i lagret är linjechefen chefen för den organisa
 
 ## Exempel
 
-chefen för områdeskontoret vars bovärdar utför Felanmälan; chefen för Bidragsenheten, som också är processägare och informationsägare.
+chefen för områdeskontoret vars bovärdar utför Åtgärda en felanmälan; chefen för Bidragsenheten, som också är processägare och informationsägare.
