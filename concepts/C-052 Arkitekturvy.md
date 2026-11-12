@@ -7,9 +7,6 @@ terms:
     source: catalogue
 definition: "del av en arkitekturbeskrivning som uttrycker arkitekturen ur ett arkitekturperspektiv"
 partitive: "[[C-035 Arkitekturbeskrivning]]"
-associative:
-  - concept: "[[C-039 Metamodell]]"
-    label: följer
 ---
 # C-052 Arkitekturvy
 
