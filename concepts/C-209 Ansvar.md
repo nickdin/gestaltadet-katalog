@@ -27,6 +27,8 @@ Ansvar och mandat ([[C-189 Mandat]]) är två ord för samma plats. Mandatet är
 
 Ett begrepp, ingen egen typ. Ansvaret för ett styrobjekt följer mandatet över det och skrivs inte med någon relation. Ansvaret för ett arkitekturelement skrivs med ansvarar för ([[C-208 ansvarar för]]): informationsägarens för informationsobjektet, processägarens för verksamhetsbeteendet. Arkitekturansvaret ([[C-117 Arkitekturansvar]]) är ett ansvar för vyerna.
 
+När ett styrobjekt delegeras ([[C-214 Delegation]]) följer ansvaret för det med mandatet. Ansvaret för det omslutande styrobjektet stannar hos den som delegerar. Delegation av beslut i ärenden flyttar inget ansvar. Beslut 44.
+
 Ansvaret kan inte bäras utan medel, för ingen kan svara för ett utfall den inte kan flytta. Befogenheten kan däremot hållas utan medel: den är en regel i arbetsordningen. Fyra saker måste finnas:
 
 - befogenheten, en regel ([[C-020 Regel]]);

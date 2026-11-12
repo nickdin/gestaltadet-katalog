@@ -23,7 +23,7 @@ Varje sort av styrmedel kan ha avvikelser. Utfallet avviker från målet ([[C-01
 
 Ett val som har vägts mellan principer är ingen avvikelse. Principen är prövbar men inte binär: ett val som prövats mot principen och vägts mot andra principer har följt den, också när den vägde lättast. Valet avviker från principen först när ingen annan princip bär det. Krav och regler vägs inte, så varje skillnad mot dem är en avvikelse.
 
-Beslutet att godta en avvikelse är ett styrbeslut ([[C-019 Styrbeslut]]). Det gäller en enskild fråga och anger sitt skäl, och styrmedlet gäller oförändrat för nästa fall. Beslutet fattas ovanför den som är bunden av styrmedlet. Kommer styrmedlet ur en aspektbaserad styrning ([[C-006 Aspektbaserad styrning]]) avgör den som gav både ägaren och aspektstyrningen deras mandat ([[C-189 Mandat]]). Annars avgör den som fastställde styrmedlet. Den som avgör kan lägga avgörandet hos någon annan genom en regel. Beslut 41, beslut 43.
+Beslutet att godta en avvikelse är ett styrbeslut ([[C-019 Styrbeslut]]). Det gäller en enskild fråga och anger sitt skäl, och styrmedlet gäller oförändrat för nästa fall. Beslutet fattas ovanför den som är bunden av styrmedlet. Kommer styrmedlet ur en aspektbaserad styrning ([[C-006 Aspektbaserad styrning]]) avgör den som gav både ägaren och aspektstyrningen deras mandat ([[C-189 Mandat]]). Annars avgör den som fastställde styrmedlet. Den som avgör kan delegera avgörandet till någon annan genom en regel ([[C-214 Delegation]]). Beslut 41, beslut 43, beslut 44.
 
 Avvikelsen är ett begrepp utan egen typ. Inget ritas som avvikelse i lagret. Beslutet om den ritas som det styrbeslut det är.
 

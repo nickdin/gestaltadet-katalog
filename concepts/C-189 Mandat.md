@@ -23,7 +23,7 @@ associative:
 
 ## Anmärkning
 
-Mandatet är befogenheten man har i kraft av sin position. Det är ett begrepp, ingen egen typ. Mandatet ges som en regel ([[C-020 Regel]]) i arbetsordningen eller delegationsordningen, en bärare ([[C-016 Bärare]]). En roll ([[C-074 Roll]]) bär mandat, och styrningens definition ([[C-002 Styrning]]) förutsätter det: åtgärder som ledningen, eller den som har ledningens mandat, vidtar. Mandatet utövas när den som har det fastställer styrning, vilket relationen fastställs av ([[C-183 fastställs av]]) visar. Relationen säger vem som beslutade, mandatet vem som fick. För arkitekturen är mandatet ett arkitekturansvar ([[C-117 Arkitekturansvar]]).
+Mandatet är befogenheten man har i kraft av sin position. Det är ett begrepp, ingen egen typ. Mandatet ges som en regel ([[C-020 Regel]]) i arbetsordningen eller delegationsordningen, en bärare ([[C-016 Bärare]]). Varje mandat under högsta ledningen är delegerat ([[C-214 Delegation]]): positionen har det därför att någon ovanför har lämnat det dit. Högsta ledningens mandat kommer utifrån, till exempel ur regeringens instruktion eller från bolagets ägare (beslut 44). En roll ([[C-074 Roll]]) bär mandat, och styrningens definition ([[C-002 Styrning]]) förutsätter det: åtgärder som ledningen, eller den som har ledningens mandat, vidtar. Mandatet utövas när den som har det fastställer styrning, vilket relationen fastställs av ([[C-183 fastställs av]]) visar. Relationen säger vem som beslutade, mandatet vem som fick. För arkitekturen är mandatet ett arkitekturansvar ([[C-117 Arkitekturansvar]]).
 
 Den som har mandatet över ett styrobjekt är dess ägare: lösningsägaren över en lösning ([[C-055 Lösning]]), domänägaren över en verksamhetsdomän ([[C-008 Verksamhetsdomän]]), ledningen över verksamheten ([[C-007 Verksamhet]]). Ägaren är en, aldrig två, och inget eget begrepp per nivå. Informationsobjektet och verksamhetsbeteendet är inga styrobjekt och har i stället ägarroller ([[C-167 Informationsägare]], [[C-206 Processägare]]), skrivna med ansvarar för ([[C-208 ansvarar för]]). Beslut 35.
 
@@ -35,4 +35,4 @@ Motsvarar Management Prerogative i Business Motivation Model, som räknar det so
 
 ## Exempel
 
-Avvikelse från princip beslutas i arkitekturrådet; enhetschefen beslutar om stöd upp till ett basbelopp.
+Avvikelse från princip beslutas i arkitekturrådet.

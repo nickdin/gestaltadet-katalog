@@ -21,6 +21,8 @@ Utvecklingsarbetet samlas i en utvecklingsportfölj som generaldirektören prior
 
 Ekonomichefen har generaldirektörens mandat att fastställa ekonomiregler för hela myndigheten. En regel säger att ingen enhet får överskrida sin personalbudget. Regeln gäller i utvecklingsportföljen, i handläggningen och i förvaltningen av systemen, fast ekonomichefen inte äger något av dem. Vill chefen för Bidragsenheten ta in extra handläggare utöver budgeten avgör generaldirektören. Regeln att bara handläggare får läsa uppgifter om företrädare tar sikte på säkerheten.
 
+Generaldirektören delegerar i arbetsordningen. Chefen för Bidragsenheten har fått handläggningen av ansökningar: hen beslutar om den, håller ramen och svarar för målet om fyra månader. Generaldirektören svarar fortfarande inför regeringen för myndighetens uppdrag. Arbetsordningen säger också att enhetschefen beslutar om stöd upp till ett basbelopp, och att hen får lämna den rätten vidare till en gruppchef för stöd upp till ett halvt basbelopp. Det är beslutanderätt i ärenden och inget mandat.
+
 Generaldirektören har fastställt regeln att initiativen i utvecklingsportföljen följer Scrum. Chefen för Bidragsenheten har som lösningsägare valt pm3 för förvaltningen av sin lösning. Handläggarna följer myndighetens handbok för handläggning av stöd.
 
 ## Förmågor
@@ -85,6 +87,7 @@ Myndigheten står för förvaltningens mekanik. Hämta härifrån exempel på:
 - informationsägare (C-167), processägare (C-206) och linjechef (C-207) i en och samma person
 - lösning (C-055) med handläggningen och Föreningsregistret som leveransprodukt (C-174) i lös koppling (C-211)
 - ansvar (C-209) och ram (C-210) hos Bidragsenhetens chef
+- delegation (C-214) i arbetsordningen: ett styrobjekt till Bidragsenhetens chef, beslutanderätt i ärenden och vidaredelegation
 - arkitekturprincip (C-040) med provet för ett snitt, Gemensamt före eget och Självbetjäning före personlig service
 - krav (C-021) som följer av en princip, med e-tjänsten
 - avvikelse (C-213) med det egna registret över kontaktpersoner
