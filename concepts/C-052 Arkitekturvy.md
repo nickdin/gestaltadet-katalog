@@ -18,4 +18,4 @@ strategivyn, verksamhetsvyn, informationsvyn, applikationsvyn och teknikvyn i en
 
 ## Anmärkning
 
-Vyn styrs av perspektivet, som anger vilka metamodeller och arkitekturelement den använder. En beskrivning består av en eller flera vyer, och vyerna hålls ihop av korrespondenser. En vy är ingen egen arkitekturbeskrivning och ingen egen arkitektur: perspektivets team äger vyn och dess principer, inte en målarkitektur av sitt eget. ISO 42010: view.
+Vyn styrs av perspektivet, som avgör vilka av metamodellens elementtyper vyn täcker. Vyn har ingen notation: samma vy kan visas i flera diagram med olika notation (beslut 42). En beskrivning består av en eller flera vyer, och vyerna hålls ihop av korrespondenser. En vy är ingen egen arkitekturbeskrivning och ingen egen arkitektur: perspektivets team äger vyn och dess principer, inte en målarkitektur av sitt eget. ISO 42010: view.

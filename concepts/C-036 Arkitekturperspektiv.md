@@ -22,4 +22,4 @@ strategi, verksamhet, information, applikation, teknik, upplevelse.
 
 ## Anmärkning
 
-Det finns sex perspektiv, och information omfattar data. Fem ser verksamheten inifrån; upplevelse ser den utifrån. Varje typ hör till exakt ett perspektiv. Vem som äger ett perspektivs vyer och principer är ett teams ansvar ([[C-117 Arkitekturansvar]]), inte perspektivets eget. ISO 42010: viewpoint.
+Det finns sex perspektiv, och information omfattar data. Fem ser verksamheten inifrån; upplevelse ser den utifrån. Varje typ hör till exakt ett perspektiv. Perspektivet har ingen egen metamodell: det väljer typer ur den metamodell beskrivningen följer (beslut 42). Vem som äger ett perspektivs vyer och principer är ett teams ansvar ([[C-117 Arkitekturansvar]]), inte perspektivets eget. ISO 42010: viewpoint.

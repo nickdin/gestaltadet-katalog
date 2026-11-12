@@ -13,3 +13,7 @@ associative:
 # C-106 Diagram
 
 **Definition:** bild, ritad i ett verktyg, som visar delar av en eller flera arkitekturvyer i en arkitekturbeskrivning
+
+## Anmärkning
+
+Diagrammet ritas med en notation ([[C-212 Notation]]). Samma vy kan visas i flera diagram med olika notation. Beslut 42.
