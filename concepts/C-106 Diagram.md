@@ -6,6 +6,9 @@ terms:
     language: sv
     source: catalogue
 definition: "bild, ritad i ett verktyg, som visar delar av en eller flera arkitekturvyer i en arkitekturbeskrivning"
+associative:
+  - concept: '[[C-212 Notation]]'
+    label: ritas med
 ---
 # C-106 Diagram
 
