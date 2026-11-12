@@ -5,12 +5,12 @@ terms:
   - term: Arkitekturelement
     language: sv
     source: catalogue
-definition: "beståndsdel av en arkitektur, definierad av en metamodell"
+definition: beståndsdel av en arkitektur, av en typ som en metamodell definierar
 partitive: "[[C-031 Arkitektur]]"
 ---
 # C-034 Arkitekturelement
 
-**Definition:** beståndsdel av en arkitektur, definierad av en metamodell
+**Definition:** beståndsdel av en arkitektur, av en typ som en metamodell definierar
 
 ## Anmärkning
 
