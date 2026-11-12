@@ -7,10 +7,8 @@ terms:
     source: catalogue
 definition: "synvinkel som styr en arkitekturvy och avgör vilka elementtyper den täcker"
 associative:
-  - concept: "[[C-052 Arkitekturvy]]"
+  - concept: '[[C-052 Arkitekturvy]]'
     label: styr
-  - concept: "[[C-039 Metamodell]]"
-    label: anger
   - concept: '[[C-116 Arkitekturdisciplin]]'
     label: hör till
 ---
