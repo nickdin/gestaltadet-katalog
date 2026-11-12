@@ -7,6 +7,9 @@ terms:
     status: preferred
     source: concept new
 definition: skillnad mellan vad ett styrmedel anger och det som prövas mot det
+associative:
+  - concept: '[[C-015 Styrmedel]]'
+    label: mäts mot
 ---
 # C-213 Avvikelse
 
