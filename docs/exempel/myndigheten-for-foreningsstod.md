@@ -41,6 +41,8 @@ Fem förmågor säger vad myndigheten kan göra, oavsett vem som gör det eller 
 
 Tre handläggningar till har egna starter. **Pröva ett återkrav** startar när en redovisning visar att pengar använts fel eller inte alls. **Granska en förening i tillsyn** startar när en anmälan kommer in eller stickprovet pekar ut en förening. **Registrera en ny företrädare** är en kort handläggning med kontroll mot folkbokföringen.
 
+Varje process och handläggning lämnar ett resultat. Pröva en ansökan lämnar ett ärendebeslut, och utfallet är bifall, delvis bifall eller avslag. Verksamhetsbidraget är en produkt: myndigheten erbjuder föreningarna en prövning med ett beslut och, vid bifall, en utbetalning. Prövningen är en tjänst. Det utbetalda bidraget är en vara, för det blir föreningens att förfoga över. Rapporten till regeringen om föreningslivets utveckling är också en produkt. Beslutet om återkrav är ett resultat som inte hör till någon produkt. Föreningen tar emot det, men det är inte till för föreningen. En tillsyn som slutar utan anmärkning hör inte heller till någon produkt.
+
 Beslutslogiken är de regler som ger utfallet ur indata. Verksamhetsbidragets storlek beräknas ur antal medlemmar och antal lokalavdelningar. En förening är bidragsberättigad om den är demokratiskt uppbyggd, har funnits i två år och har minst tusen medlemmar. Reglerna står i bidragsförordningen och i myndighetens föreskrifter, och de används i varje ärende.
 
 ## Informationsobjekt
@@ -83,6 +85,7 @@ Myndigheten står för förvaltningens mekanik. Hämta härifrån exempel på:
 - aspektbaserad styrning (C-006), aspekt (C-004) och arbetssätt (C-196)
 - verksamhetsförmåga (C-069), verksamhetsprocess (C-130) och handläggning (C-160)
 - ärendebeslut (C-181) och beslutslogik (C-178)
+- produkt (C-014), verksamhetsprodukt (C-173) och vara (C-191), och resultat som saknar produkt
 - informationsobjekt (C-060), uppgift (C-161) och sammanställning (C-162)
 - informationsägare (C-167), processägare (C-206) och linjechef (C-207) i en och samma person
 - lösning (C-055) med Ansökningshandläggningen och Föreningsregistret som leveransprodukt (C-174) i lös koppling (C-211)

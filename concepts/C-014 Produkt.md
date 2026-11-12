@@ -29,6 +29,10 @@ Produkten specialiseras på två sätt som korsar varandra. Efter var mottagaren
 
 Varorna i erbjudandet är varor ([[C-191 Vara]]), verksamhetsobjekt som blir mottagarens; tjänsterna är verksamhetstjänster ([[C-127 Verksamhetstjänst]]). Ingen sort säger vilketdera: en produkt blandar ofta, och innehållet syns i vad den aggregerar.
 
+Produkten är varaktig, resultatet finns per körning. Produkten Verksamhetsbidraget aggregerar verksamhetsobjektet Ärendebeslut. Bifallet till en viss förening är en leverans av produkten, inte en del av den. Ett avslag är också en leverans: föreningen har fått prövningen och beslutet, men inga pengar.
+
+Produkten hör till lösningens gräns. Inte varje resultat som lämnar en lösning hör till en produkt. Provet har två led. Vem tar emot objektet över lösningens gräns? Är det till för just den mottagaren? Ett beslut om återkrav tas emot av föreningen men är inte till för den, och hör därför inte till någon produkt. Riktningen avgör aldrig: en produkt kan gå ut till en kund, in till en annan lösning eller upp till den som styr, som årsredovisningen till styrelsen. Den kan inte gå till den egna lösningen. Beslut 45.
+
 ## Motsvarigheter
 
 Motsvarar ArchiMates Product.

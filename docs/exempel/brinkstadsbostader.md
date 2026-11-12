@@ -35,6 +35,8 @@ Bolagets investeringsportfölj rymmer nyproduktion, stambyten och energiprojekt,
 
 Två handläggningar väljer sina steg efter hand och kan sluta i att hyresgästen förlorar bostaden. **Utreda en störning** börjar med grannarnas anmälningar. De går oftast till den störningsjour bolaget anlitar, som rycker ut på kvällar och nätter och dokumenterar vad den ser. Sedan följer samtal med hyresgästen, skriftlig varning och kontakt med socialtjänsten. Vid allvarliga eller återkommande störningar följer uppsägning. **Avhysa vid obetald hyra** följer hyreslagen. Först en påminnelse, sedan lämnas kravet till den inkassotjänst bolaget anlitar. När hyran är mer än en vecka försenad följer uppsägning och en skriftlig underrättelse till socialnämnden, som kan ta över betalningen. Därefter ansökan om betalningsföreläggande och avhysning hos Kronofogden. Hyresgästen återvinner bostaden genom att betala inom tre veckor från att hen fått underrättelsen. Annars verkställer Kronofogden avhysningen. Beslutet att säga upp är ett ärendebeslut. **Stambytet** är ett initiativ per fastighet med planerat slut, inte en process.
 
+Boendet i en hyrd lägenhet är bolagets produkt mot hyresgästen. Den lagade kranen är resultatet av Åtgärda en felanmälan och hör till den produkten, för hyresgästen tar emot det och det är till för hen. Uppsägningen av en hyresgäst som inte betalat är också ett resultat, men den hör inte till någon produkt. Bolaget skyddar sina egna intäkter, och ingen mottagare har nytta av den. Årsredovisningen till styrelsen är en produkt som går uppåt, till den som styr bolaget.
+
 Beslutslogiken: kötid och uthyrningspolicyns villkor avgör vem som får en lägenhet. Villkoren gäller inkomst i förhållande till hyra och betalningsanmärkningar. Hyran för en lägenhet sätts ur läge, storlek, standard och byggår, enligt den förhandlade hyressättningsmodellen.
 
 ## Informationsobjekt
@@ -95,6 +97,7 @@ Bolaget står för det fysiska, kunden och tekniken. Hämta härifrån exempel p
 - lösning (C-055) med Felanmälan och dess lösningsägare, som håller ramen (C-210) och svarar för utfallet (C-209)
 - tät koppling (C-211) genom fastighetssystemets delade release
 - handläggning (C-160) med Avhysa vid obetald hyra
+- produkt (C-014) som går uppåt med årsredovisningen till styrelsen, och resultat som saknar produkt med uppsägningen
 - specialiserar (C-063) och sammanställning (C-162) med Utsatt roll och Förteckning över utsatta roller
 - initiativ (C-012) med stambytet
 - verksamhetsobjekt (C-159) och tillstånd (C-182) med lägenheten som ledig, erbjuden och uthyrd

@@ -21,4 +21,4 @@ En process eller en handläggning tar fram verksamhetsprodukten, i den lösning 
 
 ## Exempel
 
-beslutet om bidrag och utbetalningen; rapporten till regeringen om föreningslivets utveckling; boendet i en hyrd lägenhet.
+verksamhetsbidraget, med prövningen, beslutet och utbetalningen; rapporten till regeringen om föreningslivets utveckling; årsredovisningen till styrelsen; boendet i en hyrd lägenhet.
