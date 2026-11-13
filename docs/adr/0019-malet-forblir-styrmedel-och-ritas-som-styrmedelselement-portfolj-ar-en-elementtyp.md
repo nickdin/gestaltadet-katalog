@@ -1,5 +1,7 @@
 # Målet förblir styrmedel och ritas som styrmedelselement; portfölj är en elementtyp i strategiperspektivet
 
+*Två led gäller inte längre. Produkter står inte i portföljen. Och delportföljen är ingen egen sort: varje verksamhetsdomän har en portfölj, och de ligger i varandra (beslut 51).*
+
 Beslutat av Nicklas 29 oktober 2026, när han ville kunna rita hur mål, initiativ och portföljer hänger ihop.
 
 ## Sammanhang

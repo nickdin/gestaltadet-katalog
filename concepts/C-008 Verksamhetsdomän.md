@@ -33,7 +33,7 @@ En lösnings hemdomän ska rymma den produktion som utför lösningens beteende.
 
 Det som får komma från en annan domän är en färdig leveransprodukt ([[C-174 Leveransprodukt]]): tekniken från IT, medarbetaren från HR. Leverantören har då sitt eget beteende och sina egna förekomster hemma hos sig. En domän inuti en annan kan ha egen bemanning utan egen lösning. Då rymmer den omslutande domänen båda, och det är inget fynd. Beslut 48.
 
-Inom domänens ram finns två slags ram: lösningarnas, för att ändra utformningen, och produktionens. Domänens ägare kan väga dem mot varandra, och sätter varje lösnings ram ur domänens ram för ändring. Det som inte ryms går upp till ägaren av det som omsluter domänen. En domän har högst en portfölj ([[C-011 Portfölj]]), och portföljen väger det som ändrar utformningen. Beslut 47 och 50.
+Inom domänens ram finns två slags ram: lösningarnas, för att ändra utformningen, och produktionens. Domänens ägare kan väga dem mot varandra, och sätter varje lösnings ram ur domänens ram för ändring. Det som inte ryms går upp till ägaren av det som omsluter domänen. Varje domän har en portfölj ([[C-011 Portfölj]]), och portföljen väger det som ändrar utformningen. Den finns också när ingen kallar den portfölj. Beslut 47, 50 och 51.
 
 Domänens ägare svarar för domänens mål, också målen för produktionen. Linjechefen ([[C-207 Linjechef]]) svarar för varje ärende och för bemanningen. Oftast är det samma chef. Finns ingen ägare under ledningen som håller både utformningen och produktionen svarar ingen under ledningen för målet, och det är ett fynd. Beslut 50.
 

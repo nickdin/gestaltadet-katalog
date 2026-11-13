@@ -6,6 +6,8 @@ Beslut 48 ändrar en punkt här: när en domän utför beteende ur en lösning s
 
 Beslut 50 ändrar fyra punkter här. Portföljen för hela verksamheten väger domänernas ramar för ändring, och domänens ägare sätter lösningens ram. Domänens ägare svarar för produktionens mål, och linjechefen för varje ärende och för bemanningen. Linjechefen svarar också för det enskilda resultatet. Och meningen att en rättning ändrar utformningen gäller rättningar av lösningen: att rätta en enskild uppgift är registervård och produktion.
 
+Beslut 51 ändrar en punkt till: en domän har inte högst en portfölj utan exakt en, och delportfölj är ingen egen sort.
+
 ## Sammanhang
 
 Katalogen hade två sorters verksamhetsdomän. Utvecklingsdomän (`C-009`) var en "verksamhetsdomän som utvecklar och vidmakthåller verksamhetens lösningar". Produktionsdomän (`C-010`) var en "verksamhetsdomän som utför verksamhetens löpande produktion". Ingen av dem hade anmärkning eller exempel som sade var gränsen går.
