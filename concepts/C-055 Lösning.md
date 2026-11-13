@@ -11,7 +11,7 @@ terms:
   - term: Förvaltningsobjekt
     language: sv
     source: concept change
-definition: kombination av aktörer, processer, information och teknik som tillsammans realiserar en verksamhetsförmåga för ett eget ändamål
+definition: kombination av roller, processer, information och teknik som tillsammans realiserar en verksamhetsförmåga för ett eget ändamål
 kind: architecture-object-type
 architecture_level: solution
 generic: "[[C-032 Arkitekturobjekt]]"
@@ -29,7 +29,7 @@ associative:
 ---
 # C-055 Lösning
 
-**Definition:** kombination av aktörer, processer, information och teknik som tillsammans realiserar en verksamhetsförmåga för ett eget ändamål
+**Definition:** kombination av roller, processer, information och teknik som tillsammans realiserar en verksamhetsförmåga för ett eget ändamål
 
 ## Anmärkning
 
