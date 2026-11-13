@@ -4,6 +4,8 @@ Beslutat av Nicklas 12 november 2026, när katalogen kallade portföljen, initia
 
 Beslut 47 ändrar tre punkter här: produktslaget avgör inte var lösningen hör hemma, portföljen ställer lösningarnas ramar för ändring mot initiativ, och löftet till mottagaren delas mellan lösningsägaren och linjechefen.
 
+Beslut 50 ändrar en punkt till: i verksamhetens portfölj står domänernas ramar för ändring, och domänens ägare sätter varje lösnings ram.
+
 ## Sammanhang
 
 Styrobjekt (`C-003`) räknade upp verksamheten, en verksamhetsdomän, en portfölj, ett initiativ och en produkt. Beslut 35 och 36 säger att ett styrobjekt har en ägare, aldrig två, och att den som svarar för en sak beslutar om den. Men Mandat (`C-189`) nämnde bara tre ägare: lösningsägaren, domänägaren och ledningen. Portföljstyrning (`C-044`), Initiativstyrning (`C-045`) och Produktstyrning (`C-047`) hade en definition var och ingen anmärkning. Frågan fick ett eget ärende, #153.

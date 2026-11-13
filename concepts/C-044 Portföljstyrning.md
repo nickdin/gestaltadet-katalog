@@ -17,4 +17,4 @@ associative:
 
 ## Anmärkning
 
-Portföljstyrningen väljer och väger. Portföljens ägare beslutar vad som startar, i vilken ordning och med vilken ram, och ställer lösningarnas ramar för ändring mot initiativen. Vem ägaren är och vad som står i portföljen förklaras i Portfölj ([[C-011 Portfölj]]). Det ägaren sätter för ett initiativ är ett paket: en ram, ett krav på när det ska vara klart och ett effektmål. Riskerna bedöms. Vad som är ram och vad som är något annat står i Ram ([[C-210 Ram]]). Beslut 46 och 47.
+Portföljstyrningen väljer och väger. Portföljens ägare beslutar vad som startar, i vilken ordning och med vilken ram, och ställer ramarna för ändring mot initiativen. I verksamhetens portfölj är det domänernas ramar, och varje domäns ägare sätter sedan lösningarnas. Vem ägaren är och vad som står i portföljen förklaras i Portfölj ([[C-011 Portfölj]]). Det ägaren sätter för ett initiativ är ett paket: en ram, ett krav på när det ska vara klart och ett effektmål. Riskerna bedöms. Vad som är ram och vad som är något annat står i Ram ([[C-210 Ram]]). Beslut 46, 47 och 50.

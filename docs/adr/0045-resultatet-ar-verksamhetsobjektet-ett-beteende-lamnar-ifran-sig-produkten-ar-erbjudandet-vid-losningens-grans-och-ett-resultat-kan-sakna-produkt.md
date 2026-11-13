@@ -1,5 +1,7 @@
 # Resultatet är verksamhetsobjektet ett beteende lämnar ifrån sig, produkten är erbjudandet vid lösningens gräns, och ett resultat kan sakna produkt
 
+*Punkten att lösningens ägare svarar för resultatet är ändrad. Lösningsägaren svarar för att utformningen ger rätt resultat, och linjechefen svarar för det enskilda resultatet (beslut 50).*
+
 Beslutat av Nicklas 12 november 2026, när katalogen sade att en process har ett eget resultat utan att säga vad ett resultat är.
 
 ## Sammanhang

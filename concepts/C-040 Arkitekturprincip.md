@@ -32,6 +32,6 @@ Arkitekturprincipen står i en bärare som den med mandat fastställer. Styrelse
 
 Verksamheten och verksamhetsdomänerna beslutar principer; lösningsnivån tillämpar dem, också när en lösning har andra lösningar i sig. En princip för en sorts lösning beslutas på den lägsta nivå som har alla berörda lösningar under sig.
 
-Arkitekturstyrningen ([[C-049 Arkitekturstyrning]]) är aspektbaserad. Dess principer binder den som äger ett styrobjekt, men valen är ägarens: ägaren väljer, prövar valet mot principerna och väger dem. En avvikelse ([[C-213 Avvikelse]]) kan varken ägaren eller den som har arkitekturstyrningens mandat godta ensam. Den avgör den som gav båda sina mandat, eller den som en regel lägger avgörandet hos: "Avvikelse från princip beslutas i arkitekturrådet." Beslut 41, beslut 43.
+Arkitekturstyrningen ([[C-049 Arkitekturstyrning]]) är aspektbaserad. Dess principer binder den som äger ett styrobjekt, men valen är ägarens: ägaren väljer, prövar valet mot principerna och väger dem. En avvikelse ([[C-213 Avvikelse]]) kan varken ägaren eller den som har arkitekturstyrningens mandat godta ensam. Den avgör den som gav båda sina mandat. Arkitekturrådet bereder saken och ger ett råd, men beslutar inte. Avgörandet kan delegeras, men bara till en ägare med ram, aldrig till arkitekten eller rådet. Beslut 41, 43 och 50.
 
 ISO 42010:2022 räknar på samma sätt principerna till arkitekturen: "governing principles for the realization and evolution of this entity" ingår i definitionen av architecture.

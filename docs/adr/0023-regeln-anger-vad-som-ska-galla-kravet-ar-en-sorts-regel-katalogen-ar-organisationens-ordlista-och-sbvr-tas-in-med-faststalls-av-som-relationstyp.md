@@ -1,5 +1,7 @@
 # Regeln anger vad som ska gälla, kravet är en sorts regel, katalogen är organisationens ordlista, och SBVR tas in med fastställs av som relationstyp
 
+*Ledet att ett forum kan fastställa styrning gäller inte längre. Ett forum bereder och ger råd. Bara en aktör eller en roll fastställer (beslut 50).*
+
 Beslutat av Nicklas 30 oktober 2026, när katalogen ställdes mot Semantics of Business Vocabulary and Business Rules (SBVR), standarden för en verksamhets ordlista och regler.
 
 ## Sammanhang

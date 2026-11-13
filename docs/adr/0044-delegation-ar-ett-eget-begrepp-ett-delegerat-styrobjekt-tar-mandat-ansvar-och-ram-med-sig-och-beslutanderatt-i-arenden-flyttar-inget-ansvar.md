@@ -1,5 +1,7 @@
 # Delegation är ett eget begrepp, ett delegerat styrobjekt tar mandat, ansvar och ram med sig, och beslutanderätt i ärenden flyttar inget ansvar
 
+*Beslut 50 ändrar två punkter här. Delegationen går till en roll eller en aktör, inte till ett forum. Och processägaren svarar för hur handläggningen är upplagd inför lösningsägaren, som svarar för hela utformningen.*
+
 Beslutat av Nicklas 12 november 2026, när katalogen använde orden delegation och delegationsordning i fyra begrepp utan att förklara dem.
 
 ## Sammanhang

@@ -94,7 +94,7 @@ Hur en målarkitektur säger att en sak blir en annan sak: ett nytt element som 
 Fyra vanliga ord som inte är begrepp i katalogen. De förklaras tillsammans i Initiativ (C-012), där gränserna mellan dem står (beslut 46).
 
 **Vidmakthållande**:
-Att hålla en lösning och dess produkter i det skick de har: drift, support och rättningar. Det har inget slut och är inget initiativ. Drift och support är produktion. Rättningar ändrar utformningen, och lösningens ram betalar dem (beslut 47).
+Att hålla en lösning och dess produkter i det skick de har: drift, support och rättningar. Det har inget slut och är inget initiativ. Drift och support är produktion. Rättningar av lösningen ändrar utformningen, och lösningens ram betalar dem (beslut 47).
 
 **Vidareutveckling**:
 Ett initiativ som ändrar en lösning som finns. Byte av uttjänt teknik hör hit, för lösningen är densamma efteråt.
@@ -113,10 +113,13 @@ Ord som inte är begrepp i katalogen. De förklaras i Verksamhetsdomän (C-008) 
 Det en lösning innehåller: beteendet som typ, rollerna, informationens struktur och tekniken. Lösningsägaren svarar för den.
 
 **Produktion**:
-De enskilda ärendena och de resurser som utför dem. Allt utförande är produktion, också drift, support och rekrytering. Linjechefen svarar för den. Styrningen av den är Produktionsstyrning (C-215) (beslut 48).
+De enskilda ärendena och de resurser som utför dem. Allt utförande är produktion, också drift, support, registervård och rekrytering. Linjechefen svarar för varje ärende och för bemanningen. Domänens ägare svarar för produktionens mål (beslut 50). Styrningen av den är Produktionsstyrning (C-215) (beslut 48).
 
 **Utveckling**:
-Att ändra utformningen. Rättningar hör hit, fast de görs löpande.
+Att ändra utformningen. Rättningar av lösningen hör hit, fast de görs löpande.
+
+**Rättning**, **registervård**:
+Två saker som båda kallas rättning. En rättning av lösningen ändrar utformningen, till exempel programmet som räknar fel. Registervård rättar en enskild uppgift och är produktion (beslut 50).
 
 **Utvecklingsdomän**, **produktionsdomän**:
 Inte två sorters domän. Varje verksamhetsdomän har en utformning och en produktion. Den som säger utvecklingsdomänen menar domänens utformning och ändringen av den.

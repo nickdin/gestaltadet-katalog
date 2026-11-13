@@ -1,5 +1,7 @@
 # En princip klarar tre frågor, innehållet avgör om den är en arkitekturprincip, avvikelsen är ett eget begrepp, och policyn är en bärare
 
+*Meningen att den som avgör en avvikelse kan lägga avgörandet hos någon annan genom en regel gäller inte längre i den formen. Avgörandet kan bara delegeras till en ägare med ram, och arkitekturrådet bereder men beslutar inte (beslut 50).*
+
 Beslutat av Nicklas 12 november 2026, när katalogen sade var en princip står och vem som fastställer den men inte vad som gör en formulering till en princip.
 
 ## Sammanhang

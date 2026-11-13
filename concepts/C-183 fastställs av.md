@@ -19,7 +19,7 @@ key: decided_by
 
 ## Anmärkning
 
-Relationen går från det fastställda till den som beslutat eller antagit det. Det fastställda är bäraren ([[C-016 Bärare]]) eller ett styrmedel ([[C-015 Styrmedel]]) utan bärare; den som beslutat är en aktör ([[C-073 Aktör]]), en roll ([[C-074 Roll]]) eller ett forum ([[C-156 Forum]]). Relationen säger vem som beslutat, inte vem som får besluta: det är mandatet ([[C-189 Mandat]], beslut 25). Fastställa är förvaltningens ord för att anta ett styrdokument; beslutas av är tillåten term. Beslut 23.
+Relationen går från det fastställda till den som beslutat eller antagit det. Det fastställda är bäraren ([[C-016 Bärare]]) eller ett styrmedel ([[C-015 Styrmedel]]) utan bärare; den som beslutat är en aktör ([[C-073 Aktör]]) eller en roll ([[C-074 Roll]]). Ett forum ([[C-156 Forum]]) fastställer inget: det bereder, och en roll eller en aktör beslutar (beslut 50). Relationen säger vem som beslutat, inte vem som får besluta: det är mandatet ([[C-189 Mandat]], beslut 25). Fastställa är förvaltningens ord för att anta ett styrdokument; beslutas av är tillåten term. Beslut 23.
 
 **Källa:** SBVR 1.5, authority has business jurisdiction over element of guidance.
 

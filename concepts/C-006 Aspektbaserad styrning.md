@@ -23,6 +23,8 @@ En aspektbaserad styrning äger inget styrobjekt. Den har ett mandat ([[C-189 Ma
 
 Aspektens styrmedel ([[C-015 Styrmedel]]) binder den som äger ett styrobjekt, och ägaren beslutar inom dem. Ett undantag avgör den som gav båda sina mandat.
 
+En aspekt levererar inget utfall. Den påverkar utfallet genom sina regler, och utfallet kommer ur styrobjektet. Den som har aspektens mandat fastställer därför reglerna, principerna och riktlinjerna men beslutar aldrig i ett enskilt fall. I fallet är aspektens besked ett råd. Regeln prövas när den möter verkligheten. Kan ägaren inte följa den lyfter ägaren saken till den som gav båda sina mandat. Den beslutar om ett undantag eller om att regeln ska ändras. Ska regeln ändras skriver aspektens chef om den och fastställer den. Beslut 50.
+
 Varje aspekt kan bära en styrning. Katalogen namnger dem den behöver. Beslut 41.
 
 Aspektens regler gör två olika saker. En regel som håller varje styrobjekt mot helheten är styrning här och nu. En regel som får styrobjekten att gå i takt samordnar ([[C-217 Samordning]]). Ekonomichefens regel att ingen enhet får överskrida sin personalbudget är av det första slaget. Regeln att alla enheter lämnar månadsbokslut den femte är av det andra. Beslut 49.

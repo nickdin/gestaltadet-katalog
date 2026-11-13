@@ -1,5 +1,7 @@
 # Aspektstyrningen äger inget styrobjekt, arbetssättet är ingen aspekt, metodstyrningen tas bort, och styrmedlet kan ta sikte på en aspekt
 
+*Beslut 50 preciserar två saker här. Den som har aspektens mandat fastställer regler men beslutar aldrig i ett enskilt fall. Och den som avgör ett undantag kan ge undantaget eller låta ändra regeln.*
+
 Beslutat av Nicklas 12 november 2026, när två fynd om Metodstyrning (`C-051`) inte gick att avgöra utan att hela indelningen av styrningen prövades först.
 
 ## Sammanhang

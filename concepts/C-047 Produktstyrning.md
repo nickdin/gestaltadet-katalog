@@ -27,4 +27,4 @@ Produktstyrning är inte produktionsstyrning ([[C-215 Produktionsstyrning]]). Pr
 
 ## Exempel
 
-Registerlösningens ägare beslutar att supporten för Föreningsregistret stänger på fredagar. Beslutet gäller vad produkten lovar, och det är lösningens ägare som fattar det. Supporten själv är produktion, och linjechefen svarar för varje supportärende.
+IT lämnar registersystemet med drift och support till registerlösningen. Det är IT:s leveransprodukt. Ägaren till IT:s lösning beslutar att supporten stänger tidigare på fredagar. Beslutet gäller vad produkten lovar, och det är den lösningens ägare som fattar det. Registerlösningens ägare ställer krav på supporten men beslutar inte om den. Supporten själv är produktion hos IT, och IT-chefen svarar som linjechef för varje supportärende. Beslut 50.

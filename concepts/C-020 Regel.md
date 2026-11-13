@@ -38,4 +38,4 @@ Motsvarar Constraint i Unified Modeling Language (UML) när villkoret säger vad
 
 ## Exempel
 
-"Avvikelse från princip beslutas i arkitekturrådet."
+"Avvikelse från princip bereds i arkitekturrådet."

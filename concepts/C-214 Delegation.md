@@ -21,6 +21,8 @@ associative:
 
 Delegationen är handlingen att lämna över en rätt att besluta. Den som har rätten skriver en regel ([[C-020 Regel]]) som säger vem som får besluta om vad. Regeln står i en bärare ([[C-016 Bärare]]): arbetsordningen, delegationsordningen, vd-instruktionen eller attestordningen. Delegationen är ett begrepp utan egen typ. Inget ritas som delegation i lagret: regeln och bäraren ritas.
 
+Delegationen går till en roll eller en aktör, aldrig till ett forum ([[C-156 Forum]]). Ett forum kan inte stå för ett utfall. En styrelse eller en nämnd beslutar genom omröstning och är en aktör. Beslut 50.
+
 Det finns två sorters delegation. Den ena lämnar över ett styrobjekt ([[C-003 Styrobjekt]]). Den andra lämnar över rätten att besluta i ärenden.
 
 Delegation av ett styrobjekt flyttar mandatet ([[C-189 Mandat]]), ansvaret ([[C-209 Ansvar]]) och ramen ([[C-210 Ram]]) tillsammans. Den som tar emot blir styrobjektets ägare, beslutar om det och svarar för dess utfall. Den som delegerar sätter ramen, och den som tar emot håller den. En delegation utan ram är ett fynd: mottagaren har befogenheten men kan inte bära ansvaret.
@@ -29,9 +31,11 @@ Ansvaret för det omslutande styrobjektet stannar hos den som delegerar. Dit hö
 
 Varje mandat under högsta ledningen är delegerat. Positionen har sitt mandat därför att någon ovanför har lämnat det dit. Högsta ledningens mandat kommer utifrån: generaldirektörens ur regeringens instruktion, styrelsens från bolagets ägare.
 
-En delegation kan vara begränsad till en aspekt ([[C-004 Aspekt]]). Den aspektbaserade styrningen ([[C-006 Aspektbaserad styrning]]) har ett sådant mandat, och beslut 41 kallar det utdelat. Den delegationen flyttar inget ägande: varje styrobjekt behåller sin ägare.
+En delegation kan vara begränsad till en aspekt ([[C-004 Aspekt]]). Den aspektbaserade styrningen ([[C-006 Aspektbaserad styrning]]) har ett sådant mandat, och beslut 41 kallar det utdelat. Den delegationen flyttar inget ägande: varje styrobjekt behåller sin ägare. Den som har aspektens mandat fastställer reglerna men beslutar aldrig i ett enskilt fall (beslut 50).
 
-Delegation av ärendebeslut ([[C-181 Ärendebeslut]]) lämnar över beslutanderätt, som är lagens ord, men inget mandat. Den som beslutar i ärendet får inget styrobjekt och ingen ram och fastställer ingen styrning. Den delegationen flyttar inget ansvar i katalogens mening. Linjechefen ([[C-207 Linjechef]]) svarar för de faktiska ärendena, och processägaren ([[C-206 Processägare]]) för hur handläggningen är upplagd. Det ansvar en tjänsteman har för sitt eget beslut ligger utanför katalogen. Attesträtten är också beslutanderätt. Den som attesterar förbrukar ur en ram som redan är satt men håller den inte.
+Delegation av ärendebeslut ([[C-181 Ärendebeslut]]) lämnar över beslutanderätt, som är lagens ord, men inget mandat. Den som beslutar i ärendet får inget styrobjekt och ingen ram och fastställer ingen styrning. Den delegationen flyttar inget ansvar i katalogens mening. Linjechefen ([[C-207 Linjechef]]) svarar för de faktiska ärendena, och processägaren ([[C-206 Processägare]]) för hur handläggningen är upplagd, inför lösningsägaren som svarar för hela utformningen (beslut 50). Det ansvar en tjänsteman har för sitt eget beslut ligger utanför katalogen. Attesträtten är också beslutanderätt. Den som attesterar förbrukar ur en ram som redan är satt men håller den inte.
+
+Rätten att avgöra en avvikelse ([[C-213 Avvikelse]]) kan delegeras som allt annat, men bara till en ägare med ram. Den går aldrig till den som har aspektens mandat och aldrig till ett råd (beslut 50).
 
 En delegerad rätt får lämnas vidare bara när regeln som delegerade säger det. Den som har delegerat kan ta tillbaka delegationen genom att ändra regeln. Ett beslut som redan har fattats med delegationen står kvar.
 
