@@ -7,6 +7,7 @@ terms:
     status: preferred
     source: concept new
 definition: objektbaserad styrning där styrobjektet är en verksamhetsdomän, sedd från dess produktion
+generic: '[[C-005 Objektbaserad styrning]]'
 ---
 # C-215 Produktionsstyrning
 
