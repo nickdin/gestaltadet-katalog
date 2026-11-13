@@ -10,6 +10,8 @@ definition: grad i vilken en ändring i ett arkitekturelement, en lösning eller
 associative:
   - concept: '[[C-055 Lösning]]'
     label: råder mellan
+  - concept: '[[C-003 Styrobjekt]]'
+    label: råder mellan
 ---
 # C-211 Koppling
 
