@@ -6,7 +6,7 @@ terms:
     language: sv
     status: preferred
     source: concept new
-definition: överlämnande av beslutanderätt, genom en regel, från den som har den till en annan roll, aktör eller forum
+definition: överlämnande av beslutanderätt, genom en regel, från den som har den till en annan roll eller aktör
 associative:
   - concept: '[[C-020 Regel]]'
     label: sker genom
@@ -15,7 +15,7 @@ associative:
 ---
 # C-214 Delegation
 
-**Definition:** överlämnande av beslutanderätt, genom en regel, från den som har den till en annan roll, aktör eller forum
+**Definition:** överlämnande av beslutanderätt, genom en regel, från den som har den till en annan roll eller aktör
 
 ## Anmärkning
 
