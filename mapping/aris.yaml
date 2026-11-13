@@ -99,10 +99,6 @@ unmapped-concepts:
     reason: >-
       the store's own architecture-object type for a domain; no ARIS object
       type names architecture scope itself
-  - id: C-010
-    reason: >-
-      the store's own architecture-object type for a production domain; no
-      ARIS object type names architecture scope itself
   - id: C-014
     reason: >-
       no ARIS product object type confirmed this session

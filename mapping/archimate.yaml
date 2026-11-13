@@ -238,11 +238,6 @@ unmapped-concepts:
       the store's own architecture-object type for a domain (ISO 42010
       scoping); ArchiMate's core has no element for architecture-object
       scope
-  - id: C-010
-    reason: >-
-      the store's own architecture-object type for a production domain
-      (ISO 42010 scoping); ArchiMate's core has no element for
-      architecture-object scope
   - id: C-055
     reason: >-
       the store's own architecture-object type for a solution (ISO 42010
