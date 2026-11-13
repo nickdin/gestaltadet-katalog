@@ -9,12 +9,12 @@ terms:
   - term: Objektprodukt
     language: sv
     source: concept change
-definition: produkt som en lösning tar fram och vidmakthåller och som mottagaren använder som komponent i sin egen lösning
+definition: produkt som mottagaren använder för att själv kunna producera
 generic: '[[C-014 Produkt]]'
 ---
 # C-174 Leveransprodukt
 
-**Definition:** produkt som en lösning tar fram och vidmakthåller och som mottagaren använder som komponent i sin egen lösning
+**Definition:** produkt som mottagaren använder för att själv kunna producera
 
 ## Anmärkning
 
