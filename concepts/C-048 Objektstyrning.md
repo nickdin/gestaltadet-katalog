@@ -18,7 +18,7 @@ associative:
 ## Anmärkning
 Förvaltningsobjektet är en lösning ([[C-055 Lösning]]), inte en produkt: det som förvaltas och får en ram. Det objektet tar fram är dess leveransprodukter ([[C-174 Leveransprodukt]]). Beslut 20.
 
-Objektstyrning och produktstyrning ([[C-047 Produktstyrning]]) är samma styrning med samma ägare, lösningsägaren. Objektstyrningen ser den från det som förvaltas, produktstyrningen från det som erbjuds. Det pm3 kallar förvaltning är vidmakthållande och vidareutveckling inom lösningens ram; orden förklaras i Initiativ ([[C-012 Initiativ]]). Beslut 46.
+Objektstyrning och produktstyrning ([[C-047 Produktstyrning]]) är samma styrning med samma ägare, lösningsägaren. Objektstyrningen ser den från det som förvaltas, produktstyrningen från det som erbjuds. Det pm3 kallar förvaltning är vidmakthållande och vidareutveckling inom lösningens ram; orden förklaras i Initiativ ([[C-012 Initiativ]]). Beslut 46. Drift och support är produktion och ligger utanför lösningens ram (beslut 47).
 
 Ett objekt som realiserar flera förmågor prövas mot förmågekartan (beslut 20). Det som har ett eget uppdrag över flera lösningar är ingen grov lösning utan en verksamhetsdomän ([[C-008 Verksamhetsdomän]]). Den som då saknas i pm3 är domänägaren, som sätter målen på domänens förmågor och ställer kraven på objekten under.
 

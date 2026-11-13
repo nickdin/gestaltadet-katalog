@@ -94,7 +94,7 @@ Hur en målarkitektur säger att en sak blir en annan sak: ett nytt element som 
 Fyra vanliga ord som inte är begrepp i katalogen. De förklaras tillsammans i Initiativ (C-012), där gränserna mellan dem står (beslut 46).
 
 **Vidmakthållande**:
-Att hålla en lösning och dess produkter i det skick de har: drift, support och rättningar. Det har inget slut och är inget initiativ. Lösningens ram betalar det.
+Att hålla en lösning och dess produkter i det skick de har: drift, support och rättningar. Det har inget slut och är inget initiativ. Drift och support är produktion. Rättningar ändrar utformningen, och lösningens ram betalar dem (beslut 47).
 
 **Vidareutveckling**:
 Ett initiativ som ändrar en lösning som finns. Byte av uttjänt teknik hör hit, för lösningen är densamma efteråt.
@@ -104,6 +104,31 @@ Ett initiativ som lämnar en lösning som inte fanns. Den blivande lösningsäga
 
 **Innovation**:
 Ett initiativ som prövar en idé och lämnar kunskap: en bedömning som leder till ett styrbeslut om att gå vidare eller låta bli.
+
+### Utformning och produktion
+
+Ord som inte är begrepp i katalogen. De förklaras i Verksamhetsdomän (C-008) (beslut 47).
+
+**Utformning**:
+Det en lösning innehåller: beteendet som typ, rollerna, informationens struktur och tekniken. Lösningsägaren svarar för den.
+
+**Produktion**:
+De enskilda ärendena och de resurser som utför dem. Allt utförande är produktion, också drift, support och rekrytering. Linjechefen svarar för den.
+
+**Utveckling**:
+Att ändra utformningen. Rättningar hör hit, fast de görs löpande.
+
+**Utvecklingsdomän**, **produktionsdomän**:
+Inte två sorters domän. Varje verksamhetsdomän har en utformning och en produktion. Den som säger utvecklingsdomänen menar domänens utformning och ändringen av den.
+
+**Kärnverksamhet**:
+En domän som har en del av organisationens uppdrag utifrån.
+
+**Stödverksamhet**:
+En domän med ett inre uppdrag från ledningen att stödja de andra. IT är stödverksamhet på samma sätt som HR.
+
+**Affär**:
+Ett företags uppdrag utifrån. Ordet används aldrig om ett inre uppdrag.
 
 ### Katalogens begrepp bakom interlinguas ord
 

@@ -4,7 +4,7 @@ En påhittad statlig myndighet. Den finns för att katalogens exempel ur förval
 
 ## Vad den gör
 
-Myndigheten fördelar statsbidrag till ideella föreningar, för register över föreningarna och deras företrädare och ser till att pengarna används som avsett. Den har omkring 120 anställda på en ort, och en generaldirektör leder den. Den har fyra enheter: Bidragsenheten, Register- och tillsynsenheten, Analysenheten och Verksamhetsstöd, där IT, ekonomi, juridik och kommunikation sitter.
+Myndigheten fördelar statsbidrag till ideella föreningar, för register över föreningarna och deras företrädare och ser till att pengarna används som avsett. Den har omkring 120 anställda på en ort, och en generaldirektör leder den. Den har fyra enheter: Bidragsenheten, Register- och tillsynsenheten, Analysenheten och Verksamhetsstöd, där IT, HR, ekonomi, juridik och kommunikation sitter.
 
 ## Uppdrag och styrning
 
@@ -19,11 +19,11 @@ Regleringsbrevet ger varje år anslag, mål och återrapporteringskrav. Årets m
 
 Utvecklingsarbetet samlas i en utvecklingsportfölj som generaldirektören prioriterar och finansierar. Just nu rymmer den två initiativ: en ny e-tjänst för redovisning och automatisk beräkning av verksamhetsbidraget. Det första flyttar redovisningen från blankett till Föreningsportalen. Det andra låter Beräkningstjänsten hämta uppgifterna ur registret själv.
 
-Generaldirektören äger portföljen. I den står leveransprodukterna Föreningsregistret och Beräkningstjänsten bredvid initiativen, så att generaldirektören kan väga dem mot varandra. Föreningsregistret med support kostar 3 miljoner kronor per år. Automatisk beräkning kostar 2 miljoner kronor en gång och ska spara en timme per ärende. Generaldirektören kan sänka supporten för registret för att initiativet ska få plats. Pengarna till registret går som ram till registerlösningen, pengarna till initiativet som ram till initiativet.
+Generaldirektören äger portföljen. I den står lösningarnas ramar för ändring bredvid initiativen, så att generaldirektören kan väga dem mot varandra. Föreningsregistret kostar 3 miljoner kronor per år. Av dem är 2,5 miljoner drift och support. Det är produktion hos IT och står i verksamhetsplanen. Resten, 0,5 miljoner, är rättningar. Det är registerlösningens ram och står i portföljen. Automatisk beräkning kostar 2 miljoner kronor en gång och ska spara en timme per ärende. Generaldirektören äger både portföljen och verksamhetsplanen. Hen kan sänka supporten för registret för att initiativet ska få plats.
 
 Initiativet automatisk beräkning har fått 2 miljoner kronor och två utvecklare på halvtid. Det är dess ram. Att det ska vara klart före nästa ansökningsomgång är ett krav. Att handläggningstiden ska sjunka med en timme per ärende är ett effektmål. Att registret kanske inte har alla lokalavdelningar är en risk. Initiativet drivs som projekt. Generaldirektören har utsett en beställare, som är initiativets ägare och beslutar om arbetet. I styrgruppen sitter ägarna till de två lösningar som ändras. Styrgruppen ger råd men beslutar inte. Ägaren till lösningen som realiserar Beräkningstjänsten ställer kraven på vad tjänsten ska kunna. Kräver hen att tjänsten också hämtar kontonummer, och det inte ryms i ramen, avgör generaldirektören: mer pengar eller ett lägre krav. Chefen för Bidragsenheten svarar för att handläggningstiden faktiskt sjunker, för effekten uppstår i hens lösning när initiativet är slut.
 
-Alla förändringar står inte i portföljen. Chefen för Bidragsenheten låter två handläggare skriva om mallarna för kompletteringsbegäran under tre veckor. Hen betalar det ur lösningens ram och frågar ingen. Det är vidareutveckling inom ramen. Drift, support och rättningar i Föreningsregistret är vidmakthållande och inget initiativ. Den dag Ärendesystemet är uttjänt och skrivs om på ny teknik är det också vidareutveckling, för lösningen Ansökningshandläggningen är densamma efteråt. Men lösningens ram räcker inte, så det initiativet står i portföljen.
+Alla förändringar står inte i portföljen. Chefen för Bidragsenheten låter två handläggare skriva om mallarna för kompletteringsbegäran under tre veckor. Hen betalar det ur lösningens ram och frågar ingen. Handläggarna lånas från produktionen de tre veckorna. Det är vidareutveckling inom ramen. Drift, support och rättningar i Föreningsregistret är vidmakthållande och inget initiativ. Drift och support är produktion hos IT. Rättningarna ändrar utformningen och betalas ur registerlösningens ram. Den dag Ärendesystemet är uttjänt och skrivs om på ny teknik är det också vidareutveckling, för lösningen Ansökningshandläggningen är densamma efteråt. Men lösningens ram räcker inte, så det initiativet står i portföljen.
 
 Ekonomichefen har generaldirektörens mandat att fastställa ekonomiregler för hela myndigheten. En regel säger att ingen enhet får överskrida sin personalbudget. Regeln gäller i utvecklingsportföljen, i handläggningen och i förvaltningen av systemen, fast ekonomichefen inte äger något av dem. Vill chefen för Bidragsenheten ta in extra handläggare utöver budgeten avgör generaldirektören. Regeln att bara handläggare får läsa uppgifter om företrädare tar sikte på säkerheten.
 
@@ -77,7 +77,23 @@ Analysenheten läser Ansökan, Beslut och Utbetalning in i ett datalager, en lag
 
 Alla fem körs på en gemensam plattform i myndighetens datahall, utom Föreningsportalen som en leverantör driftar.
 
-Ansökningshandläggningen är en lösning: handläggningen Pröva en ansökan, Bidragsenhetens handläggare, Ansökan, Beslut och Utbetalning, och Ärendesystemet. Bidragsenhetens chef är dess lösningsägare, håller ramen och svarar för målet att nio av tio ansökningar är beslutade inom fyra månader. Lösningen använder Föreningsregistret som leveransprodukt och får informationsobjektet Förening genom det. Registerlösningen tar fram och vidmakthåller registret, Ansökningshandläggningen ställer krav på det, och de två kan ändras var för sig. Kopplingen är lös. Myndighetens referensarkitektur antar provet för ett snitt som arkitekturprincip: en lösning har en ägare med ram, och det två lösningar delar bryts ut som en egen lösning. Referensarkitekturen antar också Gemensamt före eget: en lösning använder det som redan finns gemensamt hellre än att bygga eget. Chefen för Bidragsenheten fattar som lösningsägare valen i sin lösning och väger principerna mot varandra. Vill chefen bygga ett eget register över kontaktpersoner för att hinna före årets bidragsomgång, och ingen annan princip bär valet, är det en avvikelse. Den avgör generaldirektören, som gav både lösningsägaren och arkitekturstyrningen deras mandat.
+Ansökningshandläggningen är en lösning: handläggningen Pröva en ansökan, rollen Handläggare, Ansökan, Beslut och Utbetalning, och Ärendesystemet. Det är utformningen. Handläggarna själva ingår inte. Bidragsenhetens chef är lösningsägare och håller lösningens ram. Lösningen använder Föreningsregistret som leveransprodukt och får informationsobjektet Förening genom det. Registerlösningen tar fram och vidmakthåller registret, Ansökningshandläggningen ställer krav på det, och de två kan ändras var för sig. Kopplingen är lös. Myndighetens referensarkitektur antar provet för ett snitt som arkitekturprincip: en lösning har en ägare med ram, och det två lösningar delar bryts ut som en egen lösning. Referensarkitekturen antar också Gemensamt före eget: en lösning använder det som redan finns gemensamt hellre än att bygga eget. Chefen för Bidragsenheten fattar som lösningsägare valen i sin lösning och väger principerna mot varandra. Vill chefen bygga ett eget register över kontaktpersoner för att hinna före årets bidragsomgång, och ingen annan princip bär valet, är det en avvikelse. Den avgör generaldirektören, som gav både lösningsägaren och arkitekturstyrningen deras mandat.
+
+## Utformning och produktion
+
+Bidragsgivningen är en verksamhetsdomän, och chefen för Bidragsenheten äger den. Domänen har en utformning och en produktion. Utformningen är lösningen Ansökningshandläggningen. Produktionen är årets 4 000 ansökningar och de handläggare som prövar dem. Handläggarna är resurser.
+
+Chefen har två roller och två ramar. Som lösningsägare svarar hen för utformningen och för vad verksamhetsbidraget lovar. Som linjechef svarar hen för varje ärende och för målet att nio av tio ansökningar är beslutade inom fyra månader. Blir två handläggare sjuka i mars så att målet spricker är det linjechefens sak. Är Ärendesystemet för långsamt är det lösningsägarens. Som linjechef kräver hen av lösningen att ett vanligt ärende går att handlägga på sex timmar.
+
+En förening som har fått bifall men inga pengar vänder sig till samma chef. Glömde handläggaren att skicka utbetalningen svarar chefen som linjechef. Saknar handläggningen ett steg som fångar felet svarar chefen som lösningsägare.
+
+Chefen kan själv väga två handläggare till mot en ändring av mallarna, inom domänens ram. Automatisk beräkning ryms inte där. Den vägningen gör generaldirektören.
+
+Tre ärenden samma tisdag visar att allt utförande är produktion. En handläggare beslutar om en ansökan. HR anställer en ny handläggare åt Bidragsenheten. En tekniker på IT hjälper en handläggare in i Föreningsregistret. Dagen efter rättar samma tekniker hur registret räknar lokalavdelningar. Det är ingen produktion. Rättningen ändrar utformningen, och registerlösningens ägare beslutar om den.
+
+HR och IT är stödverksamhet. Generaldirektören har i arbetsordningen gett HR uppdraget att försörja myndigheten med personal och IT uppdraget att hålla systemen igång. Det är inre uppdrag, till skillnad från de fyra som regeringen ger. HR lämnar leveransprodukten Rekrytering, och den nya handläggaren är resursen. IT lämnar Ärendesystemet med drift och support vardagar 8–17, och det fungerande systemet är resursen. IT-chefen är linjechef för supportärendena.
+
+Register- och tillsynsenheten registrerar nya företrädare varje dag. Det är produktion i registerlösningen, som också lämnar leveransprodukten Föreningsregistret. Det är en lösning, inte två. Analysenheten lämnar Riskindikator per förening till tillsynen, som väljer stickprov med den. Det är också en leveransprodukt.
 
 ## Vem den finns för
 
@@ -89,6 +105,8 @@ Myndigheten står för förvaltningens mekanik. Hämta härifrån exempel på:
 
 - uppdrag (C-149), verksamhetsmål (C-169), portfölj (C-011) och initiativ (C-012), med portföljens och initiativets ägare
 - vidmakthållande, vidareutveckling och ett initiativ inom lösningens egen ram
+- verksamhetsdomän (C-008) med utformning och produktion, lösningens ram och produktionens ram
+- inre uppdrag (C-149), stödverksamhet och leveransprodukt (C-174) från HR och IT
 - aspektbaserad styrning (C-006), aspekt (C-004) och arbetssätt (C-196)
 - verksamhetsförmåga (C-069), verksamhetsprocess (C-130) och handläggning (C-160)
 - ärendebeslut (C-181) och beslutslogik (C-178)

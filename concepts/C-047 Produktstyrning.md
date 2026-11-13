@@ -25,4 +25,4 @@ Produktstyrning och objektstyrning är samma styrning med samma ägare. Objektst
 
 ## Exempel
 
-Registerlösningens ägare beslutar att supporten för Föreningsregistret stänger på fredagar. Beslutet gäller produkten, men det är lösningens ägare som fattar det, med lösningens ram.
+Registerlösningens ägare beslutar att supporten för Föreningsregistret stänger på fredagar. Beslutet gäller vad produkten lovar, och det är lösningens ägare som fattar det. Supporten själv är produktion, och linjechefen svarar för varje supportärende.

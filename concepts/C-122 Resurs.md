@@ -13,6 +13,8 @@ definition: "tillgång som verksamheten förfogar över och behöver för att ut
 
 ## Anmärkning
 
+Resursen hör till produktionen. En lösnings utformning pekar ut roller, system och lokaler. I produktionen fylls de av resurser: en person, ett fungerande system, ett rum. Resurserna ingår inte i lösningen ([[C-055 Lösning]]). En resurs som en annan domän lämnar kommer genom en leveransprodukt ([[C-174 Leveransprodukt]]). Beslut 47.
+
 ## Motsvarigheter
 
 Motsvarar Asset, Fixed Asset och Resource i Business Motivation Model: det verksamheten förfogar över och som ett vägval tar i anspråk (beslut 25).
