@@ -27,6 +27,8 @@ Portföljen väger det som ändrar utformningen: ramarna för ändring och initi
 
 Två saker har ingen egen rad i portföljen. Den ena är ett initiativ som en lösningsägare betalar ur lösningens egen ram: det ryms i lösningens rad. Den andra är produktionen. Vad verksamhetsprodukterna ([[C-173 Verksamhetsprodukt]]) får kosta, och vad drift och support av leveransprodukterna ([[C-174 Leveransprodukt]]) får kosta, väger ledningen mot annat när den sätter verksamhetens ramar, till exempel i verksamhetsplanen. Portföljen är inte hela organisationens budget. Beslut 46 och 47.
 
+Många organisationer säger produktportfölj om listan över vad de erbjuder. Det är en förteckning över produkter ([[C-014 Produkt]]) och ingen portfölj i katalogens mening. Vad en produkt kostar att hålla igång hör till i dag och betalas ur produktionens ram. Portföljen fördelar pengarna för i morgon. Stod produkterna i portföljen skulle balansen mellan de två inte synas. Beslut 51.
+
 Den som sätter både produktionens ram och ramen för ändring håller balansen mellan i dag och i morgon. Portföljen fördelar den ena ramen. Verksamhetsplanen är en bärare ([[C-016 Bärare]]) och rymmer båda. Balansen hör till det livskraften ([[C-216 Livskraft]]) kräver. Beslut 49.
 
 ## Motsvarigheter

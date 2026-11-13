@@ -17,7 +17,7 @@ Definitionen av Portfölj (`C-011`) sade fortfarande "initiativ och produkter", 
 - **Delportfölj är ingen egen sort.** Ordet betyder portföljen i en domän, sedd från domänen ovanför.
 - **En lösning (`C-055`) har ingen portfölj.** Lösningen är ingen domän. Ett initiativ som lösningsägaren betalar ur lösningens egen ram får ingen egen rad. Det ryms i lösningens rad i domänens portfölj, som i beslut 46.
 - **Portfölj (`C-011`) får definitionen "sammanhållen mängd av ramar för ändring och initiativ som ägaren till en verksamhet eller verksamhetsdomän väger mot varandra".**
-- **Produkter står inte i portföljen.** Det följer av definitionen och av beslut 47: drift och support är produktion, och lösningen står i portföljen bara med sin ram för ändring. Ledet i beslut 19 och 20, att portföljen aggregerar produkter, gäller inte längre.
+- **Produkter står inte i portföljen.** Det följer av definitionen och av beslut 47: drift och support är produktion, och lösningen står i portföljen bara med sin ram för ändring. Ledet i beslut 19 och 20, att portföljen aggregerar produkter, gäller inte längre. Det organisationer kallar produktportfölj är en förteckning över produkter och ingen portfölj i katalogens mening. Vad en produkt kostar att hålla igång hör till i dag, och portföljen fördelar pengarna för i morgon.
 
 ## Övervägda alternativ
 
