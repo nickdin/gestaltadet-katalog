@@ -10,6 +10,8 @@ definition: prövning av förekomster mot styrmedel, på uppdrag av den som dele
 associative:
   - concept: '[[C-185 Bedömning]]'
     label: leder till
+  - concept: '[[C-214 Delegation]]'
+    label: följer
 ---
 # C-218 Granskning
 
