@@ -9,7 +9,6 @@ definition: arkitekturperspektiv som avser vad verksamheten gör, vem som gör d
 covers:
   - "[[C-007 Verksamhet]]"
   - "[[C-008 Verksamhetsdomän]]"
-  - "[[C-009 Utvecklingsdomän]]"
   - "[[C-010 Produktionsdomän]]"
   - "[[C-055 Lösning]]"
   - "[[C-014 Produkt]]"
