@@ -5,13 +5,13 @@ terms:
   - term: Portfölj
     language: sv
     source: catalogue
-definition: "sammanhållen mängd av initiativ och produkter som prioriteras och finansieras gemensamt"
+definition: sammanhållen mängd av ramar för ändring och initiativ som ägaren till en verksamhet eller verksamhetsdomän väger mot varandra
 kind: element-type
 partitive: '[[C-008 Verksamhetsdomän]]'
 ---
 # C-011 Portfölj
 
-**Definition:** sammanhållen mängd av initiativ och produkter som prioriteras och finansieras gemensamt
+**Definition:** sammanhållen mängd av ramar för ändring och initiativ som ägaren till en verksamhet eller verksamhetsdomän väger mot varandra
 
 ## Anmärkning
 
