@@ -10,6 +10,8 @@ definition: förmåga hos en verksamhet eller verksamhetsdomän att fullgöra si
 associative:
   - concept: '[[C-008 Verksamhetsdomän]]'
     label: prövas på
+  - concept: '[[C-007 Verksamhet]]'
+    label: prövas på
 ---
 # C-216 Livskraft
 
