@@ -36,4 +36,4 @@ Det här är pm3:s leveransprodukt, tidigare objektprodukt, därav den andra ter
 
 ## Exempel
 
-Föreningsregistret med sina rutiner och sin support; Beräkningstjänsten; Ärendesystemet med drift och support; rekryteringen av en handläggare; arbetsplatser med lokalvård; Riskindikator per förening, som tillsynen väljer stickprov med.
+Föreningsregistret med sina rutiner och sin registervård; Beräkningstjänsten; Ärendesystemet med drift och support; registersystemet med drift och support, som IT lämnar till registerlösningen; rekryteringen av en handläggare; arbetsplatser med lokalvård; Riskindikator per förening, som tillsynen väljer stickprov med.
