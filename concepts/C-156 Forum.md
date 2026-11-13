@@ -6,13 +6,13 @@ terms:
     language: sv
     status: preferred
     source: concept new
-definition: återkommande verksamhetssamverkan där ärenden bereds, diskuteras eller beslutas
+definition: återkommande verksamhetssamverkan där ärenden bereds eller diskuteras
 kind: element-type
 generic: "[[C-141 Verksamhetssamverkan]]"
 ---
 # C-156 Forum
 
-**Definition:** återkommande verksamhetssamverkan där ärenden bereds, diskuteras eller beslutas
+**Definition:** återkommande verksamhetssamverkan där ärenden bereds eller diskuteras
 
 ## Anmärkning
 
