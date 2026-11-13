@@ -70,11 +70,25 @@ Det mesta bor i ett **fastighetssystem**, en standardprodukt som leverantören d
 
 Felanmälan är en lösning: processen Åtgärda en felanmälan, bovärdarna, informationsobjekten Felanmälan och Arbetsorder och modulen Teknisk förvaltning tillsammans. Teknisk chef är dess lösningsägare, håller årsramen och svarar för att utformningen klarar målet att en felanmälan är åtgärdad inom fem arbetsdagar. Leverantören som driftar systemet är inte dess ägare.
 
-Här finns ett fynd. Felanmälan hör hemma hos teknisk chef, men bovärdarna arbetar på tre områdeskontor som ligger bredvid den tekniska avdelningen, inte under den. Teknisk chef beslutar om processen och systemet, men inte om hur många bovärdar som arbetar. Varje kontorschef beslutar om sina bovärdar, men inte om processen. Styrelsen har satt målet fem arbetsdagar, och ingen under vd håller båda halvorna. Tar åtgärderna åtta dagar kan teknisk chef peka på bemanningen och kontorscheferna på processen, och båda kan ha rätt. Bara vd kan väga fler bovärdar mot en ändrad process. Det är inte ett effektivt sätt att styra. Två vägar finns ur fyndet: områdeskontoren läggs under den som äger Felanmälan, eller så flyttas processen till den som har bovärdarna.
+Här finns ett fynd. Felanmälan hör hemma hos teknisk chef, men bovärdarna arbetar på tre områdeskontor som ligger bredvid den tekniska avdelningen, inte under den. Teknisk chef beslutar om processen och systemet, men inte om hur många bovärdar som arbetar. Varje kontorschef beslutar om sina bovärdar, men inte om processen. Styrelsen har satt målet fem arbetsdagar, och ingen under vd håller båda halvorna. Tar åtgärderna åtta dagar kan teknisk chef peka på bemanningen och kontorscheferna på processen, och båda kan ha rätt. Bara vd kan väga fler bovärdar mot en ändrad process. Det är inte ett effektivt sätt att styra. Ansvaret för målet är ofullständigt hos båda, och centraliseringen har ingen valt: den följer av snittet. Två vägar finns ur fyndet: områdeskontoren läggs under den som äger Felanmälan, eller så flyttas processen till den som har bovärdarna.
 
 Hyra är en annan lösning, uthyrningschefens. De två delar fastighetssystemet, som är en egen lösning eftersom flera använder det. Men modulerna delar grunddata och release: en ändring i den ena tvingar fram en ändring i den andra. Kopplingen är tät och går inte att lösa, eftersom systemet är en standardprodukt. Teknisk chef bär den som en bedömning på lösningen: varje release av fastighetssystemet är en påverkan som Felanmälan måste svara på.
 
 Vid sidan av det finns två system till. **Ekonomisystemet** används för bokföring, leverantörsfakturor och bokslut, och Hyra skickar sina verifikationer dit. **Styr- och övervakningssystemet** läser och styr värme, ventilation, hissar och passersystem. Det körs lokalt i varje undercentral och samlas i bolagets driftcentral. Husen har utrustning: undercentraler, ventilationsaggregat, hissar, passerläsare och el- och vattenmätare, kopplade till driftcentralen över ett eget nät. Tre tjänster köper bolaget utifrån: störningsjouren, inkassotjänsten och nyckelhanteringen för entreprenörer.
+
+## Livskraft
+
+Bolaget har 6 000 lägenheter, tre områdeskontor och felanmälningar av många slag. Det är dess komplexitet: fler lägen än en vd hinner möta. Bolaget möter den på två sätt. Principen Akuta fel före planerat underhåll är en dämpare, för bovärdarna behöver inte fråga vad som går först. Attesträtten upp till 100 000 kronor är en förstärkare, för kontorschefen får besluta själv. Fyndet i Felanmälan drar åt andra hållet. Varje avvägning mellan bovärdar och process går till vd, och de avvägningarna uppstår på tre kontor varje vecka.
+
+De tre områdeskontoren samordnar sig själva. Kontorscheferna gör upp ett gemensamt jourschema för mellandagarna. Ingen av dem beslutar över de andra, och vd behöver inte avgöra något.
+
+Styrelsen har delegerat den löpande förvaltningen till vd och ska kontrollera att delegationen håller. Vd rapporterar varje kvartal hur många felanmälningar som åtgärdats inom fem arbetsdagar. Det är uppföljning. Styrelsen låter också en granskare gå igenom femtio arbetsorder direkt i fastighetssystemet. Det är granskning.
+
+En bovärd som hittar legionella i ett hus ringer vd samma dag. Faran väntar inte på kvartalsrapporten. Det är larmvägen.
+
+Kommunen växer, och ägardirektivet kräver omkring 150 nya lägenheter per år till 2030. Någon måste bedöma vad det gör med förvaltningen om fem år: fler hus, fler felanmälningar, nya områden. Den bedömningen är bolagets blick utåt och framåt, och den blir underlag för affärsplanen och målarkitekturen.
+
+Vd väger underhållsbudgeten mot investeringsportföljen för hela bolaget. Det är rätt plats för den balansen. Fyndet är att ingen under vd kan väga i det lilla.
 
 ## Vem det finns för
 

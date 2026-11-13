@@ -19,7 +19,7 @@ Regleringsbrevet ger varje år anslag, mål och återrapporteringskrav. Årets m
 
 Utvecklingsarbetet samlas i en utvecklingsportfölj som generaldirektören prioriterar och finansierar. Just nu rymmer den två initiativ: en ny e-tjänst för redovisning och automatisk beräkning av verksamhetsbidraget. Det första flyttar redovisningen från blankett till Föreningsportalen. Det andra låter Beräkningstjänsten hämta uppgifterna ur registret själv.
 
-Generaldirektören äger portföljen. I den står lösningarnas ramar för ändring bredvid initiativen, så att generaldirektören kan väga dem mot varandra. Föreningsregistret kostar 3 miljoner kronor per år. Av dem är 2,5 miljoner drift och support. Det är produktion hos IT och står i verksamhetsplanen. Resten, 0,5 miljoner, är rättningar. Det är registerlösningens ram och står i portföljen. Automatisk beräkning kostar 2 miljoner kronor en gång och ska spara en timme per ärende. Generaldirektören äger både portföljen och verksamhetsplanen. Hen kan sänka supporten för registret för att initiativet ska få plats.
+Generaldirektören äger portföljen. I den står lösningarnas ramar för ändring bredvid initiativen, så att generaldirektören kan väga dem mot varandra. Föreningsregistret kostar 3 miljoner kronor per år. Av dem är 2,5 miljoner drift och support. Det är produktion hos IT och betalas ur produktionens ram. Resten, 0,5 miljoner, är rättningar. Det är registerlösningens ram för ändring, och portföljen fördelar den. Verksamhetsplanen bär båda ramarna. Automatisk beräkning kostar 2 miljoner kronor en gång och ska spara en timme per ärende. Generaldirektören sätter båda ramarna. Hen kan sänka supporten för registret för att initiativet ska få plats.
 
 Initiativet automatisk beräkning har fått 2 miljoner kronor och två utvecklare på halvtid. Det är dess ram. Att det ska vara klart före nästa ansökningsomgång är ett krav. Att handläggningstiden ska sjunka med en timme per ärende är ett effektmål. Att registret kanske inte har alla lokalavdelningar är en risk. Initiativet drivs som projekt. Generaldirektören har utsett en beställare, som är initiativets ägare och beslutar om arbetet. I styrgruppen sitter ägarna till de två lösningar som ändras. Styrgruppen ger råd men beslutar inte. Ägaren till lösningen som realiserar Beräkningstjänsten ställer kraven på vad tjänsten ska kunna. Kräver hen att tjänsten också hämtar kontonummer, och det inte ryms i ramen, avgör generaldirektören: mer pengar eller ett lägre krav. Chefen för Bidragsenheten svarar för att handläggningstiden faktiskt sjunker, för effekten uppstår i hens lösning när initiativet är slut.
 
@@ -97,6 +97,18 @@ HR och IT är stödverksamhet. Generaldirektören har i arbetsordningen gett HR 
 
 Register- och tillsynsenheten registrerar nya företrädare varje dag. Det är produktion i registerlösningen, som också lämnar leveransprodukten Föreningsregistret. Det är en lösning, inte två. Analysenheten lämnar Riskindikator per förening till tillsynen, som väljer stickprov med den. Det är också en leveransprodukt.
 
+## Livskraft
+
+Bidragsgivningen klarar sin vardag själv. Chefen för Bidragsenheten håller både utformningen och produktionen och båda slagen av ram. Hen väger själv i dag mot i morgon: två handläggare till, eller nya mallar. Generaldirektören väger för hela myndigheten, till exempel support för Föreningsregistret mot automatisk beräkning. Balansen finns alltså på båda nivåerna.
+
+Enheterna samordnar sig på två sätt. Bidragsenheten och Register- och tillsynsenheten har kommit överens om att registret inte ändras under ansökningsomgången. Ingen av cheferna beslutar över den andra. Ekonomichefen har fastställt regeln att alla enheter lämnar månadsbokslut den femte. Den regeln har mandat bakom sig och får enheterna att gå i takt. Regeln om personalbudgeten gör något annat. Den håller varje enhet mot myndighetens ram.
+
+Generaldirektören följer handläggningen på två vägar. Chefen för Bidragsenheten rapporterar varje månad hur många ansökningar som är äldre än tre månader. Det är uppföljning. En gång om året låter generaldirektören en granskare läsa tjugo ärenden direkt. Det är granskning, och den visar sådant som rapporten inte visar. Tillsynen över föreningarnas bidrag är något tredje: den är myndighetens eget arbete, alltså produktion.
+
+Analysenheten följer föreningslivets utveckling åt regeringen. Samma kunskap är myndighetens blick utåt och framåt. Bedömningen att föreningarna blir färre går till generaldirektören och blir underlag för strategin och målarkitekturen.
+
+Skulle generaldirektören behålla beslutet om varje anställning vore det vald centralisering. Med fyra enheter och 120 anställda hinner hen kanske med. Fyndet uppstår den dag anställningarna blir liggande.
+
 ## Vem den finns för
 
 Målgruppen är ideella föreningar och de människor som företräder dem, oftast ideellt och vid sidan av ett arbete. Deras behov är att få stöd till verksamheten utan att administrationen äter upp den. Resan de går igenom är att starta en förening, få den att växa och hålla den vid liv över åren. Myndigheten är en av flera parter i den, med Skatteverket, kommunen och banken. Värdeerbjudandet är ett bidrag som går att söka på en kväll och som betalas ut i tid.
@@ -110,6 +122,7 @@ Myndigheten står för förvaltningens mekanik. Hämta härifrån exempel på:
 - verksamhetsdomän (C-008) med utformning och produktion, lösningens ram och produktionens ram
 - produktionsstyrning (C-215) i en domän där samma chef håller utformningen och produktionen
 - inre uppdrag (C-149), stödverksamhet och leveransprodukt (C-174) från HR och IT
+- livskraft (C-216) i en domän som klarar provet, samordning (C-217) med och utan mandat, och granskning (C-218) bredvid uppföljning
 - aspektbaserad styrning (C-006), aspekt (C-004) och arbetssätt (C-196)
 - verksamhetsförmåga (C-069), verksamhetsprocess (C-130) och handläggning (C-160)
 - ärendebeslut (C-181) och beslutslogik (C-178)

@@ -38,10 +38,12 @@ Ansvaret kan inte bäras utan medel, för ingen kan svara för ett utfall den in
 
 Saknas något av dem har rollen befogenheten men kan inte bära ansvaret. Beslut 36.
 
+Ett ansvar är komplett när ägaren håller allt som måste vägas mot vartannat för att nå utfallet. Hålls två sådana saker av olika ägare kan ingen av dem väga. Då avgör den närmaste ägare som håller båda. Varje ofullständigt ansvar flyttar på så sätt beslut uppåt. Blir de många styrs verksamheten centralt utan att någon har valt det, se Centralisering ([[C-220 Centralisering]]). Ägaren högst upp hinner inte möta alla lägen, se Komplexitet ([[C-219 Komplexitet]]). Därför ska snittet mellan två ansvar gå där kopplingen ([[C-211 Koppling]]) är lös. Beslut 49.
+
 ## Motsvarigheter
 
 Att en roll har befogenheten men inte kan bära ansvaret är vad som händer i pm3:s objektstyrning ([[C-048 Objektstyrning]]): objektägaren från verksamheten svarar för lösningen, IT håller ramen och forumet beslutar. Beslut 36.
 
 ## Exempel
 
-Lösningsägaren för Felanmälan svarar för att utformningen klarar att en felanmälan är åtgärdad inom fem arbetsdagar, och beslutar om processen, informationen och fastighetssystemets modul tillsammans. Hen beslutar inte om bovärdarnas bemanning och kan därför inte ensam svara för målet (beslut 48). Generaldirektören svarar för myndighetens uppdrag inför regeringen.
+Lösningsägaren för Felanmälan svarar för att utformningen klarar att en felanmälan är åtgärdad inom fem arbetsdagar, och beslutar om processen, informationen och fastighetssystemets modul tillsammans. Hen beslutar inte om bovärdarnas bemanning och kan därför inte ensam svara för målet (beslut 48). Ansvaret är ofullständigt, och varje avvägning mellan fler bovärdar och en ändrad process går till vd (beslut 49). Generaldirektören svarar för myndighetens uppdrag inför regeringen.

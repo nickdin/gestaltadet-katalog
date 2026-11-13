@@ -5,6 +5,7 @@ base_address: https://gestaltadet.se/katalog
 nesting_relation_type: aggregates
 documents:
   - docs/adr
+  - docs/lagar.md
 drawings:
   - layout/Styrning
   - layout/Arkitektur

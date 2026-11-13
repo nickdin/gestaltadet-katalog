@@ -2,6 +2,8 @@
 
 Beslutat av Nicklas 4 november 2026, efter ett samtal om vad effektiv styrning är och om pm3:s objektstyrning är ett effektivt sätt att styra. Beslutet avgör vad ett effektivt snitt av lösningar är, om ansvar och mandat är två begrepp, och vad som måste finnas för att ett mandat ska vara reellt.
 
+Beslut 49 ändrar en punkt här: Koppling (`C-211`) har fått en vidare definition och råder också mellan styrobjekt och mellan det två ägare håller.
+
 ## Sammanhang
 
 Samtalet började i frågan vad effektiv styrning är och om objektstyrning (`C-048`), pm3:s förvaltningsobjekt, är ett effektivt sätt att styra. Nicklas erfarenhet: objektet sammanfaller sällan med en lösning som har en ägare, och därför fungerar det sällan. Med katalogens ord brister objektstyrningen på tre sätt. Målet landar på objektet i stället för på förmågan, fast beslut 20 sätter målet på förmågan och ramen på lösningen. Mandatet är delat mellan en objektägare från verksamheten och en från IT, fast styrning (`C-002`) förutsätter mandat. Och återkopplingen är ett år lång.

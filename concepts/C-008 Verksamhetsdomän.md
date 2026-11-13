@@ -37,6 +37,8 @@ Inom domänens ram finns två slags ram: lösningarnas, för att ändra utformni
 
 En domän med en del av organisationens uppdrag ([[C-149 Uppdrag]]) är kärnverksamhet. En domän med ett inre uppdrag från ledningen är stödverksamhet: den lämnar det de andra behöver för att producera ([[C-174 Leveransprodukt]]). IT är stödverksamhet på samma sätt som HR. Beslut 47.
 
+Livskraften ([[C-216 Livskraft]]) prövas på varje domän, också en domän inuti en annan. Provet står i Livskraft. Domäner bredvid varandra samordnar sig ([[C-217 Samordning]]) genom en överenskommelse eller en gemensam regel. Beslut 49.
+
 ## Exempel
 
 Bidragsgivningen hos Myndigheten för föreningsstöd, som chefen för Bidragsenheten äger. Utformningen är lösningen Ansökningshandläggningen. Produktionen är årets 4 000 ansökningar och handläggarna som prövar dem. HR är en annan domän: utformningen är lösningen för rekrytering, och produktionen är varje rekrytering.

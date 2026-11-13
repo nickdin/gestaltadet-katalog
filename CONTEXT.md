@@ -130,6 +130,50 @@ En domän med ett inre uppdrag från ledningen att stödja de andra. IT är stö
 **Affär**:
 Ett företags uppdrag utifrån. Ordet används aldrig om ett inre uppdrag.
 
+### Livskraft
+
+Ord ur Stafford Beers modell för livskraftiga system, *Viable System Model*, och ord katalogen använder när den prövar en domäns livskraft. Bara de med id är begrepp i katalogen (beslut 49).
+
+**Livskraft (C-216)**:
+Förmågan att klara uppdraget i dag och att ändra sig i tid. Prövas på verksamheten och på varje verksamhetsdomän, aldrig på en lösning.
+_Undvik_: *viability* som eget ord
+
+**Anpassningsbarhet**:
+Livskraftens ena halva: att ändra sig i tid när omvärlden ändras. Inget eget begrepp.
+
+**System 1**:
+Beers ord för det som gör arbetet: de domäner som bär en del av det yttre uppdraget. Stödverksamheten hör inte hit.
+
+**System 2**:
+Beers ord för Samordning (C-217).
+
+**System 3**:
+Beers ord för styrningen här och nu: ägaren till det omslutande sätter ram och mål och följer utfallet. System 3\* är Granskning (C-218).
+
+**System 4**:
+Beers ord för blicken utåt och framåt: påverkan bedöms och blir strategi och målarkitektur. Ett arbete, ingen roll.
+
+**System 5**:
+Beers ord för identiteten: ägaren med uppdrag, ändamål och principer. Ägaren håller också balansen mellan i dag och i morgon.
+
+***Variety***:
+Beers ord för Komplexitet (C-219).
+
+**Dämpare**, **förstärkare**:
+Beers två sätt att möta komplexiteten. En dämpare minskar antalet lägen som kräver beslut: en regel, en princip, ett löst snitt. En förstärkare ökar förmågan att svara: delegation, bemanning, verktyg. Förklaras i Komplexitet (C-219).
+
+**Decentralisering**:
+Den andra änden av skalan i Centralisering (C-220). Inget eget begrepp.
+
+**Uppföljning**:
+Bedömningen av utfallet som går genom linjen: den som svarar för förekomsterna rapporterar. Inget eget begrepp. Förklaras i Granskning (C-218).
+
+**Balans**:
+Två avvägningar, inget eget begrepp. I dag mot i morgon: produktionens ram mot ramen för ändring. Domänens frihet mot helhetens sammanhållning: graden i Centralisering (C-220).
+
+**Larmväg**:
+Vägen en akut fara tar rakt upp till ledningen, förbi rapporterna. Nämns i Livskraft (C-216).
+
 ### Katalogens begrepp bakom interlinguas ord
 
 Katalogens egna termer (svenska, `C-nnn`) är auktoriteten. De engelska orden nedan är de namn interlinguas kod och dokumentation använder för dem.

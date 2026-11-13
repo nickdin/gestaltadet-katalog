@@ -27,6 +27,8 @@ Portföljen väger det som ändrar utformningen: lösningarnas ramar för ändri
 
 Två saker står inte i portföljen. Den ena är ett initiativ som en lösningsägare betalar ur lösningens egen ram. Den andra är produktionen. Vad verksamhetsprodukterna ([[C-173 Verksamhetsprodukt]]) får kosta, och vad drift och support av leveransprodukterna ([[C-174 Leveransprodukt]]) får kosta, väger ledningen mot annat när den sätter verksamhetens ramar, till exempel i verksamhetsplanen. Portföljen är inte hela organisationens budget. Beslut 46 och 47.
 
+Den som sätter både produktionens ram och ramen för ändring håller balansen mellan i dag och i morgon. Portföljen fördelar den ena ramen. Verksamhetsplanen är en bärare ([[C-016 Bärare]]) och rymmer båda. Balansen hör till det livskraften ([[C-216 Livskraft]]) kräver. Beslut 49.
+
 ## Motsvarigheter
 
 ArchiMate har inget portföljelement, så typen står under `unmapped-concepts` i mappningstabellerna, som initiativet.

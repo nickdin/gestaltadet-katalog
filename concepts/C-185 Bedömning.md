@@ -28,6 +28,8 @@ Bedömningen är någons vid en tidpunkt. Den står i en bärare ([[C-016 Bärar
 
 Bedömningen av utfallet mot målet ([[C-017 Mål]]) sluter styrningens krets: den leder till styrbeslut ([[C-019 Styrbeslut]]), och genom den prövas ansvaret ([[C-209 Ansvar]]) för styrobjektet. Beslut 36.
 
+Bedömningen av utfallet når ägaren på två vägar. Uppföljningen går genom linjen: den som svarar för förekomsterna rapporterar. Granskningen ([[C-218 Granskning]]) prövar förekomsterna direkt, förbi linjen. Beslut 49.
+
 ## Motsvarigheter
 
 Motsvarar Assessment i Business Motivation Model och i ArchiMates motivationsmodell (beslut 25).
