@@ -1,5 +1,7 @@
 # Styrobjektet tjänar ändamålet, kravet ärver sitt ursprung från regeln, principen anger sina konsekvenser, och ritningarna får visa ärvda relationer
 
+*Meningen att Arkitekturbeskrivning (`C-035`) följer metamodellen genom Arkitekturvy (`C-052`) gäller inte längre. Beskrivningen följer metamodellen själv (beslut 42).*
+
 Beslutat av Nicklas 9 november 2026, när ritningarna på sajten jämfördes med katalogen. Ritningarna hade pilar som katalogen saknade, och ett schema som katalogen sedan dess säger emot.
 
 ## Sammanhang

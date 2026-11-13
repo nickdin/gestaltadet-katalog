@@ -1,5 +1,7 @@
 # Värde är en elementtyp i strategiperspektivet, dit värdeerbjudandet flyttar, arbetssätt är ett begrepp, svaret heter hjälp, och VDML tas in med räkneverket omappat
 
+*Meningen att valet av arbetssätt är det Metodstyrning (`C-051`) handlar om gäller inte längre. Beslut 41 tog bort begreppet: den som har mandatet över styrobjektet väljer arbetssättet.*
+
 *Raden under Det som flödar att DeliverableFlow är flödar till gäller inte längre: beslut 33 flyttade den till har åtkomst till (`C-101`).*
 
 Beslutat av Nicklas 1 november 2026, när katalogen ställdes mot Value Delivery Modeling Language (VDML) 1.1. Det var den andra av de tre standarder som beslut 26 tog in. Beslutet avgör hur katalogen förhåller sig till VDML, byggsten för byggsten, och vad katalogen saknade som VDML visade.

@@ -1,5 +1,7 @@
 # Förvaltningsobjektet är en lösning som realiserar en förmåga; verksamhetsprodukt och leveransprodukt är begrepp under produkt
 
+*Ledet att portföljen finansierar leveransprodukterna gäller inte längre för drift och support. De är produktion och betalas ur produktionens ram. Portföljen väger lösningens ram för ändring (beslut 47).*
+
 Beslutat av Nicklas 29 oktober 2026, när en avdelnings verksamhetsuppföljning använde ordet verksamhetsprodukt, som katalogen saknade. Samtidigt hade frågan länge stått öppen om ett förvaltningsobjekt är en produkt.
 
 ## Sammanhang
