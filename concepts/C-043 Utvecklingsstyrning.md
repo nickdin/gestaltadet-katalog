@@ -17,7 +17,7 @@ associative:
 
 ## Anmärkning
 
-Utvecklingsstyrningen styr en verksamhetsdomän ([[C-008 Verksamhetsdomän]]) och ser den från utformningen: vilka lösningar ([[C-055 Lösning]]) domänen har och hur de ändras. Portföljen ([[C-011 Portfölj]]) och initiativen ([[C-012 Initiativ]]) är dess verktyg. Ordet utvecklingsdomän betyder domänen sedd så, inte en egen sorts domän. Styrningen av domänens produktion, alltså ärendena, bemanningen och produktionens ram, har inget eget begrepp i katalogen. Beslut 47.
+Utvecklingsstyrningen styr en verksamhetsdomän ([[C-008 Verksamhetsdomän]]) och ser den från utformningen: vilka lösningar ([[C-055 Lösning]]) domänen har och hur de ändras. Portföljen ([[C-011 Portfölj]]) och initiativen ([[C-012 Initiativ]]) är dess verktyg. Ordet utvecklingsdomän betyder domänen sedd så, inte en egen sorts domän. Styrningen av domänens produktion är produktionsstyrning ([[C-215 Produktionsstyrning]]). De två är samma styrning med samma ägare, sedd från två håll. Ett mål för produktionens tid, kostnad eller kvalitet sätts på domänen, och ägaren når det genom att ändra utformningen, bemanningen eller båda. Beslut 47 och 48.
 
 ## Exempel
 

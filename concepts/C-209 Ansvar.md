@@ -44,4 +44,4 @@ Att en roll har befogenheten men inte kan bära ansvaret är vad som händer i p
 
 ## Exempel
 
-Lösningsägaren för Felanmälan svarar för att en felanmälan är åtgärdad inom fem arbetsdagar och beslutar om processen, informationen och fastighetssystemets modul tillsammans. Generaldirektören svarar för myndighetens uppdrag inför regeringen.
+Lösningsägaren för Felanmälan svarar för att utformningen klarar att en felanmälan är åtgärdad inom fem arbetsdagar, och beslutar om processen, informationen och fastighetssystemets modul tillsammans. Hen beslutar inte om bovärdarnas bemanning och kan därför inte ensam svara för målet (beslut 48). Generaldirektören svarar för myndighetens uppdrag inför regeringen.

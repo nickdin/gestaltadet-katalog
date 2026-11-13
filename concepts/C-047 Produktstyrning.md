@@ -23,6 +23,8 @@ Produktstyrningen styr en lösning ([[C-055 Lösning]]) och ser den från det l�
 
 Produktstyrning och objektstyrning är samma styrning med samma ägare. Objektstyrningen ser den från det som förvaltas, produktstyrningen från det som erbjuds. Beslut 46.
 
+Produktstyrning är inte produktionsstyrning ([[C-215 Produktionsstyrning]]). Produktionsstyrningen styr en verksamhetsdomän och ser den från dess produktion. Beslut 48.
+
 ## Exempel
 
 Registerlösningens ägare beslutar att supporten för Föreningsregistret stänger på fredagar. Beslutet gäller vad produkten lovar, och det är lösningens ägare som fattar det. Supporten själv är produktion, och linjechefen svarar för varje supportärende.

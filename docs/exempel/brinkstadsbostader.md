@@ -68,7 +68,9 @@ Det mesta bor i ett **fastighetssystem**, en standardprodukt som leverantören d
 - **Energiuppföljning**: mätvärden från husen, förbrukning per byggnad och lägenhet, avvikelselarm.
 - **Mina sidor och appen**: hyresgästens ingång till felanmälan, avtal, förbrukning och tvättstugebokning, byggd på samma system.
 
-Felanmälan är en lösning: processen Åtgärda en felanmälan, bovärdarna, informationsobjekten Felanmälan och Arbetsorder och modulen Teknisk förvaltning tillsammans. Teknisk chef är dess lösningsägare, håller årsramen och svarar för målet att en felanmälan är åtgärdad inom fem arbetsdagar. Leverantören som driftar systemet är inte dess ägare.
+Felanmälan är en lösning: processen Åtgärda en felanmälan, bovärdarna, informationsobjekten Felanmälan och Arbetsorder och modulen Teknisk förvaltning tillsammans. Teknisk chef är dess lösningsägare, håller årsramen och svarar för att utformningen klarar målet att en felanmälan är åtgärdad inom fem arbetsdagar. Leverantören som driftar systemet är inte dess ägare.
+
+Här finns ett fynd. Felanmälan hör hemma hos teknisk chef, men bovärdarna arbetar på tre områdeskontor som ligger bredvid den tekniska avdelningen, inte under den. Teknisk chef beslutar om processen och systemet, men inte om hur många bovärdar som arbetar. Varje kontorschef beslutar om sina bovärdar, men inte om processen. Styrelsen har satt målet fem arbetsdagar, och ingen under vd håller båda halvorna. Tar åtgärderna åtta dagar kan teknisk chef peka på bemanningen och kontorscheferna på processen, och båda kan ha rätt. Bara vd kan väga fler bovärdar mot en ändrad process. Det är inte ett effektivt sätt att styra. Två vägar finns ur fyndet: områdeskontoren läggs under den som äger Felanmälan, eller så flyttas processen till den som har bovärdarna.
 
 Hyra är en annan lösning, uthyrningschefens. De två delar fastighetssystemet, som är en egen lösning eftersom flera använder det. Men modulerna delar grunddata och release: en ändring i den ena tvingar fram en ändring i den andra. Kopplingen är tät och går inte att lösa, eftersom systemet är en standardprodukt. Teknisk chef bär den som en bedömning på lösningen: varje release av fastighetssystemet är en påverkan som Felanmälan måste svara på.
 
@@ -94,7 +96,8 @@ Bolaget står för det fysiska, kunden och tekniken. Hämta härifrån exempel p
 - applikation (C-071) med fastighetssystemet och applikationsfunktion (C-133) med dess moduler
 - verksamhetstjänst köpt utifrån (C-127, C-155 är leverantör till) med störningsjouren
 - verksamhetsprocess (C-130) med Åtgärda en felanmälan, processägare (C-206) med teknisk chef för den och linjechef (C-207) med områdeskontorets chef som utför den
-- lösning (C-055) med Felanmälan och dess lösningsägare, som håller ramen (C-210) och svarar för utfallet (C-209)
+- lösning (C-055) med Felanmälan och dess lösningsägare, som håller ramen (C-210) och svarar för att utformningen klarar målet (C-209)
+- produktionsstyrning (C-215) hos varje områdeskontor, och fyndet att lösningen och produktionen ligger i var sin domän
 - tät koppling (C-211) genom fastighetssystemets delade release
 - handläggning (C-160) med Avhysa vid obetald hyra
 - produkt (C-014) som går uppåt med årsredovisningen till styrelsen, och resultat som saknar produkt med uppsägningen

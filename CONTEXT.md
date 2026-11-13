@@ -113,7 +113,7 @@ Ord som inte är begrepp i katalogen. De förklaras i Verksamhetsdomän (C-008) 
 Det en lösning innehåller: beteendet som typ, rollerna, informationens struktur och tekniken. Lösningsägaren svarar för den.
 
 **Produktion**:
-De enskilda ärendena och de resurser som utför dem. Allt utförande är produktion, också drift, support och rekrytering. Linjechefen svarar för den.
+De enskilda ärendena och de resurser som utför dem. Allt utförande är produktion, också drift, support och rekrytering. Linjechefen svarar för den. Styrningen av den är Produktionsstyrning (C-215) (beslut 48).
 
 **Utveckling**:
 Att ändra utformningen. Rättningar hör hit, fast de görs löpande.

@@ -2,6 +2,8 @@
 
 Beslutat av Nicklas 13 november 2026, när beslut 46 hade lagt lösningarna i två sorters domän efter produktslag och registerlösningen inte passade i någon av dem.
 
+Beslut 48 ändrar en punkt här: när en domän utför beteende ur en lösning som hör hemma i en annan är det ett fynd, om inte en omslutande domän under ledningen rymmer båda.
+
 ## Sammanhang
 
 Katalogen hade två sorters verksamhetsdomän. Utvecklingsdomän (`C-009`) var en "verksamhetsdomän som utvecklar och vidmakthåller verksamhetens lösningar". Produktionsdomän (`C-010`) var en "verksamhetsdomän som utför verksamhetens löpande produktion". Ingen av dem hade anmärkning eller exempel som sade var gränsen går.

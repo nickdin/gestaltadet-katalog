@@ -87,7 +87,9 @@ Chefen har två roller och två ramar. Som lösningsägare svarar hen för utfor
 
 En förening som har fått bifall men inga pengar vänder sig till samma chef. Glömde handläggaren att skicka utbetalningen svarar chefen som linjechef. Saknar handläggningen ett steg som fångar felet svarar chefen som lösningsägare.
 
-Chefen kan själv väga två handläggare till mot en ändring av mallarna, inom domänens ram. Automatisk beräkning ryms inte där. Den vägningen gör generaldirektören.
+Styrningen av produktionen är produktionsstyrning. Generaldirektören sätter Bidragsenhetens personalbudget i verksamhetsplanen. Chefen beslutar att fyra handläggare tar verksamhetsbidragen och två projektbidragen, och följer varje månad hur många ansökningar som är äldre än tre månader. Att lägga en enskild ansökan på en handläggare är däremot ett steg i handläggningen.
+
+Målet om fyra månader hör till domänen, och chefen håller både utformningen och produktionen. Chefen kan själv väga två handläggare till mot en ändring av mallarna, inom domänens ram. Automatisk beräkning ryms inte där. Den vägningen gör generaldirektören.
 
 Tre ärenden samma tisdag visar att allt utförande är produktion. En handläggare beslutar om en ansökan. HR anställer en ny handläggare åt Bidragsenheten. En tekniker på IT hjälper en handläggare in i Föreningsregistret. Dagen efter rättar samma tekniker hur registret räknar lokalavdelningar. Det är ingen produktion. Rättningen ändrar utformningen, och registerlösningens ägare beslutar om den.
 
@@ -106,6 +108,7 @@ Myndigheten står för förvaltningens mekanik. Hämta härifrån exempel på:
 - uppdrag (C-149), verksamhetsmål (C-169), portfölj (C-011) och initiativ (C-012), med portföljens och initiativets ägare
 - vidmakthållande, vidareutveckling och ett initiativ inom lösningens egen ram
 - verksamhetsdomän (C-008) med utformning och produktion, lösningens ram och produktionens ram
+- produktionsstyrning (C-215) i en domän där samma chef håller utformningen och produktionen
 - inre uppdrag (C-149), stödverksamhet och leveransprodukt (C-174) från HR och IT
 - aspektbaserad styrning (C-006), aspekt (C-004) och arbetssätt (C-196)
 - verksamhetsförmåga (C-069), verksamhetsprocess (C-130) och handläggning (C-160)

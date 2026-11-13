@@ -17,4 +17,4 @@ associative:
 
 ## Exempel
 
-verksamhetsstyrning, utvecklingsstyrning, portföljstyrning, initiativstyrning, produktstyrning.
+verksamhetsstyrning, utvecklingsstyrning, produktionsstyrning, portföljstyrning, initiativstyrning, produktstyrning.
