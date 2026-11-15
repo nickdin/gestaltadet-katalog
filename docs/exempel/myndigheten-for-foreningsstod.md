@@ -97,6 +97,19 @@ HR och IT är stödverksamhet. Generaldirektören har i arbetsordningen gett HR 
 
 Register- och tillsynsenheten registrerar nya företrädare varje dag och sköter registervården. Det är produktionen som utför registerlösningens beteende, och den ligger i samma domän som lösningen. Supporten hos IT är IT:s egen produktion av IT:s egen leveransprodukt. Här finns alltså inget fynd. Registerlösningen lämnar också leveransprodukten Föreningsregistret. Det är en lösning, inte två. Analysenheten lämnar Riskindikator per förening till tillsynen, som väljer stickprov med den. Det är också en leveransprodukt.
 
+## Organisation och domäner
+
+Myndigheten har fyra enheter under generaldirektören: Bidragsenheten, Register- och tillsynsenheten, Analysenheten och Verksamhetsstöd. Domänerna följer inte enheterna helt. En domän uppstår där någon har fått ett uppdrag med egen ram, och det har inte varje enhet. Fem domäner ligger direkt under generaldirektören:
+
+- **Bidragsgivning.** Chefen för Bidragsenheten äger den.
+- **Registerföring och tillsyn.** Chefen för Register- och tillsynsenheten äger den. Den rymmer två av regeringens uppdrag.
+- **Uppföljning.** Chefen för Analysenheten äger den. Produktionen är årets rapport till regeringen, varje beräkning av Riskindikator per förening och analytikerna som gör dem.
+- **IT** och **HR.** IT-chefen och HR-chefen äger var sin. Uppdragen är inre och kommer direkt från generaldirektören.
+
+Tillsyn är en domän inuti Registerföring och tillsyn. Chefen för enheten har lämnat tillsynen till en gruppchef med egen ram. Gruppchefen väljer själv att lägga årets pengar på fler stickprov i stället för en ny granskningsmall. Chefen för enheten omsluter både registret och tillsynen och kan väga dem mot varandra. Här skiljer sig domänerna från enheterna, och det är inget fynd.
+
+Verksamhetsstöd är en enhet men ingen domän. IT, HR, ekonomi, juridik och kommunikation sitter där, men ingen chef håller en ram för hela enheten. Här finns ett fynd. Vill IT ha en tekniker till för supporten av Ärendesystemet och HR en rekryterare till, kan ingen under generaldirektören väga dem mot varandra. Varje sådan avvägning går till generaldirektören. Hen har valt den ordningen. Avvägningarna kommer några gånger om året, och dem hinner hen med. Ekonomi, juridik och kommunikation är grupper i enheten utan egen domän. Ekonomichefens rätt att fastställa regler för hela myndigheten är styrning av en aspekt och kräver ingen domän.
+
 ## Livskraft
 
 Bidragsgivningen klarar sin vardag själv. Chefen för Bidragsenheten håller både utformningen och produktionen och båda slagen av ram. Hen väger själv i dag mot i morgon: två handläggare till, eller nya mallar. Generaldirektören väger för hela myndigheten, till exempel support för Föreningsregistret mot automatisk beräkning. Balansen finns alltså på båda nivåerna.
@@ -120,6 +133,7 @@ Myndigheten står för förvaltningens mekanik. Hämta härifrån exempel på:
 - uppdrag (C-149), verksamhetsmål (C-169), portfölj (C-011) och initiativ (C-012), med portföljens och initiativets ägare
 - vidmakthållande, vidareutveckling och ett initiativ inom lösningens egen ram
 - verksamhetsdomän (C-008) med utformning och produktion, lösningens ram och produktionens ram
+- en domän inuti en annan med Tillsyn, och en enhet som inte är en domän med Verksamhetsstöd
 - produktionsstyrning (C-215) i en domän där samma chef håller utformningen och produktionen
 - inre uppdrag (C-149), stödverksamhet och leveransprodukt (C-174) från HR och IT
 - livskraft (C-216) i en domän som klarar provet, samordning (C-217) med och utan mandat, och granskning (C-218) bredvid uppföljning

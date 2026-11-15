@@ -76,6 +76,19 @@ Hyra är en annan lösning, uthyrningschefens. De två delar fastighetssystemet,
 
 Vid sidan av det finns två system till. **Ekonomisystemet** används för bokföring, leverantörsfakturor och bokslut, och Hyra skickar sina verifikationer dit. **Styr- och övervakningssystemet** läser och styr värme, ventilation, hissar och passersystem. Det körs lokalt i varje undercentral och samlas i bolagets driftcentral. Husen har utrustning: undercentraler, ventilationsaggregat, hissar, passerläsare och el- och vattenmätare, kopplade till driftcentralen över ett eget nät. Tre tjänster köper bolaget utifrån: störningsjouren, inkassotjänsten och nyckelhanteringen för entreprenörer.
 
+## Organisation och domäner
+
+Åtta domäner ligger direkt under vd:
+
+- **Teknik.** Teknisk chef äger den. Den rymmer underhåll, nyproduktion och lösningen Felanmälan.
+- **Uthyrning.** Uthyrningschefen äger den. Den rymmer lösningen Hyra. Kundcenter är en grupp i domänen, med egen chef men utan egen domän.
+- **Tre områdeskontor.** Varje kontor är en domän med egen kontorschef, egna bovärdar och egen ram. Kontorscheferna lyder direkt under vd. Kontoren har ingen egen lösning.
+- **Ekonomi**, **IT** och **Kommunikation.** De är stödverksamhet på huvudkontoret.
+
+Fyndet i Felanmälan syns i indelningen. Kranen droppar hos en hyresgäst i Åbrinken. Kundcenter tar emot anmälan, och kundcenter ligger i Uthyrning. Bovärden på områdeskontoret lagar kranen. Processen äger teknisk chef. Tar det åtta dagar finns fyra chefer att fråga: teknisk chef, uthyrningschefen, chefen för kundcenter och kontorschefen. Bara vd håller alla fyra.
+
+Attesträtten är däremot inget fynd. Kontorschefen godkänner underhållskostnader upp till 100 000 kronor utan att fråga teknisk chef. Det är beslutanderätt inom en ram som styrelsen redan har satt, och ingen avvägning blir liggande.
+
 ## Livskraft
 
 Bolaget har 6 000 lägenheter, tre områdeskontor och felanmälningar av många slag. Det är dess komplexitet: fler lägen än en vd hinner möta. Bolaget möter den på två sätt. Principen Akuta fel före planerat underhåll är en dämpare, för bovärdarna behöver inte fråga vad som går först. Attesträtten upp till 100 000 kronor är en förstärkare, för kontorschefen får besluta själv. Fyndet i Felanmälan drar åt andra hållet. Varje avvägning mellan bovärdar och process går till vd, och de avvägningarna uppstår på tre kontor varje vecka.
@@ -112,6 +125,7 @@ Bolaget står för det fysiska, kunden och tekniken. Hämta härifrån exempel p
 - verksamhetsprocess (C-130) med Åtgärda en felanmälan, processägare (C-206) med teknisk chef för den och linjechef (C-207) med områdeskontorets chef som utför den
 - lösning (C-055) med Felanmälan och dess lösningsägare, som håller ramen (C-210) och svarar för att utformningen klarar målet (C-209)
 - produktionsstyrning (C-215) hos varje områdeskontor, och fyndet att lösningen och produktionen ligger i var sin domän
+- verksamhetsdomän (C-008) som inte följer organisationen, med ett fynd i Felanmälan och attesträtten som inte är ett fynd
 - tät koppling (C-211) genom fastighetssystemets delade release
 - handläggning (C-160) med Avhysa vid obetald hyra
 - produkt (C-014) som går uppåt med årsredovisningen till styrelsen, och resultat som saknar produkt med uppsägningen
