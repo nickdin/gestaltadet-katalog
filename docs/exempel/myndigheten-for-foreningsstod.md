@@ -108,7 +108,7 @@ Myndigheten har fyra enheter under generaldirektören: Bidragsenheten, Register-
 
 Tillsyn är en domän inuti Registerföring och tillsyn. Chefen för enheten har lämnat tillsynen till en gruppchef med egen ram. Gruppchefen väljer själv att lägga årets pengar på fler stickprov i stället för en ny granskningsmall. Chefen för enheten omsluter både registret och tillsynen och kan väga dem mot varandra. Här skiljer sig domänerna från enheterna, och det är inget fynd.
 
-Verksamhetsstöd är en enhet men ingen domän. IT, HR, ekonomi, juridik och kommunikation sitter där, men ingen chef håller en ram för hela enheten. Här finns ett fynd. Vill IT ha en tekniker till för supporten av Ärendesystemet och HR en rekryterare till, kan ingen under generaldirektören väga dem mot varandra. Varje sådan avvägning går till generaldirektören. Hen har valt den ordningen. Avvägningarna kommer några gånger om året, och dem hinner hen med. Ekonomi, juridik och kommunikation är grupper i enheten utan egen domän. Ekonomichefens rätt att fastställa regler för hela myndigheten är styrning av en aspekt och kräver ingen domän.
+Verksamhetsstöd är en enhet men ingen domän. IT, HR, ekonomi, juridik och kommunikation sitter där. Enheten har ingen chef. IT-chefen, HR-chefen och cheferna för ekonomi, juridik och kommunikation rapporterar till generaldirektören. Vill IT ha en tekniker till för supporten av Ärendesystemet och HR en rekryterare till, väger generaldirektören dem mot varandra. Det är rätt plats, för IT och HR är två domäner och ingen under generaldirektören håller båda. Ordningen är alltså inget fynd i sig. Om den håller beror på hur många avvägningar som kommer, och det visar avsnittet Livskraft. Ekonomi, juridik och kommunikation är grupper i enheten utan egen domän. Ekonomichefens rätt att fastställa regler för hela myndigheten är styrning av en aspekt och kräver ingen domän.
 
 ## Livskraft
 
@@ -121,6 +121,16 @@ Generaldirektören följer handläggningen på två vägar. Chefen för Bidragse
 Analysenheten följer föreningslivets utveckling åt regeringen. Samma kunskap är myndighetens blick utåt och framåt. Bedömningen att föreningarna blir färre går till generaldirektören och blir underlag för strategin och målarkitekturen.
 
 Skulle generaldirektören behålla beslutet om varje anställning vore det vald centralisering. Med fyra enheter och 120 anställda hinner hen kanske med. Fyndet uppstår den dag anställningarna blir liggande.
+
+Ordningen i Verksamhetsstöd är en annan centralisering, och den har ingen valt. Den har uppkommit ur snittet: IT-chefen äger IT, HR-chefen äger HR, och bara generaldirektören håller båda. Generaldirektören känner till det och låter ordningen stå. Samma ordning ger tre olika svar på provets sjätte fråga, beroende på hur mycket som kommer in.
+
+Den som har arkitekturansvaret går varje år igenom avvägningarna mellan IT och HR åt generaldirektören. Hen räknar hur många som kom och hur länge de väntade. Genomgången är en bedömning.
+
+- **I dag har myndigheten 120 anställda.** IT och HR kom med fyra avvägningar förra året, och den längsta väntade tre veckor. Generaldirektören hinner. Här finns inget fynd.
+- **Myndigheten växer mot 200 anställda.** Regeringen har gett ett nytt uppdrag. Avvägningarna blir tolv om året och väntar två månader. Teknikern som IT bad om i februari kommer i maj. Generaldirektören hinner inte i tid, och det är ett fynd. Hen beslutar att leva med det och skriver beslutet under genomgången: ordningen står kvar, för en chef över IT och HR kostar 1,2 miljoner kronor om året och väntan kostar mindre. Beslutet säger också att fyndet prövas igen nästa år.
+- **Myndigheten har 300 anställda.** Avvägningarna blir liggande, eller avgörs utan att generaldirektören har satt sig in i dem. Fyndet ska åtgärdas. Generaldirektören tillsätter en chef för Verksamhetsstöd med ram för både IT och HR. Enheten blir då en domän, och chefen väger teknikern mot rekryteraren.
+
+Fyndet prövas igen varje år. Det prövas också genast när något stort ändras utanför. Det nya uppdraget är en påverkan, och den utlöser en ny bedömning utan att vänta på årets genomgång. Fattar generaldirektören inget beslut om fyndet lever ledningen inte med det. Då är det bara olöst.
 
 ## Vem den finns för
 
@@ -137,6 +147,7 @@ Myndigheten står för förvaltningens mekanik. Hämta härifrån exempel på:
 - produktionsstyrning (C-215) i en domän där samma chef håller utformningen och produktionen
 - inre uppdrag (C-149), stödverksamhet och leveransprodukt (C-174) från HR och IT
 - livskraft (C-216) i en domän som klarar provet, samordning (C-217) med och utan mandat, och granskning (C-218) bredvid uppföljning
+- uppkommen centralisering (C-220) som håller, blir ett fynd som ledningen lever med och till sist ska åtgärdas, med Verksamhetsstöd i tre lägen
 - aspektbaserad styrning (C-006), aspekt (C-004) och arbetssätt (C-196)
 - verksamhetsförmåga (C-069), verksamhetsprocess (C-130) och handläggning (C-160)
 - ärendebeslut (C-181) och beslutslogik (C-178)
