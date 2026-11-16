@@ -23,7 +23,7 @@ En domän är livskraftig när den klarar sin vardag utan att fråga uppåt och 
 
 Ett begrepp, ingen egen typ. Livskraften prövas på verksamheten ([[C-007 Verksamhet]]) och på varje verksamhetsdomän ([[C-008 Verksamhetsdomän]]), också en domän inuti en annan. En lösning ([[C-055 Lösning]]) har ingen livskraft för sig. Den innehåller bara utformningen och kan inte göra något arbete själv.
 
-Katalogen är inte neutral här. Den finns till för att styrningen ska bli livskraftig, och den pekar ut det som hindrar livskraften som fynd.
+Katalogen är inte neutral här. Den finns till för att styrningen ska bli livskraftig, och den pekar ut det som hindrar livskraften.
 
 Fem saker måste finnas, på varje nivå:
 
@@ -33,21 +33,23 @@ Fem saker måste finnas, på varje nivå:
 - **Blicken utåt och framåt.** Någon bedömer ([[C-185 Bedömning]]) påverkan ([[C-184 Påverkan]]) utifrån, och bedömningarna blir strategi ([[C-188 Strategi]]) och målarkitektur ([[C-054 Målarkitektur]]). Det är ett arbete och ingen egen roll. Arkitekturansvaret ([[C-117 Arkitekturansvar]]) gör det åt den som har mandatet. Här har arkitekturen sin plats i en livskraftig verksamhet.
 - **Identiteten och balansen.** Ägaren håller uppdraget, ändamålet ([[C-022 Ändamål]]) och principerna ([[C-018 Princip]]). Ägaren väger också i dag mot i morgon: produktionens ram mot ramen för ändring.
 
-Provet ställer sju frågor till en domän. Varje nej är ett fynd.
+Provet ställer sju frågor till en domän. Ett nej säger att något hindrar livskraften.
 
-1. Rymmer domänen både utformningen och produktionen för sitt arbete? Verksamhetsdomän förklarar fyndet.
+1. Rymmer domänen både utformningen och produktionen för sitt arbete? Verksamhetsdomän förklarar ett nej.
 2. Kan domänerna inuti samordna sig, genom en överenskommelse eller en gemensam regel?
 3. Låter ägaren ovanför granska förekomsterna förbi linjen?
 4. Bedömer någon påverkan utifrån åt domänens ägare?
 5. Håller domänens ägare båda slagen av ram, så att hen själv kan väga i dag mot i morgon?
-6. Hinner den som beslutar möta komplexiteten ([[C-219 Komplexitet]])? Centralisering ([[C-220 Centralisering]]) förklarar fyndet.
+6. Hinner den som beslutar möta komplexiteten ([[C-219 Komplexitet]])? Centralisering ([[C-220 Centralisering]]) förklarar ett nej.
 7. Finns en larmväg, så att en akut fara når ledningen utan att vänta på nästa rapport?
 
 Svaret på en fråga är en bedömning ([[C-185 Bedömning]]). Någon gör den vid en tidpunkt, på det som går att räkna. Samma ordning kan ge ja ett år och nej ett annat, för komplexiteten ändras med omvärlden. Beslut 53.
 
-Flera av fynden har samma grund. Två saker som måste vägas mot varandra hålls av olika ägare. Då avgör den närmaste ägare som håller båda, och besluten samlas högre upp. Ansvar ([[C-209 Ansvar]]) förklarar det.
+Ett nej är också en avvikelse ([[C-213 Avvikelse]]) när organisationen har fastställt kravet som princip ([[C-018 Princip]]) och ingen annan princip bär ordningen. En sådan princip väljer mellan sätt att dela in ansvar. Den är en arkitekturprincip ([[C-040 Arkitekturprincip]]), för en beskrivning av indelningen går att pröva mot den. Utan en fastställd princip finns inget styrmedel att avvika från, och nejet är bara bedömningen. Provet fångar inte heller varje hinder. Det som ingen fråga frågar efter bedömer någon ändå, som en svaghet eller en risk ([[C-186 Risk]]). Katalogen har inget eget begrepp för det som provet hittar. Beslut 54.
 
-Balansen ska finnas på varje nivå. Högsta ledningen väger i dag mot i morgon för hela verksamheten, och det är rätt plats. Fyndet är när ledningen är den enda som kan väga, också i det lilla. Det lilla är avvägningar inuti en domän. Mellan två domäner väger alltid ägaren ovanför. Det blir ett fynd först när avvägningarna är fler än hen hinner. Beslut 53.
+Flera av hindren har samma grund. Två saker som måste vägas mot varandra hålls av olika ägare. Då avgör den närmaste ägare som håller båda, och besluten samlas högre upp. Ansvar ([[C-209 Ansvar]]) förklarar det.
+
+Balansen ska finnas på varje nivå. Högsta ledningen väger i dag mot i morgon för hela verksamheten, och det är rätt plats. Hindret är när ledningen är den enda som kan väga, också i det lilla. Det lilla är avvägningar inuti en domän. Mellan två domäner väger alltid ägaren ovanför. Det blir ett hinder först när avvägningarna är fler än hen hinner. Beslut 53.
 
 Begreppet bygger på Stafford Beers modell för livskraftiga system, Viable System Model, ur Brain of the Firm (1972). Beer numrerar de fem sakerna System 1 till 5. Katalogen använder egna ord, och ordlistan säger vilket nummer som är vad. Sidan Lagar katalogen bygger på nämner lagarna bakom. Beslut 49.
 
