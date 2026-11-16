@@ -29,6 +29,8 @@ Ekonomichefen har generaldirektörens mandat att fastställa ekonomiregler för 
 
 Generaldirektören delegerar i arbetsordningen. Chefen för Bidragsenheten har fått handläggningen av ansökningar: hen beslutar om den, håller ramen och svarar för målet om fyra månader. Generaldirektören svarar fortfarande inför regeringen för myndighetens uppdrag. Arbetsordningen säger också att enhetschefen beslutar om stöd upp till ett basbelopp, och att hen får lämna den rätten vidare till en gruppchef för stöd upp till ett halvt basbelopp. Det är beslutanderätt i ärenden och inget mandat.
 
+Arbetsordningen bär också en princip för organisering och ansvarsindelning, Nära före högt. En avvägning mellan två domäner avgörs hellre av en chef som håller båda än av generaldirektören. Principen härleds ur bedömningen att generaldirektörens tid inte räcker när myndigheten växer. Av den följer att ingen avvägning väntar längre än en månad. Generaldirektören har fastställt principen. Den är en arkitekturprincip, för en beskrivning av domänerna går att pröva mot den.
+
 Generaldirektören har fastställt regeln att initiativen i utvecklingsportföljen följer Scrum. Chefen för Bidragsenheten har som lösningsägare valt pm3 för förvaltningen av sin lösning. Handläggarna följer myndighetens handbok för handläggning av stöd.
 
 ## Förmågor
@@ -95,7 +97,7 @@ Tre ärenden samma tisdag visar att allt utförande är produktion. En handlägg
 
 HR och IT är stödverksamhet. Generaldirektören har i arbetsordningen gett HR uppdraget att försörja myndigheten med personal och IT uppdraget att hålla systemen igång. Det är inre uppdrag, till skillnad från de fyra som regeringen ger. HR lämnar leveransprodukten Rekrytering, och den nya handläggaren är resursen. IT lämnar Ärendesystemet med drift och support vardagar 8–17, och det fungerande systemet är resursen. IT-chefen är linjechef för supportärendena. IT lämnar på samma sätt registersystemet med drift och support till registerlösningen.
 
-Register- och tillsynsenheten registrerar nya företrädare varje dag och sköter registervården. Det är produktionen som utför registerlösningens beteende, och den ligger i samma domän som lösningen. Supporten hos IT är IT:s egen produktion av IT:s egen leveransprodukt. Här finns alltså inget fynd. Registerlösningen lämnar också leveransprodukten Föreningsregistret. Det är en lösning, inte två. Analysenheten lämnar Riskindikator per förening till tillsynen, som väljer stickprov med den. Det är också en leveransprodukt.
+Register- och tillsynsenheten registrerar nya företrädare varje dag och sköter registervården. Det är produktionen som utför registerlösningens beteende, och den ligger i samma domän som lösningen. Supporten hos IT är IT:s egen produktion av IT:s egen leveransprodukt. Här ligger alltså lösningen och produktionen i samma domän. Registerlösningen lämnar också leveransprodukten Föreningsregistret. Det är en lösning, inte två. Analysenheten lämnar Riskindikator per förening till tillsynen, som väljer stickprov med den. Det är också en leveransprodukt.
 
 ## Organisation och domäner
 
@@ -106,9 +108,9 @@ Myndigheten har fyra enheter under generaldirektören: Bidragsenheten, Register-
 - **Uppföljning.** Chefen för Analysenheten äger den. Produktionen är årets rapport till regeringen, varje beräkning av Riskindikator per förening och analytikerna som gör dem.
 - **IT** och **HR.** IT-chefen och HR-chefen äger var sin. Uppdragen är inre och kommer direkt från generaldirektören.
 
-Tillsyn är en domän inuti Registerföring och tillsyn. Chefen för enheten har lämnat tillsynen till en gruppchef med egen ram. Gruppchefen väljer själv att lägga årets pengar på fler stickprov i stället för en ny granskningsmall. Chefen för enheten omsluter både registret och tillsynen och kan väga dem mot varandra. Här skiljer sig domänerna från enheterna, och det är inget fynd.
+Tillsyn är en domän inuti Registerföring och tillsyn. Chefen för enheten har lämnat tillsynen till en gruppchef med egen ram. Gruppchefen väljer själv att lägga årets pengar på fler stickprov i stället för en ny granskningsmall. Chefen för enheten omsluter både registret och tillsynen och kan väga dem mot varandra. Här skiljer sig domänerna från enheterna, och ingen avvägning blir utan ägare.
 
-Verksamhetsstöd är en enhet men ingen domän. IT, HR, ekonomi, juridik och kommunikation sitter där. Enheten har ingen chef. IT-chefen, HR-chefen och cheferna för ekonomi, juridik och kommunikation rapporterar till generaldirektören. Vill IT ha en tekniker till för supporten av Ärendesystemet och HR en rekryterare till, väger generaldirektören dem mot varandra. Det är rätt plats, för IT och HR är två domäner och ingen under generaldirektören håller båda. Ordningen är alltså inget fynd i sig. Om den håller beror på hur många avvägningar som kommer, och det visar avsnittet Livskraft. Ekonomi, juridik och kommunikation är grupper i enheten utan egen domän. Ekonomichefens rätt att fastställa regler för hela myndigheten är styrning av en aspekt och kräver ingen domän.
+Verksamhetsstöd är en enhet men ingen domän. IT, HR, ekonomi, juridik och kommunikation sitter där. Enheten har ingen chef. IT-chefen, HR-chefen och cheferna för ekonomi, juridik och kommunikation rapporterar till generaldirektören. Vill IT ha en tekniker till för supporten av Ärendesystemet och HR en rekryterare till, väger generaldirektören dem mot varandra. Det är rätt plats, för IT och HR är två domäner och ingen under generaldirektören håller båda. Ordningen är alltså inte fel i sig. Om den håller beror på hur många avvägningar som kommer, och det visar avsnittet Livskraft. Ekonomi, juridik och kommunikation är grupper i enheten utan egen domän. Ekonomichefens rätt att fastställa regler för hela myndigheten är styrning av en aspekt och kräver ingen domän.
 
 ## Livskraft
 
@@ -120,17 +122,17 @@ Generaldirektören följer handläggningen på två vägar. Chefen för Bidragse
 
 Analysenheten följer föreningslivets utveckling åt regeringen. Samma kunskap är myndighetens blick utåt och framåt. Bedömningen att föreningarna blir färre går till generaldirektören och blir underlag för strategin och målarkitekturen.
 
-Skulle generaldirektören behålla beslutet om varje anställning vore det vald centralisering. Med fyra enheter och 120 anställda hinner hen kanske med. Fyndet uppstår den dag anställningarna blir liggande.
+Skulle generaldirektören behålla beslutet om varje anställning vore det vald centralisering. Med fyra enheter och 120 anställda hinner hen kanske med. Hindret uppstår den dag anställningarna blir liggande.
 
-Ordningen i Verksamhetsstöd är en annan centralisering, och den har ingen valt. Den har uppkommit ur snittet: IT-chefen äger IT, HR-chefen äger HR, och bara generaldirektören håller båda. Generaldirektören känner till det och låter ordningen stå. Samma ordning ger tre olika svar på provets sjätte fråga, beroende på hur mycket som kommer in.
+Ordningen i Verksamhetsstöd är en annan centralisering, och den har ingen valt. Den har uppkommit ur snittet: IT-chefen äger IT, HR-chefen äger HR, och bara generaldirektören håller båda. Generaldirektören känner till det och låter ordningen stå. Samma ordning prövas mot principen Nära före högt och ger tre olika svar, beroende på hur mycket som kommer in.
 
-Den som har arkitekturansvaret går varje år igenom avvägningarna mellan IT och HR åt generaldirektören. Hen räknar hur många som kom och hur länge de väntade. Genomgången är en bedömning.
+Den som har arkitekturansvaret går varje år igenom avvägningarna mellan IT och HR åt generaldirektören. Hen räknar hur många som kom och hur länge de väntade. Sedan prövar hen ordningen mot principens följd: ingen avvägning väntar längre än en månad. Genomgången är en bedömning.
 
-- **I dag har myndigheten 120 anställda.** IT och HR kom med fyra avvägningar förra året, och den längsta väntade tre veckor. Generaldirektören hinner. Här finns inget fynd.
-- **Myndigheten växer mot 200 anställda.** Regeringen har gett ett nytt uppdrag. Avvägningarna blir tolv om året och väntar två månader. Teknikern som IT bad om i februari kommer i maj. Generaldirektören hinner inte i tid, och det är ett fynd. Hen beslutar att leva med det och skriver beslutet under genomgången: ordningen står kvar, för en chef över IT och HR kostar 1,2 miljoner kronor om året och väntan kostar mindre. Beslutet säger också att fyndet prövas igen nästa år.
-- **Myndigheten har 300 anställda.** Avvägningarna blir liggande, eller avgörs utan att generaldirektören har satt sig in i dem. Fyndet ska åtgärdas. Generaldirektören tillsätter en chef för Verksamhetsstöd med ram för både IT och HR. Enheten blir då en domän, och chefen väger teknikern mot rekryteraren.
+- **I dag har myndigheten 120 anställda.** IT och HR kom med fyra avvägningar förra året, och den längsta väntade tre veckor. Följden håller, och ordningen följer principen.
+- **Myndigheten växer mot 200 anställda.** Regeringen har gett ett nytt uppdrag. Avvägningarna blir tolv om året och väntar två månader. Teknikern som IT bad om i februari kommer i maj. Följden håller inte längre. Generaldirektören väger Nära före högt mot principen att hushålla med statens medel: en chef över IT och HR kostar 1,2 miljoner kronor om året, och väntan kostar mindre. Hen beslutar att ordningen står kvar och skriver styrbeslutet under genomgången, med skälet. Beslutet säger också att ordningen prövas igen nästa år. Valet är vägt och alltså ingen avvikelse.
+- **Myndigheten har 300 anställda.** Avvägningarna blir liggande, eller avgörs utan att generaldirektören har satt sig in i dem. Väntan kostar nu mer än en chef, så ingen princip bär ordningen längre. Den är en avvikelse och ska rättas. Generaldirektören tillsätter en chef för Verksamhetsstöd med ram för både IT och HR. Enheten blir då en domän, och chefen väger teknikern mot rekryteraren.
 
-Fyndet prövas igen varje år. Det prövas också genast när något stort ändras utanför. Det nya uppdraget är en påverkan, och den utlöser en ny bedömning utan att vänta på årets genomgång. Fattar generaldirektören inget beslut om fyndet lever ledningen inte med det. Då är det bara olöst.
+Ordningen prövas igen varje år. Den prövas också genast när något stort ändras utanför. Det nya uppdraget är en påverkan, och den utlöser en ny bedömning utan att vänta på årets genomgång. Avvikelsen finns från den dag följden slutar hålla, också innan någon har upptäckt den. Väntar IT sedan maj, och genomgången görs i december, finns avvikelsen från maj. Den står kvar som en avvikelse tills generaldirektören har vägt den.
 
 ## Vem den finns för
 
@@ -147,7 +149,7 @@ Myndigheten står för förvaltningens mekanik. Hämta härifrån exempel på:
 - produktionsstyrning (C-215) i en domän där samma chef håller utformningen och produktionen
 - inre uppdrag (C-149), stödverksamhet och leveransprodukt (C-174) från HR och IT
 - livskraft (C-216) i en domän som klarar provet, samordning (C-217) med och utan mandat, och granskning (C-218) bredvid uppföljning
-- uppkommen centralisering (C-220) som håller, blir ett fynd som ledningen lever med och till sist ska åtgärdas, med Verksamhetsstöd i tre lägen
+- uppkommen centralisering (C-220) som följer en princip, blir ett vägt val och till sist en avvikelse som ska rättas, med Verksamhetsstöd i tre lägen
 - aspektbaserad styrning (C-006), aspekt (C-004) och arbetssätt (C-196)
 - verksamhetsförmåga (C-069), verksamhetsprocess (C-130) och handläggning (C-160)
 - ärendebeslut (C-181) och beslutslogik (C-178)
@@ -157,9 +159,9 @@ Myndigheten står för förvaltningens mekanik. Hämta härifrån exempel på:
 - lösning (C-055) med Ansökningshandläggningen och Föreningsregistret som leveransprodukt (C-174) i lös koppling (C-211)
 - ansvar (C-209) och ram (C-210) hos Bidragsenhetens chef
 - delegation (C-214) i arbetsordningen: ett styrobjekt till Bidragsenhetens chef, beslutanderätt i ärenden och vidaredelegation
-- arkitekturprincip (C-040) med provet för ett snitt, Gemensamt före eget och Självbetjäning före personlig service
+- arkitekturprincip (C-040) med provet för ett snitt, Gemensamt före eget, Självbetjäning före personlig service och Nära före högt, en princip för organisering och ansvarsindelning
 - krav (C-021) som följer av en princip, med e-tjänsten
-- avvikelse (C-213) med det egna registret över kontaktpersoner
+- avvikelse (C-213) med det egna registret över kontaktpersoner, och med ordningen i Verksamhetsstöd vid 300 anställda
 - informationstillgång (C-166), applikation (C-071) och plattform (C-072)
 - målgrupp (C-145), behov (C-146), resa (C-147) och värdeerbjudande (C-148)
 

@@ -70,7 +70,7 @@ Det mesta bor i ett **fastighetssystem**, en standardprodukt som leverantören d
 
 Felanmälan är en lösning: processen Åtgärda en felanmälan, bovärdarna, informationsobjekten Felanmälan och Arbetsorder och modulen Teknisk förvaltning tillsammans. Teknisk chef är dess lösningsägare, håller årsramen och svarar för att utformningen klarar målet att en felanmälan är åtgärdad inom fem arbetsdagar. Leverantören som driftar systemet är inte dess ägare.
 
-Här finns ett fynd. Felanmälan hör hemma hos teknisk chef, men bovärdarna arbetar på tre områdeskontor som ligger bredvid den tekniska avdelningen, inte under den. Teknisk chef beslutar om processen och systemet, men inte om hur många bovärdar som arbetar. Varje kontorschef beslutar om sina bovärdar, men inte om processen. Teknisk chef beslutar alltså utan att hålla hela ramen, fast den som beslutar ska ha både mandat och ram. Styrelsen har satt målet fem arbetsdagar, och ingen under vd håller båda halvorna. Ingen under vd äger en domän som rymmer både lösningen och bovärdarna, så ingen under vd svarar för målet. Tar åtgärderna åtta dagar kan teknisk chef peka på bemanningen och kontorscheferna på processen, och båda kan ha rätt. Bara vd kan väga fler bovärdar mot en ändrad process. Det är inte ett effektivt sätt att styra. Ansvaret för målet är ofullständigt hos båda, och centraliseringen har ingen valt: den följer av snittet. Två vägar finns ur fyndet: områdeskontoren läggs under den som äger Felanmälan, eller så flyttas processen till den som har bovärdarna.
+Felanmälan hör hemma hos teknisk chef, men bovärdarna arbetar på tre områdeskontor som ligger bredvid den tekniska avdelningen, inte under den. Det är en intern påverkan: så är bolaget ordnat. Teknisk chef beslutar om processen och systemet, men inte om hur många bovärdar som arbetar. Varje kontorschef beslutar om sina bovärdar, men inte om processen. Teknisk chef beslutar alltså utan att hålla hela ramen, fast den som beslutar ska ha både mandat och ram. Styrelsen har satt målet fem arbetsdagar, och ingen under vd håller båda halvorna. Ingen under vd äger en domän som rymmer både lösningen och bovärdarna, så ingen under vd svarar för målet. Tar åtgärderna åtta dagar kan teknisk chef peka på bemanningen och kontorscheferna på processen, och båda kan ha rätt. Bara vd kan väga fler bovärdar mot en ändrad process. Det är inte ett effektivt sätt att styra. Ansvaret för målet är ofullständigt hos båda, och centraliseringen har ingen valt: den följer av snittet. Styrelsen har inte fastställt någon princip för hur ansvaret delas in, så ordningen avviker inte från något styrmedel. Den som har arkitekturansvaret bedömer den som en svaghet: målet fem arbetsdagar saknar en ägare under vd. Två vägar finns ur svagheten: områdeskontoren läggs under den som äger Felanmälan, eller så flyttas processen till den som har bovärdarna.
 
 Hyra är en annan lösning, uthyrningschefens. De två delar fastighetssystemet, som är en egen lösning eftersom flera använder det. Men modulerna delar grunddata och release: en ändring i den ena tvingar fram en ändring i den andra. Kopplingen är tät och går inte att lösa, eftersom systemet är en standardprodukt. Teknisk chef bär den som en bedömning på lösningen: varje release av fastighetssystemet är en påverkan som Felanmälan måste svara på.
 
@@ -85,13 +85,13 @@ Vid sidan av det finns två system till. **Ekonomisystemet** används för bokf�
 - **Tre områdeskontor.** Varje kontor är en domän med egen kontorschef, egna bovärdar och egen ram. Kontorscheferna lyder direkt under vd. Kontoren har ingen egen lösning.
 - **Ekonomi**, **IT** och **Kommunikation.** De är stödverksamhet på huvudkontoret.
 
-Fyndet i Felanmälan syns i indelningen. Kranen droppar hos en hyresgäst i Åbrinken. Kundcenter tar emot anmälan, och kundcenter ligger i Uthyrning. Bovärden på områdeskontoret lagar kranen. Processen äger teknisk chef. Tar det åtta dagar finns fyra chefer att fråga: teknisk chef, uthyrningschefen, chefen för kundcenter och kontorschefen. Bara vd håller alla fyra.
+Svagheten i Felanmälan syns i indelningen. Kranen droppar hos en hyresgäst i Åbrinken. Kundcenter tar emot anmälan, och kundcenter ligger i Uthyrning. Bovärden på områdeskontoret lagar kranen. Processen äger teknisk chef. Tar det åtta dagar finns fyra chefer att fråga: teknisk chef, uthyrningschefen, chefen för kundcenter och kontorschefen. Bara vd håller alla fyra.
 
-Attesträtten är däremot inget fynd. Kontorschefen godkänner underhållskostnader upp till 100 000 kronor utan att fråga teknisk chef. Det är beslutanderätt inom en ram som styrelsen redan har satt, och ingen avvägning blir liggande.
+Attesträtten är däremot ingen svaghet. Kontorschefen godkänner underhållskostnader upp till 100 000 kronor utan att fråga teknisk chef. Det är beslutanderätt inom en ram som styrelsen redan har satt, och ingen avvägning blir liggande.
 
 ## Livskraft
 
-Bolaget har 6 000 lägenheter, tre områdeskontor och felanmälningar av många slag. Det är dess komplexitet: fler lägen än en vd hinner möta. Bolaget möter den på två sätt. Principen Akuta fel före planerat underhåll är en dämpare, för bovärdarna behöver inte fråga vad som går först. Attesträtten upp till 100 000 kronor är en förstärkare, för kontorschefen får besluta själv. Fyndet i Felanmälan drar åt andra hållet. Varje avvägning mellan bovärdar och process går till vd, och de avvägningarna uppstår på tre kontor varje vecka.
+Bolaget har 6 000 lägenheter, tre områdeskontor och felanmälningar av många slag. Det är dess komplexitet: fler lägen än en vd hinner möta. Bolaget möter den på två sätt. Principen Akuta fel före planerat underhåll är en dämpare, för bovärdarna behöver inte fråga vad som går först. Attesträtten upp till 100 000 kronor är en förstärkare, för kontorschefen får besluta själv. Ordningen i Felanmälan drar åt andra hållet. Varje avvägning mellan bovärdar och process går till vd, och de avvägningarna uppstår på tre kontor varje vecka.
 
 De tre områdeskontoren samordnar sig själva. Kontorscheferna gör upp ett gemensamt jourschema för mellandagarna. Ingen av dem beslutar över de andra, och vd behöver inte avgöra något.
 
@@ -101,7 +101,7 @@ En bovärd som hittar legionella i ett hus ringer vd samma dag. Faran väntar in
 
 Kommunen växer, och ägardirektivet kräver omkring 150 nya lägenheter per år till 2030. Någon måste bedöma vad det gör med förvaltningen om fem år: fler hus, fler felanmälningar, nya områden. Den bedömningen är bolagets blick utåt och framåt, och den blir underlag för affärsplanen och målarkitekturen.
 
-Vd väger underhållsbudgeten mot investeringsportföljen för hela bolaget. Det är rätt plats för den balansen. Fyndet är att ingen under vd kan väga i det lilla.
+Vd väger underhållsbudgeten mot investeringsportföljen för hela bolaget. Det är rätt plats för den balansen. Svagheten är att ingen under vd kan väga i det lilla.
 
 ## Vem det finns för
 
@@ -124,8 +124,9 @@ Bolaget står för det fysiska, kunden och tekniken. Hämta härifrån exempel p
 - verksamhetstjänst köpt utifrån (C-127, C-155 är leverantör till) med störningsjouren
 - verksamhetsprocess (C-130) med Åtgärda en felanmälan, processägare (C-206) med teknisk chef för den och linjechef (C-207) med områdeskontorets chef som utför den
 - lösning (C-055) med Felanmälan och dess lösningsägare, som håller ramen (C-210) och svarar för att utformningen klarar målet (C-209)
-- produktionsstyrning (C-215) hos varje områdeskontor, och fyndet att lösningen och produktionen ligger i var sin domän
-- verksamhetsdomän (C-008) som inte följer organisationen, med ett fynd i Felanmälan och attesträtten som inte är ett fynd
+- produktionsstyrning (C-215) hos varje områdeskontor, och svagheten att lösningen och produktionen ligger i var sin domän
+- verksamhetsdomän (C-008) som inte följer organisationen, med en svaghet i Felanmälan och attesträtten som inte är en svaghet
+- intern påverkan (C-030) och bedömning (C-185) med ordningen i Felanmälan, där ingen princip för ansvarsindelning är fastställd
 - tät koppling (C-211) genom fastighetssystemets delade release
 - handläggning (C-160) med Avhysa vid obetald hyra
 - produkt (C-014) som går uppåt med årsredovisningen till styrelsen, och resultat som saknar produkt med uppsägningen
