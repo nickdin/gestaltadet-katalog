@@ -43,9 +43,11 @@ Provet ställer sju frågor till en domän. Varje nej är ett fynd.
 6. Hinner den som beslutar möta komplexiteten ([[C-219 Komplexitet]])? Centralisering ([[C-220 Centralisering]]) förklarar fyndet.
 7. Finns en larmväg, så att en akut fara når ledningen utan att vänta på nästa rapport?
 
+Svaret på en fråga är en bedömning ([[C-185 Bedömning]]). Någon gör den vid en tidpunkt, på det som går att räkna. Samma ordning kan ge ja ett år och nej ett annat, för komplexiteten ändras med omvärlden. Beslut 53.
+
 Flera av fynden har samma grund. Två saker som måste vägas mot varandra hålls av olika ägare. Då avgör den närmaste ägare som håller båda, och besluten samlas högre upp. Ansvar ([[C-209 Ansvar]]) förklarar det.
 
-Balansen ska finnas på varje nivå. Högsta ledningen väger i dag mot i morgon för hela verksamheten, och det är rätt plats. Fyndet är när ledningen är den enda som kan väga, också i det lilla.
+Balansen ska finnas på varje nivå. Högsta ledningen väger i dag mot i morgon för hela verksamheten, och det är rätt plats. Fyndet är när ledningen är den enda som kan väga, också i det lilla. Det lilla är avvägningar inuti en domän. Mellan två domäner väger alltid ägaren ovanför. Det blir ett fynd först när avvägningarna är fler än hen hinner. Beslut 53.
 
 Begreppet bygger på Stafford Beers modell för livskraftiga system, Viable System Model, ur Brain of the Firm (1972). Beer numrerar de fem sakerna System 1 till 5. Katalogen använder egna ord, och ordlistan säger vilket nummer som är vad. Sidan Lagar katalogen bygger på nämner lagarna bakom. Beslut 49.
 
