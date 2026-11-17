@@ -61,6 +61,13 @@ En skillnad är inget fynd. Analysenheten har satt samman Utbetalningar per komm
 
 Den som har [[C-189 Mandat|mandatet]] beslutar att åtgärda fyndet eller att leva med det. Att leva med ett fynd är ett [[C-019 Styrbeslut|styrbeslut]]. Varvet slutar när varje fynd har ett beslut. En lista över fynd som ingen beslutar om ändrar inget.
 
+Exempel: Myndigheten åtgärdar tre fynd och lever med ett.
+
+- **Informationssäkerhet.** Chefen för Analysenheten beslutar att Excelfilen flyttas till en lagringsyta som bara enheten kan öppna. Avvikelsen är då rättad, och regeln står kvar.
+- **Dataskydd.** Chefen för Register- och tillsynsenheten är informationsägare för Företrädare. Hen beslutar att kopian av Företrädare tas bort ur datalagret.
+- **Offentlighet och arkiv.** Chefen för Analysenheten beslutar att informationshanteringsplanen får en rad för kopiorna i datalagret. En kopia gallras när originalet gallras.
+- **Informationsförsörjning.** Chefen för Register- och tillsynsenheten är informationsägare för Förening. Hen beslutar att skillnaden får stå kvar i år, eftersom det kostar mer att byta källa än skillnaden gör. Hen skriver beslutet med skälet, och det prövas igen i nästa varv. Att leva med fyndet är ett styrbeslut.
+
 ## Steg 7: gör om varvet
 
 Gör om varvet när något ändras, och annars en gång om året. En ändring är att beteendet, applikationen eller lagringsytan ändras.

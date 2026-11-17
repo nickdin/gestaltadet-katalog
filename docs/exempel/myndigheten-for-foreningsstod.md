@@ -153,6 +153,13 @@ En skillnad är inget fynd. Analysenheten har satt samman Utbetalningar per komm
 
 Kartläggningen är klar först när varje fynd har ett beslut. Den som har mandatet beslutar att åtgärda fyndet eller att leva med det.
 
+Tre fynd åtgärdas, och ett lever myndigheten med:
+
+- **Informationssäkerhet.** Chefen för Analysenheten beslutar att Excelfilen flyttas till en lagringsyta som bara enheten kan öppna. Avvikelsen är då rättad, och regeln står kvar.
+- **Dataskydd.** Chefen för Register- och tillsynsenheten är informationsägare för Företrädare. Hen beslutar att kopian av Företrädare tas bort ur datalagret.
+- **Offentlighet och arkiv.** Chefen för Analysenheten beslutar att informationshanteringsplanen får en rad för kopiorna i datalagret. En kopia gallras när originalet gallras.
+- **Informationsförsörjning.** Chefen för Register- och tillsynsenheten är informationsägare för Förening. Hen beslutar att skillnaden får stå kvar i år, eftersom det kostar mer att byta källa än skillnaden gör. Hen skriver beslutet med skälet, och det prövas igen i nästa varv. Att leva med fyndet är ett styrbeslut.
+
 ## Vem den finns för
 
 Målgruppen är ideella föreningar och de människor som företräder dem, oftast ideellt och vid sidan av ett arbete. Deras behov är att få stöd till verksamheten utan att administrationen äter upp den. Resan de går igenom är att starta en förening, få den att växa och hålla den vid liv över åren. Myndigheten är en av flera parter i den, med Skatteverket, kommunen och banken. Värdeerbjudandet är ett bidrag som går att söka på en kväll och som betalas ut i tid.
