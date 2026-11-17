@@ -21,7 +21,7 @@ En arkitekt leder varvet och håller kartan. Arkitekten intervjuar dem som utfö
 - [[C-165 Lagringsyta|lagringsytorna]], till exempel ett datalager
 - [[C-071 Applikation|applikationerna]], till exempel Ärendesystemet.
 
-Sedan följer ett svep över lagringsytorna. Svepet hittar det som inget beteende når, till exempel en fil som ingen längre använder.
+I intervjun sveper arkitekten också över lagringsytorna. Svepet hittar det som inget beteende når, till exempel en fil som ingen längre använder.
 
 Kartan får börja grovt. Första dagen räcker ett [[C-198 Informationsområde|informationsområde]] med ägare och klass. Kartan förfinas när ett perspektiv kräver det, till exempel när personnumret behöver bli ett eget objekt.
 
@@ -101,9 +101,9 @@ Resten står på andra ställen:
 
 Det som ändrar kartan skrivs in i kartan. Ett perspektiv kan hitta ett nytt objekt, en ny lagringsyta, en kopia eller en åtkomst. Perspektivet lämnar det till arkitekten, som skriver in det i kartan. Så får de andra perspektiven veta det. Allt annat stannar i perspektivets egen förteckning.
 
-## Förslag till följdfrågor
+## Följdfrågor under varje huvudfråga
 
-Följdfrågorna under varje huvudfråga är förslag. De är inte fastställda.
+Varje huvudfråga har följdfrågor som hjälper den som går igenom kartan.
 
 ### Informationssäkerhet
 

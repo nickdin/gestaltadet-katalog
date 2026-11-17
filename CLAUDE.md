@@ -30,6 +30,7 @@ Varje text på gestaltadet.se har ett av fyra lägen (ADR 0039): skriven av Nick
 - Ny text från Claude är alltid "skriven av AI, inte granskad".
 - Varje ordändring av Claude i en godkänd text tar bort godkännandet, även ett kommatecken. Säg det innan du ändrar i en godkänd text. Två ändringar tar inte bort det: att texten flyttas eller får en ändrad länk, och ett exakt byte av ett ord mot ett annat som Nicklas beställt.
 - Läsaren möter ordet beslut, inte ADR: "beslut 25". Ett nytt besluts första rad säger för läsaren vem som beslutade, när och varför.
+- Ingen text på sajten talar om Nicklas i tredje person. Vem som skrivit en text visas av märkningen, och en sida hänvisar till beslutet utan namn: "beslut 55". Besluten i `docs/adr/` behåller sin första rad om vem som beslutade.
 
 ## Grillningar
 
