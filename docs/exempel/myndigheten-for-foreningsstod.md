@@ -67,7 +67,7 @@ Chefen för Bidragsenheten är informationsägare för Ansökan, Redovisning, Be
 
 Chefen för Bidragsenheten är också processägare för handläggningen Pröva en ansökan och linjechef för enheten som handlägger. Det är det vanliga fallet: de tre rollerna är samma person, och delningen mellan dem syns inte.
 
-Analysenheten läser Ansökan, Beslut och Utbetalning in i ett datalager, en lagringsyta i myndighetens analysplattform. Den sätter samman Utbetalningar per kommun och räknar fram Riskindikator per förening. Chefen för analysenheten är processägare för analysfunktionen och informationsägare för de två objekt den upprättar. Läsningen av Bidragsenhetens objekt sker inom det Bidragsenhetens chef beslutat.
+Analysenheten läser Ansökan, Beslut och Utbetalning in i ett datalager, en lagringsyta i myndighetens analysplattform. Datalagret innehåller också kopior av Förening och Företrädare. Analysenheten sätter samman Utbetalningar per kommun och räknar fram Riskindikator per förening. Chefen för analysenheten är processägare för analysfunktionen och informationsägare för de två objekt den upprättar. Läsningen av Bidragsenhetens objekt sker inom det Bidragsenhetens chef beslutat.
 
 ## System
 
@@ -134,6 +134,19 @@ Den som har arkitekturansvaret går varje år igenom avvägningarna mellan IT oc
 
 Ordningen prövas igen varje år. Den prövas också genast när något stort ändras utanför. Det nya uppdraget är en påverkan, och den utlöser en ny bedömning utan att vänta på årets genomgång. Avvikelsen finns från den dag följden slutar hålla, också innan någon har upptäckt den. Väntar IT sedan maj, och genomgången görs i december, finns avvikelsen från maj. Den står kvar som en avvikelse tills generaldirektören har vägt den.
 
+## Informationskartläggning
+
+Analysfunktionen är kartlagd med arbetssättet Informationskartläggning. Fyra perspektiv har gått igenom samma karta, och varje perspektiv har gett ett fynd. Ett fynd är en avvikelse när myndigheten har fastställt en regel att pröva mot. Annars är fyndet en bedömning. De fyra fynden:
+
+- **Informationssäkerhet: en avvikelse.** En analytiker har exporterat Riskindikator per förening till en Excelfil i enhetens grupprum. Grupprummet är en lagringsyta som hela myndigheten kan öppna, och Riskindikator per förening är känslig. Myndigheten har fastställt regeln att behörigheten på en lagringsyta följer den högsta klassen där. Filen går emot regeln, och därför är fyndet en avvikelse.
+- **Dataskydd: en bedömning.** Datalagret innehåller Företrädare, som är personuppgifter. Analysfunktionens ändamål i registerförteckningen nämner bara Ansökan, Beslut och Utbetalning. Myndigheten har ingen egen regel om vad registerförteckningen ska innehålla. Dataskyddsförordningen är en lag och alltså en påverkan utifrån, inget styrmedel som myndigheten har fastställt. Chefen för Analysenheten bedömer fyndet som en risk: en företrädare kan fråga varför uppgifterna finns i datalagret, och myndigheten har inget svar.
+- **Offentlighet och arkiv: en bedömning.** Informationshanteringsplanen har ingen rad för kopiorna i datalagret, och ingen gallrar dem. Myndigheten har ingen regel om kopior. Chefen för Analysenheten bedömer fyndet som en risk: kopiorna kan ligga kvar när originalen är gallrade.
+- **Informationsförsörjning: en bedömning.** Datalagret hämtar Förening ur Ärendesystemet och inte ur Föreningsregistret, som är källan. Antalet medlemmar skiljer sig därför ibland mellan datalagret och registret. Myndigheten har ingen regel om att en kopia hämtas ur källan. Den som har arkitekturansvaret bedömer fyndet som en svaghet, eftersom skillnaden redan finns.
+
+En skillnad är inget fynd. Utbetalningar per kommun är öppen, fast Analysenheten har satt samman den ur känsligare objekt. En summering får klassas lägre än sina delar. Förteckningen över alla företrädare visar det omvända: den är känsligare än varje företrädare för sig.
+
+Kartläggningen är klar först när varje fynd har ett beslut. Den som har mandatet beslutar att åtgärda fyndet eller att leva med det.
+
 ## Vem den finns för
 
 Målgruppen är ideella föreningar och de människor som företräder dem, oftast ideellt och vid sidan av ett arbete. Deras behov är att få stöd till verksamheten utan att administrationen äter upp den. Resan de går igenom är att starta en förening, få den att växa och hålla den vid liv över åren. Myndigheten är en av flera parter i den, med Skatteverket, kommunen och banken. Värdeerbjudandet är ett bidrag som går att söka på en kväll och som betalas ut i tid.
@@ -155,6 +168,8 @@ Myndigheten står för förvaltningens mekanik. Hämta härifrån exempel på:
 - ärendebeslut (C-181) och beslutslogik (C-178)
 - produkt (C-014), verksamhetsprodukt (C-173) och vara (C-191), och resultat som saknar produkt
 - informationsobjekt (C-060), uppgift (C-161) och sammanställning (C-162)
+- lagringsyta (C-165) med datalagret och Analysenhetens grupprum
+- arbetssättet Informationskartläggning med analysfunktionen: fyra fynd, ett per perspektiv, och en skillnad som inte är ett fynd
 - informationsägare (C-167), processägare (C-206) och linjechef (C-207) i en och samma person
 - lösning (C-055) med Ansökningshandläggningen och Föreningsregistret som leveransprodukt (C-174) i lös koppling (C-211)
 - ansvar (C-209) och ram (C-210) hos Bidragsenhetens chef
@@ -162,7 +177,8 @@ Myndigheten står för förvaltningens mekanik. Hämta härifrån exempel på:
 - arkitekturprincip (C-040) med provet för ett snitt, Gemensamt före eget, Självbetjäning före personlig service och Nära före högt, en princip för organisering och ansvarsindelning
 - princip (C-018) som gäller alla val, med Tillräckligt före bäst, och ett val som vägs mellan den och Nära före högt
 - krav (C-021) som följer av en princip, med e-tjänsten
-- avvikelse (C-213) med det egna registret över kontaktpersoner, och med ordningen i Verksamhetsstöd vid 300 anställda
+- avvikelse (C-213) med det egna registret över kontaktpersoner, med ordningen i Verksamhetsstöd vid 300 anställda och med Excelfilen i grupprummet
+- bedömning (C-185) och risk (C-186) med tre fynd i analysfunktionen
 - informationstillgång (C-166), applikation (C-071) och plattform (C-072)
 - målgrupp (C-145), behov (C-146), resa (C-147) och värdeerbjudande (C-148)
 
