@@ -139,4 +139,4 @@ Ritningarna finns på sidan Ritningar, under rubriken Exempel.
 
 - **Analysfunktionen karta** visar kartan med ägarna utsatta.
 - **Analysfunktionen karta med fynd** visar samma karta med fynden numrerade.
-- **Informationskartläggning steg** visar metodens steg. Ritningen räknar fem steg. Att välja ett beteende och att skriva fyndet som en avvikelse eller en bedömning är inga egna steg där.
+- **Informationskartläggning steg** visar de sju stegen. Steg 7 är pilen tillbaka till steg 1.
