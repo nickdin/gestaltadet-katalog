@@ -31,4 +31,4 @@ Value Delivery Modeling Language (VDML) har en roll per samverkanstyp: Position 
 
 ## Exempel
 
-informationsarkitekt, enterprisearkitekt.
+informationsarkitekt, enterprisearkitekt, huvudarkitekt (kallas också chefsarkitekt).
