@@ -6,6 +6,7 @@ nesting_relation_type: aggregates
 documents:
   - docs/adr
   - docs/lagar.md
+  - docs/informationskartlaggning.md
 drawings:
   - layout/Styrning
   - layout/Arkitektur

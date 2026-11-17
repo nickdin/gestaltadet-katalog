@@ -1,0 +1,57 @@
+Ärende #175: sidan Informationskartläggning, prov kört 2026-11-17 från lagrets rot.
+
+Kommando 1: python3 docs/acceptance-shots/issue-175-sida.py
+If wrong (sidan saknas eller står inte under documents:, en länk pekar på ett begrepp som inte finns, ett begrepp ur ärendet är inte länkat, ett steg saknas, en huvudfråga står inte som i beslut 55, en mening om ett fynd står inte i exemplet, eller en ritning nämns inte): slutkod 1 och raden FALLER.
+
+På basen 342072d, före ändringen (slutkod 1):
+FALLER:
+- docs/informationskartlaggning.md: sidan saknas
+- settings.yaml: docs/informationskartlaggning.md står inte under documents:
+- docs/informationskartlaggning.md: C-019 är inte länkat
+(och 23 rader till: de övriga fjorton begreppen, de sju stegen, de fyra huvudfrågorna, listan över fynd och de tre ritningarna)
+
+Efter ändringen (slutkod 0):
+Länkade begrepp på docs/informationskartlaggning.md: 25
+C-015 Styrmedel
+C-019 Styrbeslut
+C-020 Regel
+C-035 Arkitekturbeskrivning
+C-060 Informationsobjekt
+C-071 Applikation
+C-085 Representation
+C-107 Kartläggning
+C-130 Verksamhetsprocess
+C-157 Verksamhetsbeteende
+C-158 Verksamhetsfunktion
+C-160 Handläggning
+C-165 Lagringsyta
+C-167 Informationsägare
+C-168 Behandling
+C-184 Påverkan
+C-185 Bedömning
+C-186 Risk
+C-189 Mandat
+C-196 Arbetssätt
+C-198 Informationsområde
+C-200 Gallring
+C-202 Resursdata
+C-206 Processägare
+C-213 Avvikelse
+Steg: 7
+Huvudfrågor som står som i beslut 55: 4
+Meningar om exemplets fynd som står ordagrant i exemplet: 19
+Ritningar som nämns vid namn: 3
+HÅLLER: sidan finns, länkar till varje begrepp den ska och följer beslut 55 och exemplet.
+
+Kommando 2: interlingua publish . <tom mapp>, sedan sidan document/docs/informationskartlaggning.md/index.html.
+If wrong (sidan publiceras inte, eller en länk är bruten): filen saknas, eller sidan har rader med broken-link.
+Read back (h1): Informationskartläggning
+Read back (publish): 1599 files written, slutkod 0
+Read back (broken-link): 0
+Read back (begrepp som sidan länkar till, också genom markerade termer): 37
+Read back (länken arbetssätt): ../../../file/C-196/index.html
+Read back (sidan Filer): Informationskartläggning står under Dokument
+Read back (img på sidan): 0. Programmet kan inte visa en ritning på en sida. Rutan "De tre diagrammen visas på sidan" är inte uppfylld och väntar på interlingua #1347.
+
+Kommando 3: interlingua check .
+Read back: check: 210 files, no violations
