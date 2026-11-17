@@ -105,7 +105,7 @@ Myndigheten har fyra enheter under generaldirektören: Bidragsenheten, Register-
 
 - **Bidragsgivning.** Chefen för Bidragsenheten äger den.
 - **Registerföring och tillsyn.** Chefen för Register- och tillsynsenheten äger den. Den rymmer två av regeringens uppdrag.
-- **Uppföljning.** Chefen för Analysenheten äger den. Produktionen är årets rapport till regeringen, varje beräkning av Riskindikator per förening och analytikerna som gör dem.
+- **Uppföljning.** Chefen för Analysenheten äger den. Utformningen är en lösning som rymmer analysfunktionen, datalagret och de objekt funktionen upprättar, och chefen för Analysenheten är dess lösningsägare. Produktionen är årets rapport till regeringen, varje beräkning av Riskindikator per förening och analytikerna som gör dem.
 - **IT** och **HR.** IT-chefen och HR-chefen äger var sin. Uppdragen är inre och kommer direkt från generaldirektören.
 
 Tillsyn är en domän inuti Registerföring och tillsyn. Chefen för enheten har lämnat tillsynen till en gruppchef med egen ram. Gruppchefen väljer själv att lägga årets pengar på fler stickprov i stället för en ny granskningsmall. Chefen för enheten omsluter både registret och tillsynen och kan väga dem mot varandra. Här skiljer sig domänerna från enheterna, och ingen avvägning blir utan ägare.

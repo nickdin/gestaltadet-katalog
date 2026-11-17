@@ -18,6 +18,8 @@ key: responsible_for
 
 Relationen går från rollen till det den äger: informationsägaren ([[C-167 Informationsägare]]) till informationsobjektet ([[C-060 Informationsobjekt]]), processägaren ([[C-206 Processägare]]) till verksamhetsbeteendet ([[C-157 Verksamhetsbeteende]]). Den svarar på frågan vem som äger, och skiljer ägandet från utförandet: tilldelas ([[C-096 tilldelas]]) säger vem som utför. Härledningen nedåt (beslut 30) och förteckningarna med ägare per behandling (beslut 31) behöver det svaret.
 
+Relationen säger vem som äger och svarar, inte vem ägaren svarar inför. Processägaren svarar inför ägaren till lösningen ([[C-055 Lösning]]) där beteendet ligger, och informationsägaren inför ägaren till lösningen där objektet skapas. Beslut 57.
+
 Relationen är bara för ägarrollerna. Ett styrmedel eller en bärare ägs av den som fastställt det ([[C-183 fastställs av]]), och ett styrobjekt av den som har mandatet ([[C-189 Mandat]]) över det.
 
 ## Motsvarigheter

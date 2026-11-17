@@ -55,6 +55,6 @@ Grillningen gick fem rundor och avgjorde varje fråga på ett fall ur de två ex
 - Beslut 23, 41, 43, 44, 45, 46 och 47 har fått var sin not om vad som ändras.
 - `docs/exempel/myndigheten-for-foreningsstod.md` säger nu vem som sätter registerlösningens ram, vad ekonomichefen och arkitekturrådet gör i ett enskilt fall, vilka tre roller chefen för Bidragsenheten har och vad som är registervård. `docs/exempel/brinkstadsbostader.md` säger att teknisk chef beslutar utan hela ramen och att ingen under vd svarar för målet.
 - `CONTEXT.md`: posten Produktion är ändrad, och Rättning och registervård har fått en egen post.
-- Definitionen av Processägare (`C-206`) säger att rollen "ytterst ansvarar" för beteendet. Det går inte ihop med att processägaren svarar inför lösningsägaren. Ny lydelse prövas i ett eget ärende.
+- Definitionen av Processägare (`C-206`) säger att rollen "ytterst ansvarar" för beteendet. Det går inte ihop med att processägaren svarar inför lösningsägaren. Ny lydelse prövas i ett eget ärende. *Beslut 57 stryker ordet ytterst ur definitionen.*
 - Portföljs definition säger fortfarande "initiativ och produkter". Ny lydelse prövas i #159, som nu också ska ta hänsyn till att portföljen väger domänernas ramar.
 - Ritningarna är orörda och inte genomgångna mot det här beslutet.

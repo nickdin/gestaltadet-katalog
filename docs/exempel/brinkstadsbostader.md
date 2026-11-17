@@ -56,7 +56,7 @@ Beslutslogiken: kötid och uthyrningspolicyns villkor avgör vem som får en lä
 
 Uthyrningschefen är informationsägare för Hyresgäst, Hyresavtal, Hyresfordran, Störningsärende och Bostadssökande. Teknisk chef är det för Fastighet, Byggnad, Lägenhet, Lokal, Underhållsplan och Mätvärde, och chefen för kundcenter för Felanmälan. Mätvärdena per lägenhet är känsligare än per byggnad: de visar när någon är hemma.
 
-Processen Åtgärda en felanmälan samlar två informationsägare, en processägare och tre linjechefer, alla olika personer. Teknisk chef äger processen, och områdeskontoren utför den under var sin chef. Processen läser Hyresgäst, som uthyrningschefen äger, och skriver Felanmälan, som chefen för kundcenter äger.
+Processen Åtgärda en felanmälan samlar två informationsägare, en processägare och tre linjechefer, alla olika personer. Teknisk chef äger processen, och områdeskontoren utför den under var sin chef. Processen läser Hyresgäst, som uthyrningschefen äger, och skriver Felanmälan, som chefen för kundcenter äger. Hyresgäst skapas i uthyrningschefens lösning, och Felanmälan får objektet därifrån. Teknisk chef håller sig till uthyrningschefens beslut om vad bovärdarna får se. Uthyrningschefen beslutar om Hyresgäst och aldrig om Felanmälan. Är de två oense avgör vd.
 
 ## System
 
