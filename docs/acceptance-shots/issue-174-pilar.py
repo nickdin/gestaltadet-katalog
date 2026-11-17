@@ -24,14 +24,15 @@ MAP_FINDINGS = f'{FOLDER}/Analysfunktionen karta med fynd.drawio.svg'
 STEPS = f'{FOLDER}/Informationskartläggning steg.drawio.svg'
 EXAMPLE = 'docs/exempel/myndigheten-for-foreningsstod.md'
 
-# Pilens text -> relationstypen den är en pil av, slaget av ruta den går från och slaget den går till.
+# Pilens text -> relationstypen den är en pil av, och paren av slag den får gå mellan: från, till.
 RELATION_OF = {
-    'läser': ('C-101', 'Verksamhetsfunktion (C-158)', 'Informationsobjekt (C-060)'),
-    'skriver': ('C-101', 'Verksamhetsfunktion (C-158)', 'Informationsobjekt (C-060)'),
-    'aggregerar': ('C-100', 'Lagringsyta (C-165)', 'Representation (C-085)'),
-    'använder': ('C-095', 'Applikation (C-071)', 'Applikation (C-071)'),
-    'ger form åt': ('C-099', 'Representation (C-085)', 'Informationsobjekt (C-060)'),
-    'tillhandahåller': ('C-099', 'Applikation (C-071)', 'Lagringsyta (C-165)'),
+    'läser': ('C-101', [('Verksamhetsfunktion (C-158)', 'Informationsobjekt (C-060)')]),
+    'skriver': ('C-101', [('Verksamhetsfunktion (C-158)', 'Informationsobjekt (C-060)')]),
+    'aggregerar': ('C-100', [('Lagringsyta (C-165)', 'Representation (C-085)'),
+                             ('Informationsobjekt (C-060)', 'Informationsobjekt (C-060)')]),
+    'använder': ('C-095', [('Applikation (C-071)', 'Applikation (C-071)')]),
+    'ger form åt': ('C-099', [('Representation (C-085)', 'Informationsobjekt (C-060)')]),
+    'tillhandahåller': ('C-099', [('Applikation (C-071)', 'Lagringsyta (C-165)')]),
 }
 
 # Raden under kartan med fynden -> meningen den börjar med.
@@ -122,7 +123,7 @@ def arrows_of(path, cells, example):
             continue
         source, target = title_of(cells, cell.get('source')), title_of(cells, cell.get('target'))
         label = ' '.join(plain(c.get('value')) for c in cells.values() if c.get('parent') == cell_id)
-        concept_id, from_kind, to_kind = RELATION_OF.get(label, (None, None, None))
+        concept_id, allowed = RELATION_OF.get(label, (None, []))
         term = relation_type(concept_id) if concept_id else None
         if term is None:
             fail(f'{path}: pilen {source} -> {target} har texten "{label}", som inte hör till en relationstyp i concepts/')
@@ -130,9 +131,9 @@ def arrows_of(path, cells, example):
         if f'{term} ({concept_id})' not in all_text:
             fail(f'{path}: teckenförklaringen nämner inte {term} ({concept_id})')
         kinds = (kind_of(cells, cell.get('source')), kind_of(cells, cell.get('target')))
-        if kinds != (from_kind, to_kind):
+        if kinds not in allowed:
             fail(f'{path}: pilen {source} -> {target} med texten "{label}" går från {kinds[0]} till {kinds[1]}, '
-                 f'inte från {from_kind} till {to_kind}')
+                 f'inte mellan {allowed}')
         lines.append(f'{source} --[{label}: {term} ({concept_id})]--> {target}')
     for _kind, name, _text in boxes_of(cells):
         if name.lower() not in example.lower():

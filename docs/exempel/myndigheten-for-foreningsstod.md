@@ -60,7 +60,7 @@ Beslutslogiken är de regler som ger utfallet ur indata. Verksamhetsbidragets st
 - **Kontonummer**: föreningens konto för utbetalning. Känslig.
 - **Ansökan**, **Redovisning**: det föreningen lämnar in. Intern tills beslut.
 - **Beslut**: bifall, delvis bifall, avslag, återkrav. Öppen när det är fattat, allmän handling.
-- **Utbetalning**, **Återkrav**: beloppet och dess väg.
+- **Utbetalning**, **Återkrav**: beloppet och dess väg. Utbetalning är intern.
 - **Tillsynsärende**: anmälan, granskning, utfall.
 
 Chefen för Bidragsenheten är informationsägare för Ansökan, Redovisning, Beslut, Utbetalning och Återkrav. Chefen för Register- och tillsynsenheten är det för Förening, Företrädare, Kontonummer och Tillsynsärende. Informationsägaren beslutar klassningen och vad som får göras med informationen. Förteckningen över alla företrädare är känsligare än varje företrädare för sig.
@@ -143,7 +143,7 @@ Analysfunktionen är kartlagd med arbetssättet Informationskartläggning. Fyra 
 - **Offentlighet och arkiv: en bedömning.** Informationshanteringsplanen har ingen rad för kopiorna i datalagret, och ingen gallrar dem. Myndigheten har ingen regel om kopior. Chefen för Analysenheten bedömer fyndet som en risk: kopiorna kan ligga kvar när originalen är gallrade.
 - **Informationsförsörjning: en bedömning.** Datalagret hämtar Förening ur Ärendesystemet och inte ur Föreningsregistret, som är källan. Antalet medlemmar skiljer sig därför ibland mellan datalagret och registret. Myndigheten har ingen regel om att en kopia hämtas ur källan. Den som har arkitekturansvaret bedömer fyndet som en svaghet, eftersom skillnaden redan finns.
 
-En skillnad är inget fynd. Utbetalningar per kommun är öppen, fast Analysenheten har satt samman den ur känsligare objekt. En summering får klassas lägre än sina delar. Förteckningen över alla företrädare visar det omvända: den är känsligare än varje företrädare för sig.
+En skillnad är inget fynd. Analysenheten har satt samman Utbetalningar per kommun ur Utbetalning och Förening. Utbetalningar per kommun är öppen, fast Utbetalning är intern. En summering får klassas lägre än sina delar. Förteckningen över alla företrädare visar det omvända: den är känsligare än varje företrädare för sig.
 
 Kartläggningen är klar först när varje fynd har ett beslut. Den som har mandatet beslutar att åtgärda fyndet eller att leva med det.
 

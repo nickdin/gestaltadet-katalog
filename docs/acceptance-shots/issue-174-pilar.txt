@@ -11,7 +11,7 @@ FALLER:
 - layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: går inte att läsa som redigerbar ritning (FileNotFoundError)
 
 Efter ändringen (slutkod 0):
-Pilar i layout/Exempel/Analysfunktionen karta.drawio.svg: 17
+Pilar i layout/Exempel/Analysfunktionen karta.drawio.svg: 19
 Analysfunktionen --[läser: har åtkomst till (C-101)]--> Ansökan
 Analysfunktionen --[läser: har åtkomst till (C-101)]--> Beslut
 Analysfunktionen --[läser: har åtkomst till (C-101)]--> Förening
@@ -29,8 +29,10 @@ Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Företrädare
 Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Utbetalning
 Myndighetens analysplattform --[använder: använder (C-095)]--> Ärendesystemet
 Myndighetens analysplattform --[tillhandahåller: associeras med (C-099)]--> Datalagret
+Utbetalningar per kommun --[aggregerar: aggregerar (C-100)]--> Förening
+Utbetalningar per kommun --[aggregerar: aggregerar (C-100)]--> Utbetalning
 
-Pilar i layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: 17
+Pilar i layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: 19
 samma pilar som kartan utan fynd
 samma 15 rutor med samma text som kartan utan fynd
 
@@ -39,7 +41,7 @@ row-1: 3 av 3 meningar står ordagrant i exemplet
 row-2: 3 av 3 meningar står ordagrant i exemplet
 row-3: 2 av 2 meningar står ordagrant i exemplet
 row-4: 2 av 2 meningar står ordagrant i exemplet
-row-5: 3 av 3 meningar står ordagrant i exemplet
+row-5: 4 av 4 meningar står ordagrant i exemplet
 
 HÅLLER: varje pil har en relationstyp som katalogen har, och fynden är exemplets.
 
