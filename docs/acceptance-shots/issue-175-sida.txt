@@ -7,11 +7,11 @@ På basen 342072d, före ändringen (slutkod 1):
 FALLER:
 - docs/informationskartlaggning.md: sidan saknas
 - settings.yaml: docs/informationskartlaggning.md står inte under documents:
-- docs/informationskartlaggning.md: C-019 är inte länkat
-(och 23 rader till: de övriga fjorton begreppen, de sju stegen, de fyra huvudfrågorna, listan över fynd och de tre ritningarna)
+- docs/informationskartlaggning.md: Styrbeslut (C-019) är inte länkat
+(och 26 rader till: de övriga fjorton begreppen, de sju stegen, de fyra huvudfrågorna, listan över fynd och de tre ritningarna)
 
 Efter ändringen (slutkod 0):
-Länkade begrepp på docs/informationskartlaggning.md: 25
+Länkade begrepp på docs/informationskartlaggning.md: 28
 C-015 Styrmedel
 C-019 Styrbeslut
 C-020 Regel
@@ -20,10 +20,13 @@ C-060 Informationsobjekt
 C-071 Applikation
 C-085 Representation
 C-107 Kartläggning
+C-117 Arkitekturansvar
 C-130 Verksamhetsprocess
 C-157 Verksamhetsbeteende
 C-158 Verksamhetsfunktion
 C-160 Handläggning
+C-163 Behandlingsändamål
+C-164 Rättslig grund
 C-165 Lagringsyta
 C-167 Informationsägare
 C-168 Behandling

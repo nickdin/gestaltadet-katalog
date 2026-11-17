@@ -80,7 +80,9 @@ for target in re.findall(r'\[\[([^\]|]+)(?:\|[^\]]*)?\]\]', page):
 
 for concept_id in REQUIRED:
     if concept_id not in linked:
-        fail(f'{PAGE}: {concept_id} är inte länkat')
+        files = glob.glob(f'concepts/{concept_id} *.md')
+        term = os.path.basename(files[0]).removesuffix('.md').partition(' ')[2] if files else 'okänt begrepp'
+        fail(f'{PAGE}: {term} ({concept_id}) är inte länkat')
 
 steps = re.findall(r'^## Steg (\d)', page, re.M)
 if steps != [str(number) for number in range(1, 8)]:
@@ -98,10 +100,13 @@ for perspective, question in questions:
         fail(f'{PAGE}: huvudfrågan för {perspective} står inte som i beslut 55: {plain}')
 
 example = without_links(open(EXAMPLE, encoding='utf-8').read())
-finding_lines = [without_links(line[2:]) for line in page.split('\n')
-                 if line.startswith('- **') and any(opening in without_links(line) for opening in FINDING_OPENS_WITH)]
-if len(finding_lines) != 4:
-    fail(f'{PAGE}: listan över exemplets fynd har {len(finding_lines)} punkter, väntade fyra')
+list_items = [without_links(line[2:]) for line in page.split('\n') if line.startswith('- ')]
+finding_lines = []
+for opening in FINDING_OPENS_WITH:
+    opened = [item for item in list_items if item.startswith(opening)]
+    if len(opened) != 1:
+        fail(f'{PAGE}: {len(opened)} punkter börjar med "{opening}", väntade en')
+    finding_lines += opened
 checked = 0
 for line in finding_lines:
     for sentence in sentences(line):
@@ -112,7 +117,7 @@ for line in finding_lines:
 for drawing in DRAWINGS:
     if not os.path.exists(f'layout/Exempel/{drawing}.drawio.svg'):
         fail(f'layout/Exempel/{drawing}.drawio.svg: ritningen saknas')
-    if drawing not in page:
+    if f'**{drawing}**' not in page:
         fail(f'{PAGE}: ritningen {drawing} nämns inte')
 
 if failures:
