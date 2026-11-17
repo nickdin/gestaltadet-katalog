@@ -40,6 +40,8 @@ Saknas något av dem har rollen befogenheten men kan inte bära ansvaret. Beslut
 
 Ett ansvar är komplett när ägaren håller allt som måste vägas mot vartannat för att nå utfallet. Hålls två sådana saker av olika ägare kan ingen av dem väga. Då avgör den närmaste ägare som håller båda. Varje ofullständigt ansvar flyttar på så sätt beslut uppåt. Blir de många styrs verksamheten centralt utan att någon har valt det, se Centralisering ([[C-220 Centralisering]]). Ägaren högst upp hinner inte möta alla lägen, se Komplexitet ([[C-219 Komplexitet]]). Därför ska snittet mellan två ansvar gå där kopplingen ([[C-211 Koppling]]) är lös. Beslut 49.
 
+Tvärfunktionellt ansvar är inget eget begrepp. Ordet betyder en av tre saker. Det kan vara ett mandat för en aspekt ([[C-006 Aspektbaserad styrning]]): rollen fastställer regler för alla och ger råd i fallen, och svarar för reglerna men inte för utfallet. Det kan vara ett ansvar för ett omslutande styrobjekt med ram och mandat, och då är det vanligt ägande. Oftast betyder det ett ansvar för ett utfall utan ram och mandat. Rollen svarar då för något den inte får besluta om, och det är ett fynd. Det som fungerar tvärs över enheterna är det första. Beslut 56.
+
 ## Motsvarigheter
 
 Att en roll har befogenheten men inte kan bära ansvaret är vad som händer i pm3:s objektstyrning ([[C-048 Objektstyrning]]): objektägaren från verksamheten svarar för lösningen, IT håller ramen och forumet beslutar. Beslut 36.

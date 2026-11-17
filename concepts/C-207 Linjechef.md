@@ -32,6 +32,8 @@ Linjechefen svarar i en verksamhetsdomäns ([[C-008 Verksamhetsdomän]]) produkt
 
 Ett begrepp, ingen elementtyp: i lagret är linjechefen chefen för den organisationsenhet ([[C-121 Organisationsenhet]]) som tilldelas ([[C-096 tilldelas]]) beteendet som utförare, och ansvaret läses ur den relationen. Mandatet ([[C-189 Mandat]]) följer av positionen, och linjechefen fastställer ([[C-183 fastställs av]]) det arbetsordningen ger hen att fastställa. Chef och enhetschef är tillåtna termer. Beslut 35.
 
+När ett team ([[C-123 Team]]) utför beteendet finns ingen enhet att läsa linjechefen ur. Då svarar varje medlems egen chef för sin medarbetares del, eftersom den chefen beslutar om medarbetarens tid. Teamets ledare svarar för det faktiska arbetet bara inom en fast ram ([[C-210 Ram]]) som den som står över cheferna har satt, till exempel 40 procent av en arkitekts tid i verksamhetsplanen. En överenskommelse som en chef kan säga upp ensam är ingen ram. Beslut 56.
+
 ## Exempel
 
 chefen för områdeskontoret vars bovärdar utför Åtgärda en felanmälan; chefen för Bidragsenheten, som också är processägare och informationsägare.
