@@ -2,7 +2,7 @@
 
 Metoden börjar i en karta och slutar i beslut.
 
-Informationskartläggning är ett [[C-196 Arbetssätt|arbetssätt]] för den som vill förbättra hur en verksamhet hanterar sin information. Verksamheten kartläggs en gång. Sedan går fyra perspektiv igenom samma karta: informationssäkerhet, dataskydd, offentlighet och arkiv, informationsförsörjning. Varje brist blir ett fynd, och varje fynd får ett beslut. Nicklas beslutade 17 november 2026 att metoden ska finnas (beslut 55).
+Informationskartläggning är ett [[C-196 Arbetssätt|arbetssätt]] för den som vill förbättra hur en verksamhet hanterar sin information. Verksamheten kartläggs en gång. Sedan går fyra perspektiv igenom samma karta: informationssäkerhet, dataskydd, offentlighet och arkiv, informationsförsörjning. Varje brist blir ett fynd, och varje fynd får ett beslut. Metoden står i beslut 55.
 
 Ett varv gäller ett beteende och har sju steg. Steg 1 till 3 är en [[C-107 Kartläggning|kartläggning]]. Steg 4 till 7 går igenom kartan och slutar i beslut. Sidan följer ett exempel genom alla steg: analysfunktionen hos Myndigheten för föreningsstöd, en påhittad myndighet som fördelar statsbidrag till ideella föreningar.
 
@@ -14,7 +14,7 @@ Exempel: Myndigheten för föreningsstöd väljer analysfunktionen. Handläggnin
 
 ## Steg 2: intervjua dem som utför beteendet
 
-En arkitekt leder varvet och håller kartan. De som utför beteendet beskriver i intervjuer vad de gör. Samma intervju fångar fyra saker:
+En arkitekt leder varvet och håller kartan. Arkitekten intervjuar dem som utför beteendet, och de beskriver vad de gör. I samma intervju fångar arkitekten fyra saker:
 
 - [[C-060 Informationsobjekt|informationsobjekten]], till exempel Ansökan och Företrädare
 - [[C-085 Representation|representationerna]], till exempel en Excelfil
@@ -96,7 +96,7 @@ Det som ändrar kartan skrivs in i kartan. Ett perspektiv kan hitta ett nytt obj
 
 ## Förslag till följdfrågor
 
-Följdfrågorna under varje huvudfråga är inte beslutade. Frågorna här är ett förslag, och Nicklas avgör dem.
+Följdfrågorna under varje huvudfråga är förslag. De är inte fastställda.
 
 ### Informationssäkerhet
 

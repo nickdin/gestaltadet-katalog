@@ -1,6 +1,6 @@
 # Lagar katalogen bygger på
 
-Katalogen är inte neutral. Den finns till för att en verksamhets styrning ska bli livskraftig. Sex lagar och regler ur cybernetiken och systemkonstruktionen bär resonemangen. De är inga begrepp i katalogen. De är skälen bakom den. Varje post säger vad lagen säger, var den kommer ifrån och vad i katalogen som vilar på den. Nicklas beslutade 13 november 2026 att sidan ska finnas (beslut 49).
+Katalogen är inte neutral. Den finns till för att en verksamhets styrning ska bli livskraftig. Sex lagar och regler ur cybernetiken och systemkonstruktionen bär resonemangen. De är inga begrepp i katalogen. De är skälen bakom den. Varje post säger vad lagen säger, var den kommer ifrån och vad i katalogen som vilar på den. Sidan finns enligt beslut 49.
 
 ## Ashbys lag: styrningen måste rymma lika många lägen som det styrda
 
