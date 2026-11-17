@@ -6,7 +6,7 @@ terms:
     language: sv
     status: preferred
     source: concept new
-definition: roll som ytterst ansvarar för ett informationsobjekt och beslutar hur det klassas och får behandlas
+definition: roll som ansvarar för ett informationsobjekt och beslutar hur det klassas och får behandlas
 kind: element-type
 generic: '[[C-074 Roll]]'
 associative:
@@ -15,7 +15,7 @@ associative:
 ---
 # C-167 Informationsägare
 
-**Definition:** roll som ytterst ansvarar för ett informationsobjekt och beslutar hur det klassas och får behandlas
+**Definition:** roll som ansvarar för ett informationsobjekt och beslutar hur det klassas och får behandlas
 
 ## Anmärkning
 
