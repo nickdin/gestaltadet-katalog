@@ -46,6 +46,6 @@ Grillningen gick tre rundor (4 + 4 + 3 frågor) i ärendet #176. Nicklas prövad
 
 - Team (`C-123`), Linjechef (`C-207`) och Ansvar (`C-209`) får tillägg i anmärkningen. Ingen definition är ändrad.
 - `docs/exempel/myndigheten-for-foreningsstod.md` får teamet Arkitekterna med fast ram: en huvudarkitekt hos IT-chefen och två arkitekter i två andra enheter, 40 procent var i verksamhetsplanen. Det är exemplets virtuella funktion som inte är ett fynd. Fyndet av samma slag finns hos Brinkstadsbostäder, i bovärdarna.
-- Exemplet låter IT-chefen vara lösningsägare för Arkitekturstödet. Det avgjordes inte i grillningen.
+- Huvudarkitekten, som ofta kallas chefsarkitekt, är lösningsägare för Arkitekturstödet i exemplet. Nicklas avgjorde det efter grillningen.
 - Controllern står bara i det här beslutet, inte i exemplet.
 - Ärendet #176 stängs. Ärendena #11, #65 och #154 rör samma begrepp och står kvar.
