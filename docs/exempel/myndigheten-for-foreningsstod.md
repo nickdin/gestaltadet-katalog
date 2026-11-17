@@ -112,6 +112,12 @@ Tillsyn är en domän inuti Registerföring och tillsyn. Chefen för enheten har
 
 Verksamhetsstöd är en enhet men ingen domän. IT, HR, ekonomi, juridik och kommunikation sitter där. Enheten har ingen chef. IT-chefen, HR-chefen och cheferna för ekonomi, juridik och kommunikation rapporterar till generaldirektören. Vill IT ha en tekniker till för supporten av Ärendesystemet och HR en rekryterare till, väger generaldirektören dem mot varandra. Det är rätt plats, för IT och HR är två domäner och ingen under generaldirektören håller båda. Ordningen är alltså inte fel i sig. Om den håller beror på hur många avvägningar som kommer, och det visar avsnittet Livskraft. Ekonomi, juridik och kommunikation är grupper i enheten utan egen domän. Ekonomichefens rätt att fastställa regler för hela myndigheten är styrning av en aspekt och kräver ingen domän.
 
+Myndigheten har tre arkitekter i tre enheter. Huvudarkitekten är anställd hos IT-chefen. En arkitekt är anställd på Bidragsenheten och en på Register- och tillsynsenheten. Tillsammans är de teamet Arkitekterna, som utför funktionen Ge arkitekturråd. I dagligt tal heter det arkitekturfunktionen. Huvudarkitekten är processägare och beslutar om arbetssättet: vilken mall ett råd skrivs i, och att en andra arkitekt granskar varje råd. IT-chefen är lösningsägare för Arkitekturstödet.
+
+Generaldirektören har skrivit i verksamhetsplanen att de två arkitekterna i enheterna arbetar 40 procent var åt huvudarkitekten. Det är en ram, och huvudarkitekten håller den. Granskningen kostar fyra timmar i veckan och ryms i de 40 procenten, så huvudarkitekten beslutar om den själv. Vill chefen för Bidragsenheten ha tillbaka sin arkitekt på heltid under ansökningsomgången går hen till generaldirektören. Lämnar arkitekten ett råd om Ärendesystemet för sent svarar huvudarkitekten för det, eftersom tiden var hens. Arkitekterna är fortfarande anställda i sina enheter, och enhetscheferna beslutar om de övriga 60 procenten. Teamet är alltså ingen enhet. Här går arbetet tvärs över enheterna, och ingen avvägning blir utan ägare.
+
+Huvudarkitekten har också generaldirektörens mandat att fastställa arkitekturregler för hela myndigheten, som ekonomichefen har för ekonomin. Det är ett annat uppdrag. Bidragsenheten vill bygga den nya e-tjänsten för redovisning vid sidan av Föreningsportalen. Huvudarkitekten anser att det bryter mot Gemensamt före eget. Beskedet är ett råd. Chefen för Bidragsenheten äger lösningen och beslutar.
+
 ## Livskraft
 
 Bidragsgivningen klarar sin vardag själv. Chefen för Bidragsenheten håller både utformningen och produktionen och båda slagen av ram. Hen väger själv i dag mot i morgon: två handläggare till, eller nya mallar. Generaldirektören väger för hela myndigheten, till exempel support för Föreningsregistret mot automatisk beräkning. Balansen finns alltså på båda nivåerna.
@@ -171,6 +177,7 @@ Myndigheten står för förvaltningens mekanik. Hämta härifrån exempel på:
 - lagringsyta (C-165) med datalagret och Analysenhetens grupprum
 - arbetssättet Informationskartläggning med analysfunktionen: fyra fynd, ett per perspektiv, och en skillnad som inte är ett fynd
 - informationsägare (C-167), processägare (C-206) och linjechef (C-207) i en och samma person
+- team (C-123) som utför en verksamhetsfunktion (C-158) tvärs över enheterna, med Arkitekterna: en fast ram (C-210) i verksamhetsplanen, och huvudarkitektens två uppdrag
 - lösning (C-055) med Ansökningshandläggningen och Föreningsregistret som leveransprodukt (C-174) i lös koppling (C-211)
 - ansvar (C-209) och ram (C-210) hos Bidragsenhetens chef
 - delegation (C-214) i arbetsordningen: ett styrobjekt till Bidragsenhetens chef, beslutanderätt i ärenden och vidaredelegation
