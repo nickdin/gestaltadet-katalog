@@ -1,0 +1,53 @@
+Ärende #174: tre diagram för Informationskartläggning, prov kört 2026-11-17 från lagrets rot.
+
+Kommando 1: python3 docs/acceptance-shots/issue-174-pilar.py
+If wrong (en ritning saknas, en pil saknar relationstyp i concepts/ eller går mellan fel slags rutor, kartorna har olika pilar eller rutor, eller en rad under kartan säger något exemplet inte säger): slutkod 1 och raden FALLER.
+
+På basen 843e6c3, före ändringen (slutkod 1):
+FALLER:
+- settings.yaml: layout/Exempel står inte under drawings:
+- layout/Exempel/Informationskartläggning steg.drawio.svg: går inte att läsa som redigerbar ritning (FileNotFoundError)
+- layout/Exempel/Analysfunktionen karta.drawio.svg: går inte att läsa som redigerbar ritning (FileNotFoundError)
+- layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: går inte att läsa som redigerbar ritning (FileNotFoundError)
+
+Efter ändringen (slutkod 0):
+Pilar i layout/Exempel/Analysfunktionen karta.drawio.svg: 17
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Ansökan
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Beslut
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Förening
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Företrädare
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Utbetalning
+Analysfunktionen --[skriver: har åtkomst till (C-101)]--> Riskindikator per förening
+Analysfunktionen --[skriver: har åtkomst till (C-101)]--> Utbetalningar per kommun
+Datalagret --[aggregerar: aggregerar (C-100)]--> Kopiorna i datalagret
+Excelfil --[ger form åt: associeras med (C-099)]--> Riskindikator per förening
+Grupprummet --[aggregerar: aggregerar (C-100)]--> Excelfil
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Ansökan
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Beslut
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Förening
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Företrädare
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Utbetalning
+Myndighetens analysplattform --[använder: använder (C-095)]--> Ärendesystemet
+Myndighetens analysplattform --[tillhandahåller: associeras med (C-099)]--> Datalagret
+
+Pilar i layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: 17
+samma pilar som kartan utan fynd
+samma 15 rutor med samma text som kartan utan fynd
+
+Rader under kartan med fynden: 5
+row-1: 3 av 3 meningar står ordagrant i exemplet
+row-2: 3 av 3 meningar står ordagrant i exemplet
+row-3: 2 av 2 meningar står ordagrant i exemplet
+row-4: 2 av 2 meningar står ordagrant i exemplet
+row-5: 3 av 3 meningar står ordagrant i exemplet
+
+HÅLLER: varje pil har en relationstyp som katalogen har, och fynden är exemplets.
+
+Kommando 2: interlingua publish . <tom mapp>, sedan rubrikerna h2 och antalet h3 i drawings/index.html.
+If wrong (mappen lästes inte ur drawings:): sidan har fyra grupper och 18 ritningar, som på basen.
+Read back på basen 843e6c3 (h2): Styrning, Arkitektur, Principer, Information. (h3): 18 ritningar.
+Read back efter ändringen (h2): Styrning, Arkitektur, Principer, Information, Exempel. (h3): 21 ritningar.
+Read back (h3 under Exempel): Analysfunktionen karta, Analysfunktionen karta med fynd, Informationskartläggning steg.
+
+Kommando 3: interlingua check .
+Read back: check: 210 files, no violations
