@@ -50,7 +50,7 @@ Något en beskrivning säger som hör hemma i en ruta på en canvas och inte nam
 ### Vad beskrivningar beskriver
 
 **Arkitekturobjekt (C-032)**:
-Den verksamhet, verksamhetsdomän eller lösning en beskrivning handlar om. Varje arkitekturobjekt är ett styrobjekt, Styrobjekt (C-003), det en styrning gäller. Ett arkitekturobjekt är alltså ett styrobjekt som en arkitektur handlar om, eftersom arkitekturarbetet finns för att styrningen av det ska fungera bättre.
+Den verksamhet, verksamhetsdomän eller lösning en beskrivning handlar om. Varje arkitekturobjekt är ett styrobjekt, Styrobjekt (C-003), det en styrning gäller. Ett arkitekturobjekt är ett styrobjekt som har en utformning, och arkitekturarbetet finns för att styrningen av det ska fungera bättre. En portfölj och ett initiativ är styrobjekt men har ingen utformning och därför ingen arkitektur (beslut 59).
 
 **Styrmedelselement**:
 Ett element av någon av styrmedelstyperna (ändamål, mål, princip, arkitekturprincip, styrbeslut, regel, krav, påverkan, bedömning) eller av bärare, det dokument styrmedlen, ändamålen och bedömningarna är skrivna i. Styrmedel (C-015) namnger familjen i katalogen och är aldrig självt en typ: ingen skriver ett styrmedel, man skriver en princip eller en regel. Typen kan ange vilka slags beskrivningar som fastställer den (`decided_by` på styrmedelstypens begrepp, en lista av beskrivningsslag). Markeringen är en spärr: en beskrivning av annat slag får lista elementet utan att fastställa det, och ett styrmedel som fastställs genom sin bärare berörs inte. Katalogen markerar princip och arkitekturprincip så, med referensarkitekturen som enda slag.

@@ -2,6 +2,8 @@
 
 *Meningen att arkitekturprincipen beslutas genom att ingå i en antagen referensarkitektur gäller inte längre som enda väg. En arkitekturprincip får stå i vilken fastställd bärare som helst (beslut 43).*
 
+*Definitionen av Arkitektur (`C-031`) i det här beslutet är ersatt. Den säger nu också vilka arkitekturobjekt objektet delas in i (beslut 59).*
+
 Beslutat av Nicklas 5 november 2026, när en granskning av katalogen hade hittat begrepp som sade emot varandra. Beslutet avgör de fynd som gällde styrmedlen och arkitekturbegreppen. Tre fynd sköts till egna ärenden: Metodstyrning (`C-051`), Metamodell (`C-039`) och vad en bra princip är.
 
 ## Sammanhang
