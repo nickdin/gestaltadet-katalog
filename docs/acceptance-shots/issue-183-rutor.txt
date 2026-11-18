@@ -120,3 +120,57 @@ layout/Arkitektur/Arkitektur beskrivningens form.drawio.svg
 layout/Arkitektur/Arkitektur kedjan.drawio.svg
 layout/Arkitektur/Arkitektur dimensioner.drawio.svg
 layout/Principer/Begreppsmodell arkitekturprinciper.drawio.svg
+
+Efter ändringen, grenen issue-183-rutornas-definitioner vid 58b5f97.
+
+Kommando 1: python3 docs/acceptance-shots/issue-183-rutor.py
+Read back (grenen 58b5f97): slutkod 0, 0 avvikelser i den inbäddade ritningen och 0 i bilden, 13 definitionstexter ändrade i nio ritningar, 0 pilar ändrade. Hela utskriften:
+1 och 2. Rutorna mot begreppsfilerna, i den inbäddade ritningen och i bilden
+räknas inte, id:t är inget begrepp i lagret: layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: 15 rutor (Applikation (C-071), Informationsobjekt (C-060), Lagringsyta (C-165), Representation (C-085), Verksamhetsfunktion (C-158))
+räknas inte, id:t är inget begrepp i lagret: layout/Exempel/Analysfunktionen karta.drawio.svg: 15 rutor (Applikation (C-071), Informationsobjekt (C-060), Lagringsyta (C-165), Representation (C-085), Verksamhetsfunktion (C-158))
+räknas inte, id:t är inget begrepp i lagret: layout/Exempel/Informationskartläggning steg.drawio.svg: 9 rutor (Steg 1, Steg 2, Steg 3, Steg 4 - genomgång, Steg 5, Steg 6)
+räknas inte, id:t är inget begrepp i lagret: layout/Styrning/Styrobjekt begreppsmodell.drawio.svg: 2 rutor (C-009, C-010)
+rutor med id och definition: 189, varav 148 för begrepp som finns i lagret
+avvikelser i den inbäddade ritningen: 0
+avvikelser i bilden: 0
+
+3. De nio ritningarna cell för cell mot facit ur ae1b984
+layout/Arkitektur/Arkitektur beskrivningens form.drawio.svg: 108 celler, 1 definitionstexter ändrade, 0 celler med ändrat läge eller ändrad storlek, 0 pilar ändrade, 0 celler tillagda, 0 borttagna, 0 andra ändringar
+    ändrad text: 5-def
+layout/Arkitektur/Arkitektur dimensioner.drawio.svg: 139 celler, 2 definitionstexter ändrade, 1 celler med ändrat läge eller ändrad storlek, 0 pilar ändrade, 0 celler tillagda, 0 borttagna, 0 andra ändringar
+    ändrad text: 5-def, 7-def
+    ändrat läge eller ändrad storlek: 7-def
+layout/Arkitektur/Arkitektur kedjan.drawio.svg: 125 celler, 1 definitionstexter ändrade, 0 celler med ändrat läge eller ändrad storlek, 0 pilar ändrade, 0 celler tillagda, 0 borttagna, 0 andra ändringar
+    ändrad text: 15-def
+layout/Arkitektur/Arkitekturnivå.drawio.svg: 81 celler, 1 definitionstexter ändrade, 0 celler med ändrat läge eller ändrad storlek, 0 pilar ändrade, 0 celler tillagda, 0 borttagna, 0 andra ändringar
+    ändrad text: g-los-def
+layout/Information/Verksamhetsinformation begreppsmodell.drawio.svg: 153 celler, 1 definitionstexter ändrade, 0 celler med ändrat läge eller ändrad storlek, 0 pilar ändrade, 0 celler tillagda, 0 borttagna, 0 andra ändringar
+    ändrad text: g11-def
+layout/Principer/Begreppsmodell arkitekturprinciper.drawio.svg: 269 celler, 2 definitionstexter ändrade, 1 celler med ändrat läge eller ändrad storlek, 0 pilar ändrade, 0 celler tillagda, 0 borttagna, 0 andra ändringar
+    ändrad text: 54-def, 58-def
+    ändrat läge eller ändrad storlek: 58-def
+layout/Styrning/Mandat och ansvar begreppsmodell.drawio.svg: 111 celler, 3 definitionstexter ändrade, 0 celler med ändrat läge eller ändrad storlek, 0 pilar ändrade, 0 celler tillagda, 0 borttagna, 0 andra ändringar
+    ändrad text: 34-def, 38-def, d-def
+layout/Styrning/Målstyrning begreppsmodell.drawio.svg: 110 celler, 1 definitionstexter ändrade, 1 celler med ändrat läge eller ändrad storlek, 0 pilar ändrade, 0 celler tillagda, 0 borttagna, 0 andra ändringar
+    ändrad text: g3-def
+    ändrat läge eller ändrad storlek: g3-def
+layout/Styrning/Styrobjekt begreppsmodell.drawio.svg: 83 celler, 1 definitionstexter ändrade, 1 celler med ändrat läge eller ändrad storlek, 0 pilar ändrade, 0 celler tillagda, 0 borttagna, 0 andra ändringar
+    ändrad text: 11-def
+    ändrat läge eller ändrad storlek: 11-def
+otillåtna ändringar mot facit: 0
+
+HÅLLER: varje ruta bär begreppets definition, och bara definitionstexter, lägen och storlekar skiljer mot facit.
+
+Kommando 2: grep -l "styrobjekt som en arkitektur avser" -r layout
+Read back (grenen 58b5f97): ingen rad, slutkod 1.
+
+Kommando 3: (IFS=$'\n'; grep -L "vilka arkitekturobjekt det delas in i och de principer som styr hur det realiseras" $(grep -l "de principer som styr hur det realiseras" -r layout))
+Read back (grenen 58b5f97): ingen rad, slutkod 1. Den inre sökningen hittar fortfarande fyra ritningar, och alla fyra bär den nya definitionen.
+
+Kommando 4: varje ändrad ruta läst i bilden. Varje ritnings bild visades i /usr/bin/chromium --headless --screenshot, tre gånger förstorad och beskuren till rutan med 50 punkter runt om, och de tretton bilderna lästes.
+If wrong (en ruta är för liten för sin text, eller en ruta har vuxit in i en granne): definitionens sista ord saknas i bilden, eller två rutor ligger på varandra.
+Read back (grenen 58b5f97): i alla tretton rutorna står hela definitionen, och sista raden slutar ovanför rutans nederkant. Arkitektur (C-031) tar fyra rader i fyra ritningar, Lösning (C-055) tre rader i två, Portfölj (C-011) tre rader i två, Koppling (C-211) tre rader, Arkitekturobjekt (C-032) två rader i två, Informationsägare (C-167) två rader och Delegation (C-214) två rader. Ingen ruta har bytt läge eller storlek, så ingen ruta ligger på en annan. Fyra definitionsceller är 11 punkter högre än förut, en rad, och ligger kvar inom sin ruta: 7-def och 58-def för Arkitekturobjekt (C-032) och g3-def och 11-def för Portfölj (C-011).
+
+Kommando 5: interlingua check .
+Read back (bas ae1b984): check: 210 files, no violations
+Read back (grenen 58b5f97): check: 210 files, no violations
