@@ -177,6 +177,24 @@ Två avvägningar, inget eget begrepp. I dag mot i morgon: produktionens ram mot
 **Larmväg**:
 Vägen en akut fara tar rakt upp till ledningen, förbi rapporterna. Nämns i Livskraft (C-216).
 
+### Tillgänglighet och kontinuitet
+
+Ord katalogen använder om de krav processägaren ställer på avbrott. Inget av dem är ett begrepp i katalogen: vart och ett är ett krav (C-021) eller en bärare (C-016) (beslut 58 och 61).
+
+**Tillgänglighet**:
+Krav på paret beteende och informationsobjekt, i två mått: hur länge beteendet klarar sig utan objektet, och hur mycket av objektet som får gå förlorat.
+_Undvik_: tillgänglighet i vanlig drift, återställningspunkt som eget ord
+
+**Kontinuitet**:
+Krav på hela verksamhetsbeteendet: den längsta tid det får stå still, vilken resurs som än faller bort.
+_Undvik_: kris och vanlig drift för att skilja kontinuitet från tillgänglighet, längsta tålbara avbrott som eget ord
+
+**Återställningstid**:
+Krav på en applikation eller en lagringsyta: hur fort den måste vara i bruk igen. Härleds ur kontinuitetskravet på de beteenden som använder resursen, och den kortaste tiden gäller.
+
+**Reservrutin**:
+Bärare som säger hur ett beteende utförs när en resurs är borta. Beteendet är detsamma, och rutinen syns på kartan genom den lagringsyta den skapar.
+
 ### Katalogens begrepp bakom interlinguas ord
 
 Katalogens egna termer (svenska, `C-nnn`) är auktoriteten. De engelska orden nedan är de namn interlinguas kod och dokumentation använder för dem.

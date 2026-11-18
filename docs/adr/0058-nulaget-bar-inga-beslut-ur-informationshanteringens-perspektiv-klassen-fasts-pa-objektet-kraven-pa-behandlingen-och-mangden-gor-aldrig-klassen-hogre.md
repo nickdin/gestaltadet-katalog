@@ -2,6 +2,8 @@
 
 *Beslut 60 ändrar en punkt här. Huvudfrågan i informationssäkerheten är om informationsägaren har tagit ställning till varje objekt på kartan, själv eller genom området. Frågan om en baslinje är avgjord där, med ordet grundnivå.*
 
+*Beslut 61 ändrar en punkt här. Tillgängligheten har två mått: hur länge beteendet klarar sig utan objektet, och hur mycket av objektet som får gå förlorat. Kontinuitet är ett eget krav på hela beteendet.*
+
 Beslutat av Nicklas 18 november 2026, när beslut 57 hade sagt att klassen är densamma i varje beteende och det skavde för tillgängligheten, för samlingar och för känslighet som uppstår i en koppling.
 
 ## Sammanhang
