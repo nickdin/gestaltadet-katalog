@@ -8,6 +8,7 @@ terms:
 definition: relationstyp som anger att något som inte är ett eget element i lagret går från ett arkitekturelement till ett annat
 kind: relation-type
 key: flows_to
+flow: true
 ---
 # C-097 flödar till
 

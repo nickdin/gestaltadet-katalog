@@ -1,0 +1,10 @@
+#114 — flödar till (C-097) markeras flow: true. Kört av våg 2, 2026-11-19.
+
+Fixtur: en kopia av lagret i vågens scratchpad, med tre element skrivna av interlingua: verksamhetsaktiviteterna E-0161 Handlägga ansökan och E-0162 Besluta om stöd, och verksamhetsobjektet E-0163 Ansökan. Handläggningen skriver till ansökan (R-0023), beslutet läser den (R-0024), och en lagrad relation flödar till (C-097) R-0025 går från handläggningen till beslutet. Bara concepts/C-097 flödar till.md skiljer basen från grenen. Provet kör check två gånger på fixturen: som kopian är, och med raden flow: true borttagen ur C-097 i kopian.
+Kommando: python3 docs/acceptance-shots/issue-114-flow.py
+
+If wrong: utan flow: true på C-097 (eller med raden på fel begrepp eller med fel nyckel) känner programmet inte igen flödestypen, och check skriver ingen rad om R-0025: provet slutar med FALLER och slutkod 1.
+Read back (bas 9b3bf8c): "concepts/C-097 flödar till.md bär flow: true: nej"; check på kopian som den är: "(ingen rad om flödet)"; på kopian utan raden: "(ingen rad om flödet)"; slutrad "FALLER: kopian som den är säger inte det en kopia med flow: true ska säga", slutkod 1.
+Read back (gren issue-114-flow): "concepts/C-097 flödar till.md bär flow: true: ja"; check på kopian som den är: "relations/R-0025 Handlägga ansökan flödar till Besluta om stöd.md: information: 'E-0161 Handlägga ansökan' → 'E-0162 Besluta om stöd' is also concluded from 'E-0161 Handlägga ansökan' → 'E-0163 Ansökan' (R-0023) and 'E-0162 Besluta om stöd' → 'E-0163 Ansökan' (R-0024)"; på kopian utan raden: "(ingen rad om flödet)"; slutrad "OK: programmet märker det lagrade flödet, och bara på markeringen", slutkod 0.
+
+check på lagret (inte fixturen), från rotens kopia: basen 9b3bf8c "check: 210 files, no violations"; grenen "check: 210 files, no violations".
