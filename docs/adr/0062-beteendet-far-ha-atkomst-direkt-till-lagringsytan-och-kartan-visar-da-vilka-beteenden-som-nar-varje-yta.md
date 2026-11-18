@@ -10,7 +10,7 @@ Lagret visade att båda beteendena har åtkomst till (`C-101`) Förening och att
 
 Åtkomsten fick gå till ett verksamhetsobjekt (`C-159`), ett informationsobjekt (`C-060`) eller en representation (`C-085`), men inte till en lagringsyta (beslut 31 och 34).
 
-Frågan avgjordes i två rundor i #179, på två fall. Bovärden hos Brinkstadsbostäder utför Åtgärda en felanmälan med jourlistan i pärmen på områdeskontoret. Analysfunktionen hos Myndigheten för föreningsstöd läser Förening i datalagret. Nicklas ställde ett villkor i första rundan: kartan ska själv visa att ett beteende når en lagringsyta, också när ytan är en pärm.
+Frågan avgjordes i två rundor i #179, på två fall. Bovärden hos Brinkstadsbostäder utför Åtgärda en felanmälan med jourlistan i pärmen på områdeskontoret. Analysfunktionen hos Myndigheten för föreningsstöd läser Förening i datalagret. Första rundan gav ett villkor: kartan ska själv visa att ett beteende når en lagringsyta, också när ytan är en pärm.
 
 ## Beslut
 
@@ -35,5 +35,5 @@ Frågan avgjordes i två rundor i #179, på två fall. Bovärden hos Brinkstadsb
 - Anmärkningarna i har åtkomst till (`C-101`) och Lagringsyta (`C-165`) säger det nya, och sidan Informationskartläggning får en följdfråga om vilka beteenden som har åtkomst till lagringsytan. Texterna skrivs in genom #179.
 - Lagringsytan har ingen motsvarighet i ArchiMate (`mapping/archimate.yaml`). Åtkomsten till en yta följer därför inte med i en export dit.
 - Om åtkomsten till ett objekt också når objektets representationer är fortfarande inte avgjort. Den frågan är ärende #35.
-- De två ritningarna av analysfunktionens karta visar ännu inga pilar från beteendet till lagringsytorna. Det får ett eget ärende.
+- De två ritningarna av analysfunktionens karta visar ännu inga pilar från beteendet till lagringsytorna. Det är ärende #185.
 - Beslut 31 och 58 har fått var sin not.

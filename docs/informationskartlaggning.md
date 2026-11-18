@@ -21,6 +21,8 @@ En arkitekt leder varvet och håller kartan. Arkitekten intervjuar dem som utfö
 - [[C-165 Lagringsyta|lagringsytorna]], till exempel ett datalager
 - [[C-071 Applikation|applikationerna]], till exempel Ärendesystemet.
 
+Arkitekten fångar också vilka lagringsytor beteendet använder. På kartan har beteendet åtkomst till var och en av dem.
+
 I intervjun sveper arkitekten också över lagringsytorna. Svepet hittar det som inget beteende når, till exempel en fil som ingen längre använder.
 
 Kartan får börja grovt. Första dagen räcker ett [[C-198 Informationsområde|informationsområde]] med en ägare. Klassen står i klassningsförteckningen, på områdets rad. Kartan förfinas när ett perspektiv kräver det, till exempel när personnumret behöver bli ett eget objekt.
@@ -82,7 +84,7 @@ Verksamheten gör arbetet själv. Specialisterna ger råd och granskar.
 
 - **De som utför beteendet** beskriver vad de gör.
 - **Arkitekten** leder varvet och håller kartan. Arkitekten går också igenom informationsförsörjningen. Frågan om en enda källa går över flera beteenden, och bara kartan visar alla kopior.
-- **Processägaren** bekräftar kartan och ställer kraven på tillgänglighet och spårbarhet för sitt beteende. Processägaren går också igenom dataskydd och offentlighet och arkiv för sitt beteende. Både behandlingen och handlingstypen läses ur beteendet.
+- **Processägaren** bekräftar kartan och ställer kraven på tillgänglighet och spårbarhet för behandlingarna i sitt beteende. Processägaren går också igenom dataskydd och offentlighet och arkiv för sitt beteende. Både behandlingen och handlingstypen läses ur beteendet.
 - **Informationsägaren** klassar sina objekt i konfidentialitet och riktighet och går igenom informationssäkerheten. Informationsägaren för ett resursdataobjekt beslutar om fynden i informationsförsörjningen.
 - **Specialisterna**, till exempel dataskyddsombudet, ger råd och granskar. De gör inte genomgången, för det är inte deras uppdrag.
 - **Den som har mandatet** beslutar om varje fynd.
@@ -97,7 +99,7 @@ Besluten står på andra ställen:
 
 - Klassningsförteckningen säger nivån i konfidentialitet och riktighet för varje objekt. Den pekar på objektet på kartan. Ett objekt har en egen rad, eller så gäller raden för dess informationsområde.
 - Klassningsbeslutet säger varför objektet har nivån, vilken analys som ligger bakom och vilka skydd som är valda. För ett objekt med grundnivån säger beslutet bara att grundnivån räcker, utan analys.
-- Processägarens krav på tillgänglighet och spårbarhet står i en förteckning som pekar på paret beteende och objekt.
+- Förteckningen över kraven på behandlingarna säger processägarens krav på tillgänglighet och spårbarhet. Den pekar på paret beteende och objekt.
 - Registerförteckningen säger ändamål och rättslig grund.
 - Informationshanteringsplanen säger vad som bevaras och vad som gallras.
 
