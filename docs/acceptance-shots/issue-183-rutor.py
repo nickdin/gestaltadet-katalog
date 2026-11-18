@@ -163,7 +163,9 @@ def compare_with_facit():
                 old_attributes.pop('value', None), new_attributes.pop('value', None)
             if old['box'] != new['box']:
                 moved.append(cell_id)
-            # What is left of the geometry once position and size are set aside must be the same.
+            # A changed position or size is only listed above: it never counts as a fault, whichever cell it is on
+            # and however large it is. Only what is left of the geometry once position and size are set aside
+            # must be the same.
             strip = lambda g: re.sub(r' (?:x|y|width|height)="[^"]*"', '', g or '')
             if old_attributes != new_attributes or strip(old['geometry']) != strip(new['geometry']):
                 other.append(cell_id)

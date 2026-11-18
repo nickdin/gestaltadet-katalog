@@ -1,0 +1,82 @@
+Ärende #187: provet för de tretton rutorna visade inte att hela definitionen går att läsa i bilden. Prov kört 2026-11-18 från lagrets rot.
+
+Kommando 1: python3 docs/acceptance-shots/issue-187-rutor-bild.py
+Provet mäter bilden som sajten visar, inte bara den inbäddade draw.io-ritningen. Det visar varje ritnings bild i /usr/bin/chromium --headless och läser måtten där. För var och en av de tretton definitionscellerna jämför provet textens höjd med cellens höjd. Cellen klipper text som går utanför den, så en text som är högre än cellen går inte att läsa hel. Provet prövar också att cellen ligger inom sin ruta, att cellen inte ligger på en annan cell, att rutan inte ligger på en cell utanför den egna gruppen och att cellen har samma mått i bilden som i den inbäddade ritningen.
+Textens höjd läses på två sätt. Det första är höjden som webbläsaren ger texten när den bryter raderna. Det andra är höjden som draw.io mätte när bilden exporterades, alltså höjden på reservbilden som filen bär för varje text. Granskningen i ärendet läste det andra måttet: 45,25, 34,25 och 24,25 punkter.
+Raderna bryts av typsnittet på den dator som visar bilden. Bilden begär Helvetica, och den här datorn visar då Nimbus Sans (fc-match Helvetica). Med ett bredare typsnitt kan en text ta en rad mer.
+If wrong (en cell är för låg för sin text, en cell går utanför sin ruta, en cell eller ruta ligger på en annan, eller bara bilden eller bara den inbäddade ritningen är ändrad): slutkod 1 och raden FALLER, med en rad TEXTEN ÄR HÖGRE ÄN CELLEN, CELLEN GÅR UTANFÖR SIN RUTA, CELLEN LIGGER PÅ EN ANNAN CELL, RUTAN LIGGER PÅ EN ANNAN CELL eller BILDEN OCH DEN INBÄDDADE RITNINGEN HAR OLIKA MÅTT för varje fel.
+
+Read back (grenen c74238c): slutkod 0, inget fel. Hela utskriften:
+layout/Arkitektur/Arkitektur beskrivningens form.drawio.svg: Arkitektur (C-031), cell 5-def: texten är 43,19 hög i webbläsaren och 45,25 i reservbilden, cellen är 48 hög
+layout/Arkitektur/Arkitektur dimensioner.drawio.svg: Arkitektur (C-031), cell 5-def: texten är 43,19 hög i webbläsaren och 45,25 i reservbilden, cellen är 48 hög
+layout/Arkitektur/Arkitektur dimensioner.drawio.svg: Arkitekturobjekt (C-032), cell 7-def: texten är 21,59 hög i webbläsaren och 24,25 i reservbilden, cellen är 26 hög
+layout/Arkitektur/Arkitektur kedjan.drawio.svg: Arkitektur (C-031), cell 15-def: texten är 43,19 hög i webbläsaren och 45,25 i reservbilden, cellen är 48 hög
+layout/Arkitektur/Arkitekturnivå.drawio.svg: Lösning (C-055), cell g-los-def: texten är 32,39 hög i webbläsaren och 34,25 i reservbilden, cellen är 37 hög
+layout/Information/Verksamhetsinformation begreppsmodell.drawio.svg: Informationsägare (C-167), cell g11-def: texten är 21,59 hög i webbläsaren och 24,25 i reservbilden, cellen är 37 hög
+layout/Principer/Begreppsmodell arkitekturprinciper.drawio.svg: Arkitektur (C-031), cell 54-def: texten är 43,19 hög i webbläsaren och 45,25 i reservbilden, cellen är 48 hög
+layout/Principer/Begreppsmodell arkitekturprinciper.drawio.svg: Arkitekturobjekt (C-032), cell 58-def: texten är 21,59 hög i webbläsaren och 24,25 i reservbilden, cellen är 26 hög
+layout/Styrning/Mandat och ansvar begreppsmodell.drawio.svg: Koppling (C-211), cell 34-def: texten är 32,39 hög i webbläsaren och 34,25 i reservbilden, cellen är 37 hög
+layout/Styrning/Mandat och ansvar begreppsmodell.drawio.svg: Lösning (C-055), cell 38-def: texten är 32,39 hög i webbläsaren och 34,25 i reservbilden, cellen är 37 hög
+layout/Styrning/Mandat och ansvar begreppsmodell.drawio.svg: Delegation (C-214), cell d-def: texten är 21,59 hög i webbläsaren och 24,25 i reservbilden, cellen är 50 hög
+layout/Styrning/Målstyrning begreppsmodell.drawio.svg: Portfölj (C-011), cell g3-def: texten är 32,39 hög i webbläsaren och 34,25 i reservbilden, cellen är 37 hög
+layout/Styrning/Styrobjekt begreppsmodell.drawio.svg: Portfölj (C-011), cell 11-def: texten är 32,39 hög i webbläsaren och 34,25 i reservbilden, cellen är 37 hög
+
+mätta definitionsceller: 13 i 9 ritningar, typsnitt i bilden: Helvetica
+texter högre än cellen: 0
+celler utanför sin ruta: 0
+celler eller rutor som ligger på en annan cell: 0
+celler med olika mått i bilden och i den inbäddade ritningen: 0
+
+HÅLLER: hela definitionen ryms i var och en av de tretton cellerna, och ingen cell eller ruta ligger på en annan.
+
+Read back (bas e1be6e9): slutkod 0, och utskriften är rad för rad densamma som på grenen. Ritningarna är riktiga redan på basen, så provet är en vakt där. Det visas rött först på de två kopiorna nedan.
+
+Kommando 2: samma prov på en kopia av basen e1be6e9 där tre celler är förstörda med flit.
+Kopian är gjord med git clone i en tillfällig mapp. I den inbäddade ritningen ändrades tre mått, och bilden exporterades sedan på nytt med draw.io, på samma sätt som i ärende #183: xvfb-run -a drawio --no-sandbox --disable-gpu --export --format svg --embed-diagram --svg-theme light, och sedan sattes huvudets bakgrund som förut.
+- Arkitektur dimensioner, cell 5-def för Arkitektur (C-031): höjden ändrad från 48 till 37. Cellen är då för låg för sin text.
+- Arkitektur dimensioner, cell 7-def för Arkitekturobjekt (C-032): y ändrat från 48 till 20. Cellen ligger då på cell 45, som bär rutans term.
+- Styrobjekt begreppsmodell, cell 11-def för Portfölj (C-011): y ändrat från 48 till 80. Cellen går då 13 punkter nedanför sin ruta.
+If wrong (provet läser bara den inbäddade ritningen, eller prövar bara textens bredd): slutkod 0 och raden HÅLLER, fast tre celler är förstörda.
+Read back (kopia av bas e1be6e9 med tre celler förstörda): slutkod 1 och FALLER: 4 fel. Texten är högre än cellen på båda sätten att mäta, en cell går utanför sin ruta och en cell ligger på en annan. De tio orörda cellerna ger samma rader som på grenen. Raderna för de tre förstörda cellerna och utskriftens slut:
+layout/Arkitektur/Arkitektur dimensioner.drawio.svg: Arkitektur (C-031), cell 5-def: texten är 43,19 hög i webbläsaren och 45,25 i reservbilden, cellen är 37 hög
+    TEXTEN ÄR HÖGRE ÄN CELLEN i webbläsaren: 43,19 mot 37
+    TEXTEN ÄR HÖGRE ÄN CELLEN i reservbilden: 45,25 mot 37
+layout/Arkitektur/Arkitektur dimensioner.drawio.svg: Arkitekturobjekt (C-032), cell 7-def: texten är 21,59 hög i webbläsaren och 24,25 i reservbilden, cellen är 26 hög
+    CELLEN LIGGER PÅ EN ANNAN CELL: 45 ['816,4', '268', '123,2', '18'], cellen ['772', '270', '212', '26'] (x, y, bredd, höjd)
+layout/Styrning/Styrobjekt begreppsmodell.drawio.svg: Portfölj (C-011), cell 11-def: texten är 32,39 hög i webbläsaren och 34,25 i reservbilden, cellen är 37 hög
+    CELLEN GÅR UTANFÖR SIN RUTA: cellen ['402', '548', '212', '37'], rutan 12 ['390', '468', '236', '104'] (x, y, bredd, höjd)
+
+mätta definitionsceller: 13 i 9 ritningar, typsnitt i bilden: Helvetica
+texter högre än cellen: 2
+celler utanför sin ruta: 1
+celler eller rutor som ligger på en annan cell: 1
+celler med olika mått i bilden och i den inbäddade ritningen: 0
+
+FALLER: 4 fel.
+
+Kommando 3: samma prov på en kopia av basen e1be6e9 där bara bilden är ändrad.
+I Arkitektur kedjan, cell 15-def för Arkitektur (C-031), ändrades cellens höjd i bilden från 48 till 37, både rektangeln och gränsen där texten klipps. Den inbäddade ritningen rördes inte. Det är felet som en läsare lättast missar: den inbäddade ritningen är riktig, men bilden klipper texten.
+If wrong (provet läser bara den inbäddade ritningen): slutkod 0 och raden HÅLLER.
+Read back (kopia av bas e1be6e9 med bara bilden ändrad): slutkod 1 och FALLER: 3 fel. Raderna för den ändrade cellen och utskriftens slut:
+layout/Arkitektur/Arkitektur kedjan.drawio.svg: Arkitektur (C-031), cell 15-def: texten är 43,19 hög i webbläsaren och 45,25 i reservbilden, cellen är 37 hög
+    TEXTEN ÄR HÖGRE ÄN CELLEN i webbläsaren: 43,19 mot 37
+    TEXTEN ÄR HÖGRE ÄN CELLEN i reservbilden: 45,25 mot 37
+    BILDEN OCH DEN INBÄDDADE RITNINGEN HAR OLIKA MÅTT: bilden 212 × 37, klipper vid 37, den inbäddade ritningen 212 × 48
+
+mätta definitionsceller: 13 i 9 ritningar, typsnitt i bilden: Helvetica
+texter högre än cellen: 2
+celler utanför sin ruta: 0
+celler eller rutor som ligger på en annan cell: 0
+celler med olika mått i bilden och i den inbäddade ritningen: 1
+
+FALLER: 3 fel.
+
+Kommando 4: python3 docs/acceptance-shots/issue-183-rutor.py på samma kopia som i kommando 3.
+If wrong (provet för ärende #183 hade fångat en klippt text i bilden): slutkod 1 och raden FALLER.
+Read back (kopia av bas e1be6e9 med bara bilden ändrad): slutkod 0, avvikelser i den inbäddade ritningen: 0, avvikelser i bilden: 0, otillåtna ändringar mot facit: 0 och raden HÅLLER. Det äldre provet ser alltså inte felet, och det nya provet behövs.
+
+Kommando 5: interlingua check .
+Read back (bas e1be6e9): check: 210 files, no violations
+Read back (grenen c74238c med de två rättade texterna): check: 210 files, no violations
+
+Skriven av AI, inte granskad.
