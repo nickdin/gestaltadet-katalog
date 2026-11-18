@@ -1,0 +1,85 @@
+Ärende #193: klarspråksgranskning av de meningar som är nya i beslut 30 sedan ärende #144, gjord 2026-11-19 från katalogens rot.
+
+Granskningen har två delar. Kommando 1 är ett prov som kan falla. Det prövar två regler som går att läsa med ett mönster. Granskningen mening för mening prövar resten av klarsprak-skillens steg 3 och är gjord för hand.
+
+Kommando 1: python3 docs/acceptance-shots/issue-193-klarsprak.py
+Regeln som provet prövar är "en tanke per mening" ur klarsprak-skillen, steg 3, i två mätbara former. A: ingen ny mening hänger på en som-sats efter ett kommatecken. B: ingen ny mening är längre än 25 ord. En mening är ny om den står i beslut 30 nu men inte stod där i commit 9b3bf8c, läget före ärende #144.
+If wrong (en ny mening bär två tankar hopfogade med kommatecken och som, eller är längre än 25 ord): slutkod 1, orden BRYTER MOT på meningens rad och raden FALLER.
+
+På basen 7dd4a06, före ändringen, i en egen klon där provet lagts ovanpå basen (slutkod 1):
+Beslut 30: 8 meningar är nya sedan commit 9b3bf8c, läget före ärende #144.
+1. rad 23, 18 ord, håller A och B: Informationsobjekt (`C-060`) anger att dess ram läses som består av (`C-062`), så ramen behöver ingen märkning i ritningen.
+2. rad 23, 16 ord, BRYTER MOT A, en som-sats efter kommatecken: Relationen går från ramen till rutan inuti, som består av (`C-062`) och aggregerar (`C-100`) redan definierar.
+3. rad 23, 16 ord, håller A och B: Varje ram runt ett informationsobjekt läses som består av, också ett grovt objekt runt sina förfinade.
+4. rad 23, 7 ord, håller A och B: En sammanställning (`C-162`) ritas inte som ram.
+5. rad 23, 21 ord, håller A och B: Katalogens `settings.yaml` sätter `nesting_relation_type: aggregates`, så att alla andra ramar läses som aggregering (lagringsytan runt representationer, beslut 24; lösningen runt komponenter).
+6. rad 40, 14 ord, håller A och B: Interlingua: en ram av en viss typ läses som en viss relation utan märkning.
+7. rad 40, 6 ord, håller A och B: Det är levererat med interlingua #954.
+8. rad 40, 7 ord, håller A och B: Renderingen ritar området som ram ur lagret.
+FALLER: 1 av 8 nya meningar bryter mot regel A eller B.
+Read back (bas 7dd4a06): slutkod 1 och FALLER. Provet pekar ut mening 2, den som ärendet gäller.
+
+På grenen, commit dce95b2, efter ändringen (slutkod 0):
+Beslut 30: 10 meningar är nya sedan commit 9b3bf8c, läget före ärende #144.
+1. rad 23, 18 ord, håller A och B: Informationsobjekt (`C-060`) anger att dess ram läses som består av (`C-062`), så ramen behöver ingen märkning i ritningen.
+2. rad 23, 7 ord, håller A och B: Relationen går från ramen till rutan inuti.
+3. rad 23, 19 ord, håller A och B: Det är samma riktning som definitionerna av består av (`C-062`) och aggregerar (`C-100`) redan har, från helheten till delen.
+4. rad 23, 12 ord, håller A och B: Ramens egen elementtyp avgör hur ramen läses, inte typen på rutan inuti.
+5. rad 23, 17 ord, håller A och B: En ram som är ett informationsobjekt läses som består av, också ett grovt objekt runt sina förfinade.
+6. rad 23, 7 ord, håller A och B: En sammanställning (`C-162`) ritas inte som ram.
+7. rad 23, 21 ord, håller A och B: Katalogens `settings.yaml` sätter `nesting_relation_type: aggregates`, så att alla andra ramar läses som aggregerar (lagringsytan runt representationer, beslut 24; lösningen runt komponenter).
+8. rad 40, 14 ord, håller A och B: Interlingua: en ram av en viss typ läses som en viss relation utan märkning.
+9. rad 40, 6 ord, håller A och B: Det är levererat med interlingua #954.
+10. rad 40, 7 ord, håller A och B: Renderingen ritar området som ram ur lagret.
+HÅLLER: alla 10 nya meningar håller regel A och B.
+Read back (gren dce95b2): slutkod 0 och HÅLLER för alla 10 nya meningar.
+
+Kommando 2: samma prov på en kopia av grenen, commit d092059, där meningen om riktningen är omskriven men fortfarande är en mening: "Relationen går från ramen till rutan inuti, som definitionerna av består av (`C-062`) och aggregerar (`C-100`) redan anger."
+If wrong (provet känner bara igen basens ordalydelse): slutkod 0 och HÅLLER trots som-satsen efter kommatecknet.
+2. rad 23, 18 ord, BRYTER MOT A, en som-sats efter kommatecken: Relationen går från ramen till rutan inuti, som definitionerna av består av (`C-062`) och aggregerar (`C-100`) redan anger.
+FALLER: 1 av 9 nya meningar bryter mot regel A eller B.
+Read back (kopia med en omskriven mening som fortfarande bär två tankar): slutkod 1 och FALLER. Provet pekar ut den omskrivna meningen.
+
+Granskningen mening för mening, mot klarsprak-skillens steg 3: en tanke per mening, aktören utsatt, verb i stället för substantiv, vardagliga ord, samma ord för samma sak och samma sak sagd en gång.
+If wrong (en ny mening bryter mot någon av reglerna): utfallet för meningen är "håller inte", med regeln den bryter mot.
+
+Meningar på basen 7dd4a06 som inte håller och är ersatta:
+- "Relationen går från ramen till rutan inuti, som består av (`C-062`) och aggregerar (`C-100`) redan definierar." Håller inte. Meningen bär två tankar: åt vilket håll relationen går, och att de två relationstyperna redan har den riktningen. Ordet "som" kan syfta på rutan eller på riktningen. Ersatt av mening 2 och 3.
+- "Varje ram runt ett informationsobjekt läses som består av, också ett grovt objekt runt sina förfinade." Håller som klarspråk men stämmer inte, se Kommando 3. Ersatt av mening 4 och 5.
+- "… så att alla andra ramar läses som aggregering (…)." Håller inte regeln om samma ord för samma sak: stycket säger annars "läses som består av" och "aggregerar (`C-100`)". Ordet är bytt till aggregerar i mening 7.
+
+De 10 nya meningarna på grenen dce95b2:
+1. "Informationsobjekt (`C-060`) anger att dess ram läses som består av (`C-062`), så ramen behöver ingen märkning i ritningen." Håller. Begreppet är aktör. Skälet och följden är en tanke. Oförändrad från ärende #144.
+2. "Relationen går från ramen till rutan inuti." Håller. En tanke, sju ord, relationen är subjekt. Omskriven i ärende #193.
+3. "Det är samma riktning som definitionerna av består av (`C-062`) och aggregerar (`C-100`) redan har, från helheten till delen." Håller. En tanke: riktningen är definitionernas. Ordet "som" jämför och står utan kommatecken. Ny i ärende #193.
+4. "Ramens egen elementtyp avgör hur ramen läses, inte typen på rutan inuti." Håller. Elementtypen är aktör, och verbet står tidigt. Ny i ärende #193.
+5. "En ram som är ett informationsobjekt läses som består av, också ett grovt objekt runt sina förfinade." Håller. Som-satsen är nödvändig och står utan kommatecken. Passiv form, eftersom den som läser ritningen är densamma i hela stycket. Omskriven i ärende #193.
+6. "En sammanställning (`C-162`) ritas inte som ram." Håller. Passiv form, eftersom regeln gäller vem som än ritar. Oförändrad från ärende #144.
+7. "Katalogens `settings.yaml` sätter `nesting_relation_type: aggregates`, så att alla andra ramar läses som aggregerar (lagringsytan runt representationer, beslut 24; lösningen runt komponenter)." Håller efter ordbytet. Filen är aktör, och parentesen ger två exempel. Ordet aggregering bytt mot aggregerar i ärende #193.
+8. "Interlingua: en ram av en viss typ läses som en viss relation utan märkning." Håller. Punkten står i en lista över vad interlingua ska kunna, och kolonet säger vem som läser. Oförändrad från ärende #144.
+9. "Det är levererat med interlingua #954." Håller. Sex ord, och ärendet som levererade är utsatt. Oförändrad från ärende #144.
+10. "Renderingen ritar området som ram ur lagret." Håller. Renderingen är aktör. Oförändrad från ärende #144.
+Read back (gren dce95b2): 10 av 10 nya meningar håller. Tre meningar på basen höll inte eller stämde inte, och alla tre är ersatta.
+
+Kommando 3: interlingua import drawio i en tillfällig klon av grenen, med metoden i docs/acceptance-shots/issue-144-ram.py, på en ritning med fyra omärkta ramar. Parentesen efter varje namn i utskriften är elementets typ.
+If wrong (rutan inuti avgör hur ramen läses, som basens mening sade): lagringsytan Datalagret runt informationsobjektet Förening läses som består av (C-062).
+import drawio: G-0001 created from <tillfällig mapp>/ram.drawio
+Datalagret (Lagringsyta) --(aggregerar (C-100))--> Förening (Informationsobjekt)
+Föreningsinformation (Informationsobjekt) --(består av (C-062))--> Kopian av föreningen (Representation)
+Bidragsinformation (Informationsobjekt) --(består av (C-062))--> Ansökan (Informationsobjekt)
+Grupprummet (Lagringsyta) --(aggregerar (C-100))--> Excelfil (Representation)
+Read back (gren dce95b2): ramens egen elementtyp avgör. Lagringsytan Datalagret runt informationsobjektet Förening läses som aggregerar (C-100). Informationsobjektet Föreningsinformation runt en representation läses som består av (C-062). Mening 4 och 5 säger det som utskriften visar.
+
+Kommando 4: python3 docs/acceptance-shots/issue-144-beslut-30.py, provet för ärende #144, på grenen.
+If wrong (grenen har ändrat något annat som provet kräver än de två meningar ärende #193 skriver om): fler rader under FALLER än de två nedan.
+FALLER:
+- beslut 30 saknar följd 2, att relationen går från ramen till rutan inuti
+- beslut 30 saknar följd 3, att varje ram runt ett informationsobjekt läses som består av (C-062)
+Read back (gren dce95b2): slutkod 1 och FALLER med två rader. Provet kräver basens två meningar ordagrant, och båda är omskrivna. De fyra andra krävda texterna finns kvar. Provet är ett daterat utfall för ärende #144 och är inte ändrat.
+
+Kommando 5: /home/nickdin/Devbox/interlingua/.venv/bin/interlingua text unapproved .
+If wrong (en text har ett godkännande som ändringen tar bort): en lista över texter i stället för raden nedan.
+text unapproved: the store names no owner, so authorship marking is off
+Read back (gren dce95b2): märkningen är avstängd och ingen text bär ett godkännande. Svaret är detsamma på basen.
+
+Skriven av AI, inte granskad.
