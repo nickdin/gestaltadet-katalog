@@ -7,6 +7,7 @@ terms:
     status: preferred
     source: concept new
 definition: informationsobjekt vars förekomster är fastställda standardvärden som andra objekts uppgifter hänvisar till
+kind: data-category
 generic: '[[C-060 Informationsobjekt]]'
 associative:
   - concept: '[[C-197 Värdemängd]]'

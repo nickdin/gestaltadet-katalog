@@ -13,6 +13,7 @@ terms:
     language: sv
     source: concept change
 definition: informationsobjekt om det verksamheten har och som dess transaktioner hänvisar till
+kind: data-category
 generic: '[[C-060 Informationsobjekt]]'
 ---
 # C-202 Resursdata

@@ -7,6 +7,7 @@ terms:
     status: preferred
     source: concept new
 definition: informationsobjekt om något som sker i verksamheten och förs genom tillstånd
+kind: data-category
 generic: '[[C-060 Informationsobjekt]]'
 ---
 # C-204 Transaktionsdata
