@@ -1,7 +1,7 @@
 Ärende #171: ordet fynd i tretton begrepp och på sidan om lagarna, prov kört 2026-11-18 från lagrets rot.
 
 Kommando: python3 docs/acceptance-shots/issue-171-fynd.py
-If wrong (en mening i de fjorton filerna använder fortfarande fynd som begrepp, eller en mening har fått ordet avvikelse fast ingen organisation i den har fastställt en princip): slutkod 1 och raden FALLER med meningen och dess fil under den första rubriken, eller fler meningar under den andra rubriken än på basen.
+If wrong (en mening i de fjorton filerna använder fortfarande fynd som begrepp): slutkod 1 och raden FALLER med meningen och dess fil under den första rubriken. Provet faller inte på ordet avvikelse. Det skriver bara ut meningarna med ordet under den andra rubriken. Har en mening fått ordet fast ingen organisation i den har fastställt en princip, står där fler meningar än på basen, och den som läser utskriften jämför själv.
 
 På basen ae1b984, före ändringen (slutkod 1):
 Meningar med ordet fynd i de fjorton filerna: 19
