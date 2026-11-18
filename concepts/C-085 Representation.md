@@ -37,7 +37,7 @@ Handling och handlingstyp är tillåtna termer. Tryckfrihetsförordningens handl
 
 Till representationen hör format och läsbarhet, märkningen av klassen, signering och låsning. Äkthet, att handlingen är oförändrad över tid, är riktighet tillämpad på representationen under hela bevarandetiden. Representationen har inget tillstånd ([[C-182 Tillstånd]]): arkiverad och gallrad är aktiviteter i arkivvården, inte lägen hos handlingen, och att ärendet är arkiverat är verksamhetsobjektets tillstånd. Ett registerutdrag eller en fil för dataportabilitet är en representation myndigheten upprättar på begäran, av en sammanställning ([[C-162 Sammanställning]]), med formatkravet på representationen. Beslut 31.
 
-Tre åtgärder på representationen uppfyller behovet som informationsägaren satt på informationsobjektet ([[C-166 Informationstillgång]]): märkning, signering och format.
+Tre åtgärder på representationen tjänar klassen på informationsobjektet och kraven på behandlingen ([[C-166 Informationstillgång]]): märkning, signering och format.
 
 Märkningen tjänar konfidentialiteten: den gör nivån synlig på formen. Informationsägaren sätter nivån på objektet, men den som håller dokumentet ser inte objektet. Representationen bär därför nivån själv, till exempel som "Intern" i sidfoten eller som känslighetsetikett på filen. Varje representation av samma objekt bär märket för sig.
 
