@@ -23,7 +23,7 @@ En arkitekt leder varvet och håller kartan. Arkitekten intervjuar dem som utfö
 
 I intervjun sveper arkitekten också över lagringsytorna. Svepet hittar det som inget beteende når, till exempel en fil som ingen längre använder.
 
-Kartan får börja grovt. Första dagen räcker ett [[C-198 Informationsområde|informationsområde]] med ägare och klass. Kartan förfinas när ett perspektiv kräver det, till exempel när personnumret behöver bli ett eget objekt.
+Kartan får börja grovt. Första dagen räcker ett [[C-198 Informationsområde|informationsområde]] med en ägare. Klassen står i klassningsförteckningen, på områdets rad. Kartan förfinas när ett perspektiv kräver det, till exempel när personnumret behöver bli ett eget objekt.
 
 Exempel: Analysenheten läser Ansökan, Beslut och Utbetalning in i ett datalager i myndighetens analysplattform. Datalagret innehåller också kopior av Förening och Företrädare. Analysenheten sätter samman Utbetalningar per kommun och räknar fram Riskindikator per förening. På kartan finns också en Excelfil i enhetens grupprum.
 
@@ -37,7 +37,7 @@ Exempel: Chefen för Analysenheten är processägare för analysfunktionen och b
 
 Fyra perspektiv går igenom samma karta. Varje perspektiv har en huvudfråga, och varje nej är ett fynd. Perspektiven är oberoende av varandra. När kartan har ägare går de igenom den i valfri ordning, eller samtidigt.
 
-- **Informationssäkerhet.** Har varje informationsobjekt en ägare och en klass, och klarar varje lagringsyta det högst klassade objektet som ligger där? [[C-167 Informationsägare|Informationsägaren]] går igenom.
+- **Informationssäkerhet.** Har informationsägaren tagit ställning till varje objekt på kartan, själv eller genom området, och klarar varje lagringsyta det förteckningen kräver? [[C-167 Informationsägare|Informationsägaren]] går igenom.
 - **Dataskydd.** Har varje [[C-168 Behandling|behandling]] av personuppgifter ett [[C-163 Behandlingsändamål|ändamål]] och en [[C-164 Rättslig grund|rättslig grund]] i registerförteckningen? Processägaren går igenom.
 - **Offentlighet och arkiv.** Har varje handlingstyp per process ett beslut om bevarande eller [[C-200 Gallring|gallring]] i informationshanteringsplanen? Processägaren går igenom.
 - **Informationsförsörjning.** Har varje [[C-202 Resursdata|resursdataobjekt]] en enda källa, och hämtar kopiorna därifrån? Arkitekten går igenom.
@@ -68,6 +68,8 @@ Exempel: Myndigheten åtgärdar tre fynd och lever med ett.
 - **Offentlighet och arkiv.** Chefen för Analysenheten beslutar att informationshanteringsplanen får en rad för kopiorna i datalagret. En kopia gallras när originalet gallras.
 - **Informationsförsörjning.** Chefen för Register- och tillsynsenheten är informationsägare för Förening. Hen beslutar att skillnaden får stå kvar i år, eftersom det kostar mer att byta källa än skillnaden gör. Hen skriver beslutet med skälet, och det prövas igen i nästa varv. Att leva med fyndet är ett styrbeslut.
 
+Ett beslut som kräver en ändring blir ett [[C-021 Krav|krav]] i [[C-054 Målarkitektur|målarkitekturen]]. Kartan visar nuläget tills ändringen är gjord. Beslutet att ta bort kopian av Företrädare skrivs som ett krav på datalagret i målarkitekturen. Kartan visar kopian tills den är borta.
+
 ## Steg 7: gör om varvet
 
 Gör om varvet när något ändras, och annars en gång om året. En ändring är att beteendet, applikationen eller lagringsytan ändras.
@@ -80,22 +82,30 @@ Verksamheten gör arbetet själv. Specialisterna ger råd och granskar.
 
 - **De som utför beteendet** beskriver vad de gör.
 - **Arkitekten** leder varvet och håller kartan. Arkitekten går också igenom informationsförsörjningen. Frågan om en enda källa går över flera beteenden, och bara kartan visar alla kopior.
-- **Processägaren** bekräftar kartan. Processägaren går också igenom dataskydd och offentlighet och arkiv för sitt beteende. Både behandlingen och handlingstypen läses ur beteendet.
-- **Informationsägaren** klassar sina objekt och går igenom informationssäkerheten. Informationsägaren för ett resursdataobjekt beslutar om fynden i informationsförsörjningen.
+- **Processägaren** bekräftar kartan och ställer kraven på tillgänglighet och spårbarhet för sitt beteende. Processägaren går också igenom dataskydd och offentlighet och arkiv för sitt beteende. Både behandlingen och handlingstypen läses ur beteendet.
+- **Informationsägaren** klassar sina objekt i konfidentialitet och riktighet och går igenom informationssäkerheten. Informationsägaren för ett resursdataobjekt beslutar om fynden i informationsförsörjningen.
 - **Specialisterna**, till exempel dataskyddsombudet, ger råd och granskar. De gör inte genomgången, för det är inte deras uppdrag.
 - **Den som har mandatet** beslutar om varje fynd.
 
 ## Vad kartan bär och inte bär
 
-Kartan bär beteendet, informationsobjekten med ägare, representationerna, lagringsytorna och applikationerna. Av klassningen bär kartan bara nivån i varje klass. Då visar kartan vilken nivå en lagringsyta måste klara.
+Kartan bär beteendet, informationsobjekten med ägare, representationerna, lagringsytorna och applikationerna. Kartan visar också vilka beteenden som har åtkomst till varje lagringsyta. Kartan beskriver hur det är.
 
-Resten står på andra ställen:
+Kartan bär inga beslut ur de fyra perspektiven. Den visar vem som beslutar, aldrig vad hen har beslutat. Klassningen står därför inte på kartan. Den som går igenom kartan läser ihop den med förteckningarna.
 
-- Klassningsbeslutet säger varför objektet har nivån, vilken analys som ligger bakom och vilka skydd som är valda.
+Besluten står på andra ställen:
+
+- Klassningsförteckningen säger nivån i konfidentialitet och riktighet för varje objekt. Den pekar på objektet på kartan. Ett objekt har en egen rad, eller så gäller raden för dess informationsområde.
+- Klassningsbeslutet säger varför objektet har nivån, vilken analys som ligger bakom och vilka skydd som är valda. För ett objekt med grundnivån säger beslutet bara att grundnivån räcker, utan analys.
+- Processägarens krav på tillgänglighet och spårbarhet står i en förteckning som pekar på paret beteende och objekt.
 - Registerförteckningen säger ändamål och rättslig grund.
 - Informationshanteringsplanen säger vad som bevaras och vad som gallras.
 
 [[C-035 Arkitekturbeskrivning|Arkitekturbeskrivningen]] ska inte bära all information som perspektiven behöver.
+
+Grundnivån är den nivå i en klass som organisationen har beslutat ska gälla det mesta. En organisation väljer själv om den vill ha en grundnivå. Grundnivån är ett beslut, aldrig tystnad: informationsägaren säger att den räcker för objektet. Ett objekt som helt saknar rad i klassningsförteckningen har ingen klass, och det är ett fynd.
+
+Kartan delar ett objekt först när verksamheten hanterar delen för sig. Bostadsbolaget Brinkstadsbostäder hanterar i dag alla hyresavtal lika. Vill informationsägaren att avtalen för hyresgäster med skyddade personuppgifter hanteras för sig, står Skyddat hyresavtal i målarkitekturen. Det flyttar till kartan den dag uthyrningen gör så.
 
 ## Så når ett perspektivs fynd de andra
 
@@ -108,9 +118,16 @@ Varje huvudfråga har följdfrågor som hjälper den som går igenom kartan.
 ### Informationssäkerhet
 
 - Har varje informationsobjekt på kartan en informationsägare?
-- Har informationsägaren klassat objektet?
+- Har varje objekt en rad i klassningsförteckningen, en egen eller områdets?
+- Vilka objekt har grundnivån genom sitt område, och håller den för vart och ett?
 - Vilket är det högst klassade objektet på varje lagringsyta?
+- Vilka beteenden har åtkomst till lagringsytan, och vilket är det strängaste kravet på tillgänglighet och spårbarhet bland dem?
+- Vilka objekt på lagringsytan går att koppla ihop till en ny uppgift?
 - Vilka kan öppna lagringsytan?
+
+Exempel: Anta att myndigheten har beslutat att grundnivån för konfidentialitet är intern. Chefen för Bidragsenheten har sagt att grundnivån räcker för informationsområdet Bidragsinformation. I området ligger Återkrav, som visar vilka föreningar som har fått betala tillbaka. Återkrav är känsligare än Utbetalning. Grundnivån håller alltså inte för Återkrav, och det blir ett fynd som informationsägaren beslutar om.
+
+Exempel: Analysfunktionen har åtkomst till datalagret och klarar en vecka utan Förening. Pröva en ansökan har åtkomst till Föreningsregistret och behöver Förening samma dag. Datalagret ska klara veckan, och Föreningsregistret dagen.
 
 ### Dataskydd
 
