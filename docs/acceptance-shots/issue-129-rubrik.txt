@@ -1,19 +1,19 @@
-Ticket #129: Startsidans rubrik går utanför skärmen på en telefon (2026-11-18)
+Ärende #129: Startsidans rubrik går utanför skärmen på en telefon (2026-11-18)
 
-Run from the repo root: node docs/acceptance-shots/issue-129-rubrik.cjs [base-url] [shot-prefix]
-Tools: Playwright 1.62.1 for Node, system Chromium, window 390 x 844.
+Körs från lagrets rot: node docs/acceptance-shots/issue-129-rubrik.cjs [bas-url] [bildprefix]
+Verktyg: Playwright 1.62.1 för Node, systemets Chromium, fönster 390 x 844.
 
-Triage boxes met by a command (2026-11-18):
+Rutor från triagen som ett kommando uppfyller (2026-11-18):
   gh issue view 1226 --repo nickdin/interlingua --json state,closedAt
     {"closedAt":"2026-11-14T02:10:07Z","state":"CLOSED"}
   gh run list --workflow publicera.yml -L 1
     completed  success  Tavlan: Fable bygger, rättar och granskar ärenden som skriver text el…  Publicera katalogen  main  push  44403358897  3m22s  2026-11-18T21:37:17Z
 
-Base (the triage's measurement on gestaltadet.se, 2026-11-11, before the fix): the word "verksamhetsarkitektur" 440 px wide in a 343 px column, the start page 456 px wide; Applikationsgränssnitt (C-139) 437 px. Nothing in this repo changes, so there is no base to run here; the saved copy below stands in for it.
+Bas (triagens mätning på gestaltadet.se 2026-11-11, före rättningen): ordet "verksamhetsarkitektur" var 440 px brett i en spalt på 343 px, och startsidan var 456 px bred. Rubriken Applikationsgränssnitt (C-139) var 437 px bred. Ingenting i det här lagret ändras, så det finns ingen bas att köra här. Den sparade kopian nedan står i basens ställe.
 
-If wrong (the published site still lacks the heading rule): the page's scrollWidth is larger than the window's 390 in at least one of the four measurements, the heading's scrollWidth is larger than its clientWidth, the line ends FAIL, the script prints "N of 4 measurements fail" and exits 1. The likeliest mistake is to read only the start page, or only light mode, and call the fix done; the script measures all four.
+If wrong (den publicerade sajten saknar fortfarande regeln för rubriker): sidans scrollWidth är större än fönstrets 390 i minst en av de fyra mätningarna, raden slutar på FAIL, skriptet skriver "N of 4 measurements fail" och slutkoden är 1. Skriptet faller bara på sidans bredd. Det skriver ut rubrikens scrollWidth och clientWidth på samma rad men bedömer dem inte. En klippt rubrik syns där som ett scrollWidth större än clientWidth, och den som läser utskriften jämför talen själv. Det troligaste misstaget är att läsa bara startsidan, eller bara ljust läge, och kalla rättningen klar. Skriptet mäter alla fyra.
 
-== Run 1: published site, https://gestaltadet.se/ ==
+== Körning 1: den publicerade sajten, https://gestaltadet.se/ ==
 startsida light: page scrollWidth 390, window 390, h1 scrollWidth 358, clientWidth 358, hyphens auto, overflow-wrap break-word -> PASS
 startsida dark: page scrollWidth 390, window 390, h1 scrollWidth 358, clientWidth 358, hyphens auto, overflow-wrap break-word -> PASS
 C-139 light: page scrollWidth 390, window 390, h1 scrollWidth 358, clientWidth 358, hyphens auto, overflow-wrap break-word -> PASS
@@ -21,9 +21,9 @@ C-139 dark: page scrollWidth 390, window 390, h1 scrollWidth 358, clientWidth 35
 all four measurements pass
 exit 0
 
-Read back (publicerad sida 2026-11-18): all four measurements print PASS, the page is 390 px in a 390 px window, the heading 358 px in 358 px, exit 0.
+Read back (publicerad sida 2026-11-18): alla fyra mätningarna skriver PASS, sidan är 390 px i ett fönster på 390 px, rubriken är 358 px i 358 px, slutkod 0.
 
-== Run 2: saved copy of the published start page, page for Applikationsgränssnitt (C-139) and stylesheets, with overflow-wrap: break-word; hyphens: auto still in the heading rule ==
+== Körning 2: en sparad kopia av den publicerade startsidan, sidan för Applikationsgränssnitt (C-139) och stilmallarna, med overflow-wrap: break-word; hyphens: auto kvar i regeln för rubriker ==
 startsida light: page scrollWidth 390, window 390, h1 scrollWidth 358, clientWidth 358, hyphens auto, overflow-wrap break-word -> PASS
 startsida dark: page scrollWidth 390, window 390, h1 scrollWidth 358, clientWidth 358, hyphens auto, overflow-wrap break-word -> PASS
 C-139 light: page scrollWidth 390, window 390, h1 scrollWidth 358, clientWidth 358, hyphens auto, overflow-wrap break-word -> PASS
@@ -31,9 +31,9 @@ C-139 dark: page scrollWidth 390, window 390, h1 scrollWidth 358, clientWidth 35
 all four measurements pass
 exit 0
 
-Read back (kopia med regeln): the same four PASS, so the copy behaves as the published site.
+Read back (kopia med regeln): samma fyra PASS, så kopian beter sig som den publicerade sajten.
 
-== Run 3: the same copy with the rule #1226 added taken out of page.css line 39 (overflow-wrap: break-word; hyphens: auto) ==
+== Körning 3: samma kopia, där regeln som interlingua #1226 lade till är borttagen ur page.css rad 39 (overflow-wrap: break-word; hyphens: auto) ==
 h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
 startsida light: page scrollWidth 456, window 390, h1 scrollWidth 440, clientWidth 358, hyphens manual, overflow-wrap normal -> FAIL
 startsida dark: page scrollWidth 456, window 390, h1 scrollWidth 440, clientWidth 358, hyphens manual, overflow-wrap normal -> FAIL
@@ -42,6 +42,8 @@ C-139 dark: page scrollWidth 453, window 390, h1 scrollWidth 437, clientWidth 35
 4 of 4 measurements fail
 exit 1
 
-Read back (kopia utan regeln): all four print FAIL, the start page 456 px and C-139 453 px in a 390 px window, the heading 440 and 437 px in 358 px, exit 1. The 456 and 440 match the triage's numbers of 2026-11-11; the proof can fail.
+Read back (kopia utan regeln): alla fyra skriver FAIL, startsidan är 456 px och C-139 453 px i ett fönster på 390 px, rubriken är 440 och 437 px i 358 px, slutkod 1. Talen 456 och 440 är triagens tal från 2026-11-11. Provet kan alltså falla.
 
-Not shown here: the hyphen itself ("verksamhets-arkitektur"). Chromium here has no Swedish dictionary. A real phone shows it; that is the hand-drive step.
+Körning 2 och 3 går inte att köra om ur lagret. Den sparade kopian finns inte här, och inte heller den page.css där regeln är borttagen. Regeln som togs bort är overflow-wrap: break-word; hyphens: auto, på rad 39 i page.css. Raden ovan visar vad som stod kvar av rad 39 efter det. Den som vill se raderna med FAIL igen sparar de två sidorna och stilmallarna från sajten och tar bort samma regel.
+
+Visas inte här: själva bindestrecket ("verksamhets-arkitektur"). Chromium på den här maskinen har ingen svensk ordlista för avstavning. En riktig telefon visar bindestrecket, och det steget görs för hand.

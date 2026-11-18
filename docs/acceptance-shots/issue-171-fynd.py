@@ -2,8 +2,9 @@
 
 Körs från lagrets rot: python3 docs/acceptance-shots/issue-171-fynd.py
 
-Provet läser de tretton begreppen och sidan om lagarna som ärendet räknar upp. Det skriver ut varje mening med
-ordet fynd, i vilken form som helst, med sin fil. Beslut 54 säger att fynd inte är något begrepp: ordet får bara
+Provet läser de tretton begreppen och sidan om lagarna som ärendet räknar upp. Det skriver ut varje mening där ett
+ord börjar på fynd, som fynd, fyndet och fynden, med sin fil. En sammansättning som slutar på fynd, som
+granskningsfynd, fångar provet inte. Beslut 54 säger att fynd inte är något begrepp: ordet får bara
 stå kvar där det betyder något som någon har hittat. En sådan mening står i KEPT nedan med skälet. Varje annan
 mening med ordet fäller provet, med slutkod 1 och raden FALLER.
 
