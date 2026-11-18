@@ -1,0 +1,41 @@
+Ärende #179: texterna följer beslut 58, 60 och 62. Prov kört 2026-11-18 från lagrets rot.
+
+Kommando: python3 docs/acceptance-shots/issue-179-klassen.py
+If wrong (en text säger fyra klasser, att kartan eller lagret bär nivån, att mängden gör klassen högre eller baslinje om klassningen, eller huvudfrågan, en följdfråga eller en mening som besluten kräver saknas): slutkod 1 och raden FALLER.
+
+På basen a9847d8, före ändringen (slutkod 1):
+FALLER:
+- concepts/C-060 Informationsobjekt.md rad 26: säger fyra klasser (beslut 58: två klasser och två krav)
+- concepts/C-162 Sammanställning.md rad 21: säger att mängden gör klassen högre (beslut 58)
+- concepts/C-162 Sammanställning.md rad 25: säger att en sammanställning klassas högre för att den är en samling (beslut 58)
+- concepts/C-162 Sammanställning.md rad 27: säger att en sammanställning oftast klassas högre (beslut 58)
+- concepts/C-165 Lagringsyta.md rad 23: säger fyra klasser (beslut 58: två klasser och två krav)
+- concepts/C-166 Informationstillgång.md rad 27: säger fyra klasser (beslut 58: två klasser och två krav)
+- concepts/C-166 Informationstillgång.md rad 29: säger fyra klasser (beslut 58: två klasser och två krav)
+- concepts/C-166 Informationstillgång.md rad 29: hänvisar till SKR:s KLASSA för spårbarheten (#179)
+- concepts/C-166 Informationstillgång.md rad 35: säger att lagret räknar med klassen (beslut 58)
+- concepts/C-166 Informationstillgång.md rad 35: säger att klassen ärvs nedåt i lagret (beslut 58 och 60)
+- concepts/C-166 Informationstillgång.md rad 41: sätter tillgängligheten på objektet (beslut 58)
+- concepts/C-198 Informationsområde.md rad 31: säger att klassen ärvs nedåt i lagret (beslut 58 och 60)
+- docs/informationskartlaggning.md rad 40: har huvudfrågan från före beslut 58
+- docs/informationskartlaggning.md rad 90: säger att kartan bär nivån (beslut 58)
+- docs/exempel/brinkstadsbostader.md rad 55: säger att en sammanställning oftast klassas högre (beslut 58)
+- docs/exempel/myndigheten-for-foreningsstod.md rad 66: säger att mängden gör klassen högre (beslut 58)
+- docs/exempel/myndigheten-for-foreningsstod.md rad 152: säger att mängden gör klassen högre (beslut 58)
+- docs/informationskartlaggning.md: saknar huvudfrågan i informationssäkerheten (beslut 60)
+- docs/informationskartlaggning.md: saknar följdfrågan om grundnivån (beslut 60)
+- docs/informationskartlaggning.md: saknar följdfrågan om kopplingen (beslut 58)
+- docs/informationskartlaggning.md: saknar följdfrågan om vilka beteenden som når ytan (beslut 62)
+- docs/informationskartlaggning.md: saknar tillägget om vad klassningsbeslutet säger för ett objekt med grundnivån (beslut 60)
+- docs/informationskartlaggning.md: saknar att det genomgången kräver blir krav i målarkitekturen (beslut 58)
+- concepts/C-198 Informationsområde.md: saknar meningen om grundnivån (beslut 60)
+- concepts/C-165 Lagringsyta.md: saknar ytans krav i fyra delar (beslut 58)
+- concepts/C-101 har åtkomst till.md: saknar lagringsytan som mål (beslut 62)
+- concepts/C-206 Processägare.md: saknar processägarens två krav (beslut 58)
+- concepts/C-168 Behandling.md: saknar kraven på paret (beslut 58)
+
+Efter ändringen, på 7fec4ae (slutkod 0):
+Lästa filer: 213. Borttagna formuleringar: 0 träffar på 11 mönster.
+Krävda texter: 11 av 11 finns.
+
+interlingua check . på samma commit: check: 210 files, no violations
