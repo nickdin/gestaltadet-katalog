@@ -1,0 +1,12 @@
+Den publicerade sajten läst efter vågens push, 2026-11-19. Ärendena #156 och #146, och fixen för #191.
+
+Publiceringen: körningen 44423357414 av arbetsflödet Publicera katalogen, commit 40bd9bc, completed och success.
+
+If wrong (sajten visar en äldre ritning än lagret): den hämtade filen skiljer sig från filen i layout/.
+Read back (40bd9bc): fem ritningar, hämtade från https://gestaltadet.se/katalog/drawing/layout/<mapp>/<namn>.drawio.svg, är byte för byte samma som filen i lagret: Styrning flöde och Mandat och ansvar begreppsmodell (#156, #191), Styrmedel översikt, Begreppsmodell arkitekturprinciper och Princip detalj (#146).
+
+If wrong (sidan för Lösningsstyrning (C-047) är inte ompublicerad): sidan saknar termen Lösningsstyrning eller den nya definitionen.
+Read back (40bd9bc): https://gestaltadet.se/katalog/file/C-047/index.html har Lösningsstyrning 9 gånger och "styrobjektet är en lösning" en gång. Orden produktstyrning och objektstyrning står där, och sidan har orden "avrådd" och "deprecated".
+
+If wrong (sidan för det utgångna id:t C-048 finns kvar): sidan svarar 200, eller förteckningen nämner C-048.
+Read back (40bd9bc): https://gestaltadet.se/katalog/file/C-048/index.html svarar 404, och https://gestaltadet.se/katalog/files/index.html nämner C-048 0 gånger.
