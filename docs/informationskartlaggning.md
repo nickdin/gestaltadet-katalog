@@ -134,7 +134,7 @@ Exempel: Anta att myndigheten har beslutat att grundnivån för konfidentialitet
 
 Exempel: Analysfunktionen har åtkomst till datalagret och klarar en vecka utan Förening. Pröva en ansökan har åtkomst till Föreningsregistret och behöver Förening samma dag. Datalagret ska klara veckan, och Föreningsregistret dagen.
 
-Exempel: Anta att Genomföra ansökningsomgången får stå still högst en dag när pengarna ska betalas ut, och att processen saknar reservrutin. Föreningsregistret måste då vara i bruk igen inom dagen. Det är återställningstiden, och den som går igenom kartan frågar om Föreningsregistret klarar den.
+Exempel: Anta att Genomföra ansökningsomgången får stå still högst en dag när pengarna ska betalas ut, och att processen saknar reservrutin, alltså en rutin som säger hur den utförs när en resurs är borta. Föreningsregistret måste då vara i bruk igen inom dagen. Det är återställningstiden, och den som går igenom kartan frågar om Föreningsregistret klarar den.
 
 ### Dataskydd
 

@@ -17,7 +17,7 @@ generic: "[[C-122 Resurs]]"
 
 Systemägare är vardagens ord för den som har mandat ([[C-189 Mandat]]) över en applikation. Systemägaren är skild från informationsägaren ([[C-167 Informationsägare]]) till det applikationen lagrar och från lösningsägaren ([[C-055 Lösning]]). Systemägare är inget begrepp (beslut 35).
 
-Återställningstiden är ett krav ([[C-021 Krav]]) på applikationen: hur fort applikationen måste vara i bruk igen. Den härleds ur kontinuitetskravet på de verksamhetsbeteenden ([[C-157 Verksamhetsbeteende]]) som använder applikationen. Anta att Åtgärda en felanmälan hos bostadsbolaget får stå still högst fyra timmar. Anta också att processen klarar en dag utan fastighetssystemet när den har en reservrutin. Utan reservrutinen måste fastighetssystemet vara i bruk inom fyra timmar. När flera beteenden använder samma applikation gäller den kortaste tiden. Beslut 61.
+Återställningstiden är ett krav ([[C-021 Krav]]) på applikationen: hur fort applikationen måste vara i bruk igen. Den härleds ur kontinuitetskravet på de verksamhetsbeteenden ([[C-157 Verksamhetsbeteende]]) som använder applikationen. Anta att Åtgärda en felanmälan hos bostadsbolaget får stå still högst fyra timmar. Anta också att en reservrutin säger hur processen utförs utan fastighetssystemet, och att processen då klarar en dag utan det. Utan reservrutinen måste fastighetssystemet vara i bruk inom fyra timmar. När flera beteenden använder samma applikation gäller den kortaste tiden. Beslut 61.
 
 ## Motsvarigheter
 
