@@ -1,14 +1,14 @@
-// Ticket #129: the start page's heading and the page for Applikationsgränssnitt (C-139)
-// must fit a 390 px wide window, light and dark.
+// Ärende #129: startsidans rubrik och sidan för Applikationsgränssnitt (C-139)
+// ska rymmas i ett 390 px brett fönster, i ljust och mörkt läge.
 //
-// Run from the repo root:   node docs/acceptance-shots/issue-129-rubrik.cjs [base-url] [shot-prefix]
-// Without a base it measures the published site, https://gestaltadet.se/.
-// A base is a folder URL ending in "/" (for a saved copy: file:///path/to/copy/).
-// With a shot-prefix it saves one screenshot per measurement as <prefix>-<page>-<scheme>.png.
+// Körs från lagrets rot:   node docs/acceptance-shots/issue-129-rubrik.cjs [bas-url] [bildprefix]
+// Utan bas mäter skriptet den publicerade sajten, https://gestaltadet.se/.
+// En bas är en mapp-URL som slutar på "/" (för en sparad kopia: file:///sökväg/till/kopian/).
+// Med ett bildprefix sparar skriptet en skärmbild per mätning som <prefix>-<sida>-<läge>.png.
 //
-// A page passes when document.documentElement.scrollWidth is not larger than
-// window.innerWidth. The heading's own scrollWidth and clientWidth are recorded too.
-// Exit code 0 when all four measurements pass, 1 when any fails.
+// En sida godkänns när document.documentElement.scrollWidth inte är större än
+// window.innerWidth. Skriptet skriver också ut rubrikens egna scrollWidth och clientWidth.
+// Slutkod 0 när alla fyra mätningarna godkänns, 1 när någon faller.
 
 const { chromium } = require('/home/nickdin/.npm/_npx/e41f203b7505f1fb/node_modules/playwright');
 
