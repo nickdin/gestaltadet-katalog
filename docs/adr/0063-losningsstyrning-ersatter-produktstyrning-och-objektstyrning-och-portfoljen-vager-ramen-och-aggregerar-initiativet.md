@@ -19,7 +19,7 @@ Frågan avgjordes i två rundor i #156.
 - **Ritningarna ska säga det katalogen säger nu.**
 - **Objektstyrning (`C-048`) utgår som eget begrepp.** Produktstyrning och objektstyrning är samma styrning med samma ägare, och de blir ett begrepp.
 - **Begreppet heter Lösningsstyrning.** Katalogen döper styrningen efter styrobjektet, och styrobjektet är lösningen. Orden produktstyrning och objektstyrning blir avrådda ord på begreppet. Definitionen är "objektbaserad styrning där styrobjektet är en lösning".
-- **Portfölj (`C-011`) får två relationer.** Portfölj väger Ram (`C-210`), och Portfölj aggregerar Initiativ (`C-012`). Ritningen Mandat och ansvar begreppsmodell visar båda.
+- **Portfölj (`C-011`) får relationen väger till Ram (`C-210`).** Att portföljen aggregerar Initiativ (`C-012`) står redan i lagret som att initiativet är en del av portföljen. Ritningen Mandat och ansvar begreppsmodell visar båda relationerna.
 - **Initiativets egen ram får ingen egen relation.** Den visas av att Ram tilldelas Styrobjekt (`C-003`), eftersom initiativet är ett styrobjekt.
 
 ## Konsekvenser
@@ -27,7 +27,7 @@ Frågan avgjordes i två rundor i #156.
 - Lösningsstyrning har id `C-047`. Id `C-048` har utgått och står i `retired-ids.yaml`.
 - Anmärkningen i Lösningsstyrning (`C-047`) bär det som de två begreppen sade: att produkten inte är ett styrobjekt, skillnaden mot Produktionsstyrning (`C-215`), pm3:s två objektägare och de två sorterna av objektforum.
 - Initiativ (`C-012`), Ansvar (`C-209`), Lösning (`C-055`), Produkt (`C-014`), Produktionsstyrning (`C-215`) och Objektbaserad styrning (`C-005`) hänvisar till Lösningsstyrning.
-- Portfölj (`C-011`) har relationen väger till Ram (`C-210`). Att portföljen aggregerar initiativet står i lagret som att Initiativ (`C-012`) är en del av Portfölj (`C-011`). Den relationen fanns redan, och lagret tar inte emot en andra relation mellan samma två begrepp.
+- Portfölj (`C-011`) har relationen väger till Ram (`C-210`). Att portföljen aggregerar initiativet står i lagret som att Initiativ (`C-012`) är en del av Portfölj (`C-011`). Den relationen fanns redan. Lagret tar inte emot en associerad relation bredvid den. Interlinguas regel S27 vägrar en associerad relation mellan två begrepp som redan hör ihop genom en delrelation eller ett överordnat begrepp, direkt eller i flera led.
 - Ritningen Styrning flöde har en ruta för Lösningsstyrning och en pil dit från Initiativstyrning, märkt LEVERABEL efter Leverabel (`C-171`).
 - Ritningen Mandat och ansvar begreppsmodell har rutorna Portfölj (`C-011`) och Initiativ (`C-012`) och de två pilarna.
 - De äldre besluten som nämner Produktstyrning och Objektstyrning står kvar som de skrevs.
