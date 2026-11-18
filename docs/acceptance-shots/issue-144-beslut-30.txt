@@ -1,0 +1,19 @@
+Ärende #144: beslut 30 säger hur ramen runt ett informationsobjekt läses. Prov kört 2026-11-19.
+
+Kommando: python3 docs/acceptance-shots/issue-144-beslut-30.py, från lagrets rot.
+
+If wrong (meningen om ramen som märks för hand står kvar, eller en av de tre följderna eller hänvisningen till interlingua #954 saknas): slutkod 1 och raden FALLER med en rad per fel.
+
+Read back (bas 9b3bf8c, slutkod 1):
+FALLER:
+- beslut 30 säger att områdets ram märks för hand i ritningen
+- beslut 30 väntar på att interlingua ska kunna läsa en ram efter typ
+- beslut 30 saknar följd 1, att Informationsobjekt (C-060) anger hur dess ram läses
+- beslut 30 saknar följd 2, att relationen går från ramen till rutan inuti
+- beslut 30 saknar följd 3, att varje ram runt ett informationsobjekt läses som består av (C-062)
+- beslut 30 saknar följd 3, att en sammanställning (C-162) inte ritas som ram
+- beslut 30 saknar hänvisningen till interlingua #954 i sista avsnittet
+
+Read back (gren c750906, slutkod 0):
+Borttagna formuleringar: 0 träffar på 2. Krävda texter: 6 av 6 finns.
+HÅLLER: beslut 30 säger att Informationsobjekt (C-060) anger att dess ram läses som består av (C-062).
