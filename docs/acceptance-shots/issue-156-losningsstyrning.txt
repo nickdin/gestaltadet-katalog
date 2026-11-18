@@ -1,0 +1,146 @@
+Ärende #156: Lösningsstyrning ersätter Produktstyrning och Objektstyrning. Prov kört 2026-11-19 från lagrets rot.
+
+Kommando 1: python3 docs/acceptance-shots/issue-156-losningsstyrning.py
+If wrong (ett begrepp nämner fortfarande C-048 eller ett av de två orden saknar status deprecated eller Portfölj saknar relationen väger eller Styrning flöde bär en gammal text eller en ruta i Mandat och ansvar begreppsmodell bär en annan definition än begreppet eller en pil som ärendet inte nämner är ändrad): slutkod 1 och raden FALLER med en rad FEL per sak.
+If wrong (misstaget en noggrann läsare lättast gör är att döpa om rutan Objektstyrning och ändra texten på dess pil OBJEKT till LEVERABEL i stället för att ta bort två pilar och lägga till en): del 6 skriver då 1 ändrade och raden FEL om att pilen OBJEKT är ändrad i labels.
+
+På en kopia av basen 9b3bf8c, före ändringen (slutkod 1):
+1. Det utgångna id:t C-048
+  filer under concepts/, mapping/ och docs/exempel/ som nämner C-048: 5
+  FEL: concepts/C-012 Initiativ.md nämner C-048
+  FEL: concepts/C-047 Produktstyrning.md nämner C-048
+  FEL: concepts/C-048 Objektstyrning.md nämner C-048
+  FEL: concepts/C-055 Lösning.md nämner C-048
+  FEL: concepts/C-209 Ansvar.md nämner C-048
+  raden i retired-ids.yaml: saknas
+  FEL: C-048 står inte i retired-ids.yaml
+  -> faller
+2. De avrådda orden på Lösningsstyrning
+  FEL: inget begrepp har termen Lösningsstyrning
+  -> faller
+3. Portfölj (C-011) och dess två relationer
+  Portfölj (C-011) väger Ram (C-210): saknas
+  FEL: Portfölj (C-011) har ingen relation väger till Ram (C-210)
+  Initiativ (C-012) är en del av Portfölj (C-011): står i concepts/C-012
+  -> faller
+4. Ritningen Styrning flöde
+  "styrobjekt: produkten": 1 celler i den inbäddade ritningen, 1 träffar i bilden
+  FEL: Styrning flöde bär texten "styrobjekt: produkten"
+  "PRODUKT": 1 celler i den inbäddade ritningen, 1 träffar i bilden
+  FEL: Styrning flöde bär texten "PRODUKT"
+  "OBJEKT": 1 celler i den inbäddade ritningen, 1 träffar i bilden
+  FEL: Styrning flöde bär texten "OBJEKT"
+  "Produktstyrning": 1 celler i den inbäddade ritningen, 1 träffar i bilden
+  FEL: Styrning flöde bär texten "Produktstyrning"
+  "Objektstyrning": 1 celler i den inbäddade ritningen, 1 träffar i bilden
+  FEL: Styrning flöde bär texten "Objektstyrning"
+  FEL: Styrning flöde har inte exakt en pil LEVERABEL från Initiativstyrning till rutan "Lösningsstyrning – styrobjekt: lösningen"
+  FEL: bilden av Styrning flöde visar inte "Lösningsstyrning"
+  FEL: bilden av Styrning flöde visar inte "LEVERABEL"
+  -> faller
+5. Ritningen Mandat och ansvar begreppsmodell
+  Ram (C-210): samma definition
+  Mandat (C-189): samma definition
+  Ansvar (C-209): samma definition
+  Regel (C-020): samma definition
+  Styrbeslut (C-019): samma definition
+  Styrobjekt (C-003): samma definition
+  Bedömning (C-185): samma definition
+  Koppling (C-211): samma definition
+  Lösning (C-055): samma definition
+  Mål (C-017): samma definition
+  Roll (C-074): samma definition
+  Delegation (C-214): samma definition
+  rutor med id och definition: 12
+  FEL: ritningen saknar rutan Portfölj (C-011)
+  FEL: ritningen saknar rutan Initiativ (C-012)
+  pilen VÄGER ▶ från C-011 till C-210: 0
+  FEL: ritningen har inte exakt en pil VÄGER ▶ från C-011 till C-210
+  FEL: bilden visar inte pilordet VÄGER ▶
+  pilen AGGREGERAR ▼ från C-011 till C-012: 0
+  FEL: ritningen har inte exakt en pil AGGREGERAR ▼ från C-011 till C-012
+  FEL: bilden visar inte pilordet AGGREGERAR ▼
+  -> faller
+6. Pilarna mot facit ur basen 9b3bf8c
+  Mandat och ansvar begreppsmodell.drawio.svg: 16 pilar i facit, 0 ändrade, 0 tillagda (inga), 0 borttagna (inga)
+  Styrning flöde.drawio.svg: 10 pilar i facit, 0 ändrade, 0 tillagda (inga), 0 borttagna (inga)
+  -> håller
+FALLER: 22 fel.
+Read back (bas 9b3bf8c): slutkod 1 och FALLER med 22 fel. Delarna 1 till 5 faller. Del 6 håller eftersom inget är ändrat där och den delen är en vakt.
+
+På grenen issue-156-losningsstyrning, efter ändringen (slutkod 0):
+1. Det utgångna id:t C-048
+  filer under concepts/, mapping/ och docs/exempel/ som nämner C-048: 0
+  raden i retired-ids.yaml: C-048: C-047
+  -> håller
+2. De avrådda orden på Lösningsstyrning
+  begreppet: concepts/C-047 Lösningsstyrning.md
+  definition: objektbaserad styrning där styrobjektet är en lösning
+  produktstyrning: status: deprecated
+  objektstyrning: status: deprecated
+  -> håller
+3. Portfölj (C-011) och dess två relationer
+  Portfölj (C-011) väger Ram (C-210): står i concepts/C-011
+  Initiativ (C-012) är en del av Portfölj (C-011): står i concepts/C-012
+  -> håller
+4. Ritningen Styrning flöde
+  "styrobjekt: produkten": 0 celler i den inbäddade ritningen, 0 träffar i bilden
+  "PRODUKT": 0 celler i den inbäddade ritningen, 0 träffar i bilden
+  "OBJEKT": 0 celler i den inbäddade ritningen, 0 träffar i bilden
+  "Produktstyrning": 0 celler i den inbäddade ritningen, 0 träffar i bilden
+  "Objektstyrning": 0 celler i den inbäddade ritningen, 0 träffar i bilden
+  pilen LEVERABEL går från ['Initiativstyrning', 'styrobjekt: initiativet'] till ['Lösningsstyrning', 'styrobjekt: lösningen']
+  -> håller
+5. Ritningen Mandat och ansvar begreppsmodell
+  Ram (C-210): samma definition
+  Mandat (C-189): samma definition
+  Ansvar (C-209): samma definition
+  Regel (C-020): samma definition
+  Styrbeslut (C-019): samma definition
+  Styrobjekt (C-003): samma definition
+  Bedömning (C-185): samma definition
+  Koppling (C-211): samma definition
+  Lösning (C-055): samma definition
+  Mål (C-017): samma definition
+  Roll (C-074): samma definition
+  Delegation (C-214): samma definition
+  Initiativ (C-012): samma definition
+  Portfölj (C-011): samma definition
+  rutor med id och definition: 14
+  pilen VÄGER ▶ från C-011 till C-210: 1
+  pilen AGGREGERAR ▼ från C-011 till C-012: 1
+  -> håller
+6. Pilarna mot facit ur basen 9b3bf8c
+  Mandat och ansvar begreppsmodell.drawio.svg: 16 pilar i facit, 0 ändrade, 2 tillagda (VÄGER ▶, AGGREGERAR ▼), 0 borttagna (inga)
+  Styrning flöde.drawio.svg: 10 pilar i facit, 0 ändrade, 1 tillagda (LEVERABEL), 2 borttagna (PRODUKT, OBJEKT)
+  -> håller
+HÅLLER: alla sex delarna.
+Read back (grenen): slutkod 0 och HÅLLER. Inget under concepts/ mapping/ och docs/exempel/ nämner C-048. Båda orden har status deprecated. 14 rutor bär sina begrepps definitioner. Styrning flöde har 0 ändrade pilar och 1 tillagd och 2 borttagna. Mandat och ansvar begreppsmodell har 0 ändrade och 2 tillagda och 0 borttagna.
+
+Kommando 2: samma prov på en kopia av grenen där en brytpunkt i pilen TILLDELAS i Mandat och ansvar begreppsmodell är flyttad från x 217 till x 227. Pilen nämns inte i ärendet.
+If wrong (facit fångar inte en ändrad pil): slutkod 0 och HÅLLER trots den flyttade brytpunkten.
+  Mandat och ansvar begreppsmodell.drawio.svg: 16 pilar i facit, 1 ändrade, 2 tillagda (VÄGER ▶, AGGREGERAR ▼), 0 borttagna (inga)
+  FEL: layout/Styrning/Mandat och ansvar begreppsmodell.drawio.svg: pilen TILLDELAS ▶ (cell e66) är ändrad i geometry
+  Styrning flöde.drawio.svg: 10 pilar i facit, 0 ändrade, 1 tillagda (LEVERABEL), 2 borttagna (PRODUKT, OBJEKT)
+FALLER: 1 fel.
+Read back (förstörd kopia): slutkod 1 och FALLER med 1 fel som pekar ut pilen TILLDELAS och cell e66.
+
+Kommando 3: /home/nickdin/Devbox/interlingua/.venv/bin/interlingua concept change . C-011 --add-relation associated C-012 --label aggregerar
+If wrong (lagret hade tagit emot relationen aggregerar på Portfölj): raden changed C-011 och slutkod 0.
+concept change: concepts/C-011 Portfölj.md: associative[1] joins 'C-012', which it is already joined to through broader concepts (C-012 → C-011): SKOS allows no associative relation beside a broader chain (S27)
+slutkod 1
+Read back (grenen): lagret tar inte emot relationen. Initiativ (C-012) är redan en del av Portfölj (C-011) och den relationen stod också på basen.
+
+Kommando 4: /home/nickdin/Devbox/interlingua/.venv/bin/interlingua text unapproved .
+If wrong (en text hade haft ett godkännande att förlora): en lista över texter i stället för raden nedan.
+text unapproved: the store names no owner, so authorship marking is off
+Read back (grenen): märkningen är avstängd i lagret. Ingen text bär något godkännande.
+
+Kommando 5: /home/nickdin/Devbox/interlingua/.venv/bin/interlingua check .
+If wrong (lagret bryter mot schemat efter ändringen): en rad per överträdelse och en annan slutkod än 0.
+check: 209 files, no violations
+Read back (grenen): inga överträdelser. Basen skriver check: 210 files, no violations. Kontrollen är en vakt. Antalet är ett lägre eftersom filen för Objektstyrning (C-048) är borta.
+
+Kommando 6: bilden av var ritning visad med /usr/bin/chromium --headless --screenshot och läst.
+If wrong (en text är klippt eller två rutor ligger på varandra eller en pil går genom en ruta): det syns i bilden.
+Read back (grenen): i Styrning flöde står Lösningsstyrning och styrobjekt: lösningen hela i rutan nere till höger och pilen LEVERABEL går dit från Initiativstyrning. I Mandat och ansvar begreppsmodell står Portfölj och Initiativ i en ny kolumn till vänster om Ram med hela definitionerna. Pilen VÄGER går rakt till Ram och pilen AGGREGERAR rakt ner till Initiativ. Ingen ruta ligger på en annan.
