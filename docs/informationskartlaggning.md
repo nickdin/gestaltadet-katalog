@@ -128,7 +128,7 @@ Varje huvudfråga har följdfrågor som hjälper den som går igenom kartan.
 - Vilka beteenden har åtkomst till lagringsytan, och vilket är det strängaste kravet på tillgänglighet och spårbarhet bland dem?
 - Vilka objekt på lagringsytan går att koppla ihop till en ny uppgift?
 - Vilka kan öppna lagringsytan?
-- Vilken återställningstid följer av kontinuitetskravet på de beteenden som använder lagringsytan eller applikationen, och klarar den tiden?
+- Vilken återställningstid ger kontinuitetskravet varje lagringsyta och applikation, och klarar de tiden?
 
 Exempel: Anta att myndigheten har beslutat att grundnivån för konfidentialitet är intern. Chefen för Bidragsenheten har sagt att grundnivån räcker för informationsområdet Bidragsinformation. I området ligger Återkrav, som visar vilka föreningar som har fått betala tillbaka. Återkrav är känsligare än Utbetalning. Grundnivån håller alltså inte för Återkrav, och det blir ett fynd som informationsägaren beslutar om.
 
