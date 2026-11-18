@@ -42,6 +42,8 @@ category-elements . C-201: slutkod 1: category-elements: C-201 is not a data cat
 Beslut 32: De fyra kategorierna märks med ett eget slag, och Datakategori (`C-201`) märks inte.
 HÅLLER: de fyra kategorierna bär slaget, Datakategori (C-201) bär det inte, och beslut 32 säger de fyra.
 
+Read back (gren a961409, sedan meningen om skälet i beslut 32 skrivits om utan att namnge vem som beslutade): slutkod 0 och samma tolv rader som på 1814280, sist HÅLLER.
+
 Kommando 2: interlingua category-elements .
 If wrong (programmet läser inte märkningen): listan har ingen rubrik för någon kategori, som på basen.
 Read back (bas eb48f9d): enda rubriken är "Information objects with no data category", med "none" under.
