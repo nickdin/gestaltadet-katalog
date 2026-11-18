@@ -1,0 +1,47 @@
+Ticket #129: Startsidans rubrik går utanför skärmen på en telefon (2026-11-18)
+
+Run from the repo root: node docs/acceptance-shots/issue-129-rubrik.cjs [base-url] [shot-prefix]
+Tools: Playwright 1.62.1 for Node, system Chromium, window 390 x 844.
+
+Triage boxes met by a command (2026-11-18):
+  gh issue view 1226 --repo nickdin/interlingua --json state,closedAt
+    {"closedAt":"2026-11-14T02:10:07Z","state":"CLOSED"}
+  gh run list --workflow publicera.yml -L 1
+    completed  success  Tavlan: Fable bygger, rättar och granskar ärenden som skriver text el…  Publicera katalogen  main  push  44403358897  3m22s  2026-11-18T21:37:17Z
+
+Base (the triage's measurement on gestaltadet.se, 2026-11-11, before the fix): the word "verksamhetsarkitektur" 440 px wide in a 343 px column, the start page 456 px wide; Applikationsgränssnitt (C-139) 437 px. Nothing in this repo changes, so there is no base to run here; the saved copy below stands in for it.
+
+If wrong (the published site still lacks the heading rule): the page's scrollWidth is larger than the window's 390 in at least one of the four measurements, the heading's scrollWidth is larger than its clientWidth, the line ends FAIL, the script prints "N of 4 measurements fail" and exits 1. The likeliest mistake is to read only the start page, or only light mode, and call the fix done; the script measures all four.
+
+== Run 1: published site, https://gestaltadet.se/ ==
+startsida light: page scrollWidth 390, window 390, h1 scrollWidth 358, clientWidth 358, hyphens auto, overflow-wrap break-word -> PASS
+startsida dark: page scrollWidth 390, window 390, h1 scrollWidth 358, clientWidth 358, hyphens auto, overflow-wrap break-word -> PASS
+C-139 light: page scrollWidth 390, window 390, h1 scrollWidth 358, clientWidth 358, hyphens auto, overflow-wrap break-word -> PASS
+C-139 dark: page scrollWidth 390, window 390, h1 scrollWidth 358, clientWidth 358, hyphens auto, overflow-wrap break-word -> PASS
+all four measurements pass
+exit 0
+
+Read back (publicerad sida 2026-11-18): all four measurements print PASS, the page is 390 px in a 390 px window, the heading 358 px in 358 px, exit 0.
+
+== Run 2: saved copy of the published start page, page for Applikationsgränssnitt (C-139) and stylesheets, with overflow-wrap: break-word; hyphens: auto still in the heading rule ==
+startsida light: page scrollWidth 390, window 390, h1 scrollWidth 358, clientWidth 358, hyphens auto, overflow-wrap break-word -> PASS
+startsida dark: page scrollWidth 390, window 390, h1 scrollWidth 358, clientWidth 358, hyphens auto, overflow-wrap break-word -> PASS
+C-139 light: page scrollWidth 390, window 390, h1 scrollWidth 358, clientWidth 358, hyphens auto, overflow-wrap break-word -> PASS
+C-139 dark: page scrollWidth 390, window 390, h1 scrollWidth 358, clientWidth 358, hyphens auto, overflow-wrap break-word -> PASS
+all four measurements pass
+exit 0
+
+Read back (kopia med regeln): the same four PASS, so the copy behaves as the published site.
+
+== Run 3: the same copy with the rule #1226 added taken out of page.css line 39 (overflow-wrap: break-word; hyphens: auto) ==
+h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
+startsida light: page scrollWidth 456, window 390, h1 scrollWidth 440, clientWidth 358, hyphens manual, overflow-wrap normal -> FAIL
+startsida dark: page scrollWidth 456, window 390, h1 scrollWidth 440, clientWidth 358, hyphens manual, overflow-wrap normal -> FAIL
+C-139 light: page scrollWidth 453, window 390, h1 scrollWidth 437, clientWidth 358, hyphens manual, overflow-wrap normal -> FAIL
+C-139 dark: page scrollWidth 453, window 390, h1 scrollWidth 437, clientWidth 358, hyphens manual, overflow-wrap normal -> FAIL
+4 of 4 measurements fail
+exit 1
+
+Read back (kopia utan regeln): all four print FAIL, the start page 456 px and C-139 453 px in a 390 px window, the heading 440 and 437 px in 358 px, exit 1. The 456 and 440 match the triage's numbers of 2026-11-11; the proof can fail.
+
+Not shown here: the hyphen itself ("verksamhets-arkitektur"). Chromium here has no Swedish dictionary. A real phone shows it; that is the hand-drive step.
