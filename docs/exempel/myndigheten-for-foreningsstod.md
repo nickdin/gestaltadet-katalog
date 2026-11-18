@@ -63,11 +63,13 @@ Beslutslogiken är de regler som ger utfallet ur indata. Verksamhetsbidragets st
 - **Utbetalning**, **Återkrav**: beloppet och dess väg. Utbetalning är intern.
 - **Tillsynsärende**: anmälan, granskning, utfall.
 
-Chefen för Bidragsenheten är informationsägare för Ansökan, Redovisning, Beslut, Utbetalning och Återkrav. Chefen för Register- och tillsynsenheten är det för Förening, Företrädare, Kontonummer och Tillsynsärende. Informationsägaren beslutar klassningen och vad som får göras med informationen. Förteckningen över alla företrädare är känsligare än varje företrädare för sig.
+Chefen för Bidragsenheten är informationsägare för Ansökan, Redovisning, Beslut, Utbetalning och Återkrav. Chefen för Register- och tillsynsenheten är det för Förening, Företrädare, Kontonummer och Tillsynsärende. Informationsägaren beslutar klassningen och vad som får göras med informationen. Klassen är konfidentialitet och riktighet, och den står i myndighetens klassningsförteckning. Förteckningen över alla företrädare ger ingen ny uppgift och har samma konfidentialitet som Företrädare. Att uppgifterna är många höjer kravet på lagringsytan där förteckningen ligger.
 
 Chefen för Bidragsenheten är också processägare för handläggningen Pröva en ansökan och linjechef för enheten som handlägger. Det är det vanliga fallet: de tre rollerna är samma person, och delningen mellan dem syns inte.
 
 Analysenheten läser Ansökan, Beslut och Utbetalning in i ett datalager, en lagringsyta i myndighetens analysplattform. Datalagret innehåller också kopior av Förening och Företrädare. Analysenheten sätter samman Utbetalningar per kommun och räknar fram Riskindikator per förening. Chefen för analysenheten är processägare för analysfunktionen och informationsägare för de två objekt den upprättar. Läsningen av Bidragsenhetens objekt sker inom det Bidragsenhetens chef beslutat.
+
+Tillgängligheten är ett krav på behandlingen, och processägaren ställer det. Pröva en ansökan behöver Förening samma dag och läser objektet i Föreningsregistret. Chefen för Bidragsenheten anger dagen. Analysfunktionen klarar en vecka utan Förening och läser kopian i datalagret. Chefen för Analysenheten anger veckan. Föreningsregistret ska därför klara dagen, och datalagret veckan. Kartan visar vilken yta som får vilket krav: Pröva en ansökan har åtkomst till Föreningsregistret, och analysfunktionen har åtkomst till datalagret.
 
 ## System
 
@@ -149,7 +151,7 @@ Analysfunktionen är kartlagd med arbetssättet Informationskartläggning. Fyra 
 - **Offentlighet och arkiv: en bedömning.** Informationshanteringsplanen har ingen rad för kopiorna i datalagret, och ingen gallrar dem. Myndigheten har ingen regel om kopior. Chefen för Analysenheten bedömer fyndet som en risk: kopiorna kan ligga kvar när originalen är gallrade.
 - **Informationsförsörjning: en bedömning.** Datalagret hämtar Förening ur Ärendesystemet och inte ur Föreningsregistret, som är källan. Antalet medlemmar skiljer sig därför ibland mellan datalagret och registret. Myndigheten har ingen regel om att en kopia hämtas ur källan. Den som har arkitekturansvaret bedömer fyndet som en svaghet, eftersom skillnaden redan finns.
 
-En skillnad är inget fynd. Analysenheten har satt samman Utbetalningar per kommun ur Utbetalning och Förening. Utbetalningar per kommun är öppen, fast Utbetalning är intern. En summering får klassas lägre än sina delar. Förteckningen över alla företrädare visar det omvända: den är känsligare än varje företrädare för sig.
+En skillnad är inget fynd. Analysenheten har satt samman Utbetalningar per kommun ur Utbetalning och Förening. Utbetalningar per kommun är öppen, fast Utbetalning är intern. En summering får klassas lägre än sina delar. Förteckningen över alla företrädare blir däremot inte högre klassad för att uppgifterna är många. Den har samma konfidentialitet som Företrädare.
 
 Kartläggningen är klar först när varje fynd har ett beslut. Den som har mandatet beslutar att åtgärda fyndet eller att leva med det.
 
