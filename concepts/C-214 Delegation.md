@@ -25,7 +25,7 @@ Delegationen går till en roll eller en aktör, aldrig till ett forum ([[C-156 F
 
 Det finns två sorters delegation. Den ena lämnar över ett styrobjekt ([[C-003 Styrobjekt]]). Den andra lämnar över rätten att besluta i ärenden.
 
-Delegation av ett styrobjekt flyttar mandatet ([[C-189 Mandat]]), ansvaret ([[C-209 Ansvar]]) och ramen ([[C-210 Ram]]) tillsammans. Den som tar emot blir styrobjektets ägare, beslutar om det och svarar för dess utfall. Den som delegerar sätter ramen, och den som tar emot håller den. En delegation utan ram är ett fynd: mottagaren har befogenheten men kan inte bära ansvaret.
+Delegation av ett styrobjekt flyttar mandatet ([[C-189 Mandat]]), ansvaret ([[C-209 Ansvar]]) och ramen ([[C-210 Ram]]) tillsammans. Den som tar emot blir styrobjektets ägare, beslutar om det och svarar för dess utfall. Den som delegerar sätter ramen, och den som tar emot håller den. Efter en delegation utan ram har mottagaren befogenheten men kan inte bära ansvaret.
 
 Ansvaret för det omslutande styrobjektet stannar hos den som delegerar. Dit hör att fördelningen fungerar och att ramen räcker. Ingen blir av med ansvaret för helheten genom att delegera en del.
 

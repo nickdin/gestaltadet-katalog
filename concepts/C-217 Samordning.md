@@ -25,7 +25,7 @@ En regel som samordnar skiljer sig från en regel som håller en domän mot helh
 
 Redskapen finns redan i katalogen. Ett schema är en bärare ([[C-016 Bärare]]), och mötet där det görs upp är ett forum ([[C-156 Forum]]).
 
-Saknas båda medlen är det ett fynd. Varje krock mellan domänerna går då till ägaren ovanför, och centraliseringen ([[C-220 Centralisering]]) ökar. Samordningen är en av de fem saker livskraften ([[C-216 Livskraft]]) kräver. Beslut 49.
+Saknas båda medlen går varje krock mellan domänerna till ägaren ovanför, och centraliseringen ([[C-220 Centralisering]]) ökar. Samordningen är en av de fem saker livskraften ([[C-216 Livskraft]]) kräver. Beslut 49.
 
 ## Exempel
 

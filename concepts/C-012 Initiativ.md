@@ -28,7 +28,7 @@ Den som ger initiativet dess ram ([[C-210 Ram]]) startar det och utser dess äga
 
 Initiativets ägare beslutar om arbetet, alltså hur det läggs upp inom ramen och kraven, och svarar för att leverabeln blir klar. Ägaren till lösningen ([[C-055 Lösning]]) som ändras ställer kraven ([[C-021 Krav]]) på leverabeln och tar emot den. Lösningens ägare svarar också för effekten, för effekten uppstår i lösningen när initiativet är slut. Ryms kraven inte i ramen avgör den som satte ramen: antingen höjer hen ramen, eller så sänker lösningsägaren kravet. Initiativets ägare stryker inga krav. Är två lösningsägare oense avgör ägaren till det styrobjekt som omsluter båda.
 
-Ett initiativ som bygger en ny lösning behöver någon som tar emot den. Den som startar initiativet utser därför samtidigt den blivande lösningsägaren, som ställer kraven från början. Ett initiativ utan mottagande ägare är ett fynd.
+Ett initiativ som bygger en ny lösning behöver någon som tar emot den. Den som startar initiativet utser därför samtidigt den blivande lösningsägaren, som ställer kraven från början. I ett initiativ utan mottagande ägare ställer ingen kraven, och ingen tar emot leverabeln.
 
 I ett projekt ([[C-013 Projekt]]) är beställaren initiativets ägare. Projektledaren leder arbetet åt ägaren och har inget eget mandat. Styrgruppen är ett forum ([[C-156 Forum]]): den ger råd och kan komma överens, men den beslutar inte. Beslutar styrgruppen i praktiken om omfattningen ersätter den ett mandat som saknas, på samma sätt som objektforumet i Objektstyrning ([[C-048 Objektstyrning]]).
 

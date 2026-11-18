@@ -23,7 +23,7 @@ Ett beslut kan gå upp flera led. Varje led lägger till väntan, och antalet le
 
 Centralisering finns av två slag, och de ser lika ut uppifrån. Den valda är ett styrbeslut ([[C-019 Styrbeslut]]): den som delegerar ([[C-214 Delegation]]) behåller vissa beslut. Den uppkomna har ingen valt. Den följer av hur ansvaren ([[C-209 Ansvar]]) är skurna. När två saker som måste vägas mot varandra hålls av olika ägare avgör den närmaste ägare som håller båda.
 
-Centraliseringen är ett fynd när komplexiteten ([[C-219 Komplexitet]]) är större än den som beslutar hinner möta. Det gäller båda slagen. Slaget avgör bara vägen ut. Den valda centraliseringen ändras med ett nytt styrbeslut. Den uppkomna kräver ett nytt snitt, så att en ägare längre ned håller det som måste vägas ihop.
+Centraliseringen är för stor när komplexiteten ([[C-219 Komplexitet]]) är större än den som beslutar hinner möta. Beslut blir då liggande, eller fattas utan att någon har satt sig in i läget. Det gäller båda slagen. Slaget avgör bara vägen ut. Den valda centraliseringen ändras med ett nytt styrbeslut. Den uppkomna kräver ett nytt snitt, så att en ägare längre ned håller det som måste vägas ihop.
 
 Katalogen säger inte att decentralisering alltid är bättre. En liten verksamhet med få lägen kan styras centralt. Livskraften ([[C-216 Livskraft]]) kräver att graden passar komplexiteten. Beslut 49.
 

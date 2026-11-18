@@ -23,7 +23,7 @@ associative:
 
 ## Anmärkning
 
-Ansvar och mandat ([[C-189 Mandat]]) är två ord för samma plats. Mandatet är rätten att besluta om något. Ansvaret är att svara för hur det går. För varje sak som ägs beslutar den som svarar för den. Det är regeln som gör ägande prövbart: hitta något som någon svarar för utan att få besluta om, så är det ett fynd.
+Ansvar och mandat ([[C-189 Mandat]]) är två ord för samma plats. Mandatet är rätten att besluta om något. Ansvaret är att svara för hur det går. För varje sak som ägs beslutar den som svarar för den. Det är regeln som gör ägande prövbart: den som svarar för något utan att få besluta om det kan inte bära ansvaret.
 
 Ett begrepp, ingen egen typ. Ansvaret för ett styrobjekt följer mandatet över det och skrivs inte med någon relation. Ansvaret för ett arkitekturelement skrivs med ansvarar för ([[C-208 ansvarar för]]): informationsägarens för informationsobjektet, processägarens för verksamhetsbeteendet. Arkitekturansvaret ([[C-117 Arkitekturansvar]]) är ett ansvar för vyerna.
 
@@ -40,7 +40,7 @@ Saknas något av dem har rollen befogenheten men kan inte bära ansvaret. Beslut
 
 Ett ansvar är komplett när ägaren håller allt som måste vägas mot vartannat för att nå utfallet. Hålls två sådana saker av olika ägare kan ingen av dem väga. Då avgör den närmaste ägare som håller båda. Varje ofullständigt ansvar flyttar på så sätt beslut uppåt. Blir de många styrs verksamheten centralt utan att någon har valt det, se Centralisering ([[C-220 Centralisering]]). Ägaren högst upp hinner inte möta alla lägen, se Komplexitet ([[C-219 Komplexitet]]). Därför ska snittet mellan två ansvar gå där kopplingen ([[C-211 Koppling]]) är lös. Beslut 49.
 
-Tvärfunktionellt ansvar är inget eget begrepp. Ordet betyder en av tre saker. Det kan vara ett mandat för en aspekt ([[C-006 Aspektbaserad styrning]]): rollen fastställer regler för alla och ger råd i fallen, och svarar för reglerna men inte för utfallet. Det kan vara ett ansvar för ett omslutande styrobjekt med ram och mandat, och då är det vanligt ägande. Oftast betyder det ett ansvar för ett utfall utan ram och mandat. Rollen svarar då för något den inte får besluta om, och det är ett fynd. Det som fungerar tvärs över enheterna är det första. Beslut 56.
+Tvärfunktionellt ansvar är inget eget begrepp. Ordet betyder en av tre saker. Det kan vara ett mandat för en aspekt ([[C-006 Aspektbaserad styrning]]): rollen fastställer regler för alla och ger råd i fallen, och svarar för reglerna men inte för utfallet. Det kan vara ett ansvar för ett omslutande styrobjekt med ram och mandat, och då är det vanligt ägande. Oftast betyder det ett ansvar för ett utfall utan ram och mandat. Rollen svarar då för något den inte får besluta om, och kan inte bära ansvaret. Det som fungerar tvärs över enheterna är det första. Beslut 56.
 
 ## Motsvarigheter
 

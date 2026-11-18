@@ -8,7 +8,7 @@ Den som styr något måste kunna möta lika många olika lägen som det styrda k
 
 Källa: W. Ross Ashby, An Introduction to Cybernetics (1956), lagen om erforderlig variation, *the law of requisite variety*.
 
-I katalogen: Komplexitet (C-219) är antalet lägen. Ingen ägare hinner möta alla själv. Därför behövs dämpare, som regler och principer, och förstärkare, som delegation. Centralisering (C-220) är ett fynd när den som beslutar inte hinner med.
+I katalogen: Komplexitet (C-219) är antalet lägen. Ingen ägare hinner möta alla själv. Därför behövs dämpare, som regler och principer, och förstärkare, som delegation. När den som beslutar inte hinner med blir beslut liggande, se Centralisering (C-220).
 
 Exempel: Brinkstadsbostäder har tre områdeskontor, och varje vecka uppstår avvägningar mellan bemanning och process. En vd hinner inte möta dem alla.
 
