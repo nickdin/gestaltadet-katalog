@@ -8,6 +8,9 @@ terms:
 definition: sammanhållen mängd av ramar för ändring och initiativ som ägaren till en verksamhet eller verksamhetsdomän väger mot varandra
 kind: element-type
 partitive: '[[C-008 Verksamhetsdomän]]'
+associative:
+  - concept: '[[C-210 Ram]]'
+    label: väger
 ---
 # C-011 Portfölj
 
