@@ -5,6 +5,10 @@ Körs från lagrets rot: python3 docs/acceptance-shots/issue-184-beslut-61.py
 Provet läser de fem begreppen och sidan som ärendet räknar upp. Varje ruta i ärendet har en eller flera texter som
 ska stå i rutans fil. Provet faller, med slutkod 1 och raden FALLER, när en sådan text saknas, när tillägget om
 återställningstiden står före slutet av listan i Lagringsyta (C-165), eller när meningen i steg 2 på sidan har ändrats.
+
+Provet prövar bara att de 18 krävda texterna står i sina filer. Varje text söks i hela filen, inte i ett visst
+stycke eller steg: texten om återställningstiden godtas var den än står på sidan, inte bara i steg 4. Provet läser
+inte texten runt de krävda texterna, och prövar alltså inte att den följer beslut 61.
 """
 
 import sys
@@ -117,6 +121,7 @@ def storage_list_failures() -> list[str]:
 
 def main() -> int:
     failures = []
+    # Varje krävd text söks i hela filen. Provet prövar att texten står där, inte var i filen den står.
     for path, text, meaning in REQUIRED:
         if text not in path.read_text(encoding="utf-8"):
             failures.append(f"{shown(path)}: saknar {meaning}")
