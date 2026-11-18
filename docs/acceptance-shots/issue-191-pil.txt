@@ -1,0 +1,99 @@
+Ärende #191: pilen AGGREGERAR från Portfölj (C-011) till Initiativ (C-012) i ritningen Mandat och ansvar begreppsmodell, prov kört 2026-11-19 från katalogens rot.
+
+Kommando 1: python3 docs/acceptance-shots/issue-191-pil.py
+If wrong (pilen är ritad som en annan sorts relation än lagret har, i den inbäddade ritningen eller i bilden, eller något annat än pilens stil är ändrat): slutkod 1, en rad FEL per avvikelse och raden FALLER.
+
+På basen 7dd4a06, före ändringen, i en egen klon där provet lagts ovanpå basen (slutkod 1):
+1. Relationen i lagret mellan Portfölj (C-011) och Initiativ (C-012)
+  delrelation, helheten är C-011 och delen C-012: concepts/C-012 Initiativ.md:10
+  pilen ska därför ha: romb vid helheten
+2. Pilen i den inbäddade draw.io-ritningen
+  pilar mellan de två rutorna: 1
+  cell e80: startArrow=saknas vid C-011, endArrow=none vid C-012
+  romb vid: ingen ände
+  FEL: lagret har en delrelation med helheten C-011, men den inbäddade ritningen har romb vid: ingen ände
+3. Pilen i bilden som sajten visar
+  former i pilen: 1, varav slutna med fyra hörn (romber): 0
+  FEL: lagret har en delrelation med helheten C-011, men bilden har romb vid: ingen ände
+  pilens text i bilden: AGGREGERAR
+4. Resten av ritningen mot commit 7dd4a06
+  celler på basen: 127, celler nu: 127, ändrade utom e80: 0
+  pilens källa och mål: som på basen
+  pilens väg (geometry): som på basen
+  pilens text: som på basen
+  pilens stil mot basen: samma
+FALLER: 2 fel.
+Read back (bas 7dd4a06): slutkod 1 och FALLER med 2 fel. Lagret har en delrelation, och pilen saknar romb både i den inbäddade ritningen och i bilden.
+
+På grenen, commit 1a0815f, efter ändringen (slutkod 0):
+1. Relationen i lagret mellan Portfölj (C-011) och Initiativ (C-012)
+  delrelation, helheten är C-011 och delen C-012: concepts/C-012 Initiativ.md:10
+  pilen ska därför ha: romb vid helheten
+2. Pilen i den inbäddade draw.io-ritningen
+  pilar mellan de två rutorna: 1
+  cell e80: startArrow=diamondThin vid C-011, endArrow=none vid C-012
+  romb vid: C-011
+3. Pilen i bilden som sajten visar
+  former i pilen: 2, varav slutna med fyra hörn (romber): 1
+  rombens mitt: (158, 479), närmast rutan C-011
+  pilens text i bilden: AGGREGERAR
+4. Resten av ritningen mot commit 7dd4a06
+  celler på basen: 127, celler nu: 127, ändrade utom e80: 0
+  pilens källa och mål: som på basen
+  pilens väg (geometry): som på basen
+  pilens text: som på basen
+  pilens stil mot basen: startArrow: saknas -> diamondThin; startFill: saknas -> 0; startSize: saknas -> 12
+HÅLLER: pilen är ritad som den relation lagret har, i den inbäddade ritningen och i bilden.
+Read back (gren 1a0815f): slutkod 0 och HÅLLER. Romben sitter vid Portfölj (C-011) i den inbäddade ritningen och i bilden. Av 127 celler är bara pilen e80 ändrad, och i den bara de tre stilvärdena för pilens början.
+
+Kommando 2: samma prov på en kopia av grenen där romben sitter i fel ände, vid delen Initiativ (C-012): stilen i cell e80 har startArrow=none och endArrow=diamondThin, och bilden är exporterad ur den ritningen.
+If wrong (provet läser bara att en romb finns, inte i vilken ände): slutkod 0 och HÅLLER trots romben vid delen.
+1. Relationen i lagret mellan Portfölj (C-011) och Initiativ (C-012)
+  delrelation, helheten är C-011 och delen C-012: concepts/C-012 Initiativ.md:10
+  pilen ska därför ha: romb vid helheten
+2. Pilen i den inbäddade draw.io-ritningen
+  pilar mellan de två rutorna: 1
+  cell e80: startArrow=none vid C-011, endArrow=diamondThin vid C-012
+  romb vid: C-012
+  FEL: lagret har en delrelation med helheten C-011, men den inbäddade ritningen har romb vid: C-012
+3. Pilen i bilden som sajten visar
+  former i pilen: 2, varav slutna med fyra hörn (romber): 1
+  rombens mitt: (158, 521), närmast rutan C-012
+  FEL: lagret har en delrelation med helheten C-011, men bilden har romb vid: C-012
+  pilens text i bilden: AGGREGERAR
+4. Resten av ritningen mot commit 7dd4a06
+  celler på basen: 127, celler nu: 127, ändrade utom e80: 0
+  pilens källa och mål: som på basen
+  pilens väg (geometry): som på basen
+  pilens text: som på basen
+  pilens stil mot basen: endArrow: none -> diamondThin; endFill: saknas -> 0; endSize: 8 -> 12; startArrow: saknas -> none
+FALLER: 2 fel.
+Read back (kopia med romben vid delen): slutkod 1 och FALLER med 2 fel, ett för den inbäddade ritningen och ett för bilden. Båda säger att romben sitter vid C-012.
+
+Kommando 3: samma prov på en kopia av grenen där den inbäddade ritningen har romben men bilden är basens, alltså en ändrad ritning som aldrig exporterades.
+If wrong (provet läser bara den inbäddade ritningen): slutkod 0 och HÅLLER trots att bilden saknar romb.
+  pilen ska därför ha: romb vid helheten
+  romb vid: C-011
+  former i pilen: 1, varav slutna med fyra hörn (romber): 0
+  FEL: lagret har en delrelation med helheten C-011, men bilden har romb vid: ingen ände
+FALLER: 1 fel.
+Read back (kopia med basens bild): slutkod 1 och FALLER med 1 fel, som säger att bilden saknar romb.
+
+Kommando 4: draw.io exporterar basens inbäddade ritning oförändrad, med samma kommando som ändringen exporterades med: xvfb-run -a drawio --no-sandbox --disable-gpu --export --format svg --embed-diagram --svg-theme light, och sedan sätts bildens bakgrund i huvudet till #f5f5f5. Filen jämförs med den incheckade med cmp.
+If wrong (exporten ändrar annat än det ritningen ändrar): cmp pekar ut den första byte som skiljer.
+Read back (bas 7dd4a06): cmp skriver inget, filerna är lika byte för byte, 860334 byte. Det som skiljer grenens bild från basens är därför ändringen i cell e80: linjen börjar vid y 485,99 i stället för 472, och en sluten form med fyra hörn är tillagd mellan y 472,99 och 485,99.
+
+Kommando 5: /usr/bin/chromium --headless --screenshot av grenens bild, 1599 x 833 punkter, läst som PNG.
+If wrong (romben eller texten är klippt, eller ligger på en ruta): romben eller texten AGGREGERAR syns inte hel mellan rutorna Portfölj och Initiativ.
+Read back (gren 1a0815f): en ofylld romb sitter under rutan Portfölj, linjen går rakt ned till rutan Initiativ, och texten AGGREGERAR med triangeln nedåt står hel mitt på linjen. Inget ligger på något annat.
+
+Kommando 6: python3 docs/acceptance-shots/issue-156-losningsstyrning.py, provet för ärende #156, på grenen.
+If wrong (ändringen har rört en pil som provets facit bevakar): raden FALLER och en rad om en ändrad pil.
+  Mandat och ansvar begreppsmodell.drawio.svg: 16 pilar i facit, 0 ändrade, 2 tillagda (VÄGER ▶, AGGREGERAR ▼), 0 borttagna (inga)
+HÅLLER: alla sex delarna.
+Read back (gren d092059): slutkod 0 och HÅLLER. Provets facit är ritningen före ärende #156. Pilen AGGREGERAR fanns inte då, så provet räknar den som tillagd och jämför inte dess stil.
+
+Kommando 7: /home/nickdin/Devbox/interlingua/.venv/bin/interlingua check .
+If wrong (lagret håller inte efter ändringarna): en lista över fel i stället för raden nedan.
+check: 209 files, no violations
+Read back (gren d092059): samma rad som på basen 7dd4a06. Kontrollen är en vakt och visar ingen ändring.
