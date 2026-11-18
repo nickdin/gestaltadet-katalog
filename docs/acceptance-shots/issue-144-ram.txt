@@ -1,0 +1,36 @@
+Ärende #144: Informationsobjekt (C-060) anger att dess ram läses som består av (C-062). Prov kört 2026-11-19.
+
+Fixtur: provet klonar utcheckningen det körs i till en tillfällig mapp och importerar dit, aldrig till lagret. Ritningen har två omärkta ramar: informationsobjektet Föreningsinformation runt informationsobjektet Förening, och lagringsytan Datalagret runt representationen Kopiorna i datalagret.
+Kommando: python3 docs/acceptance-shots/issue-144-ram.py, från lagrets rot. I klonen kör provet interlingua import drawio <klonen> <tillfällig mapp>/ram.drawio --description D-0001.
+
+Basen är 9b3bf8c i en egen klon. Provet finns inte på basen, så det committades ovanpå den i klonen (2c98507); inget annat skiljer klonen från 9b3bf8c.
+
+If wrong (Informationsobjekt (C-060) saknar nyckeln): ramen Föreningsinformation läses efter settings.yaml som aggregerar (C-100), slutkod 1 och raden FALLER.
+If wrong (det troligaste misstaget är att nyckeln skrevs i settings.yaml i stället för i begreppet): också ramen Datalagret läses som består av (C-062), slutkod 1 och raden FALLER.
+
+Read back (bas 9b3bf8c med slutkod 1):
+Utcheckning: 2c98507
+Informationsobjekt (C-060) anger nesting_relation_type: inget
+settings.yaml anger nesting_relation_type: aggregates
+Importens svar: import drawio: G-0001 created from <tillfällig mapp>/ram.drawio
+Relationer som importen skrev: 2
+Föreningsinformation --[aggregerar (C-100)]--> Förening
+Datalagret --[aggregerar (C-100)]--> Kopiorna i datalagret
+FALLER: importen skulle ha skrivit två relationer, Föreningsinformation består av (C-062) Förening och Datalagret aggregerar (C-100) Kopiorna i datalagret.
+
+Read back (gren c750906 med slutkod 0):
+Utcheckning: c750906
+Informationsobjekt (C-060) anger nesting_relation_type: composed_of
+settings.yaml anger nesting_relation_type: aggregates
+Importens svar: import drawio: G-0001 created from <tillfällig mapp>/ram.drawio
+Relationer som importen skrev: 2
+Föreningsinformation --[består av (C-062)]--> Förening
+Datalagret --[aggregerar (C-100)]--> Kopiorna i datalagret
+HÅLLER: ramen Föreningsinformation består av (C-062) rutan Förening, och ramen Datalagret aggregerar (C-100) rutan Kopiorna i datalagret.
+
+Read back (misstaget i en tredje klon av basen där settings.yaml fick composed_of och begreppet ingen nyckel med slutkod 1):
+Informationsobjekt (C-060) anger nesting_relation_type: inget
+settings.yaml anger nesting_relation_type: composed_of
+Föreningsinformation --[består av (C-062)]--> Förening
+Datalagret --[består av (C-062)]--> Kopiorna i datalagret
+FALLER: importen skulle ha skrivit två relationer, Föreningsinformation består av (C-062) Förening och Datalagret aggregerar (C-100) Kopiorna i datalagret.

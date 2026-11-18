@@ -11,6 +11,7 @@ terms:
     status: admitted
 definition: "avgränsad mängd information som verksamheten hanterar som en enhet"
 kind: element-type
+nesting_relation_type: composed_of
 generic: "[[C-122 Resurs]]"
 ---
 # C-060 Informationsobjekt
