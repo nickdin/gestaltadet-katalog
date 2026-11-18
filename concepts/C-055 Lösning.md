@@ -67,7 +67,7 @@ Motsvarar CapabilityImplementation i Business Architecture Core Metamodel (BACM)
 
 Motsvarar också CapabilityOffer i Value Delivery Modeling Language (VDML), en organisationsenhets förmåga med de resurser, metoder och personpooler som levererar den. Beslut 28.
 
-Förvaltningsobjekt är det ord en förvaltningsmodell byggd på pm3 använder för lösningen som styrobjekt (objektstyrning, [[C-047 Produktstyrning]]). Där äger två objektet tillsammans, en objektägare från verksamheten och en från IT; katalogen har en ägare. pm3 kallar objektet i dag leveransområde, under byggstenen ansvarsområde, och kallade det tidigare objekt.
+Förvaltningsobjekt är det ord en förvaltningsmodell byggd på pm3 använder för lösningen som styrobjekt (objektstyrning, [[C-047 Lösningsstyrning]]). Där äger två objektet tillsammans, en objektägare från verksamheten och en från IT; katalogen har en ägare. pm3 kallar objektet i dag leveransområde, under byggstenen ansvarsområde, och kallade det tidigare objekt.
 
 ## Exempel
 

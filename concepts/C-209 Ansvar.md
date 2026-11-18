@@ -44,7 +44,7 @@ Tvärfunktionellt ansvar är inget eget begrepp. Ordet betyder en av tre saker. 
 
 ## Motsvarigheter
 
-Att en roll har befogenheten men inte kan bära ansvaret är vad som händer i pm3:s objektstyrning ([[C-047 Produktstyrning]]): objektägaren från verksamheten svarar för lösningen, IT håller ramen och forumet beslutar. Beslut 36.
+Att en roll har befogenheten men inte kan bära ansvaret är vad som händer i pm3:s objektstyrning ([[C-047 Lösningsstyrning]]): objektägaren från verksamheten svarar för lösningen, IT håller ramen och forumet beslutar. Beslut 36.
 
 ## Exempel
 
