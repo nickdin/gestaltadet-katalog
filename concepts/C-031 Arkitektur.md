@@ -5,7 +5,7 @@ terms:
   - term: Arkitektur
     language: sv
     source: catalogue
-definition: 'grundläggande utformning av ett arkitekturobjekt, beskriven eller inte: dess form och funktion och de principer som styr hur det realiseras och förändras'
+definition: 'grundläggande utformning av ett arkitekturobjekt, beskriven eller inte: dess form och funktion, vilka arkitekturobjekt det delas in i och de principer som styr hur det realiseras och förändras'
 associative:
   - concept: "[[C-041 Referensarkitektur]]"
     label: kan utformas enligt
@@ -20,7 +20,7 @@ associative:
 ---
 # C-031 Arkitektur
 
-**Definition:** grundläggande utformning av ett arkitekturobjekt, beskriven eller inte: dess form och funktion och de principer som styr hur det realiseras och förändras
+**Definition:** grundläggande utformning av ett arkitekturobjekt, beskriven eller inte: dess form och funktion, vilka arkitekturobjekt det delas in i och de principer som styr hur det realiseras och förändras
 
 ## Anmärkning
 
