@@ -20,11 +20,22 @@ associative:
 
 Lagringsytan är stället, inte formen. En representation ([[C-085 Representation]]) ligger på en lagringsyta, och samma fil flyttad till en annan mapp är samma representation på en ny lagringsyta. Behörighet, säkerhetskopiering och var uppgifterna fysiskt finns hör till lagringsytan; format och läsbarhet hör till representationen. Typen hör till applikationsperspektivet. Det är lagringsytan kartläggningens fråga "var lagras informationen" frågar efter.
 
-En applikation ([[C-071 Applikation]]) tillhandahåller en digital lagringsyta, och den fysiska databäraren under den är en artefakt ([[C-081 Artefakt]]). Ett pappersarkiv eller ett skåp är en lagringsyta utan applikation, en fysisk plats. Så får frågan var handlingen förvaras samma svar för pappersakten som för mappen i ärendesystemet (beslut 31). Lagringsytan klassas inte själv: den får behovet av det högst klassade informationsobjektet som ligger där, i alla fyra klasserna ([[C-166 Informationstillgång]]). Lagringsytan aggregerar ([[C-100 aggregerar]]) de representationer som ligger på den: en icke-exklusiv del, eftersom samma representation kan ligga på flera ytor och ytan finns kvar när den tas bort.
+En applikation ([[C-071 Applikation]]) tillhandahåller en digital lagringsyta, och den fysiska databäraren under den är en artefakt ([[C-081 Artefakt]]). Ett pappersarkiv eller ett skåp är en lagringsyta utan applikation, en fysisk plats. Så får frågan var handlingen förvaras samma svar för pappersakten som för mappen i ärendesystemet (beslut 31). Lagringsytan klassas inte själv. Vad den måste klara läses fram ur objekten som ligger där och ur beteendena som når den, i fyra delar. Lagringsytan aggregerar ([[C-100 aggregerar]]) de representationer som ligger på den: en icke-exklusiv del, eftersom samma representation kan ligga på flera ytor och ytan finns kvar när den tas bort.
 
 Ärendeakten som plats, ärendets mapp i ärendesystemet, är en lagringsyta. Det handläggningen hanterar är verksamhetsobjektet ([[C-159 Verksamhetsobjekt]]), och pappersakten som bär information är en representation. Diariet är en lagringsyta, och diarieposten, datum, diarienummer, avsändare och vad handlingen rör, är ett informationsobjekt ([[C-060 Informationsobjekt]]) vars representation ligger där. Diarienumret är ärendets identifierande uppgift (beslut 31).
 
-Åtgärderna som uppfyller behovet på ytan, och vilken klass var och en tjänar, står i [[C-166 Informationstillgång]]. De skiljer sig från representationens åtgärder ([[C-085 Representation]]).
+Lagringsytans krav läses fram i fyra delar:
+
+- Konfidentialitet och riktighet: det högst klassade informationsobjektet på ytan gäller. Datalagret hos Myndigheten för föreningsstöd måste klara nivån för Företrädare så länge kopian ligger där.
+- Tillgänglighet och spårbarhet: det strängaste kravet gäller bland de beteenden som når objektet på just den ytan. Datalagret får analysfunktionens vecka. Föreningsregistret får dagen från Pröva en ansökan.
+- Mängden: många likadana uppgifter höjer ytans krav. De höjer aldrig objektets klass.
+- Kopplingen: det som går att räkna ut ur objekten på ytan höjer ytans krav. Inget objekt höjs för det.
+
+Lagret räknar ingenting. Nivåerna står i organisationens förteckningar, och den som går igenom kartan läser ihop dem med kartan. Beslut 58.
+
+Lagret visar vilka beteenden som når ytan. Ett verksamhetsbeteende ([[C-157 Verksamhetsbeteende]]) ritas med har åtkomst till ([[C-101 har åtkomst till]]) direkt till lagringsytan. Åtgärda en felanmälan hos bostadsbolaget har åtkomst till pärmen på områdeskontoret, och analysfunktionen har åtkomst till datalagret. Beteendet når ett objekt på ytan när tre saker gäller: beteendet har åtkomst till objektet, beteendet har åtkomst till ytan, och en representation av objektet ligger på ytan. Når ett beteende två ytor som båda rymmer objektet, får båda ytorna beteendets krav. Beslut 62.
+
+Åtgärderna som uppfyller kraven på ytan, och vilken klass eller vilket krav var och en tjänar, står i [[C-166 Informationstillgång]]. De skiljer sig från representationens åtgärder ([[C-085 Representation]]).
 
 ## Motsvarigheter
 
