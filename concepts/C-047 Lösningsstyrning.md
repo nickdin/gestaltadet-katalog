@@ -5,15 +5,16 @@ terms:
   - term: Produktstyrning
     language: sv
     source: catalogue
-    status: admitted
+    status: deprecated
   - term: Objektstyrning
     language: sv
     source: catalogue
+    status: deprecated
   - term: Lösningsstyrning
     language: sv
     source: concept change
     status: preferred
-definition: objektbaserad styrning där styrobjektet är en lösning, sedd från de produkter lösningen erbjuder
+definition: objektbaserad styrning där styrobjektet är en lösning
 generic: '[[C-005 Objektbaserad styrning]]'
 associative:
   - concept: '[[C-055 Lösning]]'
@@ -23,7 +24,7 @@ associative:
 ---
 # C-047 Lösningsstyrning
 
-**Definition:** objektbaserad styrning där styrobjektet är en lösning, sedd från de produkter lösningen erbjuder
+**Definition:** objektbaserad styrning där styrobjektet är en lösning
 
 ## Anmärkning
 
