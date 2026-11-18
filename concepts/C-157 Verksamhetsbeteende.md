@@ -21,6 +21,8 @@ Verksamhetsbeteende är familjebegreppet för verksamhetsperspektivets beteenden
 
 Beteendet når informationen på två sätt. Processvyn ritar åtkomsten till verksamhetsobjektet, och genom det har beteendet åtkomst till de informationsobjekt ([[C-060 Informationsobjekt]]) som realiserar det ([[C-094 realiseras av]]). Den åtkomsten härleds och ritas inte. Direkt till ett informationsobjekt ritas bara det som inte följer av verksamhetsobjektet: ett uppslag i ett register, ett utlämnande, en sammanställning beteendet gör. Åtkomsten följer inte aggregerar ([[C-100 aggregerar]]). Behandlingen ([[C-168 Behandling]]) läses ur beteendets åtkomst till informationsobjektet, ritad eller härledd. Beslut 34.
 
+Processägaren ställer ett kontinuitetskrav på beteendet: den längsta tid beteendet får stå still. Kravet är ett krav ([[C-021 Krav]]) på hela beteendet, och det gäller vilken resurs som än faller bort: personal, lokaler, applikationer eller information. Tiden står i en förteckning utanför lagret. Tål delar av beteendet olika långa stopp gäller värsta fallet. Anta att en vattenläcka hos bostadsbolaget får vänta högst fyra timmar och en droppande kran fem arbetsdagar. Båda är Åtgärda en felanmälan, och processen får fyra timmar. Nuläget delar beteendet först när verksamheten utför delen för sig. Har bolaget en jour som egen process med egen ordning, står jouren som ett eget beteende med sin egen tid. Beslut 61.
+
 ## Motsvarigheter
 
 Motsvarar CapabilityBehavior i Business Architecture Core Metamodel (BACM), beteendebeskrivningen som levererar en förmåga, en av flera varianter som ger samma utfall. De regler och policyer BACM låter samma klass bära är i lagret styrmedel ([[C-015 Styrmedel]]). Beslut 27.

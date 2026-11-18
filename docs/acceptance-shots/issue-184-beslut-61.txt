@@ -1,0 +1,44 @@
+Ärende #184: begreppen och sidan Informationskartläggning följer beslut 61. Prov kört 2026-11-18 från lagrets rot, på en kopia av basen ae1b984 och på grenen issue-184-beslut-61.
+
+Kommando 1: python3 docs/acceptance-shots/issue-184-beslut-61.py
+If wrong (en ruta saknar sin text i sin fil, återställningstiden står som en femte punkt i listan i Lagringsyta (C-165) i stället för efter den, eller meningen i steg 2 på sidan är ändrad): slutkod 1 och raden FALLER, med en rad per fil och text.
+
+Read back (bas ae1b984, slutkod 1): FALLER, 18 rader, en per krävd text.
+FALLER:
+- concepts/C-157 Verksamhetsbeteende.md: saknar processägaren ställer kontinuitetskravet
+- concepts/C-157 Verksamhetsbeteende.md: saknar kravet är den längsta tid beteendet får stå still
+- concepts/C-157 Verksamhetsbeteende.md: saknar värsta fallet gäller
+- concepts/C-157 Verksamhetsbeteende.md: saknar nuläget delar beteendet först när verksamheten utför delen för sig
+- concepts/C-206 Processägare.md: saknar processägaren ställer kontinuitetskravet
+- concepts/C-206 Processägare.md: saknar processägaren fastställer reservrutinen som en bärare (C-016)
+- concepts/C-206 Processägare.md: saknar avvägningen följer beslut 50
+- concepts/C-206 Processägare.md: saknar prioritetsordningen är en princip (C-018)
+- concepts/C-206 Processägare.md: saknar länken till princip (C-018)
+- concepts/C-165 Lagringsyta.md: saknar tillgängligheten läses i två mått
+- concepts/C-165 Lagringsyta.md: saknar återställningstiden härleds ur kontinuitetskravet
+- concepts/C-165 Lagringsyta.md: saknar en reservrutin kan skapa en ny lagringsyta
+- concepts/C-165 Lagringsyta.md: saknar den nya lagringsytan måste klara objektets konfidentialitet
+- concepts/C-166 Informationstillgång.md: saknar tillgänglighetens två mått
+- concepts/C-071 Applikation.md: saknar återställningstiden är ett krav (C-021) på applikationen
+- docs/informationskartlaggning.md: saknar frågan i steg 4 räknar in återställningstiden
+- docs/informationskartlaggning.md: saknar kontinuiteten gäller beteendet och alla dess resurser
+- docs/informationskartlaggning.md: saknar informationssäkerheten läser delen om information och applikationer
+
+Read back (grenen issue-184-beslut-61, slutkod 0): HÅLLER.
+Krävda texter: 18 av 18 finns i 6 filer.
+Orörda texter: 2 av 2 står kvar.
+Lagringsyta (C-165): listan har fyra punkter, och återställningstiden står efter den.
+HÅLLER: begreppen och sidan säger det beslut 61 kräver.
+
+Kommando 2: python3 docs/acceptance-shots/issue-179-klassen.py
+Vakt (guard): provet från #179 håller redan på basen och visar bara att orden "fyra delar" i Lagringsyta (C-165) och "två klasser och två krav" i Informationstillgång (C-166) står kvar.
+If wrong (tillägget har tagit bort orden eller fört in en formulering som beslut 58, 60 eller 62 tog bort): slutkod 1 och raden FALLER.
+Read back (grenen issue-184-beslut-61, slutkod 0): Lästa filer: 214. Borttagna formuleringar: 0 träffar på 13 mönster. Krävda texter: 20 av 20 finns.
+
+Kommando 3: interlingua check .
+If wrong (en ny länk i en anmärkning pekar på ett begrepp som inte finns): en rad per fel och inte raden no violations.
+Read back (grenen issue-184-beslut-61): check: 210 files, no violations
+
+Kommando 4: interlingua text unapproved .
+If wrong (en ändrad text bar ett godkännande): kommandot räknar upp texten.
+Read back (grenen issue-184-beslut-61): text unapproved: the store names no owner, so authorship marking is off

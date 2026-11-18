@@ -33,6 +33,10 @@ Lagringsytans krav läses fram i fyra delar:
 
 Lagret räknar ingenting. Nivåerna står i organisationens förteckningar, och den som går igenom kartan läser ihop dem med kartan. Beslut 58.
 
+Tillgängligheten läses i två mått: hur länge beteendet klarar sig utan objektet, och hur mycket av objektet som får gå förlorat. I båda måtten gäller det strängaste kravet bland de beteenden som når objektet på ytan. Till tillgängligheten kommer återställningstiden: hur fort lagringsytan måste vara i bruk igen. Återställningstiden är ett krav ([[C-021 Krav]]) på lagringsytan. Den härleds ur kontinuitetskravet på de beteenden som använder ytan. Har beteendet en reservrutin klarar det sig längre utan ytan, och återställningstiden blir längre. När flera beteenden använder samma yta gäller den kortaste tiden. Beslut 61.
+
+En reservrutin kan skapa en ny lagringsyta. Anta att teknisk chef hos bostadsbolaget beslutar att varje områdeskontor har en utskriven jourlista med hyresgästernas telefonnummer. Jourlistan är en representation av Hyresgäst på en ny lagringsyta, pärmen på kontoret. Pärmen måste klara konfidentialiteten för Hyresgäst. Kartan visar pärmen först när den finns. Beslut 61.
+
 Lagret visar vilka beteenden som når ytan. Ett verksamhetsbeteende ([[C-157 Verksamhetsbeteende]]) ritas med har åtkomst till ([[C-101 har åtkomst till]]) direkt till lagringsytan. Åtgärda en felanmälan hos bostadsbolaget har åtkomst till pärmen på områdeskontoret, och analysfunktionen har åtkomst till datalagret. Beteendet når ett objekt på ytan när tre saker gäller: beteendet har åtkomst till objektet, beteendet har åtkomst till ytan, och en representation av objektet ligger på ytan. Når ett beteende två ytor som båda rymmer objektet, får båda ytorna beteendets krav. Beslut 62.
 
 Åtgärderna som uppfyller kraven på ytan, och vilken klass eller vilket krav var och en tjänar, står i [[C-166 Informationstillgång]]. De skiljer sig från representationens åtgärder ([[C-085 Representation]]).

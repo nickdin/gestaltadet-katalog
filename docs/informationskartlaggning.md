@@ -39,10 +39,12 @@ Exempel: Chefen för Analysenheten är processägare för analysfunktionen och b
 
 Fyra perspektiv går igenom samma karta. Varje perspektiv har en huvudfråga, och varje nej är ett fynd. Perspektiven är oberoende av varandra. När kartan har ägare går de igenom den i valfri ordning, eller samtidigt.
 
-- **Informationssäkerhet.** Har informationsägaren tagit ställning till varje objekt på kartan, själv eller genom området, och klarar varje lagringsyta det förteckningen kräver? [[C-167 Informationsägare|Informationsägaren]] går igenom.
+- **Informationssäkerhet.** Har informationsägaren tagit ställning till varje objekt på kartan, själv eller genom området, och klarar varje lagringsyta det förteckningen kräver? Frågan räknar in återställningstiden: hur fort en lagringsyta eller en applikation måste vara i bruk igen. [[C-167 Informationsägare|Informationsägaren]] går igenom.
 - **Dataskydd.** Har varje [[C-168 Behandling|behandling]] av personuppgifter ett [[C-163 Behandlingsändamål|ändamål]] och en [[C-164 Rättslig grund|rättslig grund]] i registerförteckningen? Processägaren går igenom.
 - **Offentlighet och arkiv.** Har varje handlingstyp per process ett beslut om bevarande eller [[C-200 Gallring|gallring]] i informationshanteringsplanen? Processägaren går igenom.
 - **Informationsförsörjning.** Har varje [[C-202 Resursdata|resursdataobjekt]] en enda källa, och hämtar kopiorna därifrån? Arkitekten går igenom.
+
+Kontinuiteten är inget femte perspektiv. Kontinuitetskravet är den längsta tid beteendet får stå still, och processägaren ställer det. Kontinuiteten gäller beteendet och alla dess resurser: personal, lokaler, applikationer och information. Informationssäkerheten läser den del som rör information och applikationer. Det gör den genom återställningstiden, som härleds ur kontinuitetskravet. Beslut 61.
 
 Exempel: Varje perspektiv ger ett fynd i analysfunktionen. Fynden står under steg 5.
 
@@ -84,7 +86,7 @@ Verksamheten gör arbetet själv. Specialisterna ger råd och granskar.
 
 - **De som utför beteendet** beskriver vad de gör.
 - **Arkitekten** leder varvet och håller kartan. Arkitekten går också igenom informationsförsörjningen. Frågan om en enda källa går över flera beteenden, och bara kartan visar alla kopior.
-- **Processägaren** bekräftar kartan och ställer kraven på tillgänglighet och spårbarhet för behandlingarna i sitt beteende. Processägaren går också igenom dataskydd och offentlighet och arkiv för sitt beteende. Både behandlingen och handlingstypen läses ur beteendet.
+- **Processägaren** bekräftar kartan och ställer kraven på tillgänglighet och spårbarhet för behandlingarna i sitt beteende. Processägaren ställer också kontinuitetskravet på beteendet. Processägaren går också igenom dataskydd och offentlighet och arkiv för sitt beteende. Både behandlingen och handlingstypen läses ur beteendet.
 - **Informationsägaren** klassar sina objekt i konfidentialitet och riktighet och går igenom informationssäkerheten. Informationsägaren för ett resursdataobjekt beslutar om fynden i informationsförsörjningen.
 - **Specialisterna**, till exempel dataskyddsombudet, ger råd och granskar. De gör inte genomgången, för det är inte deras uppdrag.
 - **Den som har mandatet** beslutar om varje fynd.
@@ -126,10 +128,13 @@ Varje huvudfråga har följdfrågor som hjälper den som går igenom kartan.
 - Vilka beteenden har åtkomst till lagringsytan, och vilket är det strängaste kravet på tillgänglighet och spårbarhet bland dem?
 - Vilka objekt på lagringsytan går att koppla ihop till en ny uppgift?
 - Vilka kan öppna lagringsytan?
+- Vilken återställningstid ger kontinuitetskravet varje lagringsyta och applikation, och klarar de tiden?
 
 Exempel: Anta att myndigheten har beslutat att grundnivån för konfidentialitet är intern. Chefen för Bidragsenheten har sagt att grundnivån räcker för informationsområdet Bidragsinformation. I området ligger Återkrav, som visar vilka föreningar som har fått betala tillbaka. Återkrav är känsligare än Utbetalning. Grundnivån håller alltså inte för Återkrav, och det blir ett fynd som informationsägaren beslutar om.
 
 Exempel: Analysfunktionen har åtkomst till datalagret och klarar en vecka utan Förening. Pröva en ansökan har åtkomst till Föreningsregistret och behöver Förening samma dag. Datalagret ska klara veckan, och Föreningsregistret dagen.
+
+Exempel: Anta att Genomföra ansökningsomgången får stå still högst en dag när pengarna ska betalas ut, och att processen saknar reservrutin. Föreningsregistret måste då vara i bruk igen inom dagen. Det är återställningstiden, och den som går igenom kartan frågar om Föreningsregistret klarar den.
 
 ### Dataskydd
 
