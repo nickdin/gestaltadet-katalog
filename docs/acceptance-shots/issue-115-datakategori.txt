@@ -1,0 +1,54 @@
+Ärende #115: de fyra datakategorierna bär slaget data-category och beslut 32 säger de fyra. Prov kört 2026-11-19 från lagrets rot.
+
+Kommando 1: python3 docs/acceptance-shots/issue-115-datakategori.py
+If wrong (en av de fyra saknar kind: data-category, Datakategori (C-201) är märkt som beslut 32 sa förut, generic: C-060 är borta, eller beslut 32 säger fortfarande de fem begreppen): slutkod 1 och raden FALLER med en rad per fel. Det troligaste misstaget är att märka alla fem. Provet kört på en kopia av grenen där även Datakategori (C-201) fått kind: data-category skrev: "FALLER: - Datakategori (C-201) har kind: data-category, men ska inte vara märkt - programmet läser Datakategori (C-201) som datakategori".
+
+Read back (bas eb48f9d): slutkod 1.
+Resursdata (C-202): kind: None, generic: [[C-060 Informationsobjekt]]
+Referensdata (C-203): kind: None, generic: [[C-060 Informationsobjekt]]
+Transaktionsdata (C-204): kind: None, generic: [[C-060 Informationsobjekt]]
+Händelsedata (C-205): kind: None, generic: [[C-060 Informationsobjekt]]
+Datakategori (C-201): kind: None
+category-elements . C-202: slutkod 1: category-elements: C-202 is not a data category, it is a concept of another kind
+category-elements . C-203: slutkod 1: category-elements: C-203 is not a data category, it is a concept of another kind
+category-elements . C-204: slutkod 1: category-elements: C-204 is not a data category, it is a concept of another kind
+category-elements . C-205: slutkod 1: category-elements: C-205 is not a data category, it is a concept of another kind
+category-elements . C-201: slutkod 1: category-elements: C-201 is not a data category, it is a concept of another kind
+Beslut 32: De fem begreppen märks med ett eget slag, fältet länkar till ett av de fyra, och `check` rapporterar en länk till något annat.
+FALLER:
+- Resursdata (C-202) har kind: None, inte data-category
+- Referensdata (C-203) har kind: None, inte data-category
+- Transaktionsdata (C-204) har kind: None, inte data-category
+- Händelsedata (C-205) har kind: None, inte data-category
+- programmet läser inte Resursdata (C-202) som datakategori: category-elements: C-202 is not a data category, it is a concept of another kind
+- programmet läser inte Referensdata (C-203) som datakategori: category-elements: C-203 is not a data category, it is a concept of another kind
+- programmet läser inte Transaktionsdata (C-204) som datakategori: category-elements: C-204 is not a data category, it is a concept of another kind
+- programmet läser inte Händelsedata (C-205) som datakategori: category-elements: C-205 is not a data category, it is a concept of another kind
+- beslut 32 säger inte "De fyra kategorierna märks med ett eget slag"
+- beslut 32 säger fortfarande "De fem begreppen märks"
+- beslut 32 säger inte varför: "allt som är märkt är ett giltigt värde"
+
+Read back (gren issue-115-datakategorier 1814280): slutkod 0.
+Resursdata (C-202): kind: data-category, generic: [[C-060 Informationsobjekt]]
+Referensdata (C-203): kind: data-category, generic: [[C-060 Informationsobjekt]]
+Transaktionsdata (C-204): kind: data-category, generic: [[C-060 Informationsobjekt]]
+Händelsedata (C-205): kind: data-category, generic: [[C-060 Informationsobjekt]]
+Datakategori (C-201): kind: None
+category-elements . C-202: slutkod 0: no element carries C-202 Resursdata
+category-elements . C-203: slutkod 0: no element carries C-203 Referensdata
+category-elements . C-204: slutkod 0: no element carries C-204 Transaktionsdata
+category-elements . C-205: slutkod 0: no element carries C-205 Händelsedata
+category-elements . C-201: slutkod 1: category-elements: C-201 is not a data category, it is a concept of another kind
+Beslut 32: De fyra kategorierna märks med ett eget slag, och Datakategori (`C-201`) märks inte.
+HÅLLER: de fyra kategorierna bär slaget, Datakategori (C-201) bär det inte, och beslut 32 säger de fyra.
+
+Kommando 2: interlingua category-elements .
+If wrong (programmet läser inte märkningen): listan har ingen rubrik för någon kategori, som på basen.
+Read back (bas eb48f9d): enda rubriken är "Information objects with no data category", med "none" under.
+Read back (gren 1814280): fyra rubriker före den, "C-202 Resursdata", "C-203 Referensdata", "C-204 Transaktionsdata" och "C-205 Händelsedata", var och en med raden "no element carries" och kategorins namn.
+
+Kommando 3, en vakt: interlingua check .
+Kommandot går igenom även på basen och bevisar därför ingen ändring. Det vaktar att märkningen inte ger något fynd.
+Read back (bas eb48f9d): check: 209 files, no violations
+Read back (gren 1814280): check: 209 files, no violations
+Read back (kopian där även Datakategori (C-201) är märkt): concepts/C-201 Datakategori.md: missing 'generic': a concept of kind data-category links the element type that may carry it
