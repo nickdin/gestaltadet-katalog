@@ -1,0 +1,122 @@
+Ärende #183: tretton rutor i nio ritningar bär gamla definitioner. Prov kört 2026-11-18 från lagrets rot.
+
+Kommando 1: python3 docs/acceptance-shots/issue-183-rutor.py
+Provet jämför varje ruta med id och definition i varje ritning under layout/ med raden "**Definition:**" i begreppets fil, både i den inbäddade ritningen och i bilden som sajten visar. Det jämför också de nio ritningarna cell för cell med facit, docs/acceptance-shots/issue-183-facit.json, som är ritningarna avkodade ur basen ae1b984.
+If wrong (en ruta bär en text som skrivits av ur ärendets tabell eller ur en äldre definition, bara den inbäddade ritningen eller bara bilden är ändrad, eller en pil har tappat sina brytpunkter när rutorna skrevs om): slutkod 1 och raden FALLER, med en rad AVVIKER, BILDEN AVVIKER eller PIL ÄNDRAD för varje fel.
+
+Read back (bas ae1b984): slutkod 1, 13 avvikelser i den inbäddade ritningen och 13 i bilden. Hela utskriften:
+1 och 2. Rutorna mot begreppsfilerna, i den inbäddade ritningen och i bilden
+AVVIKER: layout/Arkitektur/Arkitektur beskrivningens form.drawio.svg: Arkitektur (C-031)
+    rutan säger:   grundläggande utformning av ett arkitekturobjekt, beskriven eller inte: dess form och funktion och de principer som styr hur det realiseras och förändras
+    begreppet har: grundläggande utformning av ett arkitekturobjekt, beskriven eller inte: dess form och funktion, vilka arkitekturobjekt det delas in i och de principer som styr hur det realiseras och förändras
+BILDEN AVVIKER: layout/Arkitektur/Arkitektur beskrivningens form.drawio.svg: Arkitektur (C-031)
+    bilden säger:  grundläggande utformning av ett arkitekturobjekt, beskriven eller inte: dess form och funktion och de principer som styr hur det realiseras och förändras
+    begreppet har: grundläggande utformning av ett arkitekturobjekt, beskriven eller inte: dess form och funktion, vilka arkitekturobjekt det delas in i och de principer som styr hur det realiseras och förändras
+AVVIKER: layout/Arkitektur/Arkitektur dimensioner.drawio.svg: Arkitektur (C-031)
+    rutan säger:   grundläggande utformning av ett arkitekturobjekt, beskriven eller inte: dess form och funktion och de principer som styr hur det realiseras och förändras
+    begreppet har: grundläggande utformning av ett arkitekturobjekt, beskriven eller inte: dess form och funktion, vilka arkitekturobjekt det delas in i och de principer som styr hur det realiseras och förändras
+BILDEN AVVIKER: layout/Arkitektur/Arkitektur dimensioner.drawio.svg: Arkitektur (C-031)
+    bilden säger:  grundläggande utformning av ett arkitekturobjekt, beskriven eller inte: dess form och funktion och de principer som styr hur det realiseras och förändras
+    begreppet har: grundläggande utformning av ett arkitekturobjekt, beskriven eller inte: dess form och funktion, vilka arkitekturobjekt det delas in i och de principer som styr hur det realiseras och förändras
+AVVIKER: layout/Arkitektur/Arkitektur dimensioner.drawio.svg: Arkitekturobjekt (C-032)
+    rutan säger:   styrobjekt som en arkitektur avser
+    begreppet har: styrobjekt som har en utformning: verksamheten, en verksamhetsdomän eller en lösning
+BILDEN AVVIKER: layout/Arkitektur/Arkitektur dimensioner.drawio.svg: Arkitekturobjekt (C-032)
+    bilden säger:  styrobjekt som en arkitektur avser
+    begreppet har: styrobjekt som har en utformning: verksamheten, en verksamhetsdomän eller en lösning
+AVVIKER: layout/Arkitektur/Arkitektur kedjan.drawio.svg: Arkitektur (C-031)
+    rutan säger:   grundläggande utformning av ett arkitekturobjekt, beskriven eller inte: dess form och funktion och de principer som styr hur det realiseras och förändras
+    begreppet har: grundläggande utformning av ett arkitekturobjekt, beskriven eller inte: dess form och funktion, vilka arkitekturobjekt det delas in i och de principer som styr hur det realiseras och förändras
+BILDEN AVVIKER: layout/Arkitektur/Arkitektur kedjan.drawio.svg: Arkitektur (C-031)
+    bilden säger:  grundläggande utformning av ett arkitekturobjekt, beskriven eller inte: dess form och funktion och de principer som styr hur det realiseras och förändras
+    begreppet har: grundläggande utformning av ett arkitekturobjekt, beskriven eller inte: dess form och funktion, vilka arkitekturobjekt det delas in i och de principer som styr hur det realiseras och förändras
+AVVIKER: layout/Arkitektur/Arkitekturnivå.drawio.svg: Lösning (C-055)
+    rutan säger:   kombination av aktörer, processer, information och teknik som tillsammans realiserar en verksamhetsförmåga för ett eget ändamål
+    begreppet har: kombination av roller, processer, information och teknik som tillsammans realiserar en verksamhetsförmåga för ett eget ändamål
+BILDEN AVVIKER: layout/Arkitektur/Arkitekturnivå.drawio.svg: Lösning (C-055)
+    bilden säger:  kombination av aktörer, processer, information och teknik som tillsammans realiserar en verksamhetsförmåga för ett eget ändamål
+    begreppet har: kombination av roller, processer, information och teknik som tillsammans realiserar en verksamhetsförmåga för ett eget ändamål
+AVVIKER: layout/Information/Verksamhetsinformation begreppsmodell.drawio.svg: Informationsägare (C-167)
+    rutan säger:   roll som ytterst ansvarar för ett informationsobjekt och beslutar hur det klassas och får behandlas
+    begreppet har: roll som ansvarar för ett informationsobjekt och beslutar hur det klassas och får behandlas
+BILDEN AVVIKER: layout/Information/Verksamhetsinformation begreppsmodell.drawio.svg: Informationsägare (C-167)
+    bilden säger:  roll som ytterst ansvarar för ett informationsobjekt och beslutar hur det klassas och får behandlas
+    begreppet har: roll som ansvarar för ett informationsobjekt och beslutar hur det klassas och får behandlas
+AVVIKER: layout/Principer/Begreppsmodell arkitekturprinciper.drawio.svg: Arkitektur (C-031)
+    rutan säger:   grundläggande utformning av ett arkitekturobjekt, beskriven eller inte: dess form och funktion och de principer som styr hur det realiseras och förändras
+    begreppet har: grundläggande utformning av ett arkitekturobjekt, beskriven eller inte: dess form och funktion, vilka arkitekturobjekt det delas in i och de principer som styr hur det realiseras och förändras
+BILDEN AVVIKER: layout/Principer/Begreppsmodell arkitekturprinciper.drawio.svg: Arkitektur (C-031)
+    bilden säger:  grundläggande utformning av ett arkitekturobjekt, beskriven eller inte: dess form och funktion och de principer som styr hur det realiseras och förändras
+    begreppet har: grundläggande utformning av ett arkitekturobjekt, beskriven eller inte: dess form och funktion, vilka arkitekturobjekt det delas in i och de principer som styr hur det realiseras och förändras
+AVVIKER: layout/Principer/Begreppsmodell arkitekturprinciper.drawio.svg: Arkitekturobjekt (C-032)
+    rutan säger:   styrobjekt som en arkitektur avser
+    begreppet har: styrobjekt som har en utformning: verksamheten, en verksamhetsdomän eller en lösning
+BILDEN AVVIKER: layout/Principer/Begreppsmodell arkitekturprinciper.drawio.svg: Arkitekturobjekt (C-032)
+    bilden säger:  styrobjekt som en arkitektur avser
+    begreppet har: styrobjekt som har en utformning: verksamheten, en verksamhetsdomän eller en lösning
+AVVIKER: layout/Styrning/Mandat och ansvar begreppsmodell.drawio.svg: Koppling (C-211)
+    rutan säger:   grad i vilken en ändring i en lösning eller komponent tvingar fram en ändring i en annan vid samma tidpunkt
+    begreppet har: grad i vilken en ändring i ett arkitekturelement, en lösning eller ett styrobjekt tvingar fram en ändring i ett annat vid samma tidpunkt
+BILDEN AVVIKER: layout/Styrning/Mandat och ansvar begreppsmodell.drawio.svg: Koppling (C-211)
+    bilden säger:  grad i vilken en ändring i en lösning eller komponent tvingar fram en ändring i en annan vid samma tidpunkt
+    begreppet har: grad i vilken en ändring i ett arkitekturelement, en lösning eller ett styrobjekt tvingar fram en ändring i ett annat vid samma tidpunkt
+AVVIKER: layout/Styrning/Mandat och ansvar begreppsmodell.drawio.svg: Lösning (C-055)
+    rutan säger:   kombination av aktörer, processer, information och teknik som tillsammans realiserar en verksamhetsförmåga för ett eget ändamål
+    begreppet har: kombination av roller, processer, information och teknik som tillsammans realiserar en verksamhetsförmåga för ett eget ändamål
+BILDEN AVVIKER: layout/Styrning/Mandat och ansvar begreppsmodell.drawio.svg: Lösning (C-055)
+    bilden säger:  kombination av aktörer, processer, information och teknik som tillsammans realiserar en verksamhetsförmåga för ett eget ändamål
+    begreppet har: kombination av roller, processer, information och teknik som tillsammans realiserar en verksamhetsförmåga för ett eget ändamål
+AVVIKER: layout/Styrning/Mandat och ansvar begreppsmodell.drawio.svg: Delegation (C-214)
+    rutan säger:   överlämnande av beslutanderätt, genom en regel, från den som har den till en annan roll, aktör eller forum
+    begreppet har: överlämnande av beslutanderätt, genom en regel, från den som har den till en annan roll eller aktör
+BILDEN AVVIKER: layout/Styrning/Mandat och ansvar begreppsmodell.drawio.svg: Delegation (C-214)
+    bilden säger:  överlämnande av beslutanderätt, genom en regel, från den som har den till en annan roll, aktör eller forum
+    begreppet har: överlämnande av beslutanderätt, genom en regel, från den som har den till en annan roll eller aktör
+AVVIKER: layout/Styrning/Målstyrning begreppsmodell.drawio.svg: Portfölj (C-011)
+    rutan säger:   sammanhållen mängd av initiativ och produkter som prioriteras och finansieras gemensamt
+    begreppet har: sammanhållen mängd av ramar för ändring och initiativ som ägaren till en verksamhet eller verksamhetsdomän väger mot varandra
+BILDEN AVVIKER: layout/Styrning/Målstyrning begreppsmodell.drawio.svg: Portfölj (C-011)
+    bilden säger:  sammanhållen mängd av initiativ och produkter som prioriteras och finansieras gemensamt
+    begreppet har: sammanhållen mängd av ramar för ändring och initiativ som ägaren till en verksamhet eller verksamhetsdomän väger mot varandra
+AVVIKER: layout/Styrning/Styrobjekt begreppsmodell.drawio.svg: Portfölj (C-011)
+    rutan säger:   sammanhållen mängd av initiativ och produkter som prioriteras och finansieras gemensamt
+    begreppet har: sammanhållen mängd av ramar för ändring och initiativ som ägaren till en verksamhet eller verksamhetsdomän väger mot varandra
+BILDEN AVVIKER: layout/Styrning/Styrobjekt begreppsmodell.drawio.svg: Portfölj (C-011)
+    bilden säger:  sammanhållen mängd av initiativ och produkter som prioriteras och finansieras gemensamt
+    begreppet har: sammanhållen mängd av ramar för ändring och initiativ som ägaren till en verksamhet eller verksamhetsdomän väger mot varandra
+räknas inte, id:t är inget begrepp i lagret: layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: 15 rutor (Applikation (C-071), Informationsobjekt (C-060), Lagringsyta (C-165), Representation (C-085), Verksamhetsfunktion (C-158))
+räknas inte, id:t är inget begrepp i lagret: layout/Exempel/Analysfunktionen karta.drawio.svg: 15 rutor (Applikation (C-071), Informationsobjekt (C-060), Lagringsyta (C-165), Representation (C-085), Verksamhetsfunktion (C-158))
+räknas inte, id:t är inget begrepp i lagret: layout/Exempel/Informationskartläggning steg.drawio.svg: 9 rutor (Steg 1, Steg 2, Steg 3, Steg 4 - genomgång, Steg 5, Steg 6)
+räknas inte, id:t är inget begrepp i lagret: layout/Styrning/Styrobjekt begreppsmodell.drawio.svg: 2 rutor (C-009, C-010)
+rutor med id och definition: 189, varav 148 för begrepp som finns i lagret
+avvikelser i den inbäddade ritningen: 13
+avvikelser i bilden: 13
+
+3. De nio ritningarna cell för cell mot facit ur ae1b984
+layout/Arkitektur/Arkitektur beskrivningens form.drawio.svg: 108 celler, 0 definitionstexter ändrade, 0 celler med ändrat läge eller ändrad storlek, 0 pilar ändrade, 0 celler tillagda, 0 borttagna, 0 andra ändringar
+layout/Arkitektur/Arkitektur dimensioner.drawio.svg: 139 celler, 0 definitionstexter ändrade, 0 celler med ändrat läge eller ändrad storlek, 0 pilar ändrade, 0 celler tillagda, 0 borttagna, 0 andra ändringar
+layout/Arkitektur/Arkitektur kedjan.drawio.svg: 125 celler, 0 definitionstexter ändrade, 0 celler med ändrat läge eller ändrad storlek, 0 pilar ändrade, 0 celler tillagda, 0 borttagna, 0 andra ändringar
+layout/Arkitektur/Arkitekturnivå.drawio.svg: 81 celler, 0 definitionstexter ändrade, 0 celler med ändrat läge eller ändrad storlek, 0 pilar ändrade, 0 celler tillagda, 0 borttagna, 0 andra ändringar
+layout/Information/Verksamhetsinformation begreppsmodell.drawio.svg: 153 celler, 0 definitionstexter ändrade, 0 celler med ändrat läge eller ändrad storlek, 0 pilar ändrade, 0 celler tillagda, 0 borttagna, 0 andra ändringar
+layout/Principer/Begreppsmodell arkitekturprinciper.drawio.svg: 269 celler, 0 definitionstexter ändrade, 0 celler med ändrat läge eller ändrad storlek, 0 pilar ändrade, 0 celler tillagda, 0 borttagna, 0 andra ändringar
+layout/Styrning/Mandat och ansvar begreppsmodell.drawio.svg: 111 celler, 0 definitionstexter ändrade, 0 celler med ändrat läge eller ändrad storlek, 0 pilar ändrade, 0 celler tillagda, 0 borttagna, 0 andra ändringar
+layout/Styrning/Målstyrning begreppsmodell.drawio.svg: 110 celler, 0 definitionstexter ändrade, 0 celler med ändrat läge eller ändrad storlek, 0 pilar ändrade, 0 celler tillagda, 0 borttagna, 0 andra ändringar
+layout/Styrning/Styrobjekt begreppsmodell.drawio.svg: 83 celler, 0 definitionstexter ändrade, 0 celler med ändrat läge eller ändrad storlek, 0 pilar ändrade, 0 celler tillagda, 0 borttagna, 0 andra ändringar
+otillåtna ändringar mot facit: 0
+
+FALLER: 26 fel.
+
+Kommando 2: grep -l "styrobjekt som en arkitektur avser" -r layout
+If wrong (en ruta bär kvar den gamla definitionen av Arkitekturobjekt (C-032)): kommandot skriver ritningens sökväg.
+Read back (bas ae1b984): två sökvägar.
+layout/Arkitektur/Arkitektur dimensioner.drawio.svg
+layout/Principer/Begreppsmodell arkitekturprinciper.drawio.svg
+
+Kommando 3: (IFS=$'\n'; grep -L "vilka arkitekturobjekt det delas in i och de principer som styr hur det realiseras" $(grep -l "de principer som styr hur det realiseras" -r layout))
+Kommandot är ärendets, med IFS satt till radbrytning. Ritningarnas namn bär mellanslag, och utan IFS delar skalet varje sökväg i flera ord, så att grep bara svarar "No such file or directory".
+If wrong (en ruta bär kvar den gamla definitionen av Arkitektur (C-031)): kommandot skriver ritningens sökväg.
+Read back (bas ae1b984): fyra sökvägar.
+layout/Arkitektur/Arkitektur beskrivningens form.drawio.svg
+layout/Arkitektur/Arkitektur kedjan.drawio.svg
+layout/Arkitektur/Arkitektur dimensioner.drawio.svg
+layout/Principer/Begreppsmodell arkitekturprinciper.drawio.svg
