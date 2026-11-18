@@ -26,7 +26,7 @@ Styrning är beslut om hur produktionen bemannas, ordnas och följs. Ett beslut 
 
 Löftet till mottagaren hör inte hit. Lösningsägaren beslutar vad en produkt ([[C-014 Produkt]]) lovar, och utformningen ska klara löftet. Produktionen håller eller bryter det, en gång per ärende. Linjechefen ([[C-207 Linjechef]]) svarar för varje ärende.
 
-Produktionsstyrningen följer den domän där arbetet utförs. Hör lösningen ([[C-055 Lösning]]) hemma i en annan domän håller ingen av de två ägarna både utformningen och produktionen. Det är ett fynd, och Verksamhetsdomän förklarar det.
+Produktionsstyrningen följer den domän där arbetet utförs. Hör lösningen ([[C-055 Lösning]]) hemma i en annan domän håller ingen av de två ägarna både utformningen och produktionen. Ingen av dem kan då väga det ena mot det andra, och Verksamhetsdomän förklarar det.
 
 Produktstyrning ([[C-047 Produktstyrning]]) är något annat: den styr en lösning och ser den från det lösningen erbjuder. Beslut 48.
 

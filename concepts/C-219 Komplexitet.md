@@ -26,7 +26,7 @@ Den som styr måste kunna möta lika många lägen som uppstår. Det är Ashbys 
 
 Orden dämpare och förstärkare är Stafford Beers. Beer kallar antalet lägen *variety*.
 
-Är komplexiteten större än den som beslutar hinner möta är det ett fynd. Beslut blir liggande, eller fattas utan att någon har satt sig in i läget. Centralisering ([[C-220 Centralisering]]) säger var fyndet oftast uppstår. Beslut 49.
+Är komplexiteten större än den som beslutar hinner möta blir beslut liggande, eller fattas utan att någon har satt sig in i läget. Centralisering ([[C-220 Centralisering]]) säger var det oftast händer. Beslut 49.
 
 ## Exempel
 
