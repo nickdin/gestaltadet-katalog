@@ -5,12 +5,12 @@ terms:
   - term: Arkitekturobjekt
     language: sv
     source: catalogue
-definition: "styrobjekt som en arkitektur avser"
+definition: 'styrobjekt som har en utformning: verksamheten, en verksamhetsdomän eller en lösning'
 generic: "[[C-003 Styrobjekt]]"
 ---
 # C-032 Arkitekturobjekt
 
-**Definition:** styrobjekt som en arkitektur avser
+**Definition:** styrobjekt som har en utformning: verksamheten, en verksamhetsdomän eller en lösning
 
 ## Anmärkning
 
