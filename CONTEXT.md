@@ -124,6 +124,10 @@ Två saker som båda kallas rättning. En rättning av lösningen ändrar utform
 **Utvecklingsdomän**, **produktionsdomän**:
 Inte två sorters domän. Varje verksamhetsdomän har en utformning och en produktion. Den som säger utvecklingsdomänen menar domänens utformning och ändringen av den.
 
+**Lösningsstyrning**:
+Styrningen av en lösning, Lösningsstyrning (C-047). Lösningens ägare beslutar om lösningen och om dess produkter, och produkten har ingen egen ägare (beslut 46 och 63).
+_Undvik_: produktstyrning, objektstyrning
+
 **Kärnverksamhet**:
 En domän som har en del av organisationens uppdrag utifrån.
 
