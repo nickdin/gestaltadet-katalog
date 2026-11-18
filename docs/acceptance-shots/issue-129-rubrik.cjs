@@ -7,7 +7,8 @@
 // Med ett bildprefix sparar skriptet en skärmbild per mätning som <prefix>-<sida>-<läge>.png.
 //
 // En sida godkänns när document.documentElement.scrollWidth inte är större än
-// window.innerWidth. Skriptet skriver också ut rubrikens egna scrollWidth och clientWidth.
+// window.innerWidth. Skriptet skriver också ut rubrikens egna scrollWidth och clientWidth,
+// men bedömer dem inte: en klippt rubrik fäller inte provet.
 // Slutkod 0 när alla fyra mätningarna godkänns, 1 när någon faller.
 
 const { chromium } = require('/home/nickdin/.npm/_npx/e41f203b7505f1fb/node_modules/playwright');
