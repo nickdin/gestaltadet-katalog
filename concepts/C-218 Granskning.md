@@ -27,7 +27,7 @@ Granskningen prövar förekomsterna mot styrmedlen ([[C-015 Styrmedel]]): regeln
 
 Granskning är inte tillsyn. En myndighets tillsyn över andra är myndighetens eget arbete, alltså produktion. Granskningen riktas inåt, mot det egna.
 
-Ser domänens överordnade ägare bara chefens egna rapporter vet hen inte om styrningen verkar. Granskningen hör till det livskraften ([[C-216 Livskraft]]) kräver. Aktiebolagslagen kräver samma sak av en styrelse: den ska fortlöpande kontrollera om delegationen kan upprätthållas. Beslut 49.
+En domän vars överordnade ägare bara ser chefens egna rapporter saknar granskning. Granskningen hör till det livskraften ([[C-216 Livskraft]]) kräver. Aktiebolagslagen kräver samma sak av en styrelse: den ska fortlöpande kontrollera om delegationen kan upprätthållas. Beslut 49.
 
 ## Exempel
 
