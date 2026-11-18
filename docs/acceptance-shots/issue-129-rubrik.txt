@@ -44,4 +44,6 @@ exit 1
 
 Read back (kopia utan regeln): alla fyra skriver FAIL, startsidan är 456 px och C-139 453 px i ett fönster på 390 px, rubriken är 440 och 437 px i 358 px, slutkod 1. Talen 456 och 440 är triagens tal från 2026-11-11. Provet kan alltså falla.
 
+Körning 2 och 3 går inte att köra om ur lagret. Den sparade kopian finns inte här, och inte heller den page.css där regeln är borttagen. Regeln som togs bort är overflow-wrap: break-word; hyphens: auto, på rad 39 i page.css. Raden ovan visar vad som stod kvar av rad 39 efter det. Den som vill se raderna med FAIL igen sparar de två sidorna och stilmallarna från sajten och tar bort samma regel.
+
 Visas inte här: själva bindestrecket ("verksamhets-arkitektur"). Chromium på den här maskinen har ingen svensk ordlista för avstavning. En riktig telefon visar bindestrecket, och det steget görs för hand.
