@@ -4,6 +4,8 @@
 
 *Beslut 61 ändrar en punkt här. Tillgängligheten har två mått: hur länge beteendet klarar sig utan objektet, och hur mycket av objektet som får gå förlorat. Kontinuitet är ett eget krav på hela beteendet.*
 
+*Beslut 62 avgör en punkt här. Luckan om vilken lagringsyta ett beteende använder är stängd: beteendet ritas med åtkomst direkt till lagringsytan.*
+
 Beslutat av Nicklas 18 november 2026, när beslut 57 hade sagt att klassen är densamma i varje beteende och det skavde för tillgängligheten, för samlingar och för känslighet som uppstår i en koppling.
 
 ## Sammanhang
