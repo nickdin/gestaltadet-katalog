@@ -1,0 +1,549 @@
+{
+ "commit": "9b3bf8c",
+ "drawings": {
+  "layout/Styrning/Mandat och ansvar begreppsmodell.drawio.svg": {
+   "e46": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\" />",
+    "labels": [
+     [
+      "BÄRS AV ▲",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "15",
+    "source-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"390\" y=\"200\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=none;endSize=8;jumpStyle=line;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+    "target": "7",
+    "target-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"390\" y=\"40\" as=\"geometry\" />"
+    ]
+   },
+   "e48": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"858\" y=\"92\" />\n            </Array>\n          </mxGeometry>",
+    "labels": [
+     [
+      "◀ BÄRS AV",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "19",
+    "source-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"740\" y=\"200\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=none;endSize=8;jumpStyle=line;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;",
+    "target": "7",
+    "target-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"390\" y=\"40\" as=\"geometry\" />"
+    ]
+   },
+   "e50": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"449\" y=\"172\" />\n              <mxPoint x=\"158\" y=\"172\" />\n            </Array>\n          </mxGeometry>",
+    "labels": [
+     [
+      "◀ GES SOM",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "15",
+    "source-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"390\" y=\"200\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=none;endSize=8;jumpStyle=line;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+    "target": "3",
+    "target-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"40\" y=\"40\" as=\"geometry\" />"
+    ]
+   },
+   "e52": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\" />",
+    "labels": [
+     [
+      "AVSER ▼",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "15",
+    "source-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"390\" y=\"200\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=none;endSize=8;jumpStyle=line;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;",
+    "target": "27",
+    "target-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"390\" y=\"360\" as=\"geometry\" />"
+    ]
+   },
+   "e54": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"449\" y=\"324\" />\n              <mxPoint x=\"158\" y=\"324\" />\n            </Array>\n          </mxGeometry>",
+    "labels": [
+     [
+      "◀ UTÖVAS GENOM",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "15",
+    "source-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"390\" y=\"200\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=none;endSize=8;jumpStyle=line;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;",
+    "target": "23",
+    "target-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"40\" y=\"360\" as=\"geometry\" />"
+    ]
+   },
+   "e56": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"799\" y=\"332\" />\n              <mxPoint x=\"567\" y=\"332\" />\n            </Array>\n          </mxGeometry>",
+    "labels": [
+     [
+      "◀ AVSER",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "19",
+    "source-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"740\" y=\"200\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=none;endSize=8;jumpStyle=line;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;",
+    "target": "27",
+    "target-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"390\" y=\"360\" as=\"geometry\" />"
+    ]
+   },
+   "e58": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\" />",
+    "labels": [
+     [
+      "◀ FÖRUTSÄTTER",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "19",
+    "source-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"740\" y=\"200\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=none;endSize=8;jumpStyle=line;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;",
+    "target": "15",
+    "target-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"390\" y=\"200\" as=\"geometry\" />"
+    ]
+   },
+   "e60": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\" />",
+    "labels": [
+     [
+      "PRÖVAS GENOM ▼",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "19",
+    "source-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"740\" y=\"200\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=none;endSize=8;jumpStyle=line;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;",
+    "target": "31",
+    "target-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"740\" y=\"360\" as=\"geometry\" />"
+    ]
+   },
+   "e62": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\" />",
+    "labels": [
+     [
+      "PRÖVAR MOT ▼",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "31",
+    "source-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"740\" y=\"360\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=none;endSize=8;jumpStyle=line;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;",
+    "target": "43",
+    "target-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"740\" y=\"520\" as=\"geometry\" />"
+    ]
+   },
+   "e64": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"799\" y=\"480\" />\n              <mxPoint x=\"333\" y=\"480\" />\n              <mxPoint x=\"333\" y=\"412\" />\n            </Array>\n          </mxGeometry>",
+    "labels": [
+     [
+      "◀ LEDER TILL",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "31",
+    "source-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"740\" y=\"360\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=none;endSize=8;jumpStyle=line;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;",
+    "target": "23",
+    "target-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"40\" y=\"360\" as=\"geometry\" />"
+    ]
+   },
+   "e66": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"217\" y=\"340\" />\n              <mxPoint x=\"449\" y=\"340\" />\n            </Array>\n          </mxGeometry>",
+    "labels": [
+     [
+      "TILLDELAS ▶",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "11",
+    "source-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"40\" y=\"200\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=none;endSize=8;jumpStyle=line;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;",
+    "target": "27",
+    "target-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"390\" y=\"360\" as=\"geometry\" />"
+    ]
+   },
+   "e68": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\" />",
+    "labels": [
+     [
+      "FÖLJER ▶",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "11",
+    "source-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"40\" y=\"200\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=none;endSize=8;jumpStyle=line;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;",
+    "target": "15",
+    "target-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"390\" y=\"200\" as=\"geometry\" />"
+    ]
+   },
+   "e70": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\" />",
+    "labels": [
+     [
+      "RÅDER MELLAN ▶",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "35",
+    "source-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"40\" y=\"520\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=none;endSize=8;jumpStyle=line;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;",
+    "target": "39",
+    "target-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"390\" y=\"520\" as=\"geometry\" />"
+    ]
+   },
+   "e72": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\" />",
+    "labels": [
+     [
+      "◀ AVGRÄNSAS AV",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "39",
+    "source-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"390\" y=\"520\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=none;endSize=8;jumpStyle=line;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;",
+    "target": "35",
+    "target-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"40\" y=\"520\" as=\"geometry\" />"
+    ]
+   },
+   "e74": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"158\" y=\"-68\" />\n            </Array>\n          </mxGeometry>",
+    "labels": [
+     [
+      "◀ SKER GENOM",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" x=\"-0.3\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "d-b",
+    "source-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"390\" y=\"-120\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=none;endSize=8;jumpStyle=line;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;",
+    "target": "3",
+    "target-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"40\" y=\"40\" as=\"geometry\" />"
+    ]
+   },
+   "e76": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"683\" y=\"-68\" />\n              <mxPoint x=\"683\" y=\"172\" />\n              <mxPoint x=\"567\" y=\"172\" />\n            </Array>\n          </mxGeometry>",
+    "labels": [
+     [
+      "ÖVERLÄMNAR ▼",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" x=\"-0.35\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "d-b",
+    "source-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"390\" y=\"-120\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=none;endSize=8;jumpStyle=line;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;",
+    "target": "15",
+    "target-place": [
+     "<mxGeometry height=\"104\" width=\"236\" as=\"geometry\" />",
+     "<mxGeometry height=\"104\" width=\"236\" x=\"390\" y=\"200\" as=\"geometry\" />"
+    ]
+   }
+  },
+  "layout/Styrning/Styrning flöde.drawio.svg": {
+   "66": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\" />",
+    "labels": [
+     [
+      "MÅL, RIKTNING",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "4",
+    "source-place": [
+     "<mxGeometry height=\"64\" width=\"200\" as=\"geometry\" />",
+     "<mxGeometry height=\"64\" width=\"200\" x=\"420\" y=\"40\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classic;endSize=6;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;jumpStyle=line;",
+    "target": "6",
+    "target-place": [
+     "<mxGeometry height=\"64\" width=\"200\" as=\"geometry\" />",
+     "<mxGeometry height=\"64\" width=\"200\" x=\"420\" y=\"180\" as=\"geometry\" />"
+    ]
+   },
+   "67": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\" />",
+    "labels": [
+     [
+      "OMSÄTTS",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "6",
+    "source-place": [
+     "<mxGeometry height=\"64\" width=\"200\" as=\"geometry\" />",
+     "<mxGeometry height=\"64\" width=\"200\" x=\"420\" y=\"180\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classic;endSize=6;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;jumpStyle=line;",
+    "target": "10",
+    "target-place": [
+     "<mxGeometry height=\"64\" width=\"200\" as=\"geometry\" />",
+     "<mxGeometry height=\"64\" width=\"200\" x=\"420\" y=\"320\" as=\"geometry\" />"
+    ]
+   },
+   "68": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\" />",
+    "labels": [
+     [
+      "PRINCIPER",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "8",
+    "source-place": [
+     "<mxGeometry height=\"64\" width=\"180\" as=\"geometry\" />",
+     "<mxGeometry height=\"64\" width=\"180\" x=\"120\" y=\"320\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classic;endSize=6;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=line;",
+    "target": "10",
+    "target-place": [
+     "<mxGeometry height=\"64\" width=\"200\" as=\"geometry\" />",
+     "<mxGeometry height=\"64\" width=\"200\" x=\"420\" y=\"320\" as=\"geometry\" />"
+    ]
+   },
+   "69": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"210\" y=\"470\" />\n            </Array>\n          </mxGeometry>",
+    "labels": [
+     [
+      "REKOMM. KRAV",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "8",
+    "source-place": [
+     "<mxGeometry height=\"64\" width=\"180\" as=\"geometry\" />",
+     "<mxGeometry height=\"64\" width=\"180\" x=\"120\" y=\"320\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classic;endSize=6;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;entryX=0.0;entryY=0.156;entryDx=0;entryDy=0;jumpStyle=line;",
+    "target": "14",
+    "target-place": [
+     "<mxGeometry height=\"64\" width=\"200\" as=\"geometry\" />",
+     "<mxGeometry height=\"64\" width=\"200\" x=\"420\" y=\"460\" as=\"geometry\" />"
+    ]
+   },
+   "70": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\" />",
+    "labels": [
+     [
+      "EKONOMISK RAM",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "12",
+    "source-place": [
+     "<mxGeometry height=\"64\" width=\"180\" as=\"geometry\" />",
+     "<mxGeometry height=\"64\" width=\"180\" x=\"740\" y=\"320\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classic;endSize=6;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=line;",
+    "target": "10",
+    "target-place": [
+     "<mxGeometry height=\"64\" width=\"200\" as=\"geometry\" />",
+     "<mxGeometry height=\"64\" width=\"200\" x=\"420\" y=\"320\" as=\"geometry\" />"
+    ]
+   },
+   "71": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"960\" y=\"212\" />\n              <mxPoint x=\"960\" y=\"492\" />\n            </Array>\n          </mxGeometry>",
+    "labels": [
+     [
+      "OKLART",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" x=\"0.3822\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "6",
+    "source-place": [
+     "<mxGeometry height=\"64\" width=\"200\" as=\"geometry\" />",
+     "<mxGeometry height=\"64\" width=\"200\" x=\"420\" y=\"180\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;dashed=1;endArrow=classic;endSize=6;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=line;",
+    "target": "14",
+    "target-place": [
+     "<mxGeometry height=\"64\" width=\"200\" as=\"geometry\" />",
+     "<mxGeometry height=\"64\" width=\"200\" x=\"420\" y=\"460\" as=\"geometry\" />"
+    ]
+   },
+   "72": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"60\" y=\"494\" />\n              <mxPoint x=\"60\" y=\"72\" />\n            </Array>\n          </mxGeometry>",
+    "labels": [
+     [
+      "HEMTAGNA EFFEKTER",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" x=\"-0.4805\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "14",
+    "source-place": [
+     "<mxGeometry height=\"64\" width=\"200\" as=\"geometry\" />",
+     "<mxGeometry height=\"64\" width=\"200\" x=\"420\" y=\"460\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#116a3e;strokeWidth=1;endArrow=classic;endSize=6;exitX=0.0;exitY=0.531;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=line;",
+    "target": "4",
+    "target-place": [
+     "<mxGeometry height=\"64\" width=\"200\" as=\"geometry\" />",
+     "<mxGeometry height=\"64\" width=\"200\" x=\"420\" y=\"40\" as=\"geometry\" />"
+    ]
+   },
+   "73": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"470\" y=\"562\" />\n              <mxPoint x=\"220\" y=\"562\" />\n            </Array>\n          </mxGeometry>",
+    "labels": [
+     [
+      "PRODUKT",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "14",
+    "source-place": [
+     "<mxGeometry height=\"64\" width=\"200\" as=\"geometry\" />",
+     "<mxGeometry height=\"64\" width=\"200\" x=\"420\" y=\"460\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classic;endSize=6;exitX=0.25;exitY=1.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;jumpStyle=line;",
+    "target": "16",
+    "target-place": [
+     "<mxGeometry height=\"64\" width=\"200\" as=\"geometry\" />",
+     "<mxGeometry height=\"64\" width=\"200\" x=\"120\" y=\"600\" as=\"geometry\" />"
+    ]
+   },
+   "74": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\" />",
+    "labels": [],
+    "source": "14",
+    "source-place": [
+     "<mxGeometry height=\"64\" width=\"200\" as=\"geometry\" />",
+     "<mxGeometry height=\"64\" width=\"200\" x=\"420\" y=\"460\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classic;endSize=6;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;jumpStyle=line;",
+    "target": "18",
+    "target-place": [
+     "<mxGeometry height=\"64\" width=\"200\" as=\"geometry\" />",
+     "<mxGeometry height=\"64\" width=\"200\" x=\"420\" y=\"600\" as=\"geometry\" />"
+    ]
+   },
+   "75": {
+    "geometry": "<mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"570\" y=\"562\" />\n              <mxPoint x=\"840\" y=\"562\" />\n            </Array>\n          </mxGeometry>",
+    "labels": [
+     [
+      "OBJEKT",
+      "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+      "<mxGeometry relative=\"1\" as=\"geometry\" />"
+     ]
+    ],
+    "source": "14",
+    "source-place": [
+     "<mxGeometry height=\"64\" width=\"200\" as=\"geometry\" />",
+     "<mxGeometry height=\"64\" width=\"200\" x=\"420\" y=\"460\" as=\"geometry\" />"
+    ],
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classic;endSize=6;exitX=0.75;exitY=1.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;jumpStyle=line;",
+    "target": "20",
+    "target-place": [
+     "<mxGeometry height=\"64\" width=\"200\" as=\"geometry\" />",
+     "<mxGeometry height=\"64\" width=\"200\" x=\"740\" y=\"600\" as=\"geometry\" />"
+    ]
+   }
+  }
+ }
+}
