@@ -1,5 +1,7 @@
 # En ägarroll svarar inför en lösnings ägare, ordet ytterst stryks ur tre definitioner, och klassen är densamma i varje beteende
 
+*Beslut 58 ändrar en punkt här. Klassen är densamma i varje beteende för konfidentialitet och riktighet. Tillgänglighet och spårbarhet är krav som processägaren ställer på sin behandling.*
+
 Beslutat av Nicklas 17 november 2026, när beslut 50 hade lämnat kvar ordet ytterst i definitionen av Processägare (`C-206`), fast processägaren svarar inför lösningsägaren.
 
 ## Sammanhang

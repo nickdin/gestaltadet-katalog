@@ -1,5 +1,7 @@
 # Nivån i en klass beror på värdet i en uppgift: värsta fallet gäller, eller delmängden blir ett eget informationsobjekt, och en förteckning i ett exemplar är ändå en typ
 
+*Beslut 58 skärper en punkt här. Nuläget visar delmängden som ett eget informationsobjekt först när verksamheten hanterar den för sig. Fram till dess står uppdelningen i målarkitekturen.*
+
 Beslutat av Nicklas 3 november 2026, i ett samtal. Han avvisade att öppna uppgiften som elementtyp, eftersom det skulle riva upp beslut 18, 24 och 30 utan att behövas.
 
 ## Sammanhang
