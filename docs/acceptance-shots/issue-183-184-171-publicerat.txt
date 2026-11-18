@@ -1,0 +1,15 @@
+Den publicerade sajten läst efter vågens push, 2026-11-18. Ärendena #183, #184 och #171.
+
+Publiceringen: körningen 44415451384 av arbetsflödet Publicera katalogen, commit d9993f7, completed och success.
+
+If wrong (sajten visar en äldre ritning än lagret): den hämtade filen skiljer sig från filen i layout/.
+Read back (d9993f7): alla nio ritningar från #183, hämtade från https://gestaltadet.se/katalog/drawing/layout/<mapp>/<namn>.drawio.svg, är byte för byte samma som filen i lagret. Definitionen "… vilka arkitekturobjekt det delas in i och de principer som styr hur det realiseras och förändras" av Arkitektur (C-031) står i de fyra ritningar som bär den rutan.
+
+If wrong (sidan om informationskartläggning är inte ompublicerad, eller #184 ändrade meningen i steg 2): sidans text saknar en av fraserna nedan.
+Read back (d9993f7): https://gestaltadet.se/katalog/document/docs/informationskartlaggning.md/index.html har "Frågan räknar in återställningstiden" en gång och "Kontinuiteten är inget femte perspektiv" en gång. Meningen i steg 2 står kvar: "Arkitekten fångar också vilka lagringsytor … beteendet använder", där sajten länkar ordet lagringsytor.
+
+If wrong (en begreppssida är inte ompublicerad): sidan saknar sin nya mening.
+Read back (d9993f7): Verksamhetsbeteende (C-157) har "ställer ett kontinuitetskrav på beteendet", Processägare (C-206) har "Processägaren ställer också kontinuitetskravet", Lagringsyta (C-165) har "Tillgängligheten läses i två mått", Informationstillgång (C-166) har "Tillgängligheten har två mått" och Applikation (C-071) har "Återställningstiden är ett krav", var och en en gång.
+
+If wrong (ordet fynd står kvar som begrepp): ordet fynd står på sidan.
+Read back (d9993f7): sidan om lagarna, https://gestaltadet.se/katalog/document/docs/lagar.md/index.html, och Forum (C-156) har ordet fynd 0 gånger. Forum (C-156) har "som svarar för utfallet" en gång.
