@@ -1,0 +1,218 @@
+Ärende #146: ritningarna visar att Styrmedel (C-015) kan ta sikte på Aspekt (C-004). Prov kört 2026-11-19 från katalogens rot.
+
+Kommando 1: python3 docs/acceptance-shots/issue-146-aspekt.py
+If wrong (pilen saknas i en av de tre ritningarna, pilen går från Arkitekturprincip (C-040) fast Styrmedel (C-015) är med i ritningen, pilen är ingen association eller bär en annan text, bilden säger något annat än den inbäddade ritningen, den nya pilen saknar relation i lagret, eller en cell som fanns på basen är ändrad eller borttagen): slutkod 1, en rad som börjar med FEL för varje fel, och sista raden FALLER.
+
+Det troligaste misstaget är att rita pilen från Arkitekturprincip (C-040), där den gick före beslut 37. Då skriver provet "FEL: layout/Principer/Begreppsmodell arkitekturprinciper.drawio.svg visar båda men har inte exakt en pil "kan ta sikte på" från Styrmedel (C-015): 1 pilar, 0 rätta".
+
+På basen 9b3bf8c, före ändringen (slutkod 1). Provet och facit är kopierade in i en kopia av basen:
+1. Ritningar som visar Aspekt (C-004) och Styrmedel (C-015) eller en sort av styrmedel
+- layout/Arkitektur/Arkitektur beskrivningens form.drawio.svg: visar Arkitekturprincip (C-040) men inte Aspekt (C-004)
+- layout/Arkitektur/Arkitektur dimensioner.drawio.svg: visar Arkitekturprincip (C-040) men inte Aspekt (C-004)
+- layout/Arkitektur/Arkitektur kedjan.drawio.svg: visar Arkitekturprincip (C-040) men inte Aspekt (C-004)
+- layout/Principer/Begreppsmodell arkitekturprinciper.drawio.svg: visar Styrmedel (C-015), Mål (C-017), Princip (C-018), Styrbeslut (C-019), Regel (C-020), Krav (C-021), Arkitekturprincip (C-040) men inte Aspekt (C-004)
+- layout/Principer/Från princip till krav.drawio.svg: visar Princip (C-018), Regel (C-020), Krav (C-021) men inte Aspekt (C-004)
+- layout/Principer/Princip detalj.drawio.svg: visar Princip (C-018), Arkitekturprincip (C-040) men inte Aspekt (C-004)
+- layout/Styrning/Mandat och ansvar begreppsmodell.drawio.svg: visar Mål (C-017), Styrbeslut (C-019), Regel (C-020), Ram (C-210) men inte Aspekt (C-004)
+- layout/Styrning/Målstyrning begreppsmodell.drawio.svg: visar Styrmedel (C-015), Mål (C-017), Verksamhetsmål (C-169), Effektmål (C-170) men inte Aspekt (C-004)
+- layout/Styrning/Styrmedel översikt.drawio.svg: visar Styrmedel (C-015), Mål (C-017), Princip (C-018), Styrbeslut (C-019), Regel (C-020), Krav (C-021) men inte Aspekt (C-004)
+- layout/Styrning/Styrmedlens relationer.drawio.svg: visar Mål (C-017), Princip (C-018), Styrbeslut (C-019), Regel (C-020), Krav (C-021) men inte Aspekt (C-004)
+  ritningar med pilen: 0
+  FEL: layout/Styrning/Styrmedel översikt.drawio.svg har inte pilen "kan ta sikte på" till Aspekt (C-004)
+  FEL: layout/Principer/Begreppsmodell arkitekturprinciper.drawio.svg har inte pilen "kan ta sikte på" till Aspekt (C-004)
+  FEL: layout/Principer/Princip detalj.drawio.svg har inte pilen "kan ta sikte på" till Aspekt (C-004)
+2. Bilden som sajten visar
+3. Pilarna i de ändrade ritningarna mot lagret
+- layout/Styrning/Styrmedel översikt.drawio.svg: 13 pilar mellan rutor
+  Bärare (C-016) --[bär]--> Styrmedel (C-015): finns i lagret
+  Styrbeslut (C-019) --[är en typ av]--> Styrmedel (C-015): finns i lagret
+  Mål (C-017) --[är en typ av]--> Styrmedel (C-015): finns i lagret
+  Princip (C-018) --[är en typ av]--> Styrmedel (C-015): finns i lagret
+  Regel (C-020) --[är en typ av]--> Styrmedel (C-015): finns i lagret
+  Krav (C-021) --[är en typ av]--> Regel (C-020): finns i lagret
+  Ändamål (C-022) --[härleds ur]--> Ändamål (C-022): finns i lagret
+  Bärare (C-016) --[bär]--> Ändamål (C-022): finns i lagret
+  Krav (C-021) --[kan härledas ur]--> Princip (C-018): finns i lagret
+  Mål (C-017) --[gör prövbart]--> Ändamål (C-022): finns i lagret
+  Princip (C-018) --[härleds ur]--> Ändamål (C-022): finns i lagret
+  Regel (C-020) --[kan härledas ur]--> Princip (C-018): finns i lagret
+  Styrbeslut (C-019) --[fattas enligt]--> Princip (C-018): finns i lagret
+  pilar utan relation i lagret: 0
+- layout/Principer/Begreppsmodell arkitekturprinciper.drawio.svg: 43 pilar mellan rutor
+  Ändamål (C-022) --[härleds ur]--> Ändamål (C-022): finns i lagret
+  Arkitektur (C-031) --[kan ingå i]--> Arkitektur (C-031): finns i lagret
+  Arkitekturbeskrivning (C-035) --[följer]--> Metamodell (C-039): finns i lagret
+  Arkitekturbeskrivning (C-035) --[består av]--> Arkitekturvy (C-052): finns i lagret
+  Arkitekturprincip (C-040) --[fastställs av]--> Referensarkitektur (C-041): finns i lagret, som decided_by
+  Krav (C-021) --[kan härledas ur]--> Princip (C-018): finns i lagret
+  Mål (C-017) --[gör prövbart]--> Ändamål (C-022): finns i lagret
+  Målarkitektur (C-054) --[är en typ av]--> Arkitekturbeskrivning (C-035): finns i lagret
+  Målarkitektur (C-054) --[förfinar]--> Målarkitektur (C-054): finns i lagret
+  Målarkitektur (C-054) --[prövas mot]--> Målarkitektur (C-054): finns i lagret
+  Arkitekturperspektiv (C-036) --[styr]--> Arkitekturvy (C-052): finns i lagret
+  Regel (C-020) --[kan härledas ur]--> Princip (C-018): finns i lagret
+  Styrbeslut (C-019) --[fattas enligt]--> Princip (C-018): finns i lagret
+  Princip (C-018) --[härleds ur]--> Ändamål (C-022): finns i lagret
+  Princip (C-018) --[anger]--> Konsekvens (C-023): finns i lagret
+  Konsekvens (C-023) --[uttrycks som]--> Regel (C-020): finns i lagret
+  Konsekvens (C-023) --[uttrycks som]--> Krav (C-021): finns i lagret
+  Konsekvens (C-023) --[uttrycks som]--> Effekt (C-024): finns i lagret
+  Arkitekturprincip (C-040) --[är en typ av]--> Princip (C-018): finns i lagret
+  Referensarkitektur (C-041) --[uttrycker]--> Arkitekturprincip (C-040): finns i lagret
+  Arkitektur (C-031) --[består av]--> Arkitekturprincip (C-040): finns i lagret
+  Arkitektur (C-031) --[kan utformas enligt]--> Referensarkitektur (C-041): finns i lagret
+  Arkitekturbeskrivning (C-035) --[beskriver]--> Arkitektur (C-031): finns i lagret
+  Arkitektur (C-031) --[realiseras enligt]--> Målarkitektur (C-054): finns i lagret
+  Arkitekturbeskrivning (C-035) --[prövas mot]--> Arkitekturprincip (C-040): finns i lagret
+  Referensarkitektur (C-041) --[är en typ av]--> Arkitekturbeskrivning (C-035): finns i lagret
+  Arkitektur (C-031) --[avser]--> Arkitekturobjekt (C-032): finns i lagret
+  Arkitekturnivå (C-033) --[följer av]--> Arkitekturobjekt (C-032): finns i lagret
+  Arkitektur (C-031) --[gäller på]--> Arkitekturnivå (C-033): finns i lagret
+  Arkitekturprincip (C-040) --[gäller på]--> Arkitekturnivå (C-033): finns i lagret
+  Arkitekturprincip (C-040) --[gäller för]--> Arkitekturperspektiv (C-036): finns i lagret
+  Arkitekturbeskrivning (C-035) --[har]--> Tidsperspektiv (C-037): finns i lagret
+  Arkitekturbeskrivning (C-035) --[har]--> Detaljeringsgrad (C-038): finns i lagret
+  Metamodell (C-039) --[definierar typerna av]--> Arkitekturelement (C-034): finns i lagret
+  Arkitektur (C-031) --[består av]--> Arkitekturelement (C-034): finns i lagret
+  Arkitekturprincip (C-040) --[tillämpas på]--> Arkitekturelement (C-034): finns i lagret
+  Mål (C-017) --[är en typ av]--> Styrmedel (C-015): finns i lagret
+  Princip (C-018) --[är en typ av]--> Styrmedel (C-015): finns i lagret
+  Styrbeslut (C-019) --[är en typ av]--> Styrmedel (C-015): finns i lagret
+  Regel (C-020) --[är en typ av]--> Styrmedel (C-015): finns i lagret
+  Krav (C-021) --[är en typ av]--> Regel (C-020): finns i lagret
+  Ändamål (C-022) --[uttolkas ur]--> Extern påverkan (C-029): finns i lagret
+  Ändamål (C-022) --[uttolkas ur]--> Intern påverkan (C-030): finns i lagret
+  pilar utan relation i lagret: 0
+- layout/Principer/Princip detalj.drawio.svg: 7 pilar mellan rutor
+  Princip (C-018) --[härleds ur]--> Ändamål (C-022): finns i lagret
+  Princip (C-018) --[anger]--> Konsekvens (C-023): finns i lagret
+  Arkitekturprincip (C-040) --[är en typ av]--> Princip (C-018): finns i lagret
+  Arkitekturprincip (C-040) --[gäller för]--> Arkitekturperspektiv (C-036): finns i lagret
+  Arkitekturprincip (C-040) --[gäller på]--> Arkitekturnivå (C-033): finns i lagret
+  Arkitekturbeskrivning (C-035) --[prövas mot]--> Arkitekturprincip (C-040): finns i lagret
+  Ändamål (C-022) --[härleds ur]--> Ändamål (C-022): finns i lagret
+  pilar utan relation i lagret: 0
+4. Cellerna mot facit, ritningarna avkodade ur basen
+- layout/Styrning/Styrmedel översikt.drawio.svg: 97 celler i facit, 97 oförändrade, 0 ändrade, 0 borttagna, 0 nya
+- layout/Principer/Begreppsmodell arkitekturprinciper.drawio.svg: 269 celler i facit, 269 oförändrade, 0 ändrade, 0 borttagna, 0 nya
+- layout/Principer/Princip detalj.drawio.svg: 78 celler i facit, 78 oförändrade, 0 ändrade, 0 borttagna, 0 nya
+FALLER: 3 fel.
+
+Read back (bas 9b3bf8c): slutkod 1, "ritningar med pilen: 0", tre rader FEL och sista raden "FALLER: 3 fel.". Ingen ritning visar Aspekt (C-004) tillsammans med Styrmedel (C-015) eller en sort av styrmedel.
+
+På grenen issue-146-aspekt, commit 04c8231, efter ändringen (slutkod 0):
+1. Ritningar som visar Aspekt (C-004) och Styrmedel (C-015) eller en sort av styrmedel
+- layout/Arkitektur/Arkitektur beskrivningens form.drawio.svg: visar Arkitekturprincip (C-040) men inte Aspekt (C-004)
+- layout/Arkitektur/Arkitektur dimensioner.drawio.svg: visar Arkitekturprincip (C-040) men inte Aspekt (C-004)
+- layout/Arkitektur/Arkitektur kedjan.drawio.svg: visar Arkitekturprincip (C-040) men inte Aspekt (C-004)
+- layout/Principer/Begreppsmodell arkitekturprinciper.drawio.svg: visar Aspekt (C-004) och Styrmedel (C-015), Mål (C-017), Princip (C-018), Styrbeslut (C-019), Regel (C-020), Krav (C-021), Arkitekturprincip (C-040)
+  pil: Styrmedel (C-015) --[kan ta sikte på, association]--> Aspekt (C-004)
+  PILEN FINNS: en association "kan ta sikte på" från Styrmedel
+- layout/Principer/Från princip till krav.drawio.svg: visar Princip (C-018), Regel (C-020), Krav (C-021) men inte Aspekt (C-004)
+- layout/Principer/Princip detalj.drawio.svg: visar Aspekt (C-004) och Princip (C-018), Arkitekturprincip (C-040)
+  pil: Princip (C-018) --[kan ta sikte på, association]--> Aspekt (C-004)
+  PILEN FINNS: en association "kan ta sikte på" från en sort av styrmedel, eftersom Styrmedel inte är med i ritningen
+- layout/Styrning/Mandat och ansvar begreppsmodell.drawio.svg: visar Mål (C-017), Styrbeslut (C-019), Regel (C-020), Ram (C-210) men inte Aspekt (C-004)
+- layout/Styrning/Målstyrning begreppsmodell.drawio.svg: visar Styrmedel (C-015), Mål (C-017), Verksamhetsmål (C-169), Effektmål (C-170) men inte Aspekt (C-004)
+- layout/Styrning/Styrmedel översikt.drawio.svg: visar Aspekt (C-004) och Styrmedel (C-015), Mål (C-017), Princip (C-018), Styrbeslut (C-019), Regel (C-020), Krav (C-021)
+  pil: Styrmedel (C-015) --[kan ta sikte på, association]--> Aspekt (C-004)
+  PILEN FINNS: en association "kan ta sikte på" från Styrmedel
+- layout/Styrning/Styrmedlens relationer.drawio.svg: visar Mål (C-017), Princip (C-018), Styrbeslut (C-019), Regel (C-020), Krav (C-021) men inte Aspekt (C-004)
+  ritningar med pilen: 3
+2. Bilden som sajten visar
+- layout/Principer/Begreppsmodell arkitekturprinciper.drawio.svg: bilden bär C-004, Aspekt, KAN TA SIKTE PÅ och definitionens alla ord
+- layout/Principer/Princip detalj.drawio.svg: bilden bär C-004, Aspekt, KAN TA SIKTE PÅ och definitionens alla ord
+- layout/Styrning/Styrmedel översikt.drawio.svg: bilden bär C-004, Aspekt, KAN TA SIKTE PÅ och definitionens alla ord
+3. Pilarna i de ändrade ritningarna mot lagret
+- layout/Styrning/Styrmedel översikt.drawio.svg: 14 pilar mellan rutor
+  Bärare (C-016) --[bär]--> Styrmedel (C-015): finns i lagret
+  Styrbeslut (C-019) --[är en typ av]--> Styrmedel (C-015): finns i lagret
+  Mål (C-017) --[är en typ av]--> Styrmedel (C-015): finns i lagret
+  Princip (C-018) --[är en typ av]--> Styrmedel (C-015): finns i lagret
+  Regel (C-020) --[är en typ av]--> Styrmedel (C-015): finns i lagret
+  Krav (C-021) --[är en typ av]--> Regel (C-020): finns i lagret
+  Ändamål (C-022) --[härleds ur]--> Ändamål (C-022): finns i lagret
+  Bärare (C-016) --[bär]--> Ändamål (C-022): finns i lagret
+  Krav (C-021) --[kan härledas ur]--> Princip (C-018): finns i lagret
+  Mål (C-017) --[gör prövbart]--> Ändamål (C-022): finns i lagret
+  Princip (C-018) --[härleds ur]--> Ändamål (C-022): finns i lagret
+  Regel (C-020) --[kan härledas ur]--> Princip (C-018): finns i lagret
+  Styrbeslut (C-019) --[fattas enligt]--> Princip (C-018): finns i lagret
+  Styrmedel (C-015) --[kan ta sikte på]--> Aspekt (C-004): finns i lagret
+  pilar utan relation i lagret: 0
+- layout/Principer/Begreppsmodell arkitekturprinciper.drawio.svg: 44 pilar mellan rutor
+  Ändamål (C-022) --[härleds ur]--> Ändamål (C-022): finns i lagret
+  Arkitektur (C-031) --[kan ingå i]--> Arkitektur (C-031): finns i lagret
+  Arkitekturbeskrivning (C-035) --[följer]--> Metamodell (C-039): finns i lagret
+  Arkitekturbeskrivning (C-035) --[består av]--> Arkitekturvy (C-052): finns i lagret
+  Arkitekturprincip (C-040) --[fastställs av]--> Referensarkitektur (C-041): finns i lagret, som decided_by
+  Krav (C-021) --[kan härledas ur]--> Princip (C-018): finns i lagret
+  Mål (C-017) --[gör prövbart]--> Ändamål (C-022): finns i lagret
+  Målarkitektur (C-054) --[är en typ av]--> Arkitekturbeskrivning (C-035): finns i lagret
+  Målarkitektur (C-054) --[förfinar]--> Målarkitektur (C-054): finns i lagret
+  Målarkitektur (C-054) --[prövas mot]--> Målarkitektur (C-054): finns i lagret
+  Arkitekturperspektiv (C-036) --[styr]--> Arkitekturvy (C-052): finns i lagret
+  Regel (C-020) --[kan härledas ur]--> Princip (C-018): finns i lagret
+  Styrbeslut (C-019) --[fattas enligt]--> Princip (C-018): finns i lagret
+  Styrmedel (C-015) --[kan ta sikte på]--> Aspekt (C-004): finns i lagret
+  Princip (C-018) --[härleds ur]--> Ändamål (C-022): finns i lagret
+  Princip (C-018) --[anger]--> Konsekvens (C-023): finns i lagret
+  Konsekvens (C-023) --[uttrycks som]--> Regel (C-020): finns i lagret
+  Konsekvens (C-023) --[uttrycks som]--> Krav (C-021): finns i lagret
+  Konsekvens (C-023) --[uttrycks som]--> Effekt (C-024): finns i lagret
+  Arkitekturprincip (C-040) --[är en typ av]--> Princip (C-018): finns i lagret
+  Referensarkitektur (C-041) --[uttrycker]--> Arkitekturprincip (C-040): finns i lagret
+  Arkitektur (C-031) --[består av]--> Arkitekturprincip (C-040): finns i lagret
+  Arkitektur (C-031) --[kan utformas enligt]--> Referensarkitektur (C-041): finns i lagret
+  Arkitekturbeskrivning (C-035) --[beskriver]--> Arkitektur (C-031): finns i lagret
+  Arkitektur (C-031) --[realiseras enligt]--> Målarkitektur (C-054): finns i lagret
+  Arkitekturbeskrivning (C-035) --[prövas mot]--> Arkitekturprincip (C-040): finns i lagret
+  Referensarkitektur (C-041) --[är en typ av]--> Arkitekturbeskrivning (C-035): finns i lagret
+  Arkitektur (C-031) --[avser]--> Arkitekturobjekt (C-032): finns i lagret
+  Arkitekturnivå (C-033) --[följer av]--> Arkitekturobjekt (C-032): finns i lagret
+  Arkitektur (C-031) --[gäller på]--> Arkitekturnivå (C-033): finns i lagret
+  Arkitekturprincip (C-040) --[gäller på]--> Arkitekturnivå (C-033): finns i lagret
+  Arkitekturprincip (C-040) --[gäller för]--> Arkitekturperspektiv (C-036): finns i lagret
+  Arkitekturbeskrivning (C-035) --[har]--> Tidsperspektiv (C-037): finns i lagret
+  Arkitekturbeskrivning (C-035) --[har]--> Detaljeringsgrad (C-038): finns i lagret
+  Metamodell (C-039) --[definierar typerna av]--> Arkitekturelement (C-034): finns i lagret
+  Arkitektur (C-031) --[består av]--> Arkitekturelement (C-034): finns i lagret
+  Arkitekturprincip (C-040) --[tillämpas på]--> Arkitekturelement (C-034): finns i lagret
+  Mål (C-017) --[är en typ av]--> Styrmedel (C-015): finns i lagret
+  Princip (C-018) --[är en typ av]--> Styrmedel (C-015): finns i lagret
+  Styrbeslut (C-019) --[är en typ av]--> Styrmedel (C-015): finns i lagret
+  Regel (C-020) --[är en typ av]--> Styrmedel (C-015): finns i lagret
+  Krav (C-021) --[är en typ av]--> Regel (C-020): finns i lagret
+  Ändamål (C-022) --[uttolkas ur]--> Extern påverkan (C-029): finns i lagret
+  Ändamål (C-022) --[uttolkas ur]--> Intern påverkan (C-030): finns i lagret
+  pilar utan relation i lagret: 0
+- layout/Principer/Princip detalj.drawio.svg: 8 pilar mellan rutor
+  Princip (C-018) --[härleds ur]--> Ändamål (C-022): finns i lagret
+  Princip (C-018) --[anger]--> Konsekvens (C-023): finns i lagret
+  Arkitekturprincip (C-040) --[är en typ av]--> Princip (C-018): finns i lagret
+  Arkitekturprincip (C-040) --[gäller för]--> Arkitekturperspektiv (C-036): finns i lagret
+  Arkitekturprincip (C-040) --[gäller på]--> Arkitekturnivå (C-033): finns i lagret
+  Arkitekturbeskrivning (C-035) --[prövas mot]--> Arkitekturprincip (C-040): finns i lagret
+  Ändamål (C-022) --[härleds ur]--> Ändamål (C-022): finns i lagret
+  Princip (C-018) --[kan ta sikte på]--> Aspekt (C-004): ärvd från Styrmedel (C-015), som inte är med i ritningen
+  pilar utan relation i lagret: 0
+4. Cellerna mot facit, ritningarna avkodade ur basen
+- layout/Styrning/Styrmedel översikt.drawio.svg: 97 celler i facit, 97 oförändrade, 0 ändrade, 0 borttagna, 8 nya
+  nya: b-g-aspekt, e-styrmedel-aspekt, g-aspekt, g-aspekt-def, g-aspekt-id, l-e-styrmedel-aspekt, r-g-aspekt, t-g-aspekt
+- layout/Principer/Begreppsmodell arkitekturprinciper.drawio.svg: 269 celler i facit, 269 oförändrade, 0 ändrade, 0 borttagna, 8 nya
+  nya: b-g-aspekt, e-styrmedel-aspekt, g-aspekt, g-aspekt-def, g-aspekt-id, l-e-styrmedel-aspekt, r-g-aspekt, t-g-aspekt
+- layout/Principer/Princip detalj.drawio.svg: 78 celler i facit, 78 oförändrade, 0 ändrade, 0 borttagna, 8 nya
+  nya: b-g-aspekt, e-princip-aspekt, g-aspekt, g-aspekt-def, g-aspekt-id, l-e-princip-aspekt, r-g-aspekt, t-g-aspekt
+HÅLLER
+
+Read back (gren 04c8231): slutkod 0, "ritningar med pilen: 3" och sista raden "HÅLLER". Varje ritning som visar båda har pilen. Ingen pil i de tre ritningarna saknar relation i lagret. Varje cell i facit är oförändrad, och varje ritning har 8 nya celler: rutan Aspekt (C-004) med 6 celler, pilen och pilens text.
+
+Del 4 av provet, cellerna mot facit, är en vakt (guard): den ger noll ändrade och noll borttagna celler också på basen.
+
+Kommando 2: /usr/bin/chromium --headless --no-sandbox --hide-scrollbars --window-size=<bildens bredd>,<bildens höjd> --screenshot=<fil>.png <ritningen>.drawio.svg, för var och en av de tre ritningarna
+If wrong (rutan Aspekt ligger på en annan ruta, definitionen är avklippt, pilens text ligger på en annan text eller på en korsning, eller pilen går genom en ruta): det syns i bilden.
+Read back (gren 04c8231): jag har läst de tre bilderna. I Styrmedel översikt står rutan Aspekt rakt ovanför Styrmedel, och pilen är ett rakt lodrätt streck med texten KAN TA SIKTE PÅ ▲. I Begreppsmodell arkitekturprinciper står rutan till höger om Styrmedel. Pilen går från Styrmedels överkant till Aspekts överkant och korsar pilen härleds ur mellan Princip (C-018) och Ändamål (C-022) med ett linjehopp. Texten KAN TA SIKTE PÅ ▶ står fri från korsningen. I Princip detalj står rutan till vänster om Arkitekturprincip (C-040), och pilen går från Princips underkant till Aspekts överkant med texten ◀ KAN TA SIKTE PÅ. Hela definitionen går att läsa i alla tre rutorna, på tre rader. Ingen ruta ligger på en annan, och bilderna har samma bredd och höjd som på basen.
+
+Kommando 3: /home/nickdin/Devbox/interlingua/.venv/bin/interlingua check .
+If wrong (lagret bryter mot en regel): raden slutar inte "no violations".
+Read back (gren 04c8231): "check: 210 files, no violations", slutkod 0. Basen ger samma rad, så kontrollen är en vakt (guard).
