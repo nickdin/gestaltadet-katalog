@@ -9,7 +9,7 @@ klonen. Sedan läser det två saker i de skrivna sidorna.
    https://gestaltadet.se/ (ärende #128). Utan nyckeln är det ren text: <p class="site">GestaltaDet</p>.
 2. Historiken. Provet väljer den senaste versionen vars commit har en Co-Authored-By med noreply@anthropic.com
    och läser hur historiksidan skriver den. Med ai_coauthor_addresses i settings.yaml står det "Nicklas med AI"
-   (ärende #127). Utan nyckeln står det "Nicklas".
+   (ärende #127). Utan nyckeln namnger programmet modellen ur commitens rad, till exempel "Nicklas med Claude Opus 5.5".
 
 Provet slutar med slutkod 1 och raden FALLER om någon av de två läsningarna ger det gamla svaret. Klonen bär bara
 det som är committat, så en ändring som inte är committad syns inte i provet. Publiceringen tar flera minuter.
