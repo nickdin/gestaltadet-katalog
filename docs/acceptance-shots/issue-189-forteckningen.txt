@@ -1,0 +1,33 @@
+Ärende #189: prov på att avsnittet Vad kartan bär och inte bär på sidan Informationskartläggning säger var kontinuitetskravet och återställningstiden står, gjort 2026-11-19 från katalogens rot.
+
+Kommando: python3 docs/acceptance-shots/issue-189-forteckningen.py
+Provet publicerar katalogen med interlingua publish till en tom mapp och läser avsnittet på publicerad form, utan taggar och utan sajtens förklaringsrutor. Det håller bara om punkten som börjar med Förteckningen över kraven på behandlingarna nämner både kontinuitetskravet och återställningstiden.
+If wrong (punkten saknar ett av kraven, eller kravet står under en annan förteckning): slutkod 1 och raden FALLER.
+
+På basen 12cf2f5, sidan före ändringen (slutkod 1):
+Publicerad sida: document/docs/informationskartlaggning.md/index.html
+Punkten i avsnittet Vad kartan bär och inte bär: Förteckningen över kraven på behandlingarna säger processägarens krav på tillgänglighet och spårbarhet. Den pekar på paret beteende och objekt.
+kontinuitetskrav: saknas
+återställningstid: saknas
+FALLER: punkten säger inte var 2 av 2 krav står.
+
+Efter ändringen (slutkod 0):
+Publicerad sida: document/docs/informationskartlaggning.md/index.html
+Punkten i avsnittet Vad kartan bär och inte bär: Förteckningen över kraven på behandlingarna säger processägarens krav på tillgänglighet och spårbarhet. Den pekar på paret beteende och objekt. Förteckningen har också en rad för processägarens kontinuitetskrav: hur länge ett beteende får stå still. Den raden pekar på beteendet. Återställningstiden härleds ur kontinuitetskravet och står på en egen rad i samma förteckning. Den raden pekar på applikationen eller lagringsytan.
+kontinuitetskrav: står i punkten
+återställningstid: står i punkten
+HÅLLER: punkten säger att båda kraven står i förteckningen över kraven på behandlingarna.
+
+Klarspråk, mening för mening (klarsprak-skillen, steg 3), gjord för hand:
+1. "Förteckningen har också en rad för processägarens kontinuitetskrav: hur länge ett beteende får stå still." 15 ord. Aktören är processägaren. Termen förklaras i meningen.
+2. "Den raden pekar på beteendet." 5 ord. Raden är nämnd i meningen före. Pekar på är listans eget ord.
+3. "Återställningstiden härleds ur kontinuitetskravet och står på en egen rad i samma förteckning." 13 ord. Passiv form: beslut 61 säger att tiden härleds men inte vem som härleder den, och sidans steg 4 skriver likadant.
+4. "Den raden pekar på applikationen eller lagringsytan." 7 ord.
+5. "Exempel: Anta att Genomföra ansökningsomgången får stå still högst en dag när pengarna ska betalas ut." 16 ord. Samma antagande som sidans exempel under Informationssäkerhet.
+6. "Förteckningen över kraven på behandlingarna har då en rad som pekar på Genomföra ansökningsomgången och säger en dag." 18 ord. Förteckningen är nämnd vid namn.
+7. "Anta också att återställningstiden för Föreningsregistret blir en dag." 9 ord. Tiden är ett antagande, eftersom den beror på om processen har en reservrutin.
+8. "Den står på en rad i samma förteckning, och raden pekar på Föreningsregistret." 13 ord.
+
+Ingen ny förteckning: sidan nämner samma tre förteckningar och en plan före och efter (klassningsförteckningen, förteckningen över kraven på behandlingarna, registerförteckningen, informationshanteringsplanen).
+
+interlingua check .: check: 209 files, no violations

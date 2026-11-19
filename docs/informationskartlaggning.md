@@ -101,9 +101,11 @@ Besluten står på andra ställen:
 
 - Klassningsförteckningen säger nivån i konfidentialitet och riktighet för varje objekt. Den pekar på objektet på kartan. Ett objekt har en egen rad, eller så gäller raden för dess informationsområde.
 - Klassningsbeslutet säger varför objektet har nivån, vilken analys som ligger bakom och vilka skydd som är valda. För ett objekt med grundnivån säger beslutet bara att grundnivån räcker, utan analys.
-- Förteckningen över kraven på behandlingarna säger processägarens krav på tillgänglighet och spårbarhet. Den pekar på paret beteende och objekt.
+- Förteckningen över kraven på behandlingarna säger processägarens krav på tillgänglighet och spårbarhet. Den pekar på paret beteende och objekt. Förteckningen har också en rad för processägarens kontinuitetskrav: hur länge ett beteende får stå still. Den raden pekar på beteendet. Återställningstiden härleds ur kontinuitetskravet och står på en egen rad i samma förteckning. Den raden pekar på applikationen eller lagringsytan.
 - Registerförteckningen säger ändamål och rättslig grund.
 - Informationshanteringsplanen säger vad som bevaras och vad som gallras.
+
+Exempel: Anta att Genomföra ansökningsomgången får stå still högst en dag när pengarna ska betalas ut. Förteckningen över kraven på behandlingarna har då en rad som pekar på Genomföra ansökningsomgången och säger en dag. Anta också att återställningstiden för Föreningsregistret blir en dag. Den står på en rad i samma förteckning, och raden pekar på Föreningsregistret.
 
 [[C-035 Arkitekturbeskrivning|Arkitekturbeskrivningen]] ska inte bära all information som perspektiven behöver.
 
