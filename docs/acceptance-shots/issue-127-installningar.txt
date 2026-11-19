@@ -1,0 +1,9 @@
+#127 och #128 — settings.yaml anger site_address och ai_coauthor_addresses. Kört av våg 3, 2026-11-19.
+
+Kommando: python3 docs/acceptance-shots/issue-127-installningar.py, från lagrets rot. Provet klonar utcheckningen, kör interlingua publish på klonen och läser sidhuvudet på startsidan och historikraden för den senaste commit som har en Co-Authored-By med noreply@anthropic.com. Bas: eb48f9d i en egen klon, med provet kopierat in. Gren: issue-127-installningar.
+
+If wrong (nyckeln site_address eller ai_coauthor_addresses saknas, har fel namn eller fel värde): sidhuvudet är ren text, <p class="site">GestaltaDet</p>, och AI-versionen står som "Nicklas med Claude Opus 5.5" i stället för "Nicklas med AI". Provet skriver då FALLER och slutar med slutkod 1.
+Read back (bas eb48f9d): sidhuvudet "GestaltaDet" utan länk; versionen står som "Nicklas med Claude Opus 5.5"; båda läsningarna "nej"; FALLER, slutkod 1.
+Read back (gren 7c8d90f): sidhuvudet <a href="https://gestaltadet.se/">GestaltaDet</a>; versionen står som "Nicklas med AI"; båda läsningarna "ja"; OK, slutkod 0.
+
+Anmärkning: meningen "Beskrivningarna av ändringar gjorda med AI är skrivna av AI och inte granskade." (history-ai-note) står en gång överst i historiken på grenens lokala publicering. Provet läser den inte på basen; den läsningen på den publicerade sajten är vågens efter pushen.

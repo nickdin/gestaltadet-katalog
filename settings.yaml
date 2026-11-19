@@ -1,5 +1,6 @@
 language: sv
 site_name: GestaltaDet
+site_address: https://gestaltadet.se/
 theme: docs/grafisk-profil.css
 base_address: https://gestaltadet.se/katalog
 nesting_relation_type: aggregates
@@ -14,3 +15,5 @@ drawings:
   - layout/Information
   - layout/Exempel
 footer: "Licens: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.sv). Använd och bygg vidare, med GestaltaDet och Nicklas Grandin som källa."
+ai_coauthor_addresses:
+  - noreply@anthropic.com
