@@ -2,7 +2,7 @@
 
 Metoden börjar i en karta och slutar i beslut.
 
-Informationskartläggning är ett [[C-196 Arbetssätt|arbetssätt]] för den som vill förbättra hur en verksamhet hanterar sin information. Verksamheten kartläggs en gång. Sedan går fyra perspektiv igenom samma karta: informationssäkerhet, dataskydd, offentlighet och arkiv, informationsförsörjning. Varje brist blir ett fynd, och varje fynd får ett beslut. Metoden står i beslut 55.
+Informationskartläggning är ett [[C-196 Arbetssätt|arbetssätt]] för den som vill förbättra hur en verksamhet hanterar sin information. Verksamheten kartläggs en gång. Sedan går tre perspektiv igenom samma karta: informationssäkerhet, dataskydd, och offentlighet och arkiv. Varje brist som ett perspektiv hittar blir ett fynd, och varje fynd får ett beslut. Metoden står i beslut 55 och beslut 64.
 
 Ett varv gäller ett beteende och har sju steg. Steg 1 till 3 är en [[C-107 Kartläggning|kartläggning]]. Steg 4 till 7 går igenom kartan och slutar i beslut. Sidan följer ett exempel genom alla steg: analysfunktionen hos Myndigheten för föreningsstöd, en påhittad myndighet som fördelar statsbidrag till ideella föreningar.
 
@@ -35,42 +35,45 @@ Exempel: Analysenheten läser Ansökan, Beslut och Utbetalning in i ett datalage
 
 Exempel: Chefen för Analysenheten är processägare för analysfunktionen och bekräftar kartan. Excelfilen i grupprummet står kvar på kartan.
 
-## Steg 4: gå igenom kartan ur fyra perspektiv
+## Steg 4: gå igenom kartan ur tre perspektiv
 
-Fyra perspektiv går igenom samma karta. Varje perspektiv har en huvudfråga, och varje nej är ett fynd. Perspektiven är oberoende av varandra. När kartan har ägare går de igenom den i valfri ordning, eller samtidigt.
+Tre perspektiv går igenom samma karta. Varje perspektiv har en huvudfråga, och varje nej är ett fynd. Perspektiven är oberoende av varandra. När kartan har ägare går de igenom den i valfri ordning, eller samtidigt.
 
-- **Informationssäkerhet.** Har informationsägaren tagit ställning till varje objekt på kartan, själv eller genom området, och klarar varje lagringsyta det förteckningen kräver? Frågan räknar in återställningstiden: hur fort en lagringsyta eller en applikation måste vara i bruk igen. [[C-167 Informationsägare|Informationsägaren]] går igenom.
-- **Dataskydd.** Har varje [[C-168 Behandling|behandling]] av personuppgifter ett [[C-163 Behandlingsändamål|ändamål]] och en [[C-164 Rättslig grund|rättslig grund]] i registerförteckningen? Processägaren går igenom.
+- **Informationssäkerhet.** Har informationsägaren tagit ställning till varje objekt på kartan, själv eller genom området, och klarar varje lagringsyta det som klassningen och kraven på behandlingarna kräver? Frågan räknar också in återställningstiden: hur fort en lagringsyta eller en applikation måste vara i bruk igen. [[C-167 Informationsägare|Informationsägaren]] går igenom.
+- **Dataskydd.** Har varje [[C-168 Behandling|behandling]] av personuppgifter ett [[C-163 Behandlingsändamål|ändamål]] och en [[C-164 Rättslig grund|rättslig grund]] i registret över behandling? Processägaren går igenom.
 - **Offentlighet och arkiv.** Har varje handlingstyp per process ett beslut om bevarande eller [[C-200 Gallring|gallring]] i informationshanteringsplanen? Processägaren går igenom.
-- **Informationsförsörjning.** Har varje [[C-202 Resursdata|resursdataobjekt]] en enda källa, och hämtar kopiorna därifrån? Arkitekten går igenom.
 
-Kontinuiteten är inget femte perspektiv. Kontinuitetskravet är den längsta tid beteendet får stå still, och processägaren ställer det. Kontinuiteten gäller beteendet och alla dess resurser: personal, lokaler, applikationer och information. Informationssäkerheten läser den del som rör information och applikationer. Det gör den genom återställningstiden, som härleds ur kontinuitetskravet. Beslut 61.
+Kontinuiteten är inget fjärde perspektiv. Kontinuitetskravet är den längsta tid beteendet får stå still, och processägaren ställer det. Kontinuiteten gäller beteendet och alla dess resurser: personal, lokaler, applikationer och information. Informationssäkerheten läser den del som rör information och applikationer. Det gör den genom återställningstiden, som härleds ur kontinuitetskravet. Beslut 61.
 
-Exempel: Varje perspektiv ger ett fynd i analysfunktionen. Fynden står under steg 5.
+Informationsförsörjningen är inget perspektiv. Den är arkitekturarbete. Arkitekten läser samma karta och frågar: har varje [[C-202 Resursdata|resursdataobjekt]] en enda källa, och hämtar kopiorna därifrån? Ett nej blir en [[C-185 Bedömning|bedömning]] som går till [[C-054 Målarkitektur|målarkitekturen]]. Bedömningen följer arkitekturarbetets egen takt. Beslut 64.
+
+Exempel: Varje perspektiv ger ett fynd i analysfunktionen, och arkitekten gör en bedömning. De står under steg 5.
 
 ## Steg 5: skriv varje fynd som en avvikelse eller en bedömning
 
 Ett fynd är en [[C-213 Avvikelse|avvikelse]] när organisationen har fastställt ett [[C-015 Styrmedel|styrmedel]] att pröva mot, till exempel en [[C-020 Regel|regel]]. Annars är fyndet en [[C-185 Bedömning|bedömning]], oftast en [[C-186 Risk|risk]]. En lag är en [[C-184 Påverkan|påverkan]] utifrån. Lagen blir ett styrmedel först när organisationen har härlett en egen regel ur den.
 
-Exempel: Analysfunktionen har fyra fynd, ett per perspektiv.
+Exempel: Analysfunktionen har tre fynd, ett per perspektiv.
 
 - **Informationssäkerhet: en avvikelse.** En analytiker har exporterat Riskindikator per förening till en Excelfil i enhetens grupprum. Grupprummet är en lagringsyta som hela myndigheten kan öppna, och Riskindikator per förening är känslig. Myndigheten har fastställt regeln att behörigheten på en lagringsyta följer den högsta klassen där. Filen går emot regeln, och därför är fyndet en avvikelse.
-- **Dataskydd: en bedömning.** Datalagret innehåller Företrädare, som är personuppgifter. Analysfunktionens ändamål i registerförteckningen nämner bara Ansökan, Beslut och Utbetalning. Myndigheten har ingen egen regel om vad registerförteckningen ska innehålla. Chefen för Analysenheten bedömer fyndet som en risk: en företrädare kan fråga varför uppgifterna finns i datalagret, och myndigheten har inget svar.
+- **Dataskydd: en bedömning.** Datalagret innehåller Företrädare, som är personuppgifter. Analysfunktionens ändamål i registret över behandling nämner bara Ansökan, Beslut och Utbetalning. Myndigheten har ingen egen regel om vad registret ska innehålla. Chefen för Analysenheten bedömer fyndet som en risk: en företrädare kan fråga varför uppgifterna finns i datalagret, och myndigheten har inget svar.
 - **Offentlighet och arkiv: en bedömning.** Informationshanteringsplanen har ingen rad för kopiorna i datalagret, och ingen gallrar dem. Myndigheten har ingen regel om kopior. Chefen för Analysenheten bedömer fyndet som en risk: kopiorna kan ligga kvar när originalen är gallrade.
-- **Informationsförsörjning: en bedömning.** Datalagret hämtar Förening ur Ärendesystemet och inte ur Föreningsregistret, som är källan. Antalet medlemmar skiljer sig därför ibland mellan datalagret och registret. Myndigheten har ingen regel om att en kopia hämtas ur källan. Den som har [[C-117 Arkitekturansvar|arkitekturansvaret]] bedömer fyndet som en svaghet, eftersom skillnaden redan finns.
+
+Arkitekten läser samma karta i arkitekturarbetet med informationsförsörjningen och ser en brist. Datalagret hämtar Förening ur Ärendesystemet och inte ur Föreningsregistret, som är källan. Antalet medlemmar skiljer sig därför ibland mellan datalagret och Föreningsregistret. Myndigheten har ingen regel om att en kopia hämtas ur källan. Den som har [[C-117 Arkitekturansvar|arkitekturansvaret]] bedömer bristen som en svaghet, eftersom skillnaden redan finns.
 
 En skillnad är inget fynd. Analysenheten har satt samman Utbetalningar per kommun ur Utbetalning och Förening. Utbetalningar per kommun är öppen, fast Utbetalning är intern. En summering får klassas lägre än sina delar.
 
 ## Steg 6: låt den som har mandatet besluta om varje fynd
 
-Den som har [[C-189 Mandat|mandatet]] beslutar att åtgärda fyndet eller att leva med det. Att leva med ett fynd är ett [[C-019 Styrbeslut|styrbeslut]]. Varvet slutar när varje fynd har ett beslut. En lista över fynd som ingen beslutar om ändrar inget.
+Den som har [[C-189 Mandat|mandatet]] beslutar att åtgärda fyndet eller att leva med det. Att leva med ett fynd är ett [[C-019 Styrbeslut|styrbeslut]]. Varvet slutar när de tre perspektivens fynd har beslut. Fynd som ingen beslutar om ändrar inget.
 
-Exempel: Myndigheten åtgärdar tre fynd och lever med ett.
+Exempel: Myndigheten åtgärdar alla tre fynden.
 
 - **Informationssäkerhet.** Chefen för Analysenheten beslutar att Excelfilen flyttas till en lagringsyta som bara enheten kan öppna. Avvikelsen är då rättad, och regeln står kvar.
 - **Dataskydd.** Chefen för Register- och tillsynsenheten är informationsägare för Företrädare. Hen beslutar att kopian av Företrädare tas bort ur datalagret.
 - **Offentlighet och arkiv.** Chefen för Analysenheten beslutar att informationshanteringsplanen får en rad för kopiorna i datalagret. En kopia gallras när originalet gallras.
-- **Informationsförsörjning.** Chefen för Register- och tillsynsenheten är informationsägare för Förening. Hen beslutar att skillnaden får stå kvar i år, eftersom det kostar mer att byta källa än skillnaden gör. Hen skriver beslutet med skälet, och det prövas igen i nästa varv. Att leva med fyndet är ett styrbeslut.
+
+Arkitektens bedömning håller inte varvet öppet. Bedömningen om källan för Förening går till målarkitekturen, och varvet slutar utan att någon har beslutat om den.
 
 Ett beslut som kräver en ändring blir ett [[C-021 Krav|krav]] i [[C-054 Målarkitektur|målarkitekturen]]. Kartan visar nuläget tills ändringen är gjord. Beslutet att ta bort kopian av Företrädare skrivs som ett krav på datalagret i målarkitekturen. Kartan visar kopian tills den är borta.
 
@@ -85,25 +88,41 @@ Exempel: Om myndigheten byter analysplattform ändras applikationen. Då gör my
 Verksamheten gör arbetet själv. Specialisterna ger råd och granskar.
 
 - **De som utför beteendet** beskriver vad de gör.
-- **Arkitekten** leder varvet och håller kartan. Arkitekten går också igenom informationsförsörjningen. Frågan om en enda källa går över flera beteenden, och bara kartan visar alla kopior.
-- **Processägaren** bekräftar kartan och ställer kraven på tillgänglighet och spårbarhet för behandlingarna i sitt beteende. Processägaren ställer också kontinuitetskravet på beteendet. Processägaren går också igenom dataskydd och offentlighet och arkiv för sitt beteende. Både behandlingen och handlingstypen läses ur beteendet.
-- **Informationsägaren** klassar sina objekt i konfidentialitet och riktighet och går igenom informationssäkerheten. Informationsägaren för ett resursdataobjekt beslutar om fynden i informationsförsörjningen.
+- **Arkitekten** leder varvet och håller kartan. Arkitekten läser också kartan för informationsförsörjningen, som är arkitekturarbete. Frågan om en enda källa går över flera beteenden, och bara kartan visar alla kopior.
+- **Processägaren** bekräftar kartan och ställer kraven på tillgänglighet och spårbarhet för behandlingarna i sitt beteende. Processägaren ställer också kontinuitetskravet på beteendet. Processägaren går också igenom dataskydd och offentlighet och arkiv för sitt beteende. Både behandlingen och handlingstypen läses ur beteendet. Processägaren är ofta också informationsägare för objekten i sin process.
+- **Informationsägaren** klassar sina objekt i konfidentialitet och riktighet och går igenom informationssäkerheten. Ett objekt som många processer använder har en annan ägare än processägaren.
 - **Specialisterna**, till exempel dataskyddsombudet, ger råd och granskar. De gör inte genomgången, för det är inte deras uppdrag.
 - **Den som har mandatet** beslutar om varje fynd.
+
+Exempel: Chefen för Bidragsenheten äger både processen Genomföra ansökningsomgången och objektet Ansökan. Många processer använder Förening, och det objektet äger chefen för Register- och tillsynsenheten.
 
 ## Vad kartan bär och inte bär
 
 Kartan bär beteendet, informationsobjekten med ägare, representationerna, lagringsytorna och applikationerna. Kartan visar också vilka beteenden som har åtkomst till varje lagringsyta. Kartan beskriver hur det är.
 
-Kartan bär inga beslut ur de fyra perspektiven. Den visar vem som beslutar, aldrig vad hen har beslutat. Klassningen står därför inte på kartan. Den som går igenom kartan läser ihop den med förteckningarna.
+Kartan bär inga beslut ur de tre perspektiven. Den visar vem som beslutar, aldrig vad hen har beslutat. Klassningen står därför inte på kartan. Den som går igenom kartan läser ihop den med perspektivens dokumentation.
 
-Besluten står på andra ställen:
+Besluten står i perspektivens dokumentation, och varje perspektiv håller sin egen. Sidan beskriver inte dokumentationen i sin helhet. Den säger vilka dokument som pekar på kartan, vad de pekar på och var resten står. Där en källa namnger dokumentet har det källans namn. Beslut 64.
 
-- Klassningsförteckningen säger nivån i konfidentialitet och riktighet för varje objekt. Den pekar på objektet på kartan. Ett objekt har en egen rad, eller så gäller raden för dess informationsområde.
-- Klassningsbeslutet säger varför objektet har nivån, vilken analys som ligger bakom och vilka skydd som är valda. För ett objekt med grundnivån säger beslutet bara att grundnivån räcker, utan analys.
-- Förteckningen över kraven på behandlingarna säger processägarens krav på tillgänglighet och spårbarhet. Den pekar på paret beteende och objekt.
-- Registerförteckningen säger ändamål och rättslig grund.
-- Informationshanteringsplanen säger vad som bevaras och vad som gallras.
+**Informationssäkerhet.** Informationssäkerheten håller fyra dokument som pekar på kartan. Resten står i föreskrifterna om informationssäkerhet för statliga myndigheter (MSBFS 2020:6 och MSBFS 2020:7) och i metodstödet för systematiskt informationssäkerhetsarbete på informationssakerhet.se. Cybersäkerhetslagen ställer fler krav på dokumentationen hos den som lagen gäller. Lagen ger inget eget perspektiv, för kraven hör till informationssäkerheten.
+
+- Klassningsförteckningen säger nivån i konfidentialitet och riktighet för varje objekt. Den pekar på objektet på kartan. Ett objekt har en egen rad, eller så gäller raden för dess informationsområde. Klassningsförteckningen är en rekommendation i metodstödet och inget krav i föreskrifterna. Föreskrifterna kräver att myndigheten dokumenterar klassningen, men de säger inte i vilken form.
+- Klassningsbeslutet säger varför objektet har nivån, vilken analys som ligger bakom och vilka skydd som är valda. För ett objekt med grundnivån säger beslutet bara att grundnivån räcker, utan analys. Beslutet pekar på samma objekt som raden i klassningsförteckningen.
+- Dokumentationen av kraven på behandlingarna säger kraven på tillgänglighet och spårbarhet. Den pekar på paret beteende och objekt. Processägaren ställer kraven, och informationssäkerheten håller dokumentationen. Dokumentet är metodens eget.
+- Dokumentationen av it-miljön säger fyra saker om varje informationssystem: vilken hård- och mjukvara det använder, vilka andra system det beror av, om det behandlar information som behöver utökat skydd och om det är centralt för myndighetens uppdrag. Den pekar på applikationen i kartan. Kravet står i MSBFS 2020:7, 2 kap. 4 §, och gäller statliga myndigheter.
+
+Exempel: Chefen för Bidragsenheten säger hur länge Genomföra ansökningsomgången klarar sig utan Företrädare. Kravet står sedan i informationssäkerhetens dokumentation av kraven på behandlingarna. Föreningsregistret behandlar Företrädare. I dokumentationen av it-miljön är Föreningsregistret därför markerat som ett system som behandlar information med behov av utökat skydd. Bostadsbolaget Brinkstadsbostäder är ingen statlig myndighet, och föreskrifterna gäller inte bolaget.
+
+**Dataskydd.** Dataskyddet håller två dokument som pekar på kartan. Dataskyddsförordningen lägger ansvaret för dem på den personuppgiftsansvarige, alltså organisationen. Resten står i dataskyddsförordningen och i Integritetsskyddsmyndighetens vägledningar på imy.se.
+
+- Registret över behandling säger ändamålet med varje behandling. Det pekar på behandlingen i kartan. Kravet står i artikel 30 i dataskyddsförordningen.
+- Konsekvensbedömningen bedömer en typ av behandling som sannolikt leder till hög risk. Den pekar på de behandlingar som den gäller. Kravet står i artikel 35.
+
+**Offentlighet och arkiv.** Offentlighet och arkiv håller tre dokument som pekar på kartan. Resten står i arkivlagen, i offentlighets- och sekretesslagen, i Riksarkivets föreskrifter om arkiv hos statliga myndigheter (RA-FS 1991:1) och i Riksarkivets vägledningar.
+
+- Klassificeringsstrukturen visar de processer som avsätter handlingar. Den pekar på beteendet.
+- Arkivförteckningen redovisar handlingarna som processerna upprättar och tar emot, med gallring och sekretess. Den pekar på beteendet och på representationerna.
+- Informationshanteringsplanen säger vad som bevaras och vad som gallras. Den pekar på samma ställen som arkivförteckningen. Ordet informationshanteringsplan står inte i RA-FS 1991:1. Föreskrifterna kräver klassificeringsstrukturen och arkivförteckningen av statliga myndigheter. I kommunerna heter planen dokumenthanteringsplan.
 
 Kontinuitetskravet och återställningstiden står i dokumentationen av kontinuiteten. Dokumentationen hör inte till något av perspektiven. En rad för kontinuitetskravet pekar på beteendet och säger hur länge det får stå still. En rad för återställningstiden pekar på applikationen eller lagringsytan och säger hur fort den måste vara i bruk igen. Den som går igenom kartan läser tiden där och frågar om resursen klarar den. Lathunden för kontinuitetshantering från Myndigheten för samhällsskydd och beredskap kallar dokumentet konsekvensanalys. Beslut 64.
 
@@ -119,11 +138,11 @@ Kartan delar ett objekt först när verksamheten hanterar delen för sig. Bostad
 
 ## Så når ett perspektivs fynd de andra
 
-Det som ändrar kartan skrivs in i kartan. Ett perspektiv kan hitta ett nytt objekt, en ny lagringsyta, en kopia eller en åtkomst. Perspektivet lämnar det till arkitekten, som skriver in det i kartan. Så får de andra perspektiven veta det. Allt annat stannar i perspektivets egen förteckning.
+Det som ändrar kartan skrivs in i kartan. Ett perspektiv kan hitta ett nytt objekt, en ny lagringsyta, en kopia eller en åtkomst. Perspektivet lämnar det till arkitekten, som skriver in det i kartan. Så får de andra perspektiven veta det. Allt annat stannar i perspektivets egen dokumentation.
 
 ## Följdfrågor under varje huvudfråga
 
-Varje huvudfråga har följdfrågor som hjälper den som går igenom kartan.
+Varje huvudfråga har följdfrågor som hjälper den som går igenom kartan. Arkitektens fråga om källan har också följdfrågor.
 
 ### Informationssäkerhet
 
@@ -146,7 +165,7 @@ Exempel: Anta att Genomföra ansökningsomgången får stå still högst en dag 
 
 - Vilka informationsobjekt på kartan är personuppgifter?
 - Vilka beteenden läser eller skriver dem?
-- Står varje sådan behandling i registerförteckningen?
+- Står varje sådan behandling i registret över behandling?
 - Nämner ändamålet varje objekt som behandlingen når?
 
 ### Offentlighet och arkiv
@@ -156,7 +175,7 @@ Exempel: Anta att Genomföra ansökningsomgången får stå still högst en dag 
 - Har kopiorna en rad?
 - Vem gallrar, och när?
 
-### Informationsförsörjning
+### Arkitektens fråga om källan
 
 - Vilka informationsobjekt på kartan är resursdata?
 - Vilken lagringsyta är källan för varje sådant objekt?

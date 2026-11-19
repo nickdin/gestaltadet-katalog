@@ -26,7 +26,8 @@ PAGE = Path('docs/informationskartlaggning.md')
 STATING_FILES = [PAGE, Path('CONTEXT.md'), *sorted(Path('concepts').glob('*.md'))]  # texterna som säger vad som gäller
 DECISIONS = sorted(Path('docs/adr').glob('*.md'))
 DECISION_DECLARING_WORKING_NAME = '0064-'  # beslut 64 säger själv att namnet är ett arbetsnamn
-PROCESSING_REGISTER = re.compile(r'förteckning(en)? över kraven på behandlingarna', re.IGNORECASE)
+# Ärende #202 gav dokumentet namnet dokumentationen av kraven på behandlingarna. Provet läser båda namnen.
+PROCESSING_REGISTER = re.compile(r'(förteckning(en)? över|dokumentation(en)? av) kraven på behandlingarna', re.IGNORECASE)
 CONTINUITY_DOCUMENTATION = re.compile(r'dokumentationen av kontinuiteten', re.IGNORECASE)
 WORKING_NAME = re.compile(r'förteckning(en)? över kontinuitetskrav', re.IGNORECASE)
 CONTINUITY = re.compile(r'kontinuitet|återställningstid|stå still', re.IGNORECASE)

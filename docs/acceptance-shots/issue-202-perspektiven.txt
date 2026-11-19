@@ -1,0 +1,165 @@
+Ärende #202: informationshanteringen har tre perspektiv, informationsförsörjningen är arkitekturarbete, och sidan Informationskartläggning säger vad varje perspektivs dokumentation pekar på i kartan. Prov kört 2026-11-19 från lagrets rot.
+
+Kommando: python3 docs/acceptance-shots/issue-202-perspektiven.py
+
+If wrong (orden fyra perspektiv står kvar, informationsförsörjningen står bland perspektiven, sidan saknar ett perspektivs dokument, ett dokument har ett namn som ingen källa ger det, sidan och exemplet säger olika om när varvet slutar, eller ritningen visar inte tre perspektiv): slutkod 1 och en rad som börjar FALLER.
+
+På basen dd9d0da, före ändringen (slutkod 1):
+
+Rader med orden fyra perspektiv: 5
+  docs/exempel/myndigheten-for-foreningsstod.md:147: Analysfunktionen är kartlagd med arbetssättet Informationskartläggning. Fyra perspektiv har gått igenom samma karta, och varje perspektiv har gett ett fynd. Ett fynd är en avvikelse när myndigheten har fastställt en regel att pröva mot. Annars är fyndet en bedömning. De fyra fynden:
+  docs/informationskartlaggning.md:5: Informationskartläggning är ett [[C-196 Arbetssätt|arbetssätt]] för den som vill förbättra hur en verksamhet hanterar sin information. Verksamheten kartläggs en gång. Sedan går fyra perspektiv igenom samma karta: informationssäkerhet, dataskydd, offentlighet och arkiv, informationsförsörjning. Varje brist blir ett fynd, och varje fynd får ett beslut. Metoden står i beslut 55.
+  docs/informationskartlaggning.md:38: ## Steg 4: gå igenom kartan ur fyra perspektiv
+  docs/informationskartlaggning.md:40: Fyra perspektiv går igenom samma karta. Varje perspektiv har en huvudfråga, och varje nej är ett fynd. Perspektiven är oberoende av varandra. När kartan har ägare går de igenom den i valfri ordning, eller samtidigt.
+  docs/informationskartlaggning.md:98: Kartan bär inga beslut ur de fyra perspektiven. Den visar vem som beslutar, aldrig vad hen har beslutat. Klassningen står därför inte på kartan. Den som går igenom kartan läser ihop den med förteckningarna.
+Rader som nämner informationsförsörjningen: 11
+  docs/exempel/myndigheten-for-foreningsstod.md:152: SOM PERSPEKTIV
+    - **Informationsförsörjning: en bedömning.** Datalagret hämtar Förening ur Ärendesystemet och inte ur Föreningsregistret, som är källan. Antalet medlemmar skiljer sig därför ibland mellan datalagret och registret. Myndigheten har ingen regel om att en kopia hämtas ur källan. Den som har arkitekturansvaret bedömer fyndet som en svaghet, eftersom skillnaden redan finns.
+  docs/exempel/myndigheten-for-foreningsstod.md:163: SOM PERSPEKTIV
+    - **Informationsförsörjning.** Chefen för Register- och tillsynsenheten är informationsägare för Förening. Hen beslutar att skillnaden får stå kvar i år, eftersom det kostar mer att byta källa än skillnaden gör. Hen skriver beslutet med skälet, och det prövas igen i nästa varv. Att leva med fyndet är ett styrbeslut.
+  docs/informationskartlaggning.md:5: inte som perspektiv
+    Informationskartläggning är ett [[C-196 Arbetssätt|arbetssätt]] för den som vill förbättra hur en verksamhet hanterar sin information. Verksamheten kartläggs en gång. Sedan går fyra perspektiv igenom samma karta: informationssäkerhet, dataskydd, offentlighet och arkiv, informationsförsörjning. Varje brist blir ett fynd, och varje fynd får ett beslut. Metoden står i beslut 55.
+  docs/informationskartlaggning.md:45: SOM PERSPEKTIV
+    - **Informationsförsörjning.** Har varje [[C-202 Resursdata|resursdataobjekt]] en enda källa, och hämtar kopiorna därifrån? Arkitekten går igenom.
+  docs/informationskartlaggning.md:60: SOM PERSPEKTIV
+    - **Informationsförsörjning: en bedömning.** Datalagret hämtar Förening ur Ärendesystemet och inte ur Föreningsregistret, som är källan. Antalet medlemmar skiljer sig därför ibland mellan datalagret och registret. Myndigheten har ingen regel om att en kopia hämtas ur källan. Den som har [[C-117 Arkitekturansvar|arkitekturansvaret]] bedömer fyndet som en svaghet, eftersom skillnaden redan finns.
+  docs/informationskartlaggning.md:73: SOM PERSPEKTIV
+    - **Informationsförsörjning.** Chefen för Register- och tillsynsenheten är informationsägare för Förening. Hen beslutar att skillnaden får stå kvar i år, eftersom det kostar mer att byta källa än skillnaden gör. Hen skriver beslutet med skälet, och det prövas igen i nästa varv. Att leva med fyndet är ett styrbeslut.
+  docs/informationskartlaggning.md:88: inte som perspektiv
+    - **Arkitekten** leder varvet och håller kartan. Arkitekten går också igenom informationsförsörjningen. Frågan om en enda källa går över flera beteenden, och bara kartan visar alla kopior.
+  docs/informationskartlaggning.md:90: inte som perspektiv
+    - **Informationsägaren** klassar sina objekt i konfidentialitet och riktighet och går igenom informationssäkerheten. Informationsägaren för ett resursdataobjekt beslutar om fynden i informationsförsörjningen.
+  docs/informationskartlaggning.md:159: SOM PERSPEKTIV
+    ### Informationsförsörjning
+  layout/Exempel/Analysfunktionen karta med fynd.drawio.svg, cell row-4: inte som perspektiv
+    <b>Informationsförsörjning: en bedömning.</b> Datalagret hämtar Förening ur Ärendesystemet och inte ur Föreningsregistret, som är källan.
+  layout/Exempel/Informationskartläggning steg.drawio.svg, cell t-p4: inte som perspektiv
+    Informationsförsörjning
+Stycken på sidan om varje perspektivs dokumentation:
+  Informationssäkerhet: 0 stycken, 0 med hänvisning till MSBFS 2020:7
+  Dataskydd: 0 stycken, 0 med hänvisning till artikel 30
+  Offentlighet och arkiv: 0 stycken, 0 med hänvisning till RA-FS 1991:1
+processägaren ställer kraven och informationssäkerheten håller dokumentationen: 0 stycken
+informationsförsörjningen är arkitekturarbete, med datalagret: 0 stycken
+cybersäkerhetslagen ställer fler krav: 0 stycken
+klassningsförteckningen är en rekommendation: 0 stycken
+dokumentationen av it-miljön pekar på applikationen: 0 stycken
+Meningen "Varvet slutar när de tre perspektivens fynd har beslut." i docs/informationskartlaggning.md: rad []
+Meningen "Varvet slutar när de tre perspektivens fynd har beslut." i docs/exempel/myndigheten-for-foreningsstod.md: rad []
+Ord på sidan med förteckning, lista eller register:
+  docs/informationskartlaggning.md:28: klassningsförteckningen: källans ord
+  docs/informationskartlaggning.md:42: förteckningen: UTAN KÄLLA
+  docs/informationskartlaggning.md:43: registerförteckningen: UTAN KÄLLA
+  docs/informationskartlaggning.md:58: registerförteckningen: UTAN KÄLLA
+  docs/informationskartlaggning.md:58: registerförteckningen: UTAN KÄLLA
+  docs/informationskartlaggning.md:60: registret: UTAN KÄLLA
+  docs/informationskartlaggning.md:66: lista: UTAN KÄLLA
+  docs/informationskartlaggning.md:98: förteckningarna: UTAN KÄLLA
+  docs/informationskartlaggning.md:102: Klassningsförteckningen: källans ord
+  docs/informationskartlaggning.md:104: Förteckningen: UTAN KÄLLA
+  docs/informationskartlaggning.md:105: Registerförteckningen: UTAN KÄLLA
+  docs/informationskartlaggning.md:116: klassningsförteckningen: källans ord
+  docs/informationskartlaggning.md:122: förteckning: UTAN KÄLLA
+  docs/informationskartlaggning.md:131: klassningsförteckningen: källans ord
+  docs/informationskartlaggning.md:149: registerförteckningen: UTAN KÄLLA
+Rutor märkta Steg 4 - genomgång i ritningen: 4: Informationssäkerhet, Dataskydd, Offentlighet och arkiv, Informationsförsörjning
+Pilar mellan rutor i ritningen: 12
+
+FALLER: 33
+  docs/exempel/myndigheten-for-foreningsstod.md:147 säger fyra perspektiv
+  docs/informationskartlaggning.md:5 säger fyra perspektiv
+  docs/informationskartlaggning.md:38 säger fyra perspektiv
+  docs/informationskartlaggning.md:40 säger fyra perspektiv
+  docs/informationskartlaggning.md:98 säger fyra perspektiv
+  docs/exempel/myndigheten-for-foreningsstod.md:152 ställer informationsförsörjningen bland perspektiven
+  docs/exempel/myndigheten-for-foreningsstod.md:163 ställer informationsförsörjningen bland perspektiven
+  docs/informationskartlaggning.md:45 ställer informationsförsörjningen bland perspektiven
+  docs/informationskartlaggning.md:60 ställer informationsförsörjningen bland perspektiven
+  docs/informationskartlaggning.md:73 ställer informationsförsörjningen bland perspektiven
+  docs/informationskartlaggning.md:159 ställer informationsförsörjningen bland perspektiven
+  sidan saknar stycket om dokumentationen i Informationssäkerhet
+  sidan saknar stycket om dokumentationen i Dataskydd
+  sidan saknar stycket om dokumentationen i Offentlighet och arkiv
+  sidan saknar: processägaren ställer kraven och informationssäkerheten håller dokumentationen
+  sidan saknar: informationsförsörjningen är arkitekturarbete, med datalagret
+  sidan saknar: cybersäkerhetslagen ställer fler krav
+  sidan saknar: klassningsförteckningen är en rekommendation
+  sidan saknar: dokumentationen av it-miljön pekar på applikationen
+  docs/informationskartlaggning.md saknar meningen om när varvet slutar
+  docs/exempel/myndigheten-for-foreningsstod.md saknar meningen om när varvet slutar
+  docs/informationskartlaggning.md:42 kallar ett dokument förteckningen utan att en källa gör det
+  docs/informationskartlaggning.md:43 kallar ett dokument registerförteckningen utan att en källa gör det
+  docs/informationskartlaggning.md:58 kallar ett dokument registerförteckningen utan att en källa gör det
+  docs/informationskartlaggning.md:58 kallar ett dokument registerförteckningen utan att en källa gör det
+  docs/informationskartlaggning.md:60 kallar ett dokument registret utan att en källa gör det
+  docs/informationskartlaggning.md:66 kallar ett dokument lista utan att en källa gör det
+  docs/informationskartlaggning.md:98 kallar ett dokument förteckningarna utan att en källa gör det
+  docs/informationskartlaggning.md:104 kallar ett dokument Förteckningen utan att en källa gör det
+  docs/informationskartlaggning.md:105 kallar ett dokument Registerförteckningen utan att en källa gör det
+  docs/informationskartlaggning.md:122 kallar ett dokument förteckning utan att en källa gör det
+  docs/informationskartlaggning.md:149 kallar ett dokument registerförteckningen utan att en källa gör det
+  ritningen visar inte de tre perspektiven som steg 4, utan: Informationssäkerhet, Dataskydd, Offentlighet och arkiv, Informationsförsörjning
+
+Efter ändringen (slutkod 0):
+
+Rader med orden fyra perspektiv: 0
+Rader som nämner informationsförsörjningen: 5
+  docs/exempel/myndigheten-for-foreningsstod.md:153: inte som perspektiv
+    Arkitekten läser samma karta i arkitekturarbetet med informationsförsörjningen och ser en brist. Datalagret hämtar Förening ur Ärendesystemet och inte ur Föreningsregistret, som är källan. Antalet medlemmar skiljer sig därför ibland mellan datalagret och Föreningsregistret. Myndigheten har ingen regel om att en kopia hämtas ur källan. Den som har arkitekturansvaret bedömer bristen som en svaghet, eftersom skillnaden redan finns.
+  docs/informationskartlaggning.md:48: inte som perspektiv
+    Informationsförsörjningen är inget perspektiv. Den är arkitekturarbete. Arkitekten läser samma karta och frågar: har varje [[C-202 Resursdata|resursdataobjekt]] en enda källa, och hämtar kopiorna därifrån? Ett nej blir en [[C-185 Bedömning|bedömning]] som går till [[C-054 Målarkitektur|målarkitekturen]]. Bedömningen följer arkitekturarbetets egen takt. Beslut 64.
+  docs/informationskartlaggning.md:62: inte som perspektiv
+    Arkitekten läser samma karta i arkitekturarbetet med informationsförsörjningen och ser en brist. Datalagret hämtar Förening ur Ärendesystemet och inte ur Föreningsregistret, som är källan. Antalet medlemmar skiljer sig därför ibland mellan datalagret och Föreningsregistret. Myndigheten har ingen regel om att en kopia hämtas ur källan. Den som har [[C-117 Arkitekturansvar|arkitekturansvaret]] bedömer bristen som en svaghet, eftersom skillnaden redan finns.
+  docs/informationskartlaggning.md:91: inte som perspektiv
+    - **Arkitekten** leder varvet och håller kartan. Arkitekten läser också kartan för informationsförsörjningen, som är arkitekturarbete. Frågan om en enda källa går över flera beteenden, och bara kartan visar alla kopior.
+  layout/Exempel/Informationskartläggning steg.drawio.svg, cell t-p4: inte som perspektiv
+    Informationsförsörjning
+Stycken på sidan om varje perspektivs dokumentation:
+  Informationssäkerhet: 1 stycken, 1 med hänvisning till MSBFS 2020:7
+    docs/informationskartlaggning.md:107: **Informationssäkerhet.** Informationssäkerheten håller fyra dokument som pekar på kartan. Resten står i föreskrifterna om informationssäkerhet för statliga myndigheter (MSBFS 2020:6 och MSBFS 2020:7) och i metodstödet för systematiskt informationssäkerhetsarbete på informationssakerhet.se. Cybersäkerhetslagen ställer fler krav på dokumentationen hos den som lagen gäller. Lagen ger inget eget perspektiv, för kraven hör till informationssäkerheten.
+    - Klassningsförteckningen säger nivån i konfidentialitet och riktighet för varje objekt. Den pekar på objektet på kartan. Ett objekt har en egen rad, eller så gäller raden för dess informationsområde. Klassningsförteckningen är en rekommendation i metodstödet och inget krav i föreskrifterna. Föreskrifterna kräver att myndigheten dokumenterar klassningen, men de säger inte i vilken form.
+    - Klassningsbeslutet säger varför objektet har nivån, vilken analys som ligger bakom och vilka skydd som är valda. För ett objekt med grundnivån säger beslutet bara att grundnivån räcker, utan analys. Beslutet pekar på samma objekt som raden i klassningsförteckningen.
+    - Dokumentationen av kraven på behandlingarna säger kraven på tillgänglighet och spårbarhet. Den pekar på paret beteende och objekt. Processägaren ställer kraven, och informationssäkerheten håller dokumentationen. Dokumentet är metodens eget.
+    - Dokumentationen av it-miljön säger fyra saker om varje informationssystem: vilken hård- och mjukvara det använder, vilka andra system det beror av, om det behandlar information som behöver utökat skydd och om det är centralt för myndighetens uppdrag. Den pekar på applikationen i kartan. Kravet står i MSBFS 2020:7, 2 kap. 4 §, och gäller statliga myndigheter.
+  Dataskydd: 1 stycken, 1 med hänvisning till artikel 30
+    docs/informationskartlaggning.md:116: **Dataskydd.** Dataskyddet håller två dokument som pekar på kartan. Dataskyddsförordningen lägger ansvaret för dem på den personuppgiftsansvarige, alltså organisationen. Resten står i dataskyddsförordningen och i Integritetsskyddsmyndighetens vägledningar på imy.se.
+    - Registret över behandling säger ändamålet med varje behandling. Det pekar på behandlingen i kartan. Kravet står i artikel 30 i dataskyddsförordningen.
+    - Konsekvensbedömningen bedömer en typ av behandling som sannolikt leder till hög risk. Den pekar på de behandlingar som den gäller. Kravet står i artikel 35.
+  Offentlighet och arkiv: 1 stycken, 1 med hänvisning till RA-FS 1991:1
+    docs/informationskartlaggning.md:121: **Offentlighet och arkiv.** Offentlighet och arkiv håller tre dokument som pekar på kartan. Resten står i arkivlagen, i offentlighets- och sekretesslagen, i Riksarkivets föreskrifter om arkiv hos statliga myndigheter (RA-FS 1991:1) och i Riksarkivets vägledningar.
+    - Klassificeringsstrukturen visar de processer som avsätter handlingar. Den pekar på beteendet.
+    - Arkivförteckningen redovisar handlingarna som processerna upprättar och tar emot, med gallring och sekretess. Den pekar på beteendet och på representationerna.
+    - Informationshanteringsplanen säger vad som bevaras och vad som gallras. Den pekar på samma ställen som arkivförteckningen. Ordet informationshanteringsplan står inte i RA-FS 1991:1. Föreskrifterna kräver klassificeringsstrukturen och arkivförteckningen av statliga myndigheter. I kommunerna heter planen dokumenthanteringsplan.
+processägaren ställer kraven och informationssäkerheten håller dokumentationen: 1 stycken
+  docs/informationskartlaggning.md:111
+informationsförsörjningen är arkitekturarbete, med datalagret: 1 stycken
+  docs/informationskartlaggning.md:62
+cybersäkerhetslagen ställer fler krav: 1 stycken
+  docs/informationskartlaggning.md:107
+klassningsförteckningen är en rekommendation: 1 stycken
+  docs/informationskartlaggning.md:109
+dokumentationen av it-miljön pekar på applikationen: 1 stycken
+  docs/informationskartlaggning.md:112
+Meningen "Varvet slutar när de tre perspektivens fynd har beslut." i docs/informationskartlaggning.md: rad [68]
+Meningen "Varvet slutar när de tre perspektivens fynd har beslut." i docs/exempel/myndigheten-for-foreningsstod.md: rad [157]
+Ord på sidan med förteckning, lista eller register:
+  docs/informationskartlaggning.md:28: klassningsförteckningen: källans ord
+  docs/informationskartlaggning.md:43: registret: källans ord
+  docs/informationskartlaggning.md:59: registret: källans ord
+  docs/informationskartlaggning.md:59: registret: källans ord
+  docs/informationskartlaggning.md:109: Klassningsförteckningen: källans ord
+  docs/informationskartlaggning.md:109: Klassningsförteckningen: källans ord
+  docs/informationskartlaggning.md:110: klassningsförteckningen: källans ord
+  docs/informationskartlaggning.md:118: Registret: källans ord
+  docs/informationskartlaggning.md:124: Arkivförteckningen: källans ord
+  docs/informationskartlaggning.md:125: arkivförteckningen: källans ord
+  docs/informationskartlaggning.md:125: arkivförteckningen: källans ord
+  docs/informationskartlaggning.md:135: klassningsförteckningen: källans ord
+  docs/informationskartlaggning.md:150: klassningsförteckningen: källans ord
+  docs/informationskartlaggning.md:168: registret: källans ord
+Rutor märkta Steg 4 - genomgång i ritningen: 3: Informationssäkerhet, Dataskydd, Offentlighet och arkiv
+Pilar mellan rutor i ritningen: 12
+
+HÅLLER: katalogen har tre perspektiv, och sidan säger vad varje perspektivs dokumentation pekar på.
+
+interlingua check .: check: 209 files, no violations

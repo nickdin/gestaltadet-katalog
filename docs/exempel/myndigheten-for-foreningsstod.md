@@ -144,23 +144,25 @@ Ordningen prövas igen varje år. Den prövas också genast när något stort ä
 
 ## Informationskartläggning
 
-Analysfunktionen är kartlagd med arbetssättet Informationskartläggning. Fyra perspektiv har gått igenom samma karta, och varje perspektiv har gett ett fynd. Ett fynd är en avvikelse när myndigheten har fastställt en regel att pröva mot. Annars är fyndet en bedömning. De fyra fynden:
+Analysfunktionen är kartlagd med arbetssättet Informationskartläggning. Tre perspektiv har gått igenom samma karta, och varje perspektiv har gett ett fynd. Ett fynd är en avvikelse när myndigheten har fastställt en regel att pröva mot. Annars är fyndet en bedömning. De tre fynden:
 
 - **Informationssäkerhet: en avvikelse.** En analytiker har exporterat Riskindikator per förening till en Excelfil i enhetens grupprum. Grupprummet är en lagringsyta som hela myndigheten kan öppna, och Riskindikator per förening är känslig. Myndigheten har fastställt regeln att behörigheten på en lagringsyta följer den högsta klassen där. Filen går emot regeln, och därför är fyndet en avvikelse.
-- **Dataskydd: en bedömning.** Datalagret innehåller Företrädare, som är personuppgifter. Analysfunktionens ändamål i registerförteckningen nämner bara Ansökan, Beslut och Utbetalning. Myndigheten har ingen egen regel om vad registerförteckningen ska innehålla. Dataskyddsförordningen är en lag och alltså en påverkan utifrån, inget styrmedel som myndigheten har fastställt. Chefen för Analysenheten bedömer fyndet som en risk: en företrädare kan fråga varför uppgifterna finns i datalagret, och myndigheten har inget svar.
+- **Dataskydd: en bedömning.** Datalagret innehåller Företrädare, som är personuppgifter. Analysfunktionens ändamål i registret över behandling nämner bara Ansökan, Beslut och Utbetalning. Myndigheten har ingen egen regel om vad registret ska innehålla. Dataskyddsförordningen är en lag och alltså en påverkan utifrån, inget styrmedel som myndigheten har fastställt. Chefen för Analysenheten bedömer fyndet som en risk: en företrädare kan fråga varför uppgifterna finns i datalagret, och myndigheten har inget svar.
 - **Offentlighet och arkiv: en bedömning.** Informationshanteringsplanen har ingen rad för kopiorna i datalagret, och ingen gallrar dem. Myndigheten har ingen regel om kopior. Chefen för Analysenheten bedömer fyndet som en risk: kopiorna kan ligga kvar när originalen är gallrade.
-- **Informationsförsörjning: en bedömning.** Datalagret hämtar Förening ur Ärendesystemet och inte ur Föreningsregistret, som är källan. Antalet medlemmar skiljer sig därför ibland mellan datalagret och registret. Myndigheten har ingen regel om att en kopia hämtas ur källan. Den som har arkitekturansvaret bedömer fyndet som en svaghet, eftersom skillnaden redan finns.
+
+Arkitekten läser samma karta i arkitekturarbetet med informationsförsörjningen och ser en brist. Datalagret hämtar Förening ur Ärendesystemet och inte ur Föreningsregistret, som är källan. Antalet medlemmar skiljer sig därför ibland mellan datalagret och Föreningsregistret. Myndigheten har ingen regel om att en kopia hämtas ur källan. Den som har arkitekturansvaret bedömer bristen som en svaghet, eftersom skillnaden redan finns.
 
 En skillnad är inget fynd. Analysenheten har satt samman Utbetalningar per kommun ur Utbetalning och Förening. Utbetalningar per kommun är öppen, fast Utbetalning är intern. En summering får klassas lägre än sina delar. Förteckningen över alla företrädare blir däremot inte högre klassad för att uppgifterna är många. Den har samma konfidentialitet som Företrädare.
 
-Kartläggningen är klar först när varje fynd har ett beslut. Den som har mandatet beslutar att åtgärda fyndet eller att leva med det.
+Den som har mandatet beslutar att åtgärda fyndet eller att leva med det. Varvet slutar när de tre perspektivens fynd har beslut. Arkitektens bedömning håller inte varvet öppet.
 
-Tre fynd åtgärdas, och ett lever myndigheten med:
+Myndigheten åtgärdar alla tre fynden:
 
 - **Informationssäkerhet.** Chefen för Analysenheten beslutar att Excelfilen flyttas till en lagringsyta som bara enheten kan öppna. Avvikelsen är då rättad, och regeln står kvar.
 - **Dataskydd.** Chefen för Register- och tillsynsenheten är informationsägare för Företrädare. Hen beslutar att kopian av Företrädare tas bort ur datalagret.
 - **Offentlighet och arkiv.** Chefen för Analysenheten beslutar att informationshanteringsplanen får en rad för kopiorna i datalagret. En kopia gallras när originalet gallras.
-- **Informationsförsörjning.** Chefen för Register- och tillsynsenheten är informationsägare för Förening. Hen beslutar att skillnaden får stå kvar i år, eftersom det kostar mer att byta källa än skillnaden gör. Hen skriver beslutet med skälet, och det prövas igen i nästa varv. Att leva med fyndet är ett styrbeslut.
+
+Bedömningen om källan för Förening går till målarkitekturen. Varvet slutar utan att någon har beslutat om den.
 
 ## Vem den finns för
 
@@ -184,7 +186,7 @@ Myndigheten står för förvaltningens mekanik. Hämta härifrån exempel på:
 - produkt (C-014), verksamhetsprodukt (C-173) och vara (C-191), och resultat som saknar produkt
 - informationsobjekt (C-060), uppgift (C-161) och sammanställning (C-162)
 - lagringsyta (C-165) med datalagret och Analysenhetens grupprum
-- arbetssättet Informationskartläggning med analysfunktionen: fyra fynd, ett per perspektiv, och en skillnad som inte är ett fynd
+- arbetssättet Informationskartläggning med analysfunktionen: tre fynd, ett per perspektiv, arkitektens bedömning om källan och en skillnad som inte är ett fynd
 - informationsägare (C-167), processägare (C-206) och linjechef (C-207) i en och samma person
 - team (C-123) som utför en verksamhetsfunktion (C-158) tvärs över enheterna, med Arkitekterna: en fast ram (C-210) i verksamhetsplanen, och huvudarkitektens två uppdrag
 - lösning (C-055) med Ansökningshandläggningen och Föreningsregistret som leveransprodukt (C-174) i lös koppling (C-211)
