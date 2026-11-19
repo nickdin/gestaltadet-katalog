@@ -19,7 +19,8 @@ två första, och för den tredje varje annat antal än ett eller en mening som 
 bara det som är committat, så en ändring som inte är committad syns inte i provet. Publiceringen tar flera minuter.
 
 Med --sidor MAPP läser provet en redan publicerad mapp i stället för att publicera på nytt. Klonen görs ändå,
-eftersom provet läser den senaste AI-versionen ur dess historik.
+eftersom provet läser den senaste AI-versionen ur dess historik. Mappen ska därför vara publicerad ur samma commit
+som utcheckningen står på; annars finns versionen inte i mappens historik och den andra läsningen faller.
 """
 
 import argparse
@@ -56,27 +57,30 @@ def latest_ai_subject(clone: Path) -> str:
     sys.exit(f"Ingen commit i klonen har en Co-Authored-By med {AI_ADDRESS}: provet har inget att läsa.")
 
 
-def read_ai_sentence(history: str) -> tuple[int, bool]:
-    """How many times the AI sentence stands on the history page, and whether its first occurrence precedes the first row."""
+def read_ai_sentence(history: str) -> tuple[int, bool, bool]:
+    """How many times the AI sentence stands on the history page, whether its first occurrence precedes the first row, and whether the page has any row."""
     text = html.unescape(history)
     count = text.count(AI_SENTENCE)
     first_row = ROW.search(text)
     before_first_row = count > 0 and first_row is not None and text.index(AI_SENTENCE) < first_row.start()
-    return count, before_first_row
+    return count, before_first_row, first_row is not None
 
 
-def read_pages(pages: Path, subject: str) -> int:
+def judge_pages(pages: Path, subject: str) -> int:
+    """Reads the three things in the published pages, prints each reading, and returns the exit code: 0 when all three hold."""
     start = (pages / "index.html").read_text(encoding="utf-8")
     header = re.search(r'<p class="site">(.*?)</p>', start, re.S)
     header_html = header.group(1) if header else "(ingen <p class=\"site\"> hittad)"
 
     history = (pages / "history" / "index.html").read_text(encoding="utf-8")
     meta = [html.unescape(m) for text, m in ROW.findall(history) if html.unescape(text).strip() == subject]
-    count, before_first_row = read_ai_sentence(history)
+    count, before_first_row, has_rows = read_ai_sentence(history)
 
     print(f"Sidhuvudet på startsidan: {header_html}")
     print(f"Versionen '{subject}' står i historiken som: {meta[0] if meta else '(hittades inte)'}")
     print(f"Meningen '{AI_SENTENCE}' står på history/index.html: {count} gånger")
+    if not has_rows:
+        print("Historiken har inga rader: meningen kan inte stå före den första.")
 
     link_ok = header_html == f'<a href="{SITE_ADDRESS}">{SITE_NAME}</a>'
     history_ok = bool(meta) and meta[0].rstrip().endswith("Nicklas med AI")
@@ -101,10 +105,10 @@ def main() -> int:
         run(["git", "clone", "-q", str(ROOT), str(clone)], ROOT)
         subject = latest_ai_subject(clone)
         if args.sidor is not None:
-            return read_pages(args.sidor.resolve(), subject)
+            return judge_pages(args.sidor.resolve(), subject)
         pages = Path(tmp) / "pages"
         run([str(INTERLINGUA), "publish", ".", str(pages)], clone)
-        return read_pages(pages, subject)
+        return judge_pages(pages, subject)
 
 
 if __name__ == "__main__":
