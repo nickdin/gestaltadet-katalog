@@ -1,0 +1,79 @@
+Ärende #199: draw.io:s menyord Enhet märks inte som katalogens term Enhet (C-080) på sidan Formbibliotek. Prov kört 2026-11-19 från lagrets rot.
+
+Kommando: python3 docs/acceptance-shots/issue-199-enhet.py <tom mapp utanför lagret>
+Provet publicerar lagret med interlingua publish och läser den publicerade sidan document/docs/formbibliotek.md/index.html.
+
+If wrong (menyordet Enhet är märkt som en term på den publicerade sidan, steget med menyorden saknas, eller steget saknar ordet Enhet): slutkod 1, raden FALLER och en rad som börjar "Ord märkta som Enhet (C-080):" med ett tal över 0.
+
+På en kopia av basen 3242c51, före ändringen (slutkod 1):
+Sidan finns: document/docs/formbibliotek.md/index.html
+Steget som läsaren ser det: Välj Fil, sedan Öppna bibliotek från och sedan Enhet. I draw.io som program på datorn väljer du Fil och sedan Öppna bibliotek.
+Märkta ord i steget: 1
+Märkta ord på sidan: 8
+  "notation" märkt som Notation (../../../file/C-212/index.html)
+  "Notation" märkt som Notation (../../../file/C-212/index.html)
+  "Applikation" märkt som Applikation (../../../file/C-071/index.html)
+  "Verksamhetsprocess" märkt som Verksamhetsprocess (../../../file/C-130/index.html)
+  "Applikation" märkt som Applikation (../../../file/C-071/index.html)
+  "Enhet" märkt som Enhet (../../../file/C-080/index.html)
+  "notation" märkt som Notation (../../../file/C-212/index.html)
+  "notation" märkt som Notation (../../../file/C-212/index.html)
+Ord märkta som Enhet (C-080): 1
+FALLER:
+- document/docs/formbibliotek.md/index.html: menyordet "Enhet" i steget är märkt som termen Enhet
+- document/docs/formbibliotek.md/index.html: 1 ord är märkta som Enhet (C-080): Enhet
+
+Read back (bas 3242c51): slutkod 1 och FALLER. Sidan har åtta märkta ord, och ett av dem är menyordet Enhet i steget, märkt som Enhet (C-080).
+
+På en kopia av grenen där bara menyordet Enhet står utan kodmarkering, den felaktiga versionen (slutkod 1):
+Sidan finns: document/docs/formbibliotek.md/index.html
+Steget som läsaren ser det: Välj Fil, sedan Öppna bibliotek från och sedan Enhet. I draw.io som program på datorn väljer du Fil och sedan Öppna bibliotek.
+Märkta ord i steget: 1
+Märkta ord på sidan: 15
+  "notation" märkt som Notation (../../../file/C-212/index.html)
+  "Notation" märkt som Notation (../../../file/C-212/index.html)
+  "Applikation" märkt som Applikation (../../../file/C-071/index.html)
+  "Verksamhetsprocess" märkt som Verksamhetsprocess (../../../file/C-130/index.html)
+  "Verksamhet" märkt som Verksamhet (../../../file/C-007/index.html)
+  "Verksamhetsdomän" märkt som Verksamhetsdomän (../../../file/C-008/index.html)
+  "Lösning" märkt som Lösning (../../../file/C-055/index.html)
+  "arkitekturobjekt" märkt som Arkitekturobjekt (../../../file/C-032/index.html)
+  "styrning" märkt som Styrning (../../../file/C-002/index.html)
+  "Krav" märkt som Krav (../../../file/C-021/index.html)
+  "Mål" märkt som Mål (../../../file/C-017/index.html)
+  "Applikation" märkt som Applikation (../../../file/C-071/index.html)
+  "Enhet" märkt som Enhet (../../../file/C-080/index.html)
+  "notation" märkt som Notation (../../../file/C-212/index.html)
+  "notation" märkt som Notation (../../../file/C-212/index.html)
+Ord märkta som Enhet (C-080): 1
+FALLER:
+- document/docs/formbibliotek.md/index.html: menyordet "Enhet" i steget är märkt som termen Enhet
+- document/docs/formbibliotek.md/index.html: 1 ord är märkta som Enhet (C-080): Enhet
+
+Read back (felaktig version): slutkod 1 och FALLER. Provet fångar alltså att menyordet lämnas märkt, också när resten av sidan är rättad.
+
+På grenen, commit 3398eca, efter ändringen (slutkod 0):
+Sidan finns: document/docs/formbibliotek.md/index.html
+Steget som läsaren ser det: Välj Fil, sedan Öppna bibliotek från och sedan Enhet. I draw.io som program på datorn väljer du Fil och sedan Öppna bibliotek.
+Märkta ord i steget: 0
+Märkta ord på sidan: 14
+  "notation" märkt som Notation (../../../file/C-212/index.html)
+  "Notation" märkt som Notation (../../../file/C-212/index.html)
+  "Applikation" märkt som Applikation (../../../file/C-071/index.html)
+  "Verksamhetsprocess" märkt som Verksamhetsprocess (../../../file/C-130/index.html)
+  "Verksamhet" märkt som Verksamhet (../../../file/C-007/index.html)
+  "Verksamhetsdomän" märkt som Verksamhetsdomän (../../../file/C-008/index.html)
+  "Lösning" märkt som Lösning (../../../file/C-055/index.html)
+  "arkitekturobjekt" märkt som Arkitekturobjekt (../../../file/C-032/index.html)
+  "styrning" märkt som Styrning (../../../file/C-002/index.html)
+  "Krav" märkt som Krav (../../../file/C-021/index.html)
+  "Mål" märkt som Mål (../../../file/C-017/index.html)
+  "Applikation" märkt som Applikation (../../../file/C-071/index.html)
+  "notation" märkt som Notation (../../../file/C-212/index.html)
+  "notation" märkt som Notation (../../../file/C-212/index.html)
+Ord märkta som Enhet (C-080): 0
+HÅLLER
+
+Read back (gren 3398eca): slutkod 0 och HÅLLER. Steget har inget märkt ord, och inget ord på sidan är märkt som Enhet (C-080). Steget säger fortfarande Enhet. Sidan har 14 märkta ord: de sju rätta från basen och sju nya i stycket om vad biblioteket har, alla katalogens egna termer.
+
+Steget läser likadant som ren text på basen och på grenen. Skillnaden är att menyorden på grenen står som kod, i kodtypsnitt, och programmet märker inga ord i kod.
