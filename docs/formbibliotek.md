@@ -43,4 +43,4 @@ Varje ruta är i dag en rektangel med typens namn. Bara namnet skiljer en typ fr
 
 ## Rutorna är katalogens notation
 
-Katalogen har en egen notation, och den är rutorna i biblioteket. Symbolerna står för katalogens typer. Det säger [beslut 42](adr/0042-metamodellen-definierar-typer-notationen-ar-ett-eget-begrepp-en-beskrivning-foljer-en-metamodell-och-lagret-rymmer-bara-katalogens.md).
+Katalogen har en egen notation, och den är rutorna i draw.io-mallen. Mallen är formbiblioteket för draw.io. Symbolerna står för katalogens typer. Det säger [beslut 42](adr/0042-metamodellen-definierar-typer-notationen-ar-ett-eget-begrepp-en-beskrivning-foljer-en-metamodell-och-lagret-rymmer-bara-katalogens.md).
