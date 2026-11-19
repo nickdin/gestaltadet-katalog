@@ -6,7 +6,9 @@ Det som en körning på tavlan inte kunde pröva själv, i den ordning det ska p
 
 Förberedelse: ingen. Posterna nedan läser den publicerade sajten, gestaltadet.se.
 
-### [ ] #129 — Rubriken bryts rätt på en telefon
+### [x] #129 — Rubriken bryts rätt på en telefon
+
+Gick igenom 2026-11-19 på Nicklas telefon, stående. Rubrikerna på båda sidorna ryms på skärmen, och ingen av sidorna går att dra i sidled. Bindestrecket syntes inte, eftersom båda orden ryms på den telefonen. Ett ord bryts bara när det inte ryms. Ärendets ruta kräver att rubriken ryms, inte att ordet bryts.
 
 Maskin: en riktig telefon. Nicklas prövar för hand.
 
