@@ -3,7 +3,7 @@
 Kommando 1: python3 docs/acceptance-shots/issue-148-formbibliotek.py <tom mapp utanför lagret>
 Provet publicerar lagret det körs i med interlingua publish och läser de publicerade filerna. Basen är en kopia av lagret på eb48f9d, med provets fil lagd i kopian.
 
-If wrong (sidan skrevs men lades inte under documents: i settings.yaml): raden "document/docs/formbibliotek.md/index.html: sidan är inte publicerad" och slutkod 1.
+If wrong (sidan skrevs men lades inte under nyckeln documents i settings.yaml): raden "document/docs/formbibliotek.md/index.html: sidan är inte publicerad" och slutkod 1.
 If wrong (en befintlig mening på startsidan skrevs om för att bära länken): raden "basens rad står inte kvar oförändrad" med meningen och slutkod 1.
 If wrong (länken till beslut 42 eller startsidans länk leder fel): "sidan finns: nej" på länkens rad och slutkod 1.
 
