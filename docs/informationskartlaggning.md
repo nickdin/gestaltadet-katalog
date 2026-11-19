@@ -101,11 +101,15 @@ Besluten står på andra ställen:
 
 - Klassningsförteckningen säger nivån i konfidentialitet och riktighet för varje objekt. Den pekar på objektet på kartan. Ett objekt har en egen rad, eller så gäller raden för dess informationsområde.
 - Klassningsbeslutet säger varför objektet har nivån, vilken analys som ligger bakom och vilka skydd som är valda. För ett objekt med grundnivån säger beslutet bara att grundnivån räcker, utan analys.
-- Förteckningen över kraven på behandlingarna säger processägarens krav på tillgänglighet och spårbarhet. Den pekar på paret beteende och objekt. Förteckningen har också en rad för processägarens kontinuitetskrav: hur länge ett beteende får stå still. Den raden pekar på beteendet. Återställningstiden härleds ur kontinuitetskravet och står på en egen rad i samma förteckning. Den raden pekar på applikationen eller lagringsytan.
+- Förteckningen över kraven på behandlingarna säger processägarens krav på tillgänglighet och spårbarhet. Den pekar på paret beteende och objekt.
 - Registerförteckningen säger ändamål och rättslig grund.
 - Informationshanteringsplanen säger vad som bevaras och vad som gallras.
 
-Exempel: Anta att Genomföra ansökningsomgången får stå still högst en dag när pengarna ska betalas ut. Förteckningen över kraven på behandlingarna har då en rad som pekar på Genomföra ansökningsomgången och säger en dag. Anta också att återställningstiden för Föreningsregistret blir en dag. Den står på en rad i samma förteckning, och raden pekar på Föreningsregistret.
+Kontinuitetskravet och återställningstiden står i dokumentationen av kontinuiteten. Dokumentationen hör inte till något av perspektiven. En rad för kontinuitetskravet pekar på beteendet och säger hur länge det får stå still. En rad för återställningstiden pekar på applikationen eller lagringsytan och säger hur fort den måste vara i bruk igen. Den som går igenom kartan läser tiden där och frågar om resursen klarar den. Lathunden för kontinuitetshantering från Myndigheten för samhällsskydd och beredskap kallar dokumentet konsekvensanalys. Beslut 64.
+
+Exempel: Anta att Genomföra ansökningsomgången får stå still högst en dag när pengarna ska betalas ut. Dokumentationen av kontinuiteten har då en rad som pekar på Genomföra ansökningsomgången och säger en dag. Återställningstiden för Föreningsregistret står på en egen rad i dokumentationen av kontinuiteten, och den raden säger också en dag.
+
+Kartan bär inte allt som kontinuitetskravet gäller. Kartan bär applikationerna och informationen. Kontinuitetskravet gäller också personalen och lokalerna, och dem bär kartan inte. Den som arbetar med kontinuiteten kompletterar kartan med dem. Hos Myndigheten för föreningsstöd är det handläggarna och lokalen.
 
 [[C-035 Arkitekturbeskrivning|Arkitekturbeskrivningen]] ska inte bära all information som perspektiven behöver.
 

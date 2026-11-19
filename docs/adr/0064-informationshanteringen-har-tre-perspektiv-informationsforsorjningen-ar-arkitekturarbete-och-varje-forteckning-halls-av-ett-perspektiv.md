@@ -36,7 +36,7 @@ Underlaget `docs/research/perspektivens-dokumentation.md` läste lag, föreskrif
 ### Vad metoden säger om dokumentationen
 
 - **Metoden beskriver bara kopplingen till kartan.** För varje perspektiv säger sidan vilka dokument perspektivet håller, vad varje dokument pekar på i kartan och var läsaren hittar resten. Hur dokumentationen ska se ut i sin helhet beskriver andra bättre.
-- **Det allmänna ordet är dokumentation.** Sidan talar om varje perspektivs dokumentation. Ett dokument heter förteckning, lista eller register bara där lagen, föreskriften eller vägledningen själv säger så. Föreskrifterna för statliga myndigheter kräver till exempel "dokumentation över" it-miljön, inte en förteckning. Namnen i det här beslutet på dokumentationen av kontinuitetskraven och av kraven på behandlingarna är arbetsnamn, och ärendena #201 och #202 väljer orden efter den här regeln.
+- **Det allmänna ordet är dokumentation.** Sidan talar om varje perspektivs dokumentation. Ett dokument heter förteckning, lista eller register bara där lagen, föreskriften eller vägledningen själv säger så. Föreskrifterna för statliga myndigheter kräver till exempel "dokumentation över" it-miljön, inte en förteckning. Namnen i det här beslutet på dokumentationen av kontinuitetskraven och av kraven på behandlingarna är arbetsnamn, och ärendena #201 och #202 väljer orden efter den här regeln. Ärendet #201 valde dokumentationen av kontinuiteten för det som här heter förteckningen över kontinuitetskraven.
 - **Kopplingen prövas mot källorna.** Det sidan säger om ett dokument ska gå att belägga i lag, föreskrift eller den ansvariga myndighetens vägledning.
 
 ## Övervägda alternativ

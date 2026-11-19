@@ -1,0 +1,54 @@
+Ärende #201: kontinuitetskravet och återställningstiden står i dokumentationen av kontinuiteten, inte i förteckningen över kraven på behandlingarna. Prov kört 2026-11-19 från lagrets rot.
+
+Kommando: python3 docs/acceptance-shots/issue-201-kontinuiteten.py
+
+If wrong (ett stycke på sidan, i begreppen eller i ordlistan lägger kontinuiteten i förteckningen över kraven på behandlingarna, eller sidan saknar dokumentationen av kontinuiteten, exemplet eller stycket om personalen och lokalerna): slutkod 1 och en sista rad som börjar FALLER.
+
+På basen 1370687, före ändringen (slutkod 1):
+Stycken som nämner förteckningen över kraven på behandlingarna:
+  docs/informationskartlaggning.md:104: NÄMNER KONTINUITETEN
+    - Förteckningen över kraven på behandlingarna säger processägarens krav på tillgänglighet och spårbarhet. Den pekar på paret beteende och objekt. Förteckningen har också en rad för processägarens kontinuitetskrav: hur länge ett beteende får stå still. Den raden pekar på beteendet. Återställningstiden härleds ur kontinuitetskravet och står på en egen rad i samma förteckning. Den raden pekar på applikationen eller lagringsytan.
+  docs/informationskartlaggning.md:108: NÄMNER KONTINUITETEN
+    Exempel: Anta att Genomföra ansökningsomgången får stå still högst en dag när pengarna ska betalas ut. Förteckningen över kraven på behandlingarna har då en rad som pekar på Genomföra ansökningsomgången och säger en dag. Anta också att återställningstiden för Föreningsregistret blir en dag. Den står på en rad i samma förteckning, och raden pekar på Föreningsregistret.
+Stycken på sidan som nämner dokumentationen av kontinuiteten: 0
+Exemplet med Genomföra ansökningsomgången och Föreningsregistret: rad saknas
+Stycket om att kartan inte bär personalen och lokalerna: rad saknas
+  docs/informationskartlaggning.md:104 lägger kontinuiteten i förteckningen över kraven på behandlingarna
+  docs/informationskartlaggning.md:108 lägger kontinuiteten i förteckningen över kraven på behandlingarna
+  sidan nämner inte dokumentationen av kontinuiteten
+  sidans exempel lägger inte båda raderna i dokumentationen av kontinuiteten
+  sidan säger inte att kartan saknar personalen och lokalerna
+  docs/adr/0061-kontinuitet-ar-ett-krav-pa-hela-beteendet-tillgangligheten-far-tva-matt-och-aterstallningstiden-harleds-till-resursen.md:3 har kvar arbetsnamnet förteckningen över kontinuitetskraven
+FALLER: 6 fel.
+
+Efter ändringen (slutkod 0):
+Stycken som nämner förteckningen över kraven på behandlingarna:
+  docs/informationskartlaggning.md:104: bara tillgänglighet och spårbarhet
+    - Förteckningen över kraven på behandlingarna säger processägarens krav på tillgänglighet och spårbarhet. Den pekar på paret beteende och objekt.
+Stycken på sidan som nämner dokumentationen av kontinuiteten: 2
+Exemplet med Genomföra ansökningsomgången och Föreningsregistret: rad [110]
+Stycket om att kartan inte bär personalen och lokalerna: rad [112]
+HÅLLER
+
+Sökningen i hela lagret: grep -rn --exclude-dir=.git --exclude-dir=acceptance-shots --exclude-dir=research "kraven på behandlingarna" .
+
+På basen 1370687, före ändringen:
+docs/adr/0058-nulaget-bar-inga-beslut-ur-informationshanteringens-perspektiv-klassen-fasts-pa-objektet-kraven-pa-behandlingen-och-mangden-gor-aldrig-klassen-hogre.md:3:*Beslut 64 ändrar en punkt här. Informationshanteringen har tre perspektiv, inte fyra, och informationssäkerheten håller förteckningen över kraven på behandlingarna.*
+docs/adr/0064-informationshanteringen-har-tre-perspektiv-informationsforsorjningen-ar-arkitekturarbete-och-varje-forteckning-halls-av-ett-perspektiv.md:9:Ärendet #201 visade att sidan Informationskartläggning hade lagt kontinuitetskravet och återställningstiden i förteckningen över kraven på behandlingarna. Ingen av de två raderna gäller en behandling (`C-168`). Ärendet #202 frågade sedan vad varje perspektiv dokumenterar. De som arbetar i perspektiven är oftast olika personer. Kartan kan alla använda, men dokumentationen behöver hållas isär.
+docs/adr/0064-informationshanteringen-har-tre-perspektiv-informationsforsorjningen-ar-arkitekturarbete-och-varje-forteckning-halls-av-ett-perspektiv.md:31:- **Förteckningen över kraven på behandlingarna bär bara tillgänglighet och spårbarhet.** Varje rad pekar på paret beteende och objekt.
+docs/adr/0064-informationshanteringen-har-tre-perspektiv-informationsforsorjningen-ar-arkitekturarbete-och-varje-forteckning-halls-av-ett-perspektiv.md:39:- **Det allmänna ordet är dokumentation.** Sidan talar om varje perspektivs dokumentation. Ett dokument heter förteckning, lista eller register bara där lagen, föreskriften eller vägledningen själv säger så. Föreskrifterna för statliga myndigheter kräver till exempel "dokumentation över" it-miljön, inte en förteckning. Namnen i det här beslutet på dokumentationen av kontinuitetskraven och av kraven på behandlingarna är arbetsnamn, och ärendena #201 och #202 väljer orden efter den här regeln.
+docs/adr/0064-informationshanteringen-har-tre-perspektiv-informationsforsorjningen-ar-arkitekturarbete-och-varje-forteckning-halls-av-ett-perspektiv.md:44:- **Kontinuitetskravet och återställningstiden står kvar i förteckningen över kraven på behandlingarna, som får ett vidare namn.** Varje annan förteckning pekar på en sorts sak. Avvisat.
+docs/adr/0064-informationshanteringen-har-tre-perspektiv-informationsforsorjningen-ar-arkitekturarbete-och-varje-forteckning-halls-av-ett-perspektiv.md:48:- **Förteckningen över kraven på behandlingarna är processägarens egen och hör inte till något perspektiv.** Källorna lägger kravet på tillgänglighet hos informationssäkerheten. Avvisat.
+docs/informationskartlaggning.md:104:- Förteckningen över kraven på behandlingarna säger processägarens krav på tillgänglighet och spårbarhet. Den pekar på paret beteende och objekt. Förteckningen har också en rad för processägarens kontinuitetskrav: hur länge ett beteende får stå still. Den raden pekar på beteendet. Återställningstiden härleds ur kontinuitetskravet och står på en egen rad i samma förteckning. Den raden pekar på applikationen eller lagringsytan.
+docs/informationskartlaggning.md:108:Exempel: Anta att Genomföra ansökningsomgången får stå still högst en dag när pengarna ska betalas ut. Förteckningen över kraven på behandlingarna har då en rad som pekar på Genomföra ansökningsomgången och säger en dag. Anta också att återställningstiden för Föreningsregistret blir en dag. Den står på en rad i samma förteckning, och raden pekar på Föreningsregistret.
+
+Efter ändringen:
+docs/adr/0058-nulaget-bar-inga-beslut-ur-informationshanteringens-perspektiv-klassen-fasts-pa-objektet-kraven-pa-behandlingen-och-mangden-gor-aldrig-klassen-hogre.md:3:*Beslut 64 ändrar en punkt här. Informationshanteringen har tre perspektiv, inte fyra, och informationssäkerheten håller förteckningen över kraven på behandlingarna.*
+docs/adr/0064-informationshanteringen-har-tre-perspektiv-informationsforsorjningen-ar-arkitekturarbete-och-varje-forteckning-halls-av-ett-perspektiv.md:9:Ärendet #201 visade att sidan Informationskartläggning hade lagt kontinuitetskravet och återställningstiden i förteckningen över kraven på behandlingarna. Ingen av de två raderna gäller en behandling (`C-168`). Ärendet #202 frågade sedan vad varje perspektiv dokumenterar. De som arbetar i perspektiven är oftast olika personer. Kartan kan alla använda, men dokumentationen behöver hållas isär.
+docs/adr/0064-informationshanteringen-har-tre-perspektiv-informationsforsorjningen-ar-arkitekturarbete-och-varje-forteckning-halls-av-ett-perspektiv.md:31:- **Förteckningen över kraven på behandlingarna bär bara tillgänglighet och spårbarhet.** Varje rad pekar på paret beteende och objekt.
+docs/adr/0064-informationshanteringen-har-tre-perspektiv-informationsforsorjningen-ar-arkitekturarbete-och-varje-forteckning-halls-av-ett-perspektiv.md:39:- **Det allmänna ordet är dokumentation.** Sidan talar om varje perspektivs dokumentation. Ett dokument heter förteckning, lista eller register bara där lagen, föreskriften eller vägledningen själv säger så. Föreskrifterna för statliga myndigheter kräver till exempel "dokumentation över" it-miljön, inte en förteckning. Namnen i det här beslutet på dokumentationen av kontinuitetskraven och av kraven på behandlingarna är arbetsnamn, och ärendena #201 och #202 väljer orden efter den här regeln. Ärendet #201 valde dokumentationen av kontinuiteten för det som här heter förteckningen över kontinuitetskraven.
+docs/adr/0064-informationshanteringen-har-tre-perspektiv-informationsforsorjningen-ar-arkitekturarbete-och-varje-forteckning-halls-av-ett-perspektiv.md:44:- **Kontinuitetskravet och återställningstiden står kvar i förteckningen över kraven på behandlingarna, som får ett vidare namn.** Varje annan förteckning pekar på en sorts sak. Avvisat.
+docs/adr/0064-informationshanteringen-har-tre-perspektiv-informationsforsorjningen-ar-arkitekturarbete-och-varje-forteckning-halls-av-ett-perspektiv.md:48:- **Förteckningen över kraven på behandlingarna är processägarens egen och hör inte till något perspektiv.** Källorna lägger kravet på tillgänglighet hos informationssäkerheten. Avvisat.
+docs/informationskartlaggning.md:104:- Förteckningen över kraven på behandlingarna säger processägarens krav på tillgänglighet och spårbarhet. Den pekar på paret beteende och objekt.
+
+Raderna 9 och 44 i beslut 64 nämner kontinuitetskravet intill förteckningen. Den första säger var sidan hade lagt det före beslutet, den andra är ett avvisat alternativ. Ingen av dem säger att det står där.
