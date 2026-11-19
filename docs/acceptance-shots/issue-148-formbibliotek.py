@@ -30,7 +30,7 @@ START_PAGE = '.github/pages/index.html'
 PAGE = 'document/docs/formbibliotek.md/index.html'
 SITE = 'https://gestaltadet.se/katalog/'
 LIBRARIES = ['library/drawio/library-drawio.xml', 'library/excalidraw/library-excalidraw.excalidrawlib']
-DECISION = 'document/docs/adr/0042-'
+DECISION = 'document/docs/adr/0042-'  # början på adressen till beslut 42:s sida, räknad från den publicerade mappen
 ANCHOR = re.compile(r'<a\b[^>]*\shref="([^"]*)"[^>]*>(.*?)</a>', re.DOTALL)
 
 
@@ -78,7 +78,7 @@ def main() -> int:
                 failures.append(f'{PAGE}: adressen {address} står inte på sidan')
             if not published:
                 failures.append(f'{library}: filen är inte publicerad')
-        decision = [(href, words) for href, words in links if DECISION in href]
+        decision = [(href, words) for href, words in links if ':' not in href and reached(page, href).as_posix().startswith((folder / DECISION).as_posix())]
         if not decision:
             failures.append(f'{PAGE}: ingen länk till beslut 42')
         for href, words in decision:
