@@ -29,7 +29,10 @@ jobs:
   bygg:
     runs-on: ubuntu-latest
     steps:
+      # Hela historiken hämtas: sidan Historik och raderna "Nicklas med AI" läses ur varje commit, och en grund kopia har bara den senaste.
       - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v7
         with:
