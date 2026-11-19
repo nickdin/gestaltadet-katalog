@@ -1,5 +1,7 @@
 # Informationskartläggning är ett arbetssätt: en gemensam karta, fyra perspektiv, verksamheten gör arbetet, och varvet slutar när varje fynd har ett beslut
 
+*Beslut 64 ändrar två punkter här. Perspektiven är tre: informationsförsörjningen är arkitekturarbete och inget perspektiv. Varvet slutar när de tre perspektivens fynd har beslut.*
+
 Beslutat av Nicklas 17 november 2026, när han ritade ett beteende, dess informationsobjekt, lagringsytor och applikationer i ett och samma diagram och ville göra en metod av det.
 
 ## Sammanhang

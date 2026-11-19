@@ -1,5 +1,7 @@
 # Kontinuitet är ett krav på hela beteendet, tillgängligheten får två mått, och återställningstiden härleds till resursen
 
+*Beslut 64 lägger till en punkt här. Kontinuitetskravet och återställningstiden står i en egen förteckning över kontinuitetskraven.*
+
 Beslutat av Nicklas 18 november 2026, när beslut 58 hade gjort tillgängligheten till ett enda mått och lämnat skillnaden mot kontinuitet till ett eget ärende.
 
 ## Sammanhang

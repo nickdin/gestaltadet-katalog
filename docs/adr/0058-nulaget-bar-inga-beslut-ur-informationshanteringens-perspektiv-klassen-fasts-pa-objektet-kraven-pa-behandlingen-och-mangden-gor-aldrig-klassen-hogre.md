@@ -1,5 +1,7 @@
 # Nuläget bär inga beslut ur informationshanteringens perspektiv, klassen fästs på objektet, kraven på behandlingen, och mängden gör aldrig klassen högre
 
+*Beslut 64 ändrar en punkt här. Informationshanteringen har tre perspektiv, inte fyra, och informationssäkerheten håller förteckningen över kraven på behandlingarna.*
+
 *Beslut 60 ändrar en punkt här. Huvudfrågan i informationssäkerheten är om informationsägaren har tagit ställning till varje objekt på kartan, själv eller genom området. Frågan om en baslinje är avgjord där, med ordet grundnivå.*
 
 *Beslut 61 ändrar en punkt här. Tillgängligheten har två mått: hur länge beteendet klarar sig utan objektet, och hur mycket av objektet som får gå förlorat. Kontinuitet är ett eget krav på hela beteendet.*
