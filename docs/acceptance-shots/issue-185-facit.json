@@ -1,0 +1,6988 @@
+{
+ "layout/Exempel/Analysfunktionen karta med fynd.drawio.svg": {
+  "0": {
+   "cell": {
+    "id": "0"
+   }
+  },
+  "1": {
+   "cell": {
+    "id": "1",
+    "parent": "0"
+   }
+  },
+  "a-arende": {
+   "cell": {
+    "connectable": "0",
+    "id": "a-arende",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "40",
+    "y": "860"
+   },
+   "points": []
+  },
+  "a-arende-def": {
+   "cell": {
+    "id": "a-arende-def",
+    "parent": "a-arende",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Handläggarens arbetsyta och myndighetens diarium.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "a-arende-id": {
+   "cell": {
+    "id": "a-arende-id",
+    "parent": "a-arende",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Applikation (C-071)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "a-plattform": {
+   "cell": {
+    "connectable": "0",
+    "id": "a-plattform",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "510",
+    "y": "860"
+   },
+   "points": []
+  },
+  "a-plattform-def": {
+   "cell": {
+    "id": "a-plattform-def",
+    "parent": "a-plattform",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Hämtar Förening ur Ärendesystemet.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "a-plattform-id": {
+   "cell": {
+    "id": "a-plattform-id",
+    "parent": "a-plattform",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Applikation (C-071)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "a-register": {
+   "cell": {
+    "connectable": "0",
+    "id": "a-register",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "745",
+    "y": "860"
+   },
+   "points": []
+  },
+  "a-register-def": {
+   "cell": {
+    "id": "a-register-def",
+    "parent": "a-register",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Källan för Förening.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "a-register-id": {
+   "cell": {
+    "id": "a-register-id",
+    "parent": "a-register",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Applikation (C-071)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "b-a-arende": {
+   "cell": {
+    "id": "b-a-arende",
+    "parent": "a-arende",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-a-plattform": {
+   "cell": {
+    "id": "b-a-plattform",
+    "parent": "a-plattform",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-a-register": {
+   "cell": {
+    "id": "b-a-register",
+    "parent": "a-register",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-f-analys": {
+   "cell": {
+    "id": "b-f-analys",
+    "parent": "f-analys",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-o-ansokan": {
+   "cell": {
+    "id": "b-o-ansokan",
+    "parent": "o-ansokan",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-o-beslut": {
+   "cell": {
+    "id": "b-o-beslut",
+    "parent": "o-beslut",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-o-forening": {
+   "cell": {
+    "id": "b-o-forening",
+    "parent": "o-forening",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-o-foretradare": {
+   "cell": {
+    "id": "b-o-foretradare",
+    "parent": "o-foretradare",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-o-per-kommun": {
+   "cell": {
+    "id": "b-o-per-kommun",
+    "parent": "o-per-kommun",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-o-risk": {
+   "cell": {
+    "id": "b-o-risk",
+    "parent": "o-risk",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-o-utbetalning": {
+   "cell": {
+    "id": "b-o-utbetalning",
+    "parent": "o-utbetalning",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-r-excel": {
+   "cell": {
+    "id": "b-r-excel",
+    "parent": "r-excel",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-r-kopior": {
+   "cell": {
+    "id": "b-r-kopior",
+    "parent": "r-kopior",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-s-datalager": {
+   "cell": {
+    "id": "b-s-datalager",
+    "parent": "s-datalager",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-s-grupprum": {
+   "cell": {
+    "id": "b-s-grupprum",
+    "parent": "s-grupprum",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "e-access-0": {
+   "cell": {
+    "edge": "1",
+    "id": "e-access-0",
+    "parent": "1",
+    "source": "b-f-analys",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.125;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;",
+    "target": "b-o-ansokan",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "771.25",
+     "y": "190"
+    },
+    {
+     "x": "145",
+     "y": "190"
+    }
+   ]
+  },
+  "e-access-0-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-access-0-l",
+    "parent": "e-access-0",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "läser",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.932"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-access-1": {
+   "cell": {
+    "edge": "1",
+    "id": "e-access-1",
+    "parent": "1",
+    "source": "b-f-analys",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;",
+    "target": "b-o-beslut",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "797.5",
+     "y": "204"
+    },
+    {
+     "x": "380",
+     "y": "204"
+    }
+   ]
+  },
+  "e-access-1-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-access-1-l",
+    "parent": "e-access-1",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "läser",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.906"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-access-2": {
+   "cell": {
+    "edge": "1",
+    "id": "e-access-2",
+    "parent": "1",
+    "source": "b-f-analys",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.375;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;",
+    "target": "b-o-foretradare",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "823.75",
+     "y": "218"
+    },
+    {
+     "x": "615",
+     "y": "218"
+    }
+   ]
+  },
+  "e-access-2-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-access-2-l",
+    "parent": "e-access-2",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "läser",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.849"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-access-3": {
+   "cell": {
+    "edge": "1",
+    "id": "e-access-3",
+    "parent": "1",
+    "source": "b-f-analys",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;",
+    "target": "b-o-forening",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": []
+  },
+  "e-access-3-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-access-3-l",
+    "parent": "e-access-3",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "läser",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.618"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-access-4": {
+   "cell": {
+    "edge": "1",
+    "id": "e-access-4",
+    "parent": "1",
+    "source": "b-f-analys",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.625;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;",
+    "target": "b-o-utbetalning",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "876.25",
+     "y": "218"
+    },
+    {
+     "x": "1085",
+     "y": "218"
+    }
+   ]
+  },
+  "e-access-4-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-access-4-l",
+    "parent": "e-access-4",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "läser",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.849"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-access-5": {
+   "cell": {
+    "edge": "1",
+    "id": "e-access-5",
+    "parent": "1",
+    "source": "b-f-analys",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;",
+    "target": "b-o-per-kommun",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "902.5",
+     "y": "204"
+    },
+    {
+     "x": "1320",
+     "y": "204"
+    }
+   ]
+  },
+  "e-access-5-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-access-5-l",
+    "parent": "e-access-5",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "skriver",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.906"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-access-6": {
+   "cell": {
+    "edge": "1",
+    "id": "e-access-6",
+    "parent": "1",
+    "source": "b-f-analys",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.875;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;",
+    "target": "b-o-risk",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "928.75",
+     "y": "190"
+    },
+    {
+     "x": "1555",
+     "y": "190"
+    }
+   ]
+  },
+  "e-access-6-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-access-6-l",
+    "parent": "e-access-6",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "skriver",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.932"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-agg-datalager": {
+   "cell": {
+    "edge": "1",
+    "id": "e-agg-datalager",
+    "parent": "1",
+    "source": "b-s-datalager",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;startArrow=diamondThin;startFill=0;startSize=12;endArrow=none;jumpStyle=line;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+    "target": "b-r-kopior",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": []
+  },
+  "e-agg-datalager-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-agg-datalager-l",
+    "parent": "e-agg-datalager",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "aggregerar",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-agg-forening": {
+   "cell": {
+    "edge": "1",
+    "id": "e-agg-forening",
+    "parent": "1",
+    "source": "b-o-per-kommun",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;startArrow=diamondThin;startFill=0;startSize=12;endArrow=none;jumpStyle=line;exitX=0.1;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;",
+    "target": "b-o-forening",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "1236",
+     "y": "414"
+    },
+    {
+     "x": "902.5",
+     "y": "414"
+    }
+   ]
+  },
+  "e-agg-forening-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-agg-forening-l",
+    "parent": "e-agg-forening",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "aggregerar",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.377"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-agg-grupprum": {
+   "cell": {
+    "edge": "1",
+    "id": "e-agg-grupprum",
+    "parent": "1",
+    "source": "b-s-grupprum",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;startArrow=diamondThin;startFill=0;startSize=12;endArrow=none;jumpStyle=line;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+    "target": "b-r-excel",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": []
+  },
+  "e-agg-grupprum-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-agg-grupprum-l",
+    "parent": "e-agg-grupprum",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "aggregerar",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-agg-utbetalning": {
+   "cell": {
+    "edge": "1",
+    "id": "e-agg-utbetalning",
+    "parent": "1",
+    "source": "b-o-per-kommun",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;startArrow=diamondThin;startFill=0;startSize=12;endArrow=none;jumpStyle=line;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;",
+    "target": "b-o-utbetalning",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "1267.5",
+     "y": "400"
+    },
+    {
+     "x": "1137.5",
+     "y": "400"
+    }
+   ]
+  },
+  "e-agg-utbetalning-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-agg-utbetalning-l",
+    "parent": "e-agg-utbetalning",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "aggregerar",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-form-0": {
+   "cell": {
+    "edge": "1",
+    "id": "e-form-0",
+    "parent": "1",
+    "source": "b-r-kopior",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.16666666666666666;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+    "target": "b-o-ansokan",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "545",
+     "y": "470"
+    },
+    {
+     "x": "145",
+     "y": "470"
+    }
+   ]
+  },
+  "e-form-0-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-form-0-l",
+    "parent": "e-form-0",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "ger form åt",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.814"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-form-1": {
+   "cell": {
+    "edge": "1",
+    "id": "e-form-1",
+    "parent": "1",
+    "source": "b-r-kopior",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.3333333333333333;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+    "target": "b-o-beslut",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "580",
+     "y": "456"
+    },
+    {
+     "x": "380",
+     "y": "456"
+    }
+   ]
+  },
+  "e-form-1-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-form-1-l",
+    "parent": "e-form-1",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "ger form åt",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.696"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-form-2": {
+   "cell": {
+    "edge": "1",
+    "id": "e-form-2",
+    "parent": "1",
+    "source": "b-r-kopior",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+    "target": "b-o-foretradare",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": []
+  },
+  "e-form-2-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-form-2-l",
+    "parent": "e-form-2",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "ger form åt",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.172"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-form-3": {
+   "cell": {
+    "edge": "1",
+    "id": "e-form-3",
+    "parent": "1",
+    "source": "b-r-kopior",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.6666666666666666;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+    "target": "b-o-forening",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "650",
+     "y": "456"
+    },
+    {
+     "x": "850",
+     "y": "456"
+    }
+   ]
+  },
+  "e-form-3-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-form-3-l",
+    "parent": "e-form-3",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "ger form åt",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.696"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-form-4": {
+   "cell": {
+    "edge": "1",
+    "id": "e-form-4",
+    "parent": "1",
+    "source": "b-r-kopior",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.8333333333333334;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+    "target": "b-o-utbetalning",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "685",
+     "y": "470"
+    },
+    {
+     "x": "1085",
+     "y": "470"
+    }
+   ]
+  },
+  "e-form-4-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-form-4-l",
+    "parent": "e-form-4",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "ger form åt",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.814"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-form-excel": {
+   "cell": {
+    "edge": "1",
+    "id": "e-form-excel",
+    "parent": "1",
+    "source": "b-r-excel",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+    "target": "b-o-risk",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": []
+  },
+  "e-form-excel-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-form-excel-l",
+    "parent": "e-form-excel",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "ger form åt",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-provide": {
+   "cell": {
+    "edge": "1",
+    "id": "e-provide",
+    "parent": "1",
+    "source": "b-a-plattform",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+    "target": "b-s-datalager",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": []
+  },
+  "e-provide-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-provide-l",
+    "parent": "e-provide",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "tillhandahåller",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-use": {
+   "cell": {
+    "edge": "1",
+    "id": "e-use",
+    "parent": "1",
+    "source": "b-a-plattform",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;",
+    "target": "b-a-arende",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": []
+  },
+  "e-use-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-use-l",
+    "parent": "e-use",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "använder",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "f-analys": {
+   "cell": {
+    "connectable": "0",
+    "id": "f-analys",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "745",
+    "y": "40"
+   },
+   "points": []
+  },
+  "f-analys-def": {
+   "cell": {
+    "id": "f-analys-def",
+    "parent": "f-analys",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Processägare (C-206): chefen för Analysenheten.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "f-analys-id": {
+   "cell": {
+    "id": "f-analys-id",
+    "parent": "f-analys",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Verksamhetsfunktion (C-158)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "frame": {
+   "cell": {
+    "id": "frame",
+    "parent": "1",
+    "style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=none;connectable=0;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "1190",
+    "width": "2072"
+   },
+   "points": []
+  },
+  "legend-g0": {
+   "cell": {
+    "edge": "1",
+    "id": "legend-g0",
+    "parent": "1",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "x": "1696",
+     "y": "68"
+    },
+    {
+     "as": "targetPoint",
+     "x": "1724",
+     "y": "68"
+    }
+   ]
+  },
+  "legend-g1": {
+   "cell": {
+    "edge": "1",
+    "id": "legend-g1",
+    "parent": "1",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;startArrow=diamondThin;startFill=0;startSize=12;endArrow=none;jumpStyle=line;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "x": "1696",
+     "y": "85.4"
+    },
+    {
+     "as": "targetPoint",
+     "x": "1724",
+     "y": "85.4"
+    }
+   ]
+  },
+  "legend-g2": {
+   "cell": {
+    "edge": "1",
+    "id": "legend-g2",
+    "parent": "1",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "x": "1696",
+     "y": "102.8"
+    },
+    {
+     "as": "targetPoint",
+     "x": "1724",
+     "y": "102.8"
+    }
+   ]
+  },
+  "legend-g3": {
+   "cell": {
+    "edge": "1",
+    "id": "legend-g3",
+    "parent": "1",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "x": "1696",
+     "y": "120.19999999999999"
+    },
+    {
+     "as": "targetPoint",
+     "x": "1724",
+     "y": "120.19999999999999"
+    }
+   ]
+  },
+  "legend-m1": {
+   "cell": {
+    "id": "legend-m1",
+    "parent": "1",
+    "style": "ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B85C38;strokeColor=#ffffff;strokeWidth=1.5;fontFamily=Helvetica;fontSize=9;fontColor=#ffffff;fontStyle=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "12",
+    "width": "12",
+    "x": "1698",
+    "y": "131.6"
+   },
+   "points": []
+  },
+  "legend-m2": {
+   "cell": {
+    "id": "legend-m2",
+    "parent": "1",
+    "style": "ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#2D6A6A;strokeColor=#ffffff;strokeWidth=1.5;fontFamily=Helvetica;fontSize=9;fontColor=#ffffff;fontStyle=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "12",
+    "width": "12",
+    "x": "1698",
+    "y": "149"
+   },
+   "points": []
+  },
+  "legend-rule": {
+   "cell": {
+    "edge": "1",
+    "id": "legend-rule",
+    "parent": "1",
+    "style": "endArrow=none;html=1;strokeColor=#e8e8e8;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "x": "1680",
+     "y": "40"
+    },
+    {
+     "as": "targetPoint",
+     "x": "1680",
+     "y": "176"
+    }
+   ]
+  },
+  "legend-t0": {
+   "cell": {
+    "id": "legend-t0",
+    "parent": "1",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=8.5;fontColor=#4d4d4d;fontStyle=0;spacing=0;",
+    "value": "läser, skriver - har åtkomst till (C-101)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "12",
+    "width": "300",
+    "x": "1732",
+    "y": "62"
+   },
+   "points": []
+  },
+  "legend-t1": {
+   "cell": {
+    "id": "legend-t1",
+    "parent": "1",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=8.5;fontColor=#4d4d4d;fontStyle=0;spacing=0;",
+    "value": "aggregerar (C-100) - rymmer, eller är satt samman av",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "12",
+    "width": "300",
+    "x": "1732",
+    "y": "79.4"
+   },
+   "points": []
+  },
+  "legend-t2": {
+   "cell": {
+    "id": "legend-t2",
+    "parent": "1",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=8.5;fontColor=#4d4d4d;fontStyle=0;spacing=0;",
+    "value": "använder (C-095)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "12",
+    "width": "300",
+    "x": "1732",
+    "y": "96.8"
+   },
+   "points": []
+  },
+  "legend-t3": {
+   "cell": {
+    "id": "legend-t3",
+    "parent": "1",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=8.5;fontColor=#4d4d4d;fontStyle=0;spacing=0;",
+    "value": "ger form åt, tillhandahåller - associeras med (C-099)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "12",
+    "width": "300",
+    "x": "1732",
+    "y": "114.19999999999999"
+   },
+   "points": []
+  },
+  "legend-t4": {
+   "cell": {
+    "id": "legend-t4",
+    "parent": "1",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=8.5;fontColor=#4d4d4d;fontStyle=0;spacing=0;",
+    "value": "Fynd",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "12",
+    "width": "60",
+    "x": "1732",
+    "y": "131.6"
+   },
+   "points": []
+  },
+  "legend-t5": {
+   "cell": {
+    "id": "legend-t5",
+    "parent": "1",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=8.5;fontColor=#4d4d4d;fontStyle=0;spacing=0;",
+    "value": "Inget fynd",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "12",
+    "width": "100",
+    "x": "1732",
+    "y": "149"
+   },
+   "points": []
+  },
+  "legend-title": {
+   "cell": {
+    "id": "legend-title",
+    "parent": "1",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;spacing=0;",
+    "value": "TECKENFÖRKLARING - RELATIONER OCH FYND",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "12",
+    "width": "330",
+    "x": "1696",
+    "y": "40"
+   },
+   "points": []
+  },
+  "marker-1": {
+   "cell": {
+    "id": "marker-1",
+    "parent": "1",
+    "style": "ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B85C38;strokeColor=#ffffff;strokeWidth=1.5;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fontStyle=1;",
+    "value": "1",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "24",
+    "width": "24",
+    "x": "1648",
+    "y": "488"
+   },
+   "points": []
+  },
+  "marker-2": {
+   "cell": {
+    "id": "marker-2",
+    "parent": "1",
+    "style": "ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B85C38;strokeColor=#ffffff;strokeWidth=1.5;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fontStyle=1;",
+    "value": "2",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "24",
+    "width": "24",
+    "x": "708",
+    "y": "268"
+   },
+   "points": []
+  },
+  "marker-3": {
+   "cell": {
+    "id": "marker-3",
+    "parent": "1",
+    "style": "ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B85C38;strokeColor=#ffffff;strokeWidth=1.5;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fontStyle=1;",
+    "value": "3",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "24",
+    "width": "24",
+    "x": "708",
+    "y": "488"
+   },
+   "points": []
+  },
+  "marker-4": {
+   "cell": {
+    "id": "marker-4",
+    "parent": "1",
+    "style": "ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B85C38;strokeColor=#ffffff;strokeWidth=1.5;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fontStyle=1;",
+    "value": "4",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "24",
+    "width": "24",
+    "x": "278",
+    "y": "900"
+   },
+   "points": []
+  },
+  "marker-5": {
+   "cell": {
+    "id": "marker-5",
+    "parent": "1",
+    "style": "ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#2D6A6A;strokeColor=#ffffff;strokeWidth=1.5;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fontStyle=1;",
+    "value": "5",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "24",
+    "width": "24",
+    "x": "1413",
+    "y": "268"
+   },
+   "points": []
+  },
+  "o-ansokan": {
+   "cell": {
+    "connectable": "0",
+    "id": "o-ansokan",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "40",
+    "y": "280"
+   },
+   "points": []
+  },
+  "o-ansokan-def": {
+   "cell": {
+    "id": "o-ansokan-def",
+    "parent": "o-ansokan",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Intern tills beslut.<br>Informationsägare (C-167): chefen för Bidragsenheten.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "o-ansokan-id": {
+   "cell": {
+    "id": "o-ansokan-id",
+    "parent": "o-ansokan",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Informationsobjekt (C-060)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "o-beslut": {
+   "cell": {
+    "connectable": "0",
+    "id": "o-beslut",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "275",
+    "y": "280"
+   },
+   "points": []
+  },
+  "o-beslut-def": {
+   "cell": {
+    "id": "o-beslut-def",
+    "parent": "o-beslut",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Öppen när det är fattat.<br>Informationsägare (C-167): chefen för Bidragsenheten.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "o-beslut-id": {
+   "cell": {
+    "id": "o-beslut-id",
+    "parent": "o-beslut",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Informationsobjekt (C-060)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "o-forening": {
+   "cell": {
+    "connectable": "0",
+    "id": "o-forening",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "745",
+    "y": "280"
+   },
+   "points": []
+  },
+  "o-forening-def": {
+   "cell": {
+    "id": "o-forening-def",
+    "parent": "o-forening",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Öppen.<br>Informationsägare (C-167): chefen för Register- och tillsynsenheten.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "o-forening-id": {
+   "cell": {
+    "id": "o-forening-id",
+    "parent": "o-forening",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Informationsobjekt (C-060)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "o-foretradare": {
+   "cell": {
+    "connectable": "0",
+    "id": "o-foretradare",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "510",
+    "y": "280"
+   },
+   "points": []
+  },
+  "o-foretradare-def": {
+   "cell": {
+    "id": "o-foretradare-def",
+    "parent": "o-foretradare",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Känslig.<br>Informationsägare (C-167): chefen för Register- och tillsynsenheten.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "o-foretradare-id": {
+   "cell": {
+    "id": "o-foretradare-id",
+    "parent": "o-foretradare",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Informationsobjekt (C-060)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "o-per-kommun": {
+   "cell": {
+    "connectable": "0",
+    "id": "o-per-kommun",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "1215",
+    "y": "280"
+   },
+   "points": []
+  },
+  "o-per-kommun-def": {
+   "cell": {
+    "id": "o-per-kommun-def",
+    "parent": "o-per-kommun",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Sammanställning (C-162). Öppen.<br>Informationsägare (C-167): chefen för Analysenheten.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "o-per-kommun-id": {
+   "cell": {
+    "id": "o-per-kommun-id",
+    "parent": "o-per-kommun",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Informationsobjekt (C-060)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "o-risk": {
+   "cell": {
+    "connectable": "0",
+    "id": "o-risk",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "1450",
+    "y": "280"
+   },
+   "points": []
+  },
+  "o-risk-def": {
+   "cell": {
+    "id": "o-risk-def",
+    "parent": "o-risk",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Känslig.<br>Informationsägare (C-167): chefen för Analysenheten.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "o-risk-id": {
+   "cell": {
+    "id": "o-risk-id",
+    "parent": "o-risk",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Informationsobjekt (C-060)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "o-utbetalning": {
+   "cell": {
+    "connectable": "0",
+    "id": "o-utbetalning",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "980",
+    "y": "280"
+   },
+   "points": []
+  },
+  "o-utbetalning-def": {
+   "cell": {
+    "id": "o-utbetalning-def",
+    "parent": "o-utbetalning",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Intern.<br>Informationsägare (C-167): chefen för Bidragsenheten.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "o-utbetalning-id": {
+   "cell": {
+    "id": "o-utbetalning-id",
+    "parent": "o-utbetalning",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Informationsobjekt (C-060)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "r-a-arende": {
+   "cell": {
+    "edge": "1",
+    "id": "r-a-arende",
+    "parent": "a-arende",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-a-plattform": {
+   "cell": {
+    "edge": "1",
+    "id": "r-a-plattform",
+    "parent": "a-plattform",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-a-register": {
+   "cell": {
+    "edge": "1",
+    "id": "r-a-register",
+    "parent": "a-register",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-excel": {
+   "cell": {
+    "connectable": "0",
+    "id": "r-excel",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "1450",
+    "y": "500"
+   },
+   "points": []
+  },
+  "r-excel-def": {
+   "cell": {
+    "id": "r-excel-def",
+    "parent": "r-excel",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Exporterad av en analytiker.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "r-excel-id": {
+   "cell": {
+    "id": "r-excel-id",
+    "parent": "r-excel",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Representation (C-085)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "r-f-analys": {
+   "cell": {
+    "edge": "1",
+    "id": "r-f-analys",
+    "parent": "f-analys",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-kopior": {
+   "cell": {
+    "connectable": "0",
+    "id": "r-kopior",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "510",
+    "y": "500"
+   },
+   "points": []
+  },
+  "r-kopior-def": {
+   "cell": {
+    "id": "r-kopior-def",
+    "parent": "r-kopior",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Kopior av Ansökan, Beslut, Utbetalning, Förening och Företrädare.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "r-kopior-id": {
+   "cell": {
+    "id": "r-kopior-id",
+    "parent": "r-kopior",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Representation (C-085)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "r-o-ansokan": {
+   "cell": {
+    "edge": "1",
+    "id": "r-o-ansokan",
+    "parent": "o-ansokan",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-o-beslut": {
+   "cell": {
+    "edge": "1",
+    "id": "r-o-beslut",
+    "parent": "o-beslut",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-o-forening": {
+   "cell": {
+    "edge": "1",
+    "id": "r-o-forening",
+    "parent": "o-forening",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-o-foretradare": {
+   "cell": {
+    "edge": "1",
+    "id": "r-o-foretradare",
+    "parent": "o-foretradare",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-o-per-kommun": {
+   "cell": {
+    "edge": "1",
+    "id": "r-o-per-kommun",
+    "parent": "o-per-kommun",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-o-risk": {
+   "cell": {
+    "edge": "1",
+    "id": "r-o-risk",
+    "parent": "o-risk",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-o-utbetalning": {
+   "cell": {
+    "edge": "1",
+    "id": "r-o-utbetalning",
+    "parent": "o-utbetalning",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-r-excel": {
+   "cell": {
+    "edge": "1",
+    "id": "r-r-excel",
+    "parent": "r-excel",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-r-kopior": {
+   "cell": {
+    "edge": "1",
+    "id": "r-r-kopior",
+    "parent": "r-kopior",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-s-datalager": {
+   "cell": {
+    "edge": "1",
+    "id": "r-s-datalager",
+    "parent": "s-datalager",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-s-grupprum": {
+   "cell": {
+    "edge": "1",
+    "id": "r-s-grupprum",
+    "parent": "s-grupprum",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "row-1": {
+   "cell": {
+    "id": "row-1",
+    "parent": "1",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=11;fontColor=#1a1a1a;fontStyle=0;spacing=0;",
+    "value": "<b>Informationssäkerhet: en avvikelse.</b> En analytiker har exporterat Riskindikator per förening till en Excelfil i enhetens grupprum. Grupprummet är en lagringsyta som hela myndigheten kan öppna, och Riskindikator per förening är känslig.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "20",
+    "width": "1586",
+    "x": "74",
+    "y": "1010"
+   },
+   "points": []
+  },
+  "row-2": {
+   "cell": {
+    "id": "row-2",
+    "parent": "1",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=11;fontColor=#1a1a1a;fontStyle=0;spacing=0;",
+    "value": "<b>Dataskydd: en bedömning.</b> Datalagret innehåller Företrädare, som är personuppgifter. Analysfunktionens ändamål i registerförteckningen nämner bara Ansökan, Beslut och Utbetalning.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "20",
+    "width": "1586",
+    "x": "74",
+    "y": "1040"
+   },
+   "points": []
+  },
+  "row-3": {
+   "cell": {
+    "id": "row-3",
+    "parent": "1",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=11;fontColor=#1a1a1a;fontStyle=0;spacing=0;",
+    "value": "<b>Offentlighet och arkiv: en bedömning.</b> Informationshanteringsplanen har ingen rad för kopiorna i datalagret, och ingen gallrar dem.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "20",
+    "width": "1586",
+    "x": "74",
+    "y": "1070"
+   },
+   "points": []
+  },
+  "row-4": {
+   "cell": {
+    "id": "row-4",
+    "parent": "1",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=11;fontColor=#1a1a1a;fontStyle=0;spacing=0;",
+    "value": "<b>Informationsförsörjning: en bedömning.</b> Datalagret hämtar Förening ur Ärendesystemet och inte ur Föreningsregistret, som är källan.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "20",
+    "width": "1586",
+    "x": "74",
+    "y": "1100"
+   },
+   "points": []
+  },
+  "row-5": {
+   "cell": {
+    "id": "row-5",
+    "parent": "1",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=11;fontColor=#1a1a1a;fontStyle=0;spacing=0;",
+    "value": "<b>En skillnad är inget fynd.</b> Analysenheten har satt samman Utbetalningar per kommun ur Utbetalning och Förening. Utbetalningar per kommun är öppen, fast Utbetalning är intern. En summering får klassas lägre än sina delar.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "20",
+    "width": "1586",
+    "x": "74",
+    "y": "1130"
+   },
+   "points": []
+  },
+  "rowmark-1": {
+   "cell": {
+    "id": "rowmark-1",
+    "parent": "1",
+    "style": "ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B85C38;strokeColor=#ffffff;strokeWidth=1.5;fontFamily=Helvetica;fontSize=9;fontColor=#ffffff;fontStyle=1;",
+    "value": "1",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "20",
+    "width": "20",
+    "x": "42",
+    "y": "1010"
+   },
+   "points": []
+  },
+  "rowmark-2": {
+   "cell": {
+    "id": "rowmark-2",
+    "parent": "1",
+    "style": "ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B85C38;strokeColor=#ffffff;strokeWidth=1.5;fontFamily=Helvetica;fontSize=9;fontColor=#ffffff;fontStyle=1;",
+    "value": "2",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "20",
+    "width": "20",
+    "x": "42",
+    "y": "1040"
+   },
+   "points": []
+  },
+  "rowmark-3": {
+   "cell": {
+    "id": "rowmark-3",
+    "parent": "1",
+    "style": "ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B85C38;strokeColor=#ffffff;strokeWidth=1.5;fontFamily=Helvetica;fontSize=9;fontColor=#ffffff;fontStyle=1;",
+    "value": "3",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "20",
+    "width": "20",
+    "x": "42",
+    "y": "1070"
+   },
+   "points": []
+  },
+  "rowmark-4": {
+   "cell": {
+    "id": "rowmark-4",
+    "parent": "1",
+    "style": "ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B85C38;strokeColor=#ffffff;strokeWidth=1.5;fontFamily=Helvetica;fontSize=9;fontColor=#ffffff;fontStyle=1;",
+    "value": "4",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "20",
+    "width": "20",
+    "x": "42",
+    "y": "1100"
+   },
+   "points": []
+  },
+  "rowmark-5": {
+   "cell": {
+    "id": "rowmark-5",
+    "parent": "1",
+    "style": "ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#2D6A6A;strokeColor=#ffffff;strokeWidth=1.5;fontFamily=Helvetica;fontSize=9;fontColor=#ffffff;fontStyle=1;",
+    "value": "5",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "20",
+    "width": "20",
+    "x": "42",
+    "y": "1130"
+   },
+   "points": []
+  },
+  "rows-rule": {
+   "cell": {
+    "edge": "1",
+    "id": "rows-rule",
+    "parent": "1",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "x": "40",
+     "y": "992"
+    },
+    {
+     "as": "targetPoint",
+     "x": "1660",
+     "y": "992"
+    }
+   ]
+  },
+  "s-datalager": {
+   "cell": {
+    "connectable": "0",
+    "id": "s-datalager",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "510",
+    "y": "680"
+   },
+   "points": []
+  },
+  "s-datalager-def": {
+   "cell": {
+    "id": "s-datalager-def",
+    "parent": "s-datalager",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "En lagringsyta i myndighetens analysplattform.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "s-datalager-id": {
+   "cell": {
+    "id": "s-datalager-id",
+    "parent": "s-datalager",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Lagringsyta (C-165)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "s-grupprum": {
+   "cell": {
+    "connectable": "0",
+    "id": "s-grupprum",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "1450",
+    "y": "680"
+   },
+   "points": []
+  },
+  "s-grupprum-def": {
+   "cell": {
+    "id": "s-grupprum-def",
+    "parent": "s-grupprum",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Hela myndigheten kan öppna det.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "s-grupprum-id": {
+   "cell": {
+    "id": "s-grupprum-id",
+    "parent": "s-grupprum",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Lagringsyta (C-165)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "t-a-arende": {
+   "cell": {
+    "id": "t-a-arende",
+    "parent": "a-arende",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Ärendesystemet",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-a-plattform": {
+   "cell": {
+    "id": "t-a-plattform",
+    "parent": "a-plattform",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Myndighetens analysplattform",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-a-register": {
+   "cell": {
+    "id": "t-a-register",
+    "parent": "a-register",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Föreningsregistret",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-f-analys": {
+   "cell": {
+    "id": "t-f-analys",
+    "parent": "f-analys",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Analysfunktionen",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-o-ansokan": {
+   "cell": {
+    "id": "t-o-ansokan",
+    "parent": "o-ansokan",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Ansökan",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-o-beslut": {
+   "cell": {
+    "id": "t-o-beslut",
+    "parent": "o-beslut",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Beslut",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-o-forening": {
+   "cell": {
+    "id": "t-o-forening",
+    "parent": "o-forening",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Förening",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-o-foretradare": {
+   "cell": {
+    "id": "t-o-foretradare",
+    "parent": "o-foretradare",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Företrädare",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-o-per-kommun": {
+   "cell": {
+    "id": "t-o-per-kommun",
+    "parent": "o-per-kommun",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Utbetalningar per kommun",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-o-risk": {
+   "cell": {
+    "id": "t-o-risk",
+    "parent": "o-risk",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Riskindikator per förening",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-o-utbetalning": {
+   "cell": {
+    "id": "t-o-utbetalning",
+    "parent": "o-utbetalning",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Utbetalning",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-r-excel": {
+   "cell": {
+    "id": "t-r-excel",
+    "parent": "r-excel",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Excelfil",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-r-kopior": {
+   "cell": {
+    "id": "t-r-kopior",
+    "parent": "r-kopior",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Kopiorna i datalagret",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-s-datalager": {
+   "cell": {
+    "id": "t-s-datalager",
+    "parent": "s-datalager",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Datalagret",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-s-grupprum": {
+   "cell": {
+    "id": "t-s-grupprum",
+    "parent": "s-grupprum",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Grupprummet",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  }
+ },
+ "layout/Exempel/Analysfunktionen karta.drawio.svg": {
+  "0": {
+   "cell": {
+    "id": "0"
+   }
+  },
+  "1": {
+   "cell": {
+    "id": "1",
+    "parent": "0"
+   }
+  },
+  "a-arende": {
+   "cell": {
+    "connectable": "0",
+    "id": "a-arende",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "40",
+    "y": "860"
+   },
+   "points": []
+  },
+  "a-arende-def": {
+   "cell": {
+    "id": "a-arende-def",
+    "parent": "a-arende",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Handläggarens arbetsyta och myndighetens diarium.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "a-arende-id": {
+   "cell": {
+    "id": "a-arende-id",
+    "parent": "a-arende",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Applikation (C-071)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "a-plattform": {
+   "cell": {
+    "connectable": "0",
+    "id": "a-plattform",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "510",
+    "y": "860"
+   },
+   "points": []
+  },
+  "a-plattform-def": {
+   "cell": {
+    "id": "a-plattform-def",
+    "parent": "a-plattform",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Hämtar Förening ur Ärendesystemet.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "a-plattform-id": {
+   "cell": {
+    "id": "a-plattform-id",
+    "parent": "a-plattform",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Applikation (C-071)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "a-register": {
+   "cell": {
+    "connectable": "0",
+    "id": "a-register",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "745",
+    "y": "860"
+   },
+   "points": []
+  },
+  "a-register-def": {
+   "cell": {
+    "id": "a-register-def",
+    "parent": "a-register",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Källan för Förening.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "a-register-id": {
+   "cell": {
+    "id": "a-register-id",
+    "parent": "a-register",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Applikation (C-071)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "b-a-arende": {
+   "cell": {
+    "id": "b-a-arende",
+    "parent": "a-arende",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-a-plattform": {
+   "cell": {
+    "id": "b-a-plattform",
+    "parent": "a-plattform",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-a-register": {
+   "cell": {
+    "id": "b-a-register",
+    "parent": "a-register",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-f-analys": {
+   "cell": {
+    "id": "b-f-analys",
+    "parent": "f-analys",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-o-ansokan": {
+   "cell": {
+    "id": "b-o-ansokan",
+    "parent": "o-ansokan",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-o-beslut": {
+   "cell": {
+    "id": "b-o-beslut",
+    "parent": "o-beslut",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-o-forening": {
+   "cell": {
+    "id": "b-o-forening",
+    "parent": "o-forening",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-o-foretradare": {
+   "cell": {
+    "id": "b-o-foretradare",
+    "parent": "o-foretradare",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-o-per-kommun": {
+   "cell": {
+    "id": "b-o-per-kommun",
+    "parent": "o-per-kommun",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-o-risk": {
+   "cell": {
+    "id": "b-o-risk",
+    "parent": "o-risk",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-o-utbetalning": {
+   "cell": {
+    "id": "b-o-utbetalning",
+    "parent": "o-utbetalning",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-r-excel": {
+   "cell": {
+    "id": "b-r-excel",
+    "parent": "r-excel",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-r-kopior": {
+   "cell": {
+    "id": "b-r-kopior",
+    "parent": "r-kopior",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-s-datalager": {
+   "cell": {
+    "id": "b-s-datalager",
+    "parent": "s-datalager",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "b-s-grupprum": {
+   "cell": {
+    "id": "b-s-grupprum",
+    "parent": "s-grupprum",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210"
+   },
+   "points": []
+  },
+  "e-access-0": {
+   "cell": {
+    "edge": "1",
+    "id": "e-access-0",
+    "parent": "1",
+    "source": "b-f-analys",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.125;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;",
+    "target": "b-o-ansokan",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "771.25",
+     "y": "190"
+    },
+    {
+     "x": "145",
+     "y": "190"
+    }
+   ]
+  },
+  "e-access-0-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-access-0-l",
+    "parent": "e-access-0",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "läser",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.932"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-access-1": {
+   "cell": {
+    "edge": "1",
+    "id": "e-access-1",
+    "parent": "1",
+    "source": "b-f-analys",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;",
+    "target": "b-o-beslut",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "797.5",
+     "y": "204"
+    },
+    {
+     "x": "380",
+     "y": "204"
+    }
+   ]
+  },
+  "e-access-1-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-access-1-l",
+    "parent": "e-access-1",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "läser",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.906"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-access-2": {
+   "cell": {
+    "edge": "1",
+    "id": "e-access-2",
+    "parent": "1",
+    "source": "b-f-analys",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.375;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;",
+    "target": "b-o-foretradare",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "823.75",
+     "y": "218"
+    },
+    {
+     "x": "615",
+     "y": "218"
+    }
+   ]
+  },
+  "e-access-2-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-access-2-l",
+    "parent": "e-access-2",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "läser",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.849"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-access-3": {
+   "cell": {
+    "edge": "1",
+    "id": "e-access-3",
+    "parent": "1",
+    "source": "b-f-analys",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;",
+    "target": "b-o-forening",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": []
+  },
+  "e-access-3-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-access-3-l",
+    "parent": "e-access-3",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "läser",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.618"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-access-4": {
+   "cell": {
+    "edge": "1",
+    "id": "e-access-4",
+    "parent": "1",
+    "source": "b-f-analys",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.625;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;",
+    "target": "b-o-utbetalning",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "876.25",
+     "y": "218"
+    },
+    {
+     "x": "1085",
+     "y": "218"
+    }
+   ]
+  },
+  "e-access-4-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-access-4-l",
+    "parent": "e-access-4",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "läser",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.849"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-access-5": {
+   "cell": {
+    "edge": "1",
+    "id": "e-access-5",
+    "parent": "1",
+    "source": "b-f-analys",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;",
+    "target": "b-o-per-kommun",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "902.5",
+     "y": "204"
+    },
+    {
+     "x": "1320",
+     "y": "204"
+    }
+   ]
+  },
+  "e-access-5-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-access-5-l",
+    "parent": "e-access-5",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "skriver",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.906"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-access-6": {
+   "cell": {
+    "edge": "1",
+    "id": "e-access-6",
+    "parent": "1",
+    "source": "b-f-analys",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.875;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;",
+    "target": "b-o-risk",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "928.75",
+     "y": "190"
+    },
+    {
+     "x": "1555",
+     "y": "190"
+    }
+   ]
+  },
+  "e-access-6-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-access-6-l",
+    "parent": "e-access-6",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "skriver",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.932"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-agg-datalager": {
+   "cell": {
+    "edge": "1",
+    "id": "e-agg-datalager",
+    "parent": "1",
+    "source": "b-s-datalager",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;startArrow=diamondThin;startFill=0;startSize=12;endArrow=none;jumpStyle=line;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+    "target": "b-r-kopior",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": []
+  },
+  "e-agg-datalager-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-agg-datalager-l",
+    "parent": "e-agg-datalager",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "aggregerar",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-agg-forening": {
+   "cell": {
+    "edge": "1",
+    "id": "e-agg-forening",
+    "parent": "1",
+    "source": "b-o-per-kommun",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;startArrow=diamondThin;startFill=0;startSize=12;endArrow=none;jumpStyle=line;exitX=0.1;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;",
+    "target": "b-o-forening",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "1236",
+     "y": "414"
+    },
+    {
+     "x": "902.5",
+     "y": "414"
+    }
+   ]
+  },
+  "e-agg-forening-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-agg-forening-l",
+    "parent": "e-agg-forening",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "aggregerar",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.377"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-agg-grupprum": {
+   "cell": {
+    "edge": "1",
+    "id": "e-agg-grupprum",
+    "parent": "1",
+    "source": "b-s-grupprum",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;startArrow=diamondThin;startFill=0;startSize=12;endArrow=none;jumpStyle=line;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+    "target": "b-r-excel",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": []
+  },
+  "e-agg-grupprum-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-agg-grupprum-l",
+    "parent": "e-agg-grupprum",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "aggregerar",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-agg-utbetalning": {
+   "cell": {
+    "edge": "1",
+    "id": "e-agg-utbetalning",
+    "parent": "1",
+    "source": "b-o-per-kommun",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;startArrow=diamondThin;startFill=0;startSize=12;endArrow=none;jumpStyle=line;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;",
+    "target": "b-o-utbetalning",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "1267.5",
+     "y": "400"
+    },
+    {
+     "x": "1137.5",
+     "y": "400"
+    }
+   ]
+  },
+  "e-agg-utbetalning-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-agg-utbetalning-l",
+    "parent": "e-agg-utbetalning",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "aggregerar",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-form-0": {
+   "cell": {
+    "edge": "1",
+    "id": "e-form-0",
+    "parent": "1",
+    "source": "b-r-kopior",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.16666666666666666;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+    "target": "b-o-ansokan",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "545",
+     "y": "470"
+    },
+    {
+     "x": "145",
+     "y": "470"
+    }
+   ]
+  },
+  "e-form-0-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-form-0-l",
+    "parent": "e-form-0",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "ger form åt",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.814"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-form-1": {
+   "cell": {
+    "edge": "1",
+    "id": "e-form-1",
+    "parent": "1",
+    "source": "b-r-kopior",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.3333333333333333;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+    "target": "b-o-beslut",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "580",
+     "y": "456"
+    },
+    {
+     "x": "380",
+     "y": "456"
+    }
+   ]
+  },
+  "e-form-1-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-form-1-l",
+    "parent": "e-form-1",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "ger form åt",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.696"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-form-2": {
+   "cell": {
+    "edge": "1",
+    "id": "e-form-2",
+    "parent": "1",
+    "source": "b-r-kopior",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+    "target": "b-o-foretradare",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": []
+  },
+  "e-form-2-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-form-2-l",
+    "parent": "e-form-2",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "ger form åt",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.172"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-form-3": {
+   "cell": {
+    "edge": "1",
+    "id": "e-form-3",
+    "parent": "1",
+    "source": "b-r-kopior",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.6666666666666666;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+    "target": "b-o-forening",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "650",
+     "y": "456"
+    },
+    {
+     "x": "850",
+     "y": "456"
+    }
+   ]
+  },
+  "e-form-3-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-form-3-l",
+    "parent": "e-form-3",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "ger form åt",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.696"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-form-4": {
+   "cell": {
+    "edge": "1",
+    "id": "e-form-4",
+    "parent": "1",
+    "source": "b-r-kopior",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.8333333333333334;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+    "target": "b-o-utbetalning",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "685",
+     "y": "470"
+    },
+    {
+     "x": "1085",
+     "y": "470"
+    }
+   ]
+  },
+  "e-form-4-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-form-4-l",
+    "parent": "e-form-4",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "ger form åt",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "0.814"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-form-excel": {
+   "cell": {
+    "edge": "1",
+    "id": "e-form-excel",
+    "parent": "1",
+    "source": "b-r-excel",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+    "target": "b-o-risk",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": []
+  },
+  "e-form-excel-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-form-excel-l",
+    "parent": "e-form-excel",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "ger form åt",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-provide": {
+   "cell": {
+    "edge": "1",
+    "id": "e-provide",
+    "parent": "1",
+    "source": "b-a-plattform",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+    "target": "b-s-datalager",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": []
+  },
+  "e-provide-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-provide-l",
+    "parent": "e-provide",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "tillhandahåller",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "e-use": {
+   "cell": {
+    "edge": "1",
+    "id": "e-use",
+    "parent": "1",
+    "source": "b-a-plattform",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;",
+    "target": "b-a-arende",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": []
+  },
+  "e-use-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "e-use-l",
+    "parent": "e-use",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "använder",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "f-analys": {
+   "cell": {
+    "connectable": "0",
+    "id": "f-analys",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "745",
+    "y": "40"
+   },
+   "points": []
+  },
+  "f-analys-def": {
+   "cell": {
+    "id": "f-analys-def",
+    "parent": "f-analys",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Processägare (C-206): chefen för Analysenheten.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "f-analys-id": {
+   "cell": {
+    "id": "f-analys-id",
+    "parent": "f-analys",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Verksamhetsfunktion (C-158)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "frame": {
+   "cell": {
+    "id": "frame",
+    "parent": "1",
+    "style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=none;connectable=0;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "1004",
+    "width": "2072"
+   },
+   "points": []
+  },
+  "legend-g0": {
+   "cell": {
+    "edge": "1",
+    "id": "legend-g0",
+    "parent": "1",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "x": "1696",
+     "y": "68"
+    },
+    {
+     "as": "targetPoint",
+     "x": "1724",
+     "y": "68"
+    }
+   ]
+  },
+  "legend-g1": {
+   "cell": {
+    "edge": "1",
+    "id": "legend-g1",
+    "parent": "1",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;startArrow=diamondThin;startFill=0;startSize=12;endArrow=none;jumpStyle=line;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "x": "1696",
+     "y": "85.4"
+    },
+    {
+     "as": "targetPoint",
+     "x": "1724",
+     "y": "85.4"
+    }
+   ]
+  },
+  "legend-g2": {
+   "cell": {
+    "edge": "1",
+    "id": "legend-g2",
+    "parent": "1",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "x": "1696",
+     "y": "102.8"
+    },
+    {
+     "as": "targetPoint",
+     "x": "1724",
+     "y": "102.8"
+    }
+   ]
+  },
+  "legend-g3": {
+   "cell": {
+    "edge": "1",
+    "id": "legend-g3",
+    "parent": "1",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=open;endSize=8;jumpStyle=line;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "x": "1696",
+     "y": "120.19999999999999"
+    },
+    {
+     "as": "targetPoint",
+     "x": "1724",
+     "y": "120.19999999999999"
+    }
+   ]
+  },
+  "legend-rule": {
+   "cell": {
+    "edge": "1",
+    "id": "legend-rule",
+    "parent": "1",
+    "style": "endArrow=none;html=1;strokeColor=#e8e8e8;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "x": "1680",
+     "y": "40"
+    },
+    {
+     "as": "targetPoint",
+     "x": "1680",
+     "y": "176"
+    }
+   ]
+  },
+  "legend-t0": {
+   "cell": {
+    "id": "legend-t0",
+    "parent": "1",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=8.5;fontColor=#4d4d4d;fontStyle=0;spacing=0;",
+    "value": "läser, skriver - har åtkomst till (C-101)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "12",
+    "width": "300",
+    "x": "1732",
+    "y": "62"
+   },
+   "points": []
+  },
+  "legend-t1": {
+   "cell": {
+    "id": "legend-t1",
+    "parent": "1",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=8.5;fontColor=#4d4d4d;fontStyle=0;spacing=0;",
+    "value": "aggregerar (C-100) - rymmer, eller är satt samman av",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "12",
+    "width": "300",
+    "x": "1732",
+    "y": "79.4"
+   },
+   "points": []
+  },
+  "legend-t2": {
+   "cell": {
+    "id": "legend-t2",
+    "parent": "1",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=8.5;fontColor=#4d4d4d;fontStyle=0;spacing=0;",
+    "value": "använder (C-095)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "12",
+    "width": "300",
+    "x": "1732",
+    "y": "96.8"
+   },
+   "points": []
+  },
+  "legend-t3": {
+   "cell": {
+    "id": "legend-t3",
+    "parent": "1",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=8.5;fontColor=#4d4d4d;fontStyle=0;spacing=0;",
+    "value": "ger form åt, tillhandahåller - associeras med (C-099)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "12",
+    "width": "300",
+    "x": "1732",
+    "y": "114.19999999999999"
+   },
+   "points": []
+  },
+  "legend-title": {
+   "cell": {
+    "id": "legend-title",
+    "parent": "1",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;spacing=0;",
+    "value": "TECKENFÖRKLARING - RELATIONER",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "12",
+    "width": "330",
+    "x": "1696",
+    "y": "40"
+   },
+   "points": []
+  },
+  "o-ansokan": {
+   "cell": {
+    "connectable": "0",
+    "id": "o-ansokan",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "40",
+    "y": "280"
+   },
+   "points": []
+  },
+  "o-ansokan-def": {
+   "cell": {
+    "id": "o-ansokan-def",
+    "parent": "o-ansokan",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Intern tills beslut.<br>Informationsägare (C-167): chefen för Bidragsenheten.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "o-ansokan-id": {
+   "cell": {
+    "id": "o-ansokan-id",
+    "parent": "o-ansokan",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Informationsobjekt (C-060)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "o-beslut": {
+   "cell": {
+    "connectable": "0",
+    "id": "o-beslut",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "275",
+    "y": "280"
+   },
+   "points": []
+  },
+  "o-beslut-def": {
+   "cell": {
+    "id": "o-beslut-def",
+    "parent": "o-beslut",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Öppen när det är fattat.<br>Informationsägare (C-167): chefen för Bidragsenheten.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "o-beslut-id": {
+   "cell": {
+    "id": "o-beslut-id",
+    "parent": "o-beslut",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Informationsobjekt (C-060)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "o-forening": {
+   "cell": {
+    "connectable": "0",
+    "id": "o-forening",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "745",
+    "y": "280"
+   },
+   "points": []
+  },
+  "o-forening-def": {
+   "cell": {
+    "id": "o-forening-def",
+    "parent": "o-forening",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Öppen.<br>Informationsägare (C-167): chefen för Register- och tillsynsenheten.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "o-forening-id": {
+   "cell": {
+    "id": "o-forening-id",
+    "parent": "o-forening",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Informationsobjekt (C-060)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "o-foretradare": {
+   "cell": {
+    "connectable": "0",
+    "id": "o-foretradare",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "510",
+    "y": "280"
+   },
+   "points": []
+  },
+  "o-foretradare-def": {
+   "cell": {
+    "id": "o-foretradare-def",
+    "parent": "o-foretradare",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Känslig.<br>Informationsägare (C-167): chefen för Register- och tillsynsenheten.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "o-foretradare-id": {
+   "cell": {
+    "id": "o-foretradare-id",
+    "parent": "o-foretradare",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Informationsobjekt (C-060)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "o-per-kommun": {
+   "cell": {
+    "connectable": "0",
+    "id": "o-per-kommun",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "1215",
+    "y": "280"
+   },
+   "points": []
+  },
+  "o-per-kommun-def": {
+   "cell": {
+    "id": "o-per-kommun-def",
+    "parent": "o-per-kommun",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Sammanställning (C-162). Öppen.<br>Informationsägare (C-167): chefen för Analysenheten.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "o-per-kommun-id": {
+   "cell": {
+    "id": "o-per-kommun-id",
+    "parent": "o-per-kommun",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Informationsobjekt (C-060)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "o-risk": {
+   "cell": {
+    "connectable": "0",
+    "id": "o-risk",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "1450",
+    "y": "280"
+   },
+   "points": []
+  },
+  "o-risk-def": {
+   "cell": {
+    "id": "o-risk-def",
+    "parent": "o-risk",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Känslig.<br>Informationsägare (C-167): chefen för Analysenheten.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "o-risk-id": {
+   "cell": {
+    "id": "o-risk-id",
+    "parent": "o-risk",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Informationsobjekt (C-060)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "o-utbetalning": {
+   "cell": {
+    "connectable": "0",
+    "id": "o-utbetalning",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "980",
+    "y": "280"
+   },
+   "points": []
+  },
+  "o-utbetalning-def": {
+   "cell": {
+    "id": "o-utbetalning-def",
+    "parent": "o-utbetalning",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Intern.<br>Informationsägare (C-167): chefen för Bidragsenheten.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "o-utbetalning-id": {
+   "cell": {
+    "id": "o-utbetalning-id",
+    "parent": "o-utbetalning",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Informationsobjekt (C-060)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "r-a-arende": {
+   "cell": {
+    "edge": "1",
+    "id": "r-a-arende",
+    "parent": "a-arende",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-a-plattform": {
+   "cell": {
+    "edge": "1",
+    "id": "r-a-plattform",
+    "parent": "a-plattform",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-a-register": {
+   "cell": {
+    "edge": "1",
+    "id": "r-a-register",
+    "parent": "a-register",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-excel": {
+   "cell": {
+    "connectable": "0",
+    "id": "r-excel",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "1450",
+    "y": "500"
+   },
+   "points": []
+  },
+  "r-excel-def": {
+   "cell": {
+    "id": "r-excel-def",
+    "parent": "r-excel",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Exporterad av en analytiker.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "r-excel-id": {
+   "cell": {
+    "id": "r-excel-id",
+    "parent": "r-excel",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Representation (C-085)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "r-f-analys": {
+   "cell": {
+    "edge": "1",
+    "id": "r-f-analys",
+    "parent": "f-analys",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-kopior": {
+   "cell": {
+    "connectable": "0",
+    "id": "r-kopior",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "510",
+    "y": "500"
+   },
+   "points": []
+  },
+  "r-kopior-def": {
+   "cell": {
+    "id": "r-kopior-def",
+    "parent": "r-kopior",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Kopior av Ansökan, Beslut, Utbetalning, Förening och Företrädare.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "r-kopior-id": {
+   "cell": {
+    "id": "r-kopior-id",
+    "parent": "r-kopior",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Representation (C-085)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "r-o-ansokan": {
+   "cell": {
+    "edge": "1",
+    "id": "r-o-ansokan",
+    "parent": "o-ansokan",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-o-beslut": {
+   "cell": {
+    "edge": "1",
+    "id": "r-o-beslut",
+    "parent": "o-beslut",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-o-forening": {
+   "cell": {
+    "edge": "1",
+    "id": "r-o-forening",
+    "parent": "o-forening",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-o-foretradare": {
+   "cell": {
+    "edge": "1",
+    "id": "r-o-foretradare",
+    "parent": "o-foretradare",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-o-per-kommun": {
+   "cell": {
+    "edge": "1",
+    "id": "r-o-per-kommun",
+    "parent": "o-per-kommun",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-o-risk": {
+   "cell": {
+    "edge": "1",
+    "id": "r-o-risk",
+    "parent": "o-risk",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-o-utbetalning": {
+   "cell": {
+    "edge": "1",
+    "id": "r-o-utbetalning",
+    "parent": "o-utbetalning",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-r-excel": {
+   "cell": {
+    "edge": "1",
+    "id": "r-r-excel",
+    "parent": "r-excel",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-r-kopior": {
+   "cell": {
+    "edge": "1",
+    "id": "r-r-kopior",
+    "parent": "r-kopior",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-s-datalager": {
+   "cell": {
+    "edge": "1",
+    "id": "r-s-datalager",
+    "parent": "s-datalager",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "r-s-grupprum": {
+   "cell": {
+    "edge": "1",
+    "id": "r-s-grupprum",
+    "parent": "s-grupprum",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "210",
+     "y": "44"
+    }
+   ]
+  },
+  "s-datalager": {
+   "cell": {
+    "connectable": "0",
+    "id": "s-datalager",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "510",
+    "y": "680"
+   },
+   "points": []
+  },
+  "s-datalager-def": {
+   "cell": {
+    "id": "s-datalager-def",
+    "parent": "s-datalager",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "En lagringsyta i myndighetens analysplattform.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "s-datalager-id": {
+   "cell": {
+    "id": "s-datalager-id",
+    "parent": "s-datalager",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Lagringsyta (C-165)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "s-grupprum": {
+   "cell": {
+    "connectable": "0",
+    "id": "s-grupprum",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "210",
+    "x": "1450",
+    "y": "680"
+   },
+   "points": []
+  },
+  "s-grupprum-def": {
+   "cell": {
+    "id": "s-grupprum-def",
+    "parent": "s-grupprum",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Hela myndigheten kan öppna det.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "186",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "s-grupprum-id": {
+   "cell": {
+    "id": "s-grupprum-id",
+    "parent": "s-grupprum",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Lagringsyta (C-165)",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "186",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "t-a-arende": {
+   "cell": {
+    "id": "t-a-arende",
+    "parent": "a-arende",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Ärendesystemet",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-a-plattform": {
+   "cell": {
+    "id": "t-a-plattform",
+    "parent": "a-plattform",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Myndighetens analysplattform",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-a-register": {
+   "cell": {
+    "id": "t-a-register",
+    "parent": "a-register",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Föreningsregistret",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-f-analys": {
+   "cell": {
+    "id": "t-f-analys",
+    "parent": "f-analys",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Analysfunktionen",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-o-ansokan": {
+   "cell": {
+    "id": "t-o-ansokan",
+    "parent": "o-ansokan",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Ansökan",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-o-beslut": {
+   "cell": {
+    "id": "t-o-beslut",
+    "parent": "o-beslut",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Beslut",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-o-forening": {
+   "cell": {
+    "id": "t-o-forening",
+    "parent": "o-forening",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Förening",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-o-foretradare": {
+   "cell": {
+    "id": "t-o-foretradare",
+    "parent": "o-foretradare",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Företrädare",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-o-per-kommun": {
+   "cell": {
+    "id": "t-o-per-kommun",
+    "parent": "o-per-kommun",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Utbetalningar per kommun",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-o-risk": {
+   "cell": {
+    "id": "t-o-risk",
+    "parent": "o-risk",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Riskindikator per förening",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-o-utbetalning": {
+   "cell": {
+    "id": "t-o-utbetalning",
+    "parent": "o-utbetalning",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Utbetalning",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-r-excel": {
+   "cell": {
+    "id": "t-r-excel",
+    "parent": "r-excel",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Excelfil",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-r-kopior": {
+   "cell": {
+    "id": "t-r-kopior",
+    "parent": "r-kopior",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Kopiorna i datalagret",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-s-datalager": {
+   "cell": {
+    "id": "t-s-datalager",
+    "parent": "s-datalager",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Datalagret",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-s-grupprum": {
+   "cell": {
+    "id": "t-s-grupprum",
+    "parent": "s-grupprum",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Grupprummet",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "186",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  }
+ },
+ "layout/Exempel/Informationskartläggning steg.drawio.svg": {
+  "0": {
+   "cell": {
+    "id": "0"
+   }
+  },
+  "1": {
+   "cell": {
+    "id": "1",
+    "parent": "0"
+   }
+  },
+  "b-p1": {
+   "cell": {
+    "id": "b-p1",
+    "parent": "p1",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "236"
+   },
+   "points": []
+  },
+  "b-p2": {
+   "cell": {
+    "id": "b-p2",
+    "parent": "p2",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "236"
+   },
+   "points": []
+  },
+  "b-p3": {
+   "cell": {
+    "id": "b-p3",
+    "parent": "p3",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "236"
+   },
+   "points": []
+  },
+  "b-p4": {
+   "cell": {
+    "id": "b-p4",
+    "parent": "p4",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "236"
+   },
+   "points": []
+  },
+  "b-s0": {
+   "cell": {
+    "id": "b-s0",
+    "parent": "s0",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "140",
+    "width": "236"
+   },
+   "points": []
+  },
+  "b-s1": {
+   "cell": {
+    "id": "b-s1",
+    "parent": "s1",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "140",
+    "width": "236"
+   },
+   "points": []
+  },
+  "b-s2": {
+   "cell": {
+    "id": "b-s2",
+    "parent": "s2",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "140",
+    "width": "236"
+   },
+   "points": []
+  },
+  "b-s4": {
+   "cell": {
+    "id": "b-s4",
+    "parent": "s4",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "236"
+   },
+   "points": []
+  },
+  "b-s5": {
+   "cell": {
+    "id": "b-s5",
+    "parent": "s5",
+    "style": "rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=1;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "236"
+   },
+   "points": []
+  },
+  "f01": {
+   "cell": {
+    "edge": "1",
+    "id": "f01",
+    "parent": "1",
+    "source": "b-s0",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classic;endFill=1;endSize=6;jumpStyle=line;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;",
+    "target": "b-s1",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": []
+  },
+  "f12": {
+   "cell": {
+    "edge": "1",
+    "id": "f12",
+    "parent": "1",
+    "source": "b-s1",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classic;endFill=1;endSize=6;jumpStyle=line;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;",
+    "target": "b-s2",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": []
+  },
+  "f2p1": {
+   "cell": {
+    "edge": "1",
+    "id": "f2p1",
+    "parent": "1",
+    "source": "b-s2",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classic;endFill=1;endSize=6;jumpStyle=line;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;",
+    "target": "b-p1",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "898",
+     "y": "278"
+    },
+    {
+     "x": "898",
+     "y": "92"
+    }
+   ]
+  },
+  "f2p2": {
+   "cell": {
+    "edge": "1",
+    "id": "f2p2",
+    "parent": "1",
+    "source": "b-s2",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classic;endFill=1;endSize=6;jumpStyle=line;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;",
+    "target": "b-p2",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "898",
+     "y": "278"
+    },
+    {
+     "x": "898",
+     "y": "216"
+    }
+   ]
+  },
+  "f2p3": {
+   "cell": {
+    "edge": "1",
+    "id": "f2p3",
+    "parent": "1",
+    "source": "b-s2",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classic;endFill=1;endSize=6;jumpStyle=line;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;",
+    "target": "b-p3",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "898",
+     "y": "278"
+    },
+    {
+     "x": "898",
+     "y": "340"
+    }
+   ]
+  },
+  "f2p4": {
+   "cell": {
+    "edge": "1",
+    "id": "f2p4",
+    "parent": "1",
+    "source": "b-s2",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classic;endFill=1;endSize=6;jumpStyle=line;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;",
+    "target": "b-p4",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "898",
+     "y": "278"
+    },
+    {
+     "x": "898",
+     "y": "464"
+    }
+   ]
+  },
+  "f45": {
+   "cell": {
+    "edge": "1",
+    "id": "f45",
+    "parent": "1",
+    "source": "b-s4",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classic;endFill=1;endSize=6;jumpStyle=line;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;",
+    "target": "b-s5",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": []
+  },
+  "f51": {
+   "cell": {
+    "edge": "1",
+    "id": "f51",
+    "parent": "1",
+    "source": "b-s5",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classic;endFill=1;endSize=6;jumpStyle=line;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+    "target": "b-s0",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "1678",
+     "y": "580"
+    },
+    {
+     "x": "158",
+     "y": "580"
+    }
+   ]
+  },
+  "f51-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "f51-l",
+    "parent": "f51",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "Steg 7 - nytt varv: när beteendet, applikationen eller lagringsytan ändras, och annars en gång om året",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "fp14": {
+   "cell": {
+    "edge": "1",
+    "id": "fp14",
+    "parent": "1",
+    "source": "b-p1",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classic;endFill=1;endSize=6;jumpStyle=line;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;",
+    "target": "b-s4",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "1234",
+     "y": "92"
+    },
+    {
+     "x": "1234",
+     "y": "278"
+    }
+   ]
+  },
+  "fp14-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "fp14-l",
+    "parent": "fp14",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "fynd",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "-0.755"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "fp24": {
+   "cell": {
+    "edge": "1",
+    "id": "fp24",
+    "parent": "1",
+    "source": "b-p2",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classic;endFill=1;endSize=6;jumpStyle=line;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;",
+    "target": "b-s4",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "1234",
+     "y": "216"
+    },
+    {
+     "x": "1234",
+     "y": "278"
+    }
+   ]
+  },
+  "fp24-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "fp24-l",
+    "parent": "fp24",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "fynd",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "-0.568"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "fp34": {
+   "cell": {
+    "edge": "1",
+    "id": "fp34",
+    "parent": "1",
+    "source": "b-p3",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classic;endFill=1;endSize=6;jumpStyle=line;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;",
+    "target": "b-s4",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "1234",
+     "y": "340"
+    },
+    {
+     "x": "1234",
+     "y": "278"
+    }
+   ]
+  },
+  "fp34-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "fp34-l",
+    "parent": "fp34",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "fynd",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "-0.568"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "fp44": {
+   "cell": {
+    "edge": "1",
+    "id": "fp44",
+    "parent": "1",
+    "source": "b-p4",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4d4d4d;strokeWidth=1;endArrow=classic;endFill=1;endSize=6;jumpStyle=line;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;",
+    "target": "b-s4",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "x": "1234",
+     "y": "464"
+    },
+    {
+     "x": "1234",
+     "y": "278"
+    }
+   ]
+  },
+  "fp44-l": {
+   "cell": {
+    "connectable": "0",
+    "id": "fp44-l",
+    "parent": "fp44",
+    "style": "edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=8;fontColor=#4d4d4d;fontStyle=0;labelBackgroundColor=#f5f5f5;",
+    "value": "fynd",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1",
+    "x": "-0.755"
+   },
+   "points": [
+    {
+     "as": "offset"
+    }
+   ]
+  },
+  "frame": {
+   "cell": {
+    "id": "frame",
+    "parent": "1",
+    "style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=none;connectable=0;",
+    "value": "",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "620",
+    "width": "1836"
+   },
+   "points": []
+  },
+  "note": {
+   "cell": {
+    "id": "note",
+    "parent": "1",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=8.5;fontColor=#4d4d4d;fontStyle=0;spacing=0;",
+    "value": "Varje nej är ett fynd. Genomgångarna är oberoende av varandra och görs i valfri ordning, eller samtidigt.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "36",
+    "width": "236",
+    "x": "928",
+    "y": "526"
+   },
+   "points": []
+  },
+  "p1": {
+   "cell": {
+    "connectable": "0",
+    "id": "p1",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "236",
+    "x": "928",
+    "y": "40"
+   },
+   "points": []
+  },
+  "p1-def": {
+   "cell": {
+    "id": "p1-def",
+    "parent": "p1",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Har informationsägaren tagit ställning till varje objekt på kartan, själv eller genom området, och klarar varje lagringsyta det förteckningen kräver? Informationsägaren (C-167) går igenom.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "212",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "p1-id": {
+   "cell": {
+    "id": "p1-id",
+    "parent": "p1",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Steg 4 - genomgång",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "212",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "p2": {
+   "cell": {
+    "connectable": "0",
+    "id": "p2",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "236",
+    "x": "928",
+    "y": "164"
+   },
+   "points": []
+  },
+  "p2-def": {
+   "cell": {
+    "id": "p2-def",
+    "parent": "p2",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Har varje behandling av personuppgifter ett ändamål och en rättslig grund i registerförteckningen? Processägaren går igenom.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "212",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "p2-id": {
+   "cell": {
+    "id": "p2-id",
+    "parent": "p2",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Steg 4 - genomgång",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "212",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "p3": {
+   "cell": {
+    "connectable": "0",
+    "id": "p3",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "236",
+    "x": "928",
+    "y": "288"
+   },
+   "points": []
+  },
+  "p3-def": {
+   "cell": {
+    "id": "p3-def",
+    "parent": "p3",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Har varje handlingstyp per process ett beslut om bevarande eller gallring i informationshanteringsplanen? Processägaren går igenom.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "212",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "p3-id": {
+   "cell": {
+    "id": "p3-id",
+    "parent": "p3",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Steg 4 - genomgång",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "212",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "p4": {
+   "cell": {
+    "connectable": "0",
+    "id": "p4",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "236",
+    "x": "928",
+    "y": "412"
+   },
+   "points": []
+  },
+  "p4-def": {
+   "cell": {
+    "id": "p4-def",
+    "parent": "p4",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Har varje resursdataobjekt en enda källa, och hämtar kopiorna därifrån? Arkitekten går igenom.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "212",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "p4-id": {
+   "cell": {
+    "id": "p4-id",
+    "parent": "p4",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Steg 4 - genomgång",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "212",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "r-p1": {
+   "cell": {
+    "edge": "1",
+    "id": "r-p1",
+    "parent": "p1",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "236",
+     "y": "44"
+    }
+   ]
+  },
+  "r-p2": {
+   "cell": {
+    "edge": "1",
+    "id": "r-p2",
+    "parent": "p2",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "236",
+     "y": "44"
+    }
+   ]
+  },
+  "r-p3": {
+   "cell": {
+    "edge": "1",
+    "id": "r-p3",
+    "parent": "p3",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "236",
+     "y": "44"
+    }
+   ]
+  },
+  "r-p4": {
+   "cell": {
+    "edge": "1",
+    "id": "r-p4",
+    "parent": "p4",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "236",
+     "y": "44"
+    }
+   ]
+  },
+  "r-s0": {
+   "cell": {
+    "edge": "1",
+    "id": "r-s0",
+    "parent": "s0",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "236",
+     "y": "44"
+    }
+   ]
+  },
+  "r-s1": {
+   "cell": {
+    "edge": "1",
+    "id": "r-s1",
+    "parent": "s1",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "236",
+     "y": "44"
+    }
+   ]
+  },
+  "r-s2": {
+   "cell": {
+    "edge": "1",
+    "id": "r-s2",
+    "parent": "s2",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "236",
+     "y": "44"
+    }
+   ]
+  },
+  "r-s4": {
+   "cell": {
+    "edge": "1",
+    "id": "r-s4",
+    "parent": "s4",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "236",
+     "y": "44"
+    }
+   ]
+  },
+  "r-s5": {
+   "cell": {
+    "edge": "1",
+    "id": "r-s5",
+    "parent": "s5",
+    "style": "endArrow=none;html=1;strokeColor=#cccccc;",
+    "value": ""
+   },
+   "geometry": {
+    "as": "geometry",
+    "relative": "1"
+   },
+   "points": [
+    {
+     "as": "sourcePoint",
+     "y": "44"
+    },
+    {
+     "as": "targetPoint",
+     "x": "236",
+     "y": "44"
+    }
+   ]
+  },
+  "s0": {
+   "cell": {
+    "connectable": "0",
+    "id": "s0",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "140",
+    "width": "236",
+    "x": "40",
+    "y": "208"
+   },
+   "points": []
+  },
+  "s0-def": {
+   "cell": {
+    "id": "s0-def",
+    "parent": "s0",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Ett varv gäller ett beteende: en process, en handläggning eller en funktion. Arkitekten leder varvet och håller kartan.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "87",
+    "width": "212",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "s0-id": {
+   "cell": {
+    "id": "s0-id",
+    "parent": "s0",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Steg 1",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "212",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "s1": {
+   "cell": {
+    "connectable": "0",
+    "id": "s1",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "140",
+    "width": "236",
+    "x": "336",
+    "y": "208"
+   },
+   "points": []
+  },
+  "s1-def": {
+   "cell": {
+    "id": "s1-def",
+    "parent": "s1",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Arkitekten intervjuar dem som utför beteendet, och de beskriver vad de gör. I samma intervju fångas informationsobjekten, representationerna, lagringsytorna och applikationerna. I intervjun sveper arkitekten också över lagringsytorna och hittar det som inget beteende når.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "87",
+    "width": "212",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "s1-id": {
+   "cell": {
+    "id": "s1-id",
+    "parent": "s1",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Steg 2",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "212",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "s2": {
+   "cell": {
+    "connectable": "0",
+    "id": "s2",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "140",
+    "width": "236",
+    "x": "632",
+    "y": "208"
+   },
+   "points": []
+  },
+  "s2-def": {
+   "cell": {
+    "id": "s2-def",
+    "parent": "s2",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Processägaren (C-206) bekräftar hela kartan: beteendet, informationsobjekten med ägare, representationerna, lagringsytorna och applikationerna. Kartan visar det som faktiskt görs, också det som inte borde göras.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "87",
+    "width": "212",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "s2-id": {
+   "cell": {
+    "id": "s2-id",
+    "parent": "s2",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Steg 3",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "212",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "s4": {
+   "cell": {
+    "connectable": "0",
+    "id": "s4",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "236",
+    "x": "1264",
+    "y": "226"
+   },
+   "points": []
+  },
+  "s4-def": {
+   "cell": {
+    "id": "s4-def",
+    "parent": "s4",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Ett fynd är en avvikelse (C-213) när organisationen har fastställt ett styrmedel att pröva mot. Annars är fyndet en bedömning (C-185), oftast en risk (C-186).",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "212",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "s4-id": {
+   "cell": {
+    "id": "s4-id",
+    "parent": "s4",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Steg 5",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "212",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "s5": {
+   "cell": {
+    "connectable": "0",
+    "id": "s5",
+    "parent": "1",
+    "style": "group",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "104",
+    "width": "236",
+    "x": "1560",
+    "y": "226"
+   },
+   "points": []
+  },
+  "s5-def": {
+   "cell": {
+    "id": "s5-def",
+    "parent": "s5",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=9;fontColor=#4f5d75;fontStyle=0;spacing=0;spacingTop=0;",
+    "value": "Den som har mandatet beslutar att åtgärda fyndet eller att leva med det. Varvet slutar när varje fynd har ett beslut.",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "51",
+    "width": "212",
+    "x": "12",
+    "y": "49"
+   },
+   "points": []
+  },
+  "s5-id": {
+   "cell": {
+    "id": "s5-id",
+    "parent": "s5",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Courier New;fontSize=7;fontColor=#4f5d75;fontStyle=0;spacing=0;",
+    "value": "Steg 6",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "10",
+    "width": "212",
+    "x": "12",
+    "y": "5"
+   },
+   "points": []
+  },
+  "t-p1": {
+   "cell": {
+    "id": "t-p1",
+    "parent": "p1",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Informationssäkerhet",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "212",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-p2": {
+   "cell": {
+    "id": "t-p2",
+    "parent": "p2",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Dataskydd",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "212",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-p3": {
+   "cell": {
+    "id": "t-p3",
+    "parent": "p3",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Offentlighet och arkiv",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "212",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-p4": {
+   "cell": {
+    "id": "t-p4",
+    "parent": "p4",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Informationsförsörjning",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "212",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-s0": {
+   "cell": {
+    "id": "t-s0",
+    "parent": "s0",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Valt beteende",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "212",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-s1": {
+   "cell": {
+    "id": "t-s1",
+    "parent": "s1",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Intervju",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "212",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-s2": {
+   "cell": {
+    "id": "t-s2",
+    "parent": "s2",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Bekräftad karta",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "212",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-s4": {
+   "cell": {
+    "id": "t-s4",
+    "parent": "s4",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Avvikelse eller bedömning",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "212",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  },
+  "t-s5": {
+   "cell": {
+    "id": "t-s5",
+    "parent": "s5",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#1a1a1a;fontStyle=1;spacing=0;",
+    "value": "Beslut om varje fynd",
+    "vertex": "1"
+   },
+   "geometry": {
+    "as": "geometry",
+    "height": "18",
+    "width": "212",
+    "x": "12",
+    "y": "18"
+   },
+   "points": []
+  }
+ }
+}

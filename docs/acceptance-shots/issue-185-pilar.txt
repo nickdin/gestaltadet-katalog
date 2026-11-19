@@ -1,0 +1,165 @@
+Ärende #185: kartorna över analysfunktionen får två pilar för har åtkomst till (C-101), och rutan för steg 2 får sidans två meningar. Prov kört 2026-11-19 från lagrets rot.
+
+Kommando: python3 docs/acceptance-shots/issue-185-pilar.py
+Facit: docs/acceptance-shots/issue-185-facit.json, basens tre ritningar cell för cell, skrivet på en kopia av basen eb48f9d med samma skript och växeln --facit.
+
+If wrong (pilarna): en karta har inte 21 pilar, och raden "pilen saknas" nämner pilen. En pil som är dragen åt fel håll, från lagringsytan till analysfunktionen, ger raden "går från Lagringsyta (C-165) till Verksamhetsfunktion (C-158), inte mellan".
+If wrong (bara den inbäddade ritningen är ändrad och bilden är den gamla): raden "bilden visar läser på 5 pilar, den inbäddade ritningen har 6".
+If wrong (något annat i en karta har flyttats eller ändrats, till exempel en ruta som flyttats för att ge plats åt en pil): raden "cellen ... är ändrad mot basen".
+If wrong (rutan för steg 2 är skriven med egna ord, eller en annan mening i den är ändrad): raden "bär inte sidans meningar ordagrant" eller "säger något annat än basens text med sidans två meningar inskjutna".
+If wrong (en annan ruta eller en pil i ritningen över stegen har ändrats): raden "är ändrad mot basen på ett sätt ärendet inte ber om".
+
+Read back (bas eb48f9d): slutkod 1. 19 pilar per karta, de två nya saknas, och rutan för steg 2 bär inte sidans meningar. Utskriften:
+
+Pilar i layout/Exempel/Analysfunktionen karta.drawio.svg: 19
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Ansökan
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Beslut
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Förening
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Företrädare
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Utbetalning
+Analysfunktionen --[skriver: har åtkomst till (C-101)]--> Riskindikator per förening
+Analysfunktionen --[skriver: har åtkomst till (C-101)]--> Utbetalningar per kommun
+Datalagret --[aggregerar: aggregerar (C-100)]--> Kopiorna i datalagret
+Excelfil --[ger form åt: associeras med (C-099)]--> Riskindikator per förening
+Grupprummet --[aggregerar: aggregerar (C-100)]--> Excelfil
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Ansökan
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Beslut
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Förening
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Företrädare
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Utbetalning
+Myndighetens analysplattform --[använder: använder (C-095)]--> Ärendesystemet
+Myndighetens analysplattform --[tillhandahåller: associeras med (C-099)]--> Datalagret
+Utbetalningar per kommun --[aggregerar: aggregerar (C-100)]--> Förening
+Utbetalningar per kommun --[aggregerar: aggregerar (C-100)]--> Utbetalning
+mot basen: 141 av 141 celler är desamma, 0 celler är nya: inga
+mot basen: 19 övriga pilar och 15 rutors text är desamma
+bilden visar texten "läser" på 5 pilar, den inbäddade ritningen har 5
+bilden visar texten "skriver" på 2 pilar, den inbäddade ritningen har 2
+
+Pilar i layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: 19
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Ansökan
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Beslut
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Förening
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Företrädare
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Utbetalning
+Analysfunktionen --[skriver: har åtkomst till (C-101)]--> Riskindikator per förening
+Analysfunktionen --[skriver: har åtkomst till (C-101)]--> Utbetalningar per kommun
+Datalagret --[aggregerar: aggregerar (C-100)]--> Kopiorna i datalagret
+Excelfil --[ger form åt: associeras med (C-099)]--> Riskindikator per förening
+Grupprummet --[aggregerar: aggregerar (C-100)]--> Excelfil
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Ansökan
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Beslut
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Förening
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Företrädare
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Utbetalning
+Myndighetens analysplattform --[använder: använder (C-095)]--> Ärendesystemet
+Myndighetens analysplattform --[tillhandahåller: associeras med (C-099)]--> Datalagret
+Utbetalningar per kommun --[aggregerar: aggregerar (C-100)]--> Förening
+Utbetalningar per kommun --[aggregerar: aggregerar (C-100)]--> Utbetalning
+mot basen: 161 av 161 celler är desamma, 0 celler är nya: inga
+mot basen: 19 övriga pilar och 15 rutors text är desamma
+mot basen: 16 av 16 celler i raderna under kartan och markeringarna är desamma
+bilden visar texten "läser" på 5 pilar, den inbäddade ritningen har 5
+bilden visar texten "skriver" på 2 pilar, den inbäddade ritningen har 2
+
+de två kartorna har samma pilar
+de två kartorna har samma 15 rutor med samma text
+
+Rutan för steg 2 i layout/Exempel/Informationskartläggning steg.drawio.svg:
+Arkitekten intervjuar dem som utför beteendet, och de beskriver vad de gör. I samma intervju fångas informationsobjekten, representationerna, lagringsytorna och applikationerna. I intervjun sveper arkitekten också över lagringsytorna och hittar det som inget beteende når.
+mot basen: 75 av 75 celler är desamma, och ingen cell är ny eller borta
+rutan för steg 2: höjd 140 -> 140, mitten i höjdled 278 -> 278
+
+FALLER:
+- layout/Exempel/Analysfunktionen karta.drawio.svg: 19 pilar, inte 21
+- layout/Exempel/Analysfunktionen karta.drawio.svg: pilen saknas: Analysfunktionen --[läser: har åtkomst till (C-101)]--> Datalagret
+- layout/Exempel/Analysfunktionen karta.drawio.svg: pilen saknas: Analysfunktionen --[skriver: har åtkomst till (C-101)]--> Grupprummet
+- layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: 19 pilar, inte 21
+- layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: pilen saknas: Analysfunktionen --[läser: har åtkomst till (C-101)]--> Datalagret
+- layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: pilen saknas: Analysfunktionen --[skriver: har åtkomst till (C-101)]--> Grupprummet
+- layout/Exempel/Informationskartläggning steg.drawio.svg: rutan för steg 2 bär inte sidans meningar ordagrant: "Arkitekten fångar också vilka lagringsytor beteendet använder. På kartan har beteendet åtkomst till var och en av dem."
+- layout/Exempel/Informationskartläggning steg.drawio.svg: bilden visar inte sidans meningar i rutan för steg 2
+
+Read back (gren issue-185-atkomst-lagringsytor): slutkod 0. 21 pilar per karta, bland dem de två nya. De 19 övriga pilarna, de 15 rutornas text och raderna under kartan med fynden är basens. Rutan för steg 2 bär sidans två meningar. Utskriften:
+
+Pilar i layout/Exempel/Analysfunktionen karta.drawio.svg: 21
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Ansökan
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Beslut
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Datalagret
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Förening
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Företrädare
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Utbetalning
+Analysfunktionen --[skriver: har åtkomst till (C-101)]--> Grupprummet
+Analysfunktionen --[skriver: har åtkomst till (C-101)]--> Riskindikator per förening
+Analysfunktionen --[skriver: har åtkomst till (C-101)]--> Utbetalningar per kommun
+Datalagret --[aggregerar: aggregerar (C-100)]--> Kopiorna i datalagret
+Excelfil --[ger form åt: associeras med (C-099)]--> Riskindikator per förening
+Grupprummet --[aggregerar: aggregerar (C-100)]--> Excelfil
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Ansökan
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Beslut
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Förening
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Företrädare
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Utbetalning
+Myndighetens analysplattform --[använder: använder (C-095)]--> Ärendesystemet
+Myndighetens analysplattform --[tillhandahåller: associeras med (C-099)]--> Datalagret
+Utbetalningar per kommun --[aggregerar: aggregerar (C-100)]--> Förening
+Utbetalningar per kommun --[aggregerar: aggregerar (C-100)]--> Utbetalning
+mot basen: 141 av 141 celler är desamma, 4 celler är nya: e-access-datalager, e-access-datalager-l, e-access-grupprum, e-access-grupprum-l
+mot basen: 19 övriga pilar och 15 rutors text är desamma
+bilden visar texten "läser" på 6 pilar, den inbäddade ritningen har 6
+bilden visar texten "skriver" på 3 pilar, den inbäddade ritningen har 3
+
+Pilar i layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: 21
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Ansökan
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Beslut
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Datalagret
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Förening
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Företrädare
+Analysfunktionen --[läser: har åtkomst till (C-101)]--> Utbetalning
+Analysfunktionen --[skriver: har åtkomst till (C-101)]--> Grupprummet
+Analysfunktionen --[skriver: har åtkomst till (C-101)]--> Riskindikator per förening
+Analysfunktionen --[skriver: har åtkomst till (C-101)]--> Utbetalningar per kommun
+Datalagret --[aggregerar: aggregerar (C-100)]--> Kopiorna i datalagret
+Excelfil --[ger form åt: associeras med (C-099)]--> Riskindikator per förening
+Grupprummet --[aggregerar: aggregerar (C-100)]--> Excelfil
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Ansökan
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Beslut
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Förening
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Företrädare
+Kopiorna i datalagret --[ger form åt: associeras med (C-099)]--> Utbetalning
+Myndighetens analysplattform --[använder: använder (C-095)]--> Ärendesystemet
+Myndighetens analysplattform --[tillhandahåller: associeras med (C-099)]--> Datalagret
+Utbetalningar per kommun --[aggregerar: aggregerar (C-100)]--> Förening
+Utbetalningar per kommun --[aggregerar: aggregerar (C-100)]--> Utbetalning
+mot basen: 161 av 161 celler är desamma, 4 celler är nya: e-access-datalager, e-access-datalager-l, e-access-grupprum, e-access-grupprum-l
+mot basen: 19 övriga pilar och 15 rutors text är desamma
+mot basen: 16 av 16 celler i raderna under kartan och markeringarna är desamma
+bilden visar texten "läser" på 6 pilar, den inbäddade ritningen har 6
+bilden visar texten "skriver" på 3 pilar, den inbäddade ritningen har 3
+
+de två kartorna har samma pilar
+de två kartorna har samma 15 rutor med samma text
+
+Rutan för steg 2 i layout/Exempel/Informationskartläggning steg.drawio.svg:
+Arkitekten intervjuar dem som utför beteendet, och de beskriver vad de gör. I samma intervju fångas informationsobjekten, representationerna, lagringsytorna och applikationerna. Arkitekten fångar också vilka lagringsytor beteendet använder. På kartan har beteendet åtkomst till var och en av dem. I intervjun sveper arkitekten också över lagringsytorna och hittar det som inget beteende når.
+sidans två meningar står ordagrant i rutan, och resten av texten är basens
+bilden visar samma två meningar
+mot basen: 72 av 75 celler är desamma, och ingen cell är ny eller borta
+rutan för steg 2: höjd 140 -> 174, mitten i höjdled 278 -> 278
+
+HÅLLER: båda kartorna har de två nya pilarna, rutan för steg 2 bär sidans meningar, och inget annat är ändrat mot basen.
+
+De daterade proven som läser samma ritningar, körda på grenen 2026-11-19 och inte ändrade:
+
+Kommando: python3 docs/acceptance-shots/issue-174-pilar.py
+Read back (gren issue-185-atkomst-lagringsytor): slutkod 1, fyra rader under FALLER, en per ny pil och karta. Provets tabell RELATION_OF låter läser och skriver gå bara från en Verksamhetsfunktion (C-158) till ett Informationsobjekt (C-060), och de nya pilarna går till en Lagringsyta (C-165). Det är väntat efter beslut 62. På basen eb48f9d slutar provet HÅLLER.
+FALLER:
+- layout/Exempel/Analysfunktionen karta.drawio.svg: pilen Analysfunktionen -> Datalagret med texten "läser" går från Verksamhetsfunktion (C-158) till Lagringsyta (C-165), inte mellan [('Verksamhetsfunktion (C-158)', 'Informationsobjekt (C-060)')]
+- layout/Exempel/Analysfunktionen karta.drawio.svg: pilen Analysfunktionen -> Grupprummet med texten "skriver" går från Verksamhetsfunktion (C-158) till Lagringsyta (C-165), inte mellan [('Verksamhetsfunktion (C-158)', 'Informationsobjekt (C-060)')]
+- layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: pilen Analysfunktionen -> Datalagret med texten "läser" går från Verksamhetsfunktion (C-158) till Lagringsyta (C-165), inte mellan [('Verksamhetsfunktion (C-158)', 'Informationsobjekt (C-060)')]
+- layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: pilen Analysfunktionen -> Grupprummet med texten "skriver" går från Verksamhetsfunktion (C-158) till Lagringsyta (C-165), inte mellan [('Verksamhetsfunktion (C-158)', 'Informationsobjekt (C-060)')]
+
+Kommando: python3 docs/acceptance-shots/issue-179-klassen.py
+Read back (gren issue-185-atkomst-lagringsytor): slutkod 0, samma slut som på basen eb48f9d.
+Lästa filer: 213. Borttagna formuleringar: 0 träffar på 13 mönster.
+Krävda texter: 20 av 20 finns.
