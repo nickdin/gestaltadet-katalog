@@ -24,7 +24,7 @@ Förberedelse: draw.io på en dator med skärm, som program eller i webbläsaren
 
 ### [x] #148 — Formbiblioteket för draw.io öppnas med stegen på sidan
 
-Gick igenom 2026-11-19 på laptopen, i draw.io i webbläsaren på svenska. Biblioteket visades till vänster under namnet library-drawio med 59 rutor. Rutan Applikation gick att dra in och behöll typen när den fick namnet Ärendesystemet. Stegen för Excalidraw gick också igenom, men filen lades in genom att dras till ritningen, eftersom provet inte kan fylla i datorns filväljare. Ingen har klickat sig igenom menyn i draw.io som program på datorn.
+Gick igenom 2026-11-19 på laptopen, i draw.io i webbläsaren på svenska. Biblioteket visades till vänster under namnet library-drawio med 59 rutor. Rutan Applikation gick att dra in och behöll typen när den fick namnet Ärendesystemet. Stegen för Excalidraw gick också igenom, men filen lades in genom att dras till ritningen, eftersom provet inte kan fylla i datorns filväljare. Samma dag öppnade Nicklas biblioteket för hand, i draw.io som program på datorn och med knappen Öppna i Excalidraw. Båda gick igenom.
 
 Maskin: en dator med skärm. Nicklas prövar för hand; ingen kan klicka i draw.io på servern.
 
