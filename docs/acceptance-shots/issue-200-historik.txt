@@ -1,0 +1,15 @@
+Prov: docs/acceptance-shots/issue-200-historik.py, ärende #200, körd från lagrets rot.
+
+If wrong (steget utan fetch-depth: 0): provet skriver FALLER och slutar med slutkod 1, och sidan Historik på gestaltadet.se får en enda rad.
+
+Read back (bas 3242c51, slutkod 1):
+Steget actions/checkout:
+      - uses: actions/checkout@v7
+FALLER: steget hämtar bara den senaste commiten, så sidan Historik får en rad.
+
+Read back (gren bf2546f, slutkod 0):
+Steget actions/checkout:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+HÅLLER: steget hämtar hela historiken (fetch-depth: 0).
