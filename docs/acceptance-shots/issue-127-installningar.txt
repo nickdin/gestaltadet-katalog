@@ -8,16 +8,16 @@ Read back (gren 7c8d90f): sidhuvudet <a href="https://gestaltadet.se/">GestaltaD
 
 #197 — provet läser meningen överst i historiken. Kört för hand, 2026-11-19.
 
-Kommando: python3 docs/acceptance-shots/issue-127-installningar.py, från lagrets rot. Provet räknar meningen "Beskrivningarna av ändringar gjorda med AI är skrivna av AI och inte granskade." på history/index.html i sin egen publicering och läser om den står före historikens första rad. Bas: eb48f9d i en egen klon, med provet ur 5170e79 kopierat in. Gren: c5a1db9 med provet ur 5170e79.
+Kommando: python3 docs/acceptance-shots/issue-127-installningar.py, från lagrets rot. Provet räknar meningen "Beskrivningarna av ändringar gjorda med AI är skrivna av AI och inte granskade." på history/index.html i sin egen publicering och läser om den står före historikens första rad. Bas: eb48f9d i en egen klon, med provet ur 41a2147 kopierat in. Gren: 41a2147.
 
 If wrong (meningen saknas, står mer än en gång eller står efter historikens första rad): provet skriver antalet, "Meningen står exakt en gång, före första raden: nej" och FALLER, och slutar med slutkod 1.
 Read back (bas eb48f9d): meningen står 0 gånger; före första raden "nej"; sidhuvudet "GestaltaDet" utan länk; versionen står som "Nicklas med Claude Opus 5.5"; FALLER, slutkod 1.
-Read back (gren c5a1db9): meningen står 1 gånger; före första raden "ja"; sidhuvudet <a href="https://gestaltadet.se/">GestaltaDet</a>; versionen står som "Nicklas med AI"; OK, slutkod 0.
+Read back (gren 41a2147): meningen står 1 gånger; före första raden "ja"; sidhuvudet <a href="https://gestaltadet.se/">GestaltaDet</a>; versionen står som "Nicklas med AI"; OK, slutkod 0.
 
-På basen faller också de två äldre läsningarna. Tre körningar med --sidor visar därför att meningen ensam fäller provet. Var och en läser en kopia av grenens publicerade sidor där bara history/index.html är ändrad för hand; de två äldre läsningarna svarar "ja" i alla tre.
+På basen faller också de två äldre läsningarna. Tre körningar med --sidor visar därför att meningen ensam fäller provet. Var och en läser en kopia av grenens publicerade sidor där bara history/index.html är ändrad; de två äldre läsningarna svarar "ja" i alla tre. Kopiorna skrivs av docs/acceptance-shots/issue-197-andrade-sidor.py, ur en mapp som interlingua publish har skrivit ur 41a2147. Mappen ska vara publicerad ur samma commit som provet körs på.
 Read back (meningen borttagen): meningen står 0 gånger; före första raden "nej"; FALLER, slutkod 1.
 Read back (meningen inlagd två gånger): meningen står 2 gånger; före första raden "ja"; exakt en gång "nej"; FALLER, slutkod 1.
 Read back (meningen flyttad till efter första raden): meningen står 1 gånger; före första raden "nej"; FALLER, slutkod 1.
 Read back (grenens sidor oändrade, med --sidor): OK, slutkod 0.
 
-Provet läser bara sin egen publicering i en tillfällig mapp. Det läser inte den publicerade sajten.
+Utan --sidor läser provet sin egen publicering i en tillfällig mapp. Med --sidor läser det mappen det får. Det läser aldrig den publicerade sajten.
