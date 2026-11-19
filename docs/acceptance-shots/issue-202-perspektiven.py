@@ -20,8 +20,9 @@ Ett stycke är en rad i filen. Provet faller (slutkod 1) om
   dokumentationen av it-miljön och att den pekar på applikationen,
 - sidan och exemplet inte har samma mening om när varvet slutar,
 - sidan kallar ett dokument förteckning, lista eller register utöver dem som källorna namnger,
-- ritningen Informationskartläggning steg inte har exakt tre rutor märkta Steg 4 - genomgång, eller
-  har färre pilar än de tolv den hade före ärendet.
+- ritningen Informationskartläggning steg inte har exakt tre rutor märkta Steg 4 - genomgång, har
+  kvar en ruta om informationsförsörjningen, eller inte har exakt tio pilar. Ritningen hade tolv
+  pilar före ärendet. Ärende #206 tog bort rutan Informationsförsörjning och dess två pilar.
 
 Provet skriver också ut varje rad som nämner informationsförsörjningen, så att läsaren ser vad
 ordet betyder på varje ställe.
@@ -40,7 +41,7 @@ TEXT_SUFFIXES = {'.md', '.yaml', '.yml', '.css'}
 # Varje perspektiv med den källa som dess stycke på sidan ska hänvisa till.
 PERSPECTIVE_SOURCES = {'Informationssäkerhet': 'MSBFS 2020:7', 'Dataskydd': 'artikel 30', 'Offentlighet och arkiv': 'RA-FS 1991:1'}
 PERSPECTIVES = tuple(PERSPECTIVE_SOURCES)
-ARROWS_BEFORE_THE_TICKET = 12
+ARROWS_IN_THE_STEPS_DRAWING = 10  # tolv före ärendet, minus de två som ärende #206 tog bort
 STEP_FOUR_LABEL = 'Steg 4 - genomgång'
 END_OF_ROUND = 'Varvet slutar när de tre perspektivens fynd har beslut.'
 
@@ -197,8 +198,12 @@ def steps_drawing_shows_three() -> list[str]:
     failures = []
     if sorted(titles) != sorted(PERSPECTIVES):
         failures.append(f'ritningen visar inte de tre perspektiven som steg 4, utan: {", ".join(titles)}')
-    if len(arrows) < ARROWS_BEFORE_THE_TICKET:
-        failures.append(f'ritningen har {len(arrows)} pilar, färre än {ARROWS_BEFORE_THE_TICKET}')
+    if len(arrows) != ARROWS_IN_THE_STEPS_DRAWING:
+        failures.append(f'ritningen har {len(arrows)} pilar, inte {ARROWS_IN_THE_STEPS_DRAWING}')
+    supply = [cell.get('id') for cell in cells if INFORMATION_SUPPLY.search(cell.get('value', ''))]
+    print(f'Celler i ritningen som nämner informationsförsörjningen: {len(supply)}')
+    if supply:
+        failures.append(f'ritningen har kvar informationsförsörjningen i cell {", ".join(supply)}')
     return failures
 
 

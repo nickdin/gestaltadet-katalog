@@ -163,3 +163,21 @@ Pilar mellan rutor i ritningen: 12
 HÅLLER: katalogen har tre perspektiv, och sidan säger vad varje perspektivs dokumentation pekar på.
 
 interlingua check .: check: 209 files, no violations
+
+Ärende #206, 2026-11-19: rutan Informationsförsörjning och dess två pilar är borttagna ur ritningen Informationskartläggning steg. Provet kräver nu exakt tio pilar och ingen cell om informationsförsörjningen.
+
+Med ritningen från f8e7bc7, före ändringen (slutkod 1), sista raderna:
+
+FALLER: 2
+  ritningen har 12 pilar, inte 10
+  ritningen har kvar informationsförsörjningen i cell t-p4
+
+Efter ändringen (slutkod 0), sista raderna:
+
+Rutor märkta Steg 4 - genomgång i ritningen: 3: Informationssäkerhet, Dataskydd, Offentlighet och arkiv
+Pilar mellan rutor i ritningen: 10
+Celler i ritningen som nämner informationsförsörjningen: 0
+
+HÅLLER: katalogen har tre perspektiv, och sidan säger vad varje perspektivs dokumentation pekar på.
+
+interlingua check .: check: 209 files, no violations
