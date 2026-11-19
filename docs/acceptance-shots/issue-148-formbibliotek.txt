@@ -1,0 +1,48 @@
+Ärende #148: sidan om formbiblioteket och länken från startsidan, prov kört 2026-11-19 från lagrets rot.
+
+Kommando 1: python3 docs/acceptance-shots/issue-148-formbibliotek.py <tom mapp utanför lagret>
+Provet publicerar lagret det körs i med interlingua publish och läser de publicerade filerna. Basen är en kopia av lagret på eb48f9d, med provets fil lagd i kopian.
+
+If wrong (sidan skrevs men lades inte under documents: i settings.yaml): raden "document/docs/formbibliotek.md/index.html: sidan är inte publicerad" och slutkod 1.
+If wrong (en befintlig mening på startsidan skrevs om för att bära länken): raden "basens rad står inte kvar oförändrad" med meningen och slutkod 1.
+If wrong (länken till beslut 42 eller startsidans länk leder fel): "sidan finns: nej" på länkens rad och slutkod 1.
+
+Read back (bas eb48f9d och slutkod 1):
+Startsidan mot basen eb48f9d: 53 rader i basen, 0 borttagna eller ändrade, 0 tillagda
+FALLER:
+- document/docs/formbibliotek.md/index.html: sidan är inte publicerad
+- .github/pages/index.html: ingen länk till sidan om formbiblioteket
+- .github/pages/index.html: 0 tillagda rader, väntat en enda
+
+Read back (gren 969533d och slutkod 0):
+Sidan finns: document/docs/formbibliotek.md/index.html
+Sidans rubrik: Formbibliotek: rita med katalogens typer
+Adressen https://gestaltadet.se/katalog/library/drawio/library-drawio.xml: står på sidan: ja; filen är publicerad: ja; klickbar länk: nej, bara text
+Adressen https://gestaltadet.se/katalog/library/excalidraw/library-excalidraw.excalidrawlib: står på sidan: ja; filen är publicerad: ja; klickbar länk: nej, bara text
+Länk till beslut 42: "beslut 42" -> ../adr/0042-metamodellen-definierar-typer-notationen-ar-ett-eget-begrepp-en-beskrivning-foljer-en-metamodell-och-lagret-rymmer-bara-katalogens.md/index.html (sidan finns: ja)
+Startsidans länk: "formbibliotek för draw.io och Excalidraw" -> katalog/document/docs/formbibliotek.md/ (sidan finns: ja)
+Startsidan mot basen eb48f9d: 53 rader i basen, 0 borttagna eller ändrade, 1 tillagda
+Tillagd rad: <p class="andra-vagen">Du som vill rita med katalogens typer kan hämta <a href="katalog/document/docs/formbibliotek.md/">formbibliotek för draw.io och Excalidraw</a>.</p>
+HÅLLER: sidan om formbiblioteket är publicerad med de två adresserna och länken till beslut 42, och startsidan har fått en enda rad, den med länken.
+
+Raderna "klickbar länk: nej, bara text" är ett fynd, inte ett fel i provet. Ett dokument kan länka till ett annat dokument och till en fil i lagret, men inte till en adress utanför lagret eller till en fil som publish skriver under library/. Sidan skriver därför ut de två adresserna som text och hänvisar till sidan Katalog, där länkarna står.
+
+Kommando 2: curl -s -o /dev/null -w '%{http_code}' https://gestaltadet.se/katalog/document/docs/formbibliotek.md/
+If wrong (adressen fanns redan före ändringen): 200.
+Read back (den publicerade sajten 2026-11-19 klockan 01.05 före push): 404
+
+Kommando 3: samma curl mot de två filernas adresser och mot ett dokument som redan är publicerat, för att visa att 404 inte beror på adressens form.
+Read back (adressen till filen för draw.io som den står på sidan): 200
+Read back (adressen till filen för Excalidraw som den står på sidan): 200
+Read back (dokumentet docs/lagar.md på adressen katalog/document/docs/lagar.md/): 200
+
+Kommando 4: interlingua check .
+Read back (gren 969533d): check: 209 files, no violations
+
+Kommando 5: menyorden i draw.io, lästa ur programmets egna svenska texter, filen dia_sv.txt i /opt/drawio/resources/app.asar, draw.io 31.7.0.
+If wrong (sidan använder ett ord som draw.io inte visar): ordet saknas i filen.
+Read back (file): Fil
+Read back (openLibraryFrom): Öppna bibliotek från
+Read back (device): Enhet
+Read back (openLibrary): Öppna bibliotek
+Ingen har klickat sig igenom stegen i draw.io. Det gör Nicklas.
