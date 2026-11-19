@@ -1,0 +1,19 @@
+Läsning av den publicerade sajten gestaltadet.se efter våg 3 i körningen 2026-11-18, ärendena #127, #128, #148, #185, #115 och #199. Arbetsflödet Publicera katalogen, körning 44432285205 på 330778a, slutade completed success.
+
+If wrong (#127 och #200): sidan https://gestaltadet.se/katalog/history/ har en enda rad, som utan fetch-depth: 0, eller ingen rad med Nicklas med AI, eller meningen om AI saknas, står flera gånger eller står efter första raden.
+Read back (#127): /katalog/history/ svarar 200. 599 förekomster av "Nicklas med AI". Meningen "Beskrivningarna av ändringar gjorda med AI är skrivna av AI och inte granskade." står 1 gång, på tecken 1194, före den första raden med Nicklas med AI på tecken 1546.
+
+If wrong (#128): sidhuvudet på /katalog/ visar GestaltaDet som vanlig text, <p class="site">GestaltaDet</p>, som på basen.
+Read back (#128): /katalog/ har <p class="site"><a href="https://gestaltadet.se/">GestaltaDet.
+
+If wrong (#148): sidan svarar 404, som den gjorde före push enligt issue-148-formbibliotek.txt, eller filerna svarar något annat än 200.
+Read back (#148): /katalog/document/docs/formbibliotek.md/ 200. /katalog/library/drawio/library-drawio.xml 200. /katalog/library/excalidraw/library-excalidraw.excalidrawlib 200. Startsidan https://gestaltadet.se/ har 1 länk till katalog/document/docs/formbibliotek.md/. Sidan har 1 länk till beslut 42 (adr/0042-).
+
+If wrong (#199): sidan Formbibliotek har en länk till file/C-080/ vid menyordet Enhet.
+Read back (#199): 0 länkar till file/C-080/ på sidan, och menyordet står som <code>Enhet</code>.
+
+If wrong (#115): beslut 32 säger fortfarande "De fem begreppen".
+Read back (#115): sidan för beslut 32 svarar 200, har "De fyra kategorierna märks med ett eget slag" och 0 förekomster av "De fem begreppen".
+
+If wrong (#185): de publicerade kartorna saknar de två nya pilarna och har 5 läser och 2 skriver som på basen.
+Read back (#185): Analysfunktionen karta och Analysfunktionen karta med fynd har vardera 6 läser och 3 skriver. Den publicerade filen för Analysfunktionen karta och för Informationskartläggning steg är byte för byte lika med filen på main 330778a (cmp).
