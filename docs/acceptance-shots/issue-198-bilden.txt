@@ -1,0 +1,96 @@
+Ärende #198: provet issue-198-bilden.py mäter i bilden om en text klipps i rutan för steg 2 och om en pil skär en ruta. Prov kört 2026-11-20 från lagrets rot.
+
+Kopiorna är skrivna med: python3 docs/acceptance-shots/issue-198-kopior.py MÅL
+MÅL är en mapp utanför lagret. I kopian pil-genom-ruta är pilen från Analysfunktionen till Datalagret dragen genom rutorna Företrädare och Kopiorna i datalagret. I kopian krympt-ruta är rutan för steg 2 krympt från 174 till 120 i höjd.
+
+
+1. Provet för ärende #185 ser inte felen i kopiorna
+
+Ärendet bad först att provet för #185, issue-185-pilar.py, skulle mäta i bilden. Det provet jämför också ritningarna cell för cell med läget före #185, och den jämförelsen stämmer inte längre: #202 skrev om ritningen över stegen till tre perspektiv, och #206 tog bort rutan Informationsförsörjning ur den och numret på arkitektens bedömning ur kartan med fynd. Mätningarna i bilden är därför ett eget prov, och provet för #185 står orört som ett daterat protokoll.
+
+Provet för #185 kördes på ritningarna som de står och på var och en av de två kopiorna. Det har ingen växel för en annan mapp, så varje kopia lades som layout/Exempel i ett eget träd.
+
+oandrad: slutkod 1, 29 rader under FALLER
+pil-genom-ruta: slutkod 1, 29 rader under FALLER
+krympt-ruta: slutkod 1, 29 rader under FALLER
+
+Listan under FALLER är densamma i alla tre körningarna, rad för rad (jämfört med cmp). Alla 29 raderna säger att en cell är ändrad mot basen eller borta. Provet för #185 ser alltså varken pilen genom rutorna eller den klippta texten.
+
+
+2. Provet faller på kopian där pilen går genom en ruta
+
+Kommando: python3 docs/acceptance-shots/issue-198-bilden.py --ritningar MÅL/pil-genom-ruta
+
+Ritningarna läses ur MÅL/pil-genom-ruta.
+
+Analysfunktionen karta.drawio.svg:
+26 pilar och linjer prövade mot 15 rutors ramar, 2 gånger skär en pil en ruta
+
+Analysfunktionen karta med fynd.drawio.svg:
+27 pilar och linjer prövade mot 15 rutors ramar, ingen skär en annan ruta än sina egna ändar
+
+Informationskartläggning steg.drawio.svg:
+texten "t-s1" är ritad 347-561 i sidled och 211.5-228.5 i höjdled, höjd 17 av 18 som cellen visar
+texten "s1-id" är ritad 348-562 i sidled och 197.5-207.25 i höjdled, höjd 9.75 av 10 som cellen visar
+texten "s1-def" är ritad 348-562 i sidled och 245.5-333.75 i höjdled, höjd 88.25 av 121 som cellen visar
+rutan för steg 2 har ramen 336.5-572.5 i sidled och 191.5-365.5 i höjdled, och alla 3 texter ryms i den
+10 pilar och linjer prövade mot 8 rutors ramar, ingen skär en annan ruta än sina egna ändar
+
+FALLER:
+- Analysfunktionen karta.drawio.svg: pilen Analysfunktionen -> Datalagret ("e-access-datalager") skär rutan "Företrädare" i bilden
+- Analysfunktionen karta.drawio.svg: pilen Analysfunktionen -> Datalagret ("e-access-datalager") skär rutan "Kopiorna i datalagret" i bilden
+slutkod 1
+
+
+3. Provet faller på kopian där rutan för steg 2 är krympt
+
+Kommando: python3 docs/acceptance-shots/issue-198-bilden.py --ritningar MÅL/krympt-ruta
+
+Ritningarna läses ur MÅL/krympt-ruta.
+
+Analysfunktionen karta.drawio.svg:
+26 pilar och linjer prövade mot 15 rutors ramar, ingen skär en annan ruta än sina egna ändar
+
+Analysfunktionen karta med fynd.drawio.svg:
+27 pilar och linjer prövade mot 15 rutors ramar, ingen skär en annan ruta än sina egna ändar
+
+Informationskartläggning steg.drawio.svg:
+texten "t-s1" är ritad 347-561 i sidled och 238.5-255.5 i höjdled, höjd 17 av 18 som cellen visar
+texten "s1-id" är ritad 348-562 i sidled och 224.5-234.25 i höjdled, höjd 9.75 av 10 som cellen visar
+texten "s1-def" är ritad 348-562 i sidled och 272.5-360.75 i höjdled, höjd 88.25 av 67 som cellen visar
+rutan för steg 2 har ramen 336.5-572.5 i sidled och 218.5-338.5 i höjdled, och texten ryms inte
+10 pilar och linjer prövade mot 8 rutors ramar, ingen skär en annan ruta än sina egna ändar
+
+FALLER:
+- Informationskartläggning steg.drawio.svg: texten "s1-def" är ritad utanför ramen för rutan "Intervju" i bilden: texten når 348-562 i sidled och 272.5-360.75 i höjdled, ramen 336.5-572.5 och 218.5-338.5
+- Informationskartläggning steg.drawio.svg: texten "s1-def" i rutan "Intervju" klipps i bilden: texten är 88.25 hög, och cellen visar 67
+slutkod 1
+
+
+4. Provet går igenom på ritningarna som de står
+
+Kommando: python3 docs/acceptance-shots/issue-198-bilden.py
+
+Ritningarna läses ur layout/Exempel.
+
+Analysfunktionen karta.drawio.svg:
+26 pilar och linjer prövade mot 15 rutors ramar, ingen skär en annan ruta än sina egna ändar
+
+Analysfunktionen karta med fynd.drawio.svg:
+27 pilar och linjer prövade mot 15 rutors ramar, ingen skär en annan ruta än sina egna ändar
+
+Informationskartläggning steg.drawio.svg:
+texten "t-s1" är ritad 347-561 i sidled och 211.5-228.5 i höjdled, höjd 17 av 18 som cellen visar
+texten "s1-id" är ritad 348-562 i sidled och 197.5-207.25 i höjdled, höjd 9.75 av 10 som cellen visar
+texten "s1-def" är ritad 348-562 i sidled och 245.5-333.75 i höjdled, höjd 88.25 av 121 som cellen visar
+rutan för steg 2 har ramen 336.5-572.5 i sidled och 191.5-365.5 i höjdled, och alla 3 texter ryms i den
+10 pilar och linjer prövade mot 8 rutors ramar, ingen skär en annan ruta än sina egna ändar
+
+HÅLLER: i bilden ryms texten i rutan för steg 2, och ingen pil skär en annan ruta än sina egna ändar.
+slutkod 0
+
+
+Vad provet inte ser
+
+- En text som klipps i sidled. Bilden av en text är alltid lika bred som textens cell, också när ett ord är bredare än cellen. Provet mäter därför bara om texten klipps i höjdled.
+- En pil räknas som att den skär en ruta när den når in i rutans ritade ram eller ligger närmare än 0,5 från den. En pil som ligger på en annan rutas kant faller alltså också.

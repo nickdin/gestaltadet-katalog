@@ -12,7 +12,7 @@ MÅL är en mapp utanför lagret. Skriptet skriver två mappar i MÅL, var och e
 Varje ändring görs i den inbäddade ritningen, och draw.io skriver sedan bilden på nytt, som när ritningen sparas.
 Skriptet kräver därför draw.io, och xvfb-run på en maskin utan skärm. Det ändrar ingenting i lagret.
 
-Provet docs/acceptance-shots/issue-185-pilar.py läser sedan var och en med --ritningar och ska falla på båda.
+Provet docs/acceptance-shots/issue-198-bilden.py läser sedan var och en med --ritningar och ska falla på båda.
 """
 import os
 import re
