@@ -24,6 +24,10 @@ Elementtyp i strategiperspektivet ([[C-108 Strategiperspektiv]]), bredvid verksa
 
 Varje steg använder ([[C-095 använder]]) de verksamhetsförmågor ([[C-069 Verksamhetsförmåga]]) det förutsätter. Steget realiseras av ([[C-094 realiseras av]]) en verksamhetsprocess ([[C-130 Verksamhetsprocess]]) eller verksamhetsaktivitet, och värdeerbjudandet realiseras av värdeströmmen.
 
+Värdeströmmen är inget styrobjekt ([[C-003 Styrobjekt]]), men någon ansvarar för den ([[C-209 Ansvar]]). Det är ägaren till lösningen ([[C-055 Lösning]]) som erbjuder produkten bakom värdeerbjudandet. Ägaren ansvarar för värdeerbjudandet, dess värden ([[C-195 Värde]]) och hela värdeströmmen. Den som äger en lösning med ett steg svarar inför den ägaren, mot krav ([[C-021 Krav]]) och överenskommelse ([[C-084 Överenskommelse]]). Chefen för Bidragsenheten ansvarar för Att få stöd. Anta att utbetalningen ligger i en egen lösning hos ekonomichefen. En förening som har väntat sex veckor på pengarna vänder sig ändå till chefen för Bidragsenheten, och ekonomichefen svarar inför hen. Kan de två inte enas avgör den närmaste som håller båda, här generaldirektören. Ansvaret härleds ur vilken lösning som erbjuder produkten och ritas inte.
+
+Värdeströmmen visar var det skaver, och förmågan vad som ska åtgärdas. Anta att Att få stöd tar fem månader mot utlovade fyra, och att steget få utbetalning står för sex veckor. Steget använder förmågan Utbetalning och återkrav. Den som ansvarar för förmågan ser då vilket mål som ska höjas. Beslut 66.
+
 ## Motsvarigheter
 
 Motsvarar ValueStream och ValueStreamStage i Business Architecture Core Metamodel (BACM) och ArchiMates Value Stream. Beslut 27.

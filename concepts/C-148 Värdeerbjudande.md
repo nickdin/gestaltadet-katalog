@@ -32,6 +32,8 @@ Elementets text säger hur erbjudandet hjälper med vart och ett av behoven. Tex
 
 Erbjudandet består av ([[C-062 består av]]) sina värden ([[C-195 Värde]]), de mätbara nyttor det utlovar: ett värde per nytta, som hjälpen står en per behov.
 
+Det erbjudandet lovar är värden, inga mål. Att pengarna är på kontot inom fyra månader från ansökan är ett värde. Att hålla löftet är domänens mål för produktionen, och vad utformningen ska klara är förmågans mål ([[C-069 Verksamhetsförmåga]]). Ägaren till lösningen ([[C-055 Lösning]]) som erbjuder produkten ansvarar för erbjudandet, dess värden och värdeströmmen. Beslut 66.
+
 ## Motsvarigheter
 
 ValueProposition i Business Architecture Core Metamodel (BACM) mappas hit och dess ValueItem till hjälpen; passningens mått, ValueCharacteristic, väntar på ett måttbegrepp. Beslut 27.

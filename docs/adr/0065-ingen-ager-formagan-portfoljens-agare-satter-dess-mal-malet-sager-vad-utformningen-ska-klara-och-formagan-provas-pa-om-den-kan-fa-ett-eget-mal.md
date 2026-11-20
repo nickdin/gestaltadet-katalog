@@ -1,5 +1,7 @@
 # Ingen äger förmågan, portföljens ägare sätter dess mål, målet säger vad utformningen ska klara, och förmågan prövas på om den kan få ett eget mål
 
+*Ledet att ingen äger förmågan gäller inte längre i den formen. Förmågan är inget styrobjekt, men ägaren till den innersta domän som rymmer dess lösningar ansvarar för den (beslut 66).*
+
 Beslutat av Nicklas 20 november 2026, när en vägledning om verksamhetsförmågor beskrev förmågan som en enhet för styrning med egen ägare, medan katalogen lade ägaren och ramen på lösningen.
 
 ## Sammanhang
