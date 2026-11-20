@@ -70,7 +70,7 @@ Den som har [[C-189 Mandat|mandatet]] beslutar att åtgärda fyndet eller att le
 Exempel: Myndigheten åtgärdar alla tre fynden.
 
 - **Informationssäkerhet.** Chefen för Analysenheten beslutar att Excelfilen flyttas till en lagringsyta som bara enheten kan öppna. Avvikelsen är då rättad, och regeln står kvar.
-- **Dataskydd.** Chefen för Register- och tillsynsenheten är informationsägare för Företrädare. Hen beslutar att kopian av Företrädare tas bort ur datalagret.
+- **Dataskydd.** Chefen för Register- och tillsynsenheten är informationsägare för Företrädare. Hen beslutar att kopian av Företrädare tas bort ur datalagret. Kopian har inget nytt syfte i analysfunktionen: ingen analys använder den. Riksarkivets föreskrift låter myndigheten gallra kopior som verksamheten inte behöver, och myndigheten skriver in gallringen i informationshanteringsplanen.
 - **Offentlighet och arkiv.** Chefen för Analysenheten beslutar att informationshanteringsplanen får en rad för ansökningstabellen, och att myndigheten begär ett gallringsbeslut för den hos Riksarkivet. En statlig myndighet får bara gallra enligt Riksarkivets föreskrifter eller beslut. Analysenheten bevarar tabellen tills beslutet finns.
 
 Arkitektens bedömning håller inte varvet öppet. Bedömningen om källan för Förening går till målarkitekturen, och varvet slutar utan att någon har beslutat om den.
@@ -173,7 +173,7 @@ Exempel: Anta att Genomföra ansökningsomgången får stå still högst en dag 
 - Vilket handlingsslag avsätter beteendet?
 - Vilka handlingstyper upprättar beteendet, och vilka tar det emot?
 - Har varje handlingstyp en rad i informationshanteringsplanen?
-- Har en representation i ny form ett nytt syfte i ett annat beteende, och har den en rad?
+- Har en representation ett nytt syfte i ett annat beteende, i ny form eller i samma, och har den en rad?
 - Säger raden för varje handlingstyp vad som gäller för kopiorna av den?
 - Vem gallrar, och när?
 

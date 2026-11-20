@@ -11,8 +11,9 @@ Provet läser sidan Informationskartläggning, exemplet Myndigheten för föreni
 anmärkningarna till Representation (C-085) och Gallring (C-200). Ett stycke är en rad i filen.
 Provet faller (slutkod 1) om
 
-- sidan eller exemplet har ett stycke som talar om både kopior och gallring. Före ärendet beslutade
-  chefen för Analysenheten där att en kopia gallras när originalet gallras,
+- sidan eller exemplet har ett stycke som talar om både kopior och gallring utan att nämna
+  Riksarkivets föreskrift som grund. Före ärendet beslutade chefen för Analysenheten där att en
+  kopia gallras när originalet gallras. Ärende #214 lade till undantaget för föreskriften,
 - sidan eller exemplet inte har exakt ett stycke med fyndet och ett med åtgärden under
   Offentlighet och arkiv,
 - fyndet inte nämner ansökningstabellen, eller åtgärden inte nämner ansökningstabellen och
@@ -23,7 +24,8 @@ Provet faller (slutkod 1) om
 - anmärkningen till Representation (C-085) eller Gallring (C-200) inte hänvisar till beslut 68 och
   inte säger villkoret,
 - beslut 67 har kvar exemplet "Analysenheten kopierar Ansökan till datalagret",
-- beslut 68 saknas, eller någon av dess fem regler saknar sitt exempel i regelns eget stycke:
+- beslut 68 saknas, eller någon av de fem regler som ärende #205 gav beslutet saknar sitt exempel
+  i regelns eget stycke:
   pdf:en i handläggarens mapp, ansökningstabellen, Excelfilen i grupprummet, Excelfilen på kartan
   och listan som ingen har tagit fram.
 """
@@ -41,6 +43,7 @@ FINDING_START = '- **Offentlighet och arkiv: en bedömning.**'
 ACTION_START = '- **Offentlighet och arkiv.** Chefen'
 COPY = re.compile(r'kopi(?:a|an|or|orna)\b', re.IGNORECASE)
 DISCARD = re.compile(r'gallr', re.IGNORECASE)
+REGULATION_AS_GROUND = 'Riksarkivets föreskrift låter myndigheten gallra'
 OLD_CHECKLIST_QUESTION = 'Har kopiorna en rad?'
 CONDITION = 'nytt syfte i ett annat beteende'
 NEW_DECISION = 'beslut 68'
@@ -66,10 +69,14 @@ def paragraphs_starting(path: Path, start: str) -> list[str]:
 
 
 def copies_discarded(path: Path) -> list[str]:
-    """One failure per paragraph that speaks of both copies and discarding."""
-    return [f'{path}:{number}: stycket talar om både kopior och gallring'
+    """One failure per paragraph that speaks of both copies and discarding without naming the regulation.
+
+    Ticket #214 lets the authority discard the copy of Företrädare on the ground of Riksarkivet's
+    regulation (Nicklas, 2026-11-20), so a paragraph that names the regulation as its ground passes.
+    """
+    return [f'{path}:{number}: stycket talar om både kopior och gallring utan att nämna {REGULATION_AS_GROUND}'
             for number, line in enumerate(paragraphs(path), start=1)
-            if COPY.search(line) and DISCARD.search(line)]
+            if COPY.search(line) and DISCARD.search(line) and REGULATION_AS_GROUND not in line]
 
 
 def same_paragraph_in_both_places(start: str, name: str, *words: str) -> tuple[list[str], list[str]]:

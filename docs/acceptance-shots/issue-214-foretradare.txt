@@ -1,0 +1,27 @@
+Ärende #214: åtgärden under Dataskydd säger på vilken grund myndigheten tar bort kopian av Företrädare ur datalagret, och beslut 68 säger att en kopia i samma form får en egen rad när den har ett nytt syfte i ett annat beteende.
+
+Kommando: python3 docs/acceptance-shots/issue-214-foretradare.py
+
+På basen de9fd98, före ändringen (slutkod 1):
+
+- **Dataskydd.** Chefen för Register- och tillsynsenheten är informationsägare för Företrädare. Hen beslutar att kopian av Företrädare tas bort ur datalagret.
+- **Dataskydd.** Chefen för Register- och tillsynsenheten är informationsägare för Företrädare. Hen beslutar att kopian av Företrädare tas bort ur datalagret.
+FEL: docs/informationskartlaggning.md: åtgärden under Dataskydd säger inte "inget nytt syfte"
+FEL: docs/informationskartlaggning.md: åtgärden under Dataskydd säger inte "Riksarkivets föreskrift låter myndigheten gallra"
+FEL: docs/informationskartlaggning.md: åtgärden under Dataskydd säger inte "skriver in gallringen i informationshanteringsplanen"
+FEL: docs/exempel/myndigheten-for-foreningsstod.md: åtgärden under Dataskydd säger inte "inget nytt syfte"
+FEL: docs/exempel/myndigheten-for-foreningsstod.md: åtgärden under Dataskydd säger inte "Riksarkivets föreskrift låter myndigheten gallra"
+FEL: docs/exempel/myndigheten-for-foreningsstod.md: åtgärden under Dataskydd säger inte "skriver in gallringen i informationshanteringsplanen"
+FEL: beslut 68: 0 stycken börjar med "- **En kopia i samma form får också en egen rad", väntade 1
+FEL: beslut 68: 0 stycken börjar med "- **En representation utan nytt syfte är en kopia i föreskriftens mening", väntade 1
+FEL: beslut 68 citerar inte föreskriftens ord "samma form och innehåll"
+FEL: concepts/C-085 Representation.md: anmärkningen nämner inte kopian i samma form, "tillsynsärende"
+FEL: concepts/C-200 Gallring.md: anmärkningen nämner inte kopian i samma form, "tillsynsärende"
+FEL: docs/informationskartlaggning.md: checklistan frågar inte efter en representation "i ny form eller i samma"
+12 fel
+
+Efter ändringen, 2026-11-20 (slutkod 0):
+
+- **Dataskydd.** Chefen för Register- och tillsynsenheten är informationsägare för Företrädare. Hen beslutar att kopian av Företrädare tas bort ur datalagret. Kopian har inget nytt syfte i analysfunktionen: ingen analys använder den. Riksarkivets föreskrift låter myndigheten gallra kopior som verksamheten inte behöver, och myndigheten skriver in gallringen i informationshanteringsplanen.
+- **Dataskydd.** Chefen för Register- och tillsynsenheten är informationsägare för Företrädare. Hen beslutar att kopian av Företrädare tas bort ur datalagret. Kopian har inget nytt syfte i analysfunktionen: ingen analys använder den. Riksarkivets föreskrift låter myndigheten gallra kopior som verksamheten inte behöver, och myndigheten skriver in gallringen i informationshanteringsplanen.
+0 fel

@@ -8,10 +8,10 @@ På basen 36e7283, före ändringen (slutkod 1):
 - **Offentlighet och arkiv: en bedömning.** Informationshanteringsplanen har ingen rad för kopiorna i datalagret, och ingen gallrar dem. Myndigheten har ingen regel om kopior. Chefen för Analysenheten bedömer fyndet som en risk: kopiorna kan ligga kvar när originalen är gallrade.
 - **Offentlighet och arkiv.** Chefen för Analysenheten beslutar att informationshanteringsplanen får en rad för kopiorna i datalagret. En kopia gallras när originalet gallras.
 - **Offentlighet och arkiv.** Chefen för Analysenheten beslutar att informationshanteringsplanen får en rad för kopiorna i datalagret. En kopia gallras när originalet gallras.
-FEL: docs/informationskartlaggning.md:60: stycket talar om både kopior och gallring
-FEL: docs/informationskartlaggning.md:74: stycket talar om både kopior och gallring
-FEL: docs/exempel/myndigheten-for-foreningsstod.md:153: stycket talar om både kopior och gallring
-FEL: docs/exempel/myndigheten-for-foreningsstod.md:165: stycket talar om både kopior och gallring
+FEL: docs/informationskartlaggning.md:60: stycket talar om både kopior och gallring utan att nämna Riksarkivets föreskrift låter myndigheten gallra
+FEL: docs/informationskartlaggning.md:74: stycket talar om både kopior och gallring utan att nämna Riksarkivets föreskrift låter myndigheten gallra
+FEL: docs/exempel/myndigheten-for-foreningsstod.md:153: stycket talar om både kopior och gallring utan att nämna Riksarkivets föreskrift låter myndigheten gallra
+FEL: docs/exempel/myndigheten-for-foreningsstod.md:165: stycket talar om både kopior och gallring utan att nämna Riksarkivets föreskrift låter myndigheten gallra
 FEL: docs/informationskartlaggning.md: fyndet under Offentlighet och arkiv nämner inte ansökningstabellen
 FEL: docs/exempel/myndigheten-for-foreningsstod.md: fyndet under Offentlighet och arkiv nämner inte ansökningstabellen
 FEL: docs/informationskartlaggning.md: åtgärden under Offentlighet och arkiv nämner inte ansökningstabellen
@@ -28,7 +28,7 @@ FEL: beslut 67 har kvar exemplet "Analysenheten kopierar Ansökan till datalagre
 FEL: docs/adr: 0 filer för beslut 68, väntade 1
 18 fel
 
-Efter ändringen, 2026-11-20 (slutkod 0):
+Efter ändringen, 2026-11-20, med provets undantag från ärende #214 (slutkod 0):
 
 - **Offentlighet och arkiv: en bedömning.** Informationshanteringsplanen har ingen rad för ansökningstabellen i datalagret. Tabellen har ett nytt syfte i ett annat beteende: den tjänar analysfunktionen, inte prövningen. Därför är den en egen handlingstyp. Riskindikatortabellen har en rad, och den raden gäller också Excelfilen i grupprummet. Myndigheten har ingen regel om tabellerna i datalagret. Chefen för Analysenheten bedömer fyndet som en risk: ansökningstabellen kan ligga kvar när ansökningsformulären är borta.
 - **Offentlighet och arkiv: en bedömning.** Informationshanteringsplanen har ingen rad för ansökningstabellen i datalagret. Tabellen har ett nytt syfte i ett annat beteende: den tjänar analysfunktionen, inte prövningen. Därför är den en egen handlingstyp. Riskindikatortabellen har en rad, och den raden gäller också Excelfilen i grupprummet. Myndigheten har ingen regel om tabellerna i datalagret. Chefen för Analysenheten bedömer fyndet som en risk: ansökningstabellen kan ligga kvar när ansökningsformulären är borta.
