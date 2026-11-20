@@ -16,7 +16,7 @@ Frågorna avgjordes på fall hos Myndigheten för föreningsstöd.
 
 ### Det som styrs och det som beskrivs
 
-- **Katalogen har fem styrobjekt:** verksamheten, verksamhetsdomänen, lösningen, portföljen och initiativet. Var och en har sin styrning.
+- **Katalogen har fem styrobjekt:** verksamheten, verksamhetsdomänen, lösningen, portföljen och initiativet. Vart och ett har sin styrning.
 - **Allt annat beskrivs för att styrobjekten ska kunna styras.** Värdeströmmen Att få stöd styrs inte själv. Den beskrivs för att chefen för Bidragsenheten ska kunna styra lösningen Ansökningshandläggningen och generaldirektören sin portfölj.
 - **Det står i Styrobjekt (`C-003`), i Arkitekturelement (`C-034`) och i ordlistan.**
 
@@ -26,8 +26,8 @@ Frågorna avgjordes på fall hos Myndigheten för föreningsstöd.
 - **Samma ägare sätter förmågans mål**, som i beslut 65. Har Bidragsprövning två lösningar hos två enhetschefer ansvarar generaldirektören.
 - **Värdeströmmen är inget styrobjekt, men någon ansvarar för den.** Det är ägaren till lösningen (`C-055`) som erbjuder produkten bakom värdeerbjudandet (`C-148`). Ägaren ansvarar för värdeerbjudandet, dess värden (`C-195`) och hela värdeströmmen. Chefen för Bidragsenheten ansvarar för Att få stöd.
 - **Den som äger en lösning med ett steg svarar inför den ägaren**, mot krav (`C-021`) och överenskommelse (`C-084`). Anta att utbetalningen ligger i en egen lösning hos ekonomichefen. En förening som har väntat sex veckor på pengarna vänder sig ändå till chefen för Bidragsenheten, och ekonomichefen svarar inför hen.
-- **De två väljs olika, och skälet är vad som binder delarna samman.** Stegen i en värdeström binds samman av krav och överenskommelse. Två lösningar för samma förmåga binds inte samman av något. Anta att två enheter prövar var sin sorts bidrag utan någon överenskommelse. Ingen av cheferna kan då svara för hela Bidragsprövning, och ansvaret går till den som håller båda.
-- **Ansvaret står i texten och härleds.** Det läses ur var lösningarna hör hemma och vilken lösning som erbjuder produkten. Katalogen får ingen ny roll och lagret ingen ny relation.
+- **De två väljs olika, och skälet är vad som binder delarna samman.** Krav och överenskommelse binder samman stegen i en värdeström. Ingenting binder samman två lösningar för samma förmåga. Anta att två enheter prövar var sin sorts bidrag utan någon överenskommelse. Ingen av cheferna kan då svara för hela Bidragsprövning, och ansvaret går till den som håller båda.
+- **Ansvaret står i texten, och läsaren härleder det.** Det följer av var lösningarna hör hemma och vilken lösning som erbjuder produkten. Katalogen får ingen ny roll och lagret ingen ny relation.
 - **Forumet lämnas utanför katalogen.** Anta att chefen för Bidragsenheten vill korta utbetalningen och att ekonomichefen prioriterar bokslutet. Den närmaste som håller båda avgör, här generaldirektören (beslut 49).
 
 ### Värdet, målen och vägen mellan dem
