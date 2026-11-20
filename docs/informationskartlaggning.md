@@ -27,7 +27,7 @@ I intervjun sveper arkitekten också över lagringsytorna. Svepet hittar det som
 
 Kartan får börja grovt. Första dagen räcker ett [[C-198 Informationsområde|informationsområde]] med en ägare. Klassen står i klassningsförteckningen, på områdets rad. Kartan förfinas när ett perspektiv kräver det, till exempel när personnumret behöver bli ett eget objekt.
 
-Exempel: Analysenheten läser Ansökan, Beslut och Utbetalning in i ett datalager i myndighetens analysplattform. Datalagret innehåller också kopior av Förening och Företrädare. Analysenheten sätter samman Utbetalningar per kommun och räknar fram Riskindikator per förening. På kartan finns också en Excelfil i enhetens grupprum.
+Exempel: Analysenheten läser Ansökan, Beslut och Utbetalning in i ett datalager i myndighetens analysplattform. Datalagret innehåller också kopior av Förening och Företrädare. Analysenheten sätter samman Utbetalningar per kommun och räknar fram Riskindikator per förening. Ansökan kommer in som ett ansökningsformulär. I datalagret har Ansökan en annan form, ansökningstabellen. Riskindikator per förening har formen riskindikatortabellen. På kartan finns också en Excelfil i enhetens grupprum.
 
 ## Steg 3: låt processägaren bekräfta kartan
 
@@ -57,7 +57,7 @@ Exempel: Analysfunktionen har tre fynd, ett per perspektiv.
 
 - **Informationssäkerhet: en avvikelse.** En analytiker har exporterat Riskindikator per förening till en Excelfil i enhetens grupprum. Grupprummet är en lagringsyta som hela myndigheten kan öppna, och Riskindikator per förening är känslig. Myndigheten har fastställt regeln att behörigheten på en lagringsyta följer den högsta klassen där. Filen går emot regeln, och därför är fyndet en avvikelse.
 - **Dataskydd: en bedömning.** Datalagret innehåller Företrädare, som är personuppgifter. Analysfunktionens ändamål i registret över behandling nämner bara Ansökan, Beslut och Utbetalning. Myndigheten har ingen egen regel om vad registret ska innehålla. Chefen för Analysenheten bedömer fyndet som en risk: en företrädare kan fråga varför uppgifterna finns i datalagret, och myndigheten har inget svar.
-- **Offentlighet och arkiv: en bedömning.** Informationshanteringsplanen har ingen rad för kopiorna i datalagret, och ingen gallrar dem. Myndigheten har ingen regel om kopior. Chefen för Analysenheten bedömer fyndet som en risk: kopiorna kan ligga kvar när originalen är gallrade.
+- **Offentlighet och arkiv: en bedömning.** Informationshanteringsplanen har ingen rad för ansökningstabellen i datalagret. Tabellen har ett nytt syfte i ett annat beteende: den tjänar analysfunktionen, inte prövningen. Därför är den en egen handlingstyp. Riskindikatortabellen har en rad, och den raden gäller också Excelfilen i grupprummet. Myndigheten har ingen regel om tabellerna i datalagret. Chefen för Analysenheten bedömer fyndet som en risk: ansökningstabellen kan ligga kvar när ansökningsformulären är borta.
 
 Arkitekten läser samma karta i arkitekturarbetet med informationsförsörjningen och ser en brist. Datalagret hämtar Förening ur Ärendesystemet och inte ur Föreningsregistret, som är källan. Antalet medlemmar skiljer sig därför ibland mellan datalagret och Föreningsregistret. Myndigheten har ingen regel om att en kopia hämtas ur källan. Den som har [[C-117 Arkitekturansvar|arkitekturansvaret]] bedömer bristen som en svaghet, eftersom skillnaden redan finns.
 
@@ -71,7 +71,7 @@ Exempel: Myndigheten åtgärdar alla tre fynden.
 
 - **Informationssäkerhet.** Chefen för Analysenheten beslutar att Excelfilen flyttas till en lagringsyta som bara enheten kan öppna. Avvikelsen är då rättad, och regeln står kvar.
 - **Dataskydd.** Chefen för Register- och tillsynsenheten är informationsägare för Företrädare. Hen beslutar att kopian av Företrädare tas bort ur datalagret.
-- **Offentlighet och arkiv.** Chefen för Analysenheten beslutar att informationshanteringsplanen får en rad för kopiorna i datalagret. En kopia gallras när originalet gallras.
+- **Offentlighet och arkiv.** Chefen för Analysenheten beslutar att informationshanteringsplanen får en rad för ansökningstabellen, och att myndigheten begär ett gallringsbeslut för den hos Riksarkivet. En statlig myndighet får bara gallra enligt Riksarkivets föreskrifter eller beslut. Analysenheten bevarar tabellen tills beslutet finns.
 
 Arkitektens bedömning håller inte varvet öppet. Bedömningen om källan för Förening går till målarkitekturen, och varvet slutar utan att någon har beslutat om den.
 
@@ -173,7 +173,8 @@ Exempel: Anta att Genomföra ansökningsomgången får stå still högst en dag 
 - Vilket handlingsslag avsätter beteendet?
 - Vilka handlingstyper upprättar beteendet, och vilka tar det emot?
 - Har varje handlingstyp en rad i informationshanteringsplanen?
-- Har kopiorna en rad?
+- Har en representation i ny form ett nytt syfte i ett annat beteende, och har den en rad?
+- Säger raden för varje handlingstyp vad som gäller för kopiorna av den?
 - Vem gallrar, och när?
 
 ### Arkitektens fråga om källan

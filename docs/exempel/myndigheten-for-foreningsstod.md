@@ -67,7 +67,7 @@ Chefen för Bidragsenheten är informationsägare för Ansökan, Redovisning, Be
 
 Chefen för Bidragsenheten är också processägare för handläggningen Pröva en ansökan och linjechef för enheten som handlägger. Det är det vanliga fallet: de tre rollerna är samma person, och delningen mellan dem syns inte.
 
-Analysenheten läser Ansökan, Beslut och Utbetalning in i ett datalager, en lagringsyta i myndighetens analysplattform. Datalagret innehåller också kopior av Förening och Företrädare. Analysenheten sätter samman Utbetalningar per kommun och räknar fram Riskindikator per förening. Chefen för analysenheten är processägare för analysfunktionen och informationsägare för de två objekt den upprättar. Läsningen av Bidragsenhetens objekt sker inom det Bidragsenhetens chef beslutat.
+Analysenheten läser Ansökan, Beslut och Utbetalning in i ett datalager, en lagringsyta i myndighetens analysplattform. Datalagret innehåller också kopior av Förening och Företrädare. Analysenheten sätter samman Utbetalningar per kommun och räknar fram Riskindikator per förening. Chefen för analysenheten är processägare för analysfunktionen och informationsägare för de två objekt den upprättar. Läsningen av Bidragsenhetens objekt sker inom det Bidragsenhetens chef beslutat. Ansökan kommer in som ett ansökningsformulär. I datalagret har Ansökan en annan form, ansökningstabellen. Riskindikator per förening har formen riskindikatortabellen.
 
 Tillgängligheten är ett krav på behandlingen, och processägaren ställer det. Pröva en ansökan behöver Förening samma dag och läser objektet i Föreningsregistret. Chefen för Bidragsenheten anger dagen. Analysfunktionen klarar en vecka utan Förening och läser kopian i datalagret. Chefen för Analysenheten anger veckan. Föreningsregistret ska därför klara dagen, och datalagret veckan. Kartan visar vilken yta som får vilket krav: Pröva en ansökan har åtkomst till Föreningsregistret, och analysfunktionen har åtkomst till datalagret.
 
@@ -150,7 +150,7 @@ Analysfunktionen är kartlagd med arbetssättet Informationskartläggning. Tre p
 
 - **Informationssäkerhet: en avvikelse.** En analytiker har exporterat Riskindikator per förening till en Excelfil i enhetens grupprum. Grupprummet är en lagringsyta som hela myndigheten kan öppna, och Riskindikator per förening är känslig. Myndigheten har fastställt regeln att behörigheten på en lagringsyta följer den högsta klassen där. Filen går emot regeln, och därför är fyndet en avvikelse.
 - **Dataskydd: en bedömning.** Datalagret innehåller Företrädare, som är personuppgifter. Analysfunktionens ändamål i registret över behandling nämner bara Ansökan, Beslut och Utbetalning. Myndigheten har ingen egen regel om vad registret ska innehålla. Dataskyddsförordningen är en lag och alltså en påverkan utifrån, inget styrmedel som myndigheten har fastställt. Chefen för Analysenheten bedömer fyndet som en risk: en företrädare kan fråga varför uppgifterna finns i datalagret, och myndigheten har inget svar.
-- **Offentlighet och arkiv: en bedömning.** Informationshanteringsplanen har ingen rad för kopiorna i datalagret, och ingen gallrar dem. Myndigheten har ingen regel om kopior. Chefen för Analysenheten bedömer fyndet som en risk: kopiorna kan ligga kvar när originalen är gallrade.
+- **Offentlighet och arkiv: en bedömning.** Informationshanteringsplanen har ingen rad för ansökningstabellen i datalagret. Tabellen har ett nytt syfte i ett annat beteende: den tjänar analysfunktionen, inte prövningen. Därför är den en egen handlingstyp. Riskindikatortabellen har en rad, och den raden gäller också Excelfilen i grupprummet. Myndigheten har ingen regel om tabellerna i datalagret. Chefen för Analysenheten bedömer fyndet som en risk: ansökningstabellen kan ligga kvar när ansökningsformulären är borta.
 
 Arkitekten läser samma karta i arkitekturarbetet med informationsförsörjningen och ser en brist. Datalagret hämtar Förening ur Ärendesystemet och inte ur Föreningsregistret, som är källan. Antalet medlemmar skiljer sig därför ibland mellan datalagret och Föreningsregistret. Myndigheten har ingen regel om att en kopia hämtas ur källan. Den som har arkitekturansvaret bedömer bristen som en svaghet, eftersom skillnaden redan finns.
 
@@ -162,7 +162,7 @@ Myndigheten åtgärdar alla tre fynden:
 
 - **Informationssäkerhet.** Chefen för Analysenheten beslutar att Excelfilen flyttas till en lagringsyta som bara enheten kan öppna. Avvikelsen är då rättad, och regeln står kvar.
 - **Dataskydd.** Chefen för Register- och tillsynsenheten är informationsägare för Företrädare. Hen beslutar att kopian av Företrädare tas bort ur datalagret.
-- **Offentlighet och arkiv.** Chefen för Analysenheten beslutar att informationshanteringsplanen får en rad för kopiorna i datalagret. En kopia gallras när originalet gallras.
+- **Offentlighet och arkiv.** Chefen för Analysenheten beslutar att informationshanteringsplanen får en rad för ansökningstabellen, och att myndigheten begär ett gallringsbeslut för den hos Riksarkivet. En statlig myndighet får bara gallra enligt Riksarkivets föreskrifter eller beslut. Analysenheten bevarar tabellen tills beslutet finns.
 
 Bedömningen om källan för Förening går till målarkitekturen. Varvet slutar utan att någon har beslutat om den.
 

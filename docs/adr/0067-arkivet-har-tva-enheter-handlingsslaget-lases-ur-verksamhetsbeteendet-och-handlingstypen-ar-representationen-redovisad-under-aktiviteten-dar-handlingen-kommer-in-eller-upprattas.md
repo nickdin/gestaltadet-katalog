@@ -20,9 +20,9 @@ Frågorna avgjordes på fall hos Myndigheten för föreningsstöd.
 
 - **Handlingsslaget är de handlingar som ett verksamhetsbeteende avsätter.** Ankaret i lagret är beteendet. Genomföra ansökningsomgången avsätter handlingsslaget ansökningsärenden.
 - **Handlingsslaget ritas inte.** Läsaren läser det ur beteendet och de representationer beteendet har åtkomst till. Handlingsslag blir varken ett begrepp eller en tillåten term, på samma linje som beslut 31.
-- **Handlingstypen är representationen.** Ansökan är en handlingstyp och Beslut en annan. Handlingstyp står kvar som tillåten term för Representation (`C-085`).
+- **Handlingstypen är representationen.** Ansökan är en handlingstyp och Beslut en annan. Handlingstyp står kvar som tillåten term för Representation (`C-085`). *Beslut 68 skiljer informationsobjektet Ansökan från dess form. Handlingstypen här är ansökningsformuläret.*
 - **Arkivet redovisar handlingstypen under aktiviteten där handlingen kommer in eller upprättas.** Paret av aktivitet (`C-175`) och representation är handlingstypens plats, inte handlingstypen själv. Ansökan redovisas under aktiviteten som tar emot den.
-- **Att kopiera eller lämna ut en handling ger ingen ny handlingstyp.** Analysenheten kopierar Ansökan till datalagret, och en annan aktivitet lämnar ut den på begäran. Det är behandlingar (`C-168`) av samma handlingstyp.
+- **Att kopiera eller lämna ut en handling ger ingen ny handlingstyp.** En handläggare sparar en kopia av ansökningsformuläret i sin mapp, och en annan aktivitet lämnar ut det på begäran. Det är behandlingar (`C-168`) av samma handlingstyp. *Beslut 68 bytte exemplet. Regeln gäller en kopierad representation. Innehåll som ett beteende lagrar i ny form är en ny representation.*
 
 ### Gallringen
 
@@ -56,4 +56,4 @@ Frågorna avgjordes på fall hos Myndigheten för föreningsstöd.
 - Beslut 31 har fått en not om de tre punkter som det här beslutet ändrar, och beslut 55 en not om genomgångens fråga.
 - Gallring (`C-200`), Representation (`C-085`), Behandling (`C-168`), Bärare (`C-016`), Verksamhetsprocess (`C-130`), Verksamhetsbeteende (`C-157`) och metodtexten om informationskartläggning har fått ny text.
 - Föreskrifternas ordalydelse är hämtad ur underlaget och inte läst på nytt för det här beslutet.
-- Vem som beslutar om gallring i exemplet är inte avgjort här. Den frågan står i #205.
+- Vem som beslutar om gallring i exemplet är inte avgjort här. Den frågan står i #205. *Beslut 68 avgjorde den: myndigheten begär gallringsbeslut hos Riksarkivet.*
