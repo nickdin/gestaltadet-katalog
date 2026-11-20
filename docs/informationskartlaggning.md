@@ -41,7 +41,7 @@ Tre perspektiv går igenom samma karta. Varje perspektiv har en huvudfråga, och
 
 - **Informationssäkerhet.** Har informationsägaren tagit ställning till varje objekt på kartan, själv eller genom området, och klarar varje lagringsyta det som klassningen och kraven på behandlingarna kräver? Frågan räknar också in återställningstiden: hur fort en lagringsyta eller en applikation måste vara i bruk igen. [[C-167 Informationsägare|Informationsägaren]] går igenom.
 - **Dataskydd.** Har varje [[C-168 Behandling|behandling]] av personuppgifter ett [[C-163 Behandlingsändamål|ändamål]] och en [[C-164 Rättslig grund|rättslig grund]] i registret över behandling? Processägaren går igenom.
-- **Offentlighet och arkiv.** Har varje handlingstyp per process ett beslut om bevarande eller [[C-200 Gallring|gallring]] i informationshanteringsplanen? Processägaren går igenom.
+- **Offentlighet och arkiv.** Har varje handlingsslag och varje handlingstyp ett beslut om bevarande eller [[C-200 Gallring|gallring]] i informationshanteringsplanen? Processägaren går igenom.
 
 Kontinuiteten är inget fjärde perspektiv. Kontinuitetskravet är den längsta tid beteendet får stå still, och processägaren ställer det. Kontinuiteten gäller beteendet och alla dess resurser: personal, lokaler, applikationer och information. Informationssäkerheten läser den del som rör information och applikationer. Det gör den genom återställningstiden, som härleds ur kontinuitetskravet. Beslut 61.
 
@@ -170,6 +170,7 @@ Exempel: Anta att Genomföra ansökningsomgången får stå still högst en dag 
 
 ### Offentlighet och arkiv
 
+- Vilket handlingsslag avsätter beteendet?
 - Vilka handlingstyper upprättar beteendet, och vilka tar det emot?
 - Har varje handlingstyp en rad i informationshanteringsplanen?
 - Har kopiorna en rad?

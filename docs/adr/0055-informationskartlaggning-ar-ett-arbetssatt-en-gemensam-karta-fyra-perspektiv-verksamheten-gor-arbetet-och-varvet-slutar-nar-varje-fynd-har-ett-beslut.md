@@ -2,6 +2,8 @@
 
 *Beslut 64 ändrar två punkter här. Perspektiven är tre: informationsförsörjningen är arkitekturarbete och inget perspektiv. Varvet slutar när de tre perspektivens fynd har beslut.*
 
+*Beslut 67 ändrar en fråga här. Genomgången av offentlighet och arkiv frågar efter varje handlingsslag och varje handlingstyp, inte efter varje handlingstyp per process.*
+
 Beslutat av Nicklas 17 november 2026, när han ritade ett beteende, dess informationsobjekt, lagringsytor och applikationer i ett och samma diagram och ville göra en metod av det.
 
 ## Sammanhang

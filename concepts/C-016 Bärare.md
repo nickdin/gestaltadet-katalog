@@ -31,4 +31,4 @@ Bäraren är det som fastställs. Relationen fastställs av ([[C-183 fastställs
 
 **Nödvändighet:** Varje bärare bär minst ett styrmedel, ett ändamål eller en bedömning.
 
-Informationshanteringsplanen är en bärare. Den bär reglerna om registrering, bevarande och gallring ([[C-200 Gallring]]) per verksamhetsprocess och handlingstyp, och myndigheten fastställer den; Riksarkivets föreskrifter är den påverkan reglerna kommer ur. Arkivredovisningen likaså. Registerförteckningen enligt dataskyddsförordningen bär inga regler och är ingen bärare (beslut 31).
+Informationshanteringsplanen är en bärare. Den bär reglerna om registrering, bevarande och gallring ([[C-200 Gallring]]) per handlingsslag och handlingstyp, och myndigheten fastställer den; Riksarkivets föreskrifter är den påverkan reglerna kommer ur. Arkivredovisningen likaså. Ordet informationshanteringsplan står inte i föreskrifterna. De kräver arkivredovisningen av statliga myndigheter, och i kommunerna heter planen dokumenthanteringsplan (beslut 67). Registerförteckningen enligt dataskyddsförordningen bär inga regler och är ingen bärare (beslut 31).

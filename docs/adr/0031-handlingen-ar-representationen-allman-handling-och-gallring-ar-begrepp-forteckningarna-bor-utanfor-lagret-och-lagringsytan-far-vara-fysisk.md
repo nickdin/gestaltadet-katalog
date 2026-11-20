@@ -4,6 +4,8 @@
 
 *Beslut 62 lägger till en punkt här. Lagringsytan är ett fjärde mål för har åtkomst till, bredvid representationen: ett beteende får ritas med åtkomst direkt till en lagringsyta.*
 
+*Beslut 67 ändrar tre punkter här. Gallring beslutas per handlingsslag eller handlingstyp, inte per handlingstyp och verksamhetsprocess. Handlingstypen är representationen, och arkivet redovisar den under aktiviteten där handlingen kommer in eller upprättas. Klassificeringsstrukturen läses ur alla verksamhetsbeteenden, inte bara ur processerna.*
+
 Beslutat av Nicklas 2 november 2026, när ett upplägg för informationshantering skulle svara åt fyra regelverk ur samma karta. Katalogen saknade offentlighetens och arkivets begrepp. Beslutet avgör hur offentlighetens och arkivets begrepp, allmän handling, handlingstyp, registrering, bevarande och gallring, sekretess och informationshanteringsplan, uttrycks i katalogen, och var det de fyra regelverken vill veta om varje anker i lagret bor.
 
 ## Sammanhang
