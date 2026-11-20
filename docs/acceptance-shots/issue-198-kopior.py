@@ -5,7 +5,7 @@ Körs från lagrets rot: python3 docs/acceptance-shots/issue-198-kopior.py MÅL
 MÅL är en mapp utanför lagret. Skriptet skriver två mappar i MÅL, var och en med de tre ritningarna ur layout/Exempel:
 
 - pil-genom-ruta: i Analysfunktionen karta är pilen från Analysfunktionen till Datalagret dragen rakt ned genom
-  rutorna Företrädare och Kopior i datalagret. De två andra ritningarna är oändrade.
+  rutorna Företrädare och Kopiorna i datalagret. De två andra ritningarna är oändrade.
 - krympt-ruta: i Informationskartläggning steg är rutan för steg 2 krympt från 174 till 120 i höjd, kring samma mitt,
   så att texten klipps. De två andra ritningarna är oändrade.
 
@@ -27,7 +27,7 @@ MAP = 'Analysfunktionen karta.drawio.svg'
 MAP_FINDINGS = 'Analysfunktionen karta med fynd.drawio.svg'
 STEPS = 'Informationskartläggning steg.drawio.svg'
 
-# Pilen som dras om, och punkterna den går genom i kopian: rakt ned genom Företrädare och Kopior i datalagret.
+# Pilen som dras om, och punkterna den går genom i kopian: rakt ned genom Företrädare och Kopiorna i datalagret.
 ARROW = 'e-access-datalager'
 ARROW_POINTS = [(615, 92), (615, 640), (497.5, 640), (497.5, 732)]
 
@@ -74,8 +74,9 @@ def export(tree, original, target):
                '--svg-theme', 'light', '--output', str(target), str(source)]
     if not os.environ.get('DISPLAY'):
         command = ['xvfb-run', '-a'] + command
+    target.unlink(missing_ok=True)  # en bild från en tidigare körning får inte gälla som den här körningens
     result = subprocess.run(command, capture_output=True, text=True, timeout=180)
-    if not target.exists():
+    if result.returncode != 0 or not target.exists():
         sys.exit(f'draw.io skrev inte {target}: slutkod {result.returncode}\n{result.stderr}')
     source.unlink()
     # draw.io skriver ibland ett annat huvud än originalets; bildens bakgrund och färgschema tas från originalet.

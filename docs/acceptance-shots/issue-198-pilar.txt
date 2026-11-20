@@ -8,13 +8,13 @@ MÅL är en mapp utanför lagret. I kopian pil-genom-ruta är pilen från Analys
 
 1. Provet före ändringen ser inte felen i kopiorna
 
-Provet som det stod i 2e560db kördes på ritningarna som de står och på var och en av de två kopiorna. Det hade ingen växel för en annan mapp, så varje kopia lades som layout/Exempel i ett eget träd.
+Provet som det stod före ändringen, i commit 2e560db, kördes på ritningarna som de står och på var och en av de två kopiorna. Det hade ingen växel för en annan mapp, så varje kopia lades som layout/Exempel i ett eget träd.
 
 oandrad: slutkod 1, 29 rader under FALLER
 pil-genom-ruta: slutkod 1, 29 rader under FALLER
 krympt-ruta: slutkod 1, 29 rader under FALLER
 
-Listan under FALLER är densamma i alla tre körningarna, rad för rad (jämfört med cmp). Alla 29 raderna säger att en cell är ändrad mot basen eller borta. De kommer av att #202 och #206 ändrade ritningarna efter #185, inte av felen i kopiorna. Det gamla provet såg alltså varken pilen genom rutorna eller den klippta texten.
+Listan under FALLER är densamma i alla tre körningarna, rad för rad (jämfört med cmp). Alla 29 raderna säger att en cell är ändrad mot basen eller borta. De kommer av två senare ärenden, inte av felen i kopiorna: #202 skrev om ritningen över stegen till tre perspektiv, och #206 tog bort rutan Informationsförsörjning ur den och numret på arkitektens bedömning ur kartan med fynd. Det gamla provet såg alltså varken pilen genom rutorna eller den klippta texten.
 
 
 2. Provet efter ändringen faller på kopian där pilen går genom en ruta
@@ -69,12 +69,12 @@ bilden: 10 pilar och linjer prövade mot 8 rutors ramar, ingen skär en annan ru
 antal rader under FALLER: 29
 slutkod 1
 
-De två nya kontrollerna håller på alla tre ritningarna. Provet faller ändå, på samma 29 rader som i avsnitt 1: jämförelsen cell för cell med läget före #185 stämmer inte längre, eftersom #202 och #206 ändrade ritningarna med avsikt.
+De två nya kontrollerna håller på alla tre ritningarna. Provet faller ändå, på samma 29 rader som i avsnitt 1: jämförelsen cell för cell med läget före #185 stämmer inte längre, eftersom de två senare ärendena #202 och #206 ändrade ritningarna med avsikt.
 
 
 5. Provet efter ändringen på ritningarna som de stod när #185 stängdes
 
-De tre ritningarna hämtades ur 9bc0b97 med git show till mappen MÅL/vid-185.
+De tre ritningarna hämtades ur commit 9bc0b97, den sista i #185, med git show till mappen MÅL/vid-185.
 
 Kommando: python3 docs/acceptance-shots/issue-185-pilar.py --ritningar MÅL/vid-185
 
@@ -88,3 +88,9 @@ bilden: 12 pilar och linjer prövade mot 9 rutors ramar, ingen skär en annan ru
 HÅLLER: båda kartorna har de två nya pilarna, rutan för steg 2 bär sidans meningar, och inget annat är ändrat mot basen. I bilden ryms texten i rutan för steg 2, och ingen pil skär en ruta.
 antal rader under FALLER: 0
 slutkod 0
+
+
+Vad provet inte ser
+
+- En text som klipps i sidled. Bilden av en text är alltid lika bred som textens cell, också när ett ord är bredare än cellen. Provet mäter därför bara om texten klipps i höjdled.
+- En pil räknas som att den skär en ruta när den når in i rutans ritade ram eller ligger närmare än 0,5 från den. En pil som ligger på en annan rutas kant faller alltså också.

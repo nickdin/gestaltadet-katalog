@@ -27,8 +27,11 @@ Provet faller (slutkod 1) om
 - en pils sträcka i bilden skär någon annan ruta än pilens egna två ändar, i någon av de tre ritningarna (ärende #198).
 
 De två sista mäts i bilden som sajten visar, inte i den inbäddade ritningen. draw.io lägger en bild av varje text i
-filen, och den bildens ram är textens fulla storlek också när texten klipps. En pils sträckor läses ur pilens linje
-och pilspets, och en båge räknas som åtta raka sträckor.
+filen, och den bildens höjd är textens fulla höjd också när texten klipps. En pils sträckor läses ur pilens linje
+och pilspets, och en båge räknas som åtta raka sträckor. En pil skär en ruta också när den ligger på rutans kant.
+
+Provet ser inte en text som klipps i sidled: bildens bredd är alltid cellens bredd, också när ett ord är bredare
+än cellen.
 
 Växeln --ritningar läser de tre ritningarna ur en annan mapp än layout/Exempel, med samma filnamn. Den finns för att
 provet ska kunna köras på ändrade kopior, som docs/acceptance-shots/issue-198-kopior.py skriver. Facit och sidan läses
@@ -51,8 +54,9 @@ GOLDEN = 'docs/acceptance-shots/issue-185-facit.json'
 SVG = '{http://www.w3.org/2000/svg}'
 # Mappen ritningarna läses ur. Namnen ovan står kvar som de heter i lagret, i facit och i utskriften.
 drawings = FOLDER
-# Så långt in i en ruta en pil ska nå för att räknas som att den skär rutan. En pil som slutar på rutans kant gör det inte.
-INSIDE = 1.0
+# Så långt utanför en rutas ritade ram en pil räknas som att den skär rutan. Ramens linje är 1 bred, så en pil
+# som ligger på linjen skymmer den. Pilens egna två rutor prövas aldrig, så att pilen slutar på deras kant stör inte.
+NEAR = 0.5
 # Antalet raka sträckor en båge i en pil räknas som.
 CURVE_PIECES = 8
 
@@ -152,11 +156,16 @@ def boxes_of(cells):
     return sorted(boxes)
 
 
+def titles_of(cells, box_id):
+    """Namnen i rutan en cell hör till: texterna i storlek 12 i rutans grupp."""
+    group = group_of(cells, box_id)
+    return [plain(c.get('value')) for c in cells.values()
+            if c.get('parent') == group and 'fontSize=12' in (c.get('style') or '')]
+
+
 def title_of(cells, box_id):
     """Namnet på rutan en pil sitter i. Pilen får sitta i rutans grupp eller i rektangeln inuti gruppen."""
-    group = group_of(cells, box_id)
-    titles = [plain(c.get('value')) for c in cells.values()
-              if c.get('parent') == group and 'fontSize=12' in (c.get('style') or '')]
+    titles = titles_of(cells, box_id)
     if len(titles) != 1:
         fail(f'en pil sitter i cellen "{box_id}", som inte är en ruta med ett namn')
         return f'(okänd ruta {box_id})'
@@ -222,10 +231,8 @@ def drawn_of(path):
 
 def name_of(cells, box_id):
     """Rutans namn om den har ett, annars cellens id."""
-    group = group_of(cells, box_id)
-    titles = [plain(c.get('value')) for c in cells.values()
-              if c.get('parent') == group and 'fontSize=12' in (c.get('style') or '')]
-    return titles[0] if len(titles) == 1 else group
+    titles = titles_of(cells, box_id)
+    return titles[0] if len(titles) == 1 else group_of(cells, box_id)
 
 
 def frames_of(path, cells, drawn):
@@ -281,9 +288,9 @@ def stretches_of(path, d):
 
 
 def crosses(stretch, frame):
-    """Sant om sträckan når minst INSIDE in i rektangeln."""
+    """Sant om sträckan når in i rektangeln, eller närmare än NEAR från den."""
     (x0, y0), (x1, y1) = stretch
-    left, top, right, bottom = frame[0] + INSIDE, frame[1] + INSIDE, frame[2] - INSIDE, frame[3] - INSIDE
+    left, top, right, bottom = frame[0] - NEAR, frame[1] - NEAR, frame[2] + NEAR, frame[3] + NEAR
     enter, leave = 0.0, 1.0
     for delta, low, high in ((x1 - x0, left - x0, right - x0), (y1 - y0, top - y0, bottom - y0)):
         if delta == 0:
@@ -295,37 +302,36 @@ def crosses(stretch, frame):
     return enter < leave
 
 
-def check_arrows(path, cells, drawn):
+def check_arrows(path, cells, drawn, frames):
     """Ingen pils sträcka i bilden skär någon annan ruta än pilens egna två ändar."""
-    frames = frames_of(path, cells, drawn)
+    # En linje vars förälder är en ruta är linjen under rutans namn, ingen pil. Teckenförklaringens linjer prövas med.
     arrows = [i for i, c in cells.items()
               if c.get('edge') and cells.get(c.get('parent'), c).get('style') != 'group']
     hits = 0
     for arrow in arrows:
-        lines = [e.get('d') for e, _, _ in drawn.get(arrow, []) if e.tag == SVG + 'path']
+        # Varje ritad linje med sin egen förskjutning: (sträckorna, dx, dy).
+        lines = [(stretches_of(path, e.get('d')), dx, dy)
+                 for e, dx, dy in drawn.get(arrow, []) if e.tag == SVG + 'path']
         if not lines:
             fail(f'{path}: pilen "{arrow}" är inte ritad i bilden')
             continue
-        moves = {(dx, dy) for e, dx, dy in drawn[arrow] if e.tag == SVG + 'path'}
         ends = [cells[arrow].get(end) for end in ('source', 'target')]
         own = {group_of(cells, end) for end in ends if end in cells}
         label = ' -> '.join(name_of(cells, end) if end in cells else '(lös ände)' for end in ends)
         for group, frame in frames.items():
             if group in own:
                 continue
-            for dx, dy in moves:
-                moved = (frame[0] - dx, frame[1] - dy, frame[2] - dx, frame[3] - dy)
-                if any(crosses(s, moved) for d in lines for s in stretches_of(path, d)):
-                    hits += 1
-                    fail(f'{path}: pilen {label} ("{arrow}") skär rutan "{name_of(cells, group)}" i bilden')
-                    break
+            if any(crosses(s, (frame[0] - dx, frame[1] - dy, frame[2] - dx, frame[3] - dy))
+                   for stretches, dx, dy in lines for s in stretches):
+                hits += 1
+                fail(f'{path}: pilen {label} ("{arrow}") skär rutan "{name_of(cells, group)}" i bilden')
     print(f'bilden: {len(arrows)} pilar och linjer prövade mot {len(frames)} rutors ramar, '
           + ('ingen skär en annan ruta än sina egna ändar' if not hits else f'{hits} gånger skär en pil en ruta'))
 
 
-def check_text_frames(path, cells, drawn, group):
+def check_text_frames(path, cells, drawn, frames, group):
     """Varje text i rutan är ritad inom rutans ram i bilden, och är inte högre än utrymmet dess cell visar."""
-    frame = frames_of(path, cells, drawn).get(group)
+    frame = frames.get(group)
     if frame is None:
         return
     texts, wrong = 0, 0
@@ -404,7 +410,8 @@ def check_map(path, golden):
         print(f'bilden visar texten "{word}" på {shown} pilar, den inbäddade ritningen har {len(cell_ids)}')
         if shown != len(cell_ids):
             fail(f'{path}: bilden visar "{word}" på {shown} pilar, den inbäddade ritningen har {len(cell_ids)}')
-    check_arrows(path, cells, drawn_of(path))
+    drawn = drawn_of(path)
+    check_arrows(path, cells, drawn, frames_of(path, cells, drawn))
     return arrows, boxes_of(cells)
 
 
@@ -478,8 +485,9 @@ def check_steps(golden):
         if x < right and left < x + number(record, 'width') and y < bottom and top < y + number(record, 'height'):
             fail(f'{STEPS}: rutan för steg 2 ligger över rutan "{cell_id}"')
     cells, drawn = cells_of(STEPS), drawn_of(STEPS)
-    check_text_frames(STEPS, cells, drawn, STEP_2['group'])
-    check_arrows(STEPS, cells, drawn)
+    frames = frames_of(STEPS, cells, drawn)
+    check_text_frames(STEPS, cells, drawn, frames, STEP_2['group'])
+    check_arrows(STEPS, cells, drawn, frames)
 
 
 def main():
