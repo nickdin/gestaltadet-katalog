@@ -1,0 +1,32 @@
+Ärende #213: rutan Kopiorna i datalagret heter Tabellerna i datalagret i de två kartorna över analysfunktionen, och rutan med arkivfyndet säger exemplets mening om ansökningstabellen.
+
+Kommando: python3 docs/acceptance-shots/issue-213-tabellerna.py
+
+På basen caa6bef, före ändringen (slutkod 1):
+
+FEL: layout/Exempel/Analysfunktionen karta.drawio.svg: den inbäddade ritningen har kvar "Kopiorna i datalagret"
+FEL: layout/Exempel/Analysfunktionen karta.drawio.svg: den inbäddade ritningen har kvar "Kopior av Ansökan"
+FEL: layout/Exempel/Analysfunktionen karta.drawio.svg: bilden har kvar "Kopiorna i datalagret"
+FEL: layout/Exempel/Analysfunktionen karta.drawio.svg: bilden har kvar "Kopior av Ansökan"
+FEL: layout/Exempel/Analysfunktionen karta.drawio.svg: cellen "t-r-kopior" i den inbäddade ritningen saknar "Tabellerna i datalagret"
+FEL: layout/Exempel/Analysfunktionen karta.drawio.svg: bilden saknar "Tabellerna i datalagret"
+FEL: layout/Exempel/Analysfunktionen karta.drawio.svg: cellen "r-kopior-def" i den inbäddade ritningen saknar "Tabeller med Ansökan, Beslut, Utbetalning, Förening och Företrädare."
+FEL: layout/Exempel/Analysfunktionen karta.drawio.svg: bilden saknar "Tabeller med Ansökan, Beslut, Utbetalning, Förening och Företrädare."
+FEL: layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: den inbäddade ritningen har kvar "Kopiorna i datalagret"
+FEL: layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: den inbäddade ritningen har kvar "Kopior av Ansökan"
+FEL: layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: den inbäddade ritningen har kvar "rad för kopiorna"
+FEL: layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: bilden har kvar "Kopiorna i datalagret"
+FEL: layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: bilden har kvar "Kopior av Ansökan"
+FEL: layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: bilden har kvar "rad för kopiorna"
+FEL: layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: cellen "t-r-kopior" i den inbäddade ritningen saknar "Tabellerna i datalagret"
+FEL: layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: bilden saknar "Tabellerna i datalagret"
+FEL: layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: cellen "r-kopior-def" i den inbäddade ritningen saknar "Tabeller med Ansökan, Beslut, Utbetalning, Förening och Företrädare."
+FEL: layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: bilden saknar "Tabeller med Ansökan, Beslut, Utbetalning, Förening och Företrädare."
+FEL: layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: cellen "row-3" i den inbäddade ritningen saknar "Informationshanteringsplanen har ingen rad för ansökningstabellen i datalagret."
+FEL: layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: bilden saknar "Informationshanteringsplanen har ingen rad för ansökningstabellen i datalagret."
+FEL: layout/Exempel/Analysfunktionen karta med fynd.drawio.svg: meningen i cellen "row-3" står inte i exemplet: "Informationshanteringsplanen har ingen rad för kopiorna i datalagret, och ingen gallrar dem."
+21 fel
+
+Efter ändringen, 2026-11-20 (slutkod 0):
+
+0 fel

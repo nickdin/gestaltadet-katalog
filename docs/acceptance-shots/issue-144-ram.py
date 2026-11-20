@@ -6,7 +6,7 @@ Provet klonar den utcheckning det körs i till en tillfällig mapp och rör aldr
 ett arkitekturobjekt och en beskrivning, eftersom interlingua importerar en ritning till en beskrivning. Sedan
 importerar det en ritning med interlinguas kommando import drawio. Ritningen har två ramar, och ingen av dem bär
 en egen märkning. Den ena ramen är informationsobjektet Föreningsinformation runt informationsobjektet Förening.
-Den andra är lagringsytan Datalagret runt representationen Kopiorna i datalagret.
+Den andra är lagringsytan Datalagret runt representationen Tabellerna i datalagret.
 
 Provet skriver ut relationerna som importen skrev. Båda ska gå från ramen till rutan. Ramen runt
 informationsobjektet ska läsas som består av (C-062), och ramen runt lagringsytan som aggregerar (C-100).
@@ -33,7 +33,7 @@ AGGREGATES = "C-100"
 FRAME = "Föreningsinformation"
 INNER = "Förening"
 OTHER_FRAME = "Datalagret"
-OTHER_INNER = "Kopiorna i datalagret"
+OTHER_INNER = "Tabellerna i datalagret"  # rutan hette Kopiorna i datalagret före ärende #213
 EXPECTED = [(OTHER_FRAME, AGGREGATES, OTHER_INNER), (FRAME, COMPOSED_OF, INNER)]
 
 # Ramarna n1 och n3 bär varken nesting_relation_type eller store_id, bara sin typ och sitt namn.
