@@ -2,6 +2,7 @@
 
     python3 docs/acceptance-shots/issue-185-pilar.py            provet
     python3 docs/acceptance-shots/issue-185-pilar.py --facit    skriver facit ur ritningarna som de står, körs bara på basen
+    python3 docs/acceptance-shots/issue-185-pilar.py --ritningar MAPP    provet på de tre ritningarna i MAPP
 
 Provet läser de två kartorna över analysfunktionen och ritningen över arbetssättets steg i layout/Exempel.
 Sättet att läsa pilarna är lånat ur issue-174-pilar.py: varje pil skrivs som
@@ -20,11 +21,23 @@ Provet faller (slutkod 1) om
   inskjutna,
 - något annat i ritningen över stegen har ändrats än textens ord och höjden på rutan för steg 2, eller rutan ligger
   över en annan ruta,
-- bilden som sajten visar inte bär samma texter som den inbäddade ritningen.
+- bilden som sajten visar inte bär samma texter som den inbäddade ritningen,
+- en text i rutan för steg 2 är ritad utanför rutans ram i bilden, eller är högre än utrymmet dess cell visar, så att
+  den klipps (ärende #198),
+- en pils sträcka i bilden skär någon annan ruta än pilens egna två ändar, i någon av de tre ritningarna (ärende #198).
+
+De två sista mäts i bilden som sajten visar, inte i den inbäddade ritningen. draw.io lägger en bild av varje text i
+filen, och den bildens ram är textens fulla storlek också när texten klipps. En pils sträckor läses ur pilens linje
+och pilspets, och en båge räknas som åtta raka sträckor.
+
+Växeln --ritningar läser de tre ritningarna ur en annan mapp än layout/Exempel, med samma filnamn. Den finns för att
+provet ska kunna köras på ändrade kopior, som docs/acceptance-shots/issue-198-kopior.py skriver. Facit och sidan läses
+alltid ur lagret.
 """
 import glob
 import html
 import json
+import os
 import re
 import sys
 import xml.etree.ElementTree as ET
@@ -35,6 +48,13 @@ MAP_FINDINGS = f'{FOLDER}/Analysfunktionen karta med fynd.drawio.svg'
 STEPS = f'{FOLDER}/Informationskartläggning steg.drawio.svg'
 PAGE = 'docs/informationskartlaggning.md'
 GOLDEN = 'docs/acceptance-shots/issue-185-facit.json'
+SVG = '{http://www.w3.org/2000/svg}'
+# Mappen ritningarna läses ur. Namnen ovan står kvar som de heter i lagret, i facit och i utskriften.
+drawings = FOLDER
+# Så långt in i en ruta en pil ska nå för att räknas som att den skär rutan. En pil som slutar på rutans kant gör det inte.
+INSIDE = 1.0
+# Antalet raka sträckor en båge i en pil räknas som.
+CURVE_PIECES = 8
 
 # Pilens text -> relationstypen den är en pil av, och paren av slag den får gå mellan: från, till.
 ACCESS = [('Verksamhetsfunktion (C-158)', 'Informationsobjekt (C-060)'),
@@ -83,9 +103,14 @@ def relation_type(concept_id):
     return re.search(r'^term: (.+)$', text, re.M).group(1).strip()
 
 
+def file_of(path):
+    """Filen en ritning läses ur: samma filnamn i mappen som --ritningar pekar ut, annars ritningen i lagret."""
+    return os.path.join(drawings, os.path.basename(path))
+
+
 def cells_of(path):
     """Den inbäddade ritningens celler, id -> cell."""
-    content = ET.parse(path).getroot().attrib['content']
+    content = ET.parse(file_of(path)).getroot().attrib['content']
     return {c.get('id'): c for c in ET.fromstring(content).iter('mxCell')}
 
 
@@ -172,8 +197,168 @@ def arrows_of(path, cells):
 
 def visible_of(path):
     """Texten i bilden som sajten visar: filen utan den inbäddade ritningen."""
-    svg = open(path, encoding='utf-8').read()
+    svg = open(file_of(path), encoding='utf-8').read()
     return plain(re.sub(r'content="[^"]*"', '', svg, count=1))
+
+
+def drawn_of(path):
+    """Det som är ritat för varje cell i bilden: id -> lista av (element, förskjutning i x, förskjutning i y)."""
+    drawn = {}
+
+    def walk(element, cell_id, dx, dy):
+        cell_id = element.get('data-cell-id', cell_id)
+        moved = re.fullmatch(r'translate\(([-\d.]+),([-\d.]+)\)', element.get('transform') or '')
+        if moved:
+            dx, dy = dx + float(moved.group(1)), dy + float(moved.group(2))
+        elif element.get('transform'):
+            fail(f'{path}: bilden har en förflyttning provet inte kan läsa: {element.get("transform")}')
+        drawn.setdefault(cell_id, []).append((element, dx, dy))
+        for child in element:
+            walk(child, cell_id, dx, dy)
+
+    walk(ET.parse(file_of(path)).getroot(), None, 0.0, 0.0)
+    return drawn
+
+
+def name_of(cells, box_id):
+    """Rutans namn om den har ett, annars cellens id."""
+    group = group_of(cells, box_id)
+    titles = [plain(c.get('value')) for c in cells.values()
+              if c.get('parent') == group and 'fontSize=12' in (c.get('style') or '')]
+    return titles[0] if len(titles) == 1 else group
+
+
+def frames_of(path, cells, drawn):
+    """Varje rutas ritade rektangel i bilden: gruppens id -> (vänster, topp, höger, botten)."""
+    frames = {}
+    for group, cell in cells.items():
+        if cell.get('style') != 'group':
+            continue
+        rectangles = [(float(e.get('x')) + dx, float(e.get('y')) + dy, float(e.get('width')), float(e.get('height')))
+                      for child, c in cells.items() if c.get('parent') == group
+                      for e, dx, dy in drawn.get(child, [])
+                      if e.tag == SVG + 'rect' and e.get('stroke') not in (None, 'none')]
+        if len(rectangles) != 1:
+            fail(f'{path}: rutan "{name_of(cells, group)}" har {len(rectangles)} ritade ramar i bilden, inte en')
+            continue
+        x, y, width, height = rectangles[0]
+        frames[group] = (x, y, x + width, y + height)
+    return frames
+
+
+def stretches_of(path, d):
+    """En ritad linje som raka sträckor: ((x, y), (x, y)). En båge delas i CURVE_PIECES raka sträckor."""
+    tokens = re.findall(r'[A-Za-z]|-?\d+(?:\.\d+)?', d)
+    stretches, here, start, i = [], None, None, 0
+    while i < len(tokens):
+        command = tokens[i]
+        if command == 'M':
+            here = start = (float(tokens[i + 1]), float(tokens[i + 2]))
+            i += 3
+        elif command == 'L':
+            there = (float(tokens[i + 1]), float(tokens[i + 2]))
+            stretches.append((here, there))
+            here = there
+            i += 3
+        elif command == 'Q':
+            bend = (float(tokens[i + 1]), float(tokens[i + 2]))
+            end = (float(tokens[i + 3]), float(tokens[i + 4]))
+            first = here
+            for piece in range(1, CURVE_PIECES + 1):
+                t = piece / CURVE_PIECES
+                there = tuple((1 - t) ** 2 * first[k] + 2 * (1 - t) * t * bend[k] + t ** 2 * end[k] for k in (0, 1))
+                stretches.append((here, there))
+                here = there
+            i += 5
+        elif command == 'Z':
+            stretches.append((here, start))
+            here = start
+            i += 1
+        else:
+            fail(f'{path}: en pil är ritad med "{command}", som provet inte kan läsa: {d}')
+            return stretches
+    return stretches
+
+
+def crosses(stretch, frame):
+    """Sant om sträckan når minst INSIDE in i rektangeln."""
+    (x0, y0), (x1, y1) = stretch
+    left, top, right, bottom = frame[0] + INSIDE, frame[1] + INSIDE, frame[2] - INSIDE, frame[3] - INSIDE
+    enter, leave = 0.0, 1.0
+    for delta, low, high in ((x1 - x0, left - x0, right - x0), (y1 - y0, top - y0, bottom - y0)):
+        if delta == 0:
+            if not low < 0 < high:
+                return False
+            continue
+        first, last = sorted((low / delta, high / delta))
+        enter, leave = max(enter, first), min(leave, last)
+    return enter < leave
+
+
+def check_arrows(path, cells, drawn):
+    """Ingen pils sträcka i bilden skär någon annan ruta än pilens egna två ändar."""
+    frames = frames_of(path, cells, drawn)
+    arrows = [i for i, c in cells.items()
+              if c.get('edge') and cells.get(c.get('parent'), c).get('style') != 'group']
+    hits = 0
+    for arrow in arrows:
+        lines = [e.get('d') for e, _, _ in drawn.get(arrow, []) if e.tag == SVG + 'path']
+        if not lines:
+            fail(f'{path}: pilen "{arrow}" är inte ritad i bilden')
+            continue
+        moves = {(dx, dy) for e, dx, dy in drawn[arrow] if e.tag == SVG + 'path'}
+        ends = [cells[arrow].get(end) for end in ('source', 'target')]
+        own = {group_of(cells, end) for end in ends if end in cells}
+        label = ' -> '.join(name_of(cells, end) if end in cells else '(lös ände)' for end in ends)
+        for group, frame in frames.items():
+            if group in own:
+                continue
+            for dx, dy in moves:
+                moved = (frame[0] - dx, frame[1] - dy, frame[2] - dx, frame[3] - dy)
+                if any(crosses(s, moved) for d in lines for s in stretches_of(path, d)):
+                    hits += 1
+                    fail(f'{path}: pilen {label} ("{arrow}") skär rutan "{name_of(cells, group)}" i bilden')
+                    break
+    print(f'bilden: {len(arrows)} pilar och linjer prövade mot {len(frames)} rutors ramar, '
+          + ('ingen skär en annan ruta än sina egna ändar' if not hits else f'{hits} gånger skär en pil en ruta'))
+
+
+def check_text_frames(path, cells, drawn, group):
+    """Varje text i rutan är ritad inom rutans ram i bilden, och är inte högre än utrymmet dess cell visar."""
+    frame = frames_of(path, cells, drawn).get(group)
+    if frame is None:
+        return
+    texts, wrong = 0, 0
+    for child, cell in cells.items():
+        if cell.get('parent') != group:
+            continue
+        for element, dx, dy in drawn.get(child, []):
+            if element.tag != SVG + 'switch':
+                continue
+            image = element.find(SVG + 'image')
+            limit = re.search(r'max-height: ([\d.]+)px', ET.tostring(element, encoding='unicode'))
+            if image is None:
+                fail(f'{path}: texten "{child}" har ingen ritad ram i bilden')
+                continue
+            texts += 1
+            left, top = float(image.get('x')) + dx, float(image.get('y')) + dy
+            height = float(image.get('height'))
+            right, bottom = left + float(image.get('width')), top + height
+            print(f'bilden: texten "{child}" är ritad {left:g}-{right:g} i sidled och {top:g}-{bottom:g} i höjdled'
+                  + (f', höjd {height:g} av {float(limit.group(1)):g} som cellen visar' if limit else ''))
+            if left < frame[0] or top < frame[1] or right > frame[2] or bottom > frame[3]:
+                wrong += 1
+                fail(f'{path}: texten "{child}" är ritad utanför ramen för rutan "{name_of(cells, group)}" i bilden: '
+                     f'texten når {left:g}-{right:g} i sidled och {top:g}-{bottom:g} i höjdled, '
+                     f'ramen {frame[0]:g}-{frame[2]:g} och {frame[1]:g}-{frame[3]:g}')
+            if limit and height > float(limit.group(1)):
+                wrong += 1
+                fail(f'{path}: texten "{child}" i rutan "{name_of(cells, group)}" klipps i bilden: '
+                     f'texten är {height:g} hög, och cellen visar {float(limit.group(1)):g}')
+    if not texts:
+        fail(f'{path}: rutan "{name_of(cells, group)}" har ingen ritad text i bilden')
+    print(f'bilden: rutans ram är {frame[0]:g}-{frame[2]:g} i sidled och {frame[1]:g}-{frame[3]:g} i höjdled, '
+          + (f'och alla {texts} texter ryms i den' if not wrong else 'och texten ryms inte'))
 
 
 def check_map(path, golden):
@@ -219,6 +404,7 @@ def check_map(path, golden):
         print(f'bilden visar texten "{word}" på {shown} pilar, den inbäddade ritningen har {len(cell_ids)}')
         if shown != len(cell_ids):
             fail(f'{path}: bilden visar "{word}" på {shown} pilar, den inbäddade ritningen har {len(cell_ids)}')
+    check_arrows(path, cells, drawn_of(path))
     return arrows, boxes_of(cells)
 
 
@@ -291,9 +477,18 @@ def check_steps(golden):
         x, y = number(record, 'x'), number(record, 'y')
         if x < right and left < x + number(record, 'width') and y < bottom and top < y + number(record, 'height'):
             fail(f'{STEPS}: rutan för steg 2 ligger över rutan "{cell_id}"')
+    cells, drawn = cells_of(STEPS), drawn_of(STEPS)
+    check_text_frames(STEPS, cells, drawn, STEP_2['group'])
+    check_arrows(STEPS, cells, drawn)
 
 
 def main():
+    global drawings
+    if sys.argv[1:2] == ['--ritningar'] and len(sys.argv) == 3:
+        drawings = sys.argv[2]
+        print(f'Ritningarna läses ur {drawings}, inte ur {FOLDER}.\n')
+    elif sys.argv[1:] not in ([], ['--facit']):
+        sys.exit('Användning: issue-185-pilar.py [--facit | --ritningar MAPP]')
     if sys.argv[1:] == ['--facit']:
         golden = {path: records_of(path) for path in (MAP, MAP_FINDINGS, STEPS)}
         with open(GOLDEN, 'w', encoding='utf-8') as file:
@@ -325,4 +520,4 @@ if failures:
     sys.exit(1)
 if sys.argv[1:] != ['--facit']:
     print('\nHÅLLER: båda kartorna har de två nya pilarna, rutan för steg 2 bär sidans meningar, '
-          'och inget annat är ändrat mot basen.')
+          'och inget annat är ändrat mot basen. I bilden ryms texten i rutan för steg 2, och ingen pil skär en ruta.')
