@@ -18,6 +18,12 @@ En förmåga är något verksamheten kan. Den kan realiseras på flera sätt och
 
 Målet ([[C-017 Mål]]) sätts på förmågan, ramen på de lösningar ([[C-055 Lösning]]) som realiserar den. En lösning realiserar exakt en förmåga; en förmåga kan ha flera lösningar, och en komponent kan ingå i flera lösningar. Beslut 20.
 
+Ingen äger förmågan. Portföljens ([[C-011 Portfölj]]) ägare sätter förmågans mål. Det är ägaren till den innersta verksamhetsdomän ([[C-008 Verksamhetsdomän]]) som rymmer alla lösningar som realiserar förmågan. Har Bidragsprövning två lösningar hos två enhetschefer sätter generaldirektören målet och fördelar det på de två lösningsägarna.
+
+Förmågans mål säger vad utformningen ska klara, inte vad som blev gjort. Bidragsprövning ska klara ett beslut inom tre månader med normal bemanning. Att nio av tio ansökningar är beslutade i tid är domänens mål för produktionen. Tar chefen in två handläggare till når domänen sitt mål, men förmågan är densamma. Förmågan blir bättre först när utformningen ändras. Det gör ett initiativ ([[C-012 Initiativ]]) eller en ändring inom lösningens ram.
+
+Provet för en förmåga: portföljens ägare kan sätta ett eget mål för den och veta när det är nått, utan att ändra målen för förmågorna bredvid. Beräkning av bidrag klarar provet. Generaldirektören kan kräva högst ett felräknat belopp på hundra beslut, vem eller vad som än räknar. Fördelning av ansökningar på handläggare klarar det inte. Ingen vill ha en bättre fördelning för dess egen skull, och delen försvinner om ansökningarna läggs i en gemensam kö. Den är en verksamhetsaktivitet ([[C-175 Verksamhetsaktivitet]]). Beslut 65.
+
 Förmågan har ingen relation till informationen. Den information som hör till förmågan läses genom lösningen som realiserar den och de informationsområden ([[C-198 Informationsområde]]) lösningen aggregerar. Ett informationsområde hör hemma i förmågan där dess förekomster skapas; andra förmågor har beroenden till det, lästa ur sina lösningar och beteenden. Beslut 30.
 
 Namnet säger att förmågan är verksamhetens; typen hör till strategiperspektivet.
