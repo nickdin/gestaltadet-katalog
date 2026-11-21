@@ -37,7 +37,7 @@ Generaldirektören har fastställt regeln att initiativen i utvecklingsportfölj
 
 Fem förmågor säger vad myndigheten kan göra, oavsett vem som gör det eller med vilket system:
 
-- **Bidragsprövning**: att avgöra om en förening har rätt till bidrag och hur mycket.
+- **Bidragsprövning**: att avgöra om en förening har rätt till bidrag och hur mycket. Den består av två förmågor: Bedömning av rätt till bidrag och Beräkning av bidrag.
 - **Utbetalning och återkrav**: att betala ut beviljat bidrag och kräva tillbaka det som inte använts rätt.
 - **Registerhållning**: att veta vilka föreningar som finns, vem som företräder dem och vart pengarna ska.
 - **Tillsyn**: att granska hur bidrag använts.
@@ -96,6 +96,8 @@ Styrningen av produktionen är produktionsstyrning. Generaldirektören sätter B
 Målet om fyra månader hör till domänen, och chefen håller både utformningen och produktionen. Chefen kan själv väga två handläggare till mot en ändring av mallarna, inom domänens ram. Automatisk beräkning ryms inte där. Den vägningen gör generaldirektören.
 
 Målet om fyra månader säger vad som blev gjort. Förmågan Bidragsprövning har ett eget mål, som säger vad utformningen ska klara: ett beslut inom tre månader med normal bemanning. Två handläggare till ger tre månader i år men ändrar inte förmågan. Automatisk beräkning ändrar den.
+
+Chefen för Bidragsenheten ansvarar för Bidragsprövning och har delat den i två, för att kunna sätta ett eget mål för uträkningen: högst ett felräknat belopp på hundra beslut. Det är målet för Beräkning av bidrag. Målet om tre månader står kvar på Bidragsprövning. Ansökningshandläggningen realiserar Bidragsprövning, och ingen av delarna har en egen lösning. Verksamhetsbidrag och projektbidrag är däremot inga delar. Myndigheten prövar båda med samma förmåga.
 
 Tre ärenden samma tisdag visar att allt utförande är produktion. En handläggare beslutar om en ansökan. HR anställer en ny handläggare åt Bidragsenheten. En tekniker på IT hjälper en handläggare in i Föreningsregistret. Dagen efter rättar samma tekniker programmet som räknar lokalavdelningar fel. Det är ingen produktion. Det är en rättning av lösningen: den ändrar utformningen, och registerlösningens ägare beslutar om den. Samma vecka ser en handläggare på Register- och tillsynsenheten att en förening står med fel antal lokalavdelningar, och rättar uppgiften. Det är registervård. Den ändrar en uppgift och inte utformningen, så den är produktion.
 
@@ -183,7 +185,7 @@ Myndigheten står för förvaltningens mekanik. Hämta härifrån exempel på:
 - livskraft (C-216) i en domän som klarar provet, samordning (C-217) med och utan mandat, och granskning (C-218) bredvid uppföljning
 - uppkommen centralisering (C-220) som följer en princip, blir ett vägt val och till sist en avvikelse som ska rättas, med Verksamhetsstöd i tre lägen
 - aspektbaserad styrning (C-006), aspekt (C-004) och arbetssätt (C-196)
-- verksamhetsförmåga (C-069), verksamhetsprocess (C-130) och handläggning (C-160)
+- verksamhetsförmåga (C-069), med Bidragsprövning som består av två förmågor, verksamhetsprocess (C-130) och handläggning (C-160)
 - ärendebeslut (C-181) och beslutslogik (C-178)
 - produkt (C-014), verksamhetsprodukt (C-173) och vara (C-191), och resultat som saknar produkt
 - informationsobjekt (C-060), uppgift (C-161) och sammanställning (C-162)

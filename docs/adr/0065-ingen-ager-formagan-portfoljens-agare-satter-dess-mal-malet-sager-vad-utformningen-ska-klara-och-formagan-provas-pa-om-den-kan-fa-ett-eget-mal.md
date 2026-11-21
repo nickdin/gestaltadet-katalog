@@ -2,6 +2,8 @@
 
 *Ledet att ingen äger förmågan gäller inte längre i den formen. Förmågan är inget styrobjekt, men ägaren till den innersta domän som rymmer dess lösningar ansvarar för den (beslut 66).*
 
+*En förmåga kan bestå av förmågor (beslut 69). Den som ansvarar för Bidragsprövning sätter också målet för delen Beräkning av bidrag. I provets första fall är det alltså chefen för Bidragsenheten som kräver högst ett felräknat belopp, inte generaldirektören.*
+
 Beslutat av Nicklas 20 november 2026, när en vägledning om verksamhetsförmågor beskrev förmågan som en enhet för styrning med egen ägare, medan katalogen lade ägaren och ramen på lösningen.
 
 ## Sammanhang

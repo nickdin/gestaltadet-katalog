@@ -26,7 +26,7 @@ Bolagets investeringsportfölj rymmer nyproduktion, stambyten och energiprojekt,
 - **Uthyrning**: att hitta rätt hyresgäst till rätt lägenhet och teckna avtal.
 - **Fastighetsdrift**: att hålla värme, vatten, el, hissar och lås igång varje dag.
 - **Reparation**: att laga det som gått sönder, från den droppande kranen till hissen som stannat.
-- **Underhåll**: att byta och förnya det som slits. Det planerade underhållet av byggnaden: tak, fasader, stammar, tvättstugor. Lägenhetsunderhållet: ommålning, tapetsering, nya golv, nytt kök, efter intervall eller när hyresgästen väljer det i det hyresgäststyrda underhållet.
+- **Underhåll**: att byta och förnya det som slits. Det planerade underhållet av byggnaden: tak, fasader, stammar, tvättstugor. Lägenhetsunderhållet: ommålning, tapetsering, nya golv, nytt kök, efter intervall eller när hyresgästen väljer det i det hyresgäststyrda underhållet. Underhåll är en förmåga och inte två. Bolaget delar den först när någon vill sätta ett eget mål för lägenhetsunderhållet.
 - **Nyproduktion**: att planera, upphandla och bygga nya hus.
 
 ## Processer och handläggningar

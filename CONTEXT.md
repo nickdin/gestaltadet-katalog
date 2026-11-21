@@ -137,6 +137,16 @@ En domän med ett inre uppdrag från ledningen att stödja de andra. IT är stö
 **Affär**:
 Ett företags uppdrag utifrån. Ordet används aldrig om ett inre uppdrag.
 
+### Förmågor
+
+Ord som inte är begrepp i katalogen. De förklaras i Verksamhetsförmåga (C-069) (beslut 69).
+
+**Delförmåga**:
+En förmåga som är del av en annan. Den är en verksamhetsförmåga som alla andra, och katalogen har inget eget begrepp för den.
+
+**Förmågekarta**:
+En arkitekturvy över förmågorna och deras delar. Varje del har en enda helhet, och delarna täcker helheten utan överlapp och utan rest.
+
 ### Livskraft
 
 Ord ur Stafford Beers modell för livskraftiga system, *Viable System Model*, och ord katalogen använder när den prövar en domäns livskraft. Bara de med id är begrepp i katalogen (beslut 49).
