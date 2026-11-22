@@ -57,7 +57,7 @@ Ordet delning betyder här att en lösning (`C-055`) hör hemma i en domän (`C-
 - **Måttet är hur ofta avvägningen uppstår,** rekommendationen i andra rundan. Nicklas: det handlar om att möta variationen, inte bara om tid. Ersatt av de fyra frågorna.
 - **En förvaltningschef över båda löser fyndet,** rekommendationen i andra rundan. Nicklas: också en chef längre ned kan få mer än hen kan möta. Ersatt av att provet gäller varje nivå.
 - **Livskraft (`C-216`) får ny text om balansen.** Texten säger redan att balansen ska finnas på varje nivå. Avvisat.
-- **Beers system 3 och 4 anges som stöd för att i morgon skyddas mot i dag.** Påståendet är inte kontrollerat mot Brain of the Firm. Katalogen säger bara det som beslut 49 redan står för.
+- **Beer anges som stöd för att skilda personer skyddar i morgon mot i dag.** Beer bär bara en del av det. Han skriver i The Heart of Enterprise (1979) att hela ledningen faller ihop i system 3 när system 4 inte finns tydligt på plats. I en artikel från 1984 skriver han att organisationen då bara reagerar. Men han skriver också, i Diagnosing the System for Organizations (1985, s. 138), att samma chefer arbetar i system 3, 4 och 5. Hos Beer är det alltså uppgifterna som hålls isär, inte personerna. Fördelen att ramen för ändring skyddas är katalogens eget argument. Avvisat som stöd.
 
 ## Konsekvenser
 
@@ -66,4 +66,5 @@ Ordet delning betyder här att en lösning (`C-055`) hör hemma i en domän (`C-
 - `docs/exempel/brinkstadsbostader.md` har fått fördelarna, de fyra vägarna med pris, det lätta fallet med besiktningen, laddstolparna och det växande bolaget. Exemplet säger nu att uthyrningschefen äger processen Besikta en lägenhet vid utflyttning och att bovärdarna besiktar.
 - `CONTEXT.md` har fått ordet delning, och raden om förstärkare nämner båda sorterna av delegation och kunnandet.
 - Beslut 48 och 69 har fått var sin not.
+- Underlaget om Beers system 3 och 4 är `docs/research/beer-system-3-och-4.md`. Citaten ur The Heart of Enterprise är lästa som utdrag, och sidnumren är inte kontrollerade mot boken. Brain of the Firm är inte läst.
 - #217 stängs.
