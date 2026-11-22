@@ -1,5 +1,7 @@
 # Produktionsstyrning är utvecklingsstyrningens tvilling, målet hör till domänen, och en lösnings hemdomän ska rymma produktionen som utför dess beteende
 
+*Beslut 70 ändrar två saker. Orden under ledningen är det vanliga fallet och inte regeln: delningen vägs mot den närmaste ägare som håller båda, på varje nivå. Och en fjärde väg finns ur fyndet, en regel som ger den som har produktionen rätt att besluta.*
+
 Beslutat av Nicklas 13 november 2026, när beslut 47 hade gett varje verksamhetsdomän en utformning och en produktion men bara utformningen hade en styrning med namn.
 
 ## Sammanhang

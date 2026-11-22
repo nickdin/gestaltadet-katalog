@@ -121,6 +121,9 @@ Att ändra utformningen. Rättningar av lösningen hör hit, fast de görs löpa
 **Rättning**, **registervård**:
 Två saker som båda kallas rättning. En rättning av lösningen ändrar utformningen, till exempel programmet som räknar fel. Registervård rättar en enskild uppgift och är produktion (beslut 50).
 
+**Delning**:
+En lösning hör hemma i en domän, och en annan domän utför dess beteende. Delningen visas alltid och vägs mot den närmaste ägare som håller båda. Skilda roller är ingen delning: lösningsägaren och linjechefen får vara olika personer i samma domän. Förklaras i Verksamhetsdomän (C-008) (beslut 48 och 70).
+
 **Utvecklingsdomän**, **produktionsdomän**:
 Inte två sorters domän. Varje verksamhetsdomän har en utformning och en produktion. Den som säger utvecklingsdomänen menar domänens utformning och ändringen av den.
 
@@ -177,7 +180,7 @@ Beers ord för identiteten: ägaren med uppdrag, ändamål och principer. Ägare
 Beers ord för Komplexitet (C-219).
 
 **Dämpare**, **förstärkare**:
-Beers två sätt att möta komplexiteten. En dämpare minskar antalet lägen som kräver beslut: en regel, en princip, ett löst snitt. En förstärkare ökar förmågan att svara: delegation, bemanning, verktyg. Förklaras i Komplexitet (C-219).
+Beers två sätt att möta komplexiteten. En dämpare minskar antalet lägen som kräver beslut: en regel, en princip, ett löst snitt. En förstärkare ökar förmågan att svara: delegation av båda sorterna, kunnande, bemanning, verktyg (beslut 70). Förklaras i Komplexitet (C-219).
 
 **Decentralisering**:
 Den andra änden av skalan i Centralisering (C-220). Inget eget begrepp.

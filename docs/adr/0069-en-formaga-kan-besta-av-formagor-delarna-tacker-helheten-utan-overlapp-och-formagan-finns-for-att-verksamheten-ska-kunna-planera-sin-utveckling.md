@@ -1,5 +1,7 @@
 # En förmåga kan bestå av förmågor, delarna täcker helheten utan överlapp, och förmågan finns för att verksamheten ska kunna planera sin utveckling
 
+*Meningen att produktionen får vara ordnad på annat sätt gäller inte längre i den formen. Produktionen behöver inte spegla förmågorna, men den ska ligga i lösningens hemdomän, och en delning visas alltid (beslut 48 och 70).*
+
 Beslutat av Nicklas 21 november 2026, när beslut 65 hade gett förmågan ett prov som förutsatte att en förmåga kan ha delar, medan lagret saknade relationen.
 
 ## Sammanhang
