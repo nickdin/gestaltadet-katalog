@@ -1,5 +1,7 @@
 # Grundnivån i klassningen är ett beslut av informationsägaren, aldrig tystnad, och den når objektet genom egen rad eller områdets rad
 
+*Exemplen med Bidragsinformation gäller i dag Utbetalningsinformation, där Utbetalning och Återkrav ligger. Regeln står oförändrad (beslut 71).*
+
 Beslutat av Nicklas 18 november 2026, när beslut 58 hade lämnat frågan om en baslinje för klassningen till ett eget ärende.
 
 ## Sammanhang

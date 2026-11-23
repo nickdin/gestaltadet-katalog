@@ -59,11 +59,25 @@ Beslutslogiken är de regler som ger utfallet ur indata. Verksamhetsbidragets st
 - **Företrädare**: personuppgifter om styrelseledamöter och firmatecknare. Känslig: personuppgifter som kan användas för bedrägeri.
 - **Kontonummer**: föreningens konto för utbetalning. Känslig.
 - **Ansökan**, **Redovisning**: det föreningen lämnar in. Intern tills beslut.
-- **Beslut**: bifall, delvis bifall, avslag, återkrav. Öppen när det är fattat, allmän handling.
+- **Villkorsbedömning**: varje villkor för bidraget med utfallet uppfyllt eller inte uppfyllt.
+- **Bidragsberäkning**: underlaget och beloppet. Underlaget är antalet medlemmar och lokalavdelningar som de gällde när beloppet räknades ut.
+- **Beslut om bidrag**: bifall, delvis bifall, avslag. Öppen när det är fattat, allmän handling. Exemplet kallar det Beslut där inget annat sägs.
+- **Beslut om återkrav**: beslutet att föreningen ska betala tillbaka. Öppen när det är fattat, allmän handling.
 - **Utbetalning**, **Återkrav**: beloppet och dess väg. Utbetalning är intern.
 - **Tillsynsärende**: anmälan, granskning, utfall.
 
-Chefen för Bidragsenheten är informationsägare för Ansökan, Redovisning, Beslut, Utbetalning och Återkrav. Chefen för Register- och tillsynsenheten är det för Förening, Företrädare, Kontonummer och Tillsynsärende. Informationsägaren beslutar klassningen och vad som får göras med informationen. Klassen är konfidentialitet och riktighet, och den står i myndighetens klassningsförteckning. Förteckningen över alla företrädare ger ingen ny uppgift och har samma konfidentialitet som Företrädare. Att uppgifterna är många höjer kravet på lagringsytan där förteckningen ligger.
+Chefen för Bidragsenheten är informationsägare för Ansökan, Villkorsbedömning, Bidragsberäkning, Beslut om bidrag, Utbetalning, Återkrav, Beslut om återkrav och Redovisning. Chefen för Register- och tillsynsenheten är det för Förening, Företrädare, Kontonummer och Tillsynsärende. Informationsägaren beslutar klassningen och vad som får göras med informationen. Klassen är konfidentialitet och riktighet, och den står i myndighetens klassningsförteckning. Förteckningen över alla företrädare ger ingen ny uppgift och har samma konfidentialitet som Företrädare. Att uppgifterna är många höjer kravet på lagringsytan där förteckningen ligger.
+
+Objekten ligger i informationsområden, och varje område hör hemma i förmågan där dess förekomster skapas. Bidragsprövning har två delar, och därför består Bidragsinformation av två områden:
+
+- **Bedömningsinformation** rymmer Ansökan, Villkorsbedömning och Beslut om bidrag. Den hör hemma i Bedömning av rätt till bidrag.
+- **Beräkningsinformation** rymmer Bidragsberäkning. Den hör hemma i Beräkning av bidrag.
+
+Föreningen Norrsken ansöker om verksamhetsbidrag. Handläggaren bedömer de tre villkoren, och det blir en villkorsbedömning. Beräkningstjänsten räknar ut 240 000 kronor ur 1 200 medlemmar och 8 lokalavdelningar, och det blir en bidragsberäkning. Beslutet om bifall hänvisar till beräkningen för beloppet. Föreningen Ekbacken får avslag, och där räknar ingen ut något belopp. Ett beslut finns alltså utan beräkning, men aldrig utan bedömning. Därför skapas Beslut om bidrag i bedömningen. Att beslutet skrivs efter uträkningen är ordning, och ordningen hör till handläggningen. Att ta emot ansökan är första steget i bedömningen och ingen egen förmåga, så Ansökan skapas också där.
+
+Myndigheten prövade snittet med frågan vad som hör ihop mer än något annat. Beslutet går inte att förstå utan villkorsbedömningen: de skrivs i samma ärende och lever lika länge. Över gränsen går bara en relation, den från beslutet till beräkningen. Byter myndigheten till automatisk beräkning ändras Bidragsberäkning, och de tre objekten i Bedömningsinformation rörs inte. Snittet i förmågan och snittet i informationen stämmer alltså med varandra. Raden för Bidragsinformation i klassningsförteckningen står kvar på helheten.
+
+**Utbetalningsinformation** rymmer Utbetalning, Återkrav, Beslut om återkrav och Redovisning. Den hör hemma i förmågan Utbetalning och återkrav. Norrsken redovisar året efter att 40 000 kronor inte har använts, och handläggningen Pröva ett återkrav startar. Redovisningen skapas alltså inte i prövningen av bidraget.
 
 Chefen för Bidragsenheten är också processägare för handläggningen Pröva en ansökan och linjechef för enheten som handlägger. Det är det vanliga fallet: de tre rollerna är samma person, och delningen mellan dem syns inte.
 
@@ -81,7 +95,7 @@ Tillgängligheten är ett krav på behandlingen, och processägaren ställer det
 
 Alla fem körs på en gemensam plattform i myndighetens datahall, utom Föreningsportalen som en leverantör driftar.
 
-Ansökningshandläggningen är en lösning: handläggningen Pröva en ansökan, rollen Handläggare, Ansökan, Beslut och Utbetalning, och Ärendesystemet. Det är utformningen. Handläggarna själva ingår inte. Bidragsenhetens chef är lösningsägare och håller lösningens ram. Lösningen använder Föreningsregistret som leveransprodukt och får informationsobjektet Förening genom det. Registerlösningen tar fram och vidmakthåller registret, Ansökningshandläggningen ställer krav på det, och de två kan ändras var för sig. Kopplingen är lös. Myndighetens referensarkitektur antar provet för ett snitt som arkitekturprincip: en lösning har en ägare med ram, och det två lösningar delar bryts ut som en egen lösning. Referensarkitekturen antar också Gemensamt före eget: en lösning använder det som redan finns gemensamt hellre än att bygga eget. Chefen för Bidragsenheten fattar som lösningsägare valen i sin lösning och väger principerna mot varandra. Vill chefen bygga ett eget register över kontaktpersoner för att hinna före årets bidragsomgång, och ingen annan princip bär valet, är det en avvikelse. Arkitekturrådet bedömer saken och lämnar ett råd, men beslutar inte. Avvikelsen avgör generaldirektören, som gav både lösningsägaren och arkitekturstyrningen deras mandat.
+Ansökningshandläggningen är en lösning: handläggningen Pröva en ansökan, rollen Handläggare, informationsområdet Bidragsinformation och Ärendesystemet. Utbetalning ingår inte. Lösningen är beroende av den, och vilken lösning som håller Utbetalningsinformation är inte avgjort (#152). Skär chefen ut Beräkningstjänsten som en mindre lösning håller den Beräkningsinformation. Det är utformningen. Handläggarna själva ingår inte. Bidragsenhetens chef är lösningsägare och håller lösningens ram. Lösningen använder Föreningsregistret som leveransprodukt och får informationsobjektet Förening genom det. Registerlösningen tar fram och vidmakthåller registret, Ansökningshandläggningen ställer krav på det, och de två kan ändras var för sig. Kopplingen är lös. Myndighetens referensarkitektur antar provet för ett snitt som arkitekturprincip: en lösning har en ägare med ram, och det två lösningar delar bryts ut som en egen lösning. Referensarkitekturen antar också Gemensamt före eget: en lösning använder det som redan finns gemensamt hellre än att bygga eget. Chefen för Bidragsenheten fattar som lösningsägare valen i sin lösning och väger principerna mot varandra. Vill chefen bygga ett eget register över kontaktpersoner för att hinna före årets bidragsomgång, och ingen annan princip bär valet, är det en avvikelse. Arkitekturrådet bedömer saken och lämnar ett råd, men beslutar inte. Avvikelsen avgör generaldirektören, som gav både lösningsägaren och arkitekturstyrningen deras mandat.
 
 ## Utformning och produktion
 
@@ -185,6 +199,7 @@ Myndigheten står för förvaltningens mekanik. Hämta härifrån exempel på:
 - livskraft (C-216) i en domän som klarar provet, samordning (C-217) med och utan mandat, och granskning (C-218) bredvid uppföljning
 - uppkommen centralisering (C-220) som följer en princip, blir ett vägt val och till sist en avvikelse som ska rättas, med Verksamhetsstöd i tre lägen
 - aspektbaserad styrning (C-006), aspekt (C-004) och arbetssätt (C-196)
+- informationsområde (C-198) som delas när verksamhetsförmågan (C-069) delas, med Bidragsinformation och dess två områden
 - verksamhetsförmåga (C-069), med Bidragsprövning som består av två förmågor, verksamhetsprocess (C-130) och handläggning (C-160)
 - ärendebeslut (C-181) och beslutslogik (C-178)
 - produkt (C-014), verksamhetsprodukt (C-173) och vara (C-191), och resultat som saknar produkt

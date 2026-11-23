@@ -55,6 +55,8 @@ Förmågan har ingen relation till informationen. Den information som hör till 
 
 Hemmet får vara en del, på vilken nivå som helst. När en förmåga delas modellerar verksamheten om dess information, och informationsområdet kan då också delas. Modelleringen prövar båda snitten med frågan vad som hör ihop mer än något annat. Går informationen inte att dela längs förmågans delar är det ett tecken på att snittet i förmågan eller i informationen är fel. Var hemmet hamnar avgör modelleringen, och katalogen sätter inget mönster för det. Beslut 69.
 
+Har en förmåga delar ligger varje hem i en del, aldrig i helheten. Myndigheten har modellerat informationen i Bidragsprövning. Ansökan, Villkorsbedömning och Beslut om bidrag skapas i Bedömning av rätt till bidrag. Bidragsberäkning, med underlaget och beloppet, skapas i Beräkning av bidrag. Beslutet skrivs efter uträkningen, men det är ordning och hör till processen. Ett avslag visar var beslutet hör hemma: det finns utan beräkning, men aldrig utan bedömning. Informationen gick alltså att dela längs förmågans delar, och ingen tredje del behövdes. Beslut 71.
+
 Namnet säger att förmågan är verksamhetens; typen hör till strategiperspektivet.
 
 ## Motsvarigheter

@@ -1,5 +1,7 @@
 # Informationsområdet är ett begrepp utan elementtyp, ett informationsobjekt som består av sina objekt, varje objekt har ett hem, och nivån får vara grov
 
+*Meningen att ett område aldrig förfinas genom att det delas gäller inte längre i den formen. Ett område delas när dess förmåga delas, och bara då (beslut 71).*
+
 Beslutat av Nicklas 2 november 2026, när ett upplägg för informationshantering ville börja med grupper av information, något katalogen saknade ord för. Beslutet avgör om katalogen behöver en nivå ovanför Informationsobjekt (`C-060`), vad den nivån i så fall är, var ett objekt hör hemma, och på vilken nivå en informationsmodell får börja.
 
 ## Sammanhang

@@ -37,4 +37,4 @@ Typ i verksamhetsperspektivet, en typ av roll ([[C-074 Roll]]). Beslut 35.
 
 ## Exempel
 
-chefen för Bidragsenheten för Ansökan, Redovisning, Beslut, Utbetalning och Återkrav; uthyrningschefen i bostadsbolaget för Hyresgäst, Hyresavtal och Hyresfordran.
+chefen för Bidragsenheten för Ansökan, Villkorsbedömning, Bidragsberäkning, Beslut om bidrag, Utbetalning, Återkrav, Beslut om återkrav och Redovisning; uthyrningschefen i bostadsbolaget för Hyresgäst, Hyresavtal och Hyresfordran.
