@@ -47,6 +47,10 @@ Ordet delning betyder här att en lösning (`C-055`) hör hemma i en domän (`C-
 - **Definitionen av Komplexitet (`C-219`) står kvar.** Den talar om lägen som ställs inför ägaren. De lägen bovärden klarar själv når aldrig ägaren, och så verkar en förstärkare.
 - **Balansen är valet, inte blicken.** Att möta framtidens komplexitet är att bedöma påverkan och ändra utformningen. Balansen är valet av hur mycket av ramen som går till i dag och hur mycket till i morgon. Livskraft (`C-216`) håller redan isär de två och får ingen ny text.
 
+### Stöd i litteraturen
+
+- **Patrick Hoverstadt stöder fyra av punkterna** i The Fractal Organization (2008), som bygger på Stafford Beers modell. Mål och resurser ska hållas ihop, och det är vanligt att olika delar av ledningen håller dem utan koppling (s. 31). Enheterna behöver få lösa sina egna problem (s. 32). Förmågan att ändra sig ska finnas på varje nivå (s. 33 och 37). Samma ämnen, till exempel ekonomi och personal, finns både i styrningen av i dag och i blicken framåt (s. 34–35). Citaten står i `docs/research/beer-system-3-och-4.md`.
+
 ## Övervägda alternativ
 
 - **Produktionen ordnas efter förmågorna,** så att varje förmåga har sin enhet. Kravet gäller domänen, inte indelningen inuti den. Avvisat.
