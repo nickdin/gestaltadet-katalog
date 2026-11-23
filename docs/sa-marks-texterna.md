@@ -21,7 +21,7 @@ Bara jag godkänner en text, och jag godkänner en text i taget. AI märker aldr
 
 ## När en godkänd text ändras
 
-Varje ändring som AI gör i en godkänd text tar bort godkännandet, även ett kommatecken. Texten är då inte granskad förrän jag har läst den igen. Ny text från AI är alltid inte granskad.
+Varje ändring som AI gör i en godkänd text tar bort godkännandet, även ett kommatecken. Texten är då inte granskad förrän jag har läst den igen. Ny text från AI börjar alltid i läget *inte granskad*.
 
 Två ändringar tar inte bort godkännandet:
 
@@ -42,4 +42,4 @@ En sidas historik visar också när AI var med om en ändring.
 
 ## Hur långt granskningen har kommit
 
-Allt som fanns när märkningen infördes började som inte granskat. Jag granskar texterna efter hand, definitionerna först och besluten sist. Meningen här under visar hur många texter som var granskade när sajten senast byggdes.
+Allt som fanns när märkningen infördes började i läget *inte granskad*. Jag granskar texterna efter hand, definitionerna först och besluten sist. Meningen här under visar hur många texter som var granskade när sajten senast byggdes.
