@@ -198,13 +198,51 @@ Hoverstadt säger att förmågan att ändra sig ska finnas på alla nivåer i or
 
 Samma sida säger att varje nivå har sitt eget perspektiv och ofta sin egen tidshorisont, och att de måste jämkas ihop i en förhandling.
 
+## Hoverstadts kapitel 11, läst på hel sida
+
+Sidorna 169–179 i kapitel 11, Strategic Risk, är lästa på hel sida 2026-11-23, ur samma tryckta exemplar. Kapitlet fortsätter efter s. 179, och de sidorna är inte lästa.
+
+**Obalansen går åt båda hållen, s. 177–178.** Hoverstadt beskriver först organisationen som bara väljer det säkra:
+
+> "by avoiding taking these risks, the risk-averse organization effectively shuts itself out of new opportunities. It has unwittingly signed its own death warrant." (Hoverstadt 2008, s. 177–178)
+
+Hoverstadt säger att den som undviker varje risk stänger sig ute från det nya och går under, om än långsamt. Sedan vänder han på det:
+
+> "Obviously the converse is also a problem. Organizations that only indulge in high-risk speculative developments are also highly likely to fail." (Hoverstadt 2008, s. 178)
+
+Hoverstadt säger att den som bara satsar på osäker utveckling också går under. Slutsatsen är hans egen:
+
+> "The critical issue, therefore, is setting the balance between short-term risk in developments – some of which will inevitably fail – and long-term risk if we stick with what is currently a 'safe bet'." (Hoverstadt 2008, s. 178)
+
+Hoverstadt säger att det avgörande är balansen mellan risken på kort sikt i det nya och risken på lång sikt i att stanna vid det säkra. Det belägger i boken det som underlaget ovan bara fann i artikeln från 2002. Listan ur artikeln, med orden "dominated by Cohesion", står inte på de lästa sidorna.
+
+**Väntan avgör hur långt fram man måste se, s. 177.** Hoverstadt skriver:
+
+> "The rate of environmental change minus your reaction time equals the minimum safe planning horizon." (Hoverstadt 2008, s. 177)
+
+Hoverstadt säger att den som behöver sex månader för att svara inte har nytta av en varning som kommer en månad i förväg. Han skriver om strategiska risker, inte om vardagens avvägningar.
+
+**Både förutse och svara snabbt, s. 173.** Hoverstadt skriver:
+
+> "What is needed is the ability to both anticipate risks and to react with agility" (Hoverstadt 2008, s. 173)
+
+Hoverstadt säger att det inte räcker att bli snabbare på att reagera. Organisationen måste också se riskerna komma.
+
+**Delar i olika skeden på varje nivå, s. 179.** Hoverstadt skriver:
+
+> "So within the same organization, there will be a fractal structure with sub-systems at each stage of the life-cycle." (Hoverstadt 2008, s. 179)
+
+Hoverstadt säger att en frisk organisation har delar som är mogna, delar som växer och delar som ännu är under utveckling.
+
+**Inget om samma person.** De lästa sidorna säger inget om att System 3 och System 4 inte bör ligga hos samma person. Påstående 3b är fortfarande inte belagt.
+
 ## Det jag inte kunde bekräfta
 
 - **Att samma person har System 3 och System 4.** Underlaget sökte i fulltexten till *The Heart of Enterprise*, *Diagnosing the System for Organizations*, *Beyond Dispute* och *The Fractal Organization* efter "same people", "same person", "same man", "two hats" och "dominate" tillsammans med System Three och System Four. Ingen träff sade något sådant.
 - **Orden "today" och "tomorrow".** Underlaget fann inte att Beer eller Hoverstadt formulerar obalansen som att i dag vinner över i morgon. Närmast kommer Beers "incapable of planning and foresight" och Hoverstadt och Bowlings "stasis".
 - **Brain of the Firm (1972, 1981).** Boken söktes inte i fulltext. Den finns inte fritt, och en uppladdad kopia hos Internet Archive är borttagen. Påståendena prövades därför inte mot den.
 - **Sidnumren i *The Heart of Enterprise*.** Sökningen ger inte tryckta sidor. Sidnummer finns bara för axiomen (s. 298, enligt Beers egen bilaga från 1984), för registrets uppslag (s. 257, 263, 265) och för s. 258–259 genom en andrahandskälla. Sidan för citatet om att den övre ledningen faller ihop i System 3 är inte fastställd. Den som har boken bör slå upp den.
-- **Hoverstadts kapitel om strategi.** Underlaget kunde inte läsa kapitel 11, Strategic Risk (s. 169), eller kapitel 12, Strategy (s. 183), i *The Fractal Organization*. Det kunde inte heller läsa Hoverstadts kapitel "The Viable System Model" i Reynolds och Holwell, *Systems Approaches to Making Change* (2020), som bygger på boken. En sökning efter "stasis", "retrenchment" och "dominated by" gav inga träffar i boken. Om listan över strategiproblem från 2002 står där är alltså inte bekräftat.
+- **Hoverstadts kapitel om strategi.** Av kapitel 11, Strategic Risk, i *The Fractal Organization* är s. 169–179 lästa på hel sida, se ovan. Resten av kapitlet och kapitel 12, Strategy (s. 183), är inte lästa. Det kunde inte heller läsa Hoverstadts kapitel "The Viable System Model" i Reynolds och Holwell, *Systems Approaches to Making Change* (2020), som bygger på boken. En sökning efter "stasis", "retrenchment" och "dominated by" gav inga träffar i boken. Om listan över strategiproblem från 2002 står där är alltså inte bekräftat.
 - **En spårbar ledtråd om investeringar.** *The Heart of Enterprise* säger att "Methods of ROI estimation are quite different for System Three and System Four" och att "In the case of System Three, cash investment can readily be assimilated into the established pattern". Resten av resonemanget gick inte att läsa. Det kan förklara varför System 3 lättare får pengar, men underlaget kan inte säga det.
 
 ## Hur citaten togs fram
