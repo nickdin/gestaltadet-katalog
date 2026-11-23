@@ -8,7 +8,7 @@ Underlaget prövar tre påståenden om samspelet mellan System 3 och System 4 i 
 
 1. **System 3 och System 4 är skilda funktioner: belagt.** Beer ger dem var sitt kapitel i *The Heart of Enterprise* (1979), "Inside and now" och "Outside and then". Hoverstadt skiljer dem på samma sätt.
 2. **System 5 håller balansen mellan dem: belagt, med en precisering.** Hos Beer balanserar System 3 och System 4 varandra i en homeostat, en självreglerande slinga. System 5 övervakar den slingan, griper in i den och tar hand om det som slingan inte löser. Det är Hoverstadt som skriver att System 5 balanserar de två.
-3. **System 3 tar över när System 4 är svagt eller när samma person har båda: delvis belagt.** Första halvan har stöd i Beers egna ord: utan ett System 4 på plats faller hela den övre ledningen ihop i System 3, och organisationen kan då bara reagera. Andra halvan, att samma person har båda rollerna, fann underlaget inget stöd för. Beer pekar snarare åt andra hållet.
+3. **System 3 tar över när System 4 är svagt eller när samma person har båda: delvis belagt.** Första halvan har stöd i Beers egna ord: utan ett System 4 på plats faller hela den övre ledningen ihop i System 3, och organisationen kan då bara reagera. Andra halvan, att samma person har båda rollerna, har inget stöd hos Beer, som snarare pekar åt andra hållet. Hoverstadt ger den ett delvis stöd: en enskild chef är lagd åt det ena eller det andra, och i stora organisationer väger nuet tyngst (2008, s. 199–203, läst på hel sida).
 
 ## 1. System 3 och System 4 är skilda funktioner
 
@@ -44,7 +44,7 @@ Beer säger att drift och utveckling måste samverka mycket för att hålla bala
 
 **Hoverstadt skiljer dem på samma sätt.** I *The Fractal Organization* heter System 3 "delivery management" och System 4 "development management" (Hoverstadt 2008, kapitel 3; registret ger s. 30–32 för System 3 och s. 33–34 för System 4). Figur 3.5 visar System 4 som "Development" och står på s. 34. Hoverstadt beskriver arbetsdelningen så här:
 
-> "Closing the gap is primarily the job of 'delivery management' (system 3). Opening up the gap is primarily the job of 'development management' (system 4)." (Hoverstadt 2008; sidan inte fastställd)
+> "Closing the gap is primarily the job of 'delivery management' (system 3). Opening up the gap is primarily the job of 'development management' (system 4)." (Hoverstadt 2008, s. 194, läst på hel sida)
 
 Hoverstadt säger att System 3 sluter gapet mellan plan och utfall, medan System 4 öppnar ett nytt gap genom att sätta nya mål.
 
@@ -136,7 +136,9 @@ Texten säger att en strategi som domineras av den inre styrningen leder till st
 
 Exemplet de ger är "Reliance on outdated products / services, failure to resource new ideas / products / markets" (Hoverstadt och Bowling 2002, s. 13). Här heter System 3 "Cohesion" och System 4 "Intelligence". Texten anger inte orsaken till obalansen. Den säger alltså inte att ett svagt System 4 eller en delad roll är orsaken. Underlaget kunde inte bekräfta att samma lista står i *The Fractal Organization* (2008).
 
-### 3b. När samma person har båda rollerna: inte belagt
+### 3b. När samma person har båda rollerna: inte belagt hos Beer, delvis belagt hos Hoverstadt
+
+Hoverstadts stöd står i avsnittet om kapitel 12 nedan. Det här avsnittet gäller sökningen i fulltext.
 
 Underlaget fann ingen mening hos Beer eller Hoverstadt som säger att System 3 tar över när samma person har System 3 och System 4.
 
@@ -236,13 +238,75 @@ Hoverstadt säger att en frisk organisation har delar som är mogna, delar som v
 
 **Inget om samma person.** De lästa sidorna säger inget om att System 3 och System 4 inte bör ligga hos samma person. Påstående 3b är fortfarande inte belagt.
 
+## Hoverstadts kapitel 12, läst på hel sida
+
+Sidorna 183–200 och 202–203 i kapitel 12, Strategy, är lästa på hel sida 2026-11-23, ur samma tryckta exemplar. Sidan 201 är inte läst, och kapitlet fortsätter efter s. 203.
+
+**Nuet väger tyngre i stora organisationer, s. 199–203.** Här står det som underlaget ovan inte fann. Hoverstadt beskriver de två sorternas ledning som "running the business" och "changing the business" och skriver:
+
+> "Most obviously, they are in tension because creating the future inevitably involves reducing the efficiency of the present." (Hoverstadt 2008, s. 199)
+
+Hoverstadt säger att det nya alltid kostar något av dagens effektivitet. Han ger sedan ett skäl till att nuet brukar vinna. Den som sköter nuet har siffror om det som har hänt. Den som vill ändra har bara bedömningar om det som kommer:
+
+> "their judgement can always be called into question more easily than the manager who can state as a fact that the organization cannot afford that change." (Hoverstadt 2008, s. 200)
+
+Hoverstadt säger att en bedömning om framtiden alltid är lättare att ifrågasätta än ett påstående om att pengarna inte räcker. Slutsatsen om stora organisationer är tydlig:
+
+> "established large organizations are overwhelmingly biased in favour of 'running the business' at the expense of adapting to the future." (Hoverstadt 2008, s. 202)
+
+Hoverstadt säger att etablerade stora organisationer lutar starkt åt att sköta nuet, på bekostnad av anpassningen. Han säger på samma sida att obalansen kan gå åt båda hållen, och att många nystartade företag lutar åt förändring.
+
+**De två kräver olika sorters tänkande, s. 199 och 202.** Det här är det närmaste underlaget kommer påstående 3b:
+
+> "They require different types of thinking, so individual managers are predisposed to one or the other." (Hoverstadt 2008, s. 199)
+
+Hoverstadt säger att en enskild chef är lagd åt det ena eller det andra. Därav hans råd:
+
+> "For balanced decision-making, you need management teams with a balance of psychometric personality types." (Hoverstadt 2008, s. 202)
+
+Hoverstadt säger att en ledningsgrupp behöver människor av båda sorterna för att besluten ska bli balanserade. Han säger inte att en och samma person inte får ha båda uppgifterna. Han säger att en person sällan väger de två lika, och att balansen därför kräver flera personer. Resonemanget bygger på personlighetstest av typen Myers-Briggs, och hur väl de testen håller har underlaget inte prövat. Början av resonemanget står på s. 201, som inte är läst.
+
+**De två felen har namn, s. 203.** Hoverstadt kallar ledningar som lutar åt nuet "Bean Counters" och ledningar som lutar åt framtiden "Castles in the air". Om de första skriver han:
+
+> "the 'performance management' function dominates strategy development and the 'development management' function is underdeveloped, neglected, or ignored." (Hoverstadt 2008, s. 203)
+
+Hoverstadt säger att styrningen av nuet tar över strategin och att utvecklingen försummas. Det är samma sak som artikeln från 2002 kallar "Strategy dominated by Cohesion". Beskrivningen av det andra felet står efter s. 203 och är inte läst.
+
+**System 3 sluter gapet och System 4 öppnar det, s. 194.** Citatet i avsnitt 1 står på s. 194, under rubriken "Strategic Conversations". På s. 195 skriver Hoverstadt att ekonomi behövs både för likviditeten på kort sikt, System 3, och för investeringarna på lång sikt, System 4, och att personal behövs både för bemanningen och för utbildningen. Samma ämne finns alltså i båda.
+
+**En liten ledning kan inte veta allt, s. 187–188.** Hoverstadt skriver med stöd i Ashbys lag:
+
+> "A small management team cannot possibly know about or understand all the complexity in the organization and the environment that may be relevant to their decision." (Hoverstadt 2008, s. 187)
+
+Hoverstadt säger att få beslutsfattare gör beslutet enklare men också sämre underbyggt. Han lägger till ett villkor:
+
+> "This is fine as long as the decision-making group has the requisite variety – as long as they know enough about the situation." (Hoverstadt 2008, s. 188)
+
+Hoverstadt säger att det går bra att få beslutar, så länge de vet tillräckligt om läget.
+
+**Det som enheten ser måste ha en väg, s. 190 och 192.** Hoverstadt skriver om strategi som bara sätts uppifrån:
+
+> "options and risks visible at the departmental level are ignored and departmental managers are faced with implementing a strategy that may not relate to the world they see." (Hoverstadt 2008, s. 190)
+
+Hoverstadt säger att det som bara syns på enhetens nivå går förlorat, och att enhetens chefer får genomföra något som inte stämmer med det de ser. På s. 192 ger han skälet:
+
+> "the organization can only hear the sorts of messages it is structured to hear." (Hoverstadt 2008, s. 192)
+
+Hoverstadt säger att en organisation bara hör det den är byggd för att höra. En enskild medarbetare kan höra något, men utan en mottagare försvinner det.
+
+**Strategi finns på varje nivå, s. 189–190.** Hoverstadt skriver:
+
+> "all levels of the organization have strategic issues about how they relate to their operating environments and what their purpose should be." (Hoverstadt 2008, s. 189)
+
+Hoverstadt säger att varje nivå har sina egna frågor om omvärlden och om sitt ändamål, också en enhet eller ett team.
+
 ## Det jag inte kunde bekräfta
 
 - **Att samma person har System 3 och System 4.** Underlaget sökte i fulltexten till *The Heart of Enterprise*, *Diagnosing the System for Organizations*, *Beyond Dispute* och *The Fractal Organization* efter "same people", "same person", "same man", "two hats" och "dominate" tillsammans med System Three och System Four. Ingen träff sade något sådant.
 - **Orden "today" och "tomorrow".** Underlaget fann inte att Beer eller Hoverstadt formulerar obalansen som att i dag vinner över i morgon. Närmast kommer Beers "incapable of planning and foresight" och Hoverstadt och Bowlings "stasis".
 - **Brain of the Firm (1972, 1981).** Boken söktes inte i fulltext. Den finns inte fritt, och en uppladdad kopia hos Internet Archive är borttagen. Påståendena prövades därför inte mot den.
 - **Sidnumren i *The Heart of Enterprise*.** Sökningen ger inte tryckta sidor. Sidnummer finns bara för axiomen (s. 298, enligt Beers egen bilaga från 1984), för registrets uppslag (s. 257, 263, 265) och för s. 258–259 genom en andrahandskälla. Sidan för citatet om att den övre ledningen faller ihop i System 3 är inte fastställd. Den som har boken bör slå upp den.
-- **Hoverstadts kapitel om strategi.** Av kapitel 11, Strategic Risk, i *The Fractal Organization* är s. 169–179 lästa på hel sida, se ovan. Resten av kapitlet och kapitel 12, Strategy (s. 183), är inte lästa. Det kunde inte heller läsa Hoverstadts kapitel "The Viable System Model" i Reynolds och Holwell, *Systems Approaches to Making Change* (2020), som bygger på boken. En sökning efter "stasis", "retrenchment" och "dominated by" gav inga träffar i boken. Om listan över strategiproblem från 2002 står där är alltså inte bekräftat.
+- **Hoverstadts kapitel om strategi.** Av kapitel 11, Strategic Risk, i *The Fractal Organization* är s. 169–179 lästa på hel sida, se ovan. Av kapitel 12, Strategy, är s. 183–200 och 202–203 lästa på hel sida. Slutet av kapitel 11, s. 201 och slutet av kapitel 12 är inte lästa. Det kunde inte heller läsa Hoverstadts kapitel "The Viable System Model" i Reynolds och Holwell, *Systems Approaches to Making Change* (2020), som bygger på boken. En sökning efter "stasis", "retrenchment" och "dominated by" gav inga träffar i boken. Om listan över strategiproblem från 2002 står där är alltså inte bekräftat.
 - **En spårbar ledtråd om investeringar.** *The Heart of Enterprise* säger att "Methods of ROI estimation are quite different for System Three and System Four" och att "In the case of System Three, cash investment can readily be assimilated into the established pattern". Resten av resonemanget gick inte att läsa. Det kan förklara varför System 3 lättare får pengar, men underlaget kan inte säga det.
 
 ## Hur citaten togs fram

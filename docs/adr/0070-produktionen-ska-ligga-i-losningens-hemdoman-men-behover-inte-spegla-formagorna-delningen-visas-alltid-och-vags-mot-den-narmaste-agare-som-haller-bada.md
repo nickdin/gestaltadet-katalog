@@ -50,6 +50,8 @@ Ordet delning betyder här att en lösning (`C-055`) hör hemma i en domän (`C-
 ### Stöd i litteraturen
 
 - **Patrick Hoverstadt stöder fyra av punkterna** i The Fractal Organization (2008), som bygger på Stafford Beers modell. Mål och resurser ska hållas ihop, och det är vanligt att olika delar av ledningen håller dem utan koppling (s. 31). Enheterna behöver få lösa sina egna problem (s. 32). Förmågan att ändra sig ska finnas på varje nivå (s. 33 och 37). Samma ämnen, till exempel ekonomi och personal, finns både i styrningen av i dag och i blicken framåt (s. 34–35). Citaten står i `docs/research/beer-system-3-och-4.md`.
+- **Hoverstadt stöder också att ramen för ändring behöver skydd.** Det nya kostar alltid något av dagens effektivitet (s. 199). Den som sköter nuet har siffror, och den som vill ändra har bara bedömningar, som är lättare att ifrågasätta (s. 200). Stora, etablerade organisationer lutar därför starkt åt nuet (s. 202). Han skriver också att en enskild chef är lagd åt det ena eller det andra, och att balansen därför kräver flera personer (s. 199 och 202). Den delen bygger på personlighetstest, och hur väl de håller är inte prövat här.
+- **Hoverstadt stöder två av bedömningens frågor.** En liten ledning kan inte veta allt som rör beslutet, och det går bra bara så länge den vet tillräckligt om läget (s. 187–188). Det som bara syns på enhetens nivå går förlorat om det inte har en mottagare (s. 190 och 192).
 
 ## Övervägda alternativ
 
@@ -61,7 +63,7 @@ Ordet delning betyder här att en lösning (`C-055`) hör hemma i en domän (`C-
 - **Måttet är hur ofta avvägningen uppstår,** rekommendationen i andra rundan. Nicklas: det handlar om att möta variationen, inte bara om tid. Ersatt av de fyra frågorna.
 - **En förvaltningschef över båda löser fyndet,** rekommendationen i andra rundan. Nicklas: också en chef längre ned kan få mer än hen kan möta. Ersatt av att provet gäller varje nivå.
 - **Livskraft (`C-216`) får ny text om balansen.** Texten säger redan att balansen ska finnas på varje nivå. Avvisat.
-- **Beer anges som stöd för att skilda personer skyddar i morgon mot i dag.** Beer bär bara en del av det. Han skriver i The Heart of Enterprise (1979) att hela ledningen faller ihop i system 3 när system 4 inte finns tydligt på plats. I en artikel från 1984 skriver han att organisationen då bara reagerar. Men han skriver också, i Diagnosing the System for Organizations (1985, s. 138), att samma chefer arbetar i system 3, 4 och 5. Hos Beer är det alltså uppgifterna som hålls isär, inte personerna. Fördelen att ramen för ändring skyddas är katalogens eget argument. Avvisat som stöd.
+- **Beer anges som stöd för att skilda personer skyddar i morgon mot i dag.** Beer bär bara en del av det. Han skriver i The Heart of Enterprise (1979) att hela ledningen faller ihop i system 3 när system 4 inte finns tydligt på plats. I en artikel från 1984 skriver han att organisationen då bara reagerar. Men han skriver också, i Diagnosing the System for Organizations (1985, s. 138), att samma chefer arbetar i system 3, 4 och 5. Hos Beer är det alltså uppgifterna som hålls isär, inte personerna. Fördelen att ramen för ändring skyddas har alltså inget stöd hos Beer. Den har stöd hos Hoverstadt, se ovan. Avvisat som stöd.
 
 ## Konsekvenser
 
