@@ -23,6 +23,7 @@ Ordet delning betyder här att en lösning (`C-055`) hör hemma i en domän (`C-
 ### Vad en delning ger
 
 - **Att hålla isär har två fördelar.** Den ena är lika behandling. Teknisk chef hos Brinkstadsbostäder håller en process för tre kontor, och hyresgästen i Åbrinken får samma besked som hyresgästen i ett annat område. Den andra är att ramen för ändring skyddas mot dagens tryck. En vinter med många vattenläckor kan kontorschefen inte ta pengarna för den nya appen till fler bovärdar.
+- **Obalansen kan gå åt båda hållen.** Skyddet för ändring har ett pris. Bygger teknisk chef om appen tre år i rad medan bovärdarna inte hinner med felanmälningarna har i morgon tagit över i stället. Bara den som håller båda kan rätta obalansen. Hoverstadt beskriver båda felen (s. 178 och 202–203).
 - **Fördelarna kommer av att rollerna är skilda.** De kräver inte att bara högsta ledningen håller båda.
 
 ### Hur en delning vägs

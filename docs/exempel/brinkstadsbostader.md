@@ -76,6 +76,8 @@ Felanmälan hör hemma hos teknisk chef, men bovärdarna arbetar på tre område
 
 Delningen ger också något. Teknisk chef håller en process för alla tre kontoren. Hyresgästen i Åbrinken får därför samma besked och samma tid som hyresgästen i ett annat område. Pengarna för att ändra utformningen är också skyddade. En vinter med många vattenläckor vill en kontorschef ha fler bovärdar, men hen kan inte ta pengarna som teknisk chef har för en ny version av appen.
 
+Skyddet har också ett pris, för obalansen kan gå åt andra hållet. Anta att teknisk chef bygger om appen tre år i rad, medan bovärdarna inte hinner med felanmälningarna. Då har i morgon tagit över i stället för i dag. Kontorscheferna kan inte ta pengarna, och teknisk chef beslutar inte om bovärdarna. Bara den som håller båda kan rätta obalansen, åt vilket håll den än går.
+
 Tre möter komplexiteten i Felanmälan. Vattnet läcker i en lägenhet i Åbrinken en fredag. Bovärden möter läget: hen stänger vattnet och beställer en entreprenör. Kontorschefen möter belastningen: hen sätter två bovärdar på jour i mellandagarna. Teknisk chef möter morgondagens lägen: hen ändrar processen så att appen frågar efter ett foto. De tre behöver inte vara samma person. Svagheten är bara att vägningen mellan jouren och appen går till vd.
 
 Fyra vägar finns ur svagheten, och varje väg har ett pris:
