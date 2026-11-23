@@ -80,7 +80,7 @@ Registret i boken pekar ut var samspelet behandlas: "System Three-Four balancer,
 
 **Hoverstadt: System 5 balanserar.** Hoverstadt skriver att "where we are now" hör till delivery management och att "where we want to be in the future" hanteras av intelligence, och sedan:
 
-> "Balancing the two is 'Policy'." (Hoverstadt 2008; sidan inte fastställd. Samma mening står i Hoverstadt och Bowling 2002, s. 12)
+> "Balancing the two is 'Policy'." (Hoverstadt 2008, s. 35, läst på hel sida. Samma mening står i Hoverstadt och Bowling 2002, s. 12)
 
 Hoverstadt säger att policyfunktionen, System 5, balanserar nuet mot framtiden.
 
@@ -159,6 +159,44 @@ Det gör det svårt att läsa in en regel om att en och samma person inte bör h
 - Beer säger att samspelet mellan System 3 och System 4 är svagt i sig: "the activity between them is the most vulnerable underbelly of the enterprise" (Beer 1994, *Beyond Dispute*; sidan inte fastställd). Han säger inte där åt vilket håll det brister.
 - I *Beyond Dispute* beskriver Beer hur folk i System 4 ser på System 3: pengar läggs på "doomed attempts to prop up decrepit plant serving a rapidly evaporating market". Men det är en beskrivning av en sidas fördom. Beer kallar själv den hållningen "attitudinizing" som "is not productive". Citatet stöder därför inte påstående 3.
 - Steinhaeusser med flera (2013, s. 56) återger Beer 1979, s. 258, så här: organisationen kan bara överleva om ingen av de två dominerar den andra *(andrahandskälla, omskrivning, inte citat)*.
+
+## Hoverstadts kapitel 3, läst på hel sida
+
+Sidorna 30–37 i *The Fractal Organization* (2008) är lästa på hel sida 2026-11-23, ur ett tryckt exemplar. Citaten nedan är alltså kontrollerade mot sidan, till skillnad från utdragen ovan.
+
+**Balansen är policyfunktionens, s. 35.** Meningen "Balancing the two is 'Policy'" står på s. 35, under rubriken "Systems 3, 4 and 5 – Strategy". Hoverstadt fortsätter:
+
+> "This set of conversational processes needs to be overseen by the policy function." (Hoverstadt 2008, s. 35)
+
+Hoverstadt säger att policyfunktionen, System 5, ser över samtalen mellan leverans och utveckling. Det ligger nära Beers ord om att System 5 övervakar samspelet.
+
+**Samma ämnen finns i både System 3 och System 4, s. 34–35.** Hoverstadt skriver:
+
+> "Many of the disciplines that manage delivery in the organization (financial control, personnel, operations management) have a counterpart within intelligence: finance planning, training and development, capacity planning." (Hoverstadt 2008, s. 34)
+
+Hoverstadt säger att ekonomi, personal och drift har var sin motsvarighet som ser framåt. Figur 3.6 på s. 35 ritar HR och Finance i båda rutorna. Det är uppgifterna som skiljs åt, och sidorna säger inget om att personerna ska vara olika. Påstående 3b är fortfarande inte belagt.
+
+**Mål och resurser ska hållas ihop, s. 31.** Hoverstadt skriver om System 3:
+
+> "Very often, resource allocation and the setting of performance targets are dealt with by different parts of management and are not connected." (Hoverstadt 2008, s. 31)
+
+Hoverstadt säger att det är vanligt att en del av ledningen sätter målen och en annan fördelar resurserna, utan att de två hänger ihop. Han skriver sedan att de två måste kopplas ihop i ett samtal där en enhet begär resurser för att nå det mål man kommit överens om, och att det är svårt där ledningen är delad efter funktion (s. 31).
+
+**Enheterna behöver få lösa sina egna problem, s. 32.** Hoverstadt skriver:
+
+> "Denying the managers of the sub-systems the autonomy they need to solve their own problems is a major problem in many organizations." (Hoverstadt 2008, s. 32)
+
+Hoverstadt säger att chefer frestas att lägga sig i enheternas vardag, och att enheterna levererar bättre ju mer de får avgöra själva.
+
+**Anpassningen ska finnas på varje nivå, s. 33 och 37.** Hoverstadt skriver:
+
+> "So to be viable, organizations need to be able to adapt, and furthermore, the mechanisms for adaptation need to be present in all levels of the organization." (Hoverstadt 2008, s. 33)
+
+Hoverstadt säger att förmågan att ändra sig ska finnas på alla nivåer i organisationen. På s. 37 skriver han att beslut fattas på flera nivåer och inte bara av högsta ledningen:
+
+> "This means that decision making is a multi-level activity and not merely the prerogative of senior management" (Hoverstadt 2008, s. 37)
+
+Samma sida säger att varje nivå har sitt eget perspektiv och ofta sin egen tidshorisont, och att de måste jämkas ihop i en förhandling.
 
 ## Det jag inte kunde bekräfta
 
