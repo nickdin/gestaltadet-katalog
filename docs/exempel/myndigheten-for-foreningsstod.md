@@ -119,13 +119,17 @@ HR och IT är stödverksamhet. Generaldirektören har i arbetsordningen gett HR 
 
 Register- och tillsynsenheten registrerar nya företrädare varje dag och sköter registervården. Det är produktionen som utför registerlösningens beteende, och den ligger i samma domän som lösningen. Supporten hos IT är IT:s egen produktion av IT:s egen leveransprodukt. Här ligger alltså lösningen och produktionen i samma domän. Registerlösningen lämnar också leveransprodukten Föreningsregistret. Det är en lösning, inte två. Analysenheten lämnar Riskindikator per förening till tillsynen, som väljer stickprov med den. Det är också en leveransprodukt.
 
+Analysenheten räknar fram Riskindikator per förening varje kvartal, för alla föreningar i registret. Beräkningen följer en modell, som säger hur tungt varje tecken på fel väger. Beräkningen är produktion i Uppföljning: analytikerna utför den innan något tillsynsärende finns. Tillsynen väljer sedan stickprovet, och urvalet är tillsynens eget steg.
+
+Ett år går analytikerna igenom tre års återkrav. De finner att sena redovisningar förutsäger fel bäst, och skriver slutsatsen i en promemoria. Promemorian är också produktion. Chefen för Analysenheten beslutar sedan att modellen ska väga sena redovisningar tyngre. Beslutet ändrar modellen, den del av lösningen som realiserar leveransprodukten. Därför betalar lösningens ram ändringen. Tillsynen hinner granska 40 föreningar per kvartal och kräver därför att listan inte pekar ut fler.
+
 ## Organisation och domäner
 
 Myndigheten har fyra enheter under generaldirektören: Bidragsenheten, Register- och tillsynsenheten, Analysenheten och Verksamhetsstöd. Domänerna följer inte enheterna helt. En domän uppstår där någon har fått ett uppdrag med egen ram, och det har inte varje enhet. Fem domäner ligger direkt under generaldirektören:
 
 - **Bidragsgivning.** Chefen för Bidragsenheten äger den.
 - **Registerföring och tillsyn.** Chefen för Register- och tillsynsenheten äger den. Den rymmer två av regeringens uppdrag.
-- **Uppföljning.** Chefen för Analysenheten äger den. Utformningen är en lösning som rymmer analysfunktionen, datalagret och de objekt funktionen upprättar, och chefen för Analysenheten är dess lösningsägare. Produktionen är årets rapport till regeringen, varje beräkning av Riskindikator per förening och analytikerna som gör dem.
+- **Uppföljning.** Chefen för Analysenheten äger den. Utformningen är en lösning som rymmer analysfunktionen, datalagret och de objekt funktionen upprättar, och chefen för Analysenheten är dess lösningsägare. Produktionen är årets rapport till regeringen, varje analys, varje beräkning av Riskindikator per förening och analytikerna som gör dem.
 - **IT** och **HR.** IT-chefen och HR-chefen äger var sin. Uppdragen är inre och kommer direkt från generaldirektören.
 
 Tillsyn är en domän inuti Registerföring och tillsyn. Chefen för enheten har lämnat tillsynen till en gruppchef med egen ram. Gruppchefen väljer själv att lägga årets pengar på fler stickprov i stället för en ny granskningsmall. Chefen för enheten omsluter både registret och tillsynen och kan väga dem mot varandra. Här skiljer sig domänerna från enheterna, och ingen avvägning blir utan ägare.
