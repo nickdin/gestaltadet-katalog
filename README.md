@@ -1,6 +1,6 @@
 # GestaltaDet: begreppskatalogen
 
-En begreppskatalog för verksamhetsarkitektur: ett begrepp, ett id, en definition, de termer som används för det, och relationerna mellan begreppen. Katalogen är skriven från svensk offentlig sektor, men begreppen gäller alla verksamheter. Den läses av programmet interlingua och publiceras på gestaltadet.se/katalog.
+En begreppskatalog för arkitektur och styrning: ett begrepp, ett id, en definition, de termer som används för det, och relationerna mellan begreppen. Katalogen är skriven från svensk offentlig sektor, men begreppen gäller alla verksamheter. Den läses av programmet interlingua och publiceras på gestaltadet.se/katalog.
 
 ## Vad som finns här
 
