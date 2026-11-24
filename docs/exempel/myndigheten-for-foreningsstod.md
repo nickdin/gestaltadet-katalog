@@ -41,7 +41,7 @@ Fem förmågor säger vad myndigheten kan göra, oavsett vem som gör det eller 
 - **Utbetalning och återkrav**: att betala ut beviljat bidrag och kräva tillbaka det som inte använts rätt.
 - **Registerhållning**: att veta vilka föreningar som finns, vem som företräder dem och vart pengarna ska.
 - **Tillsyn**: att granska hur bidrag använts.
-- **Uppföljning och rapportering**: att sammanställa och rapportera till regeringen.
+- **Uppföljning och rapportering**: att sammanställa och rapportera till regeringen. Den består av två förmågor: Dataharmonisering och Analys.
 
 ## Processer och handläggningar
 
@@ -186,6 +186,14 @@ Myndigheten åtgärdar alla tre fynden:
 
 Bedömningen om källan för Förening går till målarkitekturen. Varvet slutar utan att någon har beslutat om den.
 
+Datalagret är ordnat för fler frågor än en. Ansökningstabellen rymmer hela Ansökan, inte bara de uppgifter som Utbetalningar per kommun behöver. Syftet är analysfunktionens uppföljning av verksamheten, och det syftet räcker för frågor som ingen har ställt än. Sådan data kallas harmoniserad data: varje objekt hålls helt, följer den definition dess ägare har gett det och går att koppla till de andra. Datalagret är inte harmoniserat förrän Förening hämtas ur Föreningsregistret.
+
+För Företrädare räcker inte det breda syftet. Företrädare är personuppgifter, och dataskyddsförordningen kräver att uppgifterna inte är fler än ändamålet behöver. Kopian behöver ett behov i uppföljningen nu, och ingen analys använder den. Kravet på att bevara ärendena ändrar inte det. Myndigheten bevarar ärendena och deras företrädare i Ärendesystemet och Föreningsregistret, och datalagret är inget arkiv.
+
+Arkitektens bedömning visar också något om förmågorna. Chefen för Analysenheten ansvarar för Uppföljning och rapportering och delar den i två: Dataharmonisering och Analys. Dataharmonisering är att föra samman data från flera källor, så att varje objekt följer ägarens definition och går att koppla till de andra. Analys är att sätta samman, räkna fram och rapportera. Chefen delar förmågan för att kunna sätta ett eget mål för den första delen: varje objekt i datalagret hämtas ur sin källa. Målet rör inte målet för rapporten till regeringen, och det står kvar om myndigheten byter analysplattform. Målet säger vad utformningen ska klara. Själva bytet av källa väntar på målarkitekturen.
+
+Dataharmonisering äger inga begrepp och inga informationsobjekt. Den upprättar representationerna i datalagret, som ansökningstabellen. Utbetalningar per kommun och Riskindikator per förening skapas i Analys. Bara Uppföljning och rapportering behöver Dataharmonisering i dag, och därför är den en del av den förmågan. Behöver Tillsyn den också blir den en egen förmåga bredvid. Beslut 72.
+
 ## Vem den finns för
 
 Målgruppen är ideella föreningar och de människor som företräder dem, oftast ideellt och vid sidan av ett arbete. Deras behov är att få stöd till verksamheten utan att administrationen äter upp den. Resan de går igenom är att starta en förening, få den att växa och hålla den vid liv över åren. Myndigheten är en av flera parter i den, med Skatteverket, kommunen och banken. Värdeerbjudandet är ett bidrag som går att söka på en kväll och som betalas ut i tid.
@@ -204,11 +212,11 @@ Myndigheten står för förvaltningens mekanik. Hämta härifrån exempel på:
 - uppkommen centralisering (C-220) som följer en princip, blir ett vägt val och till sist en avvikelse som ska rättas, med Verksamhetsstöd i tre lägen
 - aspektbaserad styrning (C-006), aspekt (C-004) och arbetssätt (C-196)
 - informationsområde (C-198) som delas när verksamhetsförmågan (C-069) delas, med Bidragsinformation och dess två områden
-- verksamhetsförmåga (C-069), med Bidragsprövning som består av två förmågor, verksamhetsprocess (C-130) och handläggning (C-160)
+- verksamhetsförmåga (C-069), med Bidragsprövning som består av två förmågor och Uppföljning och rapportering som delas i Dataharmonisering och Analys, verksamhetsprocess (C-130) och handläggning (C-160)
 - ärendebeslut (C-181) och beslutslogik (C-178)
 - produkt (C-014), verksamhetsprodukt (C-173) och vara (C-191), och resultat som saknar produkt
 - informationsobjekt (C-060), uppgift (C-161) och sammanställning (C-162)
-- lagringsyta (C-165) med datalagret och Analysenhetens grupprum
+- lagringsyta (C-165) med datalagret, harmoniserad data och Analysenhetens grupprum
 - arbetssättet Informationskartläggning med analysfunktionen: tre fynd, ett per perspektiv, arkitektens bedömning om källan och en skillnad som inte är ett fynd
 - informationsägare (C-167), processägare (C-206) och linjechef (C-207) i en och samma person
 - team (C-123) som utför en verksamhetsfunktion (C-158) tvärs över enheterna, med Arkitekterna: en fast ram (C-210) i verksamhetsplanen, och huvudarkitektens två uppdrag
