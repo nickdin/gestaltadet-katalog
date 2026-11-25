@@ -35,6 +35,8 @@ Produkten hör till lösningens gräns. Inte varje resultat som lämnar en lösn
 
 En produkt erbjuds av exakt en lösning. Det andra lösningar bidrar med kommer till den lösningen som leveransprodukter ([[C-174 Leveransprodukt]]). Verksamhetsbidraget lovar en prövning, ett beslut och en utbetalning. Lösningen Ansökningshandläggningen erbjuder bidraget, och dess ägare svarar för vad bidraget lovar och för att utformningen kan hålla det, även om en annan lösning betalar ut. Den lösningens ägare svarar i sin tur inför Ansökningshandläggningens ägare, mot krav och överenskommelse. Så finns det en som svarar på var sida om varje gräns. Två lösningar med var sin produkt kan använda samma utbetalning. Beslut 46.
 
+En förmågekarta får rita produkten från den förmåga ([[C-069 Verksamhetsförmåga]]) som lämnar den, innan lösningen är känd. Pilen är en genväg genom beteendet. Funktionen Ta fram statistik realiserar Analys och tar fram Riskindikator per förening. Kartan visar då att Analys lämnar Riskindikator per förening och att Tillsyn använder den. Lagret får ingen relation mellan förmågan och produkten, och produkten erbjuds fortfarande av exakt en lösning. Beslut 73.
+
 Löftet har två sidor. Lösningsägaren svarar för vad som utlovas och för att utformningen kan hålla det. Linjechefen ([[C-207 Linjechef]]) svarar för varje enskild leverans och för det enskilda resultatet (beslut 50). Har en förening fått bifall men inga pengar avgör orsaken vem som svarar: handläggaren som glömde att skicka utbetalningen, eller handläggningen som saknar ett steg som fångar felet. Beslut 47.
 
 ## Motsvarigheter

@@ -41,7 +41,7 @@ Fem förmågor säger vad myndigheten kan göra, oavsett vem som gör det eller 
 - **Utbetalning och återkrav**: att betala ut beviljat bidrag och kräva tillbaka det som inte använts rätt.
 - **Registerhållning**: att veta vilka föreningar som finns, vem som företräder dem och vart pengarna ska.
 - **Tillsyn**: att granska hur bidrag använts.
-- **Uppföljning och rapportering**: att sammanställa och rapportera till regeringen. Den består av två förmågor: Dataharmonisering och Analys.
+- **Uppföljning och rapportering**: att sammanställa och rapportera. Den består av två förmågor: Dataharmonisering och Analys.
 
 ## Processer och handläggningar
 
@@ -150,6 +150,12 @@ Enheterna samordnar sig på två sätt. Bidragsenheten och Register- och tillsyn
 
 Generaldirektören följer handläggningen på två vägar. Chefen för Bidragsenheten rapporterar varje månad hur många ansökningar som är äldre än tre månader. Det är uppföljning. En gång om året låter generaldirektören en granskare läsa tjugo ärenden direkt. Det är granskning, och den visar sådant som rapporten inte visar. Tillsynen över föreningarnas bidrag är något tredje: den är myndighetens eget arbete, alltså produktion.
 
+Månadsräkningen är också arbete i förmågan Analys. Att generaldirektören läser siffran är uppföljning. Att Bidragsenheten räknar fram den är produktion. Rapporten är en produkt till generaldirektören. Lösningen i domänen Uppföljning erbjuder den, och chefen för Analysenheten är lösningsägare.
+
+Chefen för Analysenheten bestämmer det som gäller varje sammanställning i myndigheten, vem som än gör den. Uppgifterna hämtas ur källan eller datalagret och inte ur en egen kopia. Varje objekt har den betydelse dess ägare har gett det. Sammanställningen säger vilken källa och vilken dag den bygger på. Chefen för Bidragsenheten bestämmer över sin egen sammanställning: vad den visar, hur ofta den görs och hur den ställs upp. Gränsen på tre månader kommer ur målet för Bidragsprövning, som hen själv sätter. Det som gäller alla sammanställningar är alltså utformning, och det som gäller den här sammanställningen är produktion.
+
+Lösningen och produktionen ligger här i var sin domän. Ingen av de två cheferna kan väga det gemensamma sättet mot Bidragsenhetens tid. Det gör generaldirektören. En förmågekarta visar både Analysenheten och Bidragsenheten vid Analys, eftersom båda tilldelas funktionen Ta fram statistik. Kartan visar att produktionen är delad. Utformningen är inte dubblerad, för Analys har en enda lösning. Anta att Bidragsenheten i stället räknar på ett eget sätt, utan det gemensamma. Då har Analys två lösningar i två domäner, och generaldirektören ansvarar för förmågan. Beslut 73.
+
 Analysenheten följer föreningslivets utveckling åt regeringen. Samma kunskap är myndighetens blick utåt och framåt. Bedömningen att föreningarna blir färre går till generaldirektören och blir underlag för strategin och målarkitekturen.
 
 Skulle generaldirektören behålla beslutet om varje anställning vore det vald centralisering. Med fyra enheter och 120 anställda hinner hen kanske med. Hindret uppstår den dag anställningarna blir liggande.
@@ -212,7 +218,7 @@ Myndigheten står för förvaltningens mekanik. Hämta härifrån exempel på:
 - uppkommen centralisering (C-220) som följer en princip, blir ett vägt val och till sist en avvikelse som ska rättas, med Verksamhetsstöd i tre lägen
 - aspektbaserad styrning (C-006), aspekt (C-004) och arbetssätt (C-196)
 - informationsområde (C-198) som delas när verksamhetsförmågan (C-069) delas, med Bidragsinformation och dess två områden
-- verksamhetsförmåga (C-069), med Bidragsprövning som består av två förmågor och Uppföljning och rapportering som delas i Dataharmonisering och Analys, verksamhetsprocess (C-130) och handläggning (C-160)
+- verksamhetsförmåga (C-069), med Bidragsprövning som består av två förmågor Uppföljning och rapportering som delas i Dataharmonisering och Analys och två enheter som utför arbete i Analys, verksamhetsprocess (C-130) och handläggning (C-160)
 - ärendebeslut (C-181) och beslutslogik (C-178)
 - produkt (C-014), verksamhetsprodukt (C-173) och vara (C-191), och resultat som saknar produkt
 - informationsobjekt (C-060), uppgift (C-161) och sammanställning (C-162)
