@@ -1,3 +1,10 @@
+---
+authorship:
+  document:
+    state: ai-approved
+    approved: 2026-11-23
+    wording: 07d8c2bb69005fa2e53e5aa22671948a7771c6b6dd35fc351aa3dd0c22f89bb6
+---
 # Så märks texterna
 
 Varje text på gestaltadet.se har en etikett. Etiketten säger vem som har skrivit orden och om jag har granskat dem. Nästan all text här är skriven av AI: jag bestämmer innehållet, och AI formulerar det. Du ska därför kunna se om en text är min egen ord för ord eller en formulering som jag ännu inte har läst. Sidan finns enligt beslut 39.
