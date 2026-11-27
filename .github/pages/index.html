@@ -2,62 +2,13 @@
 <html lang="sv">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>GestaltaDet</title>
-<meta name="description" content="En begreppskatalog för arkitektur och styrning, skriven från svensk offentlig sektor.">
-<!-- Samma två stilmallar som katalogen: interlinguas grundmall och GestaltaDets
-     profil. Varför de ligger där står i docs/grafisk-profil.md, "Hur profilen når sidorna". -->
-<link rel="stylesheet" href="katalog/static/page.css">
-<link rel="stylesheet" href="katalog/static/theme.css">
-<style>
-  /* Startsidans två egna värden (#16): prosaspalten, smalare än katalogens
-     52 rem, och huvudingångens ram. Flyttar till profilen när en sida till
-     behöver dem. */
-  main { --max: 36rem; }
-  .ingang { display: block; box-sizing: border-box; padding: .7rem 1rem; border: 2px solid var(--gd-teal); border-radius: 6px; font-weight: 600; text-decoration: none; text-align: center; }
-  .andra-vagen { color: var(--gd-text-sekundar); font-size: .9em; }
-  /* Vem som skrivit texterna (beslut 39): en rad för hela sidan så länge alla
-     avsnitt har samma läge. Ett avsnitt som avviker får ett kort märke på
-     rubrikens rad i stället, <span class="marke">. */
-  .hela-sidan { margin-top: 2rem; }
-  .hela-sidan a, .marke a { color: var(--gd-text-sekundar); }
-  .marke { float: right; font-size: .75rem; font-weight: 400; }
-  footer { margin-top: .5rem; padding-top: 1rem; border-top: 1px solid var(--gd-linje); color: var(--gd-text-sekundar); font-size: .9em; }
-</style>
+<!-- gestaltadet.se har en enda första sida, katalogens (docs/startsida.md, som
+     settings.yaml pekar ut som start_note). Den här sidan skickar läsaren dit. -->
+<meta http-equiv="refresh" content="0; url=katalog/">
+<link rel="canonical" href="https://gestaltadet.se/katalog/">
 </head>
 <body>
-<header>
-<p class="site">GestaltaDet</p>
-<nav><a href="katalog/">Katalog</a> <a href="katalog/drawings/">Ritningar</a> <a href="katalog/documents/docs/adr/">Beslut</a></nav>
-</header>
-<main>
-
-<h1>En begreppskatalog för arkitektur och styrning</h1>
-<p>Katalogen samlar begrepp för arkitektur och styrning av verksamheter. Varje begrepp har ett id, en definition, de termer som används för det och relationer till andra begrepp. Jag skriver från svensk offentlig sektor, men begreppen kan gälla alla verksamheter.</p>
-<p><a class="ingang" href="katalog/">Öppna katalogen</a></p>
-<p class="andra-vagen">Du kan också börja med <a href="katalog/catalogue/">hela katalogen som en bild</a>, eller med <a href="katalog/drawings/">ritningarna</a>: begreppsmodellerna och schemana.</p>
-<p class="andra-vagen">Vill du rita med katalogens typer kan du hämta <a href="katalog/document/docs/formbibliotek.md/">formbibliotek för draw.io och Excalidraw</a>.</p>
-
-<h2>Varför</h2>
-<p>De flesta organisationer vet vad de vill uppnå och vad de bygger. Det som saknas är en länk däremellan som går att följa. Länken går genom gemensamma begrepp, och begreppen står i katalogen.</p>
-<p>Varje exempel i katalogen hämtas ur två påhittade organisationer: Myndigheten för föreningsstöd och det kommunala bostadsbolaget Brinkstadsbostäder.</p>
-
-<h2>interlingua</h2>
-<p>Sidorna i katalogen byggs av programmet interlingua. Det läser katalogen och ritar begreppen och relationerna mellan dem. Programmet är inte färdigt och inte släppt.</p>
-
-<h2>Om mig</h2>
-<p>Jag heter Nicklas Grandin och arbetar som verksamhetsarkitekt i svensk offentlig sektor. Katalogen är hur jag ser på saker.</p>
-
-<h2>Kontakt</h2>
-<p>Frågor och invändningar är välkomna. Skriv dem som <a href="https://github.com/nickdin/gestaltadet-katalog/issues">ärenden på GitHub</a>, så kan alla läsa svaret. Du kan också mejla <a href="mailto:nicklas@gestaltadet.se">nicklas@gestaltadet.se</a>.</p>
-<p>Ändringarna i katalogen gör jag själv. En invändning som håller blir en ändring.</p>
-
-<p class="authorship authorship-ai-approved hela-sidan"><a href="katalog/authorship/">Alla avsnitt på sidan: skrivna av AI · granskade och godkända av Nicklas Grandin 2026-11-24</a></p>
-
-<footer>
-<p>Katalogen får användas fritt med angivande av källa, <a href="https://creativecommons.org/licenses/by/4.0/deed.sv">CC BY 4.0</a>, med GestaltaDet och Nicklas Grandin som källa.</p>
-</footer>
-
-</main>
+<p><a href="katalog/">Till GestaltaDet</a></p>
 </body>
 </html>
