@@ -1,6 +1,7 @@
 language: sv
 site_name: GestaltaDet
 site_address: https://gestaltadet.se/
+start_note: docs/startsida.md
 theme: docs/grafisk-profil.css
 base_address: https://gestaltadet.se/katalog
 nesting_relation_type: aggregates
