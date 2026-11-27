@@ -5,7 +5,8 @@ theme: docs/grafisk-profil.css
 base_address: https://gestaltadet.se/katalog
 nesting_relation_type: aggregates
 documents:
-  - docs/adr
+  - folder: docs/adr
+    introduction: docs/besluten-bakom-katalogen.md
   - docs/lagar.md
   - docs/informationskartlaggning.md
   - docs/formbibliotek.md
@@ -16,5 +17,7 @@ drawings:
   - layout/Information
   - layout/Exempel
 footer: "Licens: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.sv). Använd och bygg vidare, med GestaltaDet och Nicklas Grandin som källa."
+owner: Nicklas
+authorship_page: docs/sa-marks-texterna.md
 ai_coauthor_addresses:
   - noreply@anthropic.com
