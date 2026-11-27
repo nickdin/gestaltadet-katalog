@@ -21,9 +21,11 @@ authorship:
 
 Katalogen samlar begrepp för arkitektur och styrning av verksamheter. Varje begrepp har ett id, en definition, de termer som används för det och relationer till andra begrepp. Jag skriver från svensk offentlig sektor, men begreppen kan gälla alla verksamheter.
 
-Du kan också börja med [hela katalogen som en bild](https://gestaltadet.se/katalog/catalogue/), eller med [ritningarna](https://gestaltadet.se/katalog/drawings/): begreppsmodellerna och schemana.
+## Börja här
 
-Vill du rita med katalogens typer kan du hämta [[formbibliotek|formbibliotek för draw.io och Excalidraw]].
+- [Katalogen som bild](https://gestaltadet.se/katalog/catalogue/) visar begreppen och relationerna mellan dem.
+- [Diagrammen](https://gestaltadet.se/katalog/drawings/) visar ett ämne i taget, till exempel styrning eller information.
+- [[formbibliotek|Formbiblioteken]] ger dig katalogens typer att rita med i draw.io och Excalidraw.
 
 ## Varför
 
