@@ -27,13 +27,13 @@ associative:
 
 Ett verksamhetsbeteende ([[C-157 Verksamhetsbeteende]]) följer ett arbetssätt, och vilket står i beteendets text. Arbetssättet är ett begrepp, ingen elementtyp. Det hör till en disciplin ([[C-124 Disciplin]]): disciplinen är fältet, arbetssättet det fältet säger att man ska göra, kompetensen ([[C-125 Kompetens]]) det någon har av det. Metod står som alternativ term.
 
-Den som har mandatet ([[C-189 Mandat]]) över ett styrobjekt väljer arbetssätt för det genom ett styrbeslut ([[C-019 Styrbeslut]]). En överordnad styrning kan binda valet med en regel ([[C-020 Regel]]). Valet är ingen egen styrningsform. Arbetssättet är heller ingen aspekt ([[C-004 Aspekt]]): det är en egenskap hos beteendet, inte hos allt som styrs. Beslut 41.
+Den som har mandatet ([[C-189 Mandat]]) över ett styrobjekt väljer arbetssätt för det genom ett styrbeslut ([[C-019 Styrbeslut]]). En överordnad styrning kan binda valet med en regel ([[C-020 Regel]]). Valet är ingen egen styrningsform. Arbetssättet är heller ingen aspekt ([[C-004 Aspekt]]): det är en egenskap hos beteendet, inte hos allt som styrs. [[0041-aspektstyrningen-ager-inget-styrobjekt-arbetssattet-ar-ingen-aspekt-metodstyrningen-tas-bort-och-styrmedlet-kan-ta-sikte-pa-en-aspekt|Beslut 41]].
 
 Ett arbetssätt kan beskrivas med de element lagret redan har, som ett återanvändbart mönster för beteendet. När en organisation antar arbetssättet står mönstret i en referensarkitektur ([[C-041 Referensarkitektur]]). Arbetssättet finns innan någon har antagit det; referensarkitekturen är antagen.
 
 ## Motsvarigheter
 
-Motsvarar PracticeDefinition och PracticeCategory i Value Delivery Modeling Language (VDML): ett beprövat sätt att hantera en sorts arbete som många organisationer använt. Beslut 28.
+Motsvarar PracticeDefinition och PracticeCategory i Value Delivery Modeling Language (VDML): ett beprövat sätt att hantera en sorts arbete som många organisationer använt. [[0028-varde-ar-en-elementtyp-i-strategiperspektivet-dit-vardeerbjudandet-flyttar-arbetssatt-ar-ett-begrepp-svaret-heter-hjalp-och-vdml-tas-in-med-rakneverket-omappat|Beslut 28]].
 
 ## Exempel
 

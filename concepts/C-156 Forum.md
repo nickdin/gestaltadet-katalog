@@ -20,4 +20,4 @@ En specialisering av verksamhetssamverkan: ett forum är ingen aktör, utan chef
 
 Ett kollegium som beslutar genom omröstning är inget forum utan en aktör ([[C-073 Aktör]]): bostadsbolagets styrelse eller en kommunal nämnd.
 
-Säger en organisation att ledningsgruppen beslutade, och kan den inte peka ut någon som svarar för utfallet, gör ingen det. Beslut 50, som ändrar beslut 23 på den punkten.
+Säger en organisation att ledningsgruppen beslutade, och kan den inte peka ut någon som svarar för utfallet, gör ingen det. [[0050-ett-beslut-fattas-av-den-som-har-bade-ram-och-mandat-ett-forum-beslutar-aldrig-aspekten-avgor-inga-enskilda-fall-och-domanens-agare-satter-losningens-ram|Beslut 50]], som ändrar [[0023-regeln-anger-vad-som-ska-galla-kravet-ar-en-sorts-regel-katalogen-ar-organisationens-ordlista-och-sbvr-tas-in-med-faststalls-av-som-relationstyp|beslut 23]] på den punkten.

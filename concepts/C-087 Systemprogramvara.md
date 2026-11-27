@@ -19,4 +19,4 @@ generic: "[[C-122 Resurs]]"
 
 Motsvarar ArchiMates System Software.
 
-Motsvarar ExecutionEnvironment i Unified Modeling Language (UML). Beslut 29.
+Motsvarar ExecutionEnvironment i Unified Modeling Language (UML). [[0029-klassen-ar-informationsobjektet-tillstandsmaskinen-ar-tillstandsvyn-anvandningsfallet-ar-tjansten-vardemangd-ar-ett-begrepp-och-uml-tas-in-for-lasarnas-skull-utan-tveksamma-rader|Beslut 29]].

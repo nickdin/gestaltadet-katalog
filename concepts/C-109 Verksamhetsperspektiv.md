@@ -38,4 +38,4 @@ generic: "[[C-036 Arkitekturperspektiv]]"
 
 Ett av de sex perspektiven.
 
-Värdeerbjudandet flyttade till strategiperspektivet ([[C-108 Strategiperspektiv]]) i beslut 28. Det värde verksamheten ger sin omgivning ger den genom sina tjänster ([[C-075 Tjänst]]), och definitionen säger tjänster för att ordet värde inte ska peka åt två håll.
+Värdeerbjudandet flyttade till strategiperspektivet ([[C-108 Strategiperspektiv]]) i [[0028-varde-ar-en-elementtyp-i-strategiperspektivet-dit-vardeerbjudandet-flyttar-arbetssatt-ar-ett-begrepp-svaret-heter-hjalp-och-vdml-tas-in-med-rakneverket-omappat|beslut 28]]. Det värde verksamheten ger sin omgivning ger den genom sina tjänster ([[C-075 Tjänst]]), och definitionen säger tjänster för att ordet värde inte ska peka åt två håll.

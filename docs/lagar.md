@@ -1,6 +1,6 @@
 # Lagar katalogen bygger på
 
-Katalogen är inte neutral. Den finns till för att en verksamhets styrning ska bli livskraftig. Sex lagar och regler ur cybernetiken och systemkonstruktionen bär resonemangen. De är inga begrepp i katalogen. De är skälen bakom den. Varje post säger vad lagen säger, var den kommer ifrån och vad i katalogen som vilar på den. Sidan finns enligt beslut 49.
+Katalogen är inte neutral. Den finns till för att en verksamhets styrning ska bli livskraftig. Sex lagar och regler ur cybernetiken och systemkonstruktionen bär resonemangen. De är inga begrepp i katalogen. De är skälen bakom den. Varje post säger vad lagen säger, var den kommer ifrån och vad i katalogen som vilar på den. Sidan finns enligt [[0049-livskraft-ar-mattstocken-for-styrningen-samordning-granskning-komplexitet-och-centralisering-ar-nya-begrepp-kopplingen-rader-ocksa-mellan-ansvar-och-lagarna-far-en-egen-sida|beslut 49]].
 
 ## Ashbys lag: styrningen måste rymma lika många lägen som det styrda
 
@@ -38,7 +38,7 @@ En organisation som utformar ett system ger systemet samma indelning som organis
 
 Källa: Melvin E. Conway, How Do Committees Invent? (1968).
 
-I katalogen: provet för ett snitt i Lösning (C-055) frågar om ägaren kan besluta över varje komponent innanför. En lösnings hemdomän ska rymma produktionen som utför dess beteende (beslut 48). Snittet mellan lösningar och snittet mellan ansvar måste alltså göras tillsammans.
+I katalogen: provet för ett snitt i Lösning (C-055) frågar om ägaren kan besluta över varje komponent innanför. En lösnings hemdomän ska rymma produktionen som utför dess beteende ([[0048-produktionsstyrning-ar-utvecklingsstyrningens-tvilling-malet-hor-till-domanen-och-en-losnings-hemdoman-ska-rymma-produktionen-som-utfor-dess-beteende|beslut 48]]). Snittet mellan lösningar och snittet mellan ansvar måste alltså göras tillsammans.
 
 Exempel: fastighetssystemets moduler Hyra och Teknisk förvaltning följer bolagets avdelningar, och lösningarna Hyra och Felanmälan har fått samma gräns.
 
@@ -48,7 +48,7 @@ En modul ska gömma ett beslut som kan ändras, så att ändringen inte når de 
 
 Källa: David L. Parnas, On the Criteria To Be Used in Decomposing Systems into Modules (1972).
 
-I katalogen: provet för ett snitt i Lösning (C-055) bygger på regeln. Två lösningar ska kunna ändras var för sig, och det som korsar gränsen är en leveransprodukt (C-174) med krav (beslut 36).
+I katalogen: provet för ett snitt i Lösning (C-055) bygger på regeln. Två lösningar ska kunna ändras var för sig, och det som korsar gränsen är en leveransprodukt (C-174) med krav ([[0036-losningen-skars-dar-kopplingen-ar-los-ansvar-ram-och-koppling-ar-begrepp-utan-elementtyp-ramen-foljer-mandatet-och-den-som-svarar-for-en-sak-beslutar-om-den|beslut 36]]).
 
 Exempel: Ansökningshandläggningen använder Föreningsregistret som leveransprodukt. Registret kan byggas om utan att handläggningen ändras.
 
@@ -58,6 +58,6 @@ När delarna i ett system är tätt kopplade och samspelar på sätt ingen över
 
 Källa: Charles Perrow, Normal Accidents (1984).
 
-I katalogen: Koppling (C-211) är måttet på ett snitt, mellan lösningar och mellan ansvar. En tät koppling som går att lösa blir ett initiativ. En som inte går att lösa bär ägaren som en bedömning (beslut 36 och 49).
+I katalogen: Koppling (C-211) är måttet på ett snitt, mellan lösningar och mellan ansvar. En tät koppling som går att lösa blir ett initiativ. En som inte går att lösa bär ägaren som en bedömning ([[0036-losningen-skars-dar-kopplingen-ar-los-ansvar-ram-och-koppling-ar-begrepp-utan-elementtyp-ramen-foljer-mandatet-och-den-som-svarar-for-en-sak-beslutar-om-den|beslut 36]] och [[0049-livskraft-ar-mattstocken-for-styrningen-samordning-granskning-komplexitet-och-centralisering-ar-nya-begrepp-kopplingen-rader-ocksa-mellan-ansvar-och-lagarna-far-en-egen-sida|49]]).
 
 Exempel: modulerna i fastighetssystemet delar grunddata och release. En ändring i Hyra tvingar fram en ändring i Felanmälan.

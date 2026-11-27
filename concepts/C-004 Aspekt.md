@@ -21,7 +21,7 @@ associative:
 
 Aspekterna är en sluten lista som katalogen äger, och varje aspekt är ett eget begrepp. Inte att förväxla med perspektiv.
 
-Arbetssätt ([[C-196 Arbetssätt]]) är ingen aspekt. Det är en egenskap hos beteendet och gäller inte tvärs över perspektiven. Ett styrmedel ([[C-015 Styrmedel]]) kan ta sikte på en aspekt men måste inte. Beslut 41.
+Arbetssätt ([[C-196 Arbetssätt]]) är ingen aspekt. Det är en egenskap hos beteendet och gäller inte tvärs över perspektiven. Ett styrmedel ([[C-015 Styrmedel]]) kan ta sikte på en aspekt men måste inte. [[0041-aspektstyrningen-ager-inget-styrobjekt-arbetssattet-ar-ingen-aspekt-metodstyrningen-tas-bort-och-styrmedlet-kan-ta-sikte-pa-en-aspekt|Beslut 41]].
 
 ## Motsvarigheter
 

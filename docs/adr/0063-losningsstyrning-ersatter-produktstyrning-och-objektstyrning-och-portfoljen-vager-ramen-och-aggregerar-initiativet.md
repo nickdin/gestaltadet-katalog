@@ -1,14 +1,14 @@
 # Lösningsstyrning ersätter Produktstyrning och Objektstyrning, och portföljen väger ramen och aggregerar initiativet
 
-Beslutat av Nicklas 18 november 2026, när ärendet #156 frågade om två ritningar stämde med beslut 46 och katalogen hade två begrepp för samma styrning.
+Beslutat av Nicklas 18 november 2026, när ärendet #156 frågade om två ritningar stämde med [[0046-portfoljen-och-initiativet-har-var-sin-agare-produkten-har-ingen-ramen-ar-bara-resurserna-och-initiativets-agare-beslutar-om-arbetet|beslut 46]] och katalogen hade två begrepp för samma styrning.
 
-Beslutet ändrar beslut 46 på en punkt: produktstyrning och objektstyrning är inte längre två begrepp.
+Beslutet ändrar [[0046-portfoljen-och-initiativet-har-var-sin-agare-produkten-har-ingen-ramen-ar-bara-resurserna-och-initiativets-agare-beslutar-om-arbetet|beslut 46]] på en punkt: produktstyrning och objektstyrning är inte längre två begrepp.
 
 ## Sammanhang
 
-Beslut 46 sade att Produktstyrning (`C-047`) och Objektstyrning (`C-048`) är samma styrning med samma ägare. Katalogen hade ändå två begrepp för den. Produktstyrning hade definitionen "objektbaserad styrning där styrobjektet är en lösning, sedd från de produkter lösningen erbjuder". Objektstyrning hade definitionen "objektbaserad styrning där styrobjektet är ett förvaltningsobjekt". Båda avgränsades av Lösning (`C-055`).
+[[0046-portfoljen-och-initiativet-har-var-sin-agare-produkten-har-ingen-ramen-ar-bara-resurserna-och-initiativets-agare-beslutar-om-arbetet|Beslut 46]] sade att Produktstyrning (`C-047`) och Objektstyrning (`C-048`) är samma styrning med samma ägare. Katalogen hade ändå två begrepp för den. Produktstyrning hade definitionen "objektbaserad styrning där styrobjektet är en lösning, sedd från de produkter lösningen erbjuder". Objektstyrning hade definitionen "objektbaserad styrning där styrobjektet är ett förvaltningsobjekt". Båda avgränsades av Lösning (`C-055`).
 
-Ärendet #156 frågade om två ritningar visade det beslut 46 hade ändrat. Ritningen Styrning flöde hade en ruta för Produktstyrning med texten "styrobjekt: produkten". Efter beslut 46 är Produkt (`C-014`) inget styrobjekt. Ritningen Mandat och ansvar begreppsmodell visade varken Portfölj (`C-011`) eller Initiativ (`C-012`), fast båda har var sin ägare efter beslut 46.
+Ärendet #156 frågade om två ritningar visade det [[0046-portfoljen-och-initiativet-har-var-sin-agare-produkten-har-ingen-ramen-ar-bara-resurserna-och-initiativets-agare-beslutar-om-arbetet|beslut 46]] hade ändrat. Ritningen Styrning flöde hade en ruta för Produktstyrning med texten "styrobjekt: produkten". Efter [[0046-portfoljen-och-initiativet-har-var-sin-agare-produkten-har-ingen-ramen-ar-bara-resurserna-och-initiativets-agare-beslutar-om-arbetet|beslut 46]] är Produkt (`C-014`) inget styrobjekt. Ritningen Mandat och ansvar begreppsmodell visade varken Portfölj (`C-011`) eller Initiativ (`C-012`), fast båda har var sin ägare efter [[0046-portfoljen-och-initiativet-har-var-sin-agare-produkten-har-ingen-ramen-ar-bara-resurserna-och-initiativets-agare-beslutar-om-arbetet|beslut 46]].
 
 Portfölj (`C-011`) hade ingen relation till Ram (`C-210`). Att portföljen väger ramarna stod bara i anmärkningen.
 

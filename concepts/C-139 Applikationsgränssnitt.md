@@ -19,4 +19,4 @@ generic: "[[C-076 Gränssnitt]]"
 
 Motsvarar ArchiMates Application Interface.
 
-Motsvarar Interface och Port i Unified Modeling Language (UML) när en komponent ger dem: kontraktet som ritas som klubban, och punkten det sitter på; operationerna är de tjänster gränssnittet gör tillgängliga, text. Beslut 29.
+Motsvarar Interface och Port i Unified Modeling Language (UML) när en komponent ger dem: kontraktet som ritas som klubban, och punkten det sitter på; operationerna är de tjänster gränssnittet gör tillgängliga, text. [[0029-klassen-ar-informationsobjektet-tillstandsmaskinen-ar-tillstandsvyn-anvandningsfallet-ar-tjansten-vardemangd-ar-ett-begrepp-och-uml-tas-in-for-lasarnas-skull-utan-tveksamma-rader|Beslut 29]].

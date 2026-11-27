@@ -19,4 +19,4 @@ Relationen går från det specifika elementet till det allmänna. I diagrammen r
 
 ## Motsvarigheter
 
-Motsvarar Generalization i Unified Modeling Language (UML). Beslut 29.
+Motsvarar Generalization i Unified Modeling Language (UML). [[0029-klassen-ar-informationsobjektet-tillstandsmaskinen-ar-tillstandsvyn-anvandningsfallet-ar-tjansten-vardemangd-ar-ett-begrepp-och-uml-tas-in-for-lasarnas-skull-utan-tveksamma-rader|Beslut 29]].

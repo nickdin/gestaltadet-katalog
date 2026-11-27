@@ -70,7 +70,7 @@ elements:
     concepts: [C-020]
   - name: Business Rule Enforcement Level
     unmapped: true
-    reason: how hard a rule is enforced is text in the regel (beslut 23)
+    reason: how hard a rule is enforced is text in the regel ([[0023-regeln-anger-vad-som-ska-galla-kravet-ar-en-sorts-regel-katalogen-ar-organisationens-ordlista-och-sbvr-tas-in-med-faststalls-av-som-relationstyp|beslut 23]])
   # A directive of one level acting as law for the level below: the intern
   # påverkan (C-030) a level's styrmedel are for the level under it, and the
   # bärare (C-016) that carries a higher level's rules.
@@ -181,7 +181,7 @@ relationships:
     unmapped: true
     reason: >-
       a styrmedel applies by being listed in the accepted description of the
-      styrobjekt (beslut 19); no arrow between a styrmedel and what it governs
+      styrobjekt ([[0019-malet-forblir-styrmedel-och-ritas-som-styrmedelselement-portfolj-ar-en-elementtyp|beslut 19]]); no arrow between a styrmedel and what it governs
   - name: Business Policy governs Business Process
     unmapped: true
     reason: as Directive governs Course of Action
@@ -198,7 +198,7 @@ relationships:
       source of any other påverkan is text in its description
   - name: Tactic effects enforcement level of Business Rule
     unmapped: true
-    reason: the enforcement level is text in the regel (beslut 23)
+    reason: the enforcement level is text in the regel ([[0023-regeln-anger-vad-som-ska-galla-kravet-ar-en-sorts-regel-katalogen-ar-organisationens-ordlista-och-sbvr-tas-in-med-faststalls-av-som-relationstyp|beslut 23]])
   - name: Mission makes Vision operative
     unmapped: true
     reason: the uppdrag and the vision stand each on its own; nothing is drawn between them
@@ -225,9 +225,9 @@ unmapped-concepts:
       public body in its instruktion and the law it applies, for a company in
       its bolagsordning. BMM's Goal is what the management chose, its Mission
       is the uppdrag, and none of its Ends is given with the uppdrag; the
-      catalogue's addition (beslut 25)
+      catalogue's addition ([[0025-paverkan-och-bedomning-ar-elementtyper-strategin-ar-sammanhangande-styrbeslut-visionen-ar-ett-mal-utan-matt-och-bmm-tas-in-med-andamalet-som-katalogens-tillagg|beslut 25]])
   - id: C-021
-    reason: krav is a kind of regel (C-020) since beslut 23 and is reached through the Business Rule row
+    reason: krav is a kind of regel (C-020) since [[0023-regeln-anger-vad-som-ska-galla-kravet-ar-en-sorts-regel-katalogen-ar-organisationens-ordlista-och-sbvr-tas-in-med-faststalls-av-som-relationstyp|beslut 23]] and is reached through the Business Rule row
   - id: C-040
     reason: arkitekturprincip is a kind of princip (C-018) whose styrobjekt is the architecture, reached through the Business Policy row
   - id: C-016

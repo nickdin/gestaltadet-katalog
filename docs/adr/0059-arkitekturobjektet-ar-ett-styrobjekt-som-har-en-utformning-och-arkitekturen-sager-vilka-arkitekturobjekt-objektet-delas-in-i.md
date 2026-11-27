@@ -27,5 +27,5 @@ Definitionen av Arkitektur (`C-031`) talade dessutom bara om ett objekts form oc
 - Nya definitioner i `C-031` och `C-032`. Relationerna är oförändrade: Arkitektur (`C-031`) avser fortfarande Arkitekturobjekt (`C-032`) och kan ingå i sig själv.
 - Anmärkningen i `C-031` är omskriven i klarspråk och säger indelningen. Stycket om ISO 42010 står under Motsvarigheter, och begreppet har fått ett exempel. `C-032` har fått ett stycke om styrobjekt utan utformning.
 - `CONTEXT.md`: posten Arkitekturobjekt säger att arkitekturobjektet har en utformning.
-- Beslut 37 gäller i övrigt: arkitekturen finns alltid, beskriven eller inte. Definitionen i beslut 37 är ersatt av den här.
+- [[0037-arkitekturen-finns-alltid-bararen-bar-bedomningar-hallningen-ar-intern-paverkan-regeln-lamnar-inget-bedomningsutrymme-och-principen-star-i-en-barare-som-den-med-mandat-faststaller|Beslut 37]] gäller i övrigt: arkitekturen finns alltid, beskriven eller inte. Definitionen i [[0037-arkitekturen-finns-alltid-bararen-bar-bedomningar-hallningen-ar-intern-paverkan-regeln-lamnar-inget-bedomningsutrymme-och-principen-star-i-en-barare-som-den-med-mandat-faststaller|beslut 37]] är ersatt av den här.
 - Tre ritningar i `layout/Arkitektur/` och en i `layout/Principer/` bär de gamla definitionerna i sin text. De rättas i #183.

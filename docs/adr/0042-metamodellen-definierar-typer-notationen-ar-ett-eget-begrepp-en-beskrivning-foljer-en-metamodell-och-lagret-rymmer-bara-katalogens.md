@@ -6,7 +6,7 @@ Beslutat av Nicklas 12 november 2026, när Metamodell (`C-039`) visade sig rymma
 
 Granskningen i #43 hade fyndet F26. Arkitekturbeskrivning (`C-035`) sade att varje vy följer perspektivets metamodell. Arkitekturvy (`C-052`) sade att perspektivet anger vilka metamodeller vyn använder. Den ena gav perspektivet en metamodell, den andra flera.
 
-Beslut 37 sköt fyndet hit. Nicklas såg att frågan var större än en eller flera. Metamodell (`C-039`) definierades som en modell som definierar element, relationer och notation. Men samma notation kan läggas på olika metamodeller. Och katalogen beskriver genom sina begrepp redan en egen metamodell, byggd med de andra som källor (beslut 22).
+[[0037-arkitekturen-finns-alltid-bararen-bar-bedomningar-hallningen-ar-intern-paverkan-regeln-lamnar-inget-bedomningsutrymme-och-principen-star-i-en-barare-som-den-med-mandat-faststaller|Beslut 37]] sköt fyndet hit. Nicklas såg att frågan var större än en eller flera. Metamodell (`C-039`) definierades som en modell som definierar element, relationer och notation. Men samma notation kan läggas på olika metamodeller. Och katalogen beskriver genom sina begrepp redan en egen metamodell, byggd med de andra som källor ([[0022-aktivitet-och-beslutslogik-ar-elementtyper-bpmn-cmmn-och-dmn-tas-in-som-bestandsdelar-i-beteendet-med-egna-mappningstabeller|beslut 22]]).
 
 Grillningen avgjorde varje fråga på ett fall ur de två exempelorganisationerna.
 
@@ -40,7 +40,7 @@ Grillningen avgjorde varje fråga på ett fall ur de två exempelorganisationern
 - Ändrade definitioner: `C-039` och `C-034`.
 - Ändrade relationer: `C-039` `definierar typerna av` → `C-034`, förut `definierar`. `C-035` `följer` → `C-039` är ny. `C-052` `följer` → `C-039` och `C-036` `anger` → `C-039` är borttagna. `C-106` `ritas med` → `C-212` är ny.
 - Ändrade anmärkningar: `C-039`, `C-035`, `C-036` och `C-052`. `C-106` har fått en anmärkning. `C-039` har katalogen och BPMN bland exemplen.
-- Meningen i beslut 38, att Arkitekturbeskrivning (`C-035`) följer metamodellen genom Arkitekturvy (`C-052`), gäller inte längre. Beskrivningen följer metamodellen själv.
+- Meningen i [[0038-styrobjektet-tjanar-andamalet-kravet-arver-sitt-ursprung-fran-regeln-principen-anger-sina-konsekvenser-och-ritningarna-far-visa-arvda-relationer|beslut 38]], att Arkitekturbeskrivning (`C-035`) följer metamodellen genom Arkitekturvy (`C-052`), gäller inte längre. Beskrivningen följer metamodellen själv.
 - Två ritningar visar pilarna `följer` och `anger` som de var, och ingen visar Notation (`C-212`). Pilarna står kvar tills Nicklas värderat dem (#147).
 - Interlinguas eget ord *metamodel kind* rörs inte. Det är programmets ord för typslagen.
 - Två ärenden följer av grillningen: katalogens notation som mallar på gestaltadet.se (#148), och hur notationen ska se ut, klarspråk för diagram (#149).

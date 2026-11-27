@@ -20,7 +20,7 @@ Korrespondenserna är det som gör beskrivningen till en och inte flera: utan de
 
 ## Motsvarigheter
 
-UML:s «trace» mellan element i två modeller är en korrespondens, ingen relationstyp. Beslut 29.
+UML:s «trace» mellan element i två modeller är en korrespondens, ingen relationstyp. [[0029-klassen-ar-informationsobjektet-tillstandsmaskinen-ar-tillstandsvyn-anvandningsfallet-ar-tjansten-vardemangd-ar-ett-begrepp-och-uml-tas-in-for-lasarnas-skull-utan-tveksamma-rader|Beslut 29]].
 
 ## Exempel
 

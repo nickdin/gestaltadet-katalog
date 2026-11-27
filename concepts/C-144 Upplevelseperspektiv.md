@@ -18,7 +18,7 @@ generic: "[[C-036 Arkitekturperspektiv]]"
 
 ## Anmärkning
 
-Ett av de sex perspektiven, det enda som ser verksamheten utifrån. Det rymmer bara det som finns utan verksamheten: målgrupper, behov och resor. Det verksamheten lovar dem, värdeerbjudandet, hör till strategiperspektivet ([[C-108 Strategiperspektiv]]) (beslut 28).
+Ett av de sex perspektiven, det enda som ser verksamheten utifrån. Det rymmer bara det som finns utan verksamheten: målgrupper, behov och resor. Det verksamheten lovar dem, värdeerbjudandet, hör till strategiperspektivet ([[C-108 Strategiperspektiv]]) ([[0028-varde-ar-en-elementtyp-i-strategiperspektivet-dit-vardeerbjudandet-flyttar-arbetssatt-ar-ett-begrepp-svaret-heter-hjalp-och-vdml-tas-in-med-rakneverket-omappat|beslut 28]]).
 
 ## Motsvarigheter
 

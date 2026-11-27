@@ -22,4 +22,4 @@ Relationen går från det förverkligade elementet till förverkligaren.
 
 Motsvarar ArchiMates Realization.
 
-Motsvarar Realization, ComponentRealization och Manifestation i Unified Modeling Language (UML), riktningen vänd. Beslut 29.
+Motsvarar Realization, ComponentRealization och Manifestation i Unified Modeling Language (UML), riktningen vänd. [[0029-klassen-ar-informationsobjektet-tillstandsmaskinen-ar-tillstandsvyn-anvandningsfallet-ar-tjansten-vardemangd-ar-ett-begrepp-och-uml-tas-in-for-lasarnas-skull-utan-tveksamma-rader|Beslut 29]].

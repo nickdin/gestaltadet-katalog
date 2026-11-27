@@ -1,6 +1,6 @@
 # Processkartan delas in efter ansvarsnivåer, och nivån bärs av relationer, inte av element
 
-*Banden gäller inte längre: beslut 14. Kvar härifrån är att organisationen är systemet, att ansvarsnivån läses ur relationerna och att mottagaren är en relation, numera levereras till (`C-154`) från produkten till aktören.*
+*Banden gäller inte längre: [[0014-processerna-ar-organisationens-och-kartan-delas-per-process|beslut 14]]. Kvar härifrån är att organisationen är systemet, att ansvarsnivån läses ur relationerna och att mottagaren är en relation, numera levereras till (`C-154`) från produkten till aktören.*
 
 Beslutat av Nicklas i oktober 2026, när en avdelnings processkarta skulle visa vilka processer avdelningen styr, vilka som är dess egna och vilka som stöder andra. Lärobokens indelning i styrande processer, kärnprocesser och stödprocesser sade ingenting för en stabsavdelning.
 
@@ -24,4 +24,4 @@ Kartan skulle göra systemgränsen synlig: vilka processer avdelningen styr i f�
 ## Konsekvenser
 
 - Delegationsordningens rader utan process på kartan tas inte in. De står som öppna frågor.
-- Banden gjorde kartan dubbelt så hög som den första. Det var priset för simbanorna, och beslut 14 tog bort dem.
+- Banden gjorde kartan dubbelt så hög som den första. Det var priset för simbanorna, och [[0014-processerna-ar-organisationens-och-kartan-delas-per-process|beslut 14]] tog bort dem.

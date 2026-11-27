@@ -21,7 +21,7 @@ Resan är människornas egen, inte verksamhetens: den kan gå tvärs över flera
 
 ## Motsvarigheter
 
-Motsvarar CustomerJourney i Business Architecture Core Metamodel (BACM); stegen är behov ([[C-146 Behov]]). Beslut 27.
+Motsvarar CustomerJourney i Business Architecture Core Metamodel (BACM); stegen är behov ([[C-146 Behov]]). [[0027-vardestrom-ar-en-elementtyp-i-strategiperspektivet-utfallet-ar-tillstandet-losningen-ar-formagans-implementation-och-bacm-tas-in-med-hinder-vinst-och-svar-som-begrepp-i-texten|Beslut 27]].
 
 Motsvarar EDGYs Journey.
 

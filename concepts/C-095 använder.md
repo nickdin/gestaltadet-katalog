@@ -21,4 +21,4 @@ Relationen går från det nyttjande elementet till det tillhandahållande.
 
 Motsvarar ArchiMates Serving, riktningen vänd.
 
-Motsvarar Usage i Unified Modeling Language (UML), aktörens streck till användningsfallet, Include mellan två användningsfall och kopplingen (Connector) från en komponents krävda gränssnitt till ett givet. Beslut 29.
+Motsvarar Usage i Unified Modeling Language (UML), aktörens streck till användningsfallet, Include mellan två användningsfall och kopplingen (Connector) från en komponents krävda gränssnitt till ett givet. [[0029-klassen-ar-informationsobjektet-tillstandsmaskinen-ar-tillstandsvyn-anvandningsfallet-ar-tjansten-vardemangd-ar-ett-begrepp-och-uml-tas-in-for-lasarnas-skull-utan-tveksamma-rader|Beslut 29]].

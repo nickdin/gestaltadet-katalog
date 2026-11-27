@@ -18,7 +18,7 @@ Blir en princip först när den ges prövbara konsekvenser.
 
 ## Motsvarigheter
 
-Motsvarar Corporate Value i Business Motivation Model, en intern påverkan ([[C-030 Intern påverkan]]) (beslut 25).
+Motsvarar Corporate Value i Business Motivation Model, en intern påverkan ([[C-030 Intern påverkan]]) ([[0025-paverkan-och-bedomning-ar-elementtyper-strategin-ar-sammanhangande-styrbeslut-visionen-ar-ett-mal-utan-matt-och-bmm-tas-in-med-andamalet-som-katalogens-tillagg|beslut 25]]).
 
 ## Exempel
 

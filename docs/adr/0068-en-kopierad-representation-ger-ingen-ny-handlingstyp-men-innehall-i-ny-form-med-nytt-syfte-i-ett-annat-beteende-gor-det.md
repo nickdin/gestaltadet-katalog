@@ -1,10 +1,10 @@
 # En kopierad representation ger ingen ny handlingstyp, men innehåll i ny form med nytt syfte i ett annat beteende gör det
 
-Beslutat av Nicklas 20 november 2026, när texten om kopiorna i datalagret visade att beslut 67 inte sade vad som kopieras: representationen eller innehållet.
+Beslutat av Nicklas 20 november 2026, när texten om kopiorna i datalagret visade att [[0067-arkivet-har-tva-enheter-handlingsslaget-lases-ur-verksamhetsbeteendet-och-handlingstypen-ar-representationen-redovisad-under-aktiviteten-dar-handlingen-kommer-in-eller-upprattas|beslut 67]] inte sade vad som kopieras: representationen eller innehållet.
 
 ## Sammanhang
 
-Beslut 67 säger att kopiering inte ger någon ny handlingstyp, och visade det med meningen "Analysenheten kopierar Ansökan till datalagret". Texten om analysfunktionen hos Myndigheten för föreningsstöd sade samtidigt att informationshanteringsplanen saknar en rad för kopiorna i datalagret. Beslutet och texten sade emot varandra (#212).
+[[0067-arkivet-har-tva-enheter-handlingsslaget-lases-ur-verksamhetsbeteendet-och-handlingstypen-ar-representationen-redovisad-under-aktiviteten-dar-handlingen-kommer-in-eller-upprattas|Beslut 67]] säger att kopiering inte ger någon ny handlingstyp, och visade det med meningen "Analysenheten kopierar Ansökan till datalagret". Texten om analysfunktionen hos Myndigheten för föreningsstöd sade samtidigt att informationshanteringsplanen saknar en rad för kopiorna i datalagret. Beslutet och texten sade emot varandra (#212).
 
 Ordet Ansökan stod för tre saker:
 
@@ -46,7 +46,7 @@ Frågorna avgjordes på fall hos Myndigheten för föreningsstöd.
 ## Konsekvenser
 
 - Inga begrepp, relationer eller typer tillkommer, och ingen definition ändras.
-- Beslut 67 har fått två noter och ett nytt exempel i meningen om kopior. Beslut 31 och 55 har fått var sin not.
+- [[0067-arkivet-har-tva-enheter-handlingsslaget-lases-ur-verksamhetsbeteendet-och-handlingstypen-ar-representationen-redovisad-under-aktiviteten-dar-handlingen-kommer-in-eller-upprattas|Beslut 67]] har fått två noter och ett nytt exempel i meningen om kopior. [[0031-handlingen-ar-representationen-allman-handling-och-gallring-ar-begrepp-forteckningarna-bor-utanfor-lagret-och-lagringsytan-far-vara-fysisk|Beslut 31]] och [[0055-informationskartlaggning-ar-ett-arbetssatt-en-gemensam-karta-fyra-perspektiv-verksamheten-gor-arbetet-och-varvet-slutar-nar-varje-fynd-har-ett-beslut|55]] har fått var sin not.
 - Representation (`C-085`), Gallring (`C-200`), metodtexten om informationskartläggning och exemplet Myndigheten för föreningsstöd har fått ny text.
 - Exemplet namnger tre representationer i text: ansökningsformuläret, ansökningstabellen och riskindikatortabellen. Lagret har inga element för dem.
 - Ritningarna av analysfunktionens karta säger fortfarande "Kopiorna i datalagret". Den frågan står i #213.

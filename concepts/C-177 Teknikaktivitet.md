@@ -17,10 +17,10 @@ partitive: '[[C-180 Teknikbeteende]]'
 
 ## Anmärkning
 
-Ett steg i ett teknikbeteende ([[C-180 Teknikbeteende]]): i en teknikprocess ([[C-132 Teknikprocess]]) eller en teknikfunktion ([[C-134 Teknikfunktion]]), som rymmer den ([[C-100 aggregerar]]). Beslut 22.
+Ett steg i ett teknikbeteende ([[C-180 Teknikbeteende]]): i en teknikprocess ([[C-132 Teknikprocess]]) eller en teknikfunktion ([[C-134 Teknikfunktion]]), som rymmer den ([[C-100 aggregerar]]). [[0022-aktivitet-och-beslutslogik-ar-elementtyper-bpmn-cmmn-och-dmn-tas-in-som-bestandsdelar-i-beteendet-med-egna-mappningstabeller|Beslut 22]].
 
 ## Motsvarigheter
 
-ArchiMate har ingen aktivitetstyp: en export skriver den som Technology Process, och en import läser varje Technology Process som teknikprocess. Beslut 22.
+ArchiMate har ingen aktivitetstyp: en export skriver den som Technology Process, och en import läser varje Technology Process som teknikprocess. [[0022-aktivitet-och-beslutslogik-ar-elementtyper-bpmn-cmmn-och-dmn-tas-in-som-bestandsdelar-i-beteendet-med-egna-mappningstabeller|Beslut 22]].
 
-Motsvarar Action i Unified Modeling Language (UML) när en teknisk resurs utför den. Beslut 29.
+Motsvarar Action i Unified Modeling Language (UML) när en teknisk resurs utför den. [[0029-klassen-ar-informationsobjektet-tillstandsmaskinen-ar-tillstandsvyn-anvandningsfallet-ar-tjansten-vardemangd-ar-ett-begrepp-och-uml-tas-in-for-lasarnas-skull-utan-tveksamma-rader|Beslut 29]].

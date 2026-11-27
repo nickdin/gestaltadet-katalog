@@ -21,4 +21,4 @@ Relationen går från det startande elementet till det startade.
 
 Motsvarar ArchiMates Triggering.
 
-Motsvarar Transition i en tillståndsmaskin och ControlFlow i en aktivitet i Unified Modeling Language (UML); händelsen på övergången utlöser tillståndet den leder till. Beslut 29.
+Motsvarar Transition i en tillståndsmaskin och ControlFlow i en aktivitet i Unified Modeling Language (UML); händelsen på övergången utlöser tillståndet den leder till. [[0029-klassen-ar-informationsobjektet-tillstandsmaskinen-ar-tillstandsvyn-anvandningsfallet-ar-tjansten-vardemangd-ar-ett-begrepp-och-uml-tas-in-for-lasarnas-skull-utan-tveksamma-rader|Beslut 29]].

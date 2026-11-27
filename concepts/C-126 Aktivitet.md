@@ -17,8 +17,8 @@ Familjebegrepp; typerna är verksamhetsaktivitet ([[C-175 Verksamhetsaktivitet]]
 
 Ett steg utlöser ([[C-098 utlöser]]) nästa. Ett meddelande mellan två parter flödar till ([[C-097 flödar till]]). Ett vägskäl är ingen egen sak utan en aktivitet som använder ([[C-095 använder]]) en beslutslogik ([[C-178 Beslutslogik]]) och utlöser flera steg, med villkoret i relationens beskrivning. En parallell förgrening är flera utlöser från samma steg.
 
-Sorten av steg är ingen typ utan läses ur aktivitetens relationer: tilldelas ([[C-096 tilldelas]]) en roll, realiseras av ([[C-094 realiseras av]]) en applikationstjänst, använder en beslutslogik, utlöser en process eller en handläggning. Beslut 22.
+Sorten av steg är ingen typ utan läses ur aktivitetens relationer: tilldelas ([[C-096 tilldelas]]) en roll, realiseras av ([[C-094 realiseras av]]) en applikationstjänst, använder en beslutslogik, utlöser en process eller en handläggning. [[0022-aktivitet-och-beslutslogik-ar-elementtyper-bpmn-cmmn-och-dmn-tas-in-som-bestandsdelar-i-beteendet-med-egna-mappningstabeller|Beslut 22]].
 
 ## Motsvarigheter
 
-Aktiviteten är steget, det BPMN och CMMN båda kallar Task. BPMN:s sekvensflöde är relationen utlöser ([[C-098 utlöser]]). Ett vägskäl är BPMN:s gateway. Sorterna är BPMN:s User, Manual, Service, Script, Business Rule, Send och Receive Task, eller CMMN:s HumanTask, ProcessTask, CaseTask och DecisionTask. Beslut 22.
+Aktiviteten är steget, det BPMN och CMMN båda kallar Task. BPMN:s sekvensflöde är relationen utlöser ([[C-098 utlöser]]). Ett vägskäl är BPMN:s gateway. Sorterna är BPMN:s User, Manual, Service, Script, Business Rule, Send och Receive Task, eller CMMN:s HumanTask, ProcessTask, CaseTask och DecisionTask. [[0022-aktivitet-och-beslutslogik-ar-elementtyper-bpmn-cmmn-och-dmn-tas-in-som-bestandsdelar-i-beteendet-med-egna-mappningstabeller|Beslut 22]].

@@ -17,16 +17,16 @@ partitive: '[[C-157 Verksamhetsbeteende]]'
 
 ## Anmärkning
 
-Verksamhetsaktiviteten är ett steg i ett verksamhetsbeteende ([[C-157 Verksamhetsbeteende]]): i en verksamhetsprocess ([[C-130 Verksamhetsprocess]]), en handläggning ([[C-160 Handläggning]]) eller en verksamhetsfunktion ([[C-158 Verksamhetsfunktion]]), som rymmer den ([[C-100 aggregerar]]). Ett steg utlöser ([[C-098 utlöser]]) nästa. Aktiviteten namnges som beteendena, med ett verb i infinitiv följt av objektet. Insidan av en process ritas i BPMN och insidan av en handläggning i CMMN; en arkitekturbeskrivning visar aktiviteterna när flödet är det den ska visa, inte annars (beslut 14).
+Verksamhetsaktiviteten är ett steg i ett verksamhetsbeteende ([[C-157 Verksamhetsbeteende]]): i en verksamhetsprocess ([[C-130 Verksamhetsprocess]]), en handläggning ([[C-160 Handläggning]]) eller en verksamhetsfunktion ([[C-158 Verksamhetsfunktion]]), som rymmer den ([[C-100 aggregerar]]). Ett steg utlöser ([[C-098 utlöser]]) nästa. Aktiviteten namnges som beteendena, med ett verb i infinitiv följt av objektet. Insidan av en process ritas i BPMN och insidan av en handläggning i CMMN; en arkitekturbeskrivning visar aktiviteterna när flödet är det den ska visa, inte annars ([[0014-processerna-ar-organisationens-och-kartan-delas-per-process|beslut 14]]).
 
 ## Motsvarigheter
 
-ArchiMate har ingen aktivitetstyp: en export skriver en verksamhetsaktivitet som Business Process, med skillnaden förlorad på vägen ut, och en import läser varje Business Process som verksamhetsprocess. Beslut 22.
+ArchiMate har ingen aktivitetstyp: en export skriver en verksamhetsaktivitet som Business Process, med skillnaden förlorad på vägen ut, och en import läser varje Business Process som verksamhetsprocess. [[0022-aktivitet-och-beslutslogik-ar-elementtyper-bpmn-cmmn-och-dmn-tas-in-som-bestandsdelar-i-beteendet-med-egna-mappningstabeller|Beslut 22]].
 
-I ARIS är verksamhetsaktiviteten EPC:ns funktion (OT_FUNC). Beslut 22.
+I ARIS är verksamhetsaktiviteten EPC:ns funktion (OT_FUNC). [[0022-aktivitet-och-beslutslogik-ar-elementtyper-bpmn-cmmn-och-dmn-tas-in-som-bestandsdelar-i-beteendet-med-egna-mappningstabeller|Beslut 22]].
 
-Verksamhetsaktiviteten är det BPMN kallar Task i en process och CMMN kallar Task i ett ärende. En aktivitet som en roll ([[C-074 Roll]]) tilldelas är BPMN:s User Task och CMMN:s HumanTask; en som en applikationstjänst ([[C-128 Applikationstjänst]]) realiserar är BPMN:s Service Task. Beslut 22.
+Verksamhetsaktiviteten är det BPMN kallar Task i en process och CMMN kallar Task i ett ärende. En aktivitet som en roll ([[C-074 Roll]]) tilldelas är BPMN:s User Task och CMMN:s HumanTask; en som en applikationstjänst ([[C-128 Applikationstjänst]]) realiserar är BPMN:s Service Task. [[0022-aktivitet-och-beslutslogik-ar-elementtyper-bpmn-cmmn-och-dmn-tas-in-som-bestandsdelar-i-beteendet-med-egna-mappningstabeller|Beslut 22]].
 
-Motsvarar Action i Unified Modeling Language (UML) när en aktör i verksamheten utför den. Slaget av handling är text i aktiviteten, som BPMN:s uppgiftstyper. Beslut 29.
+Motsvarar Action i Unified Modeling Language (UML) när en aktör i verksamheten utför den. Slaget av handling är text i aktiviteten, som BPMN:s uppgiftstyper. [[0029-klassen-ar-informationsobjektet-tillstandsmaskinen-ar-tillstandsvyn-anvandningsfallet-ar-tjansten-vardemangd-ar-ett-begrepp-och-uml-tas-in-for-lasarnas-skull-utan-tveksamma-rader|Beslut 29]].
 
-Motsvarar Activity i Value Delivery Modeling Language (VDML), arbete som en deltagare i en roll bidrar med. En aktivitet vars arbete görs av en hel CapabilityMethod ritas som det beteendet, som det yttre beteendet rymmer, så som BPMN-tabellen gör med Sub-Process. Beslut 28.
+Motsvarar Activity i Value Delivery Modeling Language (VDML), arbete som en deltagare i en roll bidrar med. En aktivitet vars arbete görs av en hel CapabilityMethod ritas som det beteendet, som det yttre beteendet rymmer, så som BPMN-tabellen gör med Sub-Process. [[0028-varde-ar-en-elementtyp-i-strategiperspektivet-dit-vardeerbjudandet-flyttar-arbetssatt-ar-ett-begrepp-svaret-heter-hjalp-och-vdml-tas-in-med-rakneverket-omappat|Beslut 28]].

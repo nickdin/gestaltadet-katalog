@@ -24,7 +24,7 @@ Ett begrepp, ingen egen typ: ett effektmål registreras som ett element av typen
 
 ## Motsvarigheter
 
-Motsvarar Outcome i ArchiMates motivationsmodell och Objective i Business Motivation Model: mätbart, tidsatt, uppnåeligt. Beslut 19; beslut 25.
+Motsvarar Outcome i ArchiMates motivationsmodell och Objective i Business Motivation Model: mätbart, tidsatt, uppnåeligt. [[0019-malet-forblir-styrmedel-och-ritas-som-styrmedelselement-portfolj-ar-en-elementtyp|Beslut 19]]; [[0025-paverkan-och-bedomning-ar-elementtyper-strategin-ar-sammanhangande-styrbeslut-visionen-ar-ett-mal-utan-matt-och-bmm-tas-in-med-andamalet-som-katalogens-tillagg|beslut 25]].
 
 ## Exempel
 

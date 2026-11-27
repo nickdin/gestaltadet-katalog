@@ -22,7 +22,7 @@ Verksamhetsmålet är målet på verksamhetsplanens nivå, satt för en planerin
 
 ## Motsvarigheter
 
-Motsvarar Goal i ArchiMates motivationsmodell och i Business Motivation Model: kvalitativt, längre sikt, prövas genom sina effektmål. Beslut 19; beslut 25.
+Motsvarar Goal i ArchiMates motivationsmodell och i Business Motivation Model: kvalitativt, längre sikt, prövas genom sina effektmål. [[0019-malet-forblir-styrmedel-och-ritas-som-styrmedelselement-portfolj-ar-en-elementtyp|Beslut 19]]; [[0025-paverkan-och-bedomning-ar-elementtyper-strategin-ar-sammanhangande-styrbeslut-visionen-ar-ett-mal-utan-matt-och-bmm-tas-in-med-andamalet-som-katalogens-tillagg|beslut 25]].
 
 ## Exempel
 

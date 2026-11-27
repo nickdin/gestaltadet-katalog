@@ -156,7 +156,7 @@ elements:
     unmapped: true
     reason: >-
       the fit between offer and need is a measure, and a measure concept
-      waits for SMM (beslut 26); a behov without a svar is the fit made
+      waits for SMM ([[0026-omgs-ovriga-specifikationer-sorteras-i-tre-fack-bacm-vdml-och-uml-tas-in-sysml-ar-utanfor-och-utbytesspecifikationerna-ar-programmets-sak|beslut 26]]); a behov without a svar is the fit made
       visible without one
   # The business's belief that the customer values an outcome: the offer's
   # answer per need, in the värdeerbjudande's text.
@@ -281,7 +281,7 @@ elements:
   # SMM import
   - name: MeasureLibrary
     unmapped: true
-    reason: measures; a measure concept waits for SMM (beslut 26)
+    reason: measures; a measure concept waits for SMM ([[0026-omgs-ovriga-specifikationer-sorteras-i-tre-fack-bacm-vdml-och-uml-tas-in-sysml-ar-utanfor-och-utbytesspecifikationerna-ar-programmets-sak|beslut 26]])
 
 relationships:
   # Realisation: the more concrete realises the more abstract.
@@ -364,7 +364,7 @@ relationships:
     reason: >-
       the transitions stand in the verksamhetsobjekt's tillståndsvy, driven
       by the behaviour that realises the capability; no arrow from the
-      förmåga to the state (beslut 24)
+      förmåga to the state ([[0024-tillstand-ar-en-elementtyp-uppgiften-ar-informationsmodellens-attribut-och-lagret-ar-den-delade-datamodell-sdmn-beskriver|beslut 24]])
   - name: Capability needs Outcome
     unmapped: true
     reason: as Capability produces Outcome
@@ -408,7 +408,7 @@ relationships:
     unmapped: true
     reason: >-
       the law is a bärare (C-016) fastställd av (C-183) the aktör who decided
-      it (beslut 25); the jurisdiction as such is not drawn
+      it ([[0025-paverkan-och-bedomning-ar-elementtyper-strategin-ar-sammanhangande-styrbeslut-visionen-ar-ett-mal-utan-matt-och-bmm-tas-in-med-andamalet-som-katalogens-tillagg|beslut 25]]); the jurisdiction as such is not drawn
   - name: OrgUnit Responsible OrgUnit
     unmapped: true
     reason: as the Responsible element
@@ -425,14 +425,14 @@ relationships:
     unmapped: true
     reason: >-
       the initiative is the work that carries the styrbeslut out and the
-      process realises it (beslut 25); the initiative påverkar (C-102) the
+      process realises it ([[0025-paverkan-och-bedomning-ar-elementtyper-strategin-ar-sammanhangande-styrbeslut-visionen-ar-ett-mal-utan-matt-och-bmm-tas-in-med-andamalet-som-katalogens-tillagg|beslut 25]]); the initiative påverkar (C-102) the
       mål the styrbeslut aims at
   - name: Change implements Ends
     unmapped: true
     reason: >-
       the verksamhetsförändring is what ersätter (C-104) and the gap
       analysis compute between two descriptions, and is prövad mot the
-      effektmål (beslut 19); nothing is drawn between them
+      effektmål ([[0019-malet-forblir-styrmedel-och-ritas-som-styrmedelselement-portfolj-ar-en-elementtyp|beslut 19]]); nothing is drawn between them
   - name: Ends baseline AbstractOperatingModel
     unmapped: true
     reason: the baseline is the nulägesbeskrivning; ersätter (C-104) carries the difference
@@ -447,7 +447,7 @@ relationships:
     reason: text in the element
   - name: BACM_Model measure_library
     unmapped: true
-    reason: measures wait for SMM (beslut 26)
+    reason: measures wait for SMM ([[0026-omgs-ovriga-specifikationer-sorteras-i-tre-fack-bacm-vdml-och-uml-tas-in-sysml-ar-utanfor-och-utbytesspecifikationerna-ar-programmets-sak|beslut 26]])
 
 unmapped-concepts:
   - id: C-135
@@ -466,18 +466,18 @@ unmapped-concepts:
       has no row
   - id: C-160
     reason: >-
-      handläggning, the case-driven behaviour that CMMN describes (beslut 22),
+      handläggning, the case-driven behaviour that CMMN describes ([[0022-aktivitet-och-beslutslogik-ar-elementtyper-bpmn-cmmn-och-dmn-tas-in-som-bestandsdelar-i-beteendet-med-egna-mappningstabeller|beslut 22]]),
       is in BACM a CapabilityBehavior like any other
   - id: C-178
-    reason: beslutslogik (beslut 22) is in BACM at most an InformationItem that informs a capability
+    reason: beslutslogik ([[0022-aktivitet-och-beslutslogik-ar-elementtyper-bpmn-cmmn-och-dmn-tas-in-som-bestandsdelar-i-beteendet-med-egna-mappningstabeller|beslut 22]]) is in BACM at most an InformationItem that informs a capability
   - id: C-020
     reason: >-
       BACM lets CapabilityBehavior carry rules and policies; the store keeps
-      the regel as a styrmedel (beslut 23), never as behaviour
+      the regel as a styrmedel ([[0023-regeln-anger-vad-som-ska-galla-kravet-ar-en-sorts-regel-katalogen-ar-organisationens-ordlista-och-sbvr-tas-in-med-faststalls-av-som-relationstyp|beslut 23]]), never as behaviour
   - id: C-022
     reason: >-
       the end that comes with the uppdrag and outlives the management; BACM's
-      Ends are what the strategy chooses (beslut 25)
+      Ends are what the strategy chooses ([[0025-paverkan-och-bedomning-ar-elementtyper-strategin-ar-sammanhangande-styrbeslut-visionen-ar-ett-mal-utan-matt-och-bmm-tas-in-med-andamalet-som-katalogens-tillagg|beslut 25]])
   - id: C-149
     reason: BACM has no mission; the ongoing activity the business exists for is nowhere in it
   - id: C-016

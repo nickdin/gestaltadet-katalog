@@ -31,7 +31,7 @@ Ett tillfälligt styrobjekt, som ett initiativ, har egna mål men inget eget än
 
 ## Motsvarigheter
 
-Business Motivation Model saknar ändamålet: dess Goal är det ledningen valt, dess Mission är uppdraget, och inget av dess Ends är givet med uppdraget. Ändamålet är katalogens tillägg (beslut 25).
+Business Motivation Model saknar ändamålet: dess Goal är det ledningen valt, dess Mission är uppdraget, och inget av dess Ends är givet med uppdraget. Ändamålet är katalogens tillägg ([[0025-paverkan-och-bedomning-ar-elementtyper-strategin-ar-sammanhangande-styrbeslut-visionen-ar-ett-mal-utan-matt-och-bmm-tas-in-med-andamalet-som-katalogens-tillagg|beslut 25]]).
 
 ## Exempel
 

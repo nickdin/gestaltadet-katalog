@@ -23,7 +23,7 @@ Påverkan i dokumentform ritas inte som påverkan. En lag, en förordning eller 
 
 ## Motsvarigheter
 
-Motsvarar Influencer i Business Motivation Model och Driver i ArchiMates motivationsmodell (beslut 25).
+Motsvarar Influencer i Business Motivation Model och Driver i ArchiMates motivationsmodell ([[0025-paverkan-och-bedomning-ar-elementtyper-strategin-ar-sammanhangande-styrbeslut-visionen-ar-ett-mal-utan-matt-och-bmm-tas-in-med-andamalet-som-katalogens-tillagg|beslut 25]]).
 
 ## Exempel
 

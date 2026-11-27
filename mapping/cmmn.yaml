@@ -62,13 +62,13 @@ elements:
     reason: >-
       an entry criterion is the utlöser (C-098) relation into the step, with
       the condition in the relation's description; an exit criterion is the
-      verksamhetshändelse (C-135) the step utlöser when done (beslut 22)
+      verksamhetshändelse (C-135) the step utlöser when done ([[0022-aktivitet-och-beslutslogik-ar-elementtyper-bpmn-cmmn-och-dmn-tas-in-som-bestandsdelar-i-beteendet-med-egna-mappningstabeller|beslut 22]])
   - name: Planning Table
     unmapped: true
     reason: >-
       the set of steps the case worker may choose: in the store, every
       activity the handläggning aggregerar (C-100) that no utlöser relation
-      points at is discretionary (beslut 22)
+      points at is discretionary ([[0022-aktivitet-och-beslutslogik-ar-elementtyper-bpmn-cmmn-och-dmn-tas-in-som-bestandsdelar-i-beteendet-med-egna-mappningstabeller|beslut 22]])
   - name: Discretionary Item
     unmapped: true
     reason: as Planning Table

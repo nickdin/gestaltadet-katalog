@@ -28,4 +28,4 @@ En mappningstabell översätter mellan två metamodeller, typ för typ. Den säg
 
 Metamodellen avgör vad en organisation kan säga om sig själv. Ett bostadsbolag som väljer en metamodell utan beslutslogik ([[C-178 Beslutslogik]]) kan inte beskriva hur hyran bestäms som en regel bolaget återanvänder.
 
-Notationen ([[C-212 Notation]]) är ingen del av metamodellen. ISO 42010:s model kind rymmer både metamodellen och notationen, och katalogen håller isär dem. Beslut 42.
+Notationen ([[C-212 Notation]]) är ingen del av metamodellen. ISO 42010:s model kind rymmer både metamodellen och notationen, och katalogen håller isär dem. [[0042-metamodellen-definierar-typer-notationen-ar-ett-eget-begrepp-en-beskrivning-foljer-en-metamodell-och-lagret-rymmer-bara-katalogens|Beslut 42]].

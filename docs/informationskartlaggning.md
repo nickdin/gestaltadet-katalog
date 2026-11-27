@@ -2,7 +2,7 @@
 
 Metoden börjar i en karta och slutar i beslut.
 
-Informationskartläggning är ett [[C-196 Arbetssätt|arbetssätt]] för den som vill förbättra hur en verksamhet hanterar sin information. Verksamheten kartläggs en gång. Sedan går tre perspektiv igenom samma karta: informationssäkerhet, dataskydd, och offentlighet och arkiv. Varje brist som ett perspektiv hittar blir ett fynd, och varje fynd får ett beslut. Metoden står i beslut 55 och beslut 64.
+Informationskartläggning är ett [[C-196 Arbetssätt|arbetssätt]] för den som vill förbättra hur en verksamhet hanterar sin information. Verksamheten kartläggs en gång. Sedan går tre perspektiv igenom samma karta: informationssäkerhet, dataskydd, och offentlighet och arkiv. Varje brist som ett perspektiv hittar blir ett fynd, och varje fynd får ett beslut. Metoden står i [[0055-informationskartlaggning-ar-ett-arbetssatt-en-gemensam-karta-fyra-perspektiv-verksamheten-gor-arbetet-och-varvet-slutar-nar-varje-fynd-har-ett-beslut|beslut 55]] och [[0064-informationshanteringen-har-tre-perspektiv-informationsforsorjningen-ar-arkitekturarbete-och-varje-forteckning-halls-av-ett-perspektiv|beslut 64]].
 
 Ett varv gäller ett beteende och har sju steg. Steg 1 till 3 är en [[C-107 Kartläggning|kartläggning]]. Steg 4 till 7 går igenom kartan och slutar i beslut. Sidan följer ett exempel genom alla steg: analysfunktionen hos Myndigheten för föreningsstöd, en påhittad myndighet som fördelar statsbidrag till ideella föreningar.
 
@@ -43,9 +43,9 @@ Tre perspektiv går igenom samma karta. Varje perspektiv har en huvudfråga, och
 - **Dataskydd.** Har varje [[C-168 Behandling|behandling]] av personuppgifter ett [[C-163 Behandlingsändamål|ändamål]] och en [[C-164 Rättslig grund|rättslig grund]] i registret över behandling? Processägaren går igenom.
 - **Offentlighet och arkiv.** Har varje handlingsslag och varje handlingstyp ett beslut om bevarande eller [[C-200 Gallring|gallring]] i informationshanteringsplanen? Processägaren går igenom.
 
-Kontinuiteten är inget fjärde perspektiv. Kontinuitetskravet är den längsta tid beteendet får stå still, och processägaren ställer det. Kontinuiteten gäller beteendet och alla dess resurser: personal, lokaler, applikationer och information. Informationssäkerheten läser den del som rör information och applikationer. Det gör den genom återställningstiden, som härleds ur kontinuitetskravet. Beslut 61.
+Kontinuiteten är inget fjärde perspektiv. Kontinuitetskravet är den längsta tid beteendet får stå still, och processägaren ställer det. Kontinuiteten gäller beteendet och alla dess resurser: personal, lokaler, applikationer och information. Informationssäkerheten läser den del som rör information och applikationer. Det gör den genom återställningstiden, som härleds ur kontinuitetskravet. [[0061-kontinuitet-ar-ett-krav-pa-hela-beteendet-tillgangligheten-far-tva-matt-och-aterstallningstiden-harleds-till-resursen|Beslut 61]].
 
-Informationsförsörjningen är inget perspektiv. Den är arkitekturarbete. Arkitekten läser samma karta och frågar: har varje [[C-202 Resursdata|resursdataobjekt]] en enda källa, och hämtar kopiorna därifrån? Ett nej blir en [[C-185 Bedömning|bedömning]] som går till [[C-054 Målarkitektur|målarkitekturen]]. Bedömningen följer arkitekturarbetets egen takt. Beslut 64.
+Informationsförsörjningen är inget perspektiv. Den är arkitekturarbete. Arkitekten läser samma karta och frågar: har varje [[C-202 Resursdata|resursdataobjekt]] en enda källa, och hämtar kopiorna därifrån? Ett nej blir en [[C-185 Bedömning|bedömning]] som går till [[C-054 Målarkitektur|målarkitekturen]]. Bedömningen följer arkitekturarbetets egen takt. [[0064-informationshanteringen-har-tre-perspektiv-informationsforsorjningen-ar-arkitekturarbete-och-varje-forteckning-halls-av-ett-perspektiv|Beslut 64]].
 
 Exempel: Varje perspektiv ger ett fynd i analysfunktionen, och arkitekten gör en bedömning. De står under steg 5.
 
@@ -102,7 +102,7 @@ Kartan bär beteendet, informationsobjekten med ägare, representationerna, lagr
 
 Kartan bär inga beslut ur de tre perspektiven. Den visar vem som beslutar, aldrig vad hen har beslutat. Klassningen står därför inte på kartan. Den som går igenom kartan läser ihop den med perspektivens dokumentation.
 
-Besluten står i perspektivens dokumentation, och varje perspektiv håller sin egen. Sidan beskriver inte dokumentationen i sin helhet. Den säger vilka dokument som pekar på kartan, vad de pekar på och var resten står. Där en källa namnger dokumentet har det källans namn. Beslut 64.
+Besluten står i perspektivens dokumentation, och varje perspektiv håller sin egen. Sidan beskriver inte dokumentationen i sin helhet. Den säger vilka dokument som pekar på kartan, vad de pekar på och var resten står. Där en källa namnger dokumentet har det källans namn. [[0064-informationshanteringen-har-tre-perspektiv-informationsforsorjningen-ar-arkitekturarbete-och-varje-forteckning-halls-av-ett-perspektiv|Beslut 64]].
 
 **Informationssäkerhet.** Informationssäkerheten håller fyra dokument som pekar på kartan. Resten står i föreskrifterna om informationssäkerhet för statliga myndigheter (MSBFS 2020:6 och MSBFS 2020:7) och i metodstödet för systematiskt informationssäkerhetsarbete på informationssakerhet.se. Cybersäkerhetslagen ställer fler krav på dokumentationen hos den som lagen gäller. Lagen ger inget eget perspektiv, för kraven hör till informationssäkerheten.
 
@@ -124,7 +124,7 @@ Exempel: Chefen för Bidragsenheten säger hur länge Genomföra ansökningsomg�
 - Arkivförteckningen redovisar handlingarna som processerna upprättar och tar emot, med gallring och sekretess. Den pekar på beteendet och på representationerna.
 - Informationshanteringsplanen säger vad som bevaras och vad som gallras. Den pekar på samma ställen som arkivförteckningen. Ordet informationshanteringsplan står inte i RA-FS 1991:1. Föreskrifterna kräver klassificeringsstrukturen och arkivförteckningen av statliga myndigheter. I kommunerna heter planen dokumenthanteringsplan.
 
-Kontinuitetskravet och återställningstiden står i dokumentationen av kontinuiteten. Dokumentationen hör inte till något av perspektiven. En rad för kontinuitetskravet pekar på beteendet och säger hur länge det får stå still. En rad för återställningstiden pekar på applikationen eller lagringsytan och säger hur fort den måste vara i bruk igen. Den som går igenom kartan läser tiden där och frågar om resursen klarar den. Lathunden för kontinuitetshantering från Myndigheten för samhällsskydd och beredskap kallar dokumentet konsekvensanalys. Beslut 64.
+Kontinuitetskravet och återställningstiden står i dokumentationen av kontinuiteten. Dokumentationen hör inte till något av perspektiven. En rad för kontinuitetskravet pekar på beteendet och säger hur länge det får stå still. En rad för återställningstiden pekar på applikationen eller lagringsytan och säger hur fort den måste vara i bruk igen. Den som går igenom kartan läser tiden där och frågar om resursen klarar den. Lathunden för kontinuitetshantering från Myndigheten för samhällsskydd och beredskap kallar dokumentet konsekvensanalys. [[0064-informationshanteringen-har-tre-perspektiv-informationsforsorjningen-ar-arkitekturarbete-och-varje-forteckning-halls-av-ett-perspektiv|Beslut 64]].
 
 Exempel: Anta att Genomföra ansökningsomgången får stå still högst en dag när pengarna ska betalas ut. Dokumentationen av kontinuiteten har då en rad som pekar på Genomföra ansökningsomgången och säger en dag. Återställningstiden för Föreningsregistret står på en egen rad i dokumentationen av kontinuiteten, och den raden säger också en dag.
 

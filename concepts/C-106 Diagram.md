@@ -16,4 +16,4 @@ associative:
 
 ## Anmärkning
 
-Diagrammet ritas med en notation ([[C-212 Notation]]). Samma vy kan visas i flera diagram med olika notation. Beslut 42.
+Diagrammet ritas med en notation ([[C-212 Notation]]). Samma vy kan visas i flera diagram med olika notation. [[0042-metamodellen-definierar-typer-notationen-ar-ett-eget-begrepp-en-beskrivning-foljer-en-metamodell-och-lagret-rymmer-bara-katalogens|Beslut 42]].

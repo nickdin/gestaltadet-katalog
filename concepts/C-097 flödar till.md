@@ -20,6 +20,6 @@ Relationen går från det avsändande elementet till mottagaren, och det som gå
 
 ## Motsvarigheter
 
-Motsvarar ArchiMates Flow och BPMN:s Message Flow när etiketten är fri text. Beslut 14, bekräftat och avgränsat i beslut 33.
+Motsvarar ArchiMates Flow och BPMN:s Message Flow när etiketten är fri text. [[0014-processerna-ar-organisationens-och-kartan-delas-per-process|Beslut 14]], bekräftat och avgränsat i [[0033-flodet-mellan-tva-beteenden-harleds-ur-atkomsten-flodar-till-ar-for-det-som-inte-ar-ett-element-och-de-frammande-flodena-som-bar-ett-element-ar-atkomstparet|beslut 33]].
 
-I Unified Modeling Language (UML) bär ObjectFlow och InformationFlow alltid ett element, liksom DeliverableFlow i Value Delivery Modeling Language (VDML); de är åtkomstparet, inte denna relation. Beslut 29, ändrat i beslut 33.
+I Unified Modeling Language (UML) bär ObjectFlow och InformationFlow alltid ett element, liksom DeliverableFlow i Value Delivery Modeling Language (VDML); de är åtkomstparet, inte denna relation. [[0029-klassen-ar-informationsobjektet-tillstandsmaskinen-ar-tillstandsvyn-anvandningsfallet-ar-tjansten-vardemangd-ar-ett-begrepp-och-uml-tas-in-for-lasarnas-skull-utan-tveksamma-rader|Beslut 29]], ändrat i [[0033-flodet-mellan-tva-beteenden-harleds-ur-atkomsten-flodar-till-ar-for-det-som-inte-ar-ett-element-och-de-frammande-flodena-som-bar-ett-element-ar-atkomstparet|beslut 33]].

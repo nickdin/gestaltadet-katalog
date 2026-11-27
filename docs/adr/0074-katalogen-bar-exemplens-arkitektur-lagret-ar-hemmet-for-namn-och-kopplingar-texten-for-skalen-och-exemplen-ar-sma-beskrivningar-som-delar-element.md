@@ -49,7 +49,7 @@ Frågorna avgjordes på fallet Analys hos Myndigheten för föreningsstöd.
 - **Funktionen heter Ta fram statistik.** Kartan och texten kallade den Analysfunktionen. Det namnet ligger för nära förmågan Analys. Funktionen är ett enda element, och ritningarna och texterna byter namn.
 - **Ta fram statistik är en verksamhetsfunktion (`C-158`).** Den är analytikernas löpande ansvar och har ingen bestämd början. Den rör inget enskilt ärende och är därför ingen handläggning (`C-160`).
 - **Funktionen rymmer processer.** Bidragsenhetens månadsräkning börjar vid månadsskiftet, följer samma steg och lämnas till generaldirektören. Den är en verksamhetsprocess (`C-130`) inuti funktionen. Beskrivningen av vem som utför arbetet visar både funktionen och processen.
-- **Riskindikator per förening blir tre element.** Produkten (`C-014`) är det Analys lämnar till Tillsyn. Produkten aggregerar (`C-100`) verksamhetsobjektet (`C-159`) med samma namn. Informationsobjektet (`C-060`) realiserar verksamhetsobjektet och är innehållet, som chefen för Analysenheten äger. Kedjan är den som beslut 16 bestämde.
+- **Riskindikator per förening blir tre element.** Produkten (`C-014`) är det Analys lämnar till Tillsyn. Produkten aggregerar (`C-100`) verksamhetsobjektet (`C-159`) med samma namn. Informationsobjektet (`C-060`) realiserar verksamhetsobjektet och är innehållet, som chefen för Analysenheten äger. Kedjan är den som [[0016-verksamhetsobjekt-ar-en-elementtyp|beslut 16]] bestämde.
 - **"Producera statistik" står kvar som exempel i Verksamhetsprocess (`C-130`).** Det är ett allmänt exempel på hur en process namnges. Typen bär skillnaden mellan process och funktion, inte namnet.
 
 ## Övervägda alternativ
@@ -57,7 +57,7 @@ Frågorna avgjordes på fallet Analys hos Myndigheten för föreningsstöd.
 - **Ett eget lager per exempelorganisation.** Exemplen hade då legat för sig. Ett element pekar bara på begrepp i sitt eget lager, så varje lager hade behövt en kopia av begreppen. En ändrad definition hade fått göras på flera ställen. Avvisat.
 - **En stor beskrivning per organisation.** Den hade visat allt på en gång. En läsare orkar öppna en liten beskrivning, och verkligt arbete görs en fråga i taget. Avvisat.
 - **Berättelsen flyttar in i beskrivningarna, och `docs/exempel/` blir bara en ingång.** Då hade allt om ett fall stått på ett ställe. Begreppens anmärkningar lutar sig mot texten, och den är läsbar som den är. Avvisat nu.
-- **Katalogens ägare står som ägare till beskrivningarna.** Det är sant om texten, men exemplet hade inte visat hur ägande ser ut i bruk. Vem som har skrivit en text visas på annat sätt (beslut 39). Avvisat.
+- **Katalogens ägare står som ägare till beskrivningarna.** Det är sant om texten, men exemplet hade inte visat hur ägande ser ut i bruk. Vem som har skrivit en text visas på annat sätt ([[0039-varje-text-pa-sajten-sager-vem-som-skrivit-den-och-om-nicklas-godkant-den|beslut 39]]). Avvisat.
 - **Två element, där Ta fram statistik är en del av Analysfunktionen.** Inget i texterna skiljer de två åt. Avvisat.
 - **Elementen skrivs in för hand och ritningen ritas om.** Det hade gett samma element. Katalogen hade då inte visat hur en ritning läses in. Avvisat för den första beskrivningen.
 
@@ -66,6 +66,6 @@ Frågorna avgjordes på fallet Analys hos Myndigheten för föreningsstöd.
 - Ingen definition ändras, och inga begrepp tillkommer.
 - Lagret får element, relationer, beskrivningar, vyer och ritningar. Sajten visar dem bredvid begreppen.
 - Namnet Analysfunktionen byts mot Ta fram statistik i ritningarna, i texten om myndigheten och i texten om informationskartläggning.
-- Produkten Riskindikator per förening binds till sitt innehåll genom verksamhetsobjektet, som beslut 16 säger. Frågan ställdes i ärende #223 och fick det svaret samma dag.
+- Produkten Riskindikator per förening binds till sitt innehåll genom verksamhetsobjektet, som [[0016-verksamhetsobjekt-ar-en-elementtyp|beslut 16]] säger. Frågan ställdes i ärende #223 och fick det svaret samma dag.
 - Startsidan behöver en väg in till exemplen. Det avsnittet skrivs i ett eget ärende.
 - Arbetet samlas i ärende #222, med ett ärende per fall.

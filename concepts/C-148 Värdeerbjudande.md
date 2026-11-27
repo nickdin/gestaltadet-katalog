@@ -26,19 +26,19 @@ associative:
 
 ## Anmärkning
 
-Värdeerbjudandet står mellan produkt och behov: en produkt möter ett behov bara genom ett värdeerbjudande, aldrig direkt. Det riktas till exakt en målgrupp eller en namngiven aktör, bygger på en eller flera produkter och möter ett eller flera behov. Produkten är det som levereras ([[C-014 Produkt]]); värdeerbjudandet är vad den utlovas göra. Samma produkt kan bära olika värdeerbjudanden till olika målgrupper. Värdeerbjudandet hör till strategiperspektivet ([[C-108 Strategiperspektiv]]): löftet är strategi, affärsmodellens kärna, medan produkten som håller löftet hör till verksamhetsperspektivet (beslut 28).
+Värdeerbjudandet står mellan produkt och behov: en produkt möter ett behov bara genom ett värdeerbjudande, aldrig direkt. Det riktas till exakt en målgrupp eller en namngiven aktör, bygger på en eller flera produkter och möter ett eller flera behov. Produkten är det som levereras ([[C-014 Produkt]]); värdeerbjudandet är vad den utlovas göra. Samma produkt kan bära olika värdeerbjudanden till olika målgrupper. Värdeerbjudandet hör till strategiperspektivet ([[C-108 Strategiperspektiv]]): löftet är strategi, affärsmodellens kärna, medan produkten som håller löftet hör till verksamhetsperspektivet ([[0028-varde-ar-en-elementtyp-i-strategiperspektivet-dit-vardeerbjudandet-flyttar-arbetssatt-ar-ett-begrepp-svaret-heter-hjalp-och-vdml-tas-in-med-rakneverket-omappat|beslut 28]]).
 
 Elementets text säger hur erbjudandet hjälper med vart och ett av behoven. Texten per behov är en hjälp ([[C-194 Hjälp]]), ett begrepp utan typ: hur erbjudandet röjer behovets hinder och ger dess vinst. Ett behov utan hjälp är passningen synliggjord. Värdeerbjudandet realiseras av ([[C-094 realiseras av]]) en värdeström ([[C-190 Värdeström]]), stegen där värdet byggs upp.
 
 Erbjudandet består av ([[C-062 består av]]) sina värden ([[C-195 Värde]]), de mätbara nyttor det utlovar: ett värde per nytta, som hjälpen står en per behov.
 
-Det erbjudandet lovar är värden, inga mål. Att pengarna är på kontot inom fyra månader från ansökan är ett värde. Att hålla löftet är domänens mål för produktionen, och vad utformningen ska klara är förmågans mål ([[C-069 Verksamhetsförmåga]]). Ägaren till lösningen ([[C-055 Lösning]]) som erbjuder produkten ansvarar för erbjudandet, dess värden och värdeströmmen. Beslut 66.
+Det erbjudandet lovar är värden, inga mål. Att pengarna är på kontot inom fyra månader från ansökan är ett värde. Att hålla löftet är domänens mål för produktionen, och vad utformningen ska klara är förmågans mål ([[C-069 Verksamhetsförmåga]]). Ägaren till lösningen ([[C-055 Lösning]]) som erbjuder produkten ansvarar för erbjudandet, dess värden och värdeströmmen. [[0066-formagan-och-vardestrommen-ar-inga-styrobjekt-men-nagon-ansvarar-for-dem-loftet-ar-ett-varde-och-vardestrommen-visar-vilken-formaga-som-ska-bli-battre|Beslut 66]].
 
 ## Motsvarigheter
 
-ValueProposition i Business Architecture Core Metamodel (BACM) mappas hit och dess ValueItem till hjälpen; passningens mått, ValueCharacteristic, väntar på ett måttbegrepp. Beslut 27.
+ValueProposition i Business Architecture Core Metamodel (BACM) mappas hit och dess ValueItem till hjälpen; passningens mått, ValueCharacteristic, väntar på ett måttbegrepp. [[0027-vardestrom-ar-en-elementtyp-i-strategiperspektivet-utfallet-ar-tillstandet-losningen-ar-formagans-implementation-och-bacm-tas-in-med-hinder-vinst-och-svar-som-begrepp-i-texten|Beslut 27]].
 
-Motsvarar ValueProposition i Value Delivery Modeling Language (VDML), värdena sedda från mottagaren med dess nöjdhet, och Value Proposition i Strategyzers kanvaser. Beslut 28.
+Motsvarar ValueProposition i Value Delivery Modeling Language (VDML), värdena sedda från mottagaren med dess nöjdhet, och Value Proposition i Strategyzers kanvaser. [[0028-varde-ar-en-elementtyp-i-strategiperspektivet-dit-vardeerbjudandet-flyttar-arbetssatt-ar-ett-begrepp-svaret-heter-hjalp-och-vdml-tas-in-med-rakneverket-omappat|Beslut 28]].
 
 ## Exempel
 

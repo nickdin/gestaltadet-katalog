@@ -17,7 +17,7 @@ generic: '[[C-185 Bedömning]]'
 
 Följden kan vara en förlust eller en vinst. Katalogen följer ISO 31000, som definierar risk som osäkerhetens effekt på mål, och låter ett ord bära båda; vilken sida det gäller står i texten. I vardagsspråket är risken förlusten och vinsten kallas chans eller möjlighet.
 
-Ett begrepp, ingen egen typ: en risk registreras som ett element av typen bedömning ([[C-185 Bedömning]]). Sannolikhet, följd och mått står i riskens text. Riskregistrets poster, riskerna som uppföljningen hanterar, är informationsobjekt ([[C-060 Informationsobjekt]]) i den beskrivning som beskriver riskhanteringen, inte arkitekturens bedömningar (beslut 25).
+Ett begrepp, ingen egen typ: en risk registreras som ett element av typen bedömning ([[C-185 Bedömning]]). Sannolikhet, följd och mått står i riskens text. Riskregistrets poster, riskerna som uppföljningen hanterar, är informationsobjekt ([[C-060 Informationsobjekt]]) i den beskrivning som beskriver riskhanteringen, inte arkitekturens bedömningar ([[0025-paverkan-och-bedomning-ar-elementtyper-strategin-ar-sammanhangande-styrbeslut-visionen-ar-ett-mal-utan-matt-och-bmm-tas-in-med-andamalet-som-katalogens-tillagg|beslut 25]]).
 
 ## Motsvarigheter
 

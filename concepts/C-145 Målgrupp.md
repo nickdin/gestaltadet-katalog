@@ -22,9 +22,9 @@ En sorts människor, aldrig en part: en målgrupp kan inte agera, skriva under e
 
 ## Motsvarigheter
 
-Customer i Business Architecture Core Metamodel (BACM), en kundtyp eller klass av kunder, är en målgrupp; en namngiven partner är en aktör ([[C-073 Aktör]]). Beslut 27.
+Customer i Business Architecture Core Metamodel (BACM), en kundtyp eller klass av kunder, är en målgrupp; en namngiven partner är en aktör ([[C-073 Aktör]]). [[0027-vardestrom-ar-en-elementtyp-i-strategiperspektivet-utfallet-ar-tillstandet-losningen-ar-formagans-implementation-och-bacm-tas-in-med-hinder-vinst-och-svar-som-begrepp-i-texten|Beslut 27]].
 
-Community i Value Delivery Modeling Language (VDML), en lös sammanslutning med gemensamt intresse, är en målgrupp när den står för ett marknadssegment och en aktör när den är en formell sammanslutning. Motsvarar Customer Segment i Business Model Canvas. Beslut 28.
+Community i Value Delivery Modeling Language (VDML), en lös sammanslutning med gemensamt intresse, är en målgrupp när den står för ett marknadssegment och en aktör när den är en formell sammanslutning. Motsvarar Customer Segment i Business Model Canvas. [[0028-varde-ar-en-elementtyp-i-strategiperspektivet-dit-vardeerbjudandet-flyttar-arbetssatt-ar-ett-begrepp-svaret-heter-hjalp-och-vdml-tas-in-med-rakneverket-omappat|Beslut 28]].
 
 ## Exempel
 

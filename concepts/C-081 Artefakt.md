@@ -19,7 +19,7 @@ generic: "[[C-122 Resurs]]"
 
 Motsvarar ArchiMates Artifact.
 
-Motsvarar Artifact i Unified Modeling Language (UML), med standardprofilens «file», «executable», «library», «document», «script» och «source»; driftsatt på en nod med tilldelas (Deployment), och applikationen realiseras av den (Manifestation). Beslut 29.
+Motsvarar Artifact i Unified Modeling Language (UML), med standardprofilens «file», «executable», «library», «document», «script» och «source»; driftsatt på en nod med tilldelas (Deployment), och applikationen realiseras av den (Manifestation). [[0029-klassen-ar-informationsobjektet-tillstandsmaskinen-ar-tillstandsvyn-anvandningsfallet-ar-tjansten-vardemangd-ar-ett-begrepp-och-uml-tas-in-for-lasarnas-skull-utan-tveksamma-rader|Beslut 29]].
 
 ## Exempel
 

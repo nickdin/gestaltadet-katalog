@@ -4,7 +4,7 @@ Beslutat av Nicklas 20 november 2026, när underlaget om perspektivens dokumenta
 
 ## Sammanhang
 
-Beslut 31 sade att gallring beslutas "per handlingstyp och verksamhetsprocess". Ankaret i lagret var paret av ett verksamhetsbeteende (`C-157`) och en representation (`C-085`), och paret kallades handlingstypen per process.
+[[0031-handlingen-ar-representationen-allman-handling-och-gallring-ar-begrepp-forteckningarna-bor-utanfor-lagret-och-lagringsytan-far-vara-fysisk|Beslut 31]] sade att gallring beslutas "per handlingstyp och verksamhetsprocess". Ankaret i lagret var paret av ett verksamhetsbeteende (`C-157`) och en representation (`C-085`), och paret kallades handlingstypen per process.
 
 Riksarkivets föreskrifter har två enheter (RA-FS 1991:1, 2 kap. 1 § och 6 kap. 16 §). Handlingsslaget är de handlingar som kommer in eller upprättas när en process genomförs upprepat. Handlingstypen är de handlingar som kommer in eller upprättas när en aktivitet genomförs upprepat. Myndigheten anger gallring och sekretess för båda. Underlaget står i `docs/research/perspektivens-dokumentation.md`.
 
@@ -19,10 +19,10 @@ Frågorna avgjordes på fall hos Myndigheten för föreningsstöd.
 ### De två enheterna
 
 - **Handlingsslaget är de handlingar som ett verksamhetsbeteende avsätter.** Ankaret i lagret är beteendet. Genomföra ansökningsomgången avsätter handlingsslaget ansökningsärenden.
-- **Handlingsslaget ritas inte.** Läsaren läser det ur beteendet och de representationer beteendet har åtkomst till. Handlingsslag blir varken ett begrepp eller en tillåten term, på samma linje som beslut 31.
-- **Handlingstypen är representationen.** Ansökan är en handlingstyp och Beslut en annan. Handlingstyp står kvar som tillåten term för Representation (`C-085`). *Beslut 68 skiljer informationsobjektet Ansökan från dess form. Handlingstypen här är ansökningsformuläret.*
+- **Handlingsslaget ritas inte.** Läsaren läser det ur beteendet och de representationer beteendet har åtkomst till. Handlingsslag blir varken ett begrepp eller en tillåten term, på samma linje som [[0031-handlingen-ar-representationen-allman-handling-och-gallring-ar-begrepp-forteckningarna-bor-utanfor-lagret-och-lagringsytan-far-vara-fysisk|beslut 31]].
+- **Handlingstypen är representationen.** Ansökan är en handlingstyp och Beslut en annan. Handlingstyp står kvar som tillåten term för Representation (`C-085`). *[[0068-en-kopierad-representation-ger-ingen-ny-handlingstyp-men-innehall-i-ny-form-med-nytt-syfte-i-ett-annat-beteende-gor-det|Beslut 68]] skiljer informationsobjektet Ansökan från dess form. Handlingstypen här är ansökningsformuläret.*
 - **Arkivet redovisar handlingstypen under aktiviteten där handlingen kommer in eller upprättas.** Paret av aktivitet (`C-175`) och representation är handlingstypens plats, inte handlingstypen själv. Ansökan redovisas under aktiviteten som tar emot den.
-- **Att kopiera eller lämna ut en handling ger ingen ny handlingstyp.** En handläggare sparar en kopia av ansökningsformuläret i sin mapp, och en annan aktivitet lämnar ut det på begäran. Det är behandlingar (`C-168`) av samma handlingstyp. *Beslut 68 bytte exemplet. Regeln gäller en kopierad representation. Innehåll som ett beteende lagrar i ny form är en ny representation.*
+- **Att kopiera eller lämna ut en handling ger ingen ny handlingstyp.** En handläggare sparar en kopia av ansökningsformuläret i sin mapp, och en annan aktivitet lämnar ut det på begäran. Det är behandlingar (`C-168`) av samma handlingstyp. *[[0068-en-kopierad-representation-ger-ingen-ny-handlingstyp-men-innehall-i-ny-form-med-nytt-syfte-i-ett-annat-beteende-gor-det|Beslut 68]] bytte exemplet. Regeln gäller en kopierad representation. Innehåll som ett beteende lagrar i ny form är en ny representation.*
 
 ### Gallringen
 
@@ -53,7 +53,7 @@ Frågorna avgjordes på fall hos Myndigheten för föreningsstöd.
 ## Konsekvenser
 
 - Gallring (`C-200`) har ny definition. Inga begrepp, relationer eller typer tillkommer.
-- Beslut 31 har fått en not om de tre punkter som det här beslutet ändrar, och beslut 55 en not om genomgångens fråga.
+- [[0031-handlingen-ar-representationen-allman-handling-och-gallring-ar-begrepp-forteckningarna-bor-utanfor-lagret-och-lagringsytan-far-vara-fysisk|Beslut 31]] har fått en not om de tre punkter som det här beslutet ändrar, och [[0055-informationskartlaggning-ar-ett-arbetssatt-en-gemensam-karta-fyra-perspektiv-verksamheten-gor-arbetet-och-varvet-slutar-nar-varje-fynd-har-ett-beslut|beslut 55]] en not om genomgångens fråga.
 - Gallring (`C-200`), Representation (`C-085`), Behandling (`C-168`), Bärare (`C-016`), Verksamhetsprocess (`C-130`), Verksamhetsbeteende (`C-157`) och metodtexten om informationskartläggning har fått ny text.
 - Föreskrifternas ordalydelse är hämtad ur underlaget och inte läst på nytt för det här beslutet.
-- Vem som beslutar om gallring i exemplet är inte avgjort här. Den frågan står i #205. *Beslut 68 avgjorde den: myndigheten begär gallringsbeslut hos Riksarkivet.*
+- Vem som beslutar om gallring i exemplet är inte avgjort här. Den frågan står i #205. *[[0068-en-kopierad-representation-ger-ingen-ny-handlingstyp-men-innehall-i-ny-form-med-nytt-syfte-i-ett-annat-beteende-gor-det|Beslut 68]] avgjorde den: myndigheten begär gallringsbeslut hos Riksarkivet.*

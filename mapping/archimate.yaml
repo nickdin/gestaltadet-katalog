@@ -217,12 +217,12 @@ relationships:
 unmapped-concepts:
   - id: C-182
     reason: >-
-      tillstånd (beslut 24) is the state a verksamhetsobjekt is in, drawn in a
+      tillstånd ([[0024-tillstand-ar-en-elementtyp-uppgiften-ar-informationsmodellens-attribut-och-lagret-ar-den-delade-datamodell-sdmn-beskriver|beslut 24]]) is the state a verksamhetsobjekt is in, drawn in a
       state view; ArchiMate has no state element, the state goes into a
       Business Object's name or a Business Event
   - id: C-178
     reason: >-
-      beslutslogik (beslut 22) is DMN's Decision, the reusable rule by which
+      beslutslogik ([[0022-aktivitet-och-beslutslogik-ar-elementtyper-bpmn-cmmn-och-dmn-tas-in-som-bestandsdelar-i-beteendet-med-egna-mappningstabeller|beslut 22]]) is DMN's Decision, the reusable rule by which
       an outcome is determined from inputs; ArchiMate has no element for
       decision logic, and the logic is drawn in DMN, not exported
   - id: C-165
@@ -256,7 +256,7 @@ unmapped-concepts:
     reason: >-
       a portfölj is a set of initiatives and products prioritised and funded
       together; ArchiMate has no portfolio element, Grouping comes nearest and
-      is a composite, not a type (beslut 19)
+      is a composite, not a type ([[0019-malet-forblir-styrmedel-och-ritas-som-styrmedelselement-portfolj-ar-en-elementtyp|beslut 19]])
   - id: C-016
     reason: >-
       a document or artefact that carries styrmedel or ändamål; ArchiMate's
@@ -276,8 +276,8 @@ unmapped-concepts:
       the purpose the business is to serve, given with the uppdrag and
       outliving the management; it is not a Goal, which is a state the
       management chose for the styrobjekt to reach or hold (C-017), and not a
-      Driver, which is the påverkan (C-184) the purpose is read out of (beslut
-      25)
+      Driver, which is the påverkan (C-184) the purpose is read out of
+      ([[0025-paverkan-och-bedomning-ar-elementtyper-strategin-ar-sammanhangande-styrbeslut-visionen-ar-ett-mal-utan-matt-och-bmm-tas-in-med-andamalet-som-katalogens-tillagg|beslut 25]])
   - id: C-064
     reason: >-
       provenance relation for governance objects (a decision derived from
@@ -366,18 +366,18 @@ unmapped-concepts:
       by hand
   - id: C-183
     reason: >-
-      fastställs av (beslut 23) says who decided or adopted a bärare or a
+      fastställs av ([[0023-regeln-anger-vad-som-ska-galla-kravet-ar-en-sorts-regel-katalogen-ar-organisationens-ordlista-och-sbvr-tas-in-med-faststalls-av-som-relationstyp|beslut 23]]) says who decided or adopted a bärare or a
       styrmedel, SBVR's business jurisdiction; no ArchiMate core or motivation
       relationship says who decided a motivation element, and Association
       already holds associeras med (C-099) and ansvarar för (C-208)
   - id: C-190
     reason: >-
-      värdeström (beslut 27) is the set of stages that build up the value a
+      värdeström ([[0027-vardestrom-ar-en-elementtyp-i-strategiperspektivet-utfallet-ar-tillstandet-losningen-ar-formagans-implementation-och-bacm-tas-in-med-hinder-vinst-och-svar-som-begrepp-i-texten|beslut 27]]) is the set of stages that build up the value a
       värdeerbjudande promises, BACM's ValueStream; ArchiMate's Value Stream
       lies in the strategy layer outside the core this table covers
   - id: C-195
     reason: >-
-      värde (beslut 28) is the measurable benefit a product's delivery gives
+      värde ([[0028-varde-ar-en-elementtyp-i-strategiperspektivet-dit-vardeerbjudandet-flyttar-arbetssatt-ar-ett-begrepp-svaret-heter-hjalp-och-vdml-tas-in-med-rakneverket-omappat|beslut 28]]) is the measurable benefit a product's delivery gives
       its recipient, part of the värdeerbjudande and realised by a värdeström's
       stages, VDML's ValueDefinition, ValuePropositionComponent and ValueAdd;
       ArchiMate's Value lies in the motivation layer outside the core this

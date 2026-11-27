@@ -6,9 +6,9 @@ Beslutat av Nicklas 13 november 2026, i en grillning om vad som hindrar en livsk
 
 Ärendet #40 frågade om katalogens styrning är ett livskraftigt system i Stafford Beers mening, och vad som saknas. Beers modell, Viable System Model, säger vad ett system måste ha för att bestå: fem saker, som Beer numrerar System 1 till 5.
 
-Beslut 48 gav frågan ett vidare uppdrag. Katalogen är inte neutral. Den finns till för att styrningen ska bli livskraftig, och den ska kunna visa och förklara hinder. Fallet var Brinkstadsbostäder. Teknisk chef äger lösningen Felanmälan, och bovärdarna arbetar på områdeskontoren bredvid. Ingen under vd håller båda, så varje avvägning går till vd. Nicklas ville ha den allmänna förklaringen och nämnde fyra ämnen: beroenden, komplexitet, centralisering och balans.
+[[0048-produktionsstyrning-ar-utvecklingsstyrningens-tvilling-malet-hor-till-domanen-och-en-losnings-hemdoman-ska-rymma-produktionen-som-utfor-dess-beteende|Beslut 48]] gav frågan ett vidare uppdrag. Katalogen är inte neutral. Den finns till för att styrningen ska bli livskraftig, och den ska kunna visa och förklara hinder. Fallet var Brinkstadsbostäder. Teknisk chef äger lösningen Felanmälan, och bovärdarna arbetar på områdeskontoren bredvid. Ingen under vd håller båda, så varje avvägning går till vd. Nicklas ville ha den allmänna förklaringen och nämnde fyra ämnen: beroenden, komplexitet, centralisering och balans.
 
-Ärendet skrevs före beslut 47 och räknade lösningen som ett livskraftigt system. Sedan beslut 47 innehåller en lösning bara utformningen.
+Ärendet skrevs före [[0047-en-sorts-verksamhetsdoman-med-utformning-och-produktion-losningen-innehaller-utformningen-allt-utforande-ar-produktion-och-leveransprodukten-ar-det-mottagaren-producerar-med|beslut 47]] och räknade lösningen som ett livskraftigt system. Sedan [[0047-en-sorts-verksamhetsdoman-med-utformning-och-produktion-losningen-innehaller-utformningen-allt-utforande-ar-produktion-och-leveransprodukten-ar-det-mottagaren-producerar-med|beslut 47]] innehåller en lösning bara utformningen.
 
 Grillningen gick sex rundor. Nicklas ändrade utfallet på fyra punkter. Samordning kan ha mandat bakom sig. Granskningen förtjänar ett eget begrepp, eftersom den avgör om styrningen får effekt. Verksamhetsplanen är ingen produktionsplan utan en bärare för hela årets styrning. Och lagarna är inga begrepp i katalogen utan skäl för den, så de får en egen lista.
 
@@ -26,11 +26,11 @@ Grillningen gick sex rundor. Nicklas ändrade utfallet på fyra punkter. Samordn
 - **Uppföljning blir inget eget begrepp.** Den är bedömningen av utfallet som går genom linjen, och den förklaras i Granskning. Tillsyn är något tredje: myndighetens tillsyn över föreningarna är produktion.
 - **Blicken utåt och framåt, Beers System 4, är ett arbete och ingen egen roll.** Påverkan (`C-184`) bedöms och blir strategi (`C-188`) och målarkitektur (`C-054`), åt den som har mandatet. Arkitekturansvaret (`C-117`) gör arbetet. Här har arkitekturen sin plats i en livskraftig verksamhet.
 - **Identiteten, Beers System 5, är ägaren själv** med uppdrag (`C-149`), ändamål (`C-022`) och principer (`C-018`).
-- **Balansen mellan i dag och i morgon hålls av den som sätter båda slagen av ram.** Vågskålarna är produktionens ram och ramen för ändring (beslut 47), inte två dokument. Portföljen (`C-011`) fördelar den ena. Verksamhetsplanen är en bärare (`C-016`) och rymmer båda, som affärsplanen hos bostadsbolaget.
+- **Balansen mellan i dag och i morgon hålls av den som sätter båda slagen av ram.** Vågskålarna är produktionens ram och ramen för ändring ([[0047-en-sorts-verksamhetsdoman-med-utformning-och-produktion-losningen-innehaller-utformningen-allt-utforande-ar-produktion-och-leveransprodukten-ar-det-mottagaren-producerar-med|beslut 47]]), inte två dokument. Portföljen (`C-011`) fördelar den ena. Verksamhetsplanen är en bärare (`C-016`) och rymmer båda, som affärsplanen hos bostadsbolaget.
 - **Balansen ska finnas på varje nivå.** Det är rätt att vd väger för hela bolaget. Fyndet är när vd är den enda som kan väga, därför att ingen domänägare under vd håller båda ramarna för sin domän.
 - **Balans blir inget eget begrepp.** Ordet täcker två avvägningar som har egna ord: i dag mot i morgon, och domänens frihet mot helhetens sammanhållning. Livskraft säger att båda ska hållas.
 - **Den allmänna förklaringen står i Ansvar (`C-209`).** Ett ansvar är komplett när ägaren håller allt som måste vägas mot vartannat. Hålls två sådana saker av olika ägare avgör den närmaste ägare som håller båda. Varje ofullständigt ansvar flyttar beslut uppåt, tills verksamheten styrs centralt utan att någon har valt det.
-- **Koppling (`C-211`) får en vidare definition**: "grad i vilken en ändring i ett arkitekturelement, en lösning eller ett styrobjekt tvingar fram en ändring i ett annat vid samma tidpunkt". Kopplingen råder också mellan det två ägare håller. Ett snitt mellan två ansvar ska gå där kopplingen är lös. Det är regeln för lösningens snitt i beslut 36, nu för ansvar.
+- **Koppling (`C-211`) får en vidare definition**: "grad i vilken en ändring i ett arkitekturelement, en lösning eller ett styrobjekt tvingar fram en ändring i ett annat vid samma tidpunkt". Kopplingen råder också mellan det två ägare håller. Ett snitt mellan två ansvar ska gå där kopplingen är lös. Det är regeln för lösningens snitt i [[0036-losningen-skars-dar-kopplingen-ar-los-ansvar-ram-och-koppling-ar-begrepp-utan-elementtyp-ramen-foljer-mandatet-och-den-som-svarar-for-en-sak-beslutar-om-den|beslut 36]], nu för ansvar.
 - **Komplexitet (`C-219`) är ett nytt begrepp**, "antal olika lägen som ett styrobjekt kan ställa sin ägare inför". Beer kallar det *variety*. Begreppet nämner dämpare och förstärkare med Beers ord. Styrmedel och lösa snitt är dämpare. Delegation (`C-214`), bemanning och verktyg är förstärkare.
 - **Centralisering (`C-220`) är ett nytt begrepp**, "grad i vilken beslut om ett styrobjekt fattas ovanför dess ägare". Decentralisering är skalans andra ände och står som ord. Ett beslut kan gå upp flera led, och antalet led ingår i graden.
 - **Centralisering är vald eller uppkommen.** Behåller generaldirektören beslutet om varje anställning är den vald. Hos Brinkstadsbostäder har den uppkommit ur snittet. Fyndet är detsamma för båda: komplexiteten är större än den som beslutar hinner möta. Slaget avgör vägen ut, ett nytt styrbeslut eller ett nytt snitt.
@@ -40,7 +40,7 @@ Grillningen gick sex rundor. Nicklas ändrade utfallet på fyra punkter. Samordn
 
 ## Övervägda alternativ
 
-- **En mappningstabell för Viable System Model**, som för BPMN. Skälen i beslut 26 gäller inte: ingen ritar i modellen, och inga modeller ska läsas in. Avvisat.
+- **En mappningstabell för Viable System Model**, som för BPMN. Skälen i [[0026-omgs-ovriga-specifikationer-sorteras-i-tre-fack-bacm-vdml-och-uml-tas-in-sysml-ar-utanfor-och-utbytesspecifikationerna-ar-programmets-sak|beslut 26]] gäller inte: ingen ritar i modellen, och inga modeller ska läsas in. Avvisat.
 - **Beers System 1 till 5 som fem begrepp.** Katalogen hade fått två ord för samma sak, till exempel System 4 bredvid påverkan, bedömning, strategi och målarkitektur. Avvisat.
 - **Mandatet som gräns mellan samordning och styrning.** Det var första förslaget. Nicklas frågade om samordning kan ha mandat, och Beer skiljer de två på vad de gör. Avvisat.
 - **Granskningen som en mening i Bedömning.** Det var första förslaget. Nicklas invände att granskningen är en egen företeelse som avgör styrningens effekt. Avvisat.
@@ -51,7 +51,7 @@ Grillningen gick sex rundor. Nicklas ändrade utfallet på fyra punkter. Samordn
 ## Konsekvenser
 
 - Nya begrepp: Livskraft (`C-216`), Samordning (`C-217`), Granskning (`C-218`), Komplexitet (`C-219`) och Centralisering (`C-220`), alla utan egen typ, med anmärkning och exempel.
-- Koppling (`C-211`) har ny definition, ett nytt stycke och ett exempel till. Beslut 36 har fått en rad om ändringen.
+- Koppling (`C-211`) har ny definition, ett nytt stycke och ett exempel till. [[0036-losningen-skars-dar-kopplingen-ar-los-ansvar-ram-och-koppling-ar-begrepp-utan-elementtyp-ramen-foljer-mandatet-och-den-som-svarar-for-en-sak-beslutar-om-den|Beslut 36]] har fått en rad om ändringen.
 - Stycken tillagda i Ansvar (`C-209`), Verksamhetsdomän (`C-008`), Bedömning (`C-185`), Aspektbaserad styrning (`C-006`) och Portfölj (`C-011`).
 - Båda exempelorganisationerna har fått avsnittet Livskraft. I exemplet om myndigheten är meningen som ställde verksamhetsplanen mot portföljen rättad.
 - Ny sida `docs/lagar.md`, Lagar katalogen bygger på, uppräknad under `documents` i `settings.yaml`.

@@ -2,7 +2,7 @@
 
 Beslutat av Nicklas 29 oktober 2026, när en ritmall för draw.io med en ruta per elementtyp visade att informationsperspektivet hade typer som inte hörde dit.
 
-Beslut 31 ersatte meningen om att ändamål och rättslig grund står i beteendets beskrivning: de står i registerförteckningen, och lagret ger ankaret.
+[[0031-handlingen-ar-representationen-allman-handling-och-gallring-ar-begrepp-forteckningarna-bor-utanfor-lagret-och-lagringsytan-far-vara-fysisk|Beslut 31]] ersatte meningen om att ändamål och rättslig grund står i beteendets beskrivning: de står i registerförteckningen, och lagret ger ankaret.
 
 ## Sammanhang
 

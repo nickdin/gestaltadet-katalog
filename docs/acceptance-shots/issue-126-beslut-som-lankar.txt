@@ -1,0 +1,27 @@
+Ärende #126: hänvisningarna till beslut blir länkar. Prov 27 november 2026.
+
+Provet räknar länkar till beslut i concepts/, docs/ och mapping/:
+  grep -rhoE '\|([Bb]eslut )?[0-9]+\]\]' concepts docs mapping | wc -l
+
+Basen (54901f7):  0
+Efter svepet:     1171
+
+Varje ändrad rad skiljer sig från basen bara genom länken runt orden.
+Provet tar bort länkarna ur de 227 ändrade filerna och jämför med basen: 225 filer är lika tecken för tecken.
+I mapping/archimate.yaml och mapping/aris.yaml flyttades dessutom ordet beslut ned en rad till sitt nummer, i ett skäl vardera.
+De två tabellerna läses som YAML till samma innehåll som på basen när länkarna tagits bort.
+
+Lämnade utan länk, med avsikt:
+  15  hänvisningar till interlinguas beslut, som är programmets egna
+   1  hänvisning från ett beslut till sig självt
+      rubriker, kodrader och kommentarer i YAML-filerna, som inte visas på sajten
+      docs/sa-marks-texterna.md, som är godkänd i sin ordalydelse
+
+Sajten byggd på prov med interlingua 5f2ebf84 (publish, 1610 filer), före de två flyttade raderna:
+  länkar till beslut på begreppssidor:   534
+  länkar till beslut på mappningssidor:   67
+  länkar till beslut på dokumentsidor:   523
+  länkar som visas som brutna:             0
+  wikilänkar kvar som råtext:              0
+
+interlingua check .   →   check: 209 files, no violations

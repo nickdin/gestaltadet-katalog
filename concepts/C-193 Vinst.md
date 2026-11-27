@@ -15,11 +15,11 @@ partitive: '[[C-146 Behov]]'
 
 ## Anmärkning
 
-En vinst är alltid en vinst i ett behov ([[C-146 Behov]]) och har inget liv för sig. Den är ett begrepp, ingen elementtyp: vinsten står i behovets text under en egen rubrik och ritas inte som egen ruta. Ett värdeerbjudande hjälper ([[C-194 Hjälp]]) genom att ge den. Beslut 27.
+En vinst är alltid en vinst i ett behov ([[C-146 Behov]]) och har inget liv för sig. Den är ett begrepp, ingen elementtyp: vinsten står i behovets text under en egen rubrik och ritas inte som egen ruta. Ett värdeerbjudande hjälper ([[C-194 Hjälp]]) genom att ge den. [[0027-vardestrom-ar-en-elementtyp-i-strategiperspektivet-utfallet-ar-tillstandet-losningen-ar-formagans-implementation-och-bacm-tas-in-med-hinder-vinst-och-svar-som-begrepp-i-texten|Beslut 27]].
 
 ## Motsvarigheter
 
-Motsvarar Gain i Value Proposition Canvas (beslut 28).
+Motsvarar Gain i Value Proposition Canvas ([[0028-varde-ar-en-elementtyp-i-strategiperspektivet-dit-vardeerbjudandet-flyttar-arbetssatt-ar-ett-begrepp-svaret-heter-hjalp-och-vdml-tas-in-med-rakneverket-omappat|beslut 28]]).
 
 ## Exempel
 

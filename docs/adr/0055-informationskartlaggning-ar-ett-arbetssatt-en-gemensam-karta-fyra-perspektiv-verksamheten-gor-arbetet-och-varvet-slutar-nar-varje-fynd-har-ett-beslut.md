@@ -1,20 +1,20 @@
 # Informationskartläggning är ett arbetssätt: en gemensam karta, fyra perspektiv, verksamheten gör arbetet, och varvet slutar när varje fynd har ett beslut
 
-*Beslut 64 ändrar två punkter här. Perspektiven är tre: informationsförsörjningen är arkitekturarbete och inget perspektiv. Varvet slutar när de tre perspektivens fynd har beslut.*
+*[[0064-informationshanteringen-har-tre-perspektiv-informationsforsorjningen-ar-arkitekturarbete-och-varje-forteckning-halls-av-ett-perspektiv|Beslut 64]] ändrar två punkter här. Perspektiven är tre: informationsförsörjningen är arkitekturarbete och inget perspektiv. Varvet slutar när de tre perspektivens fynd har beslut.*
 
-*Beslut 68 ändrar exemplets tredje fynd. Planen saknar en rad för ansökningstabellen i datalagret, som är en egen handlingstyp. Fyndet gäller inte kopior.*
+*[[0068-en-kopierad-representation-ger-ingen-ny-handlingstyp-men-innehall-i-ny-form-med-nytt-syfte-i-ett-annat-beteende-gor-det|Beslut 68]] ändrar exemplets tredje fynd. Planen saknar en rad för ansökningstabellen i datalagret, som är en egen handlingstyp. Fyndet gäller inte kopior.*
 
-*Beslut 67 ändrar en fråga här. Genomgången av offentlighet och arkiv frågar efter varje handlingsslag och varje handlingstyp, inte efter varje handlingstyp per process.*
+*[[0067-arkivet-har-tva-enheter-handlingsslaget-lases-ur-verksamhetsbeteendet-och-handlingstypen-ar-representationen-redovisad-under-aktiviteten-dar-handlingen-kommer-in-eller-upprattas|Beslut 67]] ändrar en fråga här. Genomgången av offentlighet och arkiv frågar efter varje handlingsslag och varje handlingstyp, inte efter varje handlingstyp per process.*
 
 Beslutat av Nicklas 17 november 2026, när han ritade ett beteende, dess informationsobjekt, lagringsytor och applikationer i ett och samma diagram och ville göra en metod av det.
 
 ## Sammanhang
 
-Katalogen hade begreppen men ingen metod. Den sade vad ett informationsobjekt (`C-060`), en representation (`C-085`), en lagringsyta (`C-165`) och en behandling (`C-168`) är. Den sade också att registerförteckningen och informationshanteringsplanen upprättas ur kartan (beslut 31). Ingen text sade i vilken ordning arbetet görs, vem som gör det och när det är klart.
+Katalogen hade begreppen men ingen metod. Den sade vad ett informationsobjekt (`C-060`), en representation (`C-085`), en lagringsyta (`C-165`) och en behandling (`C-168`) är. Den sade också att registerförteckningen och informationshanteringsplanen upprättas ur kartan ([[0031-handlingen-ar-representationen-allman-handling-och-gallring-ar-begrepp-forteckningarna-bor-utanfor-lagret-och-lagringsytan-far-vara-fysisk|beslut 31]]). Ingen text sade i vilken ordning arbetet görs, vem som gör det och när det är klart.
 
 Nicklas ville ha en metod för den som ska förbättra en verksamhets informationshantering ur flera perspektiv samtidigt: säkerhet, dataskydd, offentlighet och fler. Tanken var att verksamheten kartläggs en gång, med arkitekturens begrepp, och att varje perspektiv sedan arbetar på samma karta.
 
-Beslut 41 hade redan sagt att en metod är ett arbetssätt (`C-196`). Grillningen gällde därför inte vad metoden är för slags sak. Den gällde stegen, rollerna och gränsen mellan kartan och det som varje regelverk för egna förteckningar över.
+[[0041-aspektstyrningen-ager-inget-styrobjekt-arbetssattet-ar-ingen-aspekt-metodstyrningen-tas-bort-och-styrmedlet-kan-ta-sikte-pa-en-aspekt|Beslut 41]] hade redan sagt att en metod är ett arbetssätt (`C-196`). Grillningen gällde därför inte vad metoden är för slags sak. Den gällde stegen, rollerna och gränsen mellan kartan och det som varje regelverk för egna förteckningar över.
 
 ## Beslut
 
@@ -32,10 +32,10 @@ Beslut 41 hade redan sagt att en metod är ett arbetssätt (`C-196`). Grillninge
 - **Perspektiven är oberoende av varandra.** När kartan har ägare görs de i valfri ordning, eller samtidigt.
 - **Verksamheten gör genomgången själv.** Informationsägaren (`C-167`) klassar sina objekt. Processägaren går igenom dataskydd samt offentlighet och arkiv för sitt beteende, eftersom både behandlingen och handlingstypen läses ur beteendet. Specialisterna, till exempel dataskyddsombudet, ger råd och granskar. De gör inte arbetet, för det är inte deras uppdrag.
 - **Arkitekten går igenom informationsförsörjningen.** Frågan om en enda källa går över flera beteenden, och bara kartan visar alla kopior. Informationsägaren för resursdataobjektet beslutar om fynden.
-- **Kartan bär bara nivån i varje klass.** Varför objektet har nivån, analysen bakom och de valda skydden står i klassningsbeslutet. Ändamål, rättslig grund, bevarande och gallring står i förteckningarna. Beslut 31 står alltså kvar. Arkitekturbeskrivningen ska inte bära all information som perspektiven behöver.
+- **Kartan bär bara nivån i varje klass.** Varför objektet har nivån, analysen bakom och de valda skydden står i klassningsbeslutet. Ändamål, rättslig grund, bevarande och gallring står i förteckningarna. [[0031-handlingen-ar-representationen-allman-handling-och-gallring-ar-begrepp-forteckningarna-bor-utanfor-lagret-och-lagringsytan-far-vara-fysisk|Beslut 31]] står alltså kvar. Arkitekturbeskrivningen ska inte bära all information som perspektiven behöver.
 - **Det som ändrar kartan skrivs in i kartan.** Ett nytt objekt, en ny lagringsyta, en kopia eller en åtkomst som ett perspektiv hittar går in i kartan genom arkitekten. Så får de andra perspektiven veta det. Allt annat stannar i perspektivets egen förteckning.
-- **Ett fynd är en avvikelse eller en bedömning.** Det är en avvikelse (`C-213`) när organisationen har fastställt ett styrmedel att pröva mot. Annars är det en bedömning (`C-185`), oftast en risk (`C-186`). En lag är en påverkan utifrån. Den blir ett styrmedel först när organisationen har härlett en egen regel ur den. Det följer beslut 54.
-- **Varvet slutar när varje fynd har ett beslut.** Den som har mandatet beslutar att åtgärda fyndet eller att leva med det. Att leva med det är ett styrbeslut (`C-019`), som i beslut 53.
+- **Ett fynd är en avvikelse eller en bedömning.** Det är en avvikelse (`C-213`) när organisationen har fastställt ett styrmedel att pröva mot. Annars är det en bedömning (`C-185`), oftast en risk (`C-186`). En lag är en påverkan utifrån. Den blir ett styrmedel först när organisationen har härlett en egen regel ur den. Det följer [[0054-fynd-blir-inget-begrepp-ett-hinder-for-livskraften-ar-en-avvikelse-dar-en-princip-ar-faststalld-och-en-bedomning-dar-ingen-ar-det|beslut 54]].
+- **Varvet slutar när varje fynd har ett beslut.** Den som har mandatet beslutar att åtgärda fyndet eller att leva med det. Att leva med det är ett styrbeslut (`C-019`), som i [[0053-ordningen-i-verksamhetsstod-ar-inget-fynd-i-sig-samma-ordning-visas-i-tre-lagen-och-att-leva-med-ett-fynd-ar-ett-styrbeslut-pa-en-bedomning|beslut 53]].
 - **Varvet görs om när något ändras, och annars en gång om året.** En ändring är att beteendet, applikationen eller lagringsytan ändras.
 - **Analysfunktionen hos Myndigheten för föreningsstöd är sidans genomgående exempel.** Den läser andras objekt, lägger kopior i ett datalager och sätter samman nya objekt. Exemplet bär fyra fynd med flit, ett per perspektiv, och en skillnad som inte är ett fynd:
   1. Informationssäkerhet. En analytiker har exporterat Riskindikator per förening till en Excelfil i enhetens grupprum, som hela myndigheten kan öppna. Myndigheten har en regel om att behörigheten på en lagringsyta följer den högsta klassen där. Fyndet är en avvikelse.
@@ -53,7 +53,7 @@ Beslut 41 hade redan sagt att en metod är ett arbetssätt (`C-196`). Grillninge
 - **Verksamheten följer metoden utan arkitekt.** Då håller ingen kartan gemensam mellan varven. Avvisat.
 - **En fast ordning mellan perspektiven, med säkerheten först.** Inget perspektiv behöver ett annats resultat, bara kartan. Avvisat.
 - **Specialisten gör genomgången i sitt perspektiv.** Rekommendationen i grillningen. Nicklas avvisade den: dataskyddsombudet gör sällan arbetet, och det är inte ombudets uppdrag. Verksamheten måste göra det själv.
-- **Också nivån i klassen flyttar ut ur kartan.** Kartan kan då inte visa vilken nivå en lagringsyta måste klara. Beslut 30 och 31 hade behövt ändras. Avvisat.
+- **Också nivån i klassen flyttar ut ur kartan.** Kartan kan då inte visa vilken nivå en lagringsyta måste klara. [[0030-informationsomradet-ar-ett-begrepp-utan-elementtyp-ett-informationsobjekt-som-bestar-av-sina-objekt-varje-objekt-har-ett-hem-och-nivan-far-vara-grov|Beslut 30]] och [[0031-handlingen-ar-representationen-allman-handling-och-gallring-ar-begrepp-forteckningarna-bor-utanfor-lagret-och-lagringsytan-far-vara-fysisk|31]] hade behövt ändras. Avvisat.
 - **Ett varv för en hel enhet eller hela verksamheten.** Resultatet dröjer. Kostnaden för det valda är att gemensamma objekt, som Föreningsregistret, kommer upp i flera varv. Avvisat.
 - **Metoden slutar med en lista över fynd.** En lista som ingen beslutar om ändrar inget. Avvisat.
 - **Pröva en ansökan som genomgående exempel.** Den är mer känd men har få kopior och sammanställningar. Avvisat.

@@ -27,4 +27,4 @@ Notationen hör till diagrammet ([[C-106 Diagram]]), inte till vyn. Exempel: Myn
 
 En notation har en hemmetamodell, och symbolerna står för dess typer. Notationen läggs på en annan metamodell genom en mappningstabell. Katalogens verksamhetsaktivitet ([[C-175 Verksamhetsaktivitet]]) är BPMN:s Task och ritas därför som en rundad ruta. Katalogens egen notation är rutorna i draw.io-mallen. Den behöver ingen tabell, eftersom symbolerna redan står för katalogens typer.
 
-ISO 42010:s model kind rymmer både metamodellen och notationen, och katalogen håller isär dem. Beslut 42.
+ISO 42010:s model kind rymmer både metamodellen och notationen, och katalogen håller isär dem. [[0042-metamodellen-definierar-typer-notationen-ar-ett-eget-begrepp-en-beskrivning-foljer-en-metamodell-och-lagret-rymmer-bara-katalogens|Beslut 42]].

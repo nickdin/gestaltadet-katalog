@@ -85,7 +85,7 @@ elements:
     concepts: [C-162]
   - name: multiplicityKind
     unmapped: true
-    reason: multiplicity stands on the relation between informationsobjekt, per end (beslut 23, interlingua #904), not on the element
+    reason: multiplicity stands on the relation between informationsobjekt, per end ([[0023-regeln-anger-vad-som-ska-galla-kravet-ar-en-sorts-regel-katalogen-ar-organisationens-ordlista-och-sbvr-tas-in-med-faststalls-av-som-relationstyp|beslut 23]], interlingua #904), not on the element
   - name: preAssignment
     unmapped: true
     reason: values of an instance, the systems' data, never in the store
@@ -129,7 +129,7 @@ unmapped-concepts:
     reason: >-
       SDMN has no state; BPMN's dataState and CMMN's Case File Item lifecycle
       stay on the behaviour side, which is why the tillstånd is the
-      verksamhetsobjekt's (beslut 24)
+      verksamhetsobjekt's ([[0024-tillstand-ar-en-elementtyp-uppgiften-ar-informationsmodellens-attribut-och-lagret-ar-den-delade-datamodell-sdmn-beskriver|beslut 24]])
   - id: C-161
     reason: >-
       an uppgift is a concept and no element; it is reached through the

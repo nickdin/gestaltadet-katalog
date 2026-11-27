@@ -24,17 +24,17 @@ Handlingen eller läget prövas mot regeln. Regeln lämnar inget bedömningsutry
 
 Regeln är organisationens egen, härledd ur en princip via dess konsekvenser eller direkt ur påverkan ([[C-184 Påverkan]]), extern som intern.
 
-En nödvändighet som alltid gäller, "varje ärende har exakt en sökande", står i begreppets anmärkning och som multiplicitet på relationen mellan informationsobjekten ([[C-060 Informationsobjekt]]). En regel som avgör ett utfall för varje fall, när en ansökan är komplett, är en beslutslogik ([[C-178 Beslutslogik]]). En beslutslogik härleds ur regler: regeln är det som ska följas, logiken hur utfallet bestäms. Beslut 23.
+En nödvändighet som alltid gäller, "varje ärende har exakt en sökande", står i begreppets anmärkning och som multiplicitet på relationen mellan informationsobjekten ([[C-060 Informationsobjekt]]). En regel som avgör ett utfall för varje fall, när en ansökan är komplett, är en beslutslogik ([[C-178 Beslutslogik]]). En beslutslogik härleds ur regler: regeln är det som ska följas, logiken hur utfallet bestäms. [[0023-regeln-anger-vad-som-ska-galla-kravet-ar-en-sorts-regel-katalogen-ar-organisationens-ordlista-och-sbvr-tas-in-med-faststalls-av-som-relationstyp|Beslut 23]].
 
 **Nödvändighet:** Varje regel har ett ursprung: en princip den härleds ur eller en påverkan den kommer direkt ur.
 
 ## Motsvarigheter
 
-Regeln, det som ska följas, är det DMN kallar Knowledge Source (beslut 22).
+Regeln, det som ska följas, är det DMN kallar Knowledge Source ([[0022-aktivitet-och-beslutslogik-ar-elementtyper-bpmn-cmmn-och-dmn-tas-in-som-bestandsdelar-i-beteendet-med-egna-mappningstabeller|beslut 22]]).
 
-Regeln är det SBVR (Semantics of Business Vocabulary and Business Rules) kallar behavioral business rule: en regel som förpliktar eller förbjuder ett sakläge, direkt prövbar och under verksamhetens jurisdiktion, det vill säga något organisationen själv kan ändra. Lagen är ingen regel i den meningen utan extern påverkan ([[C-029 Extern påverkan]]). Hur hårt regeln upprätthålls, SBVR:s enforcement level, är text i regeln, ingen typ. Regler som anger vad något är, SBVR:s definitional rule, är inga styrmedel. Beslut 23.
+Regeln är det SBVR (Semantics of Business Vocabulary and Business Rules) kallar behavioral business rule: en regel som förpliktar eller förbjuder ett sakläge, direkt prövbar och under verksamhetens jurisdiktion, det vill säga något organisationen själv kan ändra. Lagen är ingen regel i den meningen utan extern påverkan ([[C-029 Extern påverkan]]). Hur hårt regeln upprätthålls, SBVR:s enforcement level, är text i regeln, ingen typ. Regler som anger vad något är, SBVR:s definitional rule, är inga styrmedel. [[0023-regeln-anger-vad-som-ska-galla-kravet-ar-en-sorts-regel-katalogen-ar-organisationens-ordlista-och-sbvr-tas-in-med-faststalls-av-som-relationstyp|Beslut 23]].
 
-Motsvarar Constraint i Unified Modeling Language (UML) när villkoret säger vad som ska gälla i verksamheten, "sökanden är minst 18 år"; ett villkor som bara skyddar koden är applikationens insida. Beslut 29.
+Motsvarar Constraint i Unified Modeling Language (UML) när villkoret säger vad som ska gälla i verksamheten, "sökanden är minst 18 år"; ett villkor som bara skyddar koden är applikationens insida. [[0029-klassen-ar-informationsobjektet-tillstandsmaskinen-ar-tillstandsvyn-anvandningsfallet-ar-tjansten-vardemangd-ar-ett-begrepp-och-uml-tas-in-for-lasarnas-skull-utan-tveksamma-rader|Beslut 29]].
 
 ## Exempel
 

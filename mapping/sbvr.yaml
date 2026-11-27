@@ -17,7 +17,7 @@ elements:
     reason: >-
       a concept of the catalogue, a file under `concepts/` with a `C-nnn` id,
       of any kind or none; the catalogue is the organisation's own vocabulary
-      (beslut 23), so a business concept such as ärende is a general concept
+      ([[0023-regeln-anger-vad-som-ska-galla-kravet-ar-en-sorts-regel-katalogen-ar-organisationens-ordlista-och-sbvr-tas-in-med-faststalls-av-som-relationstyp|beslut 23]]), so a business concept such as ärende is a general concept
       here too
   # The named individual in the architecture's universe: there is one
   # informationsobjekt Ärende, one applikation Ärendehanteringen. The
@@ -64,7 +64,7 @@ elements:
     unmapped: true
     reason: >-
       a sentence in the remark under the bold label Nödvändighet (the
-      catalogue's convention since beslut 23), not a field
+      catalogue's convention since [[0023-regeln-anger-vad-som-ska-galla-kravet-ar-en-sorts-regel-katalogen-ar-organisationens-ordlista-och-sbvr-tas-in-med-faststalls-av-som-relationstyp|beslut 23]]), not a field
   - name: source
     unmapped: true
     reason: >-
@@ -217,11 +217,11 @@ unmapped-concepts:
   - id: C-017
     reason: >-
       mål is Business Motivation Model territory, not SBVR's; SBVR shares only
-      business policy and business rule with BMM (bmm.yaml, beslut 25)
+      business policy and business rule with BMM (bmm.yaml, [[0025-paverkan-och-bedomning-ar-elementtyper-strategin-ar-sammanhangande-styrbeslut-visionen-ar-ett-mal-utan-matt-och-bmm-tas-in-med-andamalet-som-katalogens-tillagg|beslut 25]])
   - id: C-022
-    reason: as C-017; ändamål is the catalogue's addition to BMM (beslut 25)
+    reason: as C-017; ändamål is the catalogue's addition to BMM ([[0025-paverkan-och-bedomning-ar-elementtyper-strategin-ar-sammanhangande-styrbeslut-visionen-ar-ett-mal-utan-matt-och-bmm-tas-in-med-andamalet-som-katalogens-tillagg|beslut 25]])
   - id: C-021
     reason: >-
-      krav is a kind of regel (C-020) since beslut 23 and is reached through
+      krav is a kind of regel (C-020) since [[0023-regeln-anger-vad-som-ska-galla-kravet-ar-en-sorts-regel-katalogen-ar-organisationens-ordlista-och-sbvr-tas-in-med-faststalls-av-som-relationstyp|beslut 23]] and is reached through
       the business rule rows; SBVR has no concept of its own for a rule on
       the styrobjekt's properties

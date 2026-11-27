@@ -1,16 +1,16 @@
 # Resultatet är verksamhetsobjektet ett beteende lämnar ifrån sig, produkten är erbjudandet vid lösningens gräns, och ett resultat kan sakna produkt
 
-*Punkten att lösningens ägare svarar för resultatet är ändrad. Lösningsägaren svarar för att utformningen ger rätt resultat, och linjechefen svarar för det enskilda resultatet (beslut 50).*
+*Punkten att lösningens ägare svarar för resultatet är ändrad. Lösningsägaren svarar för att utformningen ger rätt resultat, och linjechefen svarar för det enskilda resultatet ([[0050-ett-beslut-fattas-av-den-som-har-bade-ram-och-mandat-ett-forum-beslutar-aldrig-aspekten-avgor-inga-enskilda-fall-och-domanens-agare-satter-losningens-ram|beslut 50]]).*
 
 Beslutat av Nicklas 12 november 2026, när katalogen sade att en process har ett eget resultat utan att säga vad ett resultat är.
 
 ## Sammanhang
 
-Beslut 14 säger att en process har ett eget resultat, som någon utanför kedjan tar emot. Beslut 16 skiljer produkten, erbjudandet mottagaren får, från verksamhetsobjektet, det beteendet hanterar och lämnar vidare. Ingen text sade vilket av dem resultatet är. Frågan kom upp i grillningen för #69 och fick ett eget ärende, #151.
+[[0014-processerna-ar-organisationens-och-kartan-delas-per-process|Beslut 14]] säger att en process har ett eget resultat, som någon utanför kedjan tar emot. [[0016-verksamhetsobjekt-ar-en-elementtyp|Beslut 16]] skiljer produkten, erbjudandet mottagaren får, från verksamhetsobjektet, det beteendet hanterar och lämnar vidare. Ingen text sade vilket av dem resultatet är. Frågan kom upp i grillningen för #69 och fick ett eget ärende, #151.
 
 Katalogen använde tre ord för det som kommer ut. Handläggning (`C-160`) slutade i ett utfall. Händelse (`C-078`) kan vara resultatet av ett beteende. Verksamhetsobjekt (`C-159`) är det beteendet lämnar vidare.
 
-Beslut 12 säger dessutom i Konsekvenser att det som kommer ut ur en process ritas som produkt. Beslut 16 gjorde rapporter, beslut och underlag till verksamhetsobjekt utan att nämna beslut 12. Det är fynd F80 ur #43.
+[[0012-processer-namnges-med-verb-i-infinitiv-och-objekt|Beslut 12]] säger dessutom i Konsekvenser att det som kommer ut ur en process ritas som produkt. [[0016-verksamhetsobjekt-ar-en-elementtyp|Beslut 16]] gjorde rapporter, beslut och underlag till verksamhetsobjekt utan att nämna [[0012-processer-namnges-med-verb-i-infinitiv-och-objekt|beslut 12]]. Det är fynd F80 ur #43.
 
 Grillningen gick fyra rundor och avgjorde varje fråga på ett fall ur de två exempelorganisationerna.
 
@@ -30,16 +30,16 @@ Grillningen gick fyra rundor och avgjorde varje fråga på ett fall ur de två e
 - **En vara (`C-191`) är det mottagaren förfogar över.** Det utbetalda bidraget blir föreningens och är en vara. Ärendebeslutet är ingen vara: det stannar hos myndigheten, och föreningen får besked om det. En kopia av ett resultat ger ingen rådighet. Ett utdrag ur Föreningsregistret är därför inte heller en vara.
 - **I produkten Verksamhetsbidraget** är prövningen en verksamhetstjänst (`C-127`), ärendebeslutet ett verksamhetsobjekt och det utbetalda bidraget den enda varan.
 - **Lösningens ägare svarar för resultatet, med eller utan produkt.** Chefen för Bidragsenheten äger lösningen Ansökningshandläggningen och svarar för bifallen. Produkten pekar ut vilka resultat som erbjuds, inte vem som svarar. Om en produkt dessutom har en egen ägare avgörs i #153.
-- **Beslut 12 får en not.** Ledet att det som kommer ut ur en process ritas som produkt gäller inte längre.
+- **[[0012-processer-namnges-med-verb-i-infinitiv-och-objekt|Beslut 12]] får en not.** Ledet att det som kommer ut ur en process ritas som produkt gäller inte längre.
 
 ## Övervägda alternativ
 
 - **Resultat som eget begrepp.** Det hade sagt samma sak som verksamhetsobjektet en gång till. Avvisat.
 - **Resultatet är händelsen.** Händelse (`C-078`) säger att en händelse kan vara resultatet av ett beteende. Men händelsen säger bara att något är klart, inte vad som lämnas över. Avvisat.
-- **Varje resultat hör till en produkt.** Återkravet hade då varit en verksamhetsprodukt mot staten, eftersom regeringen gett uppdraget Tillsyn. Men ingen erbjuds ett återkrav, och uppsägningen hos bostadsbolaget hade stått utan mottagare. Produkt hade blivit ett annat ord för resultat, och skillnaden från beslut 16 hade försvunnit. Avvisat.
+- **Varje resultat hör till en produkt.** Återkravet hade då varit en verksamhetsprodukt mot staten, eftersom regeringen gett uppdraget Tillsyn. Men ingen erbjuds ett återkrav, och uppsägningen hos bostadsbolaget hade stått utan mottagare. Produkt hade blivit ett annat ord för resultat, och skillnaden från [[0016-verksamhetsobjekt-ar-en-elementtyp|beslut 16]] hade försvunnit. Avvisat.
 - **Provet "den det är till för", i ett led.** Det gick att tänja: återkravet är till för staten, som får pengarna tillbaka. Ersatt av provet i två led, som först frågar vem som tar emot objektet.
 - **Tillsynen som verksamhetsprodukt mot regeringen.** Regeringen får inget överlämnat av en enskild granskning. Det regeringen får är årsredovisningens uppgifter om tillsynen. Avvisat.
-- **En produkt kan inte gå uppåt.** Då hade rapporten till regeringen och prognosrapporten i beslut 16 inte varit produkter. Avvisat.
+- **En produkt kan inte gå uppåt.** Då hade rapporten till regeringen och prognosrapporten i [[0016-verksamhetsobjekt-ar-en-elementtyp|beslut 16]] inte varit produkter. Avvisat.
 - **Ärendebeslutet som vara.** Vara (`C-191`) hade exemplet ett utfärdat intyg, och ett beslut liknar ett intyg. Nicklas: en vara blir mottagarens att förfoga över, och en kopia av ett resultat är inte samma sak. Avvisat, och exemplet med intyget är borttaget.
 - **En egen relation för resultatet.** Den hade sagt samma sak som åtkomsten. Avvisat.
 
@@ -48,7 +48,7 @@ Grillningen gick fyra rundor och avgjorde varje fråga på ett fall ur de två e
 - Inga nya begrepp, relationer eller typer. Inga definitioner ändrade.
 - Anmärkningar ändrade i Verksamhetsprocess (`C-130`), Handläggning (`C-160`), Ärendebeslut (`C-181`), Verksamhetsobjekt (`C-159`), Produkt (`C-014`) och Vara (`C-191`).
 - Exemplen är ändrade i Vara (`C-191`) och Verksamhetsprodukt (`C-173`).
-- Beslut 12 har fått en not överst.
+- [[0012-processer-namnges-med-verb-i-infinitiv-och-objekt|Beslut 12]] har fått en not överst.
 - `docs/exempel/myndigheten-for-foreningsstod.md` och `docs/exempel/brinkstadsbostader.md` har fått var sitt stycke om produkter och resultat.
 - #153 har fått villkoret att grillningen där också avgör vem som svarar för ett resultat utan produkt.
 - `CONTEXT.md` är orörd.

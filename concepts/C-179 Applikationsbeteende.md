@@ -14,4 +14,4 @@ definition: det en applikation gör, ordnat som process eller funktion
 
 ## Anmärkning
 
-Familjebegrepp för applikationsperspektivets beteenden, motsvarigheten till verksamhetsbeteende ([[C-157 Verksamhetsbeteende]]): applikationsprocess ([[C-131 Applikationsprocess]]) och applikationsfunktion ([[C-133 Applikationsfunktion]]). Stegen i dem är applikationsaktiviteter ([[C-176 Applikationsaktivitet]]). Beslut 22.
+Familjebegrepp för applikationsperspektivets beteenden, motsvarigheten till verksamhetsbeteende ([[C-157 Verksamhetsbeteende]]): applikationsprocess ([[C-131 Applikationsprocess]]) och applikationsfunktion ([[C-133 Applikationsfunktion]]). Stegen i dem är applikationsaktiviteter ([[C-176 Applikationsaktivitet]]). [[0022-aktivitet-och-beslutslogik-ar-elementtyper-bpmn-cmmn-och-dmn-tas-in-som-bestandsdelar-i-beteendet-med-egna-mappningstabeller|Beslut 22]].

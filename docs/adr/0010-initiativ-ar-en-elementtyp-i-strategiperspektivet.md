@@ -11,7 +11,7 @@ Katalogen hade Initiativ (C-012) och Projekt (C-013) som begrepp utan `kind`: st
 - **Initiativ blir elementtyp i strategiperspektivet; projekt förblir begrepp.** Valt. Ett initiativ hör ihop med inriktningen: det flyttar verksamheten mot vad den behöver kunna, och står därför bredvid verksamhetsförmågan (C-069) i det perspektivet. Ett projekt är ett initiativ i en viss form och registreras som initiativ, så som en intern produkt registreras som produkt.
 - **Både initiativ och projekt blir elementtyper.** Avvisat. Projekt får en egen ruta, men till priset av att varje insats måste sorteras, och källmaterialet gör inte den skillnaden konsekvent.
 - **Ingen elementtyp: initiativ är det som styrs, inte det som ritas.** Avvisat. Katalogen hålls som den var: initiativen står under Åtgärder i beskrivningar och i portföljstyrningens egna listor. Kartan visar aldrig vad som pågår.
-- **Ett sjunde perspektiv för förändring**, ArchiMates implementations- och migrationslager som eget perspektiv. Inte övervägt på allvar: tungt, och mot beslut 9:s sex perspektiv.
+- **Ett sjunde perspektiv för förändring**, ArchiMates implementations- och migrationslager som eget perspektiv. Inte övervägt på allvar: tungt, och mot [[0009-utsidan-ar-ett-sjatte-perspektiv|beslut 9]]:s sex perspektiv.
 
 ## Konsekvenser
 

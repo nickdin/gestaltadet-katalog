@@ -24,4 +24,4 @@ Kallas också kanal: där verksamheten gör sina tjänster tillgängliga är ock
 
 Motsvarar ArchiMates Business Interface.
 
-Touchpoint i Business Architecture Core Metamodel (BACM), interaktionen mellan verksamheten och kunden, är ett verksamhetsgränssnitt. Beslut 27.
+Touchpoint i Business Architecture Core Metamodel (BACM), interaktionen mellan verksamheten och kunden, är ett verksamhetsgränssnitt. [[0027-vardestrom-ar-en-elementtyp-i-strategiperspektivet-utfallet-ar-tillstandet-losningen-ar-formagans-implementation-och-bacm-tas-in-med-hinder-vinst-och-svar-som-begrepp-i-texten|Beslut 27]].

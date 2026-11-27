@@ -19,4 +19,4 @@ Relationen går från det hela elementet till delen.
 
 ## Motsvarigheter
 
-Motsvarar Composition i Unified Modeling Language (UML), en association med aggregationen composite; också gränssnittet en komponent ger (InterfaceRealization, Port), som ArchiMate sätter samman gränssnittet i komponenten, och ett sammansatt tillstånds deltillstånd. Beslut 29.
+Motsvarar Composition i Unified Modeling Language (UML), en association med aggregationen composite; också gränssnittet en komponent ger (InterfaceRealization, Port), som ArchiMate sätter samman gränssnittet i komponenten, och ett sammansatt tillstånds deltillstånd. [[0029-klassen-ar-informationsobjektet-tillstandsmaskinen-ar-tillstandsvyn-anvandningsfallet-ar-tjansten-vardemangd-ar-ett-begrepp-och-uml-tas-in-for-lasarnas-skull-utan-tveksamma-rader|Beslut 29]].

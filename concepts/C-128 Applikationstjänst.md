@@ -19,4 +19,4 @@ generic: "[[C-075 Tjänst]]"
 
 Motsvarar ArchiMates Application Service.
 
-Motsvarar UseCase i Unified Modeling Language (UML) när subjektet är en applikation: användningsfallets namn är tjänsten, dess händelseflöde beteendet som realiserar den. Beslut 29.
+Motsvarar UseCase i Unified Modeling Language (UML) när subjektet är en applikation: användningsfallets namn är tjänsten, dess händelseflöde beteendet som realiserar den. [[0029-klassen-ar-informationsobjektet-tillstandsmaskinen-ar-tillstandsvyn-anvandningsfallet-ar-tjansten-vardemangd-ar-ett-begrepp-och-uml-tas-in-for-lasarnas-skull-utan-tveksamma-rader|Beslut 29]].

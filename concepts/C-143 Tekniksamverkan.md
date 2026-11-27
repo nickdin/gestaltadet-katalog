@@ -19,4 +19,4 @@ generic: "[[C-082 Samverkan]]"
 
 Motsvarar ArchiMates Technology Collaboration.
 
-Motsvarar Collaboration i Unified Modeling Language (UML) när rollerna spelas av tekniska resurser. Beslut 29.
+Motsvarar Collaboration i Unified Modeling Language (UML) när rollerna spelas av tekniska resurser. [[0029-klassen-ar-informationsobjektet-tillstandsmaskinen-ar-tillstandsvyn-anvandningsfallet-ar-tjansten-vardemangd-ar-ett-begrepp-och-uml-tas-in-for-lasarnas-skull-utan-tveksamma-rader|Beslut 29]].

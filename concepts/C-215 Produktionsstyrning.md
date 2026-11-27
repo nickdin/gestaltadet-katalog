@@ -28,7 +28,7 @@ Löftet till mottagaren hör inte hit. Lösningsägaren beslutar vad en produkt 
 
 Produktionsstyrningen följer den domän där arbetet utförs. Hör lösningen ([[C-055 Lösning]]) hemma i en annan domän håller ingen av de två ägarna både utformningen och produktionen. Ingen av dem kan då väga det ena mot det andra, och Verksamhetsdomän förklarar det.
 
-Lösningsstyrning ([[C-047 Lösningsstyrning]]) är något annat. Den styr en lösning, inte en verksamhetsdomän. Ordet produktstyrning är ett avrått ord för lösningsstyrning. Beslut 48 och 63.
+Lösningsstyrning ([[C-047 Lösningsstyrning]]) är något annat. Den styr en lösning, inte en verksamhetsdomän. Ordet produktstyrning är ett avrått ord för lösningsstyrning. [[0048-produktionsstyrning-ar-utvecklingsstyrningens-tvilling-malet-hor-till-domanen-och-en-losnings-hemdoman-ska-rymma-produktionen-som-utfor-dess-beteende|Beslut 48]] och [[0063-losningsstyrning-ersatter-produktstyrning-och-objektstyrning-och-portfoljen-vager-ramen-och-aggregerar-initiativet|63]].
 
 ## Exempel
 

@@ -30,7 +30,7 @@ Hjälpen bedöms efter värden ([[C-195 Värde]]), de mätbara nyttor erbjudande
 
 ## Motsvarigheter
 
-Motsvarar ValueItem i Business Architecture Core Metamodel (BACM), verksamhetens tro att mottagaren värderar ett visst utfall (beslut 27), och Pain Reliever och Gain Creator i Value Proposition Canvas. Hette Svar till beslut 28, som bytte termen för att ordet ska gå att förstå utan definitionen.
+Motsvarar ValueItem i Business Architecture Core Metamodel (BACM), verksamhetens tro att mottagaren värderar ett visst utfall ([[0027-vardestrom-ar-en-elementtyp-i-strategiperspektivet-utfallet-ar-tillstandet-losningen-ar-formagans-implementation-och-bacm-tas-in-med-hinder-vinst-och-svar-som-begrepp-i-texten|beslut 27]]), och Pain Reliever och Gain Creator i Value Proposition Canvas. Hette Svar till [[0028-varde-ar-en-elementtyp-i-strategiperspektivet-dit-vardeerbjudandet-flyttar-arbetssatt-ar-ett-begrepp-svaret-heter-hjalp-och-vdml-tas-in-med-rakneverket-omappat|beslut 28]], som bytte termen för att ordet ska gå att förstå utan definitionen.
 
 ## Exempel
 

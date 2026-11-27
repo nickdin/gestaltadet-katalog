@@ -15,11 +15,11 @@ partitive: '[[C-146 Behov]]'
 
 ## Anmärkning
 
-Ett hinder är alltid ett hinder i ett behov ([[C-146 Behov]]) och har inget liv för sig. Det är ett begrepp, ingen elementtyp: hindret står i behovets text under en egen rubrik och ritas inte som egen ruta, som uppgiften ([[C-161 Uppgift]]) står i informationsobjektet. Ett värdeerbjudande hjälper ([[C-194 Hjälp]]) genom att röja vägen. Beslut 27.
+Ett hinder är alltid ett hinder i ett behov ([[C-146 Behov]]) och har inget liv för sig. Det är ett begrepp, ingen elementtyp: hindret står i behovets text under en egen rubrik och ritas inte som egen ruta, som uppgiften ([[C-161 Uppgift]]) står i informationsobjektet. Ett värdeerbjudande hjälper ([[C-194 Hjälp]]) genom att röja vägen. [[0027-vardestrom-ar-en-elementtyp-i-strategiperspektivet-utfallet-ar-tillstandet-losningen-ar-formagans-implementation-och-bacm-tas-in-med-hinder-vinst-och-svar-som-begrepp-i-texten|Beslut 27]].
 
 ## Motsvarigheter
 
-Motsvarar Pain i Value Proposition Canvas (beslut 28).
+Motsvarar Pain i Value Proposition Canvas ([[0028-varde-ar-en-elementtyp-i-strategiperspektivet-dit-vardeerbjudandet-flyttar-arbetssatt-ar-ett-begrepp-svaret-heter-hjalp-och-vdml-tas-in-med-rakneverket-omappat|beslut 28]]).
 
 ## Exempel
 

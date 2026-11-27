@@ -19,7 +19,7 @@ Visionen står överst i målkedjan. Den har inget mått och ingen tidpunkt och 
 
 ## Motsvarigheter
 
-Motsvarar Vision i Business Motivation Model (beslut 25).
+Motsvarar Vision i Business Motivation Model ([[0025-paverkan-och-bedomning-ar-elementtyper-strategin-ar-sammanhangande-styrbeslut-visionen-ar-ett-mal-utan-matt-och-bmm-tas-in-med-andamalet-som-katalogens-tillagg|beslut 25]]).
 
 ## Exempel
 

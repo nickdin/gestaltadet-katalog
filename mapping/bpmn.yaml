@@ -64,7 +64,7 @@ elements:
     reason: >-
       a branching is an activity that använder (C-095) a beslutslogik (C-178)
       and utlöser (C-098) several steps, the condition in each relation's
-      description; no element of its own (beslut 22)
+      description; no element of its own ([[0022-aktivitet-och-beslutslogik-ar-elementtyper-bpmn-cmmn-och-dmn-tas-in-som-bestandsdelar-i-beteendet-med-egna-mappningstabeller|beslut 22]])
   - name: Inclusive Gateway
     unmapped: true
     reason: as Exclusive Gateway

@@ -17,4 +17,4 @@ associative:
 
 ## Anmärkning
 
-Initiativet styrs från två håll. Den som gav initiativet dess ram sätter ramen, tidskravet och effektmålet. Ägaren till lösningen som ändras ställer kraven på omfattning och kvalitet. Initiativets ägare beslutar om arbetet inom det som är satt, och en krock mellan krav och ram går tillbaka till den som satte ramen. Reglerna står i Initiativ ([[C-012 Initiativ]]). Beslut 46.
+Initiativet styrs från två håll. Den som gav initiativet dess ram sätter ramen, tidskravet och effektmålet. Ägaren till lösningen som ändras ställer kraven på omfattning och kvalitet. Initiativets ägare beslutar om arbetet inom det som är satt, och en krock mellan krav och ram går tillbaka till den som satte ramen. Reglerna står i Initiativ ([[C-012 Initiativ]]). [[0046-portfoljen-och-initiativet-har-var-sin-agare-produkten-har-ingen-ramen-ar-bara-resurserna-och-initiativets-agare-beslutar-om-arbetet|Beslut 46]].

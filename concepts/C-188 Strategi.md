@@ -23,9 +23,9 @@ Det Business Motivation Model kallar taktik, det smalare vägvalet som genomför
 
 ## Motsvarigheter
 
-StrategyModel i Business Architecture Core Metamodel (BACM), en sammanhängande strategi av Means och Ends, är en strategi. Dess Means är styrbeslut och dess Ends mål ([[C-017 Mål]]). Beslut 27.
+StrategyModel i Business Architecture Core Metamodel (BACM), en sammanhängande strategi av Means och Ends, är en strategi. Dess Means är styrbeslut och dess Ends mål ([[C-017 Mål]]). [[0027-vardestrom-ar-en-elementtyp-i-strategiperspektivet-utfallet-ar-tillstandet-losningen-ar-formagans-implementation-och-bacm-tas-in-med-hinder-vinst-och-svar-som-begrepp-i-texten|Beslut 27]].
 
-Motsvarar Course of Action, Strategy och Tactic i Business Motivation Model, som alla mappas till styrbeslut (beslut 25).
+Motsvarar Course of Action, Strategy och Tactic i Business Motivation Model, som alla mappas till styrbeslut ([[0025-paverkan-och-bedomning-ar-elementtyper-strategin-ar-sammanhangande-styrbeslut-visionen-ar-ett-mal-utan-matt-och-bmm-tas-in-med-andamalet-som-katalogens-tillagg|beslut 25]]).
 
 ## Exempel
 

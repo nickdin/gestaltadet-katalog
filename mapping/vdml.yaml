@@ -175,7 +175,7 @@ elements:
     reason: metamodel scaffolding, the program's concern
   - name: MeasuredCharacteristic
     unmapped: true
-    reason: a measured property; waits for a measure concept, taken with SMM (beslut 26)
+    reason: a measured property; waits for a measure concept, taken with SMM ([[0026-omgs-ovriga-specifikationer-sorteras-i-tre-fack-bacm-vdml-och-uml-tas-in-sysml-ar-utanfor-och-utbytesspecifikationerna-ar-programmets-sak|beslut 26]])
   - name: Expression
     unmapped: true
     reason: computation over measurements, the program's concern
@@ -263,16 +263,16 @@ elements:
   # SMM, imported for measures (7.2.6)
   - name: Measure
     unmapped: true
-    reason: waits for a measure concept, taken with SMM (beslut 26)
+    reason: waits for a measure concept, taken with SMM ([[0026-omgs-ovriga-specifikationer-sorteras-i-tre-fack-bacm-vdml-och-uml-tas-in-sysml-ar-utanfor-och-utbytesspecifikationerna-ar-programmets-sak|beslut 26]])
   - name: Measurement
     unmapped: true
-    reason: waits for a measure concept, taken with SMM (beslut 26)
+    reason: waits for a measure concept, taken with SMM ([[0026-omgs-ovriga-specifikationer-sorteras-i-tre-fack-bacm-vdml-och-uml-tas-in-sysml-ar-utanfor-och-utbytesspecifikationerna-ar-programmets-sak|beslut 26]])
   - name: Characteristic
     unmapped: true
-    reason: waits for a measure concept, taken with SMM (beslut 26)
+    reason: waits for a measure concept, taken with SMM ([[0026-omgs-ovriga-specifikationer-sorteras-i-tre-fack-bacm-vdml-och-uml-tas-in-sysml-ar-utanfor-och-utbytesspecifikationerna-ar-programmets-sak|beslut 26]])
   - name: Observation
     unmapped: true
-    reason: waits for a measure concept, taken with SMM (beslut 26)
+    reason: waits for a measure concept, taken with SMM ([[0026-omgs-ovriga-specifikationer-sorteras-i-tre-fack-bacm-vdml-och-uml-tas-in-sysml-ar-utanfor-och-utbytesspecifikationerna-ar-programmets-sak|beslut 26]])
 
 relationships:
   # Assignment: who performs or is responsible for a behaviour.
@@ -288,7 +288,7 @@ relationships:
     concepts: [C-096]
   - name: OrgUnit owns CapabilityMethod
     unmapped: true
-    reason: design responsibility other than the line is text, as BACM's Responsible (beslut 27)
+    reason: design responsibility other than the line is text, as BACM's Responsible ([[0027-vardestrom-ar-en-elementtyp-i-strategiperspektivet-utfallet-ar-tillstandet-losningen-ar-formagans-implementation-och-bacm-tas-in-med-hinder-vinst-och-svar-som-begrepp-i-texten|beslut 27]])
 
   # Realisation: the more concrete realises the more abstract.
   - name: Activity requires Capability (capabilityRequirement)
@@ -352,7 +352,7 @@ relationships:
       an överenskommelse (C-084) with är leverantör till (C-155)
   - name: ValuePropositionComponent aggregated from ValueAdds
     unmapped: true
-    reason: aggregation of measurements, waits for a measure concept (beslut 26)
+    reason: aggregation of measurements, waits for a measure concept ([[0026-omgs-ovriga-specifikationer-sorteras-i-tre-fack-bacm-vdml-och-uml-tas-in-sysml-ar-utanfor-och-utbytesspecifikationerna-ar-programmets-sak|beslut 26]])
 
   # Instance to library definition: the store's element is the definition.
   - name: Role roleDefinition
@@ -374,7 +374,7 @@ relationships:
   # Measurement, simulation and scaffolding
   - name: MeasurableElement measuredCharacteristic
     unmapped: true
-    reason: waits for a measure concept (beslut 26)
+    reason: waits for a measure concept ([[0026-omgs-ovriga-specifikationer-sorteras-i-tre-fack-bacm-vdml-och-uml-tas-in-sysml-ar-utanfor-och-utbytesspecifikationerna-ar-programmets-sak|beslut 26]])
   - name: AnalysisContext contextCollaboration and contextObservation
     unmapped: true
     reason: the program's concern
@@ -419,7 +419,7 @@ unmapped-concepts:
   - id: C-017
     reason: VDML has no goal; a future-state scenario's values stand in for one, and goals are BMM's
   - id: C-015
-    reason: VDML has no styrmedel; they are BMM's (beslut 25)
+    reason: VDML has no styrmedel; they are BMM's ([[0025-paverkan-och-bedomning-ar-elementtyper-strategin-ar-sammanhangande-styrbeslut-visionen-ar-ett-mal-utan-matt-och-bmm-tas-in-med-andamalet-som-katalogens-tillagg|beslut 25]])
   - id: C-012
     reason: VDML cannot model the transition, by its own words; a future state is a scenario
   - id: C-084

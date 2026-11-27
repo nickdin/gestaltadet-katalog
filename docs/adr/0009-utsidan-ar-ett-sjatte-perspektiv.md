@@ -1,6 +1,6 @@
 # Utsidan är ett sjätte perspektiv
 
-*Ledet att värdeerbjudandet hör till verksamheten gäller inte längre: beslut 28 flyttade det till strategiperspektivet.*
+*Ledet att värdeerbjudandet hör till verksamheten gäller inte längre: [[0028-varde-ar-en-elementtyp-i-strategiperspektivet-dit-vardeerbjudandet-flyttar-arbetssatt-ar-ett-begrepp-svaret-heter-hjalp-och-vdml-tas-in-med-rakneverket-omappat|beslut 28]] flyttade det till strategiperspektivet.*
 
 Beslutat av Nicklas 2 oktober 2026, när katalogen jämfördes med ramverket EDGY.
 

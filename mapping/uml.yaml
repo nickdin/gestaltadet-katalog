@@ -56,7 +56,7 @@ elements:
     reason: as InstanceSpecification
   - name: TemplateSignature
     unmapped: true
-    reason: templates are the inside (beslut 26)
+    reason: templates are the inside ([[0026-omgs-ovriga-specifikationer-sorteras-i-tre-fack-bacm-vdml-och-uml-tas-in-sysml-ar-utanfor-och-utbytesspecifikationerna-ar-programmets-sak|beslut 26]])
   - name: TemplateBinding
     unmapped: true
     reason: as TemplateSignature
@@ -183,7 +183,7 @@ elements:
     reason: as Package
   - name: Profile
     unmapped: true
-    reason: profiles extend UML itself and are the inside (beslut 26)
+    reason: profiles extend UML itself and are the inside ([[0026-omgs-ovriga-specifikationer-sorteras-i-tre-fack-bacm-vdml-och-uml-tas-in-sysml-ar-utanfor-och-utbytesspecifikationerna-ar-programmets-sak|beslut 26]])
   - name: Stereotype
     unmapped: true
     reason: as Profile; the standard profile's stereotypes that meet the store have rows below
@@ -226,7 +226,7 @@ elements:
     unmapped: true
     reason: >-
       the state machine of a verksamhetsobjekt is the store's tillståndsvy,
-      a view and no element (beslut 24); the class it belongs to is the
+      a view and no element ([[0024-tillstand-ar-en-elementtyp-uppgiften-ar-informationsmodellens-attribut-och-lagret-ar-den-delade-datamodell-sdmn-beskriver|beslut 24]]); the class it belongs to is the
       verksamhetsobjekt, see relationships
   - name: ProtocolStateMachine
     unmapped: true
@@ -305,7 +305,7 @@ elements:
     reason: >-
       a branching is an activity that använder (C-095) a beslutslogik (C-178)
       and utlöser (C-098) several steps, the condition in each relation's
-      description; no element of its own (beslut 22), as BPMN's Exclusive
+      description; no element of its own ([[0022-aktivitet-och-beslutslogik-ar-elementtyper-bpmn-cmmn-och-dmn-tas-in-som-bestandsdelar-i-beteendet-med-egna-mappningstabeller|beslut 22]]), as BPMN's Exclusive
       Gateway
   - name: MergeNode
     unmapped: true
@@ -407,7 +407,7 @@ elements:
   # roller, but what the diagram shows is how they call one another.
   - name: Interaction
     unmapped: true
-    reason: the sequence of messages between parts is the inside (beslut 26)
+    reason: the sequence of messages between parts is the inside ([[0026-omgs-ovriga-specifikationer-sorteras-i-tre-fack-bacm-vdml-och-uml-tas-in-sysml-ar-utanfor-och-utbytesspecifikationerna-ar-programmets-sak|beslut 26]])
   - name: Lifeline
     unmapped: true
     reason: as Interaction
@@ -737,7 +737,7 @@ unmapped-concepts:
   - id: C-014
     reason: UML has no product; what a system offers is a use case
   - id: C-069
-    reason: UML has no capability; SysML and BACM have, and UML is outside there (beslut 26)
+    reason: UML has no capability; SysML and BACM have, and UML is outside there ([[0026-omgs-ovriga-specifikationer-sorteras-i-tre-fack-bacm-vdml-och-uml-tas-in-sysml-ar-utanfor-och-utbytesspecifikationerna-ar-programmets-sak|beslut 26]])
   - id: C-084
     reason: UML has no agreement; a contract between classes is the inside
   - id: C-145
@@ -753,7 +753,7 @@ unmapped-concepts:
   - id: C-195
     reason: UML has no value
   - id: C-016
-    reason: UML has no styrmedel; they are BMM's (beslut 25), and a Comment is text
+    reason: UML has no styrmedel; they are BMM's ([[0025-paverkan-och-bedomning-ar-elementtyper-strategin-ar-sammanhangande-styrbeslut-visionen-ar-ett-mal-utan-matt-och-bmm-tas-in-med-andamalet-som-katalogens-tillagg|beslut 25]]), and a Comment is text
   - id: C-017
     reason: as C-016
   - id: C-018
@@ -761,7 +761,7 @@ unmapped-concepts:
   - id: C-019
     reason: as C-016
   - id: C-021
-    reason: UML has no requirement; SysML's is outside (beslut 26)
+    reason: UML has no requirement; SysML's is outside ([[0026-omgs-ovriga-specifikationer-sorteras-i-tre-fack-bacm-vdml-och-uml-tas-in-sysml-ar-utanfor-och-utbytesspecifikationerna-ar-programmets-sak|beslut 26]])
   - id: C-022
     reason: as C-016
   - id: C-040
@@ -782,9 +782,9 @@ unmapped-concepts:
   - id: C-167
     reason: UML has no owner of information; Actor is a role toward the system
   - id: C-206
-    reason: UML has no owner of a behaviour; Actor is a role toward the system (beslut 35)
+    reason: UML has no owner of a behaviour; Actor is a role toward the system ([[0035-processagaren-ar-en-roll-linjechefen-ett-begrepp-agandet-skrivs-med-ansvarar-for-typerna-ags-och-forekomsterna-svarar-linjen-for-och-styrobjekten-ags-genom-mandat|beslut 35]])
   - id: C-178
-    reason: a DecisionNode is a branch in one flow, not reusable decision logic; that is DMN's (beslut 22)
+    reason: a DecisionNode is a branch in one flow, not reusable decision logic; that is DMN's ([[0022-aktivitet-och-beslutslogik-ar-elementtyper-bpmn-cmmn-och-dmn-tas-in-som-bestandsdelar-i-beteendet-med-egna-mappningstabeller|beslut 22]])
   - id: C-138
     reason: UML's Interface is software's; where an aktör makes verksamhetstjänster available is in no UML element
   - id: C-085
@@ -816,7 +816,7 @@ unmapped-concepts:
   - id: C-065
     reason: a Comment annotates one element; the store's beskriver relates two
   - id: C-102
-    reason: UML has no influence; BMM's (beslut 25)
+    reason: UML has no influence; BMM's ([[0025-paverkan-och-bedomning-ar-elementtyper-strategin-ar-sammanhangande-styrbeslut-visionen-ar-ett-mal-utan-matt-och-bmm-tas-in-med-andamalet-som-katalogens-tillagg|beslut 25]])
   - id: C-104
     reason: UML's Substitution is a runtime contract, not one element taking another's place in the architecture
   - id: C-151
@@ -832,4 +832,4 @@ unmapped-concepts:
   - id: C-183
     reason: UML has no styrmedel
   - id: C-208
-    reason: UML has no ownership relationship; ansvarar för (beslut 35) is the store's own
+    reason: UML has no ownership relationship; ansvarar för ([[0035-processagaren-ar-en-roll-linjechefen-ett-begrepp-agandet-skrivs-med-ansvarar-for-typerna-ags-och-forekomsterna-svarar-linjen-for-och-styrobjekten-ags-genom-mandat|beslut 35]]) is the store's own

@@ -24,9 +24,9 @@ associative:
 
 ## Anmärkning
 
-Varje arkitekturobjekt ([[C-032 Arkitekturobjekt]]) har exakt en arkitektur, beskriven eller inte. Ett hus som är byggt utan ritning har en arkitektur, fast ingen har beskrivit den. På samma sätt körs processer och flödar information i en verksamhet som ingen har beskrivit. Arkitekturarbetet beskriver utformningen, så att den går att resonera om, styra och förändra. Beslut 37.
+Varje arkitekturobjekt ([[C-032 Arkitekturobjekt]]) har exakt en arkitektur, beskriven eller inte. Ett hus som är byggt utan ritning har en arkitektur, fast ingen har beskrivit den. På samma sätt körs processer och flödar information i en verksamhet som ingen har beskrivit. Arkitekturarbetet beskriver utformningen, så att den går att resonera om, styra och förändra. [[0037-arkitekturen-finns-alltid-bararen-bar-bedomningar-hallningen-ar-intern-paverkan-regeln-lamnar-inget-bedomningsutrymme-och-principen-star-i-en-barare-som-den-med-mandat-faststaller|Beslut 37]].
 
-Arkitekturen säger också vilka arkitekturobjekt objektet delas in i. Verksamhetens arkitektur säger vilka verksamhetsdomäner som finns. Domänens arkitektur säger vilka lösningar som finns i domänen. Varje del har en egen arkitektur, och den är en del av det omgivande objektets arkitektur. Att verksamheten själv finns säger ingen arkitektur. Arkitekturen gäller på en arkitekturnivå ([[C-033 Arkitekturnivå]]), som följer av arkitekturobjektet. Beslut 59.
+Arkitekturen säger också vilka arkitekturobjekt objektet delas in i. Verksamhetens arkitektur säger vilka verksamhetsdomäner som finns. Domänens arkitektur säger vilka lösningar som finns i domänen. Varje del har en egen arkitektur, och den är en del av det omgivande objektets arkitektur. Att verksamheten själv finns säger ingen arkitektur. Arkitekturen gäller på en arkitekturnivå ([[C-033 Arkitekturnivå]]), som följer av arkitekturobjektet. [[0059-arkitekturobjektet-ar-ett-styrobjekt-som-har-en-utformning-och-arkitekturen-sager-vilka-arkitekturobjekt-objektet-delas-in-i|Beslut 59]].
 
 Avsikten står i beskrivningarna. Nulägesarkitekturen ([[C-057 Nulägesarkitektur]]) uttrycker den faktiska utformningen och målarkitekturen ([[C-054 Målarkitektur]]) den avsedda. Referensarkitekturen ([[C-041 Referensarkitektur]]) uttrycker de allmänna valen, och gapanalysen ([[C-105 Gapanalys]]) visar skillnaden mellan nuläge och mål. En avsikt som ingen har beskrivit finns inte i lagret.
 
@@ -34,7 +34,7 @@ Arkitekturen har två sorters delar. Arkitekturprinciperna ([[C-040 Arkitekturpr
 
 ## Motsvarigheter
 
-ISO 42010 säger detsamma: varje system har en arkitektur, beskriven eller inte. Standardens definition från 2022 räknar principerna till arkitekturen: grundläggande begrepp och egenskaper samt styrande principer för realisering och utveckling. Beslut 37 övervägde en annan läsning, där ett objekt som är byggt utan ritning har struktur men ingen arkitektur. Beslutet avvisade den.
+ISO 42010 säger detsamma: varje system har en arkitektur, beskriven eller inte. Standardens definition från 2022 räknar principerna till arkitekturen: grundläggande begrepp och egenskaper samt styrande principer för realisering och utveckling. [[0037-arkitekturen-finns-alltid-bararen-bar-bedomningar-hallningen-ar-intern-paverkan-regeln-lamnar-inget-bedomningsutrymme-och-principen-star-i-en-barare-som-den-med-mandat-faststaller|Beslut 37]] övervägde en annan läsning, där ett objekt som är byggt utan ritning har struktur men ingen arkitektur. Beslutet avvisade den.
 
 ## Exempel
 

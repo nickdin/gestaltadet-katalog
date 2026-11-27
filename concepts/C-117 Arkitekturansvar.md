@@ -19,7 +19,7 @@ generic: '[[C-209 Ansvar]]'
 
 ## Anmärkning
 
-Arkitekturansvaret är ett ansvar ([[C-209 Ansvar]]) för vyerna och principerna, inte för arkitekturobjektet självt. Den som har mandatet ([[C-189 Mandat]]) över arkitekturobjektet äger det. Beslut 36.
+Arkitekturansvaret är ett ansvar ([[C-209 Ansvar]]) för vyerna och principerna, inte för arkitekturobjektet självt. Den som har mandatet ([[C-189 Mandat]]) över arkitekturobjektet äger det. [[0036-losningen-skars-dar-kopplingen-ar-los-ansvar-ram-och-koppling-ar-begrepp-utan-elementtyp-ramen-foljer-mandatet-och-den-som-svarar-for-en-sak-beslutar-om-den|Beslut 36]].
 
 Arkitekturansvaret är inte en arkitekturdomän: en domän har ett eget uppdrag, medan arkitekturarbete tjänar någon annans.
 

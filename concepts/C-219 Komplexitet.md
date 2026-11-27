@@ -24,11 +24,11 @@ Den som styr måste kunna möta lika många lägen som uppstår. Det är Ashbys 
 - **Dämpare** minskar antalet lägen som kräver beslut. Styrmedel ([[C-015 Styrmedel]]) är dämpare: en regel eller en princip avgör i förväg. Ett snitt där kopplingen ([[C-211 Koppling]]) är lös är också en dämpare, för då når färre ändringar över gränsen.
 - **Förstärkare** ökar förmågan att svara. Delegation ([[C-214 Delegation]]) är en förstärkare, för fler får besluta. Båda sorterna räknas: den som lämnar över ett styrobjekt och den som lämnar över rätten att besluta i ärenden. Kunnandet hos den som utför arbetet är en förstärkare, liksom bemanning och verktyg.
 
-Det mesta möts av den som utför arbetet. De lägen en bovärd eller en handläggare klarar själv når aldrig ägaren. Dagens lägen möts alltså i produktionen. Morgondagens lägen möts genom att utformningen ändras, för utformningen avgör vilka lägen produktionen kan möta. Beslut 70.
+Det mesta möts av den som utför arbetet. De lägen en bovärd eller en handläggare klarar själv når aldrig ägaren. Dagens lägen möts alltså i produktionen. Morgondagens lägen möts genom att utformningen ändras, för utformningen avgör vilka lägen produktionen kan möta. [[0070-produktionen-ska-ligga-i-losningens-hemdoman-men-behover-inte-spegla-formagorna-delningen-visas-alltid-och-vags-mot-den-narmaste-agare-som-haller-bada|Beslut 70]].
 
 Orden dämpare och förstärkare är Stafford Beers. Beer kallar antalet lägen *variety*.
 
-Är komplexiteten större än den som beslutar hinner möta blir beslut liggande, eller fattas utan att någon har satt sig in i läget. Centralisering ([[C-220 Centralisering]]) säger var det oftast händer. Beslut 49.
+Är komplexiteten större än den som beslutar hinner möta blir beslut liggande, eller fattas utan att någon har satt sig in i läget. Centralisering ([[C-220 Centralisering]]) säger var det oftast händer. [[0049-livskraft-ar-mattstocken-for-styrningen-samordning-granskning-komplexitet-och-centralisering-ar-nya-begrepp-kopplingen-rader-ocksa-mellan-ansvar-och-lagarna-far-en-egen-sida|Beslut 49]].
 
 ## Exempel
 

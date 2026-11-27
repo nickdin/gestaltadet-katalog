@@ -19,8 +19,8 @@ associative:
 
 ## Anmärkning
 
-Förändringen är skillnaden mellan två beskrivningar av samma styrobjekt, nuläget och målbilden: det ersätter-relationerna ([[C-104 ersätter]]) och gapanalysen räknar fram. Den är ett begrepp, ingen egen typ, och ritas inte som element. Den är en effekt ([[C-024 Effekt]]) och prövas mot effektmålet ([[C-170 Effektmål]]); den ersätter inte målet. Ett initiativ ([[C-012 Initiativ]]) åstadkommer den genom de verksamhetsförmågor ([[C-069 Verksamhetsförmåga]]) det utvecklar. Beslut 19.
+Förändringen är skillnaden mellan två beskrivningar av samma styrobjekt, nuläget och målbilden: det ersätter-relationerna ([[C-104 ersätter]]) och gapanalysen räknar fram. Den är ett begrepp, ingen egen typ, och ritas inte som element. Den är en effekt ([[C-024 Effekt]]) och prövas mot effektmålet ([[C-170 Effektmål]]); den ersätter inte målet. Ett initiativ ([[C-012 Initiativ]]) åstadkommer den genom de verksamhetsförmågor ([[C-069 Verksamhetsförmåga]]) det utvecklar. [[0019-malet-forblir-styrmedel-och-ritas-som-styrmedelselement-portfolj-ar-en-elementtyp|Beslut 19]].
 
 ## Motsvarigheter
 
-Motsvarar Change i Business Architecture Core Metamodel (BACM), det läge ett initiativ väntas ge. Beslut 27.
+Motsvarar Change i Business Architecture Core Metamodel (BACM), det läge ett initiativ väntas ge. [[0027-vardestrom-ar-en-elementtyp-i-strategiperspektivet-utfallet-ar-tillstandet-losningen-ar-formagans-implementation-och-bacm-tas-in-med-hinder-vinst-och-svar-som-begrepp-i-texten|Beslut 27]].

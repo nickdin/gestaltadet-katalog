@@ -22,7 +22,7 @@ Ett krav är en sorts regel ([[C-020 Regel]]): regeln anger vad som ska gälla, 
 
 ## Motsvarigheter
 
-SBVR skiljer inte kravet från regeln; lagret behåller ordet för att arkitekter säger krav och ArchiMate har Requirement. Beslut 23.
+SBVR skiljer inte kravet från regeln; lagret behåller ordet för att arkitekter säger krav och ArchiMate har Requirement. [[0023-regeln-anger-vad-som-ska-galla-kravet-ar-en-sorts-regel-katalogen-ar-organisationens-ordlista-och-sbvr-tas-in-med-faststalls-av-som-relationstyp|Beslut 23]].
 
 ## Exempel
 

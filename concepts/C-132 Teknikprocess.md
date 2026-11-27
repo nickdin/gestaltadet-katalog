@@ -21,4 +21,4 @@ En teknikprocess är ett teknikbeteende ([[C-180 Teknikbeteende]]). Stegen är t
 
 Motsvarar ArchiMates Technology Process.
 
-Motsvarar Activity i Unified Modeling Language (UML) när en teknisk resurs utför den. Beslut 29.
+Motsvarar Activity i Unified Modeling Language (UML) när en teknisk resurs utför den. [[0029-klassen-ar-informationsobjektet-tillstandsmaskinen-ar-tillstandsvyn-anvandningsfallet-ar-tjansten-vardemangd-ar-ett-begrepp-och-uml-tas-in-for-lasarnas-skull-utan-tveksamma-rader|Beslut 29]].

@@ -19,4 +19,4 @@ Relationen går från det härledda elementet till ursprunget.
 
 ## Motsvarigheter
 
-Motsvarar «derive» i Unified Modeling Language (UML). Beslut 29.
+Motsvarar «derive» i Unified Modeling Language (UML). [[0029-klassen-ar-informationsobjektet-tillstandsmaskinen-ar-tillstandsvyn-anvandningsfallet-ar-tjansten-vardemangd-ar-ett-begrepp-och-uml-tas-in-for-lasarnas-skull-utan-tveksamma-rader|Beslut 29]].

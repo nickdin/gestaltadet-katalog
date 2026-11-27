@@ -4,7 +4,7 @@ Beslutat av Nicklas 19 november 2026, när ett underlag hade visat vilken dokume
 
 ## Sammanhang
 
-Beslut 55 gav informationskartläggningen fyra perspektiv: informationssäkerhet, dataskydd, offentlighet och arkiv, och informationsförsörjning. Beslut 58 sade att perspektiven fattar sina beslut i sina egna förteckningar. Beslut 61 sade att kontinuitetskravets tid står i en förteckning utanför lagret, men inte i vilken.
+[[0055-informationskartlaggning-ar-ett-arbetssatt-en-gemensam-karta-fyra-perspektiv-verksamheten-gor-arbetet-och-varvet-slutar-nar-varje-fynd-har-ett-beslut|Beslut 55]] gav informationskartläggningen fyra perspektiv: informationssäkerhet, dataskydd, offentlighet och arkiv, och informationsförsörjning. [[0058-nulaget-bar-inga-beslut-ur-informationshanteringens-perspektiv-klassen-fasts-pa-objektet-kraven-pa-behandlingen-och-mangden-gor-aldrig-klassen-hogre|Beslut 58]] sade att perspektiven fattar sina beslut i sina egna förteckningar. [[0061-kontinuitet-ar-ett-krav-pa-hela-beteendet-tillgangligheten-far-tva-matt-och-aterstallningstiden-harleds-till-resursen|Beslut 61]] sade att kontinuitetskravets tid står i en förteckning utanför lagret, men inte i vilken.
 
 Ärendet #201 visade att sidan Informationskartläggning hade lagt kontinuitetskravet och återställningstiden i förteckningen över kraven på behandlingarna. Ingen av de två raderna gäller en behandling (`C-168`). Ärendet #202 frågade sedan vad varje perspektiv dokumenterar. De som arbetar i perspektiven är oftast olika personer. Kartan kan alla använda, men dokumentationen behöver hållas isär.
 
@@ -18,11 +18,11 @@ Underlaget `docs/research/perspektivens-dokumentation.md` läste lag, föreskrif
 
 ### Tre perspektiv
 
-- **Informationshanteringen har tre perspektiv: informationssäkerhet, dataskydd, och offentlighet och arkiv.** De tre håller dokumentation som ligger utanför arkitekturen och tar stöd i kartan. Det ändrar beslut 55, som sade fyra.
+- **Informationshanteringen har tre perspektiv: informationssäkerhet, dataskydd, och offentlighet och arkiv.** De tre håller dokumentation som ligger utanför arkitekturen och tar stöd i kartan. Det ändrar [[0055-informationskartlaggning-ar-ett-arbetssatt-en-gemensam-karta-fyra-perspektiv-verksamheten-gor-arbetet-och-varvet-slutar-nar-varje-fynd-har-ett-beslut|beslut 55]], som sade fyra.
 - **Informationsförsörjningen är arkitekturarbete, inget perspektiv.** Arkitekten läser samma karta som en del av arkitekturarbetet. Datalagret hos Myndigheten för föreningsstöd hämtar Förening ur Ärendesystemet och inte ur Föreningsregistret, som är källan. Arkitekten ser det i kartan. Fyndet blir en bedömning (`C-185`) som går till målarkitekturen.
-- **Varvet slutar när de tre perspektivens fynd har beslut.** Arkitektens bedömning följer arkitekturarbetets egen takt och håller inte varvet öppet. Det ändrar punkten om varvets slut i beslut 55.
+- **Varvet slutar när de tre perspektivens fynd har beslut.** Arkitektens bedömning följer arkitekturarbetets egen takt och håller inte varvet öppet. Det ändrar punkten om varvets slut i [[0055-informationskartlaggning-ar-ett-arbetssatt-en-gemensam-karta-fyra-perspektiv-verksamheten-gor-arbetet-och-varvet-slutar-nar-varje-fynd-har-ett-beslut|beslut 55]].
 - **Cybersäkerhetslagens krav hör till informationssäkerheten.** Lagen ger inget eget perspektiv. Den ställer fler krav på informationssäkerhetens dokumentation.
-- **Kontinuiteten förblir en granne, som i beslut 61.** Den som arbetar med kontinuiteten läser kartan för applikationerna och informationen och kompletterar den med det kartan inte bär. Genomföra ansökningsomgången får stå still högst en dag. Kravet gäller också handläggarna och lokalen.
+- **Kontinuiteten förblir en granne, som i [[0061-kontinuitet-ar-ett-krav-pa-hela-beteendet-tillgangligheten-far-tva-matt-och-aterstallningstiden-harleds-till-resursen|beslut 61]].** Den som arbetar med kontinuiteten läser kartan för applikationerna och informationen och kompletterar den med det kartan inte bär. Genomföra ansökningsomgången får stå still högst en dag. Kravet gäller också handläggarna och lokalen.
 
 ### Förteckningarna
 
@@ -31,7 +31,7 @@ Underlaget `docs/research/perspektivens-dokumentation.md` läste lag, föreskrif
 - **Förteckningen över kraven på behandlingarna bär bara tillgänglighet och spårbarhet.** Varje rad pekar på paret beteende och objekt.
 - **Processägaren ställer kraven, och informationssäkerheten håller förteckningen.** Chefen för Bidragsenheten säger hur länge Genomföra ansökningsomgången klarar sig utan Företrädare. Kravet står sedan bland informationssäkerhetens dokument. Varje förteckning har på så sätt ett perspektiv som håller den.
 - **Processägaren är ofta också informationsägare för objekten i sin process.** Chefen för Bidragsenheten äger både Genomföra ansökningsomgången och Ansökan. Ett objekt som många processer använder har en annan ägare: chefen för Register- och tillsynsenheten äger Förening.
-- **Klassningsförteckningen står kvar som i beslut 58.** Sidan säger att förteckningen är en rekommendation i myndigheternas metodstöd och inget krav i föreskrifterna.
+- **Klassningsförteckningen står kvar som i [[0058-nulaget-bar-inga-beslut-ur-informationshanteringens-perspektiv-klassen-fasts-pa-objektet-kraven-pa-behandlingen-och-mangden-gor-aldrig-klassen-hogre|beslut 58]].** Sidan säger att förteckningen är en rekommendation i myndigheternas metodstöd och inget krav i föreskrifterna.
 
 ### Vad metoden säger om dokumentationen
 
@@ -43,7 +43,7 @@ Underlaget `docs/research/perspektivens-dokumentation.md` läste lag, föreskrif
 
 - **Kontinuitetskravet och återställningstiden står kvar i förteckningen över kraven på behandlingarna, som får ett vidare namn.** Varje annan förteckning pekar på en sorts sak. Avvisat.
 - **Återställningstiden får ingen rad.** Den som går igenom kartan får då härleda den varje gång. Avvisat.
-- **Kontinuiteten blir ett perspektiv.** Kartan bär inte personalen och lokalerna, så perspektivet kan inte besvara sina frågor ur kartan. Avvisat, som i beslut 61. Metoden kan breddas senare.
+- **Kontinuiteten blir ett perspektiv.** Kartan bär inte personalen och lokalerna, så perspektivet kan inte besvara sina frågor ur kartan. Avvisat, som i [[0061-kontinuitet-ar-ett-krav-pa-hela-beteendet-tillgangligheten-far-tva-matt-och-aterstallningstiden-harleds-till-resursen|beslut 61]]. Metoden kan breddas senare.
 - **Cybersäkerheten blir ett eget perspektiv.** Samma person skulle läsa samma applikation två gånger med samma fråga. Avvisat.
 - **Förteckningen över kraven på behandlingarna är processägarens egen och hör inte till något perspektiv.** Källorna lägger kravet på tillgänglighet hos informationssäkerheten. Avvisat.
 - **Informationsförsörjningen står kvar som perspektiv, och sidan säger att kraven på dokumentation är få.** Ett perspektiv utan dokumentation utanför arkitekturen är arkitekturarbete. Avvisat.

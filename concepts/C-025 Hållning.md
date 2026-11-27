@@ -13,4 +13,4 @@ definition: "uppfattning eller förväntat sätt att agera som riktas mot person
 
 ## Anmärkning
 
-Samlingsbegrepp för värdering ([[C-026 Värdering]]) och förhållningssätt ([[C-027 Förhållningssätt]]). Inte ett styrmedel: saknar prövbara konsekvenser. Ritas en hållning registreras den som intern påverkan ([[C-030 Intern påverkan]]): ett förhållande inne i organisationen som ett styrmedel kan härledas ur, inte något som prövas. Beslut 37.
+Samlingsbegrepp för värdering ([[C-026 Värdering]]) och förhållningssätt ([[C-027 Förhållningssätt]]). Inte ett styrmedel: saknar prövbara konsekvenser. Ritas en hållning registreras den som intern påverkan ([[C-030 Intern påverkan]]): ett förhållande inne i organisationen som ett styrmedel kan härledas ur, inte något som prövas. [[0037-arkitekturen-finns-alltid-bararen-bar-bedomningar-hallningen-ar-intern-paverkan-regeln-lamnar-inget-bedomningsutrymme-och-principen-star-i-en-barare-som-den-med-mandat-faststaller|Beslut 37]].

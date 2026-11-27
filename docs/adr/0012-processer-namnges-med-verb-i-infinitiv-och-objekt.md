@@ -1,8 +1,8 @@
 # Processer namnges med verb i infinitiv och objekt
 
-*Ledet i Konsekvenser att ett löpande ansvar är en verksamhetsförmåga gäller inte längre: beslut 15.*
+*Ledet i Konsekvenser att ett löpande ansvar är en verksamhetsförmåga gäller inte längre: [[0015-process-arende-och-funktion-ar-tre-verksamhetsbeteenden-av-samma-rang|beslut 15]].*
 
-*Ledet i Konsekvenser att det som kommer ut ur en process ritas som produkt gäller inte längre: det ritas som verksamhetsobjekt, och produkten är erbjudandet (beslut 16).*
+*Ledet i Konsekvenser att det som kommer ut ur en process ritas som produkt gäller inte längre: det ritas som verksamhetsobjekt, och produkten är erbjudandet ([[0016-verksamhetsobjekt-ar-en-elementtyp|beslut 16]]).*
 
 Beslutat av Nicklas i oktober 2026, när en avdelnings processkarta ritades och processerna hade fått namn av olika slag.
 

@@ -30,13 +30,13 @@ Informationsmodelleringens praxis delar informationen i fyra kategorier: resursd
 
 Kategorin finns för att en informationsmodell ska kunna färgas efter den och för att informationsägaren ([[C-167 Informationsägare]]) ska kunna lista sina resursdata.
 
-Kategorin sätts på informationsobjektet ([[C-060 Informationsobjekt]]), inte på verksamhetsobjektet ([[C-159 Verksamhetsobjekt]]). Den säger hur informationen försörjs och hålls, inte vad beteendet hanterar, och ett verksamhetsobjekt realiseras av flera informationsobjekt som kan vara av olika kategori. Ett informationsobjekt har högst en kategori, och kategorin är frivillig. Ett informationsområde ([[C-198 Informationsområde]]) har ingen utan läses av sina objekt. En sammanställning ([[C-162 Sammanställning]]) har ingen, eftersom de fyra beskriver det verksamheten håller och fångar, inte det den sätter samman. Harmoniserad data är ingen femte kategori. Ordet säger hur representationerna på en lagringsyta ([[C-165 Lagringsyta]]) är ordnade, och objektet behåller den kategori det har (beslut 72).
+Kategorin sätts på informationsobjektet ([[C-060 Informationsobjekt]]), inte på verksamhetsobjektet ([[C-159 Verksamhetsobjekt]]). Den säger hur informationen försörjs och hålls, inte vad beteendet hanterar, och ett verksamhetsobjekt realiseras av flera informationsobjekt som kan vara av olika kategori. Ett informationsobjekt har högst en kategori, och kategorin är frivillig. Ett informationsområde ([[C-198 Informationsområde]]) har ingen utan läses av sina objekt. En sammanställning ([[C-162 Sammanställning]]) har ingen, eftersom de fyra beskriver det verksamheten håller och fångar, inte det den sätter samman. Harmoniserad data är ingen femte kategori. Ordet säger hur representationerna på en lagringsyta ([[C-165 Lagringsyta]]) är ordnade, och objektet behåller den kategori det har ([[0072-harmoniserad-data-ar-en-egenskap-hos-representationerna-pa-en-lagringsyta-och-inget-begrepp-syftet-ar-uppfoljning-av-verksamheten-och-dataharmonisering-ar-en-del-av-formagan-som-behover-den|beslut 72]]).
 
-Ett begrepp, ingen elementtyp. Tills interlingua bär kategorin som ett fält på elementet står den som en mening i objektets beskrivning. Datatyp avråds som term, eftersom typ i katalogen betyder elementtyp. Beslut 32.
+Ett begrepp, ingen elementtyp. Tills interlingua bär kategorin som ett fält på elementet står den som en mening i objektets beskrivning. Datatyp avråds som term, eftersom typ i katalogen betyder elementtyp. [[0032-datakategorin-ar-ett-begrepp-resursdata-referensdata-transaktionsdata-och-handelsedata-sitter-pa-informationsobjektet-hogst-en-och-frivillig-och-referensdata-ar-en-vardemangd-organisationen-sjalv-faststaller|Beslut 32]].
 
 ## Motsvarigheter
 
-Varken ArchiMate, UML eller SDMN har kategorin, så den har inga mappningsrader. Beslut 32.
+Varken ArchiMate, UML eller SDMN har kategorin, så den har inga mappningsrader. [[0032-datakategorin-ar-ett-begrepp-resursdata-referensdata-transaktionsdata-och-handelsedata-sitter-pa-informationsobjektet-hogst-en-och-frivillig-och-referensdata-ar-en-vardemangd-organisationen-sjalv-faststaller|Beslut 32]].
 
 ## Exempel
 

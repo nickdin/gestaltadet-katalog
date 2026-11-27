@@ -1,16 +1,16 @@
 # Aspektstyrningen äger inget styrobjekt, arbetssättet är ingen aspekt, metodstyrningen tas bort, och styrmedlet kan ta sikte på en aspekt
 
-*Beslut 50 preciserar två saker här. Den som har aspektens mandat fastställer regler men beslutar aldrig i ett enskilt fall. Och den som avgör ett undantag kan ge undantaget eller låta ändra regeln.*
+*[[0050-ett-beslut-fattas-av-den-som-har-bade-ram-och-mandat-ett-forum-beslutar-aldrig-aspekten-avgor-inga-enskilda-fall-och-domanens-agare-satter-losningens-ram|Beslut 50]] preciserar två saker här. Den som har aspektens mandat fastställer regler men beslutar aldrig i ett enskilt fall. Och den som avgör ett undantag kan ge undantaget eller låta ändra regeln.*
 
 Beslutat av Nicklas 12 november 2026, när två fynd om Metodstyrning (`C-051`) inte gick att avgöra utan att hela indelningen av styrningen prövades först.
 
 ## Sammanhang
 
-Granskningen i #43 hade två fynd om Metodstyrning (`C-051`). Det första, F19: definitionen gjorde den till en aspektbaserad styrning med aspekten arbetssätt och metod, men den aspekten finns inte bland de fyra som Aspekt (`C-004`) räknar upp. Det andra, F20: beslut 26 avgränsade metodstyrningen till hur arkitekturen arbetas fram, medan beslut 28 och Arbetssätt (`C-196`) lät den gälla valet av arbetssätt i allmänhet.
+Granskningen i #43 hade två fynd om Metodstyrning (`C-051`). Det första, F19: definitionen gjorde den till en aspektbaserad styrning med aspekten arbetssätt och metod, men den aspekten finns inte bland de fyra som Aspekt (`C-004`) räknar upp. Det andra, F20: [[0026-omgs-ovriga-specifikationer-sorteras-i-tre-fack-bacm-vdml-och-uml-tas-in-sysml-ar-utanfor-och-utbytesspecifikationerna-ar-programmets-sak|beslut 26]] avgränsade metodstyrningen till hur arkitekturen arbetas fram, medan [[0028-varde-ar-en-elementtyp-i-strategiperspektivet-dit-vardeerbjudandet-flyttar-arbetssatt-ar-ett-begrepp-svaret-heter-hjalp-och-vdml-tas-in-med-rakneverket-omappat|beslut 28]] och Arbetssätt (`C-196`) lät den gälla valet av arbetssätt i allmänhet.
 
-Beslut 37 sköt fynden hit. Nicklas ville först pröva styrlogiken i ett stycke: Styrning (`C-002`), Styrobjekt (`C-003`), Aspekt (`C-004`), Objektbaserad styrning (`C-005`) och Aspektbaserad styrning (`C-006`). Han frågade också om metod är något annat än beteende och arbetssätt.
+[[0037-arkitekturen-finns-alltid-bararen-bar-bedomningar-hallningen-ar-intern-paverkan-regeln-lamnar-inget-bedomningsutrymme-och-principen-star-i-en-barare-som-den-med-mandat-faststaller|Beslut 37]] sköt fynden hit. Nicklas ville först pröva styrlogiken i ett stycke: Styrning (`C-002`), Styrobjekt (`C-003`), Aspekt (`C-004`), Objektbaserad styrning (`C-005`) och Aspektbaserad styrning (`C-006`). Han frågade också om metod är något annat än beteende och arbetssätt.
 
-Katalogen sade inte heller varifrån en aspektbaserad styrning har sin befogenhet. Mandat (`C-189`) gäller ett styrobjekt, och ett styrobjekt har en ägare, aldrig två (beslut 35).
+Katalogen sade inte heller varifrån en aspektbaserad styrning har sin befogenhet. Mandat (`C-189`) gäller ett styrobjekt, och ett styrobjekt har en ägare, aldrig två ([[0035-processagaren-ar-en-roll-linjechefen-ett-begrepp-agandet-skrivs-med-ansvarar-for-typerna-ags-och-forekomsterna-svarar-linjen-for-och-styrobjekten-ags-genom-mandat|beslut 35]]).
 
 ## Beslut
 
@@ -30,13 +30,13 @@ Katalogen sade inte heller varifrån en aspektbaserad styrning har sin befogenhe
 - **En namngiven styrning per aspekt**, med två nya begrepp för säkerheten och juridiken. Två begrepp utan användning kostar mer än luckan. Avvisat.
 - **Arbetssätt som en sort av referensarkitektur.** Scrum finns innan någon antagit det, och en referensarkitektur är antagen. Avvisat.
 - **Metodstyrning kvar som begrepp eller som hänvisning i Arbetssätt (`C-196`).** Nicklas vill inte ha ordet med som begrepp. Avvisat.
-- **En relation till Aspekt per sort av styrmedel.** Beslut 37 avvisade den för arkitekturprincipen. En relation på familjen säger samma sak en gång. Avvisat.
+- **En relation till Aspekt per sort av styrmedel.** [[0037-arkitekturen-finns-alltid-bararen-bar-bedomningar-hallningen-ar-intern-paverkan-regeln-lamnar-inget-bedomningsutrymme-och-principen-star-i-en-barare-som-den-med-mandat-faststaller|Beslut 37]] avvisade den för arkitekturprincipen. En relation på familjen säger samma sak en gång. Avvisat.
 
 ## Konsekvenser
 
-- `C-051` Metodstyrning är borttaget, och dess id används inte igen. Meningen i beslut 26, "Metodstyrning (`C-051`) i lagret är något annat: styrningen av hur arkitekturen arbetas fram", gäller inte längre. Hur arkitekturen arbetas fram är ett arbetssätt i Arkitekturdisciplin (`C-116`), valt som alla andra. Meningen i beslut 28 om att valet av arbetssätt är det Metodstyrning handlar om gäller inte heller.
+- `C-051` Metodstyrning är borttaget, och dess id används inte igen. Meningen i [[0026-omgs-ovriga-specifikationer-sorteras-i-tre-fack-bacm-vdml-och-uml-tas-in-sysml-ar-utanfor-och-utbytesspecifikationerna-ar-programmets-sak|beslut 26]], "Metodstyrning (`C-051`) i lagret är något annat: styrningen av hur arkitekturen arbetas fram", gäller inte längre. Hur arkitekturen arbetas fram är ett arbetssätt i Arkitekturdisciplin (`C-116`), valt som alla andra. Meningen i [[0028-varde-ar-en-elementtyp-i-strategiperspektivet-dit-vardeerbjudandet-flyttar-arbetssatt-ar-ett-begrepp-svaret-heter-hjalp-och-vdml-tas-in-med-rakneverket-omappat|beslut 28]] om att valet av arbetssätt är det Metodstyrning handlar om gäller inte heller.
 - Ny relation i frontmatter: `C-015` `kan ta sikte på` → `C-004`. Inga definitioner ändrade.
 - Anmärkningar ändrade i `C-004`, `C-006` och `C-196`. `C-006` har inte längre metodstyrning bland exemplen.
 - `docs/exempel/myndigheten-for-foreningsstod.md` har fått ekonomichefens regel, valen av arbetssätt och regeln som tar sikte på säkerheten.
-- Ritningarna visar inte den nya relationen än. Rutan Aspekt togs bort ur två ritningar efter beslut 37 (#103) och ritas in igen i ett eget ärende.
+- Ritningarna visar inte den nya relationen än. Rutan Aspekt togs bort ur två ritningar efter [[0037-arkitekturen-finns-alltid-bararen-bar-bedomningar-hallningen-ar-intern-paverkan-regeln-lamnar-inget-bedomningsutrymme-och-principen-star-i-en-barare-som-den-med-mandat-faststaller|beslut 37]] (#103) och ritas in igen i ett eget ärende.
 - #71 stängs.

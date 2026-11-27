@@ -22,7 +22,7 @@ Förhållanden inne i organisationen är antaganden, vanor, infrastruktur, resur
 
 ## Motsvarigheter
 
-Den överordnade nivåns styrmedel, som intern påverkan, är det Business Motivation Model kallar Directive as Regulation. Business Motivation Models kategorier av Internal Influencer är förhållandena inne i organisationen (beslut 25).
+Den överordnade nivåns styrmedel, som intern påverkan, är det Business Motivation Model kallar Directive as Regulation. Business Motivation Models kategorier av Internal Influencer är förhållandena inne i organisationen ([[0025-paverkan-och-bedomning-ar-elementtyper-strategin-ar-sammanhangande-styrbeslut-visionen-ar-ett-mal-utan-matt-och-bmm-tas-in-med-andamalet-som-katalogens-tillagg|beslut 25]]).
 
 ## Exempel
 

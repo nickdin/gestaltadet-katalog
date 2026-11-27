@@ -1,16 +1,16 @@
 # Ingen äger förmågan, portföljens ägare sätter dess mål, målet säger vad utformningen ska klara, och förmågan prövas på om den kan få ett eget mål
 
-*Ledet att ingen äger förmågan gäller inte längre i den formen. Förmågan är inget styrobjekt, men ägaren till den innersta domän som rymmer dess lösningar ansvarar för den (beslut 66).*
+*Ledet att ingen äger förmågan gäller inte längre i den formen. Förmågan är inget styrobjekt, men ägaren till den innersta domän som rymmer dess lösningar ansvarar för den ([[0066-formagan-och-vardestrommen-ar-inga-styrobjekt-men-nagon-ansvarar-for-dem-loftet-ar-ett-varde-och-vardestrommen-visar-vilken-formaga-som-ska-bli-battre|beslut 66]]).*
 
-*En förmåga kan bestå av förmågor (beslut 69). Den som ansvarar för Bidragsprövning sätter också målet för delen Beräkning av bidrag. I provets första fall är det alltså chefen för Bidragsenheten som kräver högst ett felräknat belopp, inte generaldirektören.*
+*En förmåga kan bestå av förmågor ([[0069-en-formaga-kan-besta-av-formagor-delarna-tacker-helheten-utan-overlapp-och-formagan-finns-for-att-verksamheten-ska-kunna-planera-sin-utveckling|beslut 69]]). Den som ansvarar för Bidragsprövning sätter också målet för delen Beräkning av bidrag. I provets första fall är det alltså chefen för Bidragsenheten som kräver högst ett felräknat belopp, inte generaldirektören.*
 
 Beslutat av Nicklas 20 november 2026, när en vägledning om verksamhetsförmågor beskrev förmågan som en enhet för styrning med egen ägare, medan katalogen lade ägaren och ramen på lösningen.
 
 ## Sammanhang
 
-Beslut 20 sade att målet (`C-017`) sätts på förmågan (`C-069`) och ramen på lösningen (`C-055`). Beslut 36 gav lösningen ett prov för var den ska skäras. Katalogen sade däremot inte vem som sätter förmågans mål, vad målet mäter eller hur långt en förmåga får brytas ner.
+[[0020-forvaltningsobjektet-ar-en-losning-som-realiserar-en-formaga-verksamhetsprodukt-och-leveransprodukt-under-produkt|Beslut 20]] sade att målet (`C-017`) sätts på förmågan (`C-069`) och ramen på lösningen (`C-055`). [[0036-losningen-skars-dar-kopplingen-ar-los-ansvar-ram-och-koppling-ar-begrepp-utan-elementtyp-ramen-foljer-mandatet-och-den-som-svarar-for-en-sak-beslutar-om-den|Beslut 36]] gav lösningen ett prov för var den ska skäras. Katalogen sade däremot inte vem som sätter förmågans mål, vad målet mäter eller hur långt en förmåga får brytas ner.
 
-Vägledningen svarade på alla tre frågorna, men på ett annat sätt än katalogen. Den gav förmågan en ägare som investerar i den. I katalogen går ramen aldrig till förmågan, och den som inte håller en ram kan inte bära ett ansvar (beslut 36).
+Vägledningen svarade på alla tre frågorna, men på ett annat sätt än katalogen. Den gav förmågan en ägare som investerar i den. I katalogen går ramen aldrig till förmågan, och den som inte håller en ram kan inte bära ett ansvar ([[0036-losningen-skars-dar-kopplingen-ar-los-ansvar-ram-och-koppling-ar-begrepp-utan-elementtyp-ramen-foljer-mandatet-och-den-som-svarar-for-en-sak-beslutar-om-den|beslut 36]]).
 
 Frågorna avgjordes på tre fall hos Myndigheten för föreningsstöd.
 
@@ -38,6 +38,6 @@ Frågorna avgjordes på tre fall hos Myndigheten för föreningsstöd.
 ## Konsekvenser
 
 - Ingen definition ändras, och inga begrepp, relationer eller typer tillkommer.
-- Beslut 20 står: målet sätts på förmågan och ramen på lösningen. Det här beslutet säger vem som sätter målet och vad det mäter.
+- [[0020-forvaltningsobjektet-ar-en-losning-som-realiserar-en-formaga-verksamhetsprodukt-och-leveransprodukt-under-produkt|Beslut 20]] står: målet sätts på förmågan och ramen på lösningen. Det här beslutet säger vem som sätter målet och vad det mäter.
 - Verksamhetsförmåga (`C-069`) och Portfölj (`C-011`) har fått text om detta, och exemplet Myndigheten för föreningsstöd skiljer förmågans mål från domänens.
 - Om en förmåga kan bestå av förmågor är inte avgjort. Verksamhetsförmåga (`C-069`) har ingen relation till sig själv i lagret.
