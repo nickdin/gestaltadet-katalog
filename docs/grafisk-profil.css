@@ -63,3 +63,8 @@ header .site, header .site a { color: var(--gd-teal); font-weight: 600; text-dec
 
 /* Sidan läsaren är på: det enda i sidhuvudet som får accentfärgen. */
 nav a[aria-current="page"] { color: var(--gd-terrakotta); }
+
+/* Etiketten för en text som är skriven av AI och inte granskad (beslut 39):
+   dämpad som en förklaring, ingen varningsfärg. De godkända lägena behåller
+   länkfärgen. */
+.authorship-ai-unreviewed a { color: var(--gd-text-sekundar); }
