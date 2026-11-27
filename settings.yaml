@@ -10,6 +10,7 @@ documents:
   - docs/lagar.md
   - docs/informationskartlaggning.md
   - docs/formbibliotek.md
+  - docs/sa-marks-texterna.md
 drawings:
   - layout/Styrning
   - layout/Arkitektur
@@ -17,7 +18,7 @@ drawings:
   - layout/Information
   - layout/Exempel
 footer: "Licens: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.sv). Använd och bygg vidare, med GestaltaDet och Nicklas Grandin som källa."
-owner: Nicklas
+owner: Nicklas Grandin
 authorship_page: docs/sa-marks-texterna.md
 ai_coauthor_addresses:
   - noreply@anthropic.com
