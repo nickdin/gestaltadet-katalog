@@ -1,3 +1,10 @@
+---
+authorship:
+  document:
+    state: ai-approved
+    approved: 2026-11-23
+    wording: 1b74396feec699b89f385aebf927001ea3937c947338fed6482a939822c33105
+---
 # Besluten bakom katalogen
 
 Ett beslut är en arbetsanteckning från arbetet med katalogen. Det säger vad jag bestämde, varför och vad jag valde bort. Vill du veta vad ett begrepp betyder läser du begreppets sida. Vill du veta varför det betyder just det läser du beslutet.
