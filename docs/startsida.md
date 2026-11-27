@@ -41,6 +41,6 @@ Jag heter Nicklas Grandin och arbetar som verksamhetsarkitekt i svensk offentlig
 
 ## Kontakt
 
-Frågor och invändningar är välkomna. Skriv dem som [ärenden på GitHub](https://github.com/nickdin/gestaltadet-katalog/issues), så kan alla läsa svaret. Du kan också mejla [nicklas@gestaltadet.se](mailto:nicklas@gestaltadet.se).
+Frågor och invändningar är välkomna. Skriv dem som [ärenden på GitHub](https://github.com/nickdin/gestaltadet-katalog/issues), så kan alla läsa svaret. Du kan också mejla nicklas@gestaltadet.se.
 
 Ändringarna i katalogen gör jag själv. En invändning som håller blir en ändring.
