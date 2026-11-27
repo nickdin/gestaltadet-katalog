@@ -49,7 +49,7 @@ Frågorna avgjordes på fallet Analys hos Myndigheten för föreningsstöd.
 - **Funktionen heter Ta fram statistik.** Kartan och texten kallade den Analysfunktionen. Det namnet ligger för nära förmågan Analys. Funktionen är ett enda element, och ritningarna och texterna byter namn.
 - **Ta fram statistik är en verksamhetsfunktion (`C-158`).** Den är analytikernas löpande ansvar och har ingen bestämd början. Den rör inget enskilt ärende och är därför ingen handläggning (`C-160`).
 - **Funktionen rymmer processer.** Bidragsenhetens månadsräkning börjar vid månadsskiftet, följer samma steg och lämnas till generaldirektören. Den är en verksamhetsprocess (`C-130`) inuti funktionen. Beskrivningen av vem som utför arbetet visar både funktionen och processen.
-- **Riskindikator per förening blir två element.** Produkten (`C-014`) är det Analys lämnar till Tillsyn. Informationsobjektet (`C-060`) är innehållet, som chefen för Analysenheten äger.
+- **Riskindikator per förening blir tre element.** Produkten (`C-014`) är det Analys lämnar till Tillsyn. Produkten aggregerar (`C-100`) verksamhetsobjektet (`C-159`) med samma namn. Informationsobjektet (`C-060`) realiserar verksamhetsobjektet och är innehållet, som chefen för Analysenheten äger. Kedjan är den som beslut 16 bestämde.
 - **"Producera statistik" står kvar som exempel i Verksamhetsprocess (`C-130`).** Det är ett allmänt exempel på hur en process namnges. Typen bär skillnaden mellan process och funktion, inte namnet.
 
 ## Övervägda alternativ
@@ -66,6 +66,6 @@ Frågorna avgjordes på fallet Analys hos Myndigheten för föreningsstöd.
 - Ingen definition ändras, och inga begrepp tillkommer.
 - Lagret får element, relationer, beskrivningar, vyer och ritningar. Sajten visar dem bredvid begreppen.
 - Namnet Analysfunktionen byts mot Ta fram statistik i ritningarna, i texten om myndigheten och i texten om informationskartläggning.
-- Katalogen säger inte hur en produkt (`C-014`) binds till sitt innehåll. Produkten och informationsobjektet Riskindikator per förening står utan koppling tills den frågan är avgjord i ett eget ärende.
+- Produkten Riskindikator per förening binds till sitt innehåll genom verksamhetsobjektet, som beslut 16 säger. Frågan ställdes i ärende #223 och fick det svaret samma dag.
 - Startsidan behöver en väg in till exemplen. Det avsnittet skrivs i ett eget ärende.
 - Arbetet samlas i ärende #222, med ett ärende per fall.
